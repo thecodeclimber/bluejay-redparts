@@ -44,13 +44,13 @@ function BlockFinder() {
         <div className="block-finder__subtitle">
           <FormattedMessage id="TEXT_BLOCK_FINDER_SUBTITLE" />
         </div>
-        <form className="block-finder__form" onSubmit={onSubmit}>
+        {/* <form className="block-finder__form" onSubmit={onSubmit}>
           <VehicleSelect className="block-finder__select" onVehicleChange={setVehicle} />
 
           <button className="block-finder__button" type="submit">
             <FormattedMessage id="BUTTON_BLOCK_FINDER_SEARCH" />
           </button>
-        </form>
+        </form> */}
       </div>
     </div>
   );

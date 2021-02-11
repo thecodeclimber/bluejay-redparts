@@ -6,10 +6,10 @@
 
 
 // Change main theme color
-//$theme-scheme: (
-//    main:  #584d8c, // main theme color
-//    muted: #cdc8e5, // muted text color
-//);
+$theme-scheme: (
+   main:  #1E74DF, // main theme color
+   muted: #cdc8e5, // muted text color
+);
 
 // Change departments (menu / shop by category) button color
 //$departments-button-scheme-based-on: (
@@ -114,7 +114,7 @@
 
 
 //@import 'themes/theme-red/theme-variables';
-//@import 'themes/theme-blue/theme-variables';
+// @import 'themes/theme-blue/theme-variables';
 //@import 'themes/theme-green/theme-variables';
 //@import 'themes/theme-orange/theme-variables';
 //@import 'themes/theme-violet/theme-variables';
