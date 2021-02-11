@@ -14,44 +14,44 @@ import { useOptions } from '~/store/options/optionsHooks';
 interface Props extends PropsWithChildren<{}>{ }
 
 function Layout(props: Props) {
-    const { children } = props;
-    const { desktopHeaderLayout, desktopHeaderScheme, mobileHeaderVariant } = useOptions();
-    const desktopVariantClass = `${desktopHeaderLayout}-${desktopHeaderScheme}`;
-    const mobileVariantClass = `mobile-${mobileHeaderVariant}`;
+  const { children } = props;
+  const { desktopHeaderLayout, desktopHeaderScheme, mobileHeaderVariant } = useOptions();
+  const desktopVariantClass = `${desktopHeaderLayout}-${desktopHeaderScheme}`;
+  const mobileVariantClass = `mobile-${mobileHeaderVariant}`;
 
-    const classes = classNames(
-        'site',
-        `site--desktop-header--${desktopVariantClass}`,
-        `site--mobile-header--${mobileVariantClass}`,
-    );
+  const classes = classNames(
+    'site',
+    `site--desktop-header--${desktopVariantClass}`,
+    `site--mobile-header--${mobileVariantClass}`,
+  );
 
-    return (
-        <div className={classes}>
-            <ToastContainer autoClose={5000} hideProgressBar />
+  return (
+    <div className={classes}>
+      <ToastContainer autoClose={5000} hideProgressBar />
 
-            <div className="site__container">
-                <header className="site__mobile-header">
-                    <MobileHeader />
-                </header>
+      <div className="site__container">
+        <header className="site__mobile-header">
+          <MobileHeader />
+        </header>
 
-                <header className="site__header">
-                    <Header />
-                </header>
+        <header className="site__header">
+          <Header />
+        </header>
 
-                <div className="site__body">
-                    {children}
-                </div>
-
-                <footer className="site__footer">
-                    <Footer />
-                </footer>
-            </div>
-
-            <MobileMenu />
-
-            <Quickview />
+        <div className="site__body">
+          {children}
         </div>
-    );
+
+        <footer className="site__footer">
+          <Footer />
+        </footer>
+      </div>
+
+      <MobileMenu />
+
+      <Quickview />
+    </div>
+  );
 }
 
 export default Layout;
