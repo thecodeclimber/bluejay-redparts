@@ -17,83 +17,83 @@ interface Props {
 }
 
 function Topbar(props: Props) {
-    const { layout } = props;
-    const compare = useCompare();
-    const rootClasses = classNames('topbar', `topbar--${layout}`);
+  const { layout } = props;
+  const compare = useCompare();
+  const rootClasses = classNames('topbar', `topbar--${layout}`);
 
-    return (
-        <div className={rootClasses}>
-            {layout === 'spaceship-start' && (
-                <React.Fragment>
-                    <div className="topbar__item-text d-none d-xxl-flex">
-                        <FormattedMessage id="TEXT_TOPBAR_PHONE" values={{ phone: '(800) 060-0730' }} />
-                    </div>
-                    <div className="topbar__item-text">
-                        <AppLink href={url.pageAboutUs()} className="topbar__link">
-                            <FormattedMessage id="LINK_ABOUT_US" />
-                        </AppLink>
-                    </div>
-                    <div className="topbar__item-text">
-                        <AppLink href={url.pageContactUs()} className="topbar__link">
-                            <FormattedMessage id="LINK_CONTACTS" />
-                        </AppLink>
-                    </div>
-                    <div className="topbar__item-text">
-                        <AppLink href={url.trackOrder()} className="topbar__link">
-                            <FormattedMessage id="LINK_TRACK_ORDER" />
-                        </AppLink>
-                    </div>
-                </React.Fragment>
-            )}
-            {layout === 'classic' && (
-                <React.Fragment>
-                    <div className="topbar__item-text">
-                        <AppLink href={url.pageAboutUs()} className="topbar__link">
-                            <FormattedMessage id="LINK_ABOUT_US" />
-                        </AppLink>
-                    </div>
-                    <div className="topbar__item-text">
-                        <AppLink href={url.pageContactUs()} className="topbar__link">
-                            <FormattedMessage id="LINK_CONTACTS" />
-                        </AppLink>
-                    </div>
-                    <div className="topbar__item-text">
-                        <AppLink href={url.pageStoreLocation()} className="topbar__link">
-                            <FormattedMessage id="LINK_STORE_LOCATION" />
-                        </AppLink>
-                    </div>
-                    <div className="topbar__item-text">
-                        <AppLink href={url.trackOrder()} className="topbar__link">
-                            <FormattedMessage id="LINK_TRACK_ORDER" />
-                        </AppLink>
-                    </div>
-                    <div className="topbar__item-text">
-                        <AppLink href={url.blog()} className="topbar__link">
-                            <FormattedMessage id="LINK_BLOG" />
-                        </AppLink>
-                    </div>
-                    <div className="topbar__item-spring" />
-                </React.Fragment>
-            )}
-            {layout !== 'spaceship-start' && (
-                <React.Fragment>
-                    <div className="topbar__item-button">
-                        <AppLink href={url.compare()} className="topbar__button">
-                            <span className="topbar__button-label">
-                                <FormattedMessage id="TEXT_TOPBAR_COMPARE" />
-                                :
-                            </span>
-                            <span className="topbar__button-title">{compare.items.length}</span>
-                        </AppLink>
-                    </div>
+  return (
+    <div className={rootClasses}>
+      {layout === 'spaceship-start' && (
+        <React.Fragment>
+          <div className="topbar__item-text d-none d-xxl-flex">
+            <FormattedMessage id="TEXT_TOPBAR_PHONE" values={{ phone: '(800) 060-0730' }} />
+          </div>
+          <div className="topbar__item-text">
+            <AppLink href={url.pageAboutUs()} className="topbar__link">
+              <FormattedMessage id="LINK_ABOUT_US" />
+            </AppLink>
+          </div>
+          <div className="topbar__item-text">
+            <AppLink href={url.pageContactUs()} className="topbar__link">
+              <FormattedMessage id="LINK_CONTACTS" />
+            </AppLink>
+          </div>
+          <div className="topbar__item-text">
+            <AppLink href={url.trackOrder()} className="topbar__link">
+              <FormattedMessage id="LINK_TRACK_ORDER" />
+            </AppLink>
+          </div>
+        </React.Fragment>
+      )}
+      {layout === 'classic' && (
+        <React.Fragment>
+          <div className="topbar__item-text">
+            <AppLink href={url.pageAboutUs()} className="topbar__link">
+              <FormattedMessage id="LINK_ABOUT_US" />
+            </AppLink>
+          </div>
+          <div className="topbar__item-text">
+            <AppLink href={url.pageContactUs()} className="topbar__link">
+              <FormattedMessage id="LINK_CONTACTS" />
+            </AppLink>
+          </div>
+          <div className="topbar__item-text">
+            <AppLink href={url.pageStoreLocation()} className="topbar__link">
+              <FormattedMessage id="LINK_STORE_LOCATION" />
+            </AppLink>
+          </div>
+          <div className="topbar__item-text">
+            <AppLink href={url.trackOrder()} className="topbar__link">
+              <FormattedMessage id="LINK_TRACK_ORDER" />
+            </AppLink>
+          </div>
+          <div className="topbar__item-text">
+            <AppLink href={url.blog()} className="topbar__link">
+              <FormattedMessage id="LINK_BLOG" />
+            </AppLink>
+          </div>
+          <div className="topbar__item-spring" />
+        </React.Fragment>
+      )}
+      {layout !== 'spaceship-start' && (
+        <React.Fragment>
+          <div className="topbar__item-button">
+            <AppLink href={url.compare()} className="topbar__button">
+              <span className="topbar__button-label">
+                <FormattedMessage id="TEXT_TOPBAR_COMPARE" />
+                :
+              </span>
+              <span className="topbar__button-title">{compare.items.length}</span>
+            </AppLink>
+          </div>
 
-                    <DropdownCurrency />
+          <DropdownCurrency />
 
-                    <DropdownLanguage />
-                </React.Fragment>
-            )}
-        </div>
-    );
+          <DropdownLanguage />
+        </React.Fragment>
+      )}
+    </div>
+  );
 }
 
 export default Topbar;
