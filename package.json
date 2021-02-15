@@ -9,6 +9,8 @@
     "build-and-start": "next build && next start"
   },
   "dependencies": {
+    "@babel/cli": "^7.12.16",
+    "@babel/node": "^7.12.16",
     "@fortawesome/fontawesome-free": "^5.14.0",
     "bootstrap": "^4.5.0",
     "classnames": "^2.2.6",
@@ -36,6 +38,8 @@
     "styled-map": "^3.3.0"
   },
   "devDependencies": {
+    "@babel/plugin-transform-typescript": "^7.12.16",
+    "@babel/preset-typescript": "^7.12.16",
     "@types/classnames": "^2.2.10",
     "@types/node": "14.6.2",
     "@types/photoswipe": "^4.1.0",
