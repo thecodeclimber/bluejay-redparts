@@ -9,6 +9,7 @@ import VehicleSelect from '~/components/shared/VehicleSelect';
 import { baseUrl } from '~/services/utils';
 import { hrefToRouterArgs, useAppRouter } from '~/services/router';
 import { IVehicle } from '~/interfaces/vehicle';
+import Button from '../../styled-components/button';
 
 function BlockFinder() {
   const router = useAppRouter();
@@ -23,11 +24,11 @@ function BlockFinder() {
 
     router.push(
       ...hrefToRouterArgs(url.products({
-        filters: {
-          filter_vehicle: vehicle.id.toString(),
-        },
-      })),
-    ).then();
+          filters: {
+            filter_vehicle: vehicle.id.toString(),
+          },
+        })),
+      ).then();
   };
 
   return (
@@ -47,9 +48,9 @@ function BlockFinder() {
         <form className="block-finder__form" onSubmit={onSubmit}>
           <VehicleSelect className="block-finder__select" onVehicleChange={setVehicle} />
 
-          <button className="block-finder__button" type="submit">
+          <Button className="block-finder__button" type="submit">
             <FormattedMessage id="BUTTON_BLOCK_FINDER_SEARCH" />
-          </button>
+          </Button>
         </form>
       </div>
     </div>
