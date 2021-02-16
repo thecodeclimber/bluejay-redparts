@@ -1,8 +1,11 @@
 {
-    "presets": [
-        "next/babel"
-    ],
+    "presets": ["next/babel", "@babel/preset-typescript"],
     "plugins": [
-        "inline-react-svg"
+        "inline-react-svg",
+        "@babel/plugin-transform-typescript",
+        [
+            "babel-plugin-styled-components",
+            { "ssr": true }
+        ]
     ]
 }
