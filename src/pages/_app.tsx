@@ -7,6 +7,8 @@ import { NextComponentType, NextPageContext } from 'next';
 import { useStore } from 'react-redux';
 // application
 import config from '~/config';
+import Theme from '~/theme/Theme';
+import GlobalStyles from '~/theme/GlobalStyles';
 import LanguageProvider, { getLanguageInitialProps, ILanguageProviderProps } from '~/services/i18n/provider';
 import Layout from '~/components/Layout';
 import PageTitle from '~/components/shared/PageTitle';
@@ -73,11 +75,16 @@ function App(props: Props) {
     const PageLayout = Component.Layout || React.Fragment;
 
     return (
-      <Layout>
-        <PageLayout>
-          <Component {...pageProps} />
-        </PageLayout>
-      </Layout>
+      <React.Fragment>
+        <GlobalStyles />
+        <Theme>
+          <Layout>
+            <PageLayout>
+              <Component {...pageProps} />
+            </PageLayout>
+          </Layout>
+        </Theme>
+      </React.Fragment>
     );
   }, [Component, pageProps]);
 

@@ -10,9 +10,8 @@ import MobileHeader from '~/components/mobile/MobileHeader';
 import MobileMenu from '~/components/mobile/MobileMenu';
 import Quickview from '~/components/shared/Quickview';
 import { useOptions } from '~/store/options/optionsHooks';
-import Theme from './Theme';
 
-interface Props extends PropsWithChildren<{}> {}
+interface Props extends PropsWithChildren<{}>{ }
 
 function Layout(props: Props) {
   const { children } = props;
@@ -27,31 +26,29 @@ function Layout(props: Props) {
   );
 
   return (
-    <Theme>
-      <div className={classes}>
-        <ToastContainer autoClose={5000} hideProgressBar />
+    <div className={classes}>
+      <ToastContainer autoClose={5000} hideProgressBar />
 
-        <div className="site__container">
-          <header className="site__mobile-header">
-            <MobileHeader />
-          </header>
+      <div className="site__container">
+        <header className="site__mobile-header">
+          <MobileHeader />
+        </header>
 
-          <header className="site__header">
-            <Header />
-          </header>
+        <header className="site__header">
+          <Header />
+        </header>
 
-          <div className="site__body">{children}</div>
+        <div className="site__body">{children}</div>
 
-          <footer className="site__footer">
-            <Footer />
-          </footer>
-        </div>
-
-        <MobileMenu />
-
-        <Quickview />
+        <footer className="site__footer">
+          <Footer />
+        </footer>
       </div>
-    </Theme>
+
+      <MobileMenu />
+
+      <Quickview />
+    </div>
   );
 }
 
