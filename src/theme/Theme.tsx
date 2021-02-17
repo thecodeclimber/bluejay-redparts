@@ -1,10 +1,13 @@
-// react
-import React, { PropsWithChildren } from 'react';
-import { ThemeProvider, DefaultTheme } from 'styled-components';
+interface Theme {
+  colors: {
+    white: string;
+    black: string;
+    primary: string;
+    success: string;
+  }
+}
 
-interface Props extends PropsWithChildren<{}> {}
-
-const theme: DefaultTheme = {
+const theme: Theme = {
   colors: {
     white: '#FFFFFF',
     black: '#000000',
@@ -13,10 +16,4 @@ const theme: DefaultTheme = {
   },
 };
 
-const Theme = (props: Props) => {
-  const { children } = props;
-
-  return <ThemeProvider theme={theme}>{children}</ThemeProvider>;
-};
-
-export default Theme;
+export default theme;
