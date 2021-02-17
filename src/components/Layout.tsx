@@ -38,9 +38,7 @@ function Layout(props: Props) {
           <Header />
         </header>
 
-        <div className="site__body">
-          {children}
-        </div>
+        <div className="site__body">{children}</div>
 
         <footer className="site__footer">
           <Footer />
