@@ -24,6 +24,15 @@ import {
   Search20Svg,
 } from '~/svg';
 
+import { 
+  MobileContainer as Header,
+  MobileHeaderBody as Body,
+  MobileHeaderSearch as Search,
+  MobileHeaderLogo as Logo,
+  MobileHeaderMenuButton as MenuButton,
+  MobileHeaderIndicator as HeaderIndicator 
+} from '~/styled-components/mobile/MobileHeader';
+
 function MobileHeader() {
   const intl = useIntl();
   const mobileMenuOpen = useMobileMenuOpen();
@@ -91,7 +100,7 @@ function MobileHeader() {
     : intl.formatMessage({ id: 'INPUT_SEARCH_PLACEHOLDER' });
 
   return (
-    <div className="mobile-header">
+    <Header>
       <VehiclePickerModal
         value={vehicle}
         isOpen={vehiclePickerIsOpen}
@@ -100,18 +109,16 @@ function MobileHeader() {
       />
 
       <div className="container">
-        <div className="mobile-header__body">
-          <button
-            className="mobile-header__menu-button"
-            type="button"
-            onClick={mobileMenuOpen}
-          >
+        <Body>
+          <MenuButton onClick={mobileMenuOpen}>
             <Menu18x14Svg />
-          </button>
-          <AppLink href={url.home()} className="mobile-header__logo">
+          </MenuButton>
+
+          <Logo href={url.home()}>
             <MobileLogo />
-          </AppLink>
-          <div
+          </Logo>
+
+          <Search
             ref={searchFormRef}
             className={classNames('mobile-header__search mobile-search', {
               'mobile-header__search--open': searchIsOpen,
@@ -150,7 +157,7 @@ function MobileHeader() {
               </button>
               <div className="mobile-search__field" />
             </form>
-          </div>
+          </Search>
           <div className="mobile-header__indicators">
             <div className="mobile-indicator d-md-none" ref={searchIndicatorRef}>
               <button type="button" className="mobile-indicator__button" onClick={openSearch}>
@@ -178,7 +185,7 @@ function MobileHeader() {
                 </span>
               </AppLink>
             </div>
-            <div className="mobile-indicator">
+            <HeaderIndicator>
               <AppLink href={url.cart()} className="mobile-indicator__button">
                 <span className="mobile-indicator__icon">
                   <Cart20Svg />
@@ -189,11 +196,11 @@ function MobileHeader() {
                   )}
                 </span>
               </AppLink>
-            </div>
+            </HeaderIndicator>
           </div>
-        </div>
+        </Body>
       </div>
-    </div>
+    </Header>
   );
 }
 
