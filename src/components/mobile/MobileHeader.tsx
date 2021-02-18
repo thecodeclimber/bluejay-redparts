@@ -4,6 +4,13 @@ import React, { useRef, useState } from 'react';
 import classNames from 'classnames';
 import { FormattedMessage, useIntl } from 'react-intl';
 // application
+import {
+  MobileIndicator,
+  MobileIndicatorButton as IndicatorButton,
+  MobileIndicatorIcon as IndicatorIcon,
+  MobileIndicatorCounter as IndicatorCounter,
+} from '~/styled-components/mobile/MobileIndicator';
+
 import AppLink from '~/components/shared/AppLink';
 import MobileLogo from '~/components/mobile/MobileLogo';
 import url from '~/services/url';
@@ -152,44 +159,36 @@ function MobileHeader() {
             </form>
           </div>
           <div className="mobile-header__indicators">
-            <div className="mobile-indicator d-md-none" ref={searchIndicatorRef}>
-              <button type="button" className="mobile-indicator__button" onClick={openSearch}>
-                <span className="mobile-indicator__icon">
+            <MobileIndicator className="d-md-none" ref={searchIndicatorRef}>
+              <IndicatorButton type="button" onClick={openSearch}>
+                <IndicatorIcon>
                   <Search20Svg />
-                </span>
-              </button>
-            </div>
-            <div className="mobile-indicator d-none d-md-block">
-              <AppLink href={url.accountDashboard()} className="mobile-indicator__button">
-                <span className="mobile-indicator__icon">
+                </IndicatorIcon>
+              </IndicatorButton>
+            </MobileIndicator>
+            <MobileIndicator className="d-none d-md-block">
+              <IndicatorButton href={url.accountDashboard()}>
+                <IndicatorIcon>
                   <Person20Svg />
-                </span>
-              </AppLink>
-            </div>
-            <div className="mobile-indicator d-none d-md-block">
-              <AppLink href={url.wishlist()} className="mobile-indicator__button">
-                <span className="mobile-indicator__icon">
+                </IndicatorIcon>
+              </IndicatorButton>
+            </MobileIndicator>
+            <MobileIndicator className="d-none d-md-block">
+              <IndicatorButton href={url.wishlist()}>
+                <IndicatorIcon>
                   <Heart20Svg />
-                  {wishlist.items.length > 0 && (
-                    <span className="mobile-indicator__counter">
-                      {wishlist.items.length}
-                    </span>
-                  )}
-                </span>
-              </AppLink>
-            </div>
-            <div className="mobile-indicator">
-              <AppLink href={url.cart()} className="mobile-indicator__button">
-                <span className="mobile-indicator__icon">
+                  {wishlist.items.length > 0 && <IndicatorCounter>{wishlist.items.length}</IndicatorCounter>}
+                </IndicatorIcon>
+              </IndicatorButton>
+            </MobileIndicator>
+            <MobileIndicator>
+              <IndicatorButton href={url.cart()}>
+                <IndicatorIcon>
                   <Cart20Svg />
-                  {cart.quantity > 0 && (
-                    <span className="mobile-indicator__counter">
-                      {cart.quantity}
-                    </span>
-                  )}
-                </span>
-              </AppLink>
-            </div>
+                  {cart.quantity > 0 && <IndicatorCounter>{cart.quantity}</IndicatorCounter>}
+                </IndicatorIcon>
+              </IndicatorButton>
+            </MobileIndicator>
           </div>
         </div>
       </div>
