@@ -167,7 +167,7 @@ function MobileHeader() {
               </IndicatorButton>
             </MobileIndicator>
             <MobileIndicator className="d-none d-md-block">
-              <IndicatorButton href={url.accountDashboard()}>
+              <IndicatorButton>
                 <IndicatorIcon>
                   <Person20Svg />
                 </IndicatorIcon>
