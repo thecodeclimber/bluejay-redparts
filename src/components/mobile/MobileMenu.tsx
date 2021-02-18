@@ -6,7 +6,16 @@ import React, { useRef } from 'react';
 import classNames from 'classnames';
 import { FormattedMessage } from 'react-intl';
 // application
-import AppLink from '~/components/shared/AppLink';
+import {
+  MobileMenuStyledComponent as Menu,
+  MobileMenuBackdrop as Backdrop,
+  MobileMenuDivider as Divider,
+  MobileMenuClose as CloseButton,
+  MobileMenuContactsTitle as ContactsTitle,
+  MobileMenuContactsSubTitle as ContactsSubTitle,
+  MobileMenuSpring as Spring,
+  MobileMenuContacts as Contacts,
+} from '~/styled-components/mobile/MobileMenu';
 import MobileMenuConveyor, { IMobileMenuConveyorController } from '~/components/mobile/MobileMenuConveyor';
 import MobileMenuIndicators from '~/components/mobile/MobileMenuIndicators';
 import MobileMenuLinks from '~/components/mobile/MobileMenuLinks';
@@ -19,56 +28,56 @@ import { useMobileMenu, useMobileMenuClose } from '~/store/mobile-menu/mobileMen
 import dataMobileMenuLinks from '~/data/mobileMenuLinks';
 
 function MobileMenu() {
-    const mobileMenu = useMobileMenu();
-    const mobileMenuClose = useMobileMenuClose();
-    const bodyRef = useRef<HTMLDivElement>(null);
-    const conveyorRef = useRef<IMobileMenuConveyorController>(null);
+  const mobileMenu = useMobileMenu();
+  const mobileMenuClose = useMobileMenuClose();
+  const bodyRef = useRef<HTMLDivElement>(null);
+  const conveyorRef = useRef<IMobileMenuConveyorController>(null);
 
-    const rootClasses = classNames('mobile-menu', {
-        'mobile-menu--open': mobileMenu.open,
-    });
+  const rootClasses = classNames('', {
+    'mobile-menu--open': mobileMenu.open,
+  });
 
-    const onMenuClosed = () => {
-        if (conveyorRef.current) {
-            conveyorRef.current.reset();
-        }
-    };
+  const onMenuClosed = () => {
+    if (conveyorRef.current) {
+      conveyorRef.current.reset();
+    }
+  };
 
-    const onTransitionEnd = (event: React.TransitionEvent) => {
-        if (event.target === bodyRef.current && event.propertyName === 'transform' && !mobileMenu.open) {
-            onMenuClosed();
-        }
-    };
+  const onTransitionEnd = (event: React.TransitionEvent) => {
+    if (event.target === bodyRef.current && event.propertyName === 'transform' && !mobileMenu.open) {
+      onMenuClosed();
+    }
+  };
 
-    return (
-        <div className={rootClasses}>
-            <div className="mobile-menu__backdrop" onClick={mobileMenuClose} />
-            <div className="mobile-menu__body" ref={bodyRef} onTransitionEnd={onTransitionEnd}>
-                <button className="mobile-menu__close" type="button" onClick={mobileMenuClose}>
-                    <Cross12Svg />
-                </button>
+  return (
+    <Menu className={rootClasses}>
+      <Backdrop onClick={mobileMenuClose} />
+      <div className="mobile-menu__body" ref={bodyRef} onTransitionEnd={onTransitionEnd}>
+        <CloseButton type="button" onClick={mobileMenuClose}>
+          <Cross12Svg />
+        </CloseButton>
 
-                <MobileMenuConveyor controllerRef={conveyorRef}>
-                    <MobileMenuPanel label="Menu">
-                        <MobileMenuSettings />
-                        <div className="mobile-menu__divider" />
-                        <MobileMenuIndicators />
-                        <div className="mobile-menu__divider" />
-                        <MobileMenuLinks items={dataMobileMenuLinks} />
+        <MobileMenuConveyor controllerRef={conveyorRef}>
+          <MobileMenuPanel label="Menu">
+            <MobileMenuSettings />
+            <Divider />
+            <MobileMenuIndicators />
+            <Divider />
+            <MobileMenuLinks items={dataMobileMenuLinks} />
 
-                        <div className="mobile-menu__spring" />
-                        <div className="mobile-menu__divider" />
-                        <AppLink href={url.pageContactUs()} className="mobile-menu__contacts">
-                            <div className="mobile-menu__contacts-subtitle">
-                                <FormattedMessage id="TEXT_MOBILE_MENU_PHONE_TITLE" />
-                            </div>
-                            <div className="mobile-menu__contacts-title">800 060-0730</div>
-                        </AppLink>
-                    </MobileMenuPanel>
-                </MobileMenuConveyor>
-            </div>
-        </div>
-    );
+            <Spring />
+            <Divider />
+            <Contacts href={url.pageContactUs()}>
+              <ContactsSubTitle>
+                <FormattedMessage id="TEXT_MOBILE_MENU_PHONE_TITLE" />
+              </ContactsSubTitle>
+              <ContactsTitle>800 060-0730</ContactsTitle>
+            </Contacts>
+          </MobileMenuPanel>
+        </MobileMenuConveyor>
+      </div>
+    </Menu>
+  );
 }
 
 export default React.memo(MobileMenu);
