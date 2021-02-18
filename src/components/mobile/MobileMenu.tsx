@@ -15,6 +15,18 @@ import MobileMenuSettings from '~/components/mobile/MobileMenuSettings';
 import url from '~/services/url';
 import { Cross12Svg } from '~/svg';
 import { useMobileMenu, useMobileMenuClose } from '~/store/mobile-menu/mobileMenuHooks';
+import {
+    MobileMenuBase,
+    MobileMenuBackdrop,
+    MobileMenuBody,
+    MobileMenuDivider,
+    MobileMenuClose,
+    MobileMenuContactsTitle,
+    MobileMenuContactsSubTitle,
+    MobileMenuSpring,
+    MobileMenuContacts,
+  } from '~/styled-components/mobile/MobileMenu';
+
 // data
 import dataMobileMenuLinks from '~/data/mobileMenuLinks';
 
@@ -24,9 +36,11 @@ function MobileMenu() {
     const bodyRef = useRef<HTMLDivElement>(null);
     const conveyorRef = useRef<IMobileMenuConveyorController>(null);
 
-    const rootClasses = classNames('mobile-menu', {
-        'mobile-menu--open': mobileMenu.open,
-    });
+    // const rootClasses = classNames('mobile-menu', {
+    //     'mobile-menu--open': mobileMenu.open,
+    // });
+
+    const isMobileMenuOpen = mobileMenu.open
 
     const onMenuClosed = () => {
         if (conveyorRef.current) {
@@ -41,33 +55,33 @@ function MobileMenu() {
     };
 
     return (
-        <div className={rootClasses}>
-            <div className="mobile-menu__backdrop" onClick={mobileMenuClose} />
-            <div className="mobile-menu__body" ref={bodyRef} onTransitionEnd={onTransitionEnd}>
-                <button className="mobile-menu__close" type="button" onClick={mobileMenuClose}>
+        <MobileMenuBase isOpen={isMobileMenuOpen}>
+            <MobileMenuBackdrop onClick={mobileMenuClose} />
+            <MobileMenuBody ref={bodyRef} onTransitionEnd={onTransitionEnd}>
+                <MobileMenuClose type="button" onClick={mobileMenuClose}>
                     <Cross12Svg />
-                </button>
+                </MobileMenuClose>
 
                 <MobileMenuConveyor controllerRef={conveyorRef}>
                     <MobileMenuPanel label="Menu">
                         <MobileMenuSettings />
-                        <div className="mobile-menu__divider" />
+                        <MobileMenuDivider />
                         <MobileMenuIndicators />
-                        <div className="mobile-menu__divider" />
+                        <MobileMenuDivider />
                         <MobileMenuLinks items={dataMobileMenuLinks} />
 
-                        <div className="mobile-menu__spring" />
-                        <div className="mobile-menu__divider" />
-                        <AppLink href={url.pageContactUs()} className="mobile-menu__contacts">
-                            <div className="mobile-menu__contacts-subtitle">
+                        <MobileMenuSpring />
+                        <MobileMenuDivider />
+                        <MobileMenuContacts as={AppLink} href={url.pageContactUs()}>
+                            <MobileMenuContactsSubTitle>
                                 <FormattedMessage id="TEXT_MOBILE_MENU_PHONE_TITLE" />
-                            </div>
-                            <div className="mobile-menu__contacts-title">800 060-0730</div>
-                        </AppLink>
+                            </MobileMenuContactsSubTitle>
+                            <MobileMenuContactsTitle>800 060-0730</MobileMenuContactsTitle>
+                        </MobileMenuContacts>
                     </MobileMenuPanel>
                 </MobileMenuConveyor>
-            </div>
-        </div>
+            </MobileMenuBody>
+        </MobileMenuBase>
     );
 }
 
