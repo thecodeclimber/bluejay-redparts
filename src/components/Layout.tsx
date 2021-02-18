@@ -10,6 +10,13 @@ import MobileHeader from '~/components/mobile/MobileHeader';
 import MobileMenu from '~/components/mobile/MobileMenu';
 import Quickview from '~/components/shared/Quickview';
 import { useOptions } from '~/store/options/optionsHooks';
+import {
+  Site,
+  SiteBody,
+  SiteContainer,
+  SiteHeader,
+  SiteFooter,
+} from '~/styled-components/common';
 
 interface Props extends PropsWithChildren<{}>{ }
 
@@ -20,37 +27,34 @@ function Layout(props: Props) {
   const mobileVariantClass = `mobile-${mobileHeaderVariant}`;
 
   const classes = classNames(
-    'site',
     `site--desktop-header--${desktopVariantClass}`,
     `site--mobile-header--${mobileVariantClass}`,
   );
 
   return (
-    <div className={classes}>
+    <Site className={classes}>
       <ToastContainer autoClose={5000} hideProgressBar />
 
-      <div className="site__container">
-        <header className="site__mobile-header">
+      <SiteContainer>
+        <SiteHeader mobile>
           <MobileHeader />
-        </header>
+        </SiteHeader>
 
-        <header className="site__header">
+        <SiteHeader>
           <Header />
-        </header>
+        </SiteHeader>
 
-        <div className="site__body">
-          {children}
-        </div>
+        <SiteBody>{children}</SiteBody>
 
-        <footer className="site__footer">
+        <SiteFooter>
           <Footer />
-        </footer>
-      </div>
+        </SiteFooter>
+      </SiteContainer>
 
       <MobileMenu />
 
       <Quickview />
-    </div>
+    </Site>
   );
 }
 
