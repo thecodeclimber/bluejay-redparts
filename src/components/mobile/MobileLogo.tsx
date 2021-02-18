@@ -1,9 +1,10 @@
 // react
 import React from 'react';
+import MobileLogoContainer from '~/styled-components/mobile/MobileLogo';
 
 function MobileLogo() {
   return (
-    <div className="mobile-logo">
+    <MobileLogoContainer >
       {/* mobile-logo */}
       <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 1100 1100">
         <circle className="st0" cx="550" cy="550" r="489.28" />
@@ -20,7 +21,7 @@ function MobileLogo() {
         </g>
       </svg>
       {/* mobile-logo / end */}
-    </div>
+    </MobileLogoContainer>
   );
 }
 
