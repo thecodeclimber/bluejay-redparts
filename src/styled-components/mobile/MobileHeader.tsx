@@ -17,7 +17,7 @@ export const MobileHeaderBody = styled.div`
   display: flex;
 `;
 
-export const MobileHeaderIndicator = styled.div`
+export const MobileHeaderIndicators = styled.div`
   display: flex;
   margin-start: auto;
 `;

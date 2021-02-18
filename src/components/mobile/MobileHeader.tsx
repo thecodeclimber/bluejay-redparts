@@ -25,13 +25,20 @@ import {
 } from '~/svg';
 
 import { 
-  MobileContainer as Header,
-  MobileHeaderBody as Body,
-  MobileHeaderSearch as Search,
-  MobileHeaderLogo as Logo,
-  MobileHeaderMenuButton as MenuButton,
-  MobileHeaderIndicator as HeaderIndicator 
+  MobileContainer,
+  MobileHeaderBody,
+  MobileHeaderSearch,
+  MobileHeaderLogo,
+  MobileHeaderMenuButton,
+  MobileHeaderIndicators 
 } from '~/styled-components/mobile/MobileHeader';
+
+import { 
+  MobileIndicator,
+  MobileIndicatorButton,
+  MobileIndicatorCounter,
+  MobileIndicatorIcon
+} from '~/styled-components/mobile/MobileIndicator'
 
 function MobileHeader() {
   const intl = useIntl();
@@ -100,7 +107,7 @@ function MobileHeader() {
     : intl.formatMessage({ id: 'INPUT_SEARCH_PLACEHOLDER' });
 
   return (
-    <Header>
+    <MobileContainer>
       <VehiclePickerModal
         value={vehicle}
         isOpen={vehiclePickerIsOpen}
@@ -109,16 +116,16 @@ function MobileHeader() {
       />
 
       <div className="container">
-        <Body>
-          <MenuButton onClick={mobileMenuOpen}>
+        <MobileHeaderBody>
+          <MobileHeaderMenuButton onClick={mobileMenuOpen}>
             <Menu18x14Svg />
-          </MenuButton>
+          </MobileHeaderMenuButton>
 
-          <Logo href={url.home()}>
+          <MobileHeaderLogo href={url.home()}>
             <MobileLogo />
-          </Logo>
+          </MobileHeaderLogo>
 
-          <Search
+          <MobileHeaderSearch
             ref={searchFormRef}
             className={classNames('mobile-header__search mobile-search', {
               'mobile-header__search--open': searchIsOpen,
@@ -157,50 +164,50 @@ function MobileHeader() {
               </button>
               <div className="mobile-search__field" />
             </form>
-          </Search>
-          <div className="mobile-header__indicators">
-            <div className="mobile-indicator d-md-none" ref={searchIndicatorRef}>
-              <button type="button" className="mobile-indicator__button" onClick={openSearch}>
-                <span className="mobile-indicator__icon">
+          </MobileHeaderSearch>
+          <MobileHeaderIndicators>
+            <MobileIndicator className="d-md-none" ref={searchIndicatorRef}>  
+              <MobileIndicatorButton type="button" onClick={openSearch}>
+                <MobileIndicatorIcon>
                   <Search20Svg />
-                </span>
-              </button>
-            </div>
-            <div className="mobile-indicator d-none d-md-block">
-              <AppLink href={url.accountDashboard()} className="mobile-indicator__button">
-                <span className="mobile-indicator__icon">
+                </MobileIndicatorIcon>
+              </MobileIndicatorButton>
+            </MobileIndicator>
+            <MobileIndicator className="d-none d-md-block">
+              <MobileIndicatorButton as={AppLink} href={url.accountDashboard()}>
+                <MobileIndicatorCounter>
                   <Person20Svg />
-                </span>
-              </AppLink>
-            </div>
-            <div className="mobile-indicator d-none d-md-block">
-              <AppLink href={url.wishlist()} className="mobile-indicator__button">
-                <span className="mobile-indicator__icon">
+                </MobileIndicatorCounter>
+              </MobileIndicatorButton>
+            </MobileIndicator>
+            <MobileIndicator className="d-none d-md-block">
+              <MobileIndicatorButton as={AppLink} href={url.wishlist()}>
+                <MobileIndicatorIcon>
                   <Heart20Svg />
                   {wishlist.items.length > 0 && (
-                    <span className="mobile-indicator__counter">
+                    <MobileIndicatorCounter>
                       {wishlist.items.length}
-                    </span>
+                    </MobileIndicatorCounter>
                   )}
-                </span>
-              </AppLink>
-            </div>
-            <HeaderIndicator>
-              <AppLink href={url.cart()} className="mobile-indicator__button">
-                <span className="mobile-indicator__icon">
+                </MobileIndicatorIcon>
+              </MobileIndicatorButton>
+            </MobileIndicator>
+            <MobileIndicator>
+              <MobileIndicatorButton as={AppLink} href={url.cart()}>
+                <MobileIndicatorIcon>
                   <Cart20Svg />
                   {cart.quantity > 0 && (
                     <span className="mobile-indicator__counter">
                       {cart.quantity}
                     </span>
                   )}
-                </span>
-              </AppLink>
-            </HeaderIndicator>
-          </div>
-        </Body>
+                </MobileIndicatorIcon>
+              </MobileIndicatorButton>
+            </MobileIndicator>
+          </MobileHeaderIndicators>
+        </MobileHeaderBody>
       </div>
-    </Header>
+    </MobileContainer>
   );
 }
 
