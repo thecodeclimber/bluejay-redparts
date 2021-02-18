@@ -10,11 +10,13 @@ import MobileHeader from '~/components/mobile/MobileHeader';
 import MobileMenu from '~/components/mobile/MobileMenu';
 import Quickview from '~/components/shared/Quickview';
 import { useOptions } from '~/store/options/optionsHooks';
-import Site from '~/styled-components/common/Site';
-import SiteHeader from '~/styled-components/common/SiteHeader';
-import SiteContainer from '~/styled-components/common/SiteContainer';
-import SiteBody from '~/styled-components/common/SiteBody';
-import SiteFooter from '~/styled-components/common/SiteFooter';
+import {
+  Site,
+  SiteBody,
+  SiteContainer,
+  SiteHeader,
+  SiteFooter,
+} from '~/styled-components/common';
 
 interface Props extends PropsWithChildren<{}>{ }
 
