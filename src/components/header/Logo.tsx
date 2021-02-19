@@ -5,12 +5,13 @@ import { FormattedMessage } from 'react-intl';
 // application
 import AppLink from '~/components/shared/AppLink';
 import url from '~/services/url';
+import {HeaderLogo} from '~/styled-components/header/Header'
 
 interface Props extends React.HTMLAttributes<HTMLElement> {}
 
 function Logo(props: Props) {
   return (
-    <div {...props}>
+    <HeaderLogo {...props}>
       <AppLink href={url.home()} className="logo">
         <div className="logo__slogan">
           <FormattedMessage id="TEXT_SLOGAN" />
@@ -34,7 +35,7 @@ function Logo(props: Props) {
           {/* logo / end */}
         </div>
       </AppLink>
-    </div>
+    </HeaderLogo>
   );
 }
 

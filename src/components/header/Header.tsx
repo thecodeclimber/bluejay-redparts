@@ -4,7 +4,25 @@ import React, { useMemo, useRef } from 'react';
 import { FormattedMessage } from 'react-intl';
 // application
 import AccountMenu from '~/components/header/AccountMenu';
-import AppLink from '~/components/shared/AppLink';
+import {
+  HeaderStyledComponent,
+  HeaderSearch,
+  HeaderIndicator,
+  HeaderNavbar,
+  HeaderNavbarDepartments,
+  HeaderNavbarMenu,
+  HeaderNavbarPhone,
+  PhoneBody,
+  PhoneTitle,
+  PhoneNumber,
+  HeaderMegamenuArea,
+  HeaderTopbarClassic,
+  HeaderTopbarClassicBg,
+  HeaderTopbarSpaceshipStartBg,
+  HeaderTopbarSpaceshipStart,
+  HeaderTopbarSpaceshipEnd,
+  HeaderTopbarSpaceshipEndBg,
+} from '~/styled-components/header/Header';
 import CurrencyFormat from '~/components/shared/CurrencyFormat';
 import Departments from '~/components/header/Departments';
 import Dropcart from '~/components/header/Dropcart';
@@ -21,103 +39,104 @@ import { useUser } from '~/store/user/userHooks';
 import { useWishlist } from '~/store/wishlist/wishlistHooks';
 
 function Header() {
-    const user = useUser();
-    const wishlist = useWishlist();
-    const options = useOptions();
-    const desktopLayout = options.desktopHeaderLayout;
+  const user = useUser();
+  const wishlist = useWishlist();
+  const options = useOptions();
+  const desktopLayout = options.desktopHeaderLayout;
 
-    const departmentsLabel = useMemo(() => (
-        desktopLayout === 'spaceship'
-            ? <FormattedMessage id="BUTTON_DEPARTMENTS" />
-            : <FormattedMessage id="BUTTON_DEPARTMENTS_LONG" />
-    ), [desktopLayout]);
+  const departmentsLabel = useMemo(
+    () =>
+      desktopLayout === 'spaceship' ? (
+        <FormattedMessage id="BUTTON_DEPARTMENTS" />
+      ) : (
+        <FormattedMessage id="BUTTON_DEPARTMENTS_LONG" />
+      ),
+    [desktopLayout]
+  );
 
-    const accountIndicatorLabel = user ? user.email : <FormattedMessage id="TEXT_INDICATOR_ACCOUNT_LABEL" />;
-    const accountIndicatorValue = <FormattedMessage id="TEXT_INDICATOR_ACCOUNT_VALUE" />;
-    const accountIndicatorCtrl = useRef<IIndicatorController | null>(null);
+  const accountIndicatorLabel = user ? user.email : <FormattedMessage id="TEXT_INDICATOR_ACCOUNT_LABEL" />;
+  const accountIndicatorValue = <FormattedMessage id="TEXT_INDICATOR_ACCOUNT_VALUE" />;
+  const accountIndicatorCtrl = useRef<IIndicatorController | null>(null);
 
-    const cart = useCart();
-    const cartIndicatorLabel = <FormattedMessage id="TEXT_INDICATOR_CART_LABEL" />;
-    const cartIndicatorCtrl = useRef<IIndicatorController | null>(null);
+  const cart = useCart();
+  const cartIndicatorLabel = <FormattedMessage id="TEXT_INDICATOR_CART_LABEL" />;
+  const cartIndicatorCtrl = useRef<IIndicatorController | null>(null);
 
-    return (
-        <div className="header">
-            <div className="header__megamenu-area megamenu-area" />
-            {desktopLayout === 'spaceship' && (
-                <React.Fragment>
-                    <div className="header__topbar-start-bg" />
-                    <div className="header__topbar-start">
-                        <Topbar layout="spaceship-start" />
-                    </div>
-                    <div className="header__topbar-end-bg" />
-                    <div className="header__topbar-end">
-                        <Topbar layout="spaceship-end" />
-                    </div>
-                </React.Fragment>
-            )}
-            {desktopLayout === 'classic' && (
-                <React.Fragment>
-                    <div className="header__topbar-classic-bg" />
-                    <div className="header__topbar-classic">
-                        <Topbar layout="classic" />
-                    </div>
-                </React.Fragment>
-            )}
+  return (
+    <HeaderStyledComponent>
+      <HeaderMegamenuArea />
+      {desktopLayout === 'spaceship' && (
+        <React.Fragment>
+          <HeaderTopbarSpaceshipStartBg />
+          <HeaderTopbarSpaceshipStart>
+            <Topbar layout="spaceship-start" />
+          </HeaderTopbarSpaceshipStart>
+          <HeaderTopbarSpaceshipEndBg />
+          <HeaderTopbarSpaceshipEnd>
+            <Topbar layout="spaceship-end" />
+          </HeaderTopbarSpaceshipEnd>
+        </React.Fragment>
+      )}
+      {desktopLayout === 'classic' && (
+        <React.Fragment>
+          <HeaderTopbarClassicBg />
+          <HeaderTopbarClassic>
+            <Topbar layout="classic" />
+          </HeaderTopbarClassic>
+        </React.Fragment>
+      )}
 
-            <div className="header__navbar">
-                <div className="header__navbar-departments">
-                    <Departments label={departmentsLabel} />
-                </div>
-                <div className=" header__navbar-menu">
-                    <MainMenu />
-                </div>
-                {desktopLayout === 'classic' && (
-                    <div className="header__navbar-phone phone">
-                        <AppLink href={url.pageContactUs()} className="phone__body">
-                            <div className="phone__title">
-                                <FormattedMessage id="TEXT_CALL_US" />
-                            </div>
-                            <div className="phone__number">800 060-0730</div>
-                        </AppLink>
-                    </div>
-                )}
-            </div>
-            <Logo className="header__logo" />
-            <div className="header__search">
-                <Search />
-            </div>
-            <div className="header__indicators">
-                <Indicator
-                    href={url.wishlist()}
-                    icon={<Heart32Svg />}
-                    counter={wishlist.items.length}
-                />
+      <HeaderNavbar>
+        <HeaderNavbarDepartments>
+          <Departments label={departmentsLabel} />
+        </HeaderNavbarDepartments>
+        <HeaderNavbarMenu>
+          <MainMenu />
+        </HeaderNavbarMenu>
+        {desktopLayout === 'classic' && (
+          <HeaderNavbarPhone>
+            <PhoneBody href={url.pageContactUs()}>
+              <PhoneTitle>
+                <FormattedMessage id="TEXT_CALL_US" />
+              </PhoneTitle>
+              <PhoneNumber>800 060-0730</PhoneNumber>
+            </PhoneBody>
+          </HeaderNavbarPhone>
+        )}
+      </HeaderNavbar>
 
-                <Indicator
-                    href={url.accountDashboard()}
-                    icon={<Person32Svg />}
-                    label={accountIndicatorLabel}
-                    value={accountIndicatorValue}
-                    trigger="click"
-                    controllerRef={accountIndicatorCtrl}
-                >
-                    <AccountMenu onCloseMenu={() => accountIndicatorCtrl.current?.close()} />
-                </Indicator>
+      <Logo />
+      <HeaderSearch>
+        <Search />
+      </HeaderSearch>
+      <HeaderIndicator>
+        <Indicator href={url.wishlist()} icon={<Heart32Svg />} counter={wishlist.items.length} />
 
-                <Indicator
-                    href={url.cart()}
-                    icon={<Cart32Svg />}
-                    label={cartIndicatorLabel}
-                    value={<CurrencyFormat value={cart.total} />}
-                    counter={cart.quantity}
-                    trigger="click"
-                    controllerRef={cartIndicatorCtrl}
-                >
-                    <Dropcart onCloseMenu={() => cartIndicatorCtrl.current?.close()} />
-                </Indicator>
-            </div>
-        </div>
-    );
+        <Indicator
+          href={url.accountDashboard()}
+          icon={<Person32Svg />}
+          label={accountIndicatorLabel}
+          value={accountIndicatorValue}
+          trigger="click"
+          controllerRef={accountIndicatorCtrl}
+        >
+          <AccountMenu onCloseMenu={() => accountIndicatorCtrl.current?.close()} />
+        </Indicator>
+
+        <Indicator
+          href={url.cart()}
+          icon={<Cart32Svg />}
+          label={cartIndicatorLabel}
+          value={<CurrencyFormat value={cart.total} />}
+          counter={cart.quantity}
+          trigger="click"
+          controllerRef={cartIndicatorCtrl}
+        >
+          <Dropcart onCloseMenu={() => cartIndicatorCtrl.current?.close()} />
+        </Indicator>
+      </HeaderIndicator>
+    </HeaderStyledComponent>
+  );
 }
 
 export default React.memo(Header);
