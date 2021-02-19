@@ -13,7 +13,7 @@ export const MobileIndicatorButton = styled.a`
     height: 50px;
     width: 44px;
     color: inherit;
-    background: transparent;Î
+    background: transparent;
     border: none;
 
     &:focus {
@@ -67,8 +67,5 @@ export const MobileIndicatorIcon = styled.span`
 
   svg {
     display: block;
-    @include direction {
-      transform: scaleX($transform-direction);
-    }
   }
 `;
