@@ -2,19 +2,21 @@ import styled, { css } from 'styled-components';
 
 export const MobileMenuBase = styled.div`
   visibility: hidden;
-  transition: visibility 0s 0.25s;
+  transition: translateX(0) 0s 0.25s;
 
-  ${props => props.isOpen && css`
+  ${(props: { isOpen?: boolean }) =>
+    props.isOpen &&
+    css`
       visibility: visible;
-      transition-delay: 0s;
+      transition-duration: 0s;
 
       ${MobileMenuBackdrop} {
-          opacity: 1;
+        opacity: 1;
       }
       ${MobileMenuBody} {
-          transform: translateX(0);
+        transform: translateX(0);
       }
-  `}
+    `}
 `;
 
 export const MobileMenuBackdrop = styled.div`
@@ -25,7 +27,7 @@ export const MobileMenuBackdrop = styled.div`
   bottom: 0;
   z-index: 1000;
   background-color: rgba(51, 51, 51, 0.8);
-  opacity: 1;
+  opacity: 0;
   will-change: opacity;
   transition: opacity 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 `;
@@ -35,11 +37,10 @@ export const MobileMenuBody = styled.div`
   top: 0;
   bottom: 0;
   z-index: 1000;
-  background: map_get($card-scheme, main);
   width: 300px;
-  transition: transform 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  will-change: transform;
   overflow: hidden;
+  transform: translateX(-100%);
+  transition: transform 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 `;
 
 export const MobileMenuClose = styled.button`
@@ -62,22 +63,18 @@ export const MobileMenuClose = styled.button`
     background-color: #fff;
     color: #ccc;
     cursor: pointer
+
     &:hover {
-        background: #ebebeb;
-        color: #4d4d4d;
+      background-color: #ebebeb;
+      color: #4d4d4d;
     }
     &:active{
         background-color: #ebebeb;
         color: #4d4d4d;
-    &::before{
-        box-sizing: border-box;
-    }
-    &::after{
-        box-sizing: border-box;
     }
     &:focus {
-        outline: none;
-    }
+      outline: none;
+    }   
 `;
 
 export const MobileMenuDivider = styled.div`
