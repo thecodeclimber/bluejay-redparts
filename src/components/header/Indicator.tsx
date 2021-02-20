@@ -9,6 +9,7 @@ import React, {
 import classNames from 'classnames';
 // application
 import AppLink, { IAppLinkHref } from '~/components/shared/AppLink';
+import {IndicatorButton,IndicatorIcon,IndicatorCounter} from '~/styled-components/header/Indicator';
 import { useGlobalMousedown } from '~/services/hooks';
 
 type Trigger = 'none' | 'click' | 'hover';
@@ -69,10 +70,10 @@ function Indicator(props: Props) {
 
     const buttonContent = (
         <React.Fragment>
-            <span className="indicator__icon">
+            <IndicatorIcon>
                 {icon}
                 {showCounter && <span className="indicator__counter">{counter}</span>}
-            </span>
+            </IndicatorIcon>
 
             {hasLabel && <span className="indicator__title">{label}</span>}
             {hasValue && <span className="indicator__value">{value}</span>}
@@ -86,9 +87,9 @@ function Indicator(props: Props) {
     return (
         <div className={rootClasses} ref={rootRef}>
             {buttonType === 'button' && (
-                <button className="indicator__button" type="button" onClick={handleButtonClick}>
+                <IndicatorButton type="button" onClick={handleButtonClick}>
                     {buttonContent}
-                </button>
+                </IndicatorButton>
             )}
             {buttonType === 'link' && (
                 <AppLink href={href} className="indicator__button" onClick={handleButtonClick}>
