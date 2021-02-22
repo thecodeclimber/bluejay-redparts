@@ -14,7 +14,7 @@ import { getDefaultLocale } from '~/services/i18n/utils';
 import { useLocale } from '~/services/i18n/hooks';
 import { baseUrl } from '~/services/utils';
 
-export type IAppLinkHref = string | LinkProps;
+export type IAppLinkHref = any | LinkProps;
 
 type INormalizedUrlObject = Omit<UrlObject, 'query'> & {
     query: ParsedUrlQueryInput;

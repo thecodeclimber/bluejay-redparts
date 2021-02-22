@@ -94,6 +94,7 @@ function Header() {
                 />
 
                 <Indicator
+                    href={url.accountDashboard()}
                     icon={<Person32Svg />}
                     label={accountIndicatorLabel}
                     value={accountIndicatorValue}

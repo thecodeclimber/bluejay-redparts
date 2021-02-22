@@ -20,7 +20,7 @@ export interface IIndicatorController {
 
 interface Props extends PropsWithChildren<{}> {
   icon: React.ReactNode;
-  href?: string;
+  href?: any;
   label?: React.ReactNode;
   value?: React.ReactNode;
   counter?: number;
