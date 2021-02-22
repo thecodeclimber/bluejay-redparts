@@ -20,7 +20,7 @@ export interface IIndicatorController {
 
 interface Props extends PropsWithChildren<{}> {
   icon: React.ReactNode;
-  href?: string;
+  href?: any;
   label?: React.ReactNode;
   value?: React.ReactNode;
   counter?: number;
@@ -29,6 +29,7 @@ interface Props extends PropsWithChildren<{}> {
 }
 
 function Indicator(props: Props) {
+
   const { icon, href, label, value, counter, trigger = 'none', children, controllerRef } = props;
   const hasLabel = label !== undefined && label !== null;
   const hasValue = value !== undefined && value !== null;
@@ -78,7 +79,7 @@ function Indicator(props: Props) {
   );
 
   return (
-    <IndicatorStyledComponent ref={rootRef}>
+    <IndicatorStyledComponent>
       {buttonType === 'button' && (
         <IndicatorButton as="button" type="button" onClick={handleButtonClick}>
           {buttonContent}
