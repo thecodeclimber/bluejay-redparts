@@ -17,6 +17,7 @@ import url from '~/services/url';
 import { shopApi, blogApi } from '~/api';
 import { useDeferredData, useProductColumns, useProductTabs } from '~/services/hooks';
 
+
 function Page() {
   const intl = useIntl();
 
