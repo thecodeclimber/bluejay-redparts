@@ -5,7 +5,6 @@ const textColor = css`
 `;
 export const IndicatorStyledComponent = styled.div`
   position: relative;
-  ${(props: { ref?: any }) => props.ref && css``}
 `;
 
 export const IndicatorContentOpen = styled.div`
