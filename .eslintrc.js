@@ -3,7 +3,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    node: true
+    node: true,
   },
   extends: [
     'airbnb',
@@ -14,14 +14,8 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
-    'plugin:prettier/react',
-    'plugin:prettier/@typescript-eslint',
   ],
-  plugins: [
-    "@typescript-eslint",
-    "react",
-    "prettier"
-  ],
+  plugins: ['@typescript-eslint', 'react'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
@@ -36,10 +30,10 @@ module.exports = {
     },
   },
   globals: {
-    React: "writable"
+    React: 'writable',
   },
   rules: {
-    "react/prop-types": "off",
-    "react/react-in-jsx-scope": "off"
+    'react/prop-types': 'off',
+    'react/react-in-jsx-scope': 'off',
   },
 };
