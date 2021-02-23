@@ -20,7 +20,7 @@ export const IndicatorContentOpen = styled.div`
 `;
 
 export const IndicatorButton = styled.button`
-  ${(props: { href?: string }) =>
+  ${(props: { href?: any }) =>
     props.href &&
     css`
       ${textColor}

@@ -11,6 +11,7 @@ import {
   IndicatorStyledComponent,
 } from '~/styled-components/header/Indicator';
 import { useGlobalMousedown } from '~/services/hooks';
+import { LinkProps } from 'next/link';
 
 type Trigger = 'none' | 'click' | 'hover';
 
@@ -20,7 +21,7 @@ export interface IIndicatorController {
 
 interface Props extends PropsWithChildren<{}> {
   icon: React.ReactNode;
-  href?: string;
+  href?: string | LinkProps;
   label?: React.ReactNode;
   value?: React.ReactNode;
   counter?: number;
