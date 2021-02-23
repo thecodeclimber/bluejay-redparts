@@ -10,7 +10,6 @@ import {
   IndicatorContentOpen,
   IndicatorStyledComponent,
 } from '~/styled-components/header/Indicator';
-import { IAppLinkHref } from '~/components/shared/AppLink';
 import { useGlobalMousedown } from '~/services/hooks';
 
 type Trigger = 'none' | 'click' | 'hover';
@@ -21,7 +20,7 @@ export interface IIndicatorController {
 
 interface Props extends PropsWithChildren<{}> {
   icon: React.ReactNode;
-  href?: IAppLinkHref;
+  href?: any;
   label?: React.ReactNode;
   value?: React.ReactNode;
   counter?: number;
