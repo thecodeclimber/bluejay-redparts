@@ -59,7 +59,7 @@ const url = {
     passwordRecovery: () => '/',
 
     // account pages
-    accountDashboard: (): IAppLinkHref => '/account/dashboard',
+    accountDashboard: (): string => '/account/dashboard',
     accountGarage: () => '/account/garage',
     accountProfile: () => '/account/profile',
     accountPassword: () => '/account/password',
