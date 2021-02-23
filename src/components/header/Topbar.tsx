@@ -1,23 +1,24 @@
 // react
-import React from 'react';
+import React from "react";
 // third-party
-import classNames from 'classnames';
-import { FormattedMessage } from 'react-intl';
+import classNames from "classnames";
+import { FormattedMessage } from "react-intl";
 // application
 import {
+  TopbarStyledComponent,
   TopbarItemText,
   TopbarLink,
   TopbarItemSpring,
   TopbarButtonLabel,
   TopbarItemTitle,
-} from '~/styled-components/header/Topbar';
-import AppLink from '~/components/shared/AppLink';
-import DropdownCurrency from '~/components/header/DropdownCurrency';
-import DropdownLanguage from '~/components/header/DropdownLanguage';
-import url from '~/services/url';
-import { useCompare } from '~/store/compare/compareHooks';
+} from "~/styled-components/header/Topbar";
+import AppLink from "~/components/shared/AppLink";
+import DropdownCurrency from "~/components/header/DropdownCurrency";
+import DropdownLanguage from "~/components/header/DropdownLanguage";
+import url from "~/services/url";
+import { useCompare } from "~/store/compare/compareHooks";
 
-type Layout = 'spaceship-start' | 'spaceship-end' | 'classic';
+type Layout = "spaceship-start" | "spaceship-end" | "classic";
 
 interface Props {
   layout: Layout;
@@ -25,34 +26,36 @@ interface Props {
 
 function Topbar(props: Props) {
   const { layout } = props;
+  console.log(layout)
   const compare = useCompare();
-  const rootClasses = classNames('topbar', `topbar--${layout}`);
+
+  const rootClasses = classNames( `topbar--spaceship-end`);
 
   return (
-    <div className={rootClasses}>
-      {layout === 'spaceship-start' && (
+    <TopbarStyledComponent className={rootClasses}>
+      {layout === "spaceship-start" && (
         <React.Fragment>
-          <div className="topbar__item-text d-none d-xxl-flex">
-            <FormattedMessage id="TEXT_TOPBAR_PHONE" values={{ phone: '(800) 060-0730' }} />
-          </div>
-          <div className="topbar__item-text">
-            <AppLink href={url.pageAboutUs()} className="topbar__link">
+          <TopbarItemText className="d-none d-xxl-flex">
+            <FormattedMessage id="TEXT_TOPBAR_PHONE" values={{ phone: "(800) 060-0730" }} />
+          </TopbarItemText>
+          <TopbarItemText>
+            <TopbarLink as="a" href={url.pageAboutUs()}>
               <FormattedMessage id="LINK_ABOUT_US" />
-            </AppLink>
-          </div>
-          <div className="topbar__item-text">
-            <AppLink href={url.pageContactUs()} className="topbar__link">
+            </TopbarLink>
+          </TopbarItemText>
+          <TopbarItemText>
+            <TopbarLink as="a" href={url.pageContactUs()}>
               <FormattedMessage id="LINK_CONTACTS" />
-            </AppLink>
-          </div>
-          <div className="topbar__item-text">
-            <AppLink href={url.trackOrder()} className="topbar__link">
+            </TopbarLink>
+          </TopbarItemText>
+          <TopbarItemText>
+            <TopbarLink as="a" href={url.trackOrder()}>
               <FormattedMessage id="LINK_TRACK_ORDER" />
-            </AppLink>
-          </div>
+            </TopbarLink>
+          </TopbarItemText>
         </React.Fragment>
       )}
-      {layout === 'classic' && (
+      {layout === "classic" && (
         <React.Fragment>
           <TopbarItemText>
             <TopbarLink as="a" href={url.pageAboutUs()}>
@@ -82,7 +85,7 @@ function Topbar(props: Props) {
           <TopbarItemSpring />
         </React.Fragment>
       )}
-      {layout !== 'spaceship-start' && (
+      {layout !== "spaceship-start" && (
         <React.Fragment>
           <TopbarItemText>
             <TopbarLink as="a" href={url.compare()}>
@@ -98,7 +101,7 @@ function Topbar(props: Props) {
           <DropdownLanguage />
         </React.Fragment>
       )}
-    </div>
+    </TopbarStyledComponent>
   );
 }
 

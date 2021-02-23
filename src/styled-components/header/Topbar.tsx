@@ -1,7 +1,14 @@
-import styled, { css } from 'styled-components';
+import styled, { css } from "styled-components";
 
 const TextColor = css`
   color: #fff;
+`;
+
+export const TopbarStyledComponent = styled.div`
+  display: flex;
+  height: 100%;
+  font-size: 14px;
+  line-height: 1;
 `;
 
 export const TopbarItemText = styled.div`
@@ -25,7 +32,7 @@ export const TopbarButtonLabel = styled.div`
 `;
 
 export const TopbarItemTitle = styled.div`
-  ${TopbarItemText}
+  ${TextColor}
 `;
 
 export const TopbarLink = styled.div`
