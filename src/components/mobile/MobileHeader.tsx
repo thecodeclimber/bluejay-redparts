@@ -14,23 +14,15 @@ import { useGarageCurrent, useGarageSetCurrent } from '~/store/garage/garageHook
 import { useGlobalMousedown } from '~/services/hooks';
 import { useMobileMenuOpen } from '~/store/mobile-menu/mobileMenuHooks';
 import { useWishlist } from '~/store/wishlist/wishlistHooks';
-import {
-  Car20Svg,
-  Cart20Svg,
-  Cross20Svg,
-  Heart20Svg,
-  Menu18x14Svg,
-  Person20Svg,
-  Search20Svg,
-} from '~/svg';
+import { Car20Svg, Cart20Svg, Cross20Svg, Heart20Svg, Menu18x14Svg, Person20Svg, Search20Svg } from '~/svg';
 
-import { 
+import {
   MobileContainer as Header,
   MobileHeaderBody as Body,
   MobileHeaderSearch as Search,
   MobileHeaderLogo as Logo,
   MobileHeaderMenuButton as MenuButton,
-  MobileHeaderIndicator as HeaderIndicator 
+  MobileHeaderIndicator as HeaderIndicator,
 } from '~/styled-components/mobile/MobileHeader';
 
 function MobileHeader() {
@@ -78,22 +70,20 @@ function MobileHeader() {
     event.preventDefault();
   };
 
-  useGlobalMousedown((event) => {
-    const outsideIndicator = (
-      searchIndicatorRef.current
-            && !searchIndicatorRef.current.contains(event.target as HTMLElement)
-    );
-    const outsideForm = (
-      searchFormRef.current
-            && !searchFormRef.current.contains(event.target as HTMLElement)
-    );
+  useGlobalMousedown(
+    (event) => {
+      const outsideIndicator =
+        searchIndicatorRef.current && !searchIndicatorRef.current.contains(event.target as HTMLElement);
+      const outsideForm = searchFormRef.current && !searchFormRef.current.contains(event.target as HTMLElement);
 
-    if (outsideIndicator && outsideForm) {
-      if (searchIsOpen && !vehiclePickerIsOpen) {
-        closeSearch();
+      if (outsideIndicator && outsideForm) {
+        if (searchIsOpen && !vehiclePickerIsOpen) {
+          closeSearch();
+        }
       }
-    }
-  }, [searchFormRef, searchIndicatorRef, searchIsOpen, vehiclePickerIsOpen]);
+    },
+    [searchFormRef, searchIndicatorRef, searchIsOpen, vehiclePickerIsOpen]
+  );
 
   const searchPlaceholder = vehicle
     ? intl.formatMessage({ id: 'INPUT_SEARCH_PLACEHOLDER_VEHICLE' }, vehicle)
@@ -135,11 +125,7 @@ function MobileHeader() {
                 className="mobile-search__input"
                 placeholder={searchPlaceholder}
               />
-              <button
-                type="button"
-                className="mobile-search__vehicle-picker"
-                onClick={openVehiclePicker}
-              >
+              <button type="button" className="mobile-search__vehicle-picker" onClick={openVehiclePicker}>
                 <Car20Svg />
                 <span className="mobile-search__vehicle-picker-label">
                   <FormattedMessage id="BUTTON_SEARCH_SELECT_VEHICLE_MOBILE" />
@@ -178,9 +164,7 @@ function MobileHeader() {
                 <span className="mobile-indicator__icon">
                   <Heart20Svg />
                   {wishlist.items.length > 0 && (
-                    <span className="mobile-indicator__counter">
-                      {wishlist.items.length}
-                    </span>
+                    <span className="mobile-indicator__counter">{wishlist.items.length}</span>
                   )}
                 </span>
               </AppLink>
@@ -189,11 +173,7 @@ function MobileHeader() {
               <AppLink href={url.cart()} className="mobile-indicator__button">
                 <span className="mobile-indicator__icon">
                   <Cart20Svg />
-                  {cart.quantity > 0 && (
-                    <span className="mobile-indicator__counter">
-                      {cart.quantity}
-                    </span>
-                  )}
+                  {cart.quantity > 0 && <span className="mobile-indicator__counter">{cart.quantity}</span>}
                 </span>
               </AppLink>
             </HeaderIndicator>
