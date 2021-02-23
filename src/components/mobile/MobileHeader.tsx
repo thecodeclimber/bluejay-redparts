@@ -10,11 +10,22 @@ import url from '~/services/url';
 import VehiclePickerModal from '~/components/shared/VehiclePickerModal';
 import { IVehicle } from '~/interfaces/vehicle';
 import { useCart } from '~/store/cart/cartHooks';
-import { useGarageCurrent, useGarageSetCurrent } from '~/store/garage/garageHooks';
+import {
+  useGarageCurrent,
+  useGarageSetCurrent,
+} from '~/store/garage/garageHooks';
 import { useGlobalMousedown } from '~/services/hooks';
 import { useMobileMenuOpen } from '~/store/mobile-menu/mobileMenuHooks';
 import { useWishlist } from '~/store/wishlist/wishlistHooks';
-import { Car20Svg, Cart20Svg, Cross20Svg, Heart20Svg, Menu18x14Svg, Person20Svg, Search20Svg } from '~/svg';
+import {
+  Car20Svg,
+  Cart20Svg,
+  Cross20Svg,
+  Heart20Svg,
+  Menu18x14Svg,
+  Person20Svg,
+  Search20Svg,
+} from '~/svg';
 
 import {
   MobileContainer as Header,
@@ -24,6 +35,13 @@ import {
   MobileHeaderMenuButton as MenuButton,
   MobileHeaderIndicator as HeaderIndicator,
 } from '~/styled-components/mobile/MobileHeader';
+
+import {
+  MobileSearchVehiclePicker as SearchVehiclePicker,
+  MobileSearchButton as SearchButton,
+  MobileSearchBody as SearchBody,
+  MobileSearchInput as SearchInput,
+} from '~/styled-components/mobile/MobileSearch';
 
 function MobileHeader() {
   const intl = useIntl();
@@ -73,8 +91,11 @@ function MobileHeader() {
   useGlobalMousedown(
     (event) => {
       const outsideIndicator =
-        searchIndicatorRef.current && !searchIndicatorRef.current.contains(event.target as HTMLElement);
-      const outsideForm = searchFormRef.current && !searchFormRef.current.contains(event.target as HTMLElement);
+        searchIndicatorRef.current &&
+        !searchIndicatorRef.current.contains(event.target as HTMLElement);
+      const outsideForm =
+        searchFormRef.current &&
+        !searchFormRef.current.contains(event.target as HTMLElement);
 
       if (outsideIndicator && outsideForm) {
         if (searchIsOpen && !vehiclePickerIsOpen) {
@@ -114,57 +135,76 @@ function MobileHeader() {
               'mobile-header__search--open': searchIsOpen,
             })}
           >
-            <form className="mobile-search__body" onSubmit={onSearchSubmit}>
+            <SearchBody onSubmit={onSearchSubmit}>
               <label className="sr-only" htmlFor="mobile-site-search">
                 <FormattedMessage id="INPUT_SEARCH_LABEL" />
               </label>
-              <input
+              <SearchInput
                 ref={searchInputRef}
                 type="text"
                 id="mobile-site-search"
-                className="mobile-search__input"
                 placeholder={searchPlaceholder}
               />
-              <button type="button" className="mobile-search__vehicle-picker" onClick={openVehiclePicker}>
+
+              <SearchVehiclePicker type="button" onClick={openVehiclePicker}>
                 <Car20Svg />
                 <span className="mobile-search__vehicle-picker-label">
                   <FormattedMessage id="BUTTON_SEARCH_SELECT_VEHICLE_MOBILE" />
                 </span>
-              </button>
-              <button type="submit" className="mobile-search__button mobile-search__button--search">
+              </SearchVehiclePicker>
+
+              <SearchButton
+                type="submit"
+                className=" mobile-search__button--search"
+              >
                 <Search20Svg />
-              </button>
-              <button
+              </SearchButton>
+
+              <SearchButton
                 type="button"
-                className="mobile-search__button mobile-search__button--close"
+                className=" mobile-search__button--close"
                 onClick={closeSearch}
               >
                 <Cross20Svg />
-              </button>
-              <div className="mobile-search__field" />
-            </form>
+              </SearchButton>
+            </SearchBody>
           </Search>
           <div className="mobile-header__indicators">
-            <div className="mobile-indicator d-md-none" ref={searchIndicatorRef}>
-              <button type="button" className="mobile-indicator__button" onClick={openSearch}>
+            <div
+              className="mobile-indicator d-md-none"
+              ref={searchIndicatorRef}
+            >
+              <button
+                type="button"
+                className="mobile-indicator__button"
+                onClick={openSearch}
+              >
                 <span className="mobile-indicator__icon">
                   <Search20Svg />
                 </span>
               </button>
             </div>
             <div className="mobile-indicator d-none d-md-block">
-              <AppLink href={url.accountDashboard()} className="mobile-indicator__button">
+              <AppLink
+                href={url.accountDashboard()}
+                className="mobile-indicator__button"
+              >
                 <span className="mobile-indicator__icon">
                   <Person20Svg />
                 </span>
               </AppLink>
             </div>
             <div className="mobile-indicator d-none d-md-block">
-              <AppLink href={url.wishlist()} className="mobile-indicator__button">
+              <AppLink
+                href={url.wishlist()}
+                className="mobile-indicator__button"
+              >
                 <span className="mobile-indicator__icon">
                   <Heart20Svg />
                   {wishlist.items.length > 0 && (
-                    <span className="mobile-indicator__counter">{wishlist.items.length}</span>
+                    <span className="mobile-indicator__counter">
+                      {wishlist.items.length}
+                    </span>
                   )}
                 </span>
               </AppLink>
@@ -173,7 +213,11 @@ function MobileHeader() {
               <AppLink href={url.cart()} className="mobile-indicator__button">
                 <span className="mobile-indicator__icon">
                   <Cart20Svg />
-                  {cart.quantity > 0 && <span className="mobile-indicator__counter">{cart.quantity}</span>}
+                  {cart.quantity > 0 && (
+                    <span className="mobile-indicator__counter">
+                      {cart.quantity}
+                    </span>
+                  )}
                 </span>
               </AppLink>
             </HeaderIndicator>
