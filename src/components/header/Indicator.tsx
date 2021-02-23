@@ -10,8 +10,8 @@ import {
   IndicatorContentOpen,
   IndicatorStyledComponent,
 } from '~/styled-components/header/Indicator';
+import { IAppLinkHref } from '~/components/shared/AppLink';
 import { useGlobalMousedown } from '~/services/hooks';
-import { LinkProps } from 'next/link';
 
 type Trigger = 'none' | 'click' | 'hover';
 
@@ -21,7 +21,7 @@ export interface IIndicatorController {
 
 interface Props extends PropsWithChildren<{}> {
   icon: React.ReactNode;
-  href?: string | LinkProps;
+  href?: IAppLinkHref;
   label?: React.ReactNode;
   value?: React.ReactNode;
   counter?: number;
@@ -30,8 +30,16 @@ interface Props extends PropsWithChildren<{}> {
 }
 
 function Indicator(props: Props) {
-
-  const { icon, href, label, value, counter, trigger = 'none', children, controllerRef } = props;
+  const {
+    icon,
+    href,
+    label,
+    value,
+    counter,
+    trigger = 'none',
+    children,
+    controllerRef,
+  } = props;
   const hasLabel = label !== undefined && label !== null;
   const hasValue = value !== undefined && value !== null;
   const buttonType = href !== undefined ? 'link' : 'button';
@@ -52,7 +60,10 @@ function Indicator(props: Props) {
 
   useGlobalMousedown(
     (event) => {
-      if (rootRef.current && !rootRef.current.contains(event.target as HTMLElement)) {
+      if (
+        rootRef.current &&
+        !rootRef.current.contains(event.target as HTMLElement)
+      ) {
         setIsOpen(false);
       }
     },
