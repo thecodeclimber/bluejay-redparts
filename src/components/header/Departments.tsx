@@ -3,6 +3,7 @@ import React, { useCallback, useRef, useState } from 'react';
 // third-party
 import classNames from 'classnames';
 // application
+import {DepartmentsButton} from '~/styled-components/header/Departments'
 import AppLink from '~/components/shared/AppLink';
 import Megamenu from '~/components/header/Megamenu';
 import { ArrowRoundedDown9x6Svg, ArrowRoundedRight7x11Svg, Menu16x12Svg } from '~/svg';
@@ -54,7 +55,7 @@ function Departments(props: Props) {
 
     return (
         <div className={classes} ref={rootRef}>
-            <button className="departments__button" type="button" onClick={handleButtonClick}>
+            <DepartmentsButton as="button" type="button" onClick={handleButtonClick}>
                 <span className="departments__button-icon">
                     <Menu16x12Svg />
                 </span>
@@ -64,7 +65,7 @@ function Departments(props: Props) {
                 <span className="departments__button-arrow">
                     <ArrowRoundedDown9x6Svg />
                 </span>
-            </button>
+            </DepartmentsButton>
             <div className="departments__menu">
                 <div className="departments__arrow" />
                 <div className="departments__body" onMouseLeave={handleBodyMouseLeave}>
