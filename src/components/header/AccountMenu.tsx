@@ -6,18 +6,21 @@ import { FormattedMessage, useIntl } from 'react-intl';
 // application
 import {
   AccountMenuStyledComponent,
-  AccountMenuForm,
   AccountMenuFormTitle,
-  FormGroup,
-  InvalidFeedback,
+  AccountMenuFormButton,
   AccountMenuFormLink,
+  AccountMenuForm,
   AccountMenuUser,
   AccountMenuUserAvatar,
   AccountMenuUserInfo,
   AccountMenuUserName,
   AccountMenuUserEmail,
   AccountMenuDivider,
-  AccountMenuLinks
+  AccountMenuLinks,
+  AccountMenuAnchorLink,
+  AccountMenuLogoutButton,
+  AccountMenuFormAnchorLink,
+  InvalidFeedback
 } from '~/styled-components/header/AccountMenu';
 import AppImage from '~/components/shared/AppImage';
 import AppLink from '~/components/shared/AppLink';
@@ -55,7 +58,7 @@ function AccountMenu(props: Props) {
   return (
     <AccountMenuStyledComponent onSubmit={signInForm.submit}>
       {user === null && (
-        <AccountMenuForm>
+        <AccountMenuForm >
           <AccountMenuFormTitle>
             <FormattedMessage id="HEADER_LOGIN_TO_YOUR_ACCOUNT" />
           </AccountMenuFormTitle>
@@ -64,7 +67,7 @@ function AccountMenu(props: Props) {
               <FormattedMessage id={signInForm.serverError} />
             </div>
           )}
-          <FormGroup>
+          <div className="form-group">
             <label htmlFor="header-signin-email" className="sr-only">
               <FormattedMessage id="INPUT_EMAIL_ADDRESS_LABEL" />
             </label>
@@ -81,16 +84,16 @@ function AccountMenu(props: Props) {
                 validate: { email: validateEmail },
               })}
             />
-            <InvalidFeedback>
+            <div className="invalid-feedback">
               {signInForm.errors.email?.type === 'required' && (
                 <FormattedMessage id="ERROR_FORM_REQUIRED" />
               )}
               {signInForm.errors.email?.type === 'email' && (
                 <FormattedMessage id="ERROR_FORM_INCORRECT_EMAIL" />
               )}
-            </InvalidFeedback>
-          </FormGroup>
-          <FormGroup>
+            </div>
+          </div>
+          <div className="form-group">
             <label htmlFor="header-signin-password" className="sr-only">
               <FormattedMessage id="INPUT_PASSWORD_LABEL" />
             </label>
@@ -123,9 +126,9 @@ function AccountMenu(props: Props) {
                 <FormattedMessage id="ERROR_FORM_REQUIRED" />
               )}
             </InvalidFeedback>
-          </FormGroup>
+          </div>
 
-          <FormGroup className="account-menu__form-button">
+          <AccountMenuFormButton className="form-group">
             <button
               type="submit"
               className={classNames('btn', 'btn-primary', 'btn-sm', {
@@ -134,21 +137,21 @@ function AccountMenu(props: Props) {
             >
               <FormattedMessage id="BUTTON_LOGIN" />
             </button>
-          </FormGroup>
-          <AccountMenuFormLink>
-            <AppLink href={url.signUp()} onClick={onCloseMenu}>
+          </AccountMenuFormButton>
+          <AccountMenuFormLink >
+            <AccountMenuFormAnchorLink
+              as="a"
+              href={url.signUp()}
+              onClick={onCloseMenu}
+            >
               <FormattedMessage id="LINK_CREATE_ACCOUNT" />
-            </AppLink>
+            </AccountMenuFormAnchorLink>
           </AccountMenuFormLink>
         </AccountMenuForm>
       )}
       {user !== null && (
         <React.Fragment>
-          <AccountMenuUser
-            as="a"
-            href={url.accountDashboard()}
-            onClick={onCloseMenu}
-          >
+          <AccountMenuUser href={url.accountDashboard()} onClick={onCloseMenu}>
             <AccountMenuUserAvatar>
               <AppImage src={user.avatar} />
             </AccountMenuUserAvatar>
@@ -162,37 +165,61 @@ function AccountMenu(props: Props) {
           <AccountMenuDivider />
           <AccountMenuLinks>
             <li>
-              <AppLink href={url.accountDashboard()} onClick={onCloseMenu}>
+              <AccountMenuAnchorLink
+                as="a"
+                href={url.accountDashboard()}
+                onClick={onCloseMenu}
+              >
                 <FormattedMessage id="LINK_ACCOUNT_DASHBOARD" />
-              </AppLink>
+              </AccountMenuAnchorLink>
             </li>
             <li>
-              <AppLink href={url.accountGarage()} onClick={onCloseMenu}>
+              <AccountMenuAnchorLink
+                as="a"
+                href={url.accountGarage()}
+                onClick={onCloseMenu}
+              >
                 <FormattedMessage id="LINK_ACCOUNT_GARAGE" />
-              </AppLink>
+              </AccountMenuAnchorLink>
             </li>
             <li>
-              <AppLink href={url.accountProfile()} onClick={onCloseMenu}>
+              <AccountMenuAnchorLink
+                as="a"
+                href={url.accountProfile()}
+                onClick={onCloseMenu}
+              >
                 <FormattedMessage id="LINK_ACCOUNT_PROFILE" />
-              </AppLink>
+              </AccountMenuAnchorLink>
             </li>
             <li>
-              <AppLink href={url.accountOrders()} onClick={onCloseMenu}>
+              <AccountMenuAnchorLink
+                as="a"
+                href={url.accountOrders()}
+                onClick={onCloseMenu}
+              >
                 <FormattedMessage id="LINK_ACCOUNT_ORDERS" />
-              </AppLink>
+              </AccountMenuAnchorLink>
             </li>
             <li>
-              <AppLink href={url.accountAddresses()} onClick={onCloseMenu}>
+              <AccountMenuAnchorLink
+                as="a"
+                href={url.accountAddresses()}
+                onClick={onCloseMenu}
+              >
                 <FormattedMessage id="LINK_ACCOUNT_ADDRESSES" />
-              </AppLink>
+              </AccountMenuAnchorLink>
             </li>
           </AccountMenuLinks>
-          <AccountMenuDivider/>
-          <AccountMenuLinks >
+          <AccountMenuDivider />
+          <AccountMenuLinks>
             <li>
-              <button type="button" onClick={onLogOutButtonClick}>
+              <AccountMenuLogoutButton
+                as="button"
+                type="button"
+                onClick={onLogOutButtonClick}
+              >
                 <FormattedMessage id="LINK_ACCOUNT_LOGOUT" />
-              </button>
+              </AccountMenuLogoutButton>
             </li>
           </AccountMenuLinks>
         </React.Fragment>
