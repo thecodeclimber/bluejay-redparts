@@ -11,6 +11,13 @@ import {
   FormGroup,
   InvalidFeedback,
   AccountMenuFormLink,
+  AccountMenuUser,
+  AccountMenuUserAvatar,
+  AccountMenuUserInfo,
+  AccountMenuUserName,
+  AccountMenuUserEmail,
+  AccountMenuDivider,
+  AccountMenuLinks
 } from '~/styled-components/header/AccountMenu';
 import AppImage from '~/components/shared/AppImage';
 import AppLink from '~/components/shared/AppLink';
@@ -137,23 +144,23 @@ function AccountMenu(props: Props) {
       )}
       {user !== null && (
         <React.Fragment>
-          <AppLink
+          <AccountMenuUser
+            as="a"
             href={url.accountDashboard()}
-            className="account-menu__user"
             onClick={onCloseMenu}
           >
-            <div className="account-menu__user-avatar">
+            <AccountMenuUserAvatar>
               <AppImage src={user.avatar} />
-            </div>
-            <div className=" account-menu__user-info">
-              <div className=" account-menu__user-name">
+            </AccountMenuUserAvatar>
+            <AccountMenuUserInfo>
+              <AccountMenuUserName>
                 {`${user.firstName} ${user.lastName}`}
-              </div>
-              <div className=" account-menu__user-email">{user.email}</div>
-            </div>
-          </AppLink>
-          <div className="account-menu__divider" />
-          <ul className="account-menu__links">
+              </AccountMenuUserName>
+              <AccountMenuUserEmail>{user.email}</AccountMenuUserEmail>
+            </AccountMenuUserInfo>
+          </AccountMenuUser>
+          <AccountMenuDivider />
+          <AccountMenuLinks>
             <li>
               <AppLink href={url.accountDashboard()} onClick={onCloseMenu}>
                 <FormattedMessage id="LINK_ACCOUNT_DASHBOARD" />
@@ -179,15 +186,15 @@ function AccountMenu(props: Props) {
                 <FormattedMessage id="LINK_ACCOUNT_ADDRESSES" />
               </AppLink>
             </li>
-          </ul>
-          <div className="account-menu__divider" />
-          <ul className="account-menu__links">
+          </AccountMenuLinks>
+          <AccountMenuDivider/>
+          <AccountMenuLinks >
             <li>
               <button type="button" onClick={onLogOutButtonClick}>
                 <FormattedMessage id="LINK_ACCOUNT_LOGOUT" />
               </button>
             </li>
-          </ul>
+          </AccountMenuLinks>
         </React.Fragment>
       )}
     </AccountMenuStyledComponent>
