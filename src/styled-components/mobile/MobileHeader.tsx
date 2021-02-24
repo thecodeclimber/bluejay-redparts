@@ -19,7 +19,7 @@ export const MobileHeaderBody = styled.div`
 
 export const MobileHeaderIndicator = styled.div`
   display: flex;
-  margin-start: auto;
+  margin-left: auto;
 `;
 
 export const MobileHeaderLogo = styled.a`
