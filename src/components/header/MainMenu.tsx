@@ -3,12 +3,20 @@ import React, { useState } from 'react';
 // third-party
 import classNames from 'classnames';
 // application
-import AppLink from '~/components/shared/AppLink';
 import Megamenu from '~/components/header/Megamenu';
 import Menu from '~/components/header/Menu';
 import { ArrowDownSm7x5Svg } from '~/svg';
 import { IMainMenuLink } from '~/interfaces/main-menu-link';
 import { useOptions } from '~/store/options/optionsHooks';
+import {
+    MainMenu as MenuMain,
+    MainMenuLink as MenuLink,
+    MainMenuItem as MenuItem,
+    MainMenuList as MenuList,
+    MainMenuSubMenu as SubMenu ,
+    MainMenuMegaMenu as MegaMenu,
+}
+from '~/styled-components/header/MainMenu';
 // data
 import dataHeaderMainMenu from '~/data/headerMainMenu';
 
@@ -33,15 +41,15 @@ function MainMenu() {
     };
 
     return (
-        <div className="main-menu">
-            <ul className="main-menu__list">
+        <MenuMain className="main-menu">
+            <MenuList >
                 {items.map((item, index) => {
                     if (item.customFields?.ignoreIn?.includes(desktopLayout)) {
                         return null;
                     }
 
                     const itemHasSubmenu = !!item.submenu;
-                    const itemClasses = classNames('main-menu__item', {
+                    const itemClasses = classNames( {
                         'main-menu__item--has-submenu': itemHasSubmenu,
                         'main-menu__item--submenu--menu': item.submenu?.type === 'menu',
                         'main-menu__item--submenu--megamenu': item.submenu?.type === 'megamenu',
@@ -49,44 +57,38 @@ function MainMenu() {
                     });
 
                     return (
-                        <li
+                        <MenuItem
                             className={itemClasses}
                             key={index}
                             onMouseEnter={() => handleItemMouseEnter(item)}
                             onMouseLeave={() => handleItemMouseLeave(item)}
                         >
-                            <AppLink
-                                className="main-menu__link"
+                            <MenuLink
                                 href={item.url}
                                 onClick={handleItemClick}
                                 {...item.customFields?.anchorProps}
                             >
                                 {item.title}
                                 {itemHasSubmenu && <ArrowDownSm7x5Svg />}
-                            </AppLink>
+                            </MenuLink>
 
                             {itemHasSubmenu && (
-                                <div className="main-menu__submenu">
+                                <SubMenu className="main-menu__submenu">
                                     {item.submenu?.type === 'menu' && (
                                         <Menu items={item.submenu.links} onItemClick={handleItemClick} />
                                     )}
                                     {item.submenu?.type === 'megamenu' && (
-                                        <div
-                                            className={classNames(
-                                                'main-menu__megamenu',
-                                                `main-menu__megamenu--size--${item.submenu.size}`,
-                                            )}
-                                        >
+                                        <MegaMenu>
                                             <Megamenu menu={item.submenu} onItemClick={handleItemClick} />
-                                        </div>
+                                        </MegaMenu>
                                     )}
-                                </div>
+                                </SubMenu>
                             )}
-                        </li>
+                        </MenuItem>
                     );
                 })}
-            </ul>
-        </div>
+            </MenuList>
+        </MenuMain>
     );
 }
 
