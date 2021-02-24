@@ -122,6 +122,7 @@ export function useProductColumns(columns: IProductColumn[]) {
         Promise.all(columns.map((column) => column.source()))
     ), [], undefined, [columns]);
 
+
     return useMemo(() => (
         columns.map((column, index) => ({
             ...column,
@@ -143,6 +144,7 @@ export function useDetachableForm<T extends Record<string, any>>(formMethods: Us
             trigger([]).then();
         }
     }, [detached, unregister, trigger]);
+    
 
     return (rules: ValidationRules = {}) => (ref: FieldElement<T> & Ref | null) => {
         if (!detached) {
