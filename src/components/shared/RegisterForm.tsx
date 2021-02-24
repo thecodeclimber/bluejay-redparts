@@ -104,7 +104,7 @@ function RegisterForm(props: Props) {
                     ref={register({
                         required: true,
                         validate: {
-                            match: (value) => value === getValues(`${ns}password`),
+                            match: (value:any) => value === getValues(`${ns}password`),
                         },
                     })}
                 />
