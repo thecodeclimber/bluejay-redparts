@@ -4,6 +4,7 @@ import React from 'react';
 import classNames from 'classnames';
 // application
 import AppLink from '~/components/shared/AppLink';
+import { MegaMenuLinks } from  '~/styled-components/header/MegamenuLinks';
 import { ILink, INestedLink } from '~/interfaces/link';
 
 interface Props extends React.HTMLAttributes<HTMLElement> {
@@ -26,7 +27,7 @@ function MegamenuLinks(props: Props) {
     });
 
     return (
-        <ul className={rootClasses} {...rootProps}>
+        <MegaMenuLinks className={rootClasses} {...rootProps}>
             {links.map((link, linkIndex) => {
                 const subLinks = link.links || [];
                 const hasSubLinks = subLinks.length > 0;
@@ -50,7 +51,7 @@ function MegamenuLinks(props: Props) {
                     </li>
                 );
             })}
-        </ul>
+        </MegaMenuLinks>
     );
 }
 
