@@ -20,9 +20,15 @@ import {
   DropcartItemPrice,
   DropcartItemRemoveButton,
   DropcartDivider,
-  DropcartTotal
+  DropcartTotal,
+  DropcartActions,
+  DropcartTabel,
+  DropcartTabelHeader,
+  DropcartTabelData,
+  DropcartItemFeatures,
+  DropcartActionsButtonLeft,
+  DropcartActionsButtonRight,
 } from '~/styled-components/header/Dropcart';
-import AppLink from '~/components/shared/AppLink';
 import AsyncAction from '~/components/shared/AsyncAction';
 import CurrencyFormat from '~/components/shared/CurrencyFormat';
 import url from '~/services/url';
@@ -73,7 +79,7 @@ function Dropcart(props: Props) {
                       </DropcartItemNameLink>
                     </DropcartItemName>
                     {item.options.length > 0 && (
-                      <ul className="dropcart__item-features">
+                      <DropcartItemFeatures>
                         {item.options.map((option, optionIndex) => (
                           <li key={optionIndex}>
                             {option.name}
@@ -81,7 +87,7 @@ function Dropcart(props: Props) {
                             {option.value}
                           </li>
                         ))}
-                      </ul>
+                      </DropcartItemFeatures>
                     )}
                     <DropcartItemMeta>
                       <DropcartItemQuantity>
@@ -112,56 +118,58 @@ function Dropcart(props: Props) {
               </React.Fragment>
             ))}
           </DropcartList>
-          <DropcartTotal className="dropcart__totals">
-            <table>
+          <DropcartTotal>
+            <DropcartTabel>
               <tbody>
                 {cart.totals.length > 0 && (
                   <tr>
-                    <th>
+                    <DropcartTabelHeader>
                       <FormattedMessage id="TABLE_SUBTOTAL" />
-                    </th>
-                    <td>
+                    </DropcartTabelHeader>
+                    <DropcartTabelData>
                       <CurrencyFormat value={cart.subtotal} />
-                    </td>
+                    </DropcartTabelData>
                   </tr>
                 )}
                 {cart.totals.map((total, index) => (
                   <tr key={index}>
-                    <th>
+                    <DropcartTabelHeader>
                       <FormattedMessage id={`TABLE_TOTAL_${total.title}`} />
-                    </th>
-                    <td>
+                    </DropcartTabelHeader>
+                    <DropcartTabelData>
                       <CurrencyFormat value={total.price} />
-                    </td>
+                    </DropcartTabelData>
                   </tr>
                 ))}
                 <tr>
-                  <th>
+                  <DropcartTabelHeader>
                     <FormattedMessage id="TABLE_TOTAL" />
-                  </th>
-                  <td>
+                  </DropcartTabelHeader>
+                  <DropcartTabelData>
                     <CurrencyFormat value={cart.total} />
-                  </td>
+                  </DropcartTabelData>
                 </tr>
               </tbody>
-            </table>
+            </DropcartTabel>
           </DropcartTotal>
-          <div className="dropcart__actions">
-            <AppLink
+          <DropcartActions>
+            <DropcartActionsButtonLeft
+              as="a"
               href={url.cart()}
               className="btn btn-secondary"
               onClick={onCloseMenu}
             >
               <FormattedMessage id="BUTTON_VIEW_CART" />
-            </AppLink>
-            <AppLink
+            </DropcartActionsButtonLeft>
+            <DropcartActionsButtonRight
+              as="a"
               href={url.checkout()}
               className="btn btn-primary"
               onClick={onCloseMenu}
             >
               <FormattedMessage id="BUTTON_CHECKOUT" />
-            </AppLink>
-          </div>
+            </DropcartActionsButtonRight>
+          </DropcartActions>
         </React.Fragment>
       )}
     </DropcartStyledComponent>

@@ -138,6 +138,15 @@ export const DropcartItemPrice = styled.div`
   }
 `;
 
+export const DropcartItemFeatures = styled.ul`
+  list-style: none;
+  padding: 0;
+  margin-top: 2px;
+  font-size: 13px;
+  line-height: 17px;
+  color: #262626;
+`;
+
 export const DropcartItemRemoveButton = styled.div`
   margin-right: -13px;
   flex-shrink: 0;
@@ -169,4 +178,34 @@ export const DropcartTotal = styled.div`
   font-size: 15px;
   margin-top: 18px;
   margin-bottom: 24px;
+  font-size: 15px;
+`;
+
+export const DropcartActions = styled.div`
+  display: flex;
+`;
+export const DropcartActionsButtonLeft = styled.div`
+  font-size: 16px;
+  flex-grow: 1;
+  line-height: 19px;
+  padding: calc(17px / 2) 16px;
+`;
+
+export const DropcartActionsButtonRight = styled.div`
+  margin-left: 8px;
+  font-size: 16px;
+  flex-grow: 1;
+  line-height: 19px;
+  padding: calc(17px / 2) 16px;
+`;
+
+export const DropcartTabel = styled.table`
+  width: 100%;
+`;
+export const DropcartTabelHeader = styled.th`
+  font-weight: 500;
+`;
+
+export const DropcartTabelData = styled.td`
+  text-align: right;
 `;
