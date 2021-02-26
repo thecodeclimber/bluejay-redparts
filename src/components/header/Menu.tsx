@@ -1,56 +1,59 @@
 // react
-import React from 'react';
+import React, { useState } from 'react';
 // third-party
 import classNames from 'classnames';
 // application
-import AppLink from '~/components/shared/AppLink';
+import {
+  MenuStyledComponent,
+  MenuList,
+  MenuLink,
+  MenuArrow,
+  MenuItem,
+  MenuSubmenu,
+} from '~/styled-components/header/Menu';
 import { ArrowRoundedRight6x9Svg } from '~/svg';
 import { INestedLink } from '~/interfaces/link';
 
 interface Props {
-    items: INestedLink[];
-    onItemClick?: () => void;
+  items: INestedLink[];
+  onItemClick?: () => void;
 }
 
 function Menu(props: Props) {
-    const { items, onItemClick } = props;
+  const { items, onItemClick } = props;
+  return (
+    <MenuStyledComponent>
+      <MenuList>
+        {items.map((item, index) => {
+          const submenu = item.links || [];
+          const hasSubmenu = submenu.length > 0;
 
-    return (
-        <div className="menu">
-            <ul className="menu__list">
-                {items.map((item, index) => {
-                    const submenu = item.links || [];
-                    const hasSubmenu = submenu.length > 0;
-                    const itemClasses = classNames('menu__item', {
-                        'menu__item--has-submenu': hasSubmenu,
-                    });
-
-                    return (
-                        <li className={itemClasses} key={index}>
-                            <AppLink
-                                className="menu__link"
-                                href={item.url}
-                                onClick={onItemClick}
-                                {...item.customFields?.anchorProps}
-                            >
-                                {item.title}
-                                {hasSubmenu && (
-                                    <span className="menu__arrow">
-                                        <ArrowRoundedRight6x9Svg />
-                                    </span>
-                                )}
-                            </AppLink>
-                            {hasSubmenu && (
-                                <div className="menu__submenu">
-                                    <Menu items={submenu} onItemClick={onItemClick} />
-                                </div>
-                            )}
-                        </li>
-                    );
-                })}
-            </ul>
-        </div>
-    );
+          return (
+            <MenuItem submenu={hasSubmenu} key={index}>
+              <MenuLink
+                as="a"
+                href={item.url}
+                onClick={onItemClick}
+                {...item.customFields?.anchorProps}
+              >
+                {item.title}
+                {hasSubmenu && (
+                  <MenuArrow>
+                    <ArrowRoundedRight6x9Svg />
+                  </MenuArrow>
+                )}
+              </MenuLink>
+              {hasSubmenu && (
+                <MenuSubmenu>
+                  <Menu items={submenu} onItemClick={onItemClick} />
+                </MenuSubmenu>
+              )}
+            </MenuItem>
+          );
+        })}
+      </MenuList>
+    </MenuStyledComponent>
+  );
 }
 
 export default Menu;
