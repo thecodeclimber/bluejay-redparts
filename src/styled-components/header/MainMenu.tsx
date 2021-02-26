@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const MainMenu = styled.div`
   height: 100%;
@@ -15,19 +15,33 @@ export const MainMenuList = styled.ul`
 `;
 
 export const MainMenuItem = styled.li`
-  position: relative;
-  display: list-item;
-  text-align: -webkit-match-parent;
-  list-style: none;
-  color: #262626;
-  &:hover {
-    background-color: #f2f2f2;
-    color: inherit;
-    visibility: visible;
-    opacity: 1;
-    -webkit-transform: rotateX(0);
-    -ms-transform: rotateX(0);
+ ${(props: { itemHasSubmenu?: any }) =>
+   props.itemHasSubmenu &&
+   css`
+        position: relative;
+        display: list-item;
+       text-align: -webkit-match-parent;
+       list-style: none;
+       color: #262626;
+       &:hover {
+        background-color: #f2f2f2;
+        color: inherit;
+        visibility: visible;
+        opacity: 1;
+        -webkit-transform: rotateX(0);
+        -ms-transform: rotateX(0);
+        transform: rotateX(0);
+    ${MainMenuSubMenu}{
+      visibility: visible;
+      opacity: 1;
     transform: rotateX(0);
+    }
+    ${MainMenuMegaMenu}{
+      visibility: visible;
+      opacity: 1;
+    transform: rotateX(0);
+    } 
+    `}
   }
 `;
 
