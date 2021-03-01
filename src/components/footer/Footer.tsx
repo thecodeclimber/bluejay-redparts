@@ -3,32 +3,40 @@ import React from 'react';
 // third-party
 import { FormattedMessage } from 'react-intl';
 // application
+import {
+  SiteFooter,
+  SiteFooterWidgets,
+  Container,
+  SiteFooterBottom,
+  SiteFooterBottomRow,
+  SiteFooterPayments,
+  FooterLink,
+  FooterContact,
+  FooterNewsletterComponent,
+} from '~/styled-components/footer/Footer';
 import AppImage from '~/components/shared/AppImage';
-import AppLink from '~/components/shared/AppLink';
 import Decor from '~/components/shared/Decor';
-import FooterContacts from '~/components/footer/FooterContacts';
-import FooterLinks from '~/components/footer/FooterLinks';
-import FooterNewsletter from '~/components/footer/FooterNewsletter';
+
 // data
-import theme from '~/data/theme';
 
 export function Footer() {
   return (
-    <div className="site-footer">
+    <SiteFooter>
       <Decor className="site-footer__decor" type="bottom" />
-      <div className="site-footer__widgets">
-        <div className="container">
+      <SiteFooterWidgets>
+        <Container>
           <div className="row">
             <div className="col-12 col-xl-4">
-              <FooterContacts className="site-footer__widget" />
+              <FooterContact />
             </div>
             <div className="col-6 col-md-3 col-xl-2">
-              <FooterLinks
-                className="site-footer__widget"
+              <FooterLink
                 header={<FormattedMessage id="HEADER_INFORMATION" />}
                 links={[
                   { title: <FormattedMessage id="LINK_ABOUT_US" /> },
-                  { title: <FormattedMessage id="LINK_DELIVERY_INFORMATION" /> },
+                  {
+                    title: <FormattedMessage id="LINK_DELIVERY_INFORMATION" />,
+                  },
                   { title: <FormattedMessage id="LINK_PRIVACY_POLICY" /> },
                   { title: <FormattedMessage id="LINK_BRANDS" /> },
                   { title: <FormattedMessage id="LINK_CONTACT_US" /> },
@@ -38,8 +46,7 @@ export function Footer() {
               />
             </div>
             <div className="col-6 col-md-3 col-xl-2">
-              <FooterLinks
-                className="site-footer__widget"
+              <FooterLink
                 header={<FormattedMessage id="HEADER_MY_ACCOUNT" />}
                 links={[
                   { title: <FormattedMessage id="LINK_STORE_LOCATION" /> },
@@ -53,30 +60,27 @@ export function Footer() {
               />
             </div>
             <div className="col-12 col-md-6 col-xl-4">
-              <FooterNewsletter className="site-footer__widget" />
+              <FooterNewsletterComponent />
             </div>
           </div>
-        </div>
-      </div>
-      <div className="site-footer__bottom">
-        <div className="container">
-          <div className="site-footer__bottom-row">
-            <div className="site-footer__copyright">
+        </Container>
+      </SiteFooterWidgets>
+      <SiteFooterBottom>
+        <Container>
+          <SiteFooterBottomRow>
+            <div>
               {/* copyright */}
-              &copy;
-              {' '}
-              {new Date().getFullYear()}
-              {' '}
-              Blue-Jay Fasteners, Ltd. All rights reserved.
+              &copy; {new Date().getFullYear()} Blue-Jay Fasteners, Ltd. All
+              rights reserved.
               {/* copyright / end */}
             </div>
-            <div className="site-footer__payments">
+            <SiteFooterPayments>
               <AppImage src="/images/payments.png" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+            </SiteFooterPayments>
+          </SiteFooterBottomRow>
+        </Container>
+      </SiteFooterBottom>
+    </SiteFooter>
   );
 }
 
