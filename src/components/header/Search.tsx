@@ -6,22 +6,42 @@ import classNames from 'classnames';
 // application
 import {
   SearchBody,
+  SearchShadow,
   SearchInput,
   SearchButtonStart,
   SearchButtonIcon,
+  SearchButtonTitle,
+  SearchButtonEnd,
   SearchDropdown,
-  SearchCarSelectorLink,
-  VehiclePickerActions,
+  SuggestionsGroup,
+  SuggestionsGroupTitle,
+  SuggestionsAppLink,
+  SuggestionsProductImage,
+  SuggestionsProductInfo,
+  SuggestionsProductPrice,
+  SuggestionsProductName,
+  SuggestionsProductRating,
+  SuggestionsProductRatingStars,
+  SuggestionsProductRatingLabel,
+  SuggestionsCategoryAppLink,
+  SearchDropdownArrow,
+  VehiclePickerPanelActive,
   VehiclePickerPanelBody,
-  VehiclePickerPanel,
+  VehiclePickerText,
+  VehiclesListBody,
   VehiclesListItem,
-  VehiclesListItemRemove
+  VehiclesListItemRadio,
+  VehiclesListItemInfo,
+  VehiclesListItemName,
+  VehiclesListItemDetails,
+  VehiclesListItemRemove,
+  VehiclePickerActions,
+  SearchCarSelectorLink,
 } from '~/styled-components/header/Search';
 import AppImage from '~/components/shared/AppImage';
 import AppLink from '~/components/shared/AppLink';
 import AsyncAction from '~/components/shared/AsyncAction';
 import CurrencyFormat from '~/components/shared/CurrencyFormat';
-import RadioButton from '~/components/shared/RadioButton';
 import Rating from '~/components/shared/Rating';
 import url from '~/services/url';
 import VehicleForm from '~/components/shared/VehicleForm';
@@ -205,6 +225,8 @@ export function Search() {
   return (
     <div ref={rootRef} onBlur={handleRootBlur}>
       <SearchBody>
+        <SearchShadow />
+
         <label className="sr-only" htmlFor="site-search">
           <FormattedMessage id="INPUT_SEARCH_LABEL" />
         </label>
@@ -225,7 +247,7 @@ export function Search() {
         <SearchButtonStart
           type="button"
           as="button"
-          className={classNames('search__button search__button--start', {
+          className={classNames({
             'search__button--hover': vehiclePickerIsOpen,
           })}
           onClick={handleButtonClick}
@@ -234,16 +256,16 @@ export function Search() {
           <SearchButtonIcon>
             <Car20Svg />
           </SearchButtonIcon>
-          <span className="search__button-title">
+          <SearchButtonTitle>
             <FormattedMessage id="BUTTON_SEARCH_SELECT_VEHICLE_DESKTOP" />
-          </span>
+          </SearchButtonTitle>
         </SearchButtonStart>
 
-        <button className="search__button search__button--end" type="submit">
-          <span className="search__button-icon">
+        <SearchButtonEnd as="button" type="submit">
+          <SearchButtonIcon>
             <Search20Svg />
-          </span>
-        </button>
+          </SearchButtonIcon>
+        </SearchButtonEnd>
 
         <div className="search__box" />
         <div className="search__decor">
@@ -251,41 +273,31 @@ export function Search() {
           <div className="search__decor-end" />
         </div>
 
-        <SearchDropdown
-          className={classNames(
-            'search__dropdown',
-            'search__dropdown--suggestions',
-            'suggestions',
-            {
-              'search__dropdown--open': suggestionsIsOpen && hasSuggestions,
-            }
-          )}
-        >
+        <SearchDropdown isOpen={suggestionsIsOpen && hasSuggestions}>
           {products.length > 0 && (
-            <div className="suggestions__group">
-              <div className="suggestions__group-title">
+            <SuggestionsGroup>
+              <SuggestionsGroupTitle>
                 <FormattedMessage id="TEXT_PRODUCTS" />
-              </div>
-              <div className="suggestions__group-content">
+              </SuggestionsGroupTitle>
+              <div>
                 {products.map((product) => (
-                  <AppLink
+                  <SuggestionsAppLink
                     key={product.id}
                     href={url.product(product)}
-                    className="suggestions__item suggestions__product"
                     onClick={() => toggleSuggestions(false)}
                   >
-                    <div className="suggestions__product-image">
+                    <SuggestionsProductImage>
                       <AppImage src={product.images && product.images[0]} />
-                    </div>
-                    <div className="suggestions__product-info">
-                      <div className="suggestions__product-name">
+                    </SuggestionsProductImage>
+                    <SuggestionsProductInfo>
+                      <SuggestionsProductName>
                         {product.name}
-                      </div>
-                      <div className="suggestions__product-rating">
-                        <div className="suggestions__product-rating-stars">
+                      </SuggestionsProductName>
+                      <SuggestionsProductRating>
+                        <SuggestionsProductRatingStars>
                           <Rating value={product.rating || 0} />
-                        </div>
-                        <div className="suggestions__product-rating-label">
+                        </SuggestionsProductRatingStars>
+                        <SuggestionsProductRatingLabel>
                           <FormattedMessage
                             id="TEXT_RATING_LABEL"
                             values={{
@@ -293,112 +305,97 @@ export function Search() {
                               reviews: product.reviews,
                             }}
                           />
-                        </div>
-                      </div>
-                    </div>
-                    <div className=" suggestions__product-price">
+                        </SuggestionsProductRatingLabel>
+                      </SuggestionsProductRating>
+                    </SuggestionsProductInfo>
+                    <SuggestionsProductPrice>
                       <CurrencyFormat value={product.price} />
-                    </div>
-                  </AppLink>
+                    </SuggestionsProductPrice>
+                  </SuggestionsAppLink>
                 ))}
               </div>
-            </div>
+            </SuggestionsGroup>
           )}
           {categories.length > 0 && (
-            <div className="suggestions__group">
-              <div className="suggestions__group-title">
+            <SuggestionsGroup>
+              <SuggestionsGroupTitle>
                 <FormattedMessage id="TEXT_CATEGORIES" />
-              </div>
-              <div className="suggestions__group-content">
+              </SuggestionsGroupTitle>
+              <div>
                 {categories.map((category) => (
-                  <AppLink
+                  <SuggestionsCategoryAppLink
                     key={category.id}
                     href={url.category(category)}
-                    className="suggestions__item suggestions__category"
                     onClick={() => toggleSuggestions(false)}
                   >
                     {category.name}
-                  </AppLink>
+                  </SuggestionsCategoryAppLink>
                 ))}
               </div>
-            </div>
+            </SuggestionsGroup>
           )}
         </SearchDropdown>
 
-        <div
-          className={classNames(
-            'search__dropdown',
-            'search__dropdown--vehicle-picker',
-            'vehicle-picker',
-            {
-              'search__dropdown--open': vehiclePickerIsOpen,
-            }
-          )}
+        <SearchDropdown
+          isOpen={vehiclePickerIsOpen}
           ref={vehiclePickerDropdownRef}
         >
-          <div className="search__dropdown-arrow" />
+          <SearchDropdownArrow />
 
-          <div
-            className={classNames('vehicle-picker__panel', {
-              'vehicle-picker__panel--active':
-                vehiclePanel === 'list' && hasVehicles,
-            })}
+          <VehiclePickerPanelActive
+            isActive={vehiclePanel === 'list' && hasVehicles}
           >
-            <div className="vehicle-picker__panel-body">
-              <div className="vehicle-picker__text">
+            <VehiclePickerPanelBody>
+              <VehiclePickerText>
                 <FormattedMessage id="TEXT_SELECT_VEHICLE_TO_FIND_EXACT_FIT_PARTS" />
-              </div>
+              </VehiclePickerText>
 
-              <div className="vehicles-list">
-                <div className="vehicles-list__body">
+              <div>
+                <VehiclesListBody>
                   {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
-                  <label className="vehicles-list__item">
-                    <RadioButton
-                      className="vehicles-list__item-radio"
+                  <VehiclesListItem>
+                    <VehiclesListItemRadio
                       name="header-current-vehicle"
                       defaultValue=""
                       checked={currentVehicle === null}
                       onChange={handleChangeCurrentVehicle}
                     />
-                    <span className=" vehicles-list__item-info">
-                      <span className=" vehicles-list__item-name">
+                    <VehiclesListItemInfo>
+                      <VehiclesListItemName>
                         <FormattedMessage id="TEXT_ALL_VEHICLES" />
-                      </span>
-                    </span>
-                  </label>
+                      </VehiclesListItemName>
+                    </VehiclesListItemInfo>
+                  </VehiclesListItem>
                   {vehicles.map((vehicle, index) => (
                     <React.Fragment key={index}>
                       {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
-                      <VehiclesListItem >
-                        <RadioButton
-                          className="vehicles-list__item-radio"
+                      <VehiclesListItem>
+                        <VehiclesListItemRadio
                           name="header-current-vehicle"
                           defaultValue={vehicle.id}
                           checked={currentVehicle?.id === vehicle.id}
                           onChange={handleChangeCurrentVehicle}
                         />
-                        <span className="vehicles-list__item-info">
-                          <span className="vehicles-list__item-name">
+                        <VehiclesListItemInfo>
+                          <VehiclesListItemName>
                             {`${vehicle.year} ${vehicle.make} ${vehicle.model}`}
-                          </span>
-                          <span className="vehicles-list__item-details">
+                          </VehiclesListItemName>
+                          <VehiclesListItemDetails>
                             <FormattedMessage
                               id="TEXT_VEHICLE_ENGINE"
                               values={{ engine: vehicle.engine }}
                             />
-                          </span>
-                        </span>
+                          </VehiclesListItemDetails>
+                        </VehiclesListItemInfo>
                         <AsyncAction
                           action={() => garageRemoveItem(vehicle.id)}
                           render={({ run, loading }) => (
                             <VehiclesListItemRemove
+                              as="button"
                               type="button"
-                              className={classNames(
-                                '',
-                                {
-                                  'vehicles-list__item-remove--loading': loading,
-                                }
-                              )}
+                              className={classNames('', {
+                                'vehicles-list__item-remove--loading': loading,
+                              })}
                               onClick={run}
                             >
                               <RecycleBin16Svg />
@@ -408,10 +405,10 @@ export function Search() {
                       </VehiclesListItem>
                     </React.Fragment>
                   ))}
-                </div>
+                </VehiclesListBody>
               </div>
 
-              <VehiclePickerActions >
+              <VehiclePickerActions>
                 <button
                   type="button"
                   className="btn btn-primary btn-sm"
@@ -420,10 +417,11 @@ export function Search() {
                   <FormattedMessage id="BUTTON_ADD_VEHICLE" />
                 </button>
               </VehiclePickerActions>
-            </div>
-          </div>
+            </VehiclePickerPanelBody>
+          </VehiclePickerPanelActive>
 
-          <VehiclePickerPanel  vehiclePanel={ vehiclePanel === 'form' || !hasVehicles}
+          <VehiclePickerPanelActive
+            isActive={vehiclePanel === 'form' || !hasVehicles}
           >
             <VehiclePickerPanelBody>
               <VehicleForm
@@ -432,19 +430,19 @@ export function Search() {
               />
               <VehiclePickerActions>
                 {hasVehicles && (
-                  <div>
+                  <SearchCarSelectorLink>
                     {/* eslint-disable-next-line */}
-                    <SearchCarSelectorLink
-                      as="a"
-                      onClick={(event: any) => {
+                    <AppLink
+                      anchor
+                      onClick={(event) => {
                         event.preventDefault();
 
                         setVehiclePanel('list');
                       }}
                     >
                       <FormattedMessage id="BUTTON_BACK_TO_LIST" />
-                    </SearchCarSelectorLink>
-                  </div>
+                    </AppLink>
+                  </SearchCarSelectorLink>
                 )}
 
                 <AsyncAction
@@ -468,8 +466,8 @@ export function Search() {
                 />
               </VehiclePickerActions>
             </VehiclePickerPanelBody>
-          </VehiclePickerPanel>
-        </div>
+          </VehiclePickerPanelActive>
+        </SearchDropdown>
       </SearchBody>
     </div>
   );
