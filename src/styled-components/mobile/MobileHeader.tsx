@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const MobileContainer = styled.div`
   display: block;
@@ -17,9 +17,9 @@ export const MobileHeaderBody = styled.div`
   display: flex;
 `;
 
-export const MobileHeaderIndicator = styled.div`
+export const MobileHeaderIndicators = styled.div`
   display: flex;
-  margin-start: auto;
+  margin-left: auto;
 `;
 
 export const MobileHeaderLogo = styled.a`
@@ -64,6 +64,7 @@ export const MobileHeaderSearch = styled.div`
   margin: 0 auto;
 
   @media (max-width: 768px) {
+    left: 0;
     top: 0;
     position: absolute;
     width: 100%;
@@ -74,5 +75,10 @@ export const MobileHeaderSearch = styled.div`
     z-index: 1;
     transform: translateY(-100%);
     transition: transform 0.3s;
+    ${(props: { isOpen?: boolean }) =>
+    props.isOpen &&
+    css`
+      transform: none;
+    `};
   }
 `;
