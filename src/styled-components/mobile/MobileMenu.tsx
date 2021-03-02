@@ -62,7 +62,7 @@ export const MobileMenuClose = styled.button`
     transition: background-color 0.15s, color 0.15s;
     background-color: #fff;
     color: #ccc;
-    cursor: pointer
+    cursor: pointer;
 
     &:hover {
       background-color: #ebebeb;
@@ -83,18 +83,18 @@ export const MobileMenuDivider = styled.div`
   background: #ebebeb;
 `;
 
-export const MobileMenuContactsTitle = styled.div`
-  font-size: 18px;
-  font-weight: $font-weight-medium;
-`;
-
-export const MobileMenuContactsSubTitle = styled.div`
-  font-size: 13px;
-  color: #999;
-`;
-
 export const MobileMenuSpring = styled.div`
   flex-grow: 1;
+`;
+
+export const MobileMenuContactsTitle = styled.div`
+  font-size: 18px;
+  font-weight: 500;
+`;
+
+export const MobileMenuContactsSubtitle = styled.div`
+  font-size: 13px;
+  color: #999;
 `;
 
 export const MobileMenuContacts = styled.a`

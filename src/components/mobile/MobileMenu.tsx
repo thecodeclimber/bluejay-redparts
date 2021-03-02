@@ -21,7 +21,7 @@ import {
   MobileMenuDivider,
   MobileMenuClose,
   MobileMenuContactsTitle,
-  MobileMenuContactsSubTitle,
+  MobileMenuContactsSubtitle,
   MobileMenuSpring,
   MobileMenuContacts,
 } from '~/styled-components/mobile/MobileMenu';
@@ -67,9 +67,9 @@ function MobileMenu() {
             <MobileMenuSpring />
             <MobileMenuDivider />
             <MobileMenuContacts as={AppLink} href={url.pageContactUs()}>
-              <MobileMenuContactsSubTitle>
+              <MobileMenuContactsSubtitle>
                 <FormattedMessage id="TEXT_MOBILE_MENU_PHONE_TITLE" />
-              </MobileMenuContactsSubTitle>
+              </MobileMenuContactsSubtitle>
               <MobileMenuContactsTitle>800 060-0730</MobileMenuContactsTitle>
             </MobileMenuContacts>
           </MobileMenuPanel>
