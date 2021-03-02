@@ -3,18 +3,9 @@
 // react
 import React, { useRef } from 'react';
 // third-party
-import classNames from 'classnames';
 import { FormattedMessage } from 'react-intl';
 // application
 import AppLink from '~/components/shared/AppLink';
-import {
-  MobileMenuDivider,
-  MobileMenuSpring,
-  MobileMenuContactsTitle,
-  MobileMenuContactsSubtitle,
-  MobileMenuContacts,
-  MobileMenuBackdrop
-} from '~/styled-components/mobile/MobileMenu';
 import MobileMenuConveyor, { IMobileMenuConveyorController } from '~/components/mobile/MobileMenuConveyor';
 import MobileMenuIndicators from '~/components/mobile/MobileMenuIndicators';
 import MobileMenuLinks from '~/components/mobile/MobileMenuLinks';
@@ -23,6 +14,18 @@ import MobileMenuSettings from '~/components/mobile/MobileMenuSettings';
 import url from '~/services/url';
 import { Cross12Svg } from '~/svg';
 import { useMobileMenu, useMobileMenuClose } from '~/store/mobile-menu/mobileMenuHooks';
+import {
+  MobileMenuBase,
+  MobileMenuBackdrop,
+  MobileMenuBody,
+  MobileMenuDivider,
+  MobileMenuClose,
+  MobileMenuContactsTitle,
+  MobileMenuContactsSubtitle,
+  MobileMenuSpring,
+  MobileMenuContacts,
+} from '~/styled-components/mobile/MobileMenu';
+
 // data
 import dataMobileMenuLinks from '~/data/mobileMenuLinks';
 
@@ -31,10 +34,7 @@ function MobileMenu() {
   const mobileMenuClose = useMobileMenuClose();
   const bodyRef = useRef<HTMLDivElement>(null);
   const conveyorRef = useRef<IMobileMenuConveyorController>(null);
-
-  const rootClasses = classNames('mobile-menu', {
-    'mobile-menu--open': mobileMenu.open,
-  });
+  const isMobileMenuOpen = mobileMenu.open;
 
   const onMenuClosed = () => {
     if (conveyorRef.current) {
@@ -49,12 +49,12 @@ function MobileMenu() {
   };
 
   return (
-    <div className={rootClasses}>
+    <MobileMenuBase isOpen={isMobileMenuOpen}>
       <MobileMenuBackdrop onClick={mobileMenuClose} />
-      <div className="mobile-menu__body" ref={bodyRef} onTransitionEnd={onTransitionEnd}>
-        <button className="mobile-menu__close" type="button" onClick={mobileMenuClose}>
+      <MobileMenuBody ref={bodyRef} onTransitionEnd={onTransitionEnd}>
+        <MobileMenuClose type="button" onClick={mobileMenuClose}>
           <Cross12Svg />
-        </button>
+        </MobileMenuClose>
 
         <MobileMenuConveyor controllerRef={conveyorRef}>
           <MobileMenuPanel label="Menu">
@@ -66,7 +66,7 @@ function MobileMenu() {
 
             <MobileMenuSpring />
             <MobileMenuDivider />
-            <MobileMenuContacts href={url.pageContactUs()} >
+            <MobileMenuContacts as={AppLink} href={url.pageContactUs()}>
               <MobileMenuContactsSubtitle>
                 <FormattedMessage id="TEXT_MOBILE_MENU_PHONE_TITLE" />
               </MobileMenuContactsSubtitle>
@@ -74,8 +74,8 @@ function MobileMenu() {
             </MobileMenuContacts>
           </MobileMenuPanel>
         </MobileMenuConveyor>
-      </div>
-    </div>
+      </MobileMenuBody>
+    </MobileMenuBase>
   );
 }
 
