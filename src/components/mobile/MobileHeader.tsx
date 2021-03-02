@@ -28,19 +28,26 @@ import {
 } from '~/svg';
 
 import {
-  MobileContainer as Header,
-  MobileHeaderBody as Body,
-  MobileHeaderSearch as Search,
-  MobileHeaderLogo as Logo,
-  MobileHeaderMenuButton as MenuButton,
-  MobileHeaderIndicator as HeaderIndicator,
+  MobileContainer,
+  MobileHeaderBody,
+  MobileHeaderSearch,
+  MobileHeaderLogo,
+  MobileHeaderMenuButton,
+  MobileHeaderIndicators,
 } from '~/styled-components/mobile/MobileHeader';
 
 import {
-  MobileSearchVehiclePicker as SearchVehiclePicker,
-  MobileSearchButton as SearchButton,
-  MobileSearchBody as SearchBody,
-  MobileSearchInput as SearchInput,
+  MobileIndicator,
+  MobileIndicatorButton,
+  MobileIndicatorCounter,
+  MobileIndicatorIcon,
+} from '~/styled-components/mobile/MobileIndicator';
+
+import {
+  MobileSearchVehiclePicker,
+  MobileSearchButton,
+  MobileSearchBody,
+  MobileSearchInput,
 } from '~/styled-components/mobile/MobileSearch';
 
 function MobileHeader() {
@@ -111,7 +118,7 @@ function MobileHeader() {
     : intl.formatMessage({ id: 'INPUT_SEARCH_PLACEHOLDER' });
 
   return (
-    <Header>
+    <MobileContainer>
       <VehiclePickerModal
         value={vehicle}
         isOpen={vehiclePickerIsOpen}
@@ -120,111 +127,100 @@ function MobileHeader() {
       />
 
       <div className="container">
-        <Body>
-          <MenuButton onClick={mobileMenuOpen}>
+        <MobileHeaderBody>
+          <MobileHeaderMenuButton onClick={mobileMenuOpen}>
             <Menu18x14Svg />
-          </MenuButton>
+          </MobileHeaderMenuButton>
 
-          <Logo href={url.home()}>
+          <MobileHeaderLogo href={url.home()}>
             <MobileLogo />
-          </Logo>
+          </MobileHeaderLogo>
 
-          <Search
+          <MobileHeaderSearch
+            isOpen={searchIsOpen}
             ref={searchFormRef}
-            className={classNames('mobile-header__search mobile-search', {
-              'mobile-header__search--open': searchIsOpen,
-            })}
           >
-            <SearchBody onSubmit={onSearchSubmit}>
+            <MobileSearchBody onSubmit={onSearchSubmit}>
               <label className="sr-only" htmlFor="mobile-site-search">
                 <FormattedMessage id="INPUT_SEARCH_LABEL" />
               </label>
-              <SearchInput
+              <MobileSearchInput
                 ref={searchInputRef}
                 type="text"
                 id="mobile-site-search"
                 placeholder={searchPlaceholder}
               />
 
-              <SearchVehiclePicker type="button" onClick={openVehiclePicker}>
+              <MobileSearchVehiclePicker
+                type="button"
+                onClick={openVehiclePicker}
+              >
                 <Car20Svg />
                 <span className="mobile-search__vehicle-picker-label">
                   <FormattedMessage id="BUTTON_SEARCH_SELECT_VEHICLE_MOBILE" />
                 </span>
-              </SearchVehiclePicker>
+              </MobileSearchVehiclePicker>
 
-              <SearchButton
+              <MobileSearchButton
                 type="submit"
-                className=" mobile-search__button--search"
+                className="mobile-search__button--search"
               >
                 <Search20Svg />
-              </SearchButton>
+              </MobileSearchButton>
 
-              <SearchButton
+              <MobileSearchButton
                 type="button"
-                className=" mobile-search__button--close"
+                className="mobile-search__button--close"
                 onClick={closeSearch}
               >
                 <Cross20Svg />
-              </SearchButton>
-            </SearchBody>
-          </Search>
-          <div className="mobile-header__indicators">
-            <div
-              className="mobile-indicator d-md-none"
-              ref={searchIndicatorRef}
-            >
-              <button
-                type="button"
-                className="mobile-indicator__button"
-                onClick={openSearch}
-              >
-                <span className="mobile-indicator__icon">
+              </MobileSearchButton>
+              <div className="mobile-search__field" />
+            </MobileSearchBody>
+          </MobileHeaderSearch>
+          <MobileHeaderIndicators>
+            <MobileIndicator className="d-md-none" ref={searchIndicatorRef}>
+              <MobileIndicatorButton type="button" onClick={openSearch}>
+                <MobileIndicatorIcon>
                   <Search20Svg />
-                </span>
-              </button>
-            </div>
-            <div className="mobile-indicator d-none d-md-block">
-              <AppLink
-                href={url.accountDashboard()}
-                className="mobile-indicator__button"
-              >
-                <span className="mobile-indicator__icon">
+                </MobileIndicatorIcon>
+              </MobileIndicatorButton>
+            </MobileIndicator>
+            <MobileIndicator className="d-none d-md-block">
+              <MobileIndicatorButton as={AppLink} href={url.accountDashboard()}>
+                <MobileIndicatorIcon>
                   <Person20Svg />
-                </span>
-              </AppLink>
-            </div>
-            <div className="mobile-indicator d-none d-md-block">
-              <AppLink
-                href={url.wishlist()}
-                className="mobile-indicator__button"
-              >
-                <span className="mobile-indicator__icon">
+                </MobileIndicatorIcon>
+              </MobileIndicatorButton>
+            </MobileIndicator>
+            <MobileIndicator className="d-none d-md-block">
+              <MobileIndicatorButton as={AppLink} href={url.wishlist()}>
+                <MobileIndicatorIcon>
                   <Heart20Svg />
                   {wishlist.items.length > 0 && (
-                    <span className="mobile-indicator__counter">
+                    <MobileIndicatorCounter>
                       {wishlist.items.length}
-                    </span>
+                    </MobileIndicatorCounter>
                   )}
-                </span>
-              </AppLink>
-            </div>
-            <HeaderIndicator>
-              <AppLink href={url.cart()} className="mobile-indicator__button">
-                <span className="mobile-indicator__icon">
+                </MobileIndicatorIcon>
+              </MobileIndicatorButton>
+            </MobileIndicator>
+            <MobileIndicator>
+              <MobileIndicatorButton as={AppLink} href={url.cart()}>
+                <MobileIndicatorIcon>
                   <Cart20Svg />
                   {cart.quantity > 0 && (
-                    <span className="mobile-indicator__counter">
+                    <MobileIndicatorCounter>
                       {cart.quantity}
-                    </span>
+                    </MobileIndicatorCounter>
                   )}
-                </span>
-              </AppLink>
-            </HeaderIndicator>
-          </div>
-        </Body>
+                </MobileIndicatorIcon>
+              </MobileIndicatorButton>
+            </MobileIndicator>
+          </MobileHeaderIndicators>
+        </MobileHeaderBody>
       </div>
-    </Header>
+    </MobileContainer>
   );
 }
 
