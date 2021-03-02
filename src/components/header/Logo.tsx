@@ -3,20 +3,19 @@ import React from 'react';
 // third-party
 import { FormattedMessage } from 'react-intl';
 // application
-import AppLink from '~/components/shared/AppLink';
 import url from '~/services/url';
-import {HeaderLogo} from '~/styled-components/header/Header'
+import {LogoStyledComponent,LogoSlogan,LogoImage} from '~/styled-components/header/Logo'
 
 interface Props extends React.HTMLAttributes<HTMLElement> {}
 
 function Logo(props: Props) {
   return (
-    <HeaderLogo {...props}>
-      <AppLink href={url.home()} className="logo">
-        <div className="logo__slogan">
+    <div {...props}>
+      <LogoStyledComponent as="a" href={url.home()}>
+        <LogoSlogan>
           <FormattedMessage id="TEXT_SLOGAN" />
-        </div>
-        <div className="logo__image">
+        </LogoSlogan>
+        <LogoImage >
           {/* logo */}
           <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 1100 1100">
             <circle className="st0" cx="550" cy="550" r="489.28" />
@@ -33,9 +32,9 @@ function Logo(props: Props) {
             </g>
           </svg>
           {/* logo / end */}
-        </div>
-      </AppLink>
-    </HeaderLogo>
+        </LogoImage>
+      </LogoStyledComponent>
+    </div>
   );
 }
 
