@@ -5,7 +5,12 @@ import AppLink from '~/components/shared/AppLink';
 import Collapse, { ICollapseRenderFn } from '~/components/shared/Collapse';
 import url from '~/services/url';
 import { ICategory } from '~/interfaces/category';
-
+import {
+    WidgetWidgetCategories ,
+    WidgetHeader ,
+    WidgetCategoriesListRoot
+} 
+from '~/styled-components/widgets/WidgetCategories';
 interface Props {
     widgetTitle?: React.ReactNode;
     categories: ICategory[];
@@ -17,11 +22,11 @@ function WidgetCategories(props: Props) {
     const { widgetTitle, categories } = props;
 
     return (
-        <div className="card widget widget-categories">
+        < WidgetWidgetCategories >
             {widgetTitle && (
-                <div className="widget__header">
+                <WidgetHeader >
                     <h4>{widgetTitle}</h4>
-                </div>
+                </WidgetHeader>
             )}
             <ul className="widget-categories__list widget-categories__list--root">
                 {categories.map((category, index) => {
@@ -68,7 +73,7 @@ function WidgetCategories(props: Props) {
                     );
                 })}
             </ul>
-        </div>
+        </ WidgetWidgetCategories>
     );
 }
 

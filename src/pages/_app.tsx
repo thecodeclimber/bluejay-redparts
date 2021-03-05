@@ -7,6 +7,7 @@ import { NextComponentType, NextPageContext } from 'next';
 import { useStore } from 'react-redux';
 // application
 import config from '~/config';
+import Theme from "~/theme/Theme"
 import LanguageProvider, { getLanguageInitialProps, ILanguageProviderProps } from '~/services/i18n/provider';
 import Layout from '~/components/Layout';
 import PageTitle from '~/components/shared/PageTitle';
@@ -85,6 +86,7 @@ function App(props: Props) {
   return (
     <LanguageProvider {...languageInitialProps}>
       <CurrentVehicleGarageProvider>
+        <Theme>
         <PageTitle />
 
         <Head>
@@ -92,6 +94,7 @@ function App(props: Props) {
         </Head>
 
         {page}
+        </Theme>
       </CurrentVehicleGarageProvider>
     </LanguageProvider>
   );
