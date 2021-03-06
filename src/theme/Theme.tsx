@@ -11,6 +11,10 @@ const theme: DefaultTheme = {
     success: '#07BC0C',
     grey: '#545454',
     lightGrey: '#4c4c4c',
+    selectbgcolor: '#fff',
+    selectfontcolor: '#262626',
+    selectarrowcolor: '#4d4d4d',
+    selectdisabledfontcolor: '#999',
   },
   headers: {
     h1: {
@@ -49,7 +53,19 @@ const theme: DefaultTheme = {
       fontWeight: 500,
       fontStyle: null,
     },
-    
+  },
+  fontWeight: {
+    light: 300,
+    normal: 400,
+    medium: 500,
+    bold: 600,
+    bolder: 700,
+  },
+  breakPoints: {
+    xs: 480,
+    sm: 768,
+    md: 992,
+    lg: 1200,
   },
 };
 
