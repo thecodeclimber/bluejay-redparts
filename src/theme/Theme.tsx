@@ -15,6 +15,9 @@ const theme: DefaultTheme = {
     selectfontcolor: '#262626',
     selectarrowcolor: '#4d4d4d',
     selectdisabledfontcolor: '#999',
+    plusiconcolor:'#ccc',
+    cardbgcolor:'#f2f2f2',
+    widgetchildbgcolor:'#f5f5f5'
   },
   headers: {
     h1: {
