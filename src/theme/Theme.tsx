@@ -15,6 +15,12 @@ const theme: DefaultTheme = {
     selectfontcolor: '#262626',
     selectarrowcolor: '#4d4d4d',
     selectdisabledfontcolor: '#999',
+    facebook:'#3c5a99',
+    twitter:'#00a2e8',
+    youtube:'#e52e2e',
+    instagram:'#815dc7',
+    rss:'#ffc338'
+    
   },
   headers: {
     h1: {

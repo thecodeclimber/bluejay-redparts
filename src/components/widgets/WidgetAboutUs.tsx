@@ -6,10 +6,14 @@ import {
   WidgetHeader,
   WidgetAboutUsBody,
   WidgetAboutUsText,
-  WidgetAboutUsSocialLinks
+  WidgetAboutUsSocialLinks,
 } from '~/styled-components/widget/WidgetAboutUs';
 
-import { SocialLinksList,SocialLinksItem} from '~/styled-components/SocialLinks';
+import {
+  SocialLinksList,
+  SocialLinkItem,
+  SocialIcon,
+} from '~/styled-components/SocialLinks';
 import AppLink from '~/components/shared/AppLink';
 // data
 import theme from '~/data/theme';
@@ -45,14 +49,14 @@ function WidgetAboutUs() {
         <WidgetAboutUsSocialLinks className="social-links">
           <SocialLinksList>
             {socialLinks.map((socialLink, index) => (
-              <SocialLinksItem
+              <SocialLinkItem
+                linkName={socialLink.name}
                 key={index}
-                className={`social-links__item social-links__item--${socialLink.name}`}
               >
                 <AppLink href={socialLink.url} target=" _blank">
-                  <i className={`widget-social__icon ${socialLink.icon}`} />
+                  <SocialIcon className={`${socialLink.icon}`} />
                 </AppLink>
-              </SocialLinksItem>
+              </SocialLinkItem>
             ))}
           </SocialLinksList>
         </WidgetAboutUsSocialLinks>

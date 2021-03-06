@@ -14,6 +14,11 @@ declare module 'styled-components' {
       selectfontcolor: string;
       selectarrowcolor: string;
       selectdisabledfontcolor: string;
+      facebook: string;
+      twitter: string;
+      youtube: string;
+      instagram: string;
+      rss: string;
     };
     headers: {
       h1: {
