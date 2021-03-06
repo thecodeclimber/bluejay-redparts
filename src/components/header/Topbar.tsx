@@ -26,7 +26,6 @@ interface Props {
 
 function Topbar(props: Props) {
   const { layout } = props;
-  console.log(layout)
   const compare = useCompare();
 
   const rootClasses = classNames( `topbar--spaceship-end`);
