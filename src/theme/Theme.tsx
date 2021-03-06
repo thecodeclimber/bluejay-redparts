@@ -1,58 +1,22 @@
-interface Theme {
-  colors: {
-    white: string;
-    black: string;
-    primary: string;
-    success: string;
-  };
-  styles: {
-    h1: {
-      fontSize: string;
-      fontFamily: any;
-      fontWeight: number;
-      fontStyle: any;
-    };
-    h2: {
-      fontSize: string;
-      fontFamily: any;
-      fontWeight: number;
-      fontStyle: any;
-    };
-    h3: {
-      fontSize: string;
-      fontFamily: any;
-      fontWeight: number;
-      fontStyle: any;
-    };
-    h4: {
-      fontSize: string;
-      fontFamily: any;
-      fontWeight: number;
-      fontStyle: any;
-    };
-    h5: {
-      fontSize: string;
-      fontFamily: any;
-      fontWeight: number;
-      fontStyle: any;
-    };
-    h6: {
-      fontSize: string;
-      fontFamily: any;
-      fontWeight: number;
-      fontStyle: any;
-    };
-  };
-}
+import React, { PropsWithChildren } from 'react';
+import { ThemeProvider, DefaultTheme } from 'styled-components';
 
-const theme: Theme = {
+interface Props extends PropsWithChildren<{}> {}
+
+const theme: DefaultTheme = {
   colors: {
     white: '#FFFFFF',
     black: '#000000',
     primary: '#1E74DF',
     success: '#07BC0C',
+    grey: '#545454',
+    lightGrey: '#4c4c4c',
+    selectbgcolor: '#fff',
+    selectfontcolor: '#262626',
+    selectarrowcolor: '#4d4d4d',
+    selectdisabledfontcolor: '#999',
   },
-  styles: {
+  headers: {
     h1: {
       fontSize: '40px',
       fontFamily: null,
@@ -90,6 +54,25 @@ const theme: Theme = {
       fontStyle: null,
     },
   },
+  fontWeight: {
+    light: 300,
+    normal: 400,
+    medium: 500,
+    bold: 600,
+    bolder: 700,
+  },
+  breakPoints: {
+    xs: 480,
+    sm: 768,
+    md: 992,
+    lg: 1200,
+  },
 };
 
-export default theme;
+const Theme = (props: Props) => {
+  const { children } = props;
+
+  return <ThemeProvider theme={theme}>{children}</ThemeProvider>;
+};
+
+export default Theme;

@@ -6,8 +6,12 @@ import Head from 'next/head';
 import { NextComponentType, NextPageContext } from 'next';
 import { useStore } from 'react-redux';
 // application
+import Theme from '~/theme/Theme';
 import config from '~/config';
-import LanguageProvider, { getLanguageInitialProps, ILanguageProviderProps } from '~/services/i18n/provider';
+import LanguageProvider, {
+  getLanguageInitialProps,
+  ILanguageProviderProps,
+} from '~/services/i18n/provider';
 import Layout from '~/components/Layout';
 import PageTitle from '~/components/shared/PageTitle';
 import { AppDispatch } from '~/store/types';
@@ -24,10 +28,10 @@ import '../scss/style.mobile-header-variant-two.scss';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 interface Props extends AppProps {
-    languageInitialProps: ILanguageProviderProps;
-    Component: NextComponentType<NextPageContext, any> & {
-        Layout: ComponentType,
-    }
+  languageInitialProps: ILanguageProviderProps;
+  Component: NextComponentType<NextPageContext, any> & {
+    Layout: ComponentType;
+  };
 }
 
 function App(props: Props) {
@@ -85,13 +89,18 @@ function App(props: Props) {
   return (
     <LanguageProvider {...languageInitialProps}>
       <CurrentVehicleGarageProvider>
-        <PageTitle />
+        <Theme>
+          <PageTitle />
 
-        <Head>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-        </Head>
+          <Head>
+            <meta
+              name="viewport"
+              content="width=device-width, initial-scale=1"
+            />
+          </Head>
 
-        {page}
+          {page}
+        </Theme>
       </CurrentVehicleGarageProvider>
     </LanguageProvider>
   );
@@ -100,10 +109,12 @@ function App(props: Props) {
 App.getInitialProps = async (context: AppContext) => {
   const dispatch = context.ctx.store.dispatch as AppDispatch;
 
-  await dispatch(optionsSetAll({
-    desktopHeaderVariant: config.desktopHeaderVariant,
-    mobileHeaderVariant: config.mobileHeaderVariant,
-  }));
+  await dispatch(
+    optionsSetAll({
+      desktopHeaderVariant: config.desktopHeaderVariant,
+      mobileHeaderVariant: config.mobileHeaderVariant,
+    })
+  );
 
   let language;
 
