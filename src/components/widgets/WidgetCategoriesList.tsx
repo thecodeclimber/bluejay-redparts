@@ -1,5 +1,5 @@
 // react
-import React from 'react';
+import React ,{useState} from 'react';
 // third-party
 import classNames from 'classnames';
 // application
@@ -8,7 +8,20 @@ import Collapse, { ICollapseRenderFnData } from '~/components/shared/Collapse';
 import url from '~/services/url';
 import { ArrowDown9x6Svg } from '~/svg';
 import { ICategory } from '~/interfaces/category';
-
+import {
+    WidgetWidgetCategoriesList ,
+    WidgetCategoriesListBody ,
+    WidgetCategoriesListRoot ,
+    WidgetCategoriesListRootItem ,
+    WidgetCategoriesListRootLink ,
+    WidgetCategoriesListChild ,
+    WidgetCategoriesListChildItem ,
+    WidgetCategoriesListShowMore ,
+    WidgetCategoriesListShowMoreExpanText ,
+    WidgetCategoriesListShowMoreCollapseText ,
+    WidgetCategoriesListShowMoreArrow 
+}
+ from '~/styled-components/widget/WidgetCategoriesList';
 type RenderFnData = ICollapseRenderFnData<HTMLLIElement, HTMLUListElement>;
 type RenderFn = (data: RenderFnData, category: ICategory) => React.ReactNode;
 
@@ -18,75 +31,73 @@ interface Props {
 
 function WidgetCategoriesList(props: Props) {
     const { categories } = props;
-
+    const [isOpen , setIsOpen] = useState(false);
+       console.log(isOpen);
+    const handleOpen = () => {
+        setIsOpen(!isOpen);
+    }
     const renderCategory: RenderFn = ({ toggle, setItemRef, setContentRef }, category: ICategory) => {
         const subs: ICategory[] = category.children || [];
-
         return (
-            <li
+            <WidgetCategoriesListRootItem
+                length ={category.children?.length}
                 ref={setItemRef}
-                className={classNames('widget-categories-list__root-item', {
-                    'widget-categories-list__root-item--has-children': category.children?.length,
-                })}
             >
-                <AppLink
+                <WidgetCategoriesListRootLink
                     href={url.category(category)}
-                    className="widget-categories-list__root-link"
                 >
                     {category.name}
-                </AppLink>
+                </WidgetCategoriesListRootLink>
 
                 {subs.length > 0 && (
-                    <ul className="widget-categories-list__child">
+                    < WidgetCategoriesListChild isOpen={isOpen} className="widget-categories-list__child">
                         {subs.slice(0, subs.length > 6 ? 5 : 6).map((sub, subIdx) => (
-                            <li key={subIdx} className="widget-categories-list__child-item">
+                            < WidgetCategoriesListChildItem key={subIdx} >
                                 <AppLink
                                     href={url.category(sub)}
-                                    className="widget-categories-list__child-link"
                                 >
                                     {sub.name}
                                 </AppLink>
-                            </li>
+                            </ WidgetCategoriesListChildItem>
                         ))}
-                    </ul>
+                    </ WidgetCategoriesListChild>
                 )}
 
                 {subs.length > 6 && (
                     <React.Fragment>
-                        <ul className="widget-categories-list__child" ref={setContentRef}>
+                        < WidgetCategoriesListChild className="widget-categories-list__child" ref={setContentRef}>
                             {subs.slice(5).map((sub, subIdx) => (
-                                <li
+                                <WidgetCategoriesListChildItem
                                     key={subIdx}
-                                    className="widget-categories-list__child-item"
+                                   
                                 >
                                     <AppLink
                                         href={url.category(sub)}
-                                        className="widget-categories-list__child-link"
                                     >
                                         {sub.name}
                                     </AppLink>
-                                </li>
+                                </WidgetCategoriesListChildItem>
                             ))}
-                        </ul>
-                        <button
+                        </WidgetCategoriesListChild>
+                        <WidgetCategoriesListShowMore
+                           isOpen = {isOpen}
                             type="button"
-                            className="widget-categories-list__show-more"
-                            onClick={toggle}
+                            onClick={() => {toggle() , handleOpen()}}
                         >
-                            <span className="widget-categories-list__show-more-expand-text">Show More</span>
-                            <span className="widget-categories-list__show-more-collapse-text">Show Less</span>
-                            <span className="widget-categories-list__show-more-arrow"><ArrowDown9x6Svg /></span>
-                        </button>
+                            <WidgetCategoriesListShowMoreExpanText >Show More</WidgetCategoriesListShowMoreExpanText>
+                            <WidgetCategoriesListShowMoreCollapseText >Show Less</WidgetCategoriesListShowMoreCollapseText>
+                            <WidgetCategoriesListShowMoreArrow ><ArrowDown9x6Svg /></WidgetCategoriesListShowMoreArrow>
+                        </WidgetCategoriesListShowMore>
                     </React.Fragment>
                 )}
-            </li>
+            </WidgetCategoriesListRootItem>
         );
     };
 
     return (
-        <div className="card widget widget-categories-list">
-            <div className="widget-categories-list__body">
-                <ul className="widget-categories-list__root">
+        <WidgetWidgetCategoriesList>
+            <WidgetCategoriesListBody >
+                <WidgetCategoriesListRoot >
                     {categories.map((category, categoryIdx) => (
                         <Collapse<HTMLLIElement, HTMLUListElement>
                             key={categoryIdx}
@@ -94,9 +105,9 @@ function WidgetCategoriesList(props: Props) {
                             render={(args) => renderCategory(args, category)}
                         />
                     ))}
-                </ul>
-            </div>
-        </div>
+                </WidgetCategoriesListRoot>
+            </WidgetCategoriesListBody>
+        </WidgetWidgetCategoriesList>
     );
 }
 
