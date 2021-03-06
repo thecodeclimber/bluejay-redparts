@@ -8,6 +8,12 @@ declare module 'styled-components' {
       black: string;
       primary: string;
       success: string;
+      grey: string;
+      lightGrey: string;
+      selectbgcolor: string;
+      selectfontcolor: string;
+      selectarrowcolor: string;
+      selectdisabledfontcolor: string;
     };
     headers: {
       h1: {
@@ -46,6 +52,19 @@ declare module 'styled-components' {
         fontWeight: number;
         fontStyle: any;
       };
+    };
+    fontWeight: {
+      light: number;
+      normal: number;
+      medium: number;
+      bold: number;
+      bolder: number;
+    };
+    breakPoints: {
+      xs: number;
+      sm: number;
+      md: number;
+      lg: number;
     };
   }
 }

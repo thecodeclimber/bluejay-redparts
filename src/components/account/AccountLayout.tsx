@@ -1,7 +1,6 @@
 // react
 import React, { PropsWithChildren } from 'react';
 // third-party
-import classNames from 'classnames';
 import { FormattedMessage, useIntl } from 'react-intl';
 // application
 import AppLink from '~/components/shared/AppLink';
@@ -12,6 +11,15 @@ import { ILink } from '~/interfaces/link';
 import { useAppRouter } from '~/services/router';
 import { useAsyncAction } from '~/store/hooks';
 import { useUser, useUserSignOut } from '~/store/user/userHooks';
+import {
+    AccountNav ,
+    AccountNavTitle ,
+    AccountNavList ,
+    AccountNavItem ,
+    AccountNavDevider ,
+    ActiveNavItemButton
+} 
+from '~/styled-components/account/AccountLayout';
 
 interface Props extends PropsWithChildren<{}> { }
 
@@ -44,32 +52,30 @@ function AccountLayout(props: Props) {
                 <div className="container container--max--xl">
                     <div className="row">
                         <div className="col-12 col-lg-3 d-flex">
-                            <div className="account-nav flex-grow-1">
-                                <h4 className="account-nav__title">
+                            <AccountNav className="flex-grow-1">
+                                <AccountNavTitle >
                                     <FormattedMessage id="HEADER_NAVIGATION" />
-                                </h4>
-                                <ul className="account-nav__list">
+                                </AccountNavTitle>
+                                <AccountNavList >
                                     {navigation.map((item, index) => (
-                                        <li
+                                        <AccountNavItem
+                                           active ={router.pathname === item.url}
                                             key={index}
-                                            className={classNames('account-nav__item', {
-                                                'account-nav__item--active': router.pathname === item.url,
-                                            })}
-                                        >
+                                            >
                                             <AppLink href={item.url}>
                                                 {item.title}
                                             </AppLink>
-                                        </li>
+                                        </AccountNavItem>
                                     ))}
-                                    <li className="account-nav__divider" role="presentation" />
-                                    <li className="account-nav__item">
+                                    <AccountNavDevider  role="presentation" />
+                                    <ActiveNavItemButton active>
                                         {/* eslint-disable-next-line */}
                                         <button type="button" onClick={onSignOutClick}>
                                             <FormattedMessage id="LINK_ACCOUNT_LOGOUT" />
                                         </button>
-                                    </li>
-                                </ul>
-                            </div>
+                                    </ActiveNavItemButton>
+                                </AccountNavList>
+                            </AccountNav>
                         </div>
                         <div className="col-12 col-lg-9 mt-4 mt-lg-0">
                             {children}

@@ -1,53 +1,63 @@
 // react
 import React from 'react';
 // application
-import RadioButton from '~/components/shared/RadioButton';
 import { IRadioFilter, IRadioFilterValue } from '~/interfaces/filter';
-
+import {
+  FilterList,
+  FIlterListList,
+  FilterListItem,
+  FilterListInput,
+  FilterListTitle,
+  FilterListCounter,
+} from '~/styled-components/filter/FilterRadio';
 interface Props {
-    options: IRadioFilter;
+  options: IRadioFilter;
+  value: IRadioFilterValue;
+  onChangeValue?: (event: {
+    filter: IRadioFilter;
     value: IRadioFilterValue;
-    onChangeValue?: (event: { filter: IRadioFilter, value: IRadioFilterValue }) => void;
+  }) => void;
 }
 
 function FilterRadio(props: Props) {
-    const { options, value, onChangeValue } = props;
+  const { options, value, onChangeValue } = props;
 
-    const updateValue = (newValue: IRadioFilterValue) => {
-        if (onChangeValue) {
-            onChangeValue({ filter: options, value: newValue });
-        }
-    };
+  const updateValue = (newValue: IRadioFilterValue) => {
+    if (onChangeValue) {
+      onChangeValue({ filter: options, value: newValue });
+    }
+  };
 
-    const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-        if (event.target.checked && event.target.value !== value) {
-            updateValue(event.target.value);
-        }
-    };
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    if (event.target.checked && event.target.value !== value) {
+      updateValue(event.target.value);
+    }
+  };
 
-    return (
-        <div className="filter-list">
-            <div className="filter-list__list">
-                {options.items.map((item) => (
-                    <label key={item.slug} className="filter-list__item">
-                        <RadioButton
-                            className="filter-list__input"
-                            name={options.slug}
-                            value={item.slug}
-                            checked={value === item.slug}
-                            disabled={item.count === 0}
-                            onChange={handleChange}
-                        />
+  return (
+    <FilterList>
+      <FIlterListList>
+        {options.items.map((item) => (
+          <FilterListItem key={item.slug} item={item.count === 0}>
+            <FilterListInput
+              name={options.slug}
+              value={item.slug}
+              checked={value === item.slug}
+              disabled={item.count === 0}
+              onChange={handleChange}
+            />
 
-                        <span className="filter-list__title">{item.name}</span>
-                        {item.count !== 0 && (
-                            <span className="filter-list__counter">{item.count}</span>
-                        )}
-                    </label>
-                ))}
-            </div>
-        </div>
-    );
+            <FilterListTitle item={item.count === 0}>
+              {item.name}
+            </FilterListTitle>
+            {item.count !== 0 && (
+              <FilterListCounter>{item.count}</FilterListCounter>
+            )}
+          </FilterListItem>
+        ))}
+      </FIlterListList>
+    </FilterList>
+  );
 }
 
 export default FilterRadio;
