@@ -15,6 +15,10 @@ const theme: DefaultTheme = {
     selectfontcolor: '#262626',
     selectarrowcolor: '#4d4d4d',
     selectdisabledfontcolor: '#999',
+    widgetsearchbuttoncolor: '#bfbfbf',
+    widgetsearchbuttonhovercolor: '#a6a6a6',
+    widgetsearchbuttonhoverbgcolor: '#f5f5f5',
+    widgetsearchbuttonactivebgcolor: '#f0f0f0',
   },
   headers: {
     h1: {
