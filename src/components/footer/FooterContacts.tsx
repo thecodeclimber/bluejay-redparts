@@ -3,53 +3,72 @@ import React, { FunctionComponent } from 'react';
 // third-party
 import { FormattedMessage } from 'react-intl';
 // data
+import {
+  FooterContactsStyledComponent,
+  FooterContactsTitle,
+  FooterContactsText,
+  FooterAddress,
+  FooterAddressDefinitionDescription,
+  FooterAddressDescriptionList,
+  FooterAddressDefinitionList,
+} from '~/styled-components/footer/FooterContacts';
 import theme from '~/data/theme';
 
-const FooterContacts: FunctionComponent<React.HTMLAttributes<HTMLElement>> = () => (
-    <div className="footer-contacts">
-        <h5 className="footer-contacts__title">
-            <FormattedMessage id="HEADER_CONTACT_US" />
-        </h5>
+const FooterContacts: FunctionComponent<
+  React.HTMLAttributes<HTMLElement>
+> = () => (
+  <FooterContactsStyledComponent>
+    <FooterContactsTitle>
+      <FormattedMessage id="HEADER_CONTACT_US" />
+    </FooterContactsTitle>
 
-        <div className="footer-contacts__text">
-            <FormattedMessage id="TEXT_CONTACT_US_MESSAGE" />
-        </div>
+    <FooterContactsText>
+      <FormattedMessage id="TEXT_CONTACT_US_MESSAGE" />
+    </FooterContactsText>
 
-        <address className="footer-contacts__contacts">
-            <dl>
-                <dt>
-                    <FormattedMessage id="TEXT_PHONE_NUMBER" />
-                </dt>
-                {theme.contacts.phone.map((item, index) => (
-                    <dd key={index}>{item}</dd>
-                ))}
-            </dl>
-            <dl>
-                <dt>
-                    <FormattedMessage id="TEXT_EMAIL_ADDRESS" />
-                </dt>
-                {theme.contacts.email.map((item, index) => (
-                    <dd key={index}>{item}</dd>
-                ))}
-            </dl>
-            <dl>
-                <dt>
-                    <FormattedMessage id="TEXT_OUR_LOCATION" />
-                </dt>
-                {theme.contacts.address.map((item, index) => (
-                    <dd key={index}>{item}</dd>
-                ))}
-            </dl>
-            <dl>
-                <dt>
-                    <FormattedMessage id="TEXT_WORKING_HOURS" />
-                </dt>
-                {theme.contacts.hours.map((item, index) => (
-                    <dd key={index}>{item}</dd>
-                ))}
-            </dl>
-        </address>
-    </div>
+    <FooterAddress>
+      <FooterAddressDescriptionList>
+        <FooterAddressDefinitionList>
+          <FormattedMessage id="TEXT_PHONE_NUMBER" />
+        </FooterAddressDefinitionList>
+        {theme.contacts.phone.map((item, index) => (
+          <FooterAddressDefinitionDescription key={index}>
+            {item}
+          </FooterAddressDefinitionDescription>
+        ))}
+      </FooterAddressDescriptionList>
+      <FooterAddressDescriptionList>
+        <FooterAddressDefinitionList>
+          <FormattedMessage id="TEXT_EMAIL_ADDRESS" />
+        </FooterAddressDefinitionList>
+        {theme.contacts.email.map((item, index) => (
+          <FooterAddressDefinitionDescription key={index}>
+            {item}
+          </FooterAddressDefinitionDescription>
+        ))}
+      </FooterAddressDescriptionList>
+      <FooterAddressDescriptionList>
+        <FooterAddressDefinitionList>
+          <FormattedMessage id="TEXT_OUR_LOCATION" />
+        </FooterAddressDefinitionList>
+        {theme.contacts.address.map((item, index) => (
+          <FooterAddressDefinitionDescription key={index}>
+            {item}
+          </FooterAddressDefinitionDescription>
+        ))}
+      </FooterAddressDescriptionList>
+      <FooterAddressDescriptionList>
+        <FooterAddressDefinitionList>
+          <FormattedMessage id="TEXT_WORKING_HOURS" />
+        </FooterAddressDefinitionList>
+        {theme.contacts.hours.map((item, index) => (
+          <FooterAddressDefinitionDescription key={index}>
+            {item}
+          </FooterAddressDefinitionDescription>
+        ))}
+      </FooterAddressDescriptionList>
+    </FooterAddress>
+  </FooterContactsStyledComponent>
 );
 
 export default FooterContacts;
