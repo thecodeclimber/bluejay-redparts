@@ -3,48 +3,57 @@ import React from 'react';
 // application
 import AppLink from '~/components/shared/AppLink';
 import { IComment } from '~/interfaces/comment';
-
+import {
+  WidgetWidgetComments,
+  WidgetHeader,
+  WidgetCommentsBody,
+  WidgetCommentsList,
+  WidgetCommentsItem,
+  WidgetAutherComments,
+  WidgetCommentsContent,
+  WidgetCommentsMeta,
+  WidgetCommentsDate,
+  WidgetCommentsName,
+} from '~/styled-components/widget/WidgetComments';
 interface Props {
-    widgetTitle?: React.ReactNode;
-    comments: IComment[];
+  widgetTitle?: React.ReactNode;
+  comments: IComment[];
 }
 
 function WidgetComments(props: Props) {
-    const { widgetTitle, comments } = props;
+  const { widgetTitle, comments } = props;
 
-    return (
-        <div className="card widget widget-comments">
-            {widgetTitle && (
-                <div className="widget__header">
-                    <h4>{widgetTitle}</h4>
-                </div>
-            )}
+  return (
+    <WidgetWidgetComments>
+      {widgetTitle && (
+        <WidgetHeader>
+          <h4>{widgetTitle}</h4>
+        </WidgetHeader>
+      )}
 
-            <div className="widget-comments__body">
-                <ul className="widget-comments__list">
-                    {comments.map((comment, index) => (
-                        <li key={index} className="widget-comments__item">
-                            <div className="widget-comments__author">
-                                <AppLink href="/">
-                                    {comment.author}
-                                </AppLink>
-                            </div>
-                            <div className="widget-comments__content">{comment.text}</div>
-                            <div className="widget-comments__meta">
-                                <div className="widget-comments__date">{comment.date}</div>
-                                <div className="widget-comments__name">
-                                    {'On '}
-                                    <AppLink href="/" title={comment.postTitle}>
-                                        {comment.postTitle}
-                                    </AppLink>
-                                </div>
-                            </div>
-                        </li>
-                    ))}
-                </ul>
-            </div>
-        </div>
-    );
+      <WidgetCommentsBody>
+        <WidgetCommentsList>
+          {comments.map((comment, index) => (
+            <WidgetCommentsItem key={index}>
+              <WidgetAutherComments>
+                <AppLink href="/">{comment.author}</AppLink>
+              </WidgetAutherComments>
+              <WidgetCommentsContent>{comment.text}</WidgetCommentsContent>
+              <WidgetCommentsMeta>
+                <WidgetCommentsDate>{comment.date}</WidgetCommentsDate>
+                <WidgetCommentsName>
+                  {'On '}
+                  <AppLink href="/" title={comment.postTitle}>
+                    {comment.postTitle}
+                  </AppLink>
+                </WidgetCommentsName>
+              </WidgetCommentsMeta>
+            </WidgetCommentsItem>
+          ))}
+        </WidgetCommentsList>
+      </WidgetCommentsBody>
+    </WidgetWidgetComments>
+  );
 }
 
 export default WidgetComments;

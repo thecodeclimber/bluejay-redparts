@@ -14,6 +14,8 @@ declare module 'styled-components' {
       selectfontcolor: string;
       selectarrowcolor: string;
       selectdisabledfontcolor: string;
+      widgetanchorhovercolor: string;
+      widgetauthorbordercolor: string;
     };
     headers: {
       h1: {
