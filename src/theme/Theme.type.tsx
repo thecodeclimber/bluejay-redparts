@@ -6,6 +6,7 @@ declare module 'styled-components' {
     colors: {
       white: string;
       black: string;
+      dark: string;
       primary: string;
       success: string;
       grey: string;
@@ -59,6 +60,9 @@ declare module 'styled-components' {
       medium: number;
       bold: number;
       bolder: number;
+    };
+    boxShadow: {
+      blockFinderTextShadow: string;
     };
   }
 }
