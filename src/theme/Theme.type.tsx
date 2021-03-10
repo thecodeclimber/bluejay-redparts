@@ -14,6 +14,10 @@ declare module 'styled-components' {
       selectfontcolor: string;
       selectarrowcolor: string;
       selectdisabledfontcolor: string;
+      blockcategoriesbgcolor:string;
+      blockcategoriesbodycolor:string;
+      linkcolor:string;
+      listcolor:string;
     };
     headers: {
       h1: {
@@ -60,5 +64,12 @@ declare module 'styled-components' {
       bold: number;
       bolder: number;
     };
+    breakPoints: {
+      xs: number;
+      sm: number;
+      md: number;
+      lg: number;
+      xl:number;
+    },
   }
 }

@@ -15,6 +15,10 @@ const theme: DefaultTheme = {
     selectfontcolor: '#262626',
     selectarrowcolor: '#4d4d4d',
     selectdisabledfontcolor: '#999',
+    blockcategoriesbgcolor:'#f6f6f6',
+    blockcategoriesbodycolor: '#00000014',
+    linkcolor:'#007bff',
+    listcolor:'#6c757d',
   },
   headers: {
     h1: {
@@ -66,6 +70,7 @@ const theme: DefaultTheme = {
     sm: 768,
     md: 992,
     lg: 1200,
+    xl:1400
   },
 };
 
