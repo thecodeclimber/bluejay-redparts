@@ -7,7 +7,13 @@ import {
   WidgetCategoriesListRootLink,
   WidgetCategoriesListShowMoreButton,
   WidgetCategoriesListChildItem,
+  WidgetCategoriesListBody,
+  WidgetCategoriesListRoot,
   WidgetCategoriesListChild,
+  ShowMoreIcon,
+  WidgetCategoriesListShowMoreArrow,
+  WidgetCategoriesListShowMoreCollapseText,
+  WidgetCategoriesListShowMoreExpandText,
 } from '~/styled-components/widget/WidgetCategoriesList';
 import AppLink from '~/components/shared/AppLink';
 import Collapse, { ICollapseRenderFnData } from '~/components/shared/Collapse';
@@ -39,7 +45,6 @@ function WidgetCategoriesList(props: Props) {
     return (
       <WidgetCategoriesListRootItem
         ref={setItemRef}
-        hasChild={category.children?.length}
       >
         <WidgetCategoriesListRootLink href={url.category(category)}>
           {category.name}
@@ -67,16 +72,19 @@ function WidgetCategoriesList(props: Props) {
             <WidgetCategoriesListShowMoreButton
               type="button"
               onClick={handleToggle}
+              isOpen={isOpen}
             >
-              <span className="widget-categories-list__show-more-expand-text">
-                Show More
-              </span>
-              <span className="widget-categories-list__show-more-collapse-text">
+              <WidgetCategoriesListShowMoreCollapseText>
                 Show Less
-              </span>
-              <span className="widget-categories-list__show-more-arrow">
-                <ArrowDown9x6Svg />
-              </span>
+              </WidgetCategoriesListShowMoreCollapseText>
+
+              <WidgetCategoriesListShowMoreExpandText>
+                Show More
+              </WidgetCategoriesListShowMoreExpandText>
+
+              <ShowMoreIcon >
+                <WidgetCategoriesListShowMoreArrow isOpen={isOpen}/>
+              </ShowMoreIcon>
             </WidgetCategoriesListShowMoreButton>
           </React.Fragment>
         )}
@@ -85,18 +93,18 @@ function WidgetCategoriesList(props: Props) {
   };
 
   return (
-    <div className="card widget widget-categories-list">
-      <div className="widget-categories-list__body">
-        <ul className="widget-categories-list__root">
+    <div className="card">
+      <WidgetCategoriesListBody>
+        <WidgetCategoriesListRoot>
           {categories.map((category, categoryIdx) => (
             <Collapse<HTMLLIElement, HTMLUListElement>
               key={categoryIdx}
-              toggleClass="widget-categories-list--open"
+              toggleClass=""
               render={(args) => renderCategory(args, category)}
             />
           ))}
-        </ul>
-      </div>
+        </WidgetCategoriesListRoot>
+      </WidgetCategoriesListBody>
     </div>
   );
 }

@@ -1,13 +1,26 @@
 import styled, { css } from 'styled-components';
 import AppLink from '~/components/shared/AppLink';
+import { ArrowDown9x6Svg } from '~/svg';
 
 export const WidgetCategoriesListRootItem = styled.li`
-  line-height: 20px;
-  ${(props: { hasChild?: any }) =>
-    props.hasChild &&
-    css`
-      margin-top: 1.375rem;
-    `}
+  padding: 0.5rem;
+  a {
+    color: inherit;
+    transition: color 0.1s;
+  }
+  a:hover {
+    color: #007bff;
+  }
+`;
+
+export const WidgetCategoriesListBody = styled.div`
+  padding: 1.5rem;
+`;
+
+export const WidgetCategoriesListRoot = styled.ul`
+  list-style: none;
+  margin: 0;
+  padding: 0;
 `;
 
 export const WidgetCategoriesListRootLink = styled(AppLink)`
@@ -26,6 +39,7 @@ export const WidgetCategoriesListChild = styled.ul`
   overflow: hidden;
   height: 0;
   opacity: 0;
+  list-style-type: none;
   transition: height 0.2s ease-in-out, opacity 0.2s ease-in-out;
   ${(props: { isOpen?: any }) =>
     props.isOpen &&
@@ -35,16 +49,32 @@ export const WidgetCategoriesListChild = styled.ul`
     `}
 `;
 
-export const WidgetCategoriesListShowMoreArrow = styled.span`
+export const ShowMoreIcon = styled.div`
+  direction: ltr;
+  position: absolute;
+  top: 0;
+  left: 0;
+`;
+
+export const WidgetCategoriesListShowMoreArrow = styled(ArrowDown9x6Svg)`
   transform: rotate(0deg);
-  ${(props: { isOpen?: any }) =>
+  fill: #999;
+  transition: transform 0.2s;
+  ${(props: { isOpen?: boolean }) =>
     props.isOpen &&
     css`
       transform: rotate(180deg);
+      transition: transform 0.2s;
     `}
 `;
 
+export const WidgetCategoriesListShowMoreCollapseText = styled.span`
+  display: none;
+`;
 
+export const WidgetCategoriesListShowMoreExpandText = styled.span`
+  display: none;
+`;
 
 export const WidgetCategoriesListShowMoreButton = styled.button`
   direction: ltr;
@@ -57,4 +87,20 @@ export const WidgetCategoriesListShowMoreButton = styled.button`
   font-size: 14px;
   font-family: inherit;
   margin-top: 4px;
+  margin-bottom: 20px;
+  ${(props: { isOpen?: any }) =>
+    props.isOpen
+      ? css`
+          ${WidgetCategoriesListShowMoreCollapseText} {
+            display: block;
+          }
+        `
+      : css`
+          ${WidgetCategoriesListShowMoreExpandText} {
+            display: block;
+          }
+        `}
+  &:hover {
+    text-decoration: underline;
+  }
 `;
