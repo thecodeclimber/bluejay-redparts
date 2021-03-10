@@ -17,6 +17,7 @@ const theme: DefaultTheme = {
     selectdisabledfontcolor: '#999',
     widgetanchorhovercolor: '#007bff',
     widgetauthorbordercolor: '#ebebeb',
+    blockbanneritemtitlecolor:'#ffdf40',
   },
   headers: {
     h1: {
@@ -69,6 +70,10 @@ const theme: DefaultTheme = {
     md: 992,
     lg: 1200,
   },
+  background : {
+   blockbanneritemlineargradient: 'linear-gradient(to right,rgba(26, 26, 26, 0.98) 25%,rgba(26, 26, 26, 0) 90%)',
+   blockbanneritemmobilelineargradient: 'linear-gradient(to right, rgba(26, 26, 26, 0.98) 35%,rgba(26, 26, 26, 0) 100%)',
+  }
 };
 
 const Theme = (props: Props) => {

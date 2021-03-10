@@ -16,6 +16,7 @@ declare module 'styled-components' {
       selectdisabledfontcolor: string;
       widgetanchorhovercolor: string;
       widgetauthorbordercolor: string;
+      blockbanneritemtitlecolor:string;
     };
     headers: {
       h1: {
@@ -62,5 +63,9 @@ declare module 'styled-components' {
       bold: number;
       bolder: number;
     };
+    background :{
+      blockbanneritemlineargradient:string;
+      blockbanneritemmobilelineargradient:string;
+    }
   }
 }
