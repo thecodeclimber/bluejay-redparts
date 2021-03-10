@@ -8,6 +8,7 @@ const theme: DefaultTheme = {
     white: '#FFFFFF',
     black: '#000000',
     primary: '#1E74DF',
+    link: '#007bff',
     success: '#07BC0C',
     grey: '#545454',
     lightGrey: '#4c4c4c',
@@ -15,6 +16,9 @@ const theme: DefaultTheme = {
     selectfontcolor: '#262626',
     selectarrowcolor: '#4d4d4d',
     selectdisabledfontcolor: '#999',
+    blockBrandDivider: '#ebebeb',
+    blockBrandHoverFontColor:'#737373',
+    blockBrandsItemName: '#b3b3b3'
   },
   headers: {
     h1: {
@@ -66,6 +70,7 @@ const theme: DefaultTheme = {
     sm: 768,
     md: 992,
     lg: 1200,
+    xl: 1400,
   },
 };
 

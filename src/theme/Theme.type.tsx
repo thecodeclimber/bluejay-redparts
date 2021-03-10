@@ -7,6 +7,7 @@ declare module 'styled-components' {
       white: string;
       black: string;
       primary: string;
+      link: string;
       success: string;
       grey: string;
       lightGrey: string;
@@ -14,6 +15,7 @@ declare module 'styled-components' {
       selectfontcolor: string;
       selectarrowcolor: string;
       selectdisabledfontcolor: string;
+      blockBrandsItemName: string;
     };
     headers: {
       h1: {
@@ -60,5 +62,12 @@ declare module 'styled-components' {
       bold: number;
       bolder: number;
     };
+    breakPoints: {
+      xs: any,
+      sm: any,
+      md: any,
+      lg: any,
+      xl: any
+    },
   }
 }
