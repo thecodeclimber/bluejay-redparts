@@ -14,6 +14,11 @@ declare module 'styled-components' {
       selectfontcolor: string;
       selectarrowcolor: string;
       selectdisabledfontcolor: string;
+      facebook: string;
+      twitter: string;
+      youtube: string;
+      instagram: string;
+      rss: string;
     };
     headers: {
       h1: {
@@ -59,6 +64,12 @@ declare module 'styled-components' {
       medium: number;
       bold: number;
       bolder: number;
+    };
+    breakPoints: {
+      xs: number;
+      sm: number;
+      md: number;
+      lg: number;
     };
   }
 }
