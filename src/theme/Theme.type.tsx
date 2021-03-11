@@ -14,6 +14,8 @@ declare module 'styled-components' {
       selectfontcolor: string;
       selectarrowcolor: string;
       selectdisabledfontcolor: string;
+      widgetnewsletterbgcolor:string;
+      widgetnewslettertextcolor:string;
       widgetanchorhovercolor: string;
       widgetauthorbordercolor: string;
       plusiconcolor:string;
