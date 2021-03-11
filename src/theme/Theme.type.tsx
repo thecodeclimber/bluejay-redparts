@@ -17,6 +17,11 @@ declare module 'styled-components' {
       plusiconcolor:string;
       cardbgcolor:string;
       widgetchildbgcolor:string;
+      facebook: string;
+      twitter: string;
+      youtube: string;
+      instagram: string;
+      rss: string;
     };
     headers: {
       h1: {

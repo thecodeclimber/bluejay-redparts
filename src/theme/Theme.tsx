@@ -17,7 +17,13 @@ const theme: DefaultTheme = {
     selectdisabledfontcolor: '#999',
     plusiconcolor:'#ccc',
     cardbgcolor:'#f2f2f2',
-    widgetchildbgcolor:'#f5f5f5'
+    widgetchildbgcolor:'#f5f5f5',
+    facebook:'#3c5a99',
+    twitter:'#00a2e8',
+    youtube:'#e52e2e',
+    instagram:'#815dc7',
+    rss:'#ffc338'
+    
   },
   headers: {
     h1: {
