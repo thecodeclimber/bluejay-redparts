@@ -15,6 +15,9 @@ const theme: DefaultTheme = {
     selectfontcolor: '#262626',
     selectarrowcolor: '#4d4d4d',
     selectdisabledfontcolor: '#999',
+    tagBgColor: '#f2f2f2',
+    tagBgHoverColor: '#e5e5e5',
+    tagBgActiveColor: '#d9d9d9',
     widgetsearchbuttoncolor: '#bfbfbf',
     widgetsearchbuttonhovercolor: '#a6a6a6',
     widgetsearchbuttonhoverbgcolor: '#f5f5f5',
@@ -32,7 +35,6 @@ const theme: DefaultTheme = {
     youtube:'#e52e2e',
     instagram:'#815dc7',
     rss:'#ffc338'
-    
   },
   headers: {
     h1: {
