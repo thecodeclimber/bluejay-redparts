@@ -11,6 +11,7 @@ declare module 'styled-components' {
       grey: string;
       lightGrey: string;
       selectbgcolor: string;
+      blockFinderBgColor:string;
       selectfontcolor: string;
       selectarrowcolor: string;
       selectdisabledfontcolor: string;
@@ -86,5 +87,8 @@ declare module 'styled-components' {
       md: number;
       lg: number;
     };
+    boxShadow:{
+      blockFinderTextShadow: string;
+    }
   }
 }
