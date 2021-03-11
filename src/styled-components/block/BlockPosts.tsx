@@ -1,7 +1,4 @@
-import styled from 'styled-components';
-
-const LocalCarouselExpand = "10px";
-const LockProductsCarouselGutter ="20px"
+import styled, { css } from 'styled-components';
 
 export const BlockPostsCarouselLoader = styled.div`
   left: 0;
@@ -49,4 +46,16 @@ export const BlockPostsCarouselItem = styled.div`
 
 export const BlockPostsCarousel = styled.div`
   position: relative;
+`;
+
+export const BlockPostsCarouselayout = styled.div`
+  ${(props: { isLoading?: any }) =>
+    props.isLoading &&
+    css`
+      ${BlockPostsCarouselLoader} {
+        visibility: visible;
+        transition-delay: 0s;
+        opacity: 1;
+      }
+    `}
 `;

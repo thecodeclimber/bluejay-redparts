@@ -5,8 +5,10 @@ import classNames from 'classnames';
 import Slick from 'react-slick';
 // application
 import {
+  BlockPostsCarouselayout,
   BlockPostsCarouselLoader,
   BlockPostsCarouselItem,
+  BlockPostsCarousel
 } from '~/styled-components/block/BlockPosts';
 import AppSlick, { ISlickProps } from '~/components/shared/AppSlick';
 import PostCard from '~/components/shared/PostCard';
@@ -71,13 +73,10 @@ function BlockPosts(props: Props) {
     'block',
     'block-posts-carousel',
     `block-posts-carousel--layout--${layout}`,
-    {
-      'block-posts-carousel--loading': loading,
-    }
   );
 
   return (
-    <div className={rootClasses}>
+    <BlockPostsCarouselayout className={rootClasses} isLoading={loading}>
       <div className="container">
         <SectionHeader
           sectionTitle={blockTitle}
@@ -86,9 +85,9 @@ function BlockPosts(props: Props) {
           onNext={handleNextClick}
           onPrev={handlePrevClick}
         />
-        <div
+        <BlockPostsCarousel
           className={classNames('block-posts-carousel__carousel', {
-            'block-posts-carousel__carousel--has-items': posts.length > 0,
+            'block-posts-carousel__carousel--has-items': posts.length < 0,
           })}
         >
           <BlockPostsCarouselLoader />
@@ -102,9 +101,9 @@ function BlockPosts(props: Props) {
               </BlockPostsCarouselItem>
             ))}
           </AppSlick>
-        </div>
+        </BlockPostsCarousel>
       </div>
-    </div>
+    </BlockPostsCarouselayout>
   );
 }
 
