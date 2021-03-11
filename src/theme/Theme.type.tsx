@@ -34,6 +34,8 @@ declare module 'styled-components' {
       youtube: string;
       instagram: string;
       rss: string;
+      bordercolor: string;
+      subtitilecolor: string;
     };
     headers: {
       h1: {
@@ -85,6 +87,7 @@ declare module 'styled-components' {
       sm: number;
       md: number;
       lg: number;
+      xl: number;
     };
   }
 }

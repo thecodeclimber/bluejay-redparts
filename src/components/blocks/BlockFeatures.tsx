@@ -9,73 +9,78 @@ import {
   FiPaymentSecurity48Svg,
   FiTag48Svg,
 } from '~/svg';
-
+import {
+  BlockFeatureslist ,
+  BlockFeaturesItem ,
+  BlockFeaturesItemIcon ,
+  BlockFeaturesItemInfo ,
+  BlockFeaturesItemTitle ,
+  BlockFeaturesItemSubTitle
+} from '~/styled-components/blocks/BlockFeatures';
 export type IBlockFeaturesLayout = 'top-strip' | 'bottom-strip';
 
 interface Props {
     layout: IBlockFeaturesLayout;
 }
 
-function BlockFeatures(props: Props) {
-  const { layout } = props;
-
+function BlockFeatures() {
   return (
-    <div className={`block block-features block-features--layout--${layout}`}>
+    <div >
       <div className="container">
-        <ul className="block-features__list">
-          <li className="block-features__item">
-            <div className="block-features__item-icon">
+        <BlockFeatureslist >
+          <BlockFeaturesItem  >
+            <BlockFeaturesItemIcon >
               <FiFreeDelivery48Svg />
-            </div>
-            <div className="block-features__item-info">
-              <div className="block-features__item-title">
+            </BlockFeaturesItemIcon>
+            <BlockFeaturesItemInfo >
+              <BlockFeaturesItemTitle >
                 <FormattedMessage id="TEXT_SHOP_FEATURE_FREE_SHIPPING_TITLE" />
-              </div>
-              <div className="block-features__item-subtitle">
+              </BlockFeaturesItemTitle>
+              <BlockFeaturesItemSubTitle >
                 <FormattedMessage id="TEXT_SHOP_FEATURE_FREE_SHIPPING_SUBTITLE" />
-              </div>
-            </div>
-          </li>
-          <li className="block-features__item">
-            <div className="block-features__item-icon">
+              </BlockFeaturesItemSubTitle>
+            </BlockFeaturesItemInfo>
+          </BlockFeaturesItem >
+          <BlockFeaturesItem >
+            <BlockFeaturesItemIcon>
               <Fi24Hours48Svg />
-            </div>
-            <div className="block-features__item-info">
-              <div className="block-features__item-title">
+            </BlockFeaturesItemIcon>
+            <BlockFeaturesItemInfo >
+              <BlockFeaturesItemTitle >
                 <FormattedMessage id="TEXT_SHOP_FEATURE_SUPPORT_TITLE" />
-              </div>
-              <div className="block-features__item-subtitle">
+              </BlockFeaturesItemTitle>
+              <BlockFeaturesItemSubTitle>
                 <FormattedMessage id="TEXT_SHOP_FEATURE_SUPPORT_SUBTITLE" />
-              </div>
-            </div>
-          </li>
-          <li className="block-features__item">
-            <div className="block-features__item-icon">
+              </BlockFeaturesItemSubTitle>
+            </BlockFeaturesItemInfo>
+          </BlockFeaturesItem>
+          <BlockFeaturesItem >
+            <BlockFeaturesItemIcon >
               <FiPaymentSecurity48Svg />
-            </div>
-            <div className="block-features__item-info">
-              <div className="block-features__item-title">
+            </BlockFeaturesItemIcon>
+            <BlockFeaturesItemInfo >
+              <BlockFeaturesItemTitle >
                 <FormattedMessage id="TEXT_SHOP_FEATURE_SECURITY_TITLE" />
-              </div>
-              <div className="block-features__item-subtitle">
+              </BlockFeaturesItemTitle>
+              <BlockFeaturesItemSubTitle >
                 <FormattedMessage id="TEXT_SHOP_FEATURE_SECURITY_SUBTITLE" />
-              </div>
-            </div>
-          </li>
-          <li className="block-features__item">
-            <div className="block-features__item-icon">
+              </BlockFeaturesItemSubTitle>
+            </BlockFeaturesItemInfo>
+          </BlockFeaturesItem>
+          <BlockFeaturesItem >
+            <BlockFeaturesItemIcon >
               <FiTag48Svg />
-            </div>
-            <div className="block-features__item-info">
-              <div className="block-features__item-title">
+            </BlockFeaturesItemIcon>
+            <BlockFeaturesItemInfo >
+              <BlockFeaturesItemTitle >
                 <FormattedMessage id="TEXT_SHOP_FEATURE_HOT_OFFERS_TITLE" />
-              </div>
-              <div className="block-features__item-subtitle">
+              </BlockFeaturesItemTitle>
+              <BlockFeaturesItemSubTitle >
                 <FormattedMessage id="TEXT_SHOP_FEATURE_HOT_OFFERS_SUBTITLE" />
-              </div>
-            </div>
-          </li>
-        </ul>
+              </BlockFeaturesItemSubTitle>
+            </BlockFeaturesItemInfo>
+          </BlockFeaturesItem>
+        </BlockFeatureslist>
       </div>
     </div>
   );
