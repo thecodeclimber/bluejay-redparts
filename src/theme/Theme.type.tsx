@@ -14,6 +14,10 @@ declare module 'styled-components' {
       selectfontcolor: string;
       selectarrowcolor: string;
       selectdisabledfontcolor: string;
+      widgetsearchbuttoncolor: string;
+      widgetsearchbuttonhovercolor: string;
+      widgetsearchbuttonhoverbgcolor: string;
+      widgetsearchbuttonactivebgcolor: string;
       widgetproductimagebordercolor:string;
       widgetnewsletterbgcolor:string;
       widgetnewslettertextcolor:string;
