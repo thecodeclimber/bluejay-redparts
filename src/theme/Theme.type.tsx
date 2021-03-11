@@ -2,7 +2,7 @@ import 'styled-components';
 
 // and extend them!
 declare module 'styled-components' {
-  export interface Theme {
+  export interface DefaultTheme {
     colors: {
       white: string;
       black: string;
@@ -14,6 +14,9 @@ declare module 'styled-components' {
       selectfontcolor: string;
       selectarrowcolor: string;
       selectdisabledfontcolor: string;
+      plusiconcolor:string;
+      cardbgcolor:string;
+      widgetchildbgcolor:string;
       facebook: string;
       twitter: string;
       youtube: string;

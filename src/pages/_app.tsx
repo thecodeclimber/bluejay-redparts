@@ -7,7 +7,7 @@ import { NextComponentType, NextPageContext } from 'next';
 import { useStore } from 'react-redux';
 // application
 import config from '~/config';
-import Theme from '../theme/Theme';
+import Theme from "~/theme/Theme"
 import LanguageProvider, { getLanguageInitialProps, ILanguageProviderProps } from '~/services/i18n/provider';
 import Layout from '~/components/Layout';
 import PageTitle from '~/components/shared/PageTitle';
