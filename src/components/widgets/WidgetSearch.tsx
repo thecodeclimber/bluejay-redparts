@@ -2,19 +2,26 @@
 import React from 'react';
 // application
 import { Search20Svg } from '~/svg';
+import {
+  WidgetSearchForm,
+  WidgetSearchInput,
+  WidgetSearchButton,
+  WidgetSearchFiled,
+  WidgetWidgetSearch,
+} from '~/styled-components/widget/WidgetSeach';
 
 function WidgetSearch() {
-    return (
-        <div className="card widget widget-search">
-            <form action="" className="widget-search__form">
-                <input className="widget-search__input" type="search" placeholder="Blog search..." />
-                <button type="submit" className="widget-search__button">
-                    <Search20Svg />
-                </button>
-                <div className="widget-search__field" />
-            </form>
-        </div>
-    );
+  return (
+    <WidgetWidgetSearch>
+      <WidgetSearchForm action="">
+        <WidgetSearchInput type="search" placeholder="Blog search..." />
+        <WidgetSearchButton type="submit">
+          <Search20Svg />
+        </WidgetSearchButton>
+        <WidgetSearchFiled />
+      </WidgetSearchForm>
+    </WidgetWidgetSearch>
+  );
 }
 
 export default WidgetSearch;
