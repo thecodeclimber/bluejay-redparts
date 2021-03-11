@@ -2,7 +2,7 @@ import 'styled-components';
 
 // and extend them!
 declare module 'styled-components' {
-  export interface Theme {
+  export interface DefaultTheme {
     colors: {
       white: string;
       black: string;
@@ -15,6 +15,18 @@ declare module 'styled-components' {
       selectarrowcolor: string;
       selectdisabledfontcolor: string;
       widgetproductimagebordercolor:string;
+      widgetnewsletterbgcolor:string;
+      widgetnewslettertextcolor:string;
+      widgetanchorhovercolor: string;
+      widgetauthorbordercolor: string;
+      plusiconcolor:string;
+      cardbgcolor:string;
+      widgetchildbgcolor:string;
+      facebook: string;
+      twitter: string;
+      youtube: string;
+      instagram: string;
+      rss: string;
     };
     headers: {
       h1: {
@@ -60,6 +72,12 @@ declare module 'styled-components' {
       medium: number;
       bold: number;
       bolder: number;
+    };
+    breakPoints: {
+      xs: number;
+      sm: number;
+      md: number;
+      lg: number;
     };
   }
 }
