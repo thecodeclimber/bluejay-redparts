@@ -15,6 +15,7 @@ const theme: DefaultTheme = {
     selectfontcolor: '#262626',
     selectarrowcolor: '#4d4d4d',
     selectdisabledfontcolor: '#999',
+    widgetproductimagebordercolor:'#00000014',
     widgetnewsletterbgcolor:'#333',
     widgetnewslettertextcolor: '#9e9e9e',
     widgetanchorhovercolor: '#007bff',
