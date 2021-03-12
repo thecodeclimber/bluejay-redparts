@@ -1,5 +1,7 @@
 import styled, { css } from 'styled-components';
 
+const BlockProductsCarouselGutter = "20px";
+
 export const BlockPostsCarouselLoader = styled.div`
   left: 0;
   top: 0;
@@ -17,7 +19,7 @@ export const BlockPostsCarouselLoader = styled.div`
     top: -10px;
     width: calc(100% + 20px);
     height: calc(100% + 20px);
-    background: #fafafa;
+    background: ${props => `${props.theme.colors.blockPostsLoaderBg}`};
     opacity: 0.9;
   }
   &:after {

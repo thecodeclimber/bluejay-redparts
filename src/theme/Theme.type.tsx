@@ -26,6 +26,7 @@ declare module 'styled-components' {
       widgetnewslettertextcolor: string;
       widgetanchorhovercolor: string;
       widgetauthorbordercolor: string;
+      blockPostsLoaderBg:string;
       plusiconcolor: string;
       cardbgcolor: string;
       widgetchildbgcolor: string;
