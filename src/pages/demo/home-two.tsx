@@ -159,7 +159,7 @@ function Page() {
             <BlockSpace layout="divider-nl" className="d-xl-block d-none" />
             <BlockProductsColumns columns={columns} />
             <BlockSpace layout="divider-nl" />
-            <BlockFeatures  />
+            <BlockFeatures layout="bottom-strip"/>
         </React.Fragment>
     );
 }

@@ -23,11 +23,12 @@ interface Props {
     layout: IBlockFeaturesLayout;
 }
 
-function BlockFeatures() {
+function BlockFeatures(props: Props) {
+  const { layout } = props;
   return (
     <div >
       <div className="container">
-        <BlockFeatureslist >
+        <BlockFeatureslist layout={layout}>
           <BlockFeaturesItem  >
             <BlockFeaturesItemIcon >
               <FiFreeDelivery48Svg />

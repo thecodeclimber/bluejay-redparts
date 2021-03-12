@@ -1,10 +1,25 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+
+const TopStrip = css`
+  border-bottom: 2px solid ${(props) => `${props.theme.colors.bordercolor}`};
+`;
+const BottomStrip = css`
+  border-top: 2px solid ${(props) => `${props.theme.colors.bordercolor}`};
+`;
 
 export const BlockFeatureslist = styled.ul`
   display: flex;
   list-style: none;
   margin: 0;
   padding: 8px 40px;
+  ${(props: { layout?: any }) => {
+    if (props.layout === 'bottom-strip') {
+      return BottomStrip;
+    }
+    if (props.layout === 'top-strip') {
+      return TopStrip;
+    }
+  }}
   border-top: 2px solid ${(props) => `${props.theme.colors.bordercolor}`};
   @media (max-width: ${(props) => `${props.theme.breakPoints.xl}`}px) {
     padding: 0;
