@@ -34,6 +34,8 @@ declare module 'styled-components' {
       youtube: string;
       instagram: string;
       rss: string;
+      subtitlecolor:string;
+      shadowcolor:string;
     };
     headers: {
       h1: {
