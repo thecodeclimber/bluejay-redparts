@@ -34,7 +34,8 @@ const theme: DefaultTheme = {
     twitter:'#00a2e8',
     youtube:'#e52e2e',
     instagram:'#815dc7',
-    rss:'#ffc338'
+    rss:'#ffc338' ,
+    subtitlecolor:'#6c757d',
   },
   headers: {
     h1: {
@@ -86,6 +87,7 @@ const theme: DefaultTheme = {
     sm: 768,
     md: 992,
     lg: 1200,
+    xl:1400,
   },
 };
 
