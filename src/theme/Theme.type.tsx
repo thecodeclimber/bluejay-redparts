@@ -24,6 +24,7 @@ declare module 'styled-components' {
       widgetproductimagebordercolor: string;
       widgetnewsletterbgcolor: string;
       widgetnewslettertextcolor: string;
+      ItemDetailsColor: string;
       widgetanchorhovercolor: string;
       widgetauthorbordercolor: string;
       plusiconcolor: string;
@@ -34,6 +35,7 @@ declare module 'styled-components' {
       youtube: string;
       instagram: string;
       rss: string;
+      OfferBg: string;
     };
     headers: {
       h1: {
@@ -85,6 +87,7 @@ declare module 'styled-components' {
       sm: number;
       md: number;
       lg: number;
+      xl: number;
     };
   }
 }
