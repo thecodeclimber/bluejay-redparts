@@ -6,12 +6,9 @@ import Head from 'next/head';
 import { NextComponentType, NextPageContext } from 'next';
 import { useStore } from 'react-redux';
 // application
-import Theme from '~/theme/Theme';
 import config from '~/config';
-import LanguageProvider, {
-  getLanguageInitialProps,
-  ILanguageProviderProps,
-} from '~/services/i18n/provider';
+import Theme from "~/theme/Theme"
+import LanguageProvider, { getLanguageInitialProps, ILanguageProviderProps } from '~/services/i18n/provider';
 import Layout from '~/components/Layout';
 import PageTitle from '~/components/shared/PageTitle';
 import { AppDispatch } from '~/store/types';
@@ -90,16 +87,13 @@ function App(props: Props) {
     <LanguageProvider {...languageInitialProps}>
       <CurrentVehicleGarageProvider>
         <Theme>
-          <PageTitle />
+        <PageTitle />
 
-          <Head>
-            <meta
-              name="viewport"
-              content="width=device-width, initial-scale=1"
-            />
-          </Head>
+        <Head>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+        </Head>
 
-          {page}
+        {page}
         </Theme>
       </CurrentVehicleGarageProvider>
     </LanguageProvider>

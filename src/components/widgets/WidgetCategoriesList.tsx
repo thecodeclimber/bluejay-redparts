@@ -1,8 +1,20 @@
-// react
-import React from 'react';
+import React, { useState } from 'react';
 // third-party
 import classNames from 'classnames';
 // application
+import {
+  WidgetCategoriesListRootItem,
+  WidgetCategoriesListRootLink,
+  WidgetCategoriesListShowMoreButton,
+  WidgetCategoriesListChildItem,
+  WidgetCategoriesListBody,
+  WidgetCategoriesListRoot,
+  WidgetCategoriesListChild,
+  ShowMoreIcon,
+  WidgetCategoriesListShowMoreArrow,
+  WidgetCategoriesListShowMoreCollapseText,
+  WidgetCategoriesListShowMoreExpandText,
+} from '~/styled-components/widget/WidgetCategoriesList';
 import AppLink from '~/components/shared/AppLink';
 import Collapse, { ICollapseRenderFnData } from '~/components/shared/Collapse';
 import url from '~/services/url';
@@ -13,91 +25,88 @@ type RenderFnData = ICollapseRenderFnData<HTMLLIElement, HTMLUListElement>;
 type RenderFn = (data: RenderFnData, category: ICategory) => React.ReactNode;
 
 interface Props {
-    categories: ICategory[];
+  categories: ICategory[];
 }
 
 function WidgetCategoriesList(props: Props) {
-    const { categories } = props;
+  const { categories } = props;
+  const [isOpen, setIsOpen] = useState(false);
 
-    const renderCategory: RenderFn = ({ toggle, setItemRef, setContentRef }, category: ICategory) => {
-        const subs: ICategory[] = category.children || [];
+  const handleToggle = () => {
+    setIsOpen((prevCheck) => !prevCheck);
+  };
 
-        return (
-            <li
-                ref={setItemRef}
-                className={classNames('widget-categories-list__root-item', {
-                    'widget-categories-list__root-item--has-children': category.children?.length,
-                })}
-            >
-                <AppLink
-                    href={url.category(category)}
-                    className="widget-categories-list__root-link"
-                >
-                    {category.name}
-                </AppLink>
-
-                {subs.length > 0 && (
-                    <ul className="widget-categories-list__child">
-                        {subs.slice(0, subs.length > 6 ? 5 : 6).map((sub, subIdx) => (
-                            <li key={subIdx} className="widget-categories-list__child-item">
-                                <AppLink
-                                    href={url.category(sub)}
-                                    className="widget-categories-list__child-link"
-                                >
-                                    {sub.name}
-                                </AppLink>
-                            </li>
-                        ))}
-                    </ul>
-                )}
-
-                {subs.length > 6 && (
-                    <React.Fragment>
-                        <ul className="widget-categories-list__child" ref={setContentRef}>
-                            {subs.slice(5).map((sub, subIdx) => (
-                                <li
-                                    key={subIdx}
-                                    className="widget-categories-list__child-item"
-                                >
-                                    <AppLink
-                                        href={url.category(sub)}
-                                        className="widget-categories-list__child-link"
-                                    >
-                                        {sub.name}
-                                    </AppLink>
-                                </li>
-                            ))}
-                        </ul>
-                        <button
-                            type="button"
-                            className="widget-categories-list__show-more"
-                            onClick={toggle}
-                        >
-                            <span className="widget-categories-list__show-more-expand-text">Show More</span>
-                            <span className="widget-categories-list__show-more-collapse-text">Show Less</span>
-                            <span className="widget-categories-list__show-more-arrow"><ArrowDown9x6Svg /></span>
-                        </button>
-                    </React.Fragment>
-                )}
-            </li>
-        );
-    };
+  const renderCategory: RenderFn = (
+    { setItemRef, setContentRef },
+    category: ICategory
+  ) => {
+    const subs: ICategory[] = category.children || [];
 
     return (
-        <div className="card widget widget-categories-list">
-            <div className="widget-categories-list__body">
-                <ul className="widget-categories-list__root">
-                    {categories.map((category, categoryIdx) => (
-                        <Collapse<HTMLLIElement, HTMLUListElement>
-                            key={categoryIdx}
-                            toggleClass="widget-categories-list--open"
-                            render={(args) => renderCategory(args, category)}
-                        />
-                    ))}
-                </ul>
-            </div>
-        </div>
+      <WidgetCategoriesListRootItem
+        ref={setItemRef}
+      >
+        <WidgetCategoriesListRootLink href={url.category(category)}>
+          {category.name}
+        </WidgetCategoriesListRootLink>
+
+        {subs.length > 0 && (
+          <WidgetCategoriesListChild isOpen={true}>
+            {subs.slice(0, subs.length > 6 ? 5 : 6).map((sub, subIdx) => (
+              <WidgetCategoriesListChildItem key={subIdx}>
+                <AppLink href={url.category(sub)}>{sub.name}</AppLink>
+              </WidgetCategoriesListChildItem>
+            ))}
+          </WidgetCategoriesListChild>
+        )}
+
+        {subs.length > 6 && (
+          <React.Fragment>
+            <WidgetCategoriesListChild ref={setContentRef} isOpen={isOpen}>
+              {subs.slice(5).map((sub, subIdx) => (
+                <WidgetCategoriesListChildItem key={subIdx}>
+                  <AppLink href={url.category(sub)}>{sub.name}</AppLink>
+                </WidgetCategoriesListChildItem>
+              ))}
+            </WidgetCategoriesListChild>
+            <WidgetCategoriesListShowMoreButton
+              type="button"
+              onClick={handleToggle}
+              isOpen={isOpen}
+            >
+              <WidgetCategoriesListShowMoreCollapseText>
+                Show Less
+              </WidgetCategoriesListShowMoreCollapseText>
+
+              <WidgetCategoriesListShowMoreExpandText>
+                Show More
+              </WidgetCategoriesListShowMoreExpandText>
+
+              <ShowMoreIcon >
+                <WidgetCategoriesListShowMoreArrow isOpen={isOpen}/>
+              </ShowMoreIcon>
+            </WidgetCategoriesListShowMoreButton>
+          </React.Fragment>
+        )}
+      </WidgetCategoriesListRootItem>
     );
+  };
+
+  return (
+    <div className="card">
+      <WidgetCategoriesListBody>
+        <WidgetCategoriesListRoot>
+          {categories.map((category, categoryIdx) => (
+            <Collapse<HTMLLIElement, HTMLUListElement>
+              key={categoryIdx}
+              toggleClass=""
+              render={(args) => renderCategory(args, category)}
+            />
+          ))}
+        </WidgetCategoriesListRoot>
+      </WidgetCategoriesListBody>
+    </div>
+  );
 }
 
 export default WidgetCategoriesList;
