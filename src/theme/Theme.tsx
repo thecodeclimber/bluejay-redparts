@@ -27,6 +27,7 @@ const theme: DefaultTheme = {
     widgetnewslettertextcolor: '#9e9e9e',
     widgetanchorhovercolor: '#007bff',
     widgetauthorbordercolor: '#ebebeb',
+    BlockSiteFooterColor:'#fafafa',
     plusiconcolor:'#ccc',
     cardbgcolor:'#f2f2f2',
     widgetchildbgcolor:'#f5f5f5',
