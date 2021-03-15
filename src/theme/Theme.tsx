@@ -34,7 +34,11 @@ const theme: DefaultTheme = {
     twitter:'#00a2e8',
     youtube:'#e52e2e',
     instagram:'#815dc7',
-    rss:'#ffc338'
+    rss:'#ffc338' ,
+    cardbodybgcolor:'#1a1a1a99' ,
+    anchorcolor:'#ffdf40',
+    activebordercolor :'#1e74df',
+    hoverbordercolor:'#e0e0e0',
   },
   headers: {
     h1: {
