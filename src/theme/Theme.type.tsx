@@ -26,6 +26,7 @@ declare module 'styled-components' {
       widgetnewslettertextcolor: string;
       widgetanchorhovercolor: string;
       widgetauthorbordercolor: string;
+      formProductTitle: string;
       plusiconcolor: string;
       cardbgcolor: string;
       widgetchildbgcolor: string;
