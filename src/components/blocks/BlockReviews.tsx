@@ -4,6 +4,18 @@ import React from 'react';
 import AppImage from '~/components/shared/AppImage';
 import AppSlick, { ISlickProps } from '~/components/shared/AppSlick';
 import Rating from '~/components/shared/Rating';
+import {
+    BlockBlockReviews ,
+    BlockReviewsTitle ,
+    BlockReviewsSubTitle ,
+    BlockReviewsItem ,
+    BlockReviewsItemAvatar ,
+    BlockReviewsItemContent ,
+    BlockReviewsItemText ,
+    BlockReviewsItemMeta ,
+    BlockReviewsItemRating ,
+    BlockReviewsItemAuthor
+} from '~/styled-components/blocks/BlockReviews';
 // data
 import dataSiteTestimonials from '~/data/siteTestimonials';
 
@@ -18,38 +30,38 @@ const slickSettings: ISlickProps = {
 
 function BlockReviews() {
     return (
-        <div className="block block-reviews">
+        <BlockBlockReviews >
             <div className="container">
-                <div className="block-reviews__title">Testimonials</div>
-                <div className="block-reviews__subtitle">
+                <BlockReviewsTitle >Testimonials</BlockReviewsTitle>
+                <BlockReviewsSubTitle >
                     During our work we have accumulated
                     <br />
                     hundreds of positive reviews.
-                </div>
+                </BlockReviewsSubTitle>
                 <div className="block-reviews__list">
                     <AppSlick {...slickSettings}>
                         {dataSiteTestimonials.map((testimonial, index) => (
-                            <div key={index} className="block-reviews__item">
-                                <div className="block-reviews__item-avatar">
+                            <BlockReviewsItem key={index} >
+                                <BlockReviewsItemAvatar >
                                     <AppImage src={testimonial.avatar} />
-                                </div>
-                                <div className="block-reviews__item-content">
-                                    <div className="block-reviews__item-text">{testimonial.review}</div>
-                                    <div className="block-reviews__item-meta">
-                                        <div className="block-reviews__item-rating">
+                                </BlockReviewsItemAvatar>
+                                <BlockReviewsItemContent >
+                                    <BlockReviewsItemText >{testimonial.review}</BlockReviewsItemText>
+                                    <BlockReviewsItemMeta >
+                                        <BlockReviewsItemRating >
                                             <Rating value={testimonial.rating} />
-                                        </div>
-                                        <div className="block-reviews__item-author">
+                                        </BlockReviewsItemRating>
+                                        <BlockReviewsItemAuthor >
                                             {`${testimonial.name}, ${testimonial.position}`}
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                                        </BlockReviewsItemAuthor>
+                                    </BlockReviewsItemMeta>
+                                </BlockReviewsItemContent>
+                            </BlockReviewsItem>
                         ))}
                     </AppSlick>
                 </div>
             </div>
-        </div>
+        </BlockBlockReviews>
     );
 }
 

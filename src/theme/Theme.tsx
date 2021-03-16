@@ -7,14 +7,24 @@ const theme: DefaultTheme = {
   colors: {
     white: '#FFFFFF',
     black: '#000000',
+    dark: '#333',
     primary: '#1E74DF',
+    link: '#007bff',
     success: '#07BC0C',
     grey: '#545454',
     lightGrey: '#4c4c4c',
     selectbgcolor: '#fff',
+    blockFinderBgColor: '#333',
     selectfontcolor: '#262626',
     selectarrowcolor: '#4d4d4d',
     selectdisabledfontcolor: '#999',
+    blockcategoriesbgcolor: '#f6f6f6',
+    blockcategoriesbodycolor: '#00000014',
+    linkcolor: '#007bff',
+    listcolor: '#6c757d',
+    blockBrandDivider: '#ebebeb',
+    blockBrandHoverFontColor: '#737373',
+    blockBrandsItemName: '#b3b3b3',
     tagBgColor: '#f2f2f2',
     tagBgHoverColor: '#e5e5e5',
     tagBgActiveColor: '#d9d9d9',
@@ -37,6 +47,11 @@ const theme: DefaultTheme = {
     instagram: '#815dc7',
     rss: '#ffc338',
     OfferBg: '#ffdf40',
+    subtitlecolor: '#6c757d',
+    shadowcolor: '#00000017',
+    boxshadowcolor: '#00000017',
+    bordercolor: '#ebebeb',
+    subtitilecolor: '#6c757d',
   },
   headers: {
     h1: {
@@ -89,6 +104,15 @@ const theme: DefaultTheme = {
     md: 992,
     lg: 1200,
     xl: 1400,
+  },
+  boxShadow: {
+    blockFinderTextShadow: '0 1px 3px rgb(0 0 0 / 20%)',
+  },
+  background: {
+    blockbanneritemlineargradient:
+      'linear-gradient(to right,rgba(26, 26, 26, 0.98) 25%,rgba(26, 26, 26, 0) 90%)',
+    blockbanneritemmobilelineargradient:
+      'linear-gradient(to right, rgba(26, 26, 26, 0.98) 35%,rgba(26, 26, 26, 0) 100%)',
   },
 };
 
