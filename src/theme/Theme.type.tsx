@@ -6,14 +6,24 @@ declare module 'styled-components' {
     colors: {
       white: string;
       black: string;
+      dark: string;
       primary: string;
+      link: string;
       success: string;
       grey: string;
       lightGrey: string;
       selectbgcolor: string;
+      blockFinderBgColor: string;
       selectfontcolor: string;
       selectarrowcolor: string;
       selectdisabledfontcolor: string;
+      blockcategoriesbgcolor: string;
+      blockcategoriesbodycolor: string;
+      linkcolor: string;
+      listcolor: string;
+      blockBrandDivider: string;
+      blockBrandHoverFontColor: string;
+      blockBrandsItemName: string;
       tagBgColor: string;
       tagBgHoverColor: string;
       tagBgActiveColor: string;
@@ -26,6 +36,7 @@ declare module 'styled-components' {
       widgetnewslettertextcolor: string;
       widgetanchorhovercolor: string;
       widgetauthorbordercolor: string;
+      blockbanneritemtitlecolor: string;
       plusiconcolor: string;
       cardbgcolor: string;
       widgetchildbgcolor: string;
@@ -86,6 +97,14 @@ declare module 'styled-components' {
       sm: number;
       md: number;
       lg: number;
+      xl: number;
+    };
+    background: {
+      blockbanneritemlineargradient: string;
+      blockbanneritemmobilelineargradient: string;
+    };
+    boxShadow: {
+      blockFinderTextShadow: string;
     };
   }
 }
