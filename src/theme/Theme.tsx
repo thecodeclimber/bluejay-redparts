@@ -37,7 +37,6 @@ const theme: DefaultTheme = {
     widgetnewslettertextcolor: '#9e9e9e',
     widgetanchorhovercolor: '#007bff',
     widgetauthorbordercolor: '#ebebeb',
-    blockbanneritemtitlecolor: '#ffdf40',
     plusiconcolor: '#ccc',
     cardbgcolor: '#f2f2f2',
     widgetchildbgcolor: '#f5f5f5',
@@ -46,6 +45,8 @@ const theme: DefaultTheme = {
     youtube: '#e52e2e',
     instagram: '#815dc7',
     rss: '#ffc338',
+    bordercolor: '#ebebeb',
+    blockbanneritemtitlecolor: '#ffdf40',
   },
   headers: {
     h1: {
