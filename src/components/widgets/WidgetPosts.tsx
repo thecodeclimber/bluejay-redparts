@@ -5,43 +5,50 @@ import AppImage from '~/components/shared/AppImage';
 import AppLink from '~/components/shared/AppLink';
 import url from '~/services/url';
 import { IPost } from '~/interfaces/post';
-
+import {
+  WidgetWidgetPosts,
+  WidgetHeader,
+  WidgetPostsList,
+  WidgetPostsItem,
+  WidgetPostsImage,
+  WidgetPostsInfo,
+  WidgetPostsName,
+  WidgetPostsDate,
+} from '~/styled-components/widget/WidgetPosts';
 interface Props {
-    widgetTitle?: React.ReactNode;
-    posts: IPost[];
+  widgetTitle?: React.ReactNode;
+  posts: IPost[];
 }
 
 function WidgetPosts(props: Props) {
-    const { widgetTitle, posts } = props;
+  const { widgetTitle, posts } = props;
 
-    return (
-        <div className="card widget widget-posts">
-            {widgetTitle && (
-                <div className="widget__header">
-                    <h4>{widgetTitle}</h4>
-                </div>
-            )}
-            <ul className="widget-posts__list">
-                {posts.map((post, index) => (
-                    <li key={index} className="widget-posts__item">
-                        <div className="widget-posts__image">
-                            <AppLink href={url.post(post)}>
-                                <AppImage src={post.image} />
-                            </AppLink>
-                        </div>
-                        <div className="widget-posts__info">
-                            <div className="widget-posts__name">
-                                <AppLink href={url.post(post)}>
-                                    {post.title}
-                                </AppLink>
-                            </div>
-                            <div className="widget-posts__date">{post.date}</div>
-                        </div>
-                    </li>
-                ))}
-            </ul>
-        </div>
-    );
+  return (
+    <WidgetWidgetPosts>
+      {widgetTitle && (
+        <WidgetHeader>
+          <h4>{widgetTitle}</h4>
+        </WidgetHeader>
+      )}
+      <WidgetPostsList>
+        {posts.map((post, index) => (
+          <WidgetPostsItem key={index}>
+            <WidgetPostsImage>
+              <AppLink href={url.post(post)}>
+                <AppImage src={post.image} />
+              </AppLink>
+            </WidgetPostsImage>
+            <WidgetPostsInfo>
+              <WidgetPostsName>
+                <AppLink href={url.post(post)}>{post.title}</AppLink>
+              </WidgetPostsName>
+              <WidgetPostsDate>{post.date}</WidgetPostsDate>
+            </WidgetPostsInfo>
+          </WidgetPostsItem>
+        ))}
+      </WidgetPostsList>
+    </WidgetWidgetPosts>
+  );
 }
 
 export default WidgetPosts;
