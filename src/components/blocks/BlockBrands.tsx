@@ -6,8 +6,8 @@ import {
   BlockBrandsItem,
   BlockBrandsItemLink,
   BlockBrandsItemName,
-  BlockBrandsDivider
-} from '~/styled-components/block/BlockBrands';
+  BlockBrandsDivider,
+} from '~/styled-components/blocks/BlockBrands';
 import AppImage from '~/components/shared/AppImage';
 import { IBrand } from '~/interfaces/brand';
 
@@ -22,7 +22,7 @@ function BlockBrands(props: Props) {
   const { layout, brands } = props;
 
   return (
-    <div >
+    <div>
       <div className="container">
         <BlockBrandsList>
           {brands.map((brand, brandIdx) => (

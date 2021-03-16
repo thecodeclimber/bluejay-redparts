@@ -3,7 +3,7 @@ import React from 'react';
 import {
   BlockMapStyledComponent,
   BlockMapBody,
-} from '~/styled-components/block/BlockMap';
+} from '~/styled-components/blocks/BlockMap';
 
 function BlockMap() {
   return (

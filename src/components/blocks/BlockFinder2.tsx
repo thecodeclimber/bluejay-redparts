@@ -10,7 +10,7 @@ import {
   BlockFinderBody,
   BlockFinderTitle,
   BlockFinderSubtitle,
-} from '~/styled-components/block/BlockFinder2';
+} from '~/styled-components/blocks/BlockFinder2';
 import url from '~/services/url';
 import VehicleSelect from '~/components/shared/VehicleSelect';
 import { baseUrl } from '~/services/utils';
