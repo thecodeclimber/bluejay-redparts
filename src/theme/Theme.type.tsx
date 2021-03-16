@@ -31,6 +31,7 @@ declare module 'styled-components' {
       widgetnewslettertextcolor: string;
       widgetanchorhovercolor: string;
       widgetauthorbordercolor: string;
+      blockbanneritemtitlecolor:string;
       plusiconcolor: string;
       cardbgcolor: string;
       widgetchildbgcolor: string;
@@ -85,6 +86,10 @@ declare module 'styled-components' {
       bold: number;
       bolder: number;
     };
+    background :{
+      blockbanneritemlineargradient:string;
+      blockbanneritemmobilelineargradient:string;
+    }
     breakPoints: {
       xs: number,
       sm: number,

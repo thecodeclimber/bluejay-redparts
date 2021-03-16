@@ -3,60 +3,68 @@ import React from 'react';
 // third-party
 import { FormattedMessage, useIntl } from 'react-intl';
 // application
-import AppImage from '~/components/shared/AppImage';
-import AppLink from '~/components/shared/AppLink';
-
+import {
+  BlockBlockBanners,
+  BlockBannersList,
+  BlockBannerItemStyleOne,
+  BlockBannersItemImage,
+  ReflectRtl,
+  BlockBannersItemImageBlur,
+  BlockBannerItemTitle,
+  BlockBannersItemDetails,
+  BlockBannersItemButton,
+  BlockBannerItemStyleTwo,
+  BlockBannerItemTitleTwo,
+} from '~/styled-components/block/BlockBanners';
 function BlockBanners() {
   const intl = useIntl();
 
   return (
-    <div className="block block-banners">
+    <BlockBlockBanners>
       <div className="container">
-        <div className="block-banners__list">
-          <AppLink href="/" className="block-banners__item block-banners__item--style--one">
-            <span className="block-banners__item-image">
-              <AppImage className="reflect-rtl" src="/images/banners/banner1.jpg" />
-            </span>
-            <span className="block-banners__item-image block-banners__item-image--blur">
-              <AppImage className="reflect-rtl" src="/images/banners/banner1.jpg" />
-            </span>
-            <span className="block-banners__item-title">
+        <BlockBannersList>
+          <BlockBannerItemStyleOne href="/">
+            <BlockBannersItemImage>
+              <ReflectRtl src="/images/banners/banner1.jpg" />
+            </BlockBannersItemImage>
+            <BlockBannersItemImageBlur>
+              <ReflectRtl src="/images/banners/banner1.jpg" />
+            </BlockBannersItemImageBlur>
+            <BlockBannerItemTitle>
               <FormattedMessage id="TEXT_BANNER_ONE_TITLE" />
-            </span>
-            <span
-              className="block-banners__item-details"
+            </BlockBannerItemTitle>
+            <BlockBannersItemDetails
               dangerouslySetInnerHTML={{
                 __html: intl.formatMessage({ id: 'TEXT_BANNER_ONE_SUBTITLE' }),
               }}
             />
-            <span className="block-banners__item-button btn btn-primary btn-sm">
+            <BlockBannersItemButton className="btn btn-primary btn-sm">
               <FormattedMessage id="TEXT_BANNER_ONE_BUTTON" />
-            </span>
-          </AppLink>
+            </BlockBannersItemButton>
+          </BlockBannerItemStyleOne>
 
-          <AppLink href="/" className="block-banners__item block-banners__item--style--two">
-            <span className="block-banners__item-image">
-              <AppImage className="reflect-rtl" src="/images/banners/banner2.jpg" />
-            </span>
-            <span className="block-banners__item-image block-banners__item-image--blur">
-              <AppImage className="reflect-rtl" src="/images/banners/banner2.jpg" />
-            </span>
-            <span className="block-banners__item-title">
+          <BlockBannerItemStyleTwo href="/">
+            <BlockBannersItemImage>
+              <ReflectRtl src="/images/banners/banner2.jpg" />
+            </BlockBannersItemImage>
+            <BlockBannersItemImageBlur>
+              <ReflectRtl src="/images/banners/banner2.jpg" />
+            </BlockBannersItemImageBlur>
+            <BlockBannerItemTitleTwo>
               <FormattedMessage id="TEXT_BANNER_TWO_TITLE" />
-            </span>
-            <span
-              className="block-banners__item-details"
+            </BlockBannerItemTitleTwo>
+            <BlockBannersItemDetails
               dangerouslySetInnerHTML={{
                 __html: intl.formatMessage({ id: 'TEXT_BANNER_TWO_SUBTITLE' }),
               }}
             />
-            <span className="block-banners__item-button btn btn-primary btn-sm">
+            <BlockBannersItemButton className=" btn btn-primary btn-sm">
               <FormattedMessage id="TEXT_BANNER_TWO_BUTTON" />
-            </span>
-          </AppLink>
-        </div>
+            </BlockBannersItemButton>
+          </BlockBannerItemStyleTwo>
+        </BlockBannersList>
       </div>
-    </div>
+    </BlockBlockBanners>
   );
 }
 

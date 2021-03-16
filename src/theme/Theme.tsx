@@ -32,6 +32,7 @@ const theme: DefaultTheme = {
     widgetnewslettertextcolor: '#9e9e9e',
     widgetanchorhovercolor: '#007bff',
     widgetauthorbordercolor: '#ebebeb',
+    blockbanneritemtitlecolor:'#ffdf40',
     plusiconcolor:'#ccc',
     cardbgcolor:'#f2f2f2',
     widgetchildbgcolor:'#f5f5f5',
@@ -93,7 +94,11 @@ const theme: DefaultTheme = {
     lg: 1200,
     xl: 1400,
   },
-  boxShadow:{
+  background : {
+   blockbanneritemlineargradient: 'linear-gradient(to right,rgba(26, 26, 26, 0.98) 25%,rgba(26, 26, 26, 0) 90%)',
+   blockbanneritemmobilelineargradient: 'linear-gradient(to right, rgba(26, 26, 26, 0.98) 35%,rgba(26, 26, 26, 0) 100%)',
+  },
+   boxShadow:{
     blockFinderTextShadow:  '0 1px 3px rgba(#000, .2)'
   }
 };
