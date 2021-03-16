@@ -7,8 +7,8 @@ import {
   BlockHeaderBody,
   BlockHeaderTitle,
   BlockHeaderBreadcrumb,
-  BlockHeaderStyledComponent
-} from '~/styled-components/block/BlockHeader';
+  BlockHeaderStyledComponent,
+} from '~/styled-components/blocks/BlockHeader';
 import { ILink } from '~/interfaces/link';
 import { useMedia } from '~/store/hooks';
 

@@ -13,17 +13,18 @@ declare module 'styled-components' {
       grey: string;
       lightGrey: string;
       selectbgcolor: string;
+      blockFinderBgColor: string;
       selectfontcolor: string;
       selectarrowcolor: string;
       selectdisabledfontcolor: string;
-      blockcategoriesbgcolor:string;
-      blockcategoriesbodycolor:string;
-      linkcolor:string;
-      listcolor:string;
-      blockBrandDivider:string ,
-    blockBrandHoverFontColor:string,
-    blockBrandsItemName:string,
-    tagBgColor: string,
+      blockcategoriesbgcolor: string;
+      blockcategoriesbodycolor: string;
+      linkcolor: string;
+      listcolor: string;
+      blockBrandDivider: string;
+      blockBrandHoverFontColor: string;
+      blockBrandsItemName: string;
+      tagBgColor: string;
       tagBgHoverColor: string;
       tagBgActiveColor: string;
       widgetsearchbuttoncolor: string;
@@ -35,7 +36,7 @@ declare module 'styled-components' {
       widgetnewslettertextcolor: string;
       widgetanchorhovercolor: string;
       widgetauthorbordercolor: string;
-      blockbanneritemtitlecolor:string;
+      blockbanneritemtitlecolor: string;
       plusiconcolor: string;
       cardbgcolor: string;
       widgetchildbgcolor: string;
@@ -95,14 +96,14 @@ declare module 'styled-components' {
       sm: number;
       md: number;
       lg: number;
-      xl:number;
-    },
-    background :{
-      blockbanneritemlineargradient:string;
-      blockbanneritemmobilelineargradient:string;
-    }
+      xl: number;
+    };
+    background: {
+      blockbanneritemlineargradient: string;
+      blockbanneritemmobilelineargradient: string;
+    };
     boxShadow: {
       blockFinderTextShadow: string;
     };
-}
+  }
 }

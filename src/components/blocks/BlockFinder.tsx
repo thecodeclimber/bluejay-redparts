@@ -12,8 +12,8 @@ import {
   BlockFinderSubtitle,
   BlockFinderForm,
   BlockFinderSelect,
-  BlockFinderButton
-} from '~/styled-components/block/BlockFinder';
+  BlockFinderButton,
+} from '~/styled-components/blocks/BlockFinder';
 import url from '~/services/url';
 
 import { baseUrl } from '~/services/utils';
@@ -54,13 +54,11 @@ function BlockFinder() {
         <BlockFinderTitle>
           <FormattedMessage id="TEXT_BLOCK_FINDER_TITLE" />
         </BlockFinderTitle>
-        <BlockFinderSubtitle >
+        <BlockFinderSubtitle>
           <FormattedMessage id="TEXT_BLOCK_FINDER_SUBTITLE" />
         </BlockFinderSubtitle>
-        <BlockFinderForm  onSubmit={onSubmit}>
-          <BlockFinderSelect
-            onVehicleChange={setVehicle}
-          />
+        <BlockFinderForm onSubmit={onSubmit}>
+          <BlockFinderSelect onVehicleChange={setVehicle} />
 
           <BlockFinderButton type="submit">
             <FormattedMessage id="BUTTON_BLOCK_FINDER_SEARCH" />

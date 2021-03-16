@@ -15,7 +15,7 @@ import {
   BlockBannersItemButton,
   BlockBannerItemStyleTwo,
   BlockBannerItemTitleTwo,
-} from '~/styled-components/block/BlockBanners';
+} from '~/styled-components/blocks/BlockBanners';
 function BlockBanners() {
   const intl = useIntl();
 

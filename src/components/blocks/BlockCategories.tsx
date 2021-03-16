@@ -23,7 +23,7 @@ import {
   CategoryCardChildren,
   CategoryCardActions,
   CategoryCardLink,
-} from '~/styled-components/block/BlockCategories';
+} from '~/styled-components/blocks/BlockCategories';
 interface Props {
   blockTitle?: React.ReactNode;
   categories: ICategory[];

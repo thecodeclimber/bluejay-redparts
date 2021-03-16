@@ -14,6 +14,7 @@ const theme: DefaultTheme = {
     grey: '#545454',
     lightGrey: '#4c4c4c',
     selectbgcolor: '#fff',
+    blockFinderBgColor: '#333',
     selectfontcolor: '#262626',
     selectarrowcolor: '#4d4d4d',
     selectdisabledfontcolor: '#999',
@@ -98,14 +99,14 @@ const theme: DefaultTheme = {
     lg: 1200,
     xl: 1400,
   },
+  boxShadow: {
+    blockFinderTextShadow: '0 1px 3px rgb(0 0 0 / 20%)',
+  },
   background: {
     blockbanneritemlineargradient:
       'linear-gradient(to right,rgba(26, 26, 26, 0.98) 25%,rgba(26, 26, 26, 0) 90%)',
     blockbanneritemmobilelineargradient:
       'linear-gradient(to right, rgba(26, 26, 26, 0.98) 35%,rgba(26, 26, 26, 0) 100%)',
-  },
-  boxShadow: {
-    blockFinderTextShadow: '0 1px 3px rgba(#000, .2)',
   },
 };
 
