@@ -34,11 +34,9 @@ declare module 'styled-components' {
       widgetproductimagebordercolor: string;
       widgetnewsletterbgcolor: string;
       widgetnewslettertextcolor: string;
-      ItemDetailsColor: string;
       widgetanchorhovercolor: string;
       widgetauthorbordercolor: string;
-      blockPostsLoaderBg: string;
-      BlockSiteFooterColor: string;
+      blockbanneritemtitlecolor: string;
       plusiconcolor: string;
       cardbgcolor: string;
       widgetchildbgcolor: string;
@@ -47,12 +45,12 @@ declare module 'styled-components' {
       youtube: string;
       instagram: string;
       rss: string;
-      OfferBg: string;
       subtitlecolor: string;
       shadowcolor: string;
       boxshadowcolor: string;
       bordercolor: string;
       subtitilecolor: string;
+      itemhover:string;
     };
     headers: {
       h1: {
@@ -115,3 +113,4 @@ declare module 'styled-components' {
     };
   }
 }
+
