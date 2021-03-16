@@ -45,6 +45,8 @@ declare module 'styled-components' {
       youtube: string;
       instagram: string;
       rss: string;
+      subtitlecolor: string;
+      boxshadowcolor: string;
       bordercolor: string;
       subtitilecolor: string;
     };

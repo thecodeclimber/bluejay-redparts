@@ -45,6 +45,8 @@ const theme: DefaultTheme = {
     youtube: '#e52e2e',
     instagram: '#815dc7',
     rss: '#ffc338',
+    subtitlecolor: '#6c757d',
+    boxshadowcolor: '#00000017',
     bordercolor: '#ebebeb',
     blockbanneritemtitlecolor: '#ffdf40',
     subtitilecolor: '#6c757d',
