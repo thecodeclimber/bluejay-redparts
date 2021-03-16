@@ -3,9 +3,19 @@ import React, { useState } from 'react';
 // third-party
 import { FormattedMessage } from 'react-intl';
 // application
-import Decor from '~/components/shared/Decor';
+import {
+  BlockFinderStyledComponent,
+  BlockFinderDecor,
+  BlockFinderImage,
+  BlockFinderBody,
+  BlockFinderTitle,
+  BlockFinderSubtitle,
+  BlockFinderForm,
+  BlockFinderSelect,
+  BlockFinderButton,
+} from '~/styled-components/blocks/BlockFinder';
 import url from '~/services/url';
-import VehicleSelect from '~/components/shared/VehicleSelect';
+
 import { baseUrl } from '~/services/utils';
 import { hrefToRouterArgs, useAppRouter } from '~/services/router';
 import { IVehicle } from '~/interfaces/vehicle';
@@ -21,38 +31,41 @@ function BlockFinder() {
       return;
     }
 
-    router.push(
-      ...hrefToRouterArgs(url.products({
-        filters: {
-          filter_vehicle: vehicle.id.toString(),
-        },
-      })),
-    ).then();
+    router
+      .push(
+        ...hrefToRouterArgs(
+          url.products({
+            filters: {
+              filter_vehicle: vehicle.id.toString(),
+            },
+          })
+        )
+      )
+      .then();
   };
 
   return (
-    <div className="block block-finder">
-      <Decor className="block-finder__decor" type="bottom" />
-      <div
-        className="block-finder__image"
+    <BlockFinderStyledComponent>
+      <BlockFinderDecor type="bottom" />
+      <BlockFinderImage
         style={{ backgroundImage: `url(${baseUrl('/images/finder.jpg')})` }}
       />
-      <div className="block-finder__body container container--max--xl">
-        <div className="block-finder__title">
+      <BlockFinderBody className="container container--max--xl">
+        <BlockFinderTitle>
           <FormattedMessage id="TEXT_BLOCK_FINDER_TITLE" />
-        </div>
-        <div className="block-finder__subtitle">
+        </BlockFinderTitle>
+        <BlockFinderSubtitle>
           <FormattedMessage id="TEXT_BLOCK_FINDER_SUBTITLE" />
-        </div>
-        <form className="block-finder__form" onSubmit={onSubmit}>
-          <VehicleSelect className="block-finder__select" onVehicleChange={setVehicle} />
+        </BlockFinderSubtitle>
+        <BlockFinderForm onSubmit={onSubmit}>
+          <BlockFinderSelect onVehicleChange={setVehicle} />
 
-          <button className="block-finder__button" type="submit">
+          <BlockFinderButton type="submit">
             <FormattedMessage id="BUTTON_BLOCK_FINDER_SEARCH" />
-          </button>
-        </form>
-      </div>
-    </div>
+          </BlockFinderButton>
+        </BlockFinderForm>
+      </BlockFinderBody>
+    </BlockFinderStyledComponent>
   );
 }
 
