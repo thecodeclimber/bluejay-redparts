@@ -46,6 +46,7 @@ declare module 'styled-components' {
       instagram: string;
       rss: string;
       subtitlecolor: string;
+      shadowcolor: string;
       boxshadowcolor: string;
       bordercolor: string;
       subtitilecolor: string;

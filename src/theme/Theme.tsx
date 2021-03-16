@@ -46,6 +46,7 @@ const theme: DefaultTheme = {
     instagram: '#815dc7',
     rss: '#ffc338',
     subtitlecolor: '#6c757d',
+    shadowcolor: '#00000017',
     boxshadowcolor: '#00000017',
     bordercolor: '#ebebeb',
     blockbanneritemtitlecolor: '#ffdf40',
