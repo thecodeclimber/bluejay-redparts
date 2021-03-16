@@ -7,6 +7,7 @@ const theme: DefaultTheme = {
   colors: {
     white: '#FFFFFF',
     black: '#000000',
+    dark: '#333',
     primary: '#1E74DF',
     link: '#007bff',
     success: '#07BC0C',
@@ -18,7 +19,27 @@ const theme: DefaultTheme = {
     selectdisabledfontcolor: '#999',
     blockBrandDivider: '#ebebeb',
     blockBrandHoverFontColor:'#737373',
-    blockBrandsItemName: '#b3b3b3'
+    blockBrandsItemName: '#b3b3b3',
+    tagBgColor: '#f2f2f2',
+    tagBgHoverColor: '#e5e5e5',
+    tagBgActiveColor: '#d9d9d9',
+    widgetsearchbuttoncolor: '#bfbfbf',
+    widgetsearchbuttonhovercolor: '#a6a6a6',
+    widgetsearchbuttonhoverbgcolor: '#f5f5f5',
+    widgetsearchbuttonactivebgcolor: '#f0f0f0',
+    widgetproductimagebordercolor:'#00000014',
+    widgetnewsletterbgcolor:'#333',
+    widgetnewslettertextcolor: '#9e9e9e',
+    widgetanchorhovercolor: '#007bff',
+    widgetauthorbordercolor: '#ebebeb',
+    plusiconcolor:'#ccc',
+    cardbgcolor:'#f2f2f2',
+    widgetchildbgcolor:'#f5f5f5',
+    facebook:'#3c5a99',
+    twitter:'#00a2e8',
+    youtube:'#e52e2e',
+    instagram:'#815dc7',
+    rss:'#ffc338'
   },
   headers: {
     h1: {
@@ -72,6 +93,9 @@ const theme: DefaultTheme = {
     lg: 1200,
     xl: 1400,
   },
+  boxShadow:{
+    blockFinderTextShadow:  '0 1px 3px rgba(#000, .2)'
+  }
 };
 
 const Theme = (props: Props) => {
