@@ -48,9 +48,9 @@ const BlockBannerItem = styled(AppLink)`
   border-radius: 3px;
   overflow: hidden;
   z-index: 0;
-  color: ${props => `${props.theme.colors.white}`};
+  color: ${(props) => `${props.theme.colors.white}`};
   &:hover {
-    color:${props => `${props.theme.colors.white}`};
+    color: ${(props) => `${props.theme.colors.white}`};
   }
   &:before {
     border-radius: 3px;
@@ -62,7 +62,8 @@ const BlockBannerItem = styled(AppLink)`
     height: 100%;
     left: 0;
     top: 0;
-    background: ${props => `${props.theme.background.blockbanneritemlineargradient}`};
+    background: ${(props) =>
+      `${props.theme.background.blockbanneritemlineargradient}`};
   }
   @media (max-width: ${(props) => `${props.theme.breakPoints.lg}`}px) {
     height: 190px;
@@ -78,7 +79,8 @@ const BlockBannerItem = styled(AppLink)`
   }
   @media (max-width: 474px) {
     &:before {
-      background: ${props => `${props.theme.background.blockbanneritemmobilelineargradient}`};
+      background: ${(props) =>
+        `${props.theme.background.blockbanneritemmobilelineargradient}`};
     }
   }
   &:hover {
@@ -101,16 +103,16 @@ export const BlockBannerItemTitle = styled.span`
   font-weight: 700;
   line-height: 1;
   text-transform: uppercase;
-  color:${props => `${props.theme.colors.blockbanneritemtitlecolor}`};
+  color: ${(props) => `${props.theme.colors.OfferBg}`};
 `;
 
 export const BlockBannerItemTitleTwo = styled.span`
-  background: ${props => `${props.theme.colors.blockbanneritemtitlecolor}`};
+  background: ${(props) => `${props.theme.colors.OfferBg}`};
   display: inline-block;
   vertical-align: middle;
   padding: 2px 5px;
   border-radius: 1.5px;
-  color:${props => `${props.theme.colors.selectfontcolor}`};
+  color: ${(props) => `${props.theme.colors.selectfontcolor}`};
   font-size: 24px;
   margin-top: -2px;
   margin-bottom: 2px;
