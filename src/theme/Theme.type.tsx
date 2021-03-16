@@ -37,6 +37,7 @@ declare module 'styled-components' {
       ItemDetailsColor: string;
       widgetanchorhovercolor: string;
       widgetauthorbordercolor: string;
+      blockPostsLoaderBg: string;
       BlockSiteFooterColor: string;
       plusiconcolor: string;
       cardbgcolor: string;
