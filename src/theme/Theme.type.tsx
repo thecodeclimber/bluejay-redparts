@@ -81,8 +81,8 @@ declare module 'styled-components' {
       bold: number;
       bolder: number;
     };
-    boxShadow:{
-      blockFinderShadow: string,
+    boxShadow: {
+      blockFinderTextShadow: string;
     }
     breakPoints: {
       xs: number;

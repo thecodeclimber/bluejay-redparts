@@ -89,7 +89,7 @@ const theme: DefaultTheme = {
     lg: 1200,
   },
   boxShadow:{
-    blockFinderShadow:  '0 1px 3px rgba(#000, .2)',
+    blockFinderTextShadow:  '0 1px 3px rgba(#000, .2)'
   }
 };
 
