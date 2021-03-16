@@ -7,6 +7,7 @@ const theme: DefaultTheme = {
   colors: {
     white: '#FFFFFF',
     black: '#000000',
+    dark: '#333',
     primary: '#1E74DF',
     success: '#07BC0C',
     grey: '#545454',
@@ -87,6 +88,9 @@ const theme: DefaultTheme = {
     md: 992,
     lg: 1200,
   },
+  boxShadow:{
+    blockFinderTextShadow:  '0 1px 3px rgba(#000, .2)'
+  }
 };
 
 const Theme = (props: Props) => {

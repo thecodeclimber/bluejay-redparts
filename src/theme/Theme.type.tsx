@@ -6,6 +6,7 @@ declare module 'styled-components' {
     colors: {
       white: string;
       black: string;
+      dark: string;
       primary: string;
       success: string;
       grey: string;
@@ -80,11 +81,14 @@ declare module 'styled-components' {
       bold: number;
       bolder: number;
     };
+    boxShadow: {
+      blockFinderTextShadow: string;
+    }
     breakPoints: {
       xs: number;
       sm: number;
       md: number;
       lg: number;
-    };
-  }
+    }
+}
 }
