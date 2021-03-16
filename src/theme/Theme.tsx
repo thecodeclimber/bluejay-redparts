@@ -47,6 +47,7 @@ const theme: DefaultTheme = {
     rss: '#ffc338',
     bordercolor: '#ebebeb',
     blockbanneritemtitlecolor: '#ffdf40',
+    subtitilecolor: '#6c757d',
   },
   headers: {
     h1: {
