@@ -16,6 +16,10 @@ declare module 'styled-components' {
       selectfontcolor: string;
       selectarrowcolor: string;
       selectdisabledfontcolor: string;
+      blockcategoriesbgcolor:string;
+      blockcategoriesbodycolor:string;
+      linkcolor:string;
+      listcolor:string;
       blockBrandDivider:string ,
     blockBrandHoverFontColor:string,
     blockBrandsItemName:string,
@@ -86,17 +90,17 @@ declare module 'styled-components' {
       bold: number;
       bolder: number;
     };
+    breakPoints: {
+      xs: number;
+      sm: number;
+      md: number;
+      lg: number;
+      xl:number;
+    },
     background :{
       blockbanneritemlineargradient:string;
       blockbanneritemmobilelineargradient:string;
     }
-    breakPoints: {
-      xs: number,
-      sm: number,
-      md: number,
-      lg: number,
-      xl: number
-    };
     boxShadow: {
       blockFinderTextShadow: string;
     };
