@@ -8,6 +8,7 @@ declare module 'styled-components' {
       black: string;
       dark: string;
       primary: string;
+      link: string;
       success: string;
       grey: string;
       lightGrey: string;
@@ -15,7 +16,10 @@ declare module 'styled-components' {
       selectfontcolor: string;
       selectarrowcolor: string;
       selectdisabledfontcolor: string;
-      tagBgColor: string;
+      blockBrandDivider:string ,
+    blockBrandHoverFontColor:string,
+    blockBrandsItemName:string,
+    tagBgColor: string,
       tagBgHoverColor: string;
       tagBgActiveColor: string;
       widgetsearchbuttoncolor: string;
@@ -81,14 +85,15 @@ declare module 'styled-components' {
       bold: number;
       bolder: number;
     };
+    breakPoints: {
+      xs: number,
+      sm: number,
+      md: number,
+      lg: number,
+      xl: number
+    };
     boxShadow: {
       blockFinderTextShadow: string;
-    }
-    breakPoints: {
-      xs: number;
-      sm: number;
-      md: number;
-      lg: number;
-    }
+    };
 }
 }
