@@ -47,6 +47,10 @@ declare module 'styled-components' {
       youtube: string;
       instagram: string;
       rss: string;
+      cardbodybgcolor: string;
+      anchorcolor: string;
+      activebordercolor: string;
+      hoverbordercolor: string;
       OfferBg: string;
       subtitlecolor: string;
       shadowcolor: string;
