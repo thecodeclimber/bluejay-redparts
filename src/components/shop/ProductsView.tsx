@@ -26,6 +26,23 @@ import {
     useShopResetFilterThunk,
 } from '~/store/shop/shopHooks';
 import { IShopPageGridLayout, IShopPageLayout, IShopPageOffCanvasSidebar } from '~/interfaces/pages';
+import {
+    ProductViewEmpty ,
+    ProductViewEmptyTitle ,
+    ProductViewEmptySubTitle ,
+    ProductsViewEmptyAction ,
+    ViewOptionsBody ,
+    ViewOptionsFiltersButton ,
+    FilterButtonIcon ,
+    FilterButtonTitle ,
+    FilterButtonCounter ,
+    ViewOptionsLayout ,
+    LayoutSwitcherList ,
+    LayoutSwitcherButton ,
+    ViewOptionsLegend ,
+    ViewOptionsSpring ,
+    ViewOptionsSelect ,
+} from '~/styled-components/shop/ProductsView';
 
 interface LayoutButton {
     layout: IShopPageLayout;
@@ -102,70 +119,69 @@ function ProductsView(props: Props) {
                 <div className="products-view__loader" />
 
                 {isEmptyList && hasActiveFilters && (
-                    <div className="products-view__empty">
-                        <div className="products-view__empty-title">
+                    <ProductViewEmpty >
+                        <ProductViewEmptyTitle >
                             <FormattedMessage id="TEXT_NO_MATCHING_ITEMS_TITLE" />
-                        </div>
-                        <div className="products-view__empty-subtitle">
+                        </ProductViewEmptyTitle>
+                        <ProductViewEmptySubTitle >
                             <FormattedMessage id="TEXT_NO_MATCHING_ITEMS_SUBTITLE" />
-                        </div>
-                        <div className="products-view__empty-actions">
+                        </ProductViewEmptySubTitle>
+                        <ProductsViewEmptyAction >
                             <button type="button" className="btn btn-primary btn-sm" onClick={shopResetFilters}>
                                 <FormattedMessage id="BUTTON_RESET_FILTERS" />
                             </button>
-                        </div>
-                    </div>
+                        </ProductsViewEmptyAction>
+                    </ProductViewEmpty>
                 )}
 
                 {isEmptyList && !hasActiveFilters && (
-                    <div className="products-view__empty">
-                        <div className="products-view__empty-title">
+                    <ProductViewEmpty >
+                        <ProductViewEmptyTitle >
                             <FormattedMessage id="TEXT_CATEGORY_IS_EMPTY_TITLE" />
-                        </div>
-                        <div className="products-view__empty-subtitle">
+                        </ProductViewEmptyTitle>
+                        <ProductViewEmptySubTitle >
                             <FormattedMessage id="TEXT_CATEGORY_IS_EMPTY_SUBTITLE" />
-                        </div>
-                    </div>
+                        </ProductViewEmptySubTitle>
+                    </ProductViewEmpty>
                 )}
 
                 {!isEmptyList && (
                     <React.Fragment>
                         <div className={viewOptionsClasses}>
-                            <div className="view-options__body">
-                                <button
+                            <ViewOptionsBody >
+                                <ViewOptionsFiltersButton
                                     type="button"
-                                    className="view-options__filters-button filters-button"
                                     onClick={handleFiltersClick}
                                 >
-                                    <span className="filters-button__icon"><Filters16Svg /></span>
-                                    <span className="filters-button__title">
+                                    <FilterButtonIcon ><Filters16Svg /></FilterButtonIcon>
+                                    <FilterButtonTitle>
                                         <FormattedMessage id="BUTTON_FILTERS" />
-                                    </span>
-                                    <span className="filters-button__counter">{currentFiltersCount}</span>
-                                </button>
+                                    </FilterButtonTitle>
+                                    <FilterButtonCounter>{currentFiltersCount}</FilterButtonCounter>
+                                </ViewOptionsFiltersButton>
 
-                                <div className="view-options__layout layout-switcher">
-                                    <div className="layout-switcher__list">
+                                <ViewOptionsLayout >
+                                    <LayoutSwitcherList >
                                         {layoutButtons.map((button) => {
                                             const buttonClasses = classNames('layout-switcher__button', {
                                                 'layout-switcher__button--active': button.layout === layout,
                                             });
 
                                             return (
-                                                <button
+                                                <LayoutSwitcherButton
+                                                   active ={button.layout === layout}
                                                     key={button.layout}
                                                     type="button"
-                                                    className={buttonClasses}
                                                     onClick={() => setLayout(button.layout)}
                                                 >
                                                     {button.icon}
-                                                </button>
+                                                </LayoutSwitcherButton>
                                             );
                                         })}
-                                    </div>
-                                </div>
+                                    </LayoutSwitcherList>
+                                </ViewOptionsLayout>
 
-                                <div className="view-options__legend">
+                                <ViewOptionsLegend >
                                     <FormattedMessage
                                         id="TEXT_SHOWING_PRODUCTS"
                                         values={{
@@ -174,11 +190,11 @@ function ProductsView(props: Props) {
                                             total: productsList.total,
                                         }}
                                     />
-                                </div>
+                                </ViewOptionsLegend>
 
-                                <div className="view-options__spring" />
+                                <ViewOptionsSpring />
 
-                                <div className="view-options__select">
+                                <ViewOptionsSelect >
                                     <label htmlFor="view-option-sort">
                                         <FormattedMessage id="INPUT_SORT_LABEL" />
                                         :
@@ -199,9 +215,9 @@ function ProductsView(props: Props) {
                                             {intl.formatMessage({ id: 'INPUT_SORT_OPTION_NAME_DESC' })}
                                         </option>
                                     </select>
-                                </div>
+                                </ViewOptionsSelect>
 
-                                <div className="view-options__select">
+                                <ViewOptionsSelect >
                                     <label htmlFor="view-option-limit">
                                         <FormattedMessage id="INPUT_LIMIT_LABEL" />
                                         :
@@ -217,8 +233,8 @@ function ProductsView(props: Props) {
                                         <option value="24">24</option>
                                         <option value="32">32</option>
                                     </select>
-                                </div>
-                            </div>
+                                </ViewOptionsSelect>
+                            </ViewOptionsBody>
 
                             {hasActiveFilters && (
                                 <div className="view-options__body view-options__body--filters">
