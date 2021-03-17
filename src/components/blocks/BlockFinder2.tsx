@@ -3,7 +3,14 @@ import React, { useState } from 'react';
 // third-party
 import { FormattedMessage } from 'react-intl';
 // application
-import Decor from '~/components/shared/Decor';
+import {
+  BlockFinderStyledComponent,
+  BlockFinderDecor,
+  BlockFinderImage,
+  BlockFinderBody,
+  BlockFinderTitle,
+  BlockFinderSubtitle,
+} from '~/styled-components/blocks/BlockFinder2';
 import url from '~/services/url';
 import VehicleSelect from '~/components/shared/VehicleSelect';
 import { baseUrl } from '~/services/utils';
@@ -21,29 +28,32 @@ function BlockFinder() {
       return;
     }
 
-    router.push(
-      ...hrefToRouterArgs(url.products({
-        filters: {
-          filter_vehicle: vehicle.id.toString(),
-        },
-      })),
-    ).then();
+    router
+      .push(
+        ...hrefToRouterArgs(
+          url.products({
+            filters: {
+              filter_vehicle: vehicle.id.toString(),
+            },
+          })
+        )
+      )
+      .then();
   };
 
   return (
-    <div className="block block-finder">
-      <Decor className="block-finder__decor" type="bottom" />
-      <div
-        className="block-finder__image"
+    <BlockFinderStyledComponent className="block">
+      <BlockFinderDecor type="bottom" />
+      <BlockFinderImage
         style={{ backgroundImage: `url(${baseUrl('/images/finder.jpg')})` }}
       />
-      <div className="block-finder__body container container--max--xl">
-        <div className="block-finder__title">
+      <BlockFinderBody className="container container--max--xl">
+        <BlockFinderTitle>
           <FormattedMessage id="TEXT_BLOCK_FINDER_TITLE" />
-        </div>
-        <div className="block-finder__subtitle">
+        </BlockFinderTitle>
+        <BlockFinderSubtitle>
           <FormattedMessage id="TEXT_BLOCK_FINDER_SUBTITLE" />
-        </div>
+        </BlockFinderSubtitle>
         {/* <form className="block-finder__form" onSubmit={onSubmit}>
           <VehicleSelect className="block-finder__select" onVehicleChange={setVehicle} />
 
@@ -51,8 +61,8 @@ function BlockFinder() {
             <FormattedMessage id="BUTTON_BLOCK_FINDER_SEARCH" />
           </button>
         </form> */}
-      </div>
-    </div>
+      </BlockFinderBody>
+    </BlockFinderStyledComponent>
   );
 }
 
