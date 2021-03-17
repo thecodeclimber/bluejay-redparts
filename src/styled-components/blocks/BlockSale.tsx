@@ -1,4 +1,4 @@
-import styled ,{css} from 'styled-components';
+import styled, { css } from 'styled-components';
 import Arrow from '~/components/shared/Arrow';
 
 export const BlockBlockSale = styled.div``;
@@ -143,12 +143,11 @@ export const BlockSaleImage = styled.div`
 `;
 
 export const BlockSaleLoader = styled.div`
-${(props: { loading?: boolean }) =>
-  props.loading && 
-  css`
-    position: relative;
-  `
-} 
+  ${(props: { loading?: any }) =>
+    props.loading &&
+    css`
+      position: relative;
+    `}
 `;
 
 export const BlockSaleItem = styled.div`
