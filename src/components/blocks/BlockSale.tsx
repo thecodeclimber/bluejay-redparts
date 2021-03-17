@@ -98,7 +98,7 @@ function BlockSale(props: Props) {
           <BlockSaleImage
             style={{ backgroundImage: `url(${baseUrl('/images/sale.jpg')})` }}
           />
-          <BlockSaleLoader loading={loading} />
+          <BlockSaleLoader loading={loading ? 1 : 0} />
           <div className="container">
             <div className="block-sale__carousel">
               <AppSlick ref={slickRef} {...slickSettings}>
