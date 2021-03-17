@@ -193,58 +193,58 @@ const shopCategoriesDef: ICategoryDef[] = [
 
 const blogCategoriesDef: ICategoryDef[] = [
   {
-    name: 'Latest News',
-    slug: 'latest-news',
+    name: 'Tools & Garage',
+    slug: 'tools-garage',
   },
   {
-    name: 'Special Offers',
-    slug: 'special-offers',
+    name: 'Anchor',
+    slug: 'anchor',
     children: [
       {
-        name: 'Spring Sales',
-        slug: 'spring-sales',
+        name: 'Conical',
+        slug: 'conical',
       },
       {
-        name: 'Summer Sales',
-        slug: 'summer-sales',
+        name: 'E-Z',
+        slug: 'e-z',
       },
       {
-        name: 'Autumn Sales',
-        slug: 'autumn-sales',
+        name: 'Hammer Drive',
+        slug: 'hammer-drive',
       },
       {
-        name: 'Christmas Sales',
-        slug: 'christmas-sales',
+        name: 'Hollow Wall',
+        slug: 'hollow-wall',
       },
       {
-        name: 'Other Sales',
-        slug: 'other-sales',
+        name: 'Kit',
+        slug: 'Kit',
       },
     ],
   },
   {
-    name: 'New Arrivals',
-    slug: 'new-arrivals',
+    name: 'Oils & Lubricants',
+    slug: 'oils-lubricants',
   },
   {
-    name: 'Reviews',
-    slug: 'reviews',
+    name: 'Bolts',
+    slug: 'bolts',
   },
   {
-    name: 'Wheels & Tires',
-    slug: 'wheels-tires',
+    name: 'Hex Head Cap Screws',
+    slug: 'hex-head-cap-screws',
   },
   {
-    name: 'Engine & Drivetrain',
-    slug: 'engine-drivetrain',
+    name: 'Washer',
+    slug: 'washer',
   },
   {
-    name: 'Transmission',
-    slug: 'transmission',
+    name: 'Nuts',
+    slug: 'nuts',
   },
   {
-    name: 'Performance',
-    slug: 'performance',
+    name: 'Screws',
+    slug: 'screws',
   },
 ];
 
