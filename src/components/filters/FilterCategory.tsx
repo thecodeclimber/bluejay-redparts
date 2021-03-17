@@ -37,14 +37,17 @@ function FilterCategory(props: Props) {
         )}
         {options.items.map((item) => (
           <React.Fragment key={item.id}>
-            {getCategoryParents(item).map((parent) => (
+            {getCategoryParents(item).map((parent) => 
+            {
+              
+            return (
               <FilterCategoryItem key={parent.id} parent={true}>
                 <FilterCategoryArrow>
                   <ArrowRoundedLeft6x9Svg />
                 </FilterCategoryArrow>
                 <FilterAppLink href={url.category(parent)}>{parent.name}</FilterAppLink>
               </FilterCategoryItem>
-            ))}
+            )})}
             <FilterCategoryItem
               current={options.value}
             >
