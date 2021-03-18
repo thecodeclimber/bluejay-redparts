@@ -61,6 +61,9 @@ const theme: DefaultTheme = {
     switcherbtncolor:'#95a0a6',
     switcherbgcolor:' #f0f0f0',
     btnicon: '#404040',
+    svgfillcolor:'#00000066',
+    btnafterbgcolor :'#00000026',
+    loaderbgcolor :'#fafafab3',
   },
   headers: {
     h1: {

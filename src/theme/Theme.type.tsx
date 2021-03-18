@@ -60,6 +60,9 @@ declare module 'styled-components' {
       switcherbtncolor: string;
       switcherbgcolor: string;
       btnicon: string;
+      svgfillcolor:string;
+      btnafterbgcolor:string;
+      loaderbgcolor:string;
     };
     headers: {
       h1: {
