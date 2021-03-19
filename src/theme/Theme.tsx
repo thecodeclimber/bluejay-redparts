@@ -58,6 +58,7 @@ const theme: DefaultTheme = {
     boxshadowcolor: '#00000017',
     bordercolor: '#ebebeb',
     subtitilecolor: '#6c757d',
+    backgroundcolor:'#00000008',
   },
   headers: {
     h1: {
