@@ -8,25 +8,25 @@ import { IProduct } from '~/interfaces/product';
 import { shopApi } from '~/api';
 
 interface Props {
-    product: IProduct;
+  product: IProduct;
 }
 
 export const getServerSideProps: GetServerSideProps<Props> = async () => ({
-    props: {
-        product: await shopApi.getProductBySlug('brandix-brake-kit-bdx-750z370-s'),
-    },
+  props: {
+    product: await shopApi.getProductBySlug('test'),
+  },
 });
 
 function Page(props: Props) {
-    const { product } = props;
+  const { product } = props;
 
-    return (
-        <ShopPageProduct
-            product={product}
-            layout="sidebar"
-            sidebarPosition="start"
-        />
-    );
+  return (
+    <ShopPageProduct
+      product={product}
+      layout="sidebar"
+      sidebarPosition="start"
+    />
+  );
 }
 
 export default Page;
