@@ -5,6 +5,7 @@ import classNames from 'classnames';
 import queryString from 'query-string';
 import { useIntl } from 'react-intl';
 // application
+import { NoGutters } from '~/styled-components/shop/ShopPageShop';
 import BlockHeader from '~/components/blocks/BlockHeader';
 import BlockSpace from '~/components/blocks/BlockSpace';
 import ProductsView from '~/components/shop/ProductsView';
@@ -19,139 +20,142 @@ import { SidebarProvider } from '~/services/sidebar';
 import { useAppRouter } from '~/services/router';
 import { useShop } from '~/store/shop/shopHooks';
 import {
-    IShopPageGridLayout,
-    IShopPageLayout,
-    IShopPageOffCanvasSidebar,
-    IShopPageSidebarPosition,
+  IShopPageGridLayout,
+  IShopPageLayout,
+  IShopPageOffCanvasSidebar,
+  IShopPageSidebarPosition,
 } from '~/interfaces/pages';
 
 interface Props {
-    layout: IShopPageLayout;
-    gridLayout: IShopPageGridLayout;
-    sidebarPosition?: IShopPageSidebarPosition;
+  layout: IShopPageLayout;
+  gridLayout: IShopPageGridLayout;
+  sidebarPosition?: IShopPageSidebarPosition;
 }
 
 function ShopPageShop(props: Props) {
-    const {
-        layout,
-        gridLayout,
-        sidebarPosition = 'start',
-    } = props;
-    const intl = useIntl();
-    const router = useAppRouter();
-    const shopState = useShop();
+  const { layout, gridLayout, sidebarPosition = 'start' } = props;
+  const intl = useIntl();
+  const router = useAppRouter();
+  const shopState = useShop();
 
-    // Replace current url.
-    useEffect(() => {
-        const query = buildQuery(shopState.options, shopState.filters);
-        const href = queryString.stringifyUrl({
-            ...queryString.parseUrl(router.asPath),
-            query: queryString.parse(query),
-        }, { encode: false });
+  // Replace current url.
+  useEffect(() => {
+    const query = buildQuery(shopState.options, shopState.filters);
+    const href = queryString.stringifyUrl(
+      {
+        ...queryString.parseUrl(router.asPath),
+        query: queryString.parse(query),
+      },
+      { encode: false }
+    );
 
-        router.replace({
-            pathname: router.pathname,
-            query: {
-                slug: router.query.slug,
-            },
-        }, removePrefix(href), {
-            shallow: true,
-        }).then(() => {
-            // This is necessary for the "History API" to work.
-            window.history.replaceState(
-                {
-                    ...window.history.state,
-                    options: {
-                        ...window.history.state.options,
-                        shallow: false,
-                    },
-                },
-                '',
-                baseUrl(href),
-            );
-        });
-    }, [shopState.options, shopState.filters]);
-
-    const hasSidebar = ['grid-3-sidebar', 'grid-4-sidebar'].includes(gridLayout);
-    const offCanvasSidebar: IShopPageOffCanvasSidebar = [
-        'grid-4-full',
-        'grid-5-full',
-        'grid-6-full',
-    ].includes(gridLayout) ? 'always' : 'mobile';
-
-    const pageHeader = useMemo(() => {
-        let pageTitle = intl.formatMessage({ id: 'HEADER_SHOP' });
-        const breadcrumb: ILink[] = [
-            { title: intl.formatMessage({ id: 'LINK_HOME' }), url: url.home() },
-            { title: intl.formatMessage({ id: 'LINK_SHOP' }), url: url.shop() },
-        ];
-
-        if (shopState.category) {
-            getCategoryParents(shopState.category).forEach((parent) => {
-                breadcrumb.push({ title: parent.name, url: url.category(parent) });
-            });
-
-            breadcrumb.push({ title: shopState.category.name, url: url.category(shopState.category) });
-
-            pageTitle = shopState.category.name;
+    router
+      .replace(
+        {
+          pathname: router.pathname,
+          query: {
+            slug: router.query.slug,
+          },
+        },
+        removePrefix(href),
+        {
+          shallow: true,
         }
+      )
+      .then(() => {
+        // This is necessary for the "History API" to work.
+        window.history.replaceState(
+          {
+            ...window.history.state,
+            options: {
+              ...window.history.state.options,
+              shallow: false,
+            },
+          },
+          '',
+          baseUrl(href)
+        );
+      });
+  }, [shopState.options, shopState.filters]);
 
-        return <BlockHeader pageTitle={pageTitle} breadcrumb={breadcrumb} />;
-    }, [intl, shopState.category]);
+  const hasSidebar = ['grid-3-sidebar', 'grid-4-sidebar'].includes(gridLayout);
+  const offCanvasSidebar: IShopPageOffCanvasSidebar = [
+    'grid-4-full',
+    'grid-5-full',
+    'grid-6-full',
+  ].includes(gridLayout)
+    ? 'always'
+    : 'mobile';
 
-    if (shopState.categoryIsLoading || (shopState.productsListIsLoading && !shopState.productsList)) {
-        return null;
+  const pageHeader = useMemo(() => {
+    let pageTitle = intl.formatMessage({ id: 'HEADER_SHOP' });
+    const breadcrumb: ILink[] = [
+      { title: intl.formatMessage({ id: 'LINK_HOME' }), url: url.home() },
+      { title: intl.formatMessage({ id: 'LINK_SHOP' }), url: url.shop() },
+    ];
+
+    if (shopState.category) {
+      getCategoryParents(shopState.category).forEach((parent) => {
+        breadcrumb.push({ title: parent.name, url: url.category(parent) });
+      });
+
+      breadcrumb.push({
+        title: shopState.category.name,
+        url: url.category(shopState.category),
+      });
+
+      pageTitle = shopState.category.name;
     }
 
-    const sidebar = (
-        <ShopSidebar offcanvas={offCanvasSidebar} />
-    );
+    return <BlockHeader pageTitle={pageTitle} breadcrumb={breadcrumb} />;
+  }, [intl, shopState.category]);
 
-    const blockSplitClasses = classNames('block-split', {
-        'block-split--has-sidebar': hasSidebar,
-    });
+  if (
+    shopState.categoryIsLoading ||
+    (shopState.productsListIsLoading && !shopState.productsList)
+  ) {
+    return null;
+  }
 
-    return (
-        <React.Fragment>
-            <SidebarProvider>
-                <CurrentVehicleScopeProvider>
-                    {pageHeader}
+  const sidebar = <ShopSidebar offcanvas={offCanvasSidebar} />;
 
-                    <div className={blockSplitClasses}>
-                        {offCanvasSidebar === 'always' && sidebar}
+  return (
+    <React.Fragment>
+      <SidebarProvider>
+        <CurrentVehicleScopeProvider>
+          {pageHeader}
 
-                        <div className="container">
-                            <div className="block-split__row row no-gutters">
-                                {sidebarPosition === 'start' && hasSidebar && (
-                                    <div className="block-split__item block-split__item-sidebar col-auto">
-                                        {sidebar}
-                                    </div>
-                                )}
+          <div>
+            {offCanvasSidebar === 'always' && sidebar}
 
-                                <div className="block-split__item block-split__item-content col-auto flex-grow-1">
-                                    <div className="block">
-                                        <ProductsView
-                                            layout={layout}
-                                            gridLayout={gridLayout}
-                                            offCanvasSidebar={offCanvasSidebar}
-                                        />
-                                    </div>
-                                </div>
+            <div className="container">
+              <NoGutters className="row">
+                {sidebarPosition === 'start' && hasSidebar && (
+                  <div className="col-auto">{sidebar}</div>
+                )}
 
-                                {sidebarPosition === 'end' && hasSidebar && (
-                                    <div className="block-split__item block-split__item-sidebar col-auto">
-                                        {sidebar}
-                                    </div>
-                                )}
-                            </div>
-                        </div>
-                    </div>
+                <div className="col-auto flex-grow-1">
+                  <div className="block">
+                    <ProductsView
+                      layout={layout}
+                      gridLayout={gridLayout}
+                      offCanvasSidebar={offCanvasSidebar}
+                    />
+                  </div>
+                </div>
 
-                    <BlockSpace layout="before-footer" />
-                </CurrentVehicleScopeProvider>
-            </SidebarProvider>
-        </React.Fragment>
-    );
+                {sidebarPosition === 'end' && hasSidebar && (
+                  <div className="col-auto">{sidebar}</div>
+                )}
+              </NoGutters>
+            </div>
+          </div>
+
+          <BlockSpace layout="before-footer" />
+        </CurrentVehicleScopeProvider>
+      </SidebarProvider>
+    </React.Fragment>
+  );
 }
 
 export default ShopPageShop;
