@@ -3,8 +3,13 @@
 // application
 import { brands } from '~/fake-server/database/brands';
 import { IBrand } from '~/interfaces/brand';
-import { anchor } from '~/fake-server/database/products/anchor';
-import { ProductsDef } from '~/fake-server/database/products/product';
+import { anchor } from '~/fake-server/database/products/anchors';
+import { bolts } from '~/fake-server/database/products/bolts';
+import { nuts } from '~/fake-server/database/products/nuts';
+import { pins } from '~/fake-server/database/products/pins';
+import { hexHeadCapScrews } from '~/fake-server/database/products/hex_head_cap_screws';
+import { screws } from '~/fake-server/database/products/screws';
+import { washers } from '~/fake-server/database/products/washers';
 import { IProduct, IProductAttribute } from '~/interfaces/product';
 import { IShopCategory } from '~/interfaces/category';
 import { makeIdGenerator, nameToSlug } from '~/fake-server/utils';
@@ -84,7 +89,7 @@ function makeProducts(defs: IProductDef[]): IProduct[] {
     //   brand = brands.find((x) => x.slug === def.brand) || brand;
     // }
 
-    const categorySlugs: string[] = def.categories || ['Bolts'];
+    const categorySlugs: string[] = def.categories || ['anchor'];
     const categories = categorySlugs
       .map((categorySlug) =>
         shopCategoriesList.find((x) => x.slug === categorySlug)
@@ -198,4 +203,4 @@ function makeProducts(defs: IProductDef[]): IProduct[] {
   });
 }
 
-export const products: IProduct[] = makeProducts(anchor);
+export const products: IProduct[] = makeProducts(washers);
