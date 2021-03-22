@@ -57,6 +57,7 @@ declare module 'styled-components' {
       boxshadowcolor: string;
       bordercolor: string;
       subtitilecolor: string;
+      badgebgcolor: string;
     };
     headers: {
       h1: {

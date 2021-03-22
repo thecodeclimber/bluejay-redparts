@@ -37,7 +37,26 @@ import {
     FiTag48Svg,
     Wishlist16Svg,
 } from '~/svg';
-
+import {
+    ProductCardOne ,
+    ProductCardTwo ,
+    ProductsGallery ,
+    ProductHeader ,
+    ProductTitle ,
+    ProductSubTitle ,
+    ProductMain ,
+    ProductExcert ,
+    ProductFeatures ,
+    ProductFeaturesTitle ,
+    ProductFeaturesLink ,
+} from '~/styled-components/shop/ProductLayoutFull';
+import {
+    ProductRating ,
+    ProductRatingStars ,
+    ProductRatingLabel ,
+    ProductFit ,
+    TagBadgeSale ,
+} from '~/styled-components/shop/Product';
 interface Props {
     product: IProduct;
     layout: IProductPageLayout;
@@ -155,9 +174,9 @@ function ShopPageProduct(props: Props) {
     const productInfoBody = (
         <div className="product__info-body">
             {product.compareAtPrice && (
-                <div className="product__badge tag-badge tag-badge--sale">
+                <TagBadgeSale >
                     <FormattedMessage id="TEXT_BADGE_SALE" />
-                </div>
+                </TagBadgeSale>
             )}
 
             <div className="product__prices-stock">
@@ -311,7 +330,7 @@ function ShopPageProduct(props: Props) {
             <ShareLinks className="product__share-links" />
         </div>
     );
-
+    
     return (
         <React.Fragment>
             <PageTitle>{product.name}</PageTitle>
@@ -332,24 +351,23 @@ function ShopPageProduct(props: Props) {
                         <div className="block-split__item block-split__item-content col-auto">
                             <div className={`product product--layout--${layout}`}>
                                 <div className="product__body">
-                                    <div className="product__card product__card--one" />
-                                    <div className="product__card product__card--two" />
+                                    <ProductCardOne  />
+                                    <ProductCardTwo  />
 
-                                    <ProductGallery
+                                    <ProductsGallery
                                         images={product.images || []}
                                         layout={galleryLayout}
-                                        className="product__gallery"
                                     />
 
-                                    <div className="product__header">
-                                        <h1 className="product__title">{product.name}</h1>
+                                    <ProductHeader >
+                                        <ProductTitle >{product.name}</ProductTitle>
 
-                                        <div className="product__subtitle">
-                                            <div className="product__rating">
-                                                <div className="product__rating-stars">
+                                        <ProductSubTitle >
+                                            <ProductRating >
+                                                <ProductRatingStars >
                                                     <Rating value={product.rating || 0} />
-                                                </div>
-                                                <div className="product__rating-label">
+                                                </ProductRatingStars>
+                                                <ProductRatingLabel >
                                                     <AppLink href={{ href: { hash: 'product-tab-reviews' } }}>
                                                         <FormattedMessage
                                                             id="TEXT_RATING_LABEL"
@@ -359,27 +377,27 @@ function ShopPageProduct(props: Props) {
                                                             }}
                                                         />
                                                     </AppLink>
-                                                </div>
-                                            </div>
+                                                </ProductRatingLabel>
+                                            </ProductRating>
 
-                                            <CompatibilityStatusBadge className="product__fit" product={product} />
-                                        </div>
-                                    </div>
+                                            <ProductFit  product={product} />
+                                        </ProductSubTitle>
+                                    </ProductHeader>
 
                                     {layout === 'full' && (
-                                        <div className="product__main">
+                                        <ProductMain >
                                             {product.excerpt && (
-                                                <div className="product__excerpt">
+                                                <ProductExcert >
                                                     {product.excerpt}
-                                                </div>
+                                                </ProductExcert>
                                             )}
 
                                             {featuredAttributes.length > 0 && (
-                                                <div className="product__features">
-                                                    <div className="product__features-title">
+                                                <ProductFeatures >
+                                                    <ProductFeaturesTitle >
                                                         <FormattedMessage id="TEXT_KEY_FEATURES" />
                                                         :
-                                                    </div>
+                                                    </ProductFeaturesTitle>
                                                     <ul>
                                                         {featuredAttributes.map((attribute, index) => (
                                                             <li key={index}>
@@ -394,14 +412,14 @@ function ShopPageProduct(props: Props) {
                                                         ))}
 
                                                     </ul>
-                                                    <div className="product__features-link">
+                                                    <ProductFeaturesLink >
                                                         <AppLink href={{ href: { hash: 'product-tab-specification' } }}>
                                                             <FormattedMessage id="LINK_SEE_FULL_SPECIFICATION" />
                                                         </AppLink>
-                                                    </div>
-                                                </div>
+                                                    </ProductFeaturesLink>
+                                                </ProductFeatures>
                                             )}
-                                        </div>
+                                        </ProductMain>
                                     )}
 
                                     <div className="product__info">
