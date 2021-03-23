@@ -61,6 +61,12 @@ declare module 'styled-components' {
       bordercolor: string;
       blockbanneritemtitlecolor: string;
       subtitilecolor: string;
+      switcherbtncolor: string;
+      switcherbgcolor: string;
+      btnicon: string;
+      svgfillcolor: string;
+      btnafterbgcolor: string;
+      loaderbgcolor: string;
       tabbgcolor: string;
       itemhover: string;
     };
