@@ -58,7 +58,9 @@ const theme: DefaultTheme = {
     shadowcolor: '#00000017',
     boxshadowcolor: '#00000017',
     bordercolor: '#ebebeb',
+    blockbanneritemtitlecolor: '#ffdf40',
     subtitilecolor: '#6c757d',
+    itemhover :'#e0e0e0',
   },
   headers: {
     h1: {
@@ -130,3 +132,4 @@ const Theme = (props: Props) => {
 };
 
 export default Theme;
+

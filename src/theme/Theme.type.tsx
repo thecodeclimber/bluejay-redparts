@@ -57,7 +57,9 @@ declare module 'styled-components' {
       shadowcolor: string;
       boxshadowcolor: string;
       bordercolor: string;
+      blockbanneritemtitlecolor:string;
       subtitilecolor: string;
+      itemhover:string;
     };
     headers: {
       h1: {
@@ -120,3 +122,4 @@ declare module 'styled-components' {
     };
   }
 }
+
