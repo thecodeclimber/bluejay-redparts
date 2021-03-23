@@ -48,6 +48,8 @@ declare module 'styled-components' {
       youtube: string;
       instagram: string;
       rss: string;
+      titlecolor: string;
+      formbgcolor: string;
       cardbodybgcolor: string;
       anchorcolor: string;
       activebordercolor: string;
@@ -57,9 +59,9 @@ declare module 'styled-components' {
       shadowcolor: string;
       boxshadowcolor: string;
       bordercolor: string;
-      blockbanneritemtitlecolor:string;
+      blockbanneritemtitlecolor: string;
       subtitilecolor: string;
-      itemhover:string;
+      itemhover: string;
     };
     headers: {
       h1: {
@@ -122,4 +124,3 @@ declare module 'styled-components' {
     };
   }
 }
-

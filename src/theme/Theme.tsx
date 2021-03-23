@@ -37,8 +37,6 @@ const theme: DefaultTheme = {
     widgetnewslettertextcolor: '#9e9e9e',
     widgetanchorhovercolor: '#007bff',
     widgetauthorbordercolor: '#ebebeb',
-    formProductTitle: '#6c7177',
-    ItemDetailsColor: '#6c757d',
     plusiconcolor: '#ccc',
     cardbgcolor: '#f2f2f2',
     widgetchildbgcolor: '#f5f5f5',
@@ -47,6 +45,10 @@ const theme: DefaultTheme = {
     youtube: '#e52e2e',
     instagram: '#815dc7',
     rss: '#ffc338',
+    titlecolor: '#6c7177',
+    formbgcolor: '#f9f9f9',
+    formProductTitle: '#6c7177',
+    ItemDetailsColor: '#6c757d',
     cardbodybgcolor: '#1a1a1a99',
     anchorcolor: '#ffdf40',
     activebordercolor: '#1e74df',
@@ -60,7 +62,7 @@ const theme: DefaultTheme = {
     bordercolor: '#ebebeb',
     blockbanneritemtitlecolor: '#ffdf40',
     subtitilecolor: '#6c757d',
-    itemhover :'#e0e0e0',
+    itemhover: '#e0e0e0',
   },
   headers: {
     h1: {
@@ -132,4 +134,3 @@ const Theme = (props: Props) => {
 };
 
 export default Theme;
-
