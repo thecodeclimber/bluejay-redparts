@@ -13,22 +13,20 @@ export const ArrowButton = styled.div`
   background: transparent;
   pointer-events: none;
   transition: color 0.15s;
-
-  @include local-define-arrow-scheme(normal);
-
+  color: ${(props) => `${props.theme.colors.white}`};
+  height: 23px;
+  padding: 0 14.37131px;
   svg {
-    fill: currentColor;
-    display: block;
-
-    @include direction {
-      transform: scaleX($transform-direction);
-    }
+    fill: ${(props) => `${props.theme.colors.white}`};
   }
-
-  &:focus {
-    outline: none;
+  &:hover::before {
+    background: ${(props) => `${props.theme.colors.selectfontcolor}`};
   }
-  &:before {
+  &::before {
+    transform: skewX(-20deg);
+    left: 4.185655px;
+    direction: ltr;
+    width: calc(100% - 8.37131px);
     position: absolute;
     display: block;
     content: '';
@@ -38,21 +36,9 @@ export const ArrowButton = styled.div`
     border-radius: 2px;
     pointer-events: auto;
     transition: background 0.15s;
+    background: ${(props) => `${props.theme.colors.primary}`};
   }
-  &:hover {
-    @include local-define-arrow-scheme(hover);
-  }
-  &:active {
-    @include local-define-arrow-scheme(active);
-
-    &,
-    &:before {
-      transition-duration: 0s;
-    }
-  }
-
-  // this is to avoid chrome rendering bug
-  &:after {
+  &::after {
     position: absolute;
     display: block;
     content: '';
@@ -61,16 +47,5 @@ export const ArrowButton = styled.div`
     height: calc(100% + 4px);
     transition: background 0.2s;
     opacity: 0.01;
-
-    @include direction {
-      #{$inset-inline-start}: -2px;
-    }
-  }
-  &:hover:after {
-    background: $barely-black;
-  }
-  &:active:after {
-    background: $barely-white;
-    transition-duration: 0s;
   }
 `;
