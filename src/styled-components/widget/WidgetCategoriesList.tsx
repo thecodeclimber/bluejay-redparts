@@ -41,8 +41,8 @@ export const WidgetCategoriesListChild = styled.ul`
   opacity: 0;
   list-style-type: none;
   transition: height 0.2s ease-in-out, opacity 0.2s ease-in-out;
-  ${(props: { isOpen?: any }) =>
-    props.isOpen &&
+  ${(props: { isopen?: any }) =>
+    props.isopen &&
     css`
       height: 100%;
       opacity: 1;
@@ -60,8 +60,8 @@ export const WidgetCategoriesListShowMoreArrow = styled(ArrowDown9x6Svg)`
   transform: rotate(0deg);
   fill: #999;
   transition: transform 0.2s;
-  ${(props: { isOpen?: boolean }) =>
-    props.isOpen &&
+  ${(props: { isopen?: any }) =>
+    props.isopen &&
     css`
       transform: rotate(180deg);
       transition: transform 0.2s;
@@ -88,8 +88,8 @@ export const WidgetCategoriesListShowMoreButton = styled.button`
   font-family: inherit;
   margin-top: 4px;
   margin-bottom: 20px;
-  ${(props: { isOpen?: any }) =>
-    props.isOpen
+  ${(props: { isopen?: any }) =>
+    props.isopen
       ? css`
           ${WidgetCategoriesListShowMoreCollapseText} {
             display: block;
