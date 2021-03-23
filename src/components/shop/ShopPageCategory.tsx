@@ -1,10 +1,8 @@
 // react
 import React, { useEffect, useMemo, useState } from 'react';
 // third-party
-import classNames from 'classnames';
 import { FormattedMessage, useIntl } from 'react-intl';
 // application
-import AppImage from '~/components/shared/AppImage';
 import AppLink from '~/components/shared/AppLink';
 import BlockBrands from '~/components/blocks/BlockBrands';
 import BlockHeader from '~/components/blocks/BlockHeader';
@@ -21,7 +19,22 @@ import { IProduct } from '~/interfaces/product';
 import { IShopCategory } from '~/interfaces/category';
 import { shopApi } from '~/api';
 import { useDeferredData } from '~/services/hooks';
-
+import {
+    BlockBlockSplit ,
+    BlockSplitRow ,
+    BlockSplitItemSideBar ,
+    BlockSplitItemContent,
+    Block ,
+    CategoriesListLayout ,
+    CategoriesListBody ,
+    CategoriesListItem ,
+    ImageTypeCategory ,
+    ImageBody ,
+    ImageTag ,
+    CategoriesListItemName ,
+    CategoriesListItemProducts ,
+    CategoriesListDivider ,
+} from '~/styled-components/shop/ShopPageCategory';
 interface Props {
     layout: IShopCategoryPageLayout;
     sidebarPosition?: IShopCategoryPageSidebarPosition;
@@ -93,7 +106,7 @@ function ShopPageCategory(props: Props) {
 
     if (hasSidebar) {
         sidebar = (
-            <div className="block-split__item block-split__item-sidebar col-auto">
+            <BlockSplitItemSideBar className="col-auto">
                 {subcategories.length > 0 && (
                     <WidgetCategoriesList
                         categories={subcategories}
@@ -104,53 +117,49 @@ function ShopPageCategory(props: Props) {
                     widgetTitle={intl.formatMessage({ id: 'HEADER_LATEST_PRODUCTS' })}
                     products={latestProducts}
                 />
-            </div>
+            </BlockSplitItemSideBar>
         );
     }
 
     const subcategoriesTemplate = subcategories.length === 0 ? null : (
         <React.Fragment>
-            <div className="block">
-                <div className={`categories-list categories-list--layout--${layout}`}>
-                    <ul className="categories-list__body">
+            <Block >
+                <CategoriesListLayout >
+                    <CategoriesListBody >
                         {subcategories.map((subcategory) => (
                             <React.Fragment key={subcategory.id}>
-                                <li
-                                    className={classNames('categories-list__item', {
-                                        'categories-list__item--has-image': subcategory.image,
-                                    })}
-                                >
+                                <CategoriesListItem>
                                     <AppLink href={url.category(subcategory)}>
                                         {subcategory.image && (
-                                            <div className="image image--type--category">
-                                                <div className="image__body">
-                                                    <AppImage
-                                                        className="image__tag"
+                                            <ImageTypeCategory >
+                                                <ImageBody >
+                                                    <ImageTag
+                                                        
                                                         src={subcategory.image}
                                                         alt={subcategory.name}
                                                     />
-                                                </div>
-                                            </div>
+                                                </ImageBody>
+                                            </ImageTypeCategory>
                                         )}
-                                        <div className="categories-list__item-name">
+                                        <CategoriesListItemName >
                                             {subcategory.name}
-                                        </div>
+                                        </CategoriesListItemName>
                                     </AppLink>
                                     {typeof subcategory.items === 'number' && (
-                                        <div className="categories-list__item-products">
+                                        <CategoriesListItemProducts >
                                             <FormattedMessage
                                                 id="TEXT_PRODUCTS_COUNT"
                                                 values={{ count: subcategory.items }}
                                             />
-                                        </div>
+                                        </CategoriesListItemProducts>
                                     )}
-                                </li>
-                                <li className="categories-list__divider" />
+                                </CategoriesListItem>
+                                <CategoriesListDivider />
                             </React.Fragment>
                         ))}
-                    </ul>
-                </div>
-            </div>
+                    </CategoriesListBody>
+                </CategoriesListLayout>
+            </Block>
 
             <BlockSpace layout="divider-nl" />
         </React.Fragment>
@@ -165,16 +174,12 @@ function ShopPageCategory(props: Props) {
                 breadcrumb={breadcrumb}
             />
 
-            <div
-                className={classNames('block', 'block-split', {
-                    'block-split--has-sidebar': hasSidebar,
-                })}
-            >
+            <BlockBlockSplit>
                 <div className="container">
-                    <div className="block-split__row row no-gutters">
+                    <BlockSplitRow className="row no-gutters">
                         {hasSidebar && sidebarPosition === 'start' && sidebar}
 
-                        <div className="block-split__item block-split__item-content col-auto flex-grow-1">
+                        <BlockSplitItemContent className="col-auto flex-grow-1">
                             {subcategoriesTemplate}
 
                             <BlockProductsCarousel
@@ -200,12 +205,12 @@ function ShopPageCategory(props: Props) {
                                 layout={hasSidebar ? 'columns-7-sidebar' : 'columns-8-full'}
                                 brands={brands}
                             />
-                        </div>
+                        </BlockSplitItemContent>
 
                         {hasSidebar && sidebarPosition === 'end' && sidebar}
-                    </div>
+                    </BlockSplitRow>
                 </div>
-            </div>
+            </BlockBlockSplit>
 
             <BlockSpace layout="before-footer" />
         </React.Fragment>
