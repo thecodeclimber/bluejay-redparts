@@ -61,6 +61,7 @@ declare module 'styled-components' {
       bordercolor: string;
       blockbanneritemtitlecolor: string;
       subtitilecolor: string;
+      borderleftcolor: string;
       backgroundcolor: string;
       switcherbtncolor: string;
       switcherbgcolor: string;
