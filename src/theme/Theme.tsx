@@ -62,6 +62,7 @@ const theme: DefaultTheme = {
     bordercolor: '#ebebeb',
     blockbanneritemtitlecolor: '#ffdf40',
     subtitilecolor: '#6c757d',
+    backgroundcolor: '#00000008',
     switcherbtncolor: '#95a0a6',
     switcherbgcolor: ' #f0f0f0',
     btnicon: '#404040',

@@ -51,7 +51,7 @@ function WidgetCategoriesList(props: Props) {
         </WidgetCategoriesListRootLink>
 
         {subs.length > 0 && (
-          <WidgetCategoriesListChild isOpen={true}>
+          <WidgetCategoriesListChild isopen={isOpen ? 1 : 0}>
             {subs.slice(0, subs.length > 6 ? 5 : 6).map((sub, subIdx) => (
               <WidgetCategoriesListChildItem key={subIdx}>
                 <AppLink href={url.category(sub)}>{sub.name}</AppLink>
@@ -62,7 +62,7 @@ function WidgetCategoriesList(props: Props) {
 
         {subs.length > 6 && (
           <React.Fragment>
-            <WidgetCategoriesListChild ref={setContentRef} isOpen={isOpen}>
+            <WidgetCategoriesListChild ref={setContentRef} isopen={isOpen ? 1 :0}>
               {subs.slice(5).map((sub, subIdx) => (
                 <WidgetCategoriesListChildItem key={subIdx}>
                   <AppLink href={url.category(sub)}>{sub.name}</AppLink>
@@ -72,7 +72,7 @@ function WidgetCategoriesList(props: Props) {
             <WidgetCategoriesListShowMoreButton
               type="button"
               onClick={handleToggle}
-              isOpen={isOpen}
+              isopen={isOpen ? 1 :0}
             >
               <WidgetCategoriesListShowMoreCollapseText>
                 Show Less
@@ -83,7 +83,7 @@ function WidgetCategoriesList(props: Props) {
               </WidgetCategoriesListShowMoreExpandText>
 
               <ShowMoreIcon >
-                <WidgetCategoriesListShowMoreArrow isOpen={isOpen}/>
+                <WidgetCategoriesListShowMoreArrow isopen={isOpen ? 1 : 0}/>
               </ShowMoreIcon>
             </WidgetCategoriesListShowMoreButton>
           </React.Fragment>
