@@ -9,98 +9,119 @@ import { IProductsList, IProduct } from '~/interfaces/product';
 import { IReview } from '~/interfaces/review';
 import { IShopCategory } from '~/interfaces/category';
 import {
-    IAddProductReviewData,
-    ICheckoutData,
-    IGetBrandsOptions,
-    IGetCategoriesOptions,
-    IGetCategoryBySlugOptions,
-    IGetSearchSuggestionsOptions,
-    IGetSearchSuggestionsResult,
-    ShopApi,
+  IAddProductReviewData,
+  ICheckoutData,
+  IGetBrandsOptions,
+  IGetCategoriesOptions,
+  IGetCategoryBySlugOptions,
+  IGetSearchSuggestionsOptions,
+  IGetSearchSuggestionsResult,
+  ShopApi,
 } from '~/api/base';
 import {
-    addProductReview,
-    checkout,
-    getCategories,
-    getCategoryBySlug,
-    getFeaturedProducts,
-    getLatestProducts,
-    getPopularProducts,
-    getProductAnalogs,
-    getProductBySlug,
-    getProductReviews,
-    getProductsList,
-    getRelatedProducts,
-    getSearchSuggestions,
-    getSpecialOffers,
-    getTopRatedProducts,
+  addProductReview,
+  checkout,
+  getCategories,
+  getCategoryBySlug,
+  getFeaturedProducts,
+  getLatestProducts,
+  getPopularProducts,
+  getProductAnalogs,
+  getProductBySlug,
+  getProductReviews,
+  getProductsList,
+  getRelatedProducts,
+  getSearchSuggestions,
+  getSpecialOffers,
+  getTopRatedProducts,
 } from '~/fake-server/endpoints';
 
 export class FakeShopApi implements ShopApi {
-    getCategoryBySlug(slug: string, options?: IGetCategoryBySlugOptions): Promise<IShopCategory> {
-        return getCategoryBySlug(slug, options);
-    }
+  getCategoryBySlug(
+    slug: string,
+    options?: IGetCategoryBySlugOptions
+  ): Promise<IShopCategory> {
+    return getCategoryBySlug(slug, options);
+  }
 
-    getCategories(options?: IGetCategoriesOptions): Promise<IShopCategory[]> {
-        return getCategories(options);
-    }
+  getCategories(options?: IGetCategoriesOptions): Promise<IShopCategory[]> {
+    return getCategories(options);
+  }
 
-    getBrands(options?: IGetBrandsOptions): Promise<IBrand[]> {
-        return getBrands(options);
-    }
+  getBrands(options?: IGetBrandsOptions): Promise<IBrand[]> {
+    return getBrands(options);
+  }
 
-    getProductsList(options: IListOptions = {}, filters: IFilterValues = {}): Promise<IProductsList> {
-        return getProductsList(options, filters);
-    }
+  getProductsList(
+    options: IListOptions = {},
+    filters: IFilterValues = {}
+  ): Promise<IProductsList> {
+    return getProductsList(options, filters);
+  }
 
-    getProductBySlug(slug: string): Promise<IProduct> {
-        return getProductBySlug(slug);
-    }
+  getProductBySlug(slug: string): Promise<IProduct> {
+    return getProductBySlug(slug);
+  }
 
-    getProductReviews(productId: number, options?: IListOptions): Promise<IReviewsList> {
-        return getProductReviews(productId, options);
-    }
+  getProductReviews(
+    productId: number,
+    options?: IListOptions
+  ): Promise<IReviewsList> {
+    return getProductReviews(productId, options);
+  }
 
-    addProductReview(productId: number, data: IAddProductReviewData): Promise<IReview> {
-        return addProductReview(productId, data);
-    }
+  addProductReview(
+    productId: number,
+    data: IAddProductReviewData
+  ): Promise<IReview> {
+    return addProductReview(productId, data);
+  }
 
-    getProductAnalogs(productId: number): Promise<IProduct[]> {
-        return getProductAnalogs(productId);
-    }
+  getProductAnalogs(productId: number): Promise<IProduct[]> {
+    return getProductAnalogs(productId);
+  }
 
-    getRelatedProducts(productId: number, limit: number): Promise<IProduct[]> {
-        return getRelatedProducts(productId, limit);
-    }
+  getRelatedProducts(productId: number, limit: number): Promise<IProduct[]> {
+    return getRelatedProducts(productId, limit);
+  }
 
-    getFeaturedProducts(categorySlug: string | null, limit: number): Promise<IProduct[]> {
-        return getFeaturedProducts(categorySlug, limit);
-    }
+  getFeaturedProducts(
+    categorySlug: string | null,
+    limit: number
+  ): Promise<IProduct[]> {
+    return getFeaturedProducts(categorySlug, limit);
+  }
 
-    getPopularProducts(categorySlug: string | null, limit: number): Promise<IProduct[]> {
-        return getPopularProducts(categorySlug, limit);
-    }
+  getPopularProducts(
+    categorySlug: string | null,
+    limit: number
+  ): Promise<IProduct[]> {
+    return getPopularProducts(categorySlug, limit);
+  }
 
-    getTopRatedProducts(categorySlug: string | null, limit: number): Promise<IProduct[]> {
-        return getTopRatedProducts(categorySlug, limit);
-    }
+  getTopRatedProducts(
+    categorySlug: string | null,
+    limit: number
+  ): Promise<IProduct[]> {
+    return getTopRatedProducts(categorySlug, limit);
+  }
 
-    getSpecialOffers(limit: number): Promise<IProduct[]> {
-        return getSpecialOffers(limit);
-    }
+  getSpecialOffers(limit: number): Promise<IProduct[]> {
+    return getSpecialOffers(limit);
+  }
 
-    getLatestProducts(limit: number): Promise<IProduct[]> {
-        return getLatestProducts(limit);
-    }
+  getLatestProducts(limit: number): Promise<IProduct[]> {
+    return getLatestProducts(limit);
+  }
 
-    getSearchSuggestions(
-        query: string,
-        options?: IGetSearchSuggestionsOptions,
-    ): Promise<IGetSearchSuggestionsResult> {
-        return getSearchSuggestions(query, options);
-    }
+  getSearchSuggestions(
+    query: string,
+    options?: IGetSearchSuggestionsOptions
+  ): Promise<IGetSearchSuggestionsResult> {
+    return getSearchSuggestions(query, options);
+  }
 
-    checkout(data: ICheckoutData): Promise<IOrder> {
-        return checkout(data);
-    }
+  checkout(data: ICheckoutData): Promise<IOrder> {
+    return checkout(data);
+  }
 }
