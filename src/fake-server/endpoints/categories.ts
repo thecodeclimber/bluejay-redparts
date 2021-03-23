@@ -1,69 +1,97 @@
 // application
-import { blogCategoriesTree, shopCategoriesList, shopCategoriesTree } from '~/fake-server/database/categories';
+import {
+  blogCategoriesTree,
+  shopCategoriesList,
+  shopCategoriesTree,
+} from '~/fake-server/database/categories';
 import { clone, error } from '~/fake-server/utils';
-import { IBaseCategory, IBlogCategory, IShopCategory } from '~/interfaces/category';
-import { IGetBlogCategoriesOptions, IGetCategoriesOptions, IGetCategoryBySlugOptions } from '~/api/base';
+import {
+  IBaseCategory,
+  IBlogCategory,
+  IShopCategory,
+} from '~/interfaces/category';
+import {
+  IGetBlogCategoriesOptions,
+  IGetCategoriesOptions,
+  IGetCategoryBySlugOptions,
+} from '~/api/base';
 
-export function prepareCategory<T extends IBaseCategory>(category: T, depth?: number): T {
-    let children;
+export function prepareCategory<T extends IBaseCategory>(
+  category: T,
+  depth?: number
+): T {
+  let children;
 
-    if (depth && depth > 0) {
-        children = (category.children || []).map((x) => prepareCategory(x, depth - 1));
-    }
+  if (depth && depth > 0) {
+    children = (category.children || []).map((x) =>
+      prepareCategory(x, depth - 1)
+    );
+  }
 
-    let parent;
+  let parent;
 
-    if (category.parent) {
-        parent = prepareCategory(category.parent);
-    } else if (category.parent === null) {
-        parent = null;
-    }
+  if (category.parent) {
+    parent = prepareCategory(category.parent);
+  } else if (category.parent === null) {
+    parent = null;
+  }
 
-    return JSON.parse(JSON.stringify({
-        ...category,
-        parent,
-        children,
-    }));
+  return JSON.parse(
+    JSON.stringify({
+      ...category,
+      parent,
+      children,
+    })
+  );
 }
 
-export function getCategoryBySlug(slug: string, options?: IGetCategoryBySlugOptions): Promise<IShopCategory> {
-    const optionsValue = options || {};
+export function getCategoryBySlug(
+  slug: string,
+  options?: IGetCategoryBySlugOptions
+): Promise<IShopCategory> {
+  const optionsValue = options || {};
 
-    const category = shopCategoriesList.find((x) => x.slug === slug);
+  const category = shopCategoriesList.find((x) => {
+    return x.slug === slug;
+  });
 
-    if (!category) {
-        return error('Page Not Found');
-    }
+  if (!category) {
+    return error('Page Not Found');
+  }
 
-    return Promise.resolve(prepareCategory(category, optionsValue.depth));
+  return Promise.resolve(prepareCategory(category, optionsValue.depth));
 }
 
-export function getCategories(options?: IGetCategoriesOptions): Promise<IShopCategory[]> {
-    let categories = shopCategoriesTree.slice(0);
-    const depth = options?.depth || 0;
-    const optionParent = options?.parent;
-    const optionSlugs = options?.slugs;
+export function getCategories(
+  options?: IGetCategoriesOptions
+): Promise<IShopCategory[]> {
+  let categories = shopCategoriesTree.slice(0);
+  const depth = options?.depth || 0;
+  const optionParent = options?.parent;
+  const optionSlugs = options?.slugs;
 
-    if (optionParent) {
-        const parent = shopCategoriesList.find((x) => x.slug === optionParent.slug);
+  if (optionParent) {
+    const parent = shopCategoriesList.find((x) => x.slug === optionParent.slug);
 
-        if (parent) {
-            categories = parent.children || [];
-        }
-    } else if (optionSlugs) {
-        categories = shopCategoriesList.filter((x) => optionSlugs.includes(x.slug));
+    if (parent) {
+      categories = parent.children || [];
     }
+  } else if (optionSlugs) {
+    categories = shopCategoriesList.filter((x) => optionSlugs.includes(x.slug));
+  }
 
-    categories = categories.map((x) => prepareCategory(x, depth));
+  categories = categories.map((x) => prepareCategory(x, depth));
 
-    return Promise.resolve(clone(categories));
+  return Promise.resolve(clone(categories));
 }
 
-export function getBlogCategories(options: IGetBlogCategoriesOptions): Promise<IBlogCategory[]> {
-    let categories = blogCategoriesTree.slice(0);
-    const depth = options.depth || 0;
+export function getBlogCategories(
+  options: IGetBlogCategoriesOptions
+): Promise<IBlogCategory[]> {
+  let categories = blogCategoriesTree.slice(0);
+  const depth = options.depth || 0;
 
-    categories = categories.map((x) => prepareCategory(x, depth));
+  categories = categories.map((x) => prepareCategory(x, depth));
 
-    return Promise.resolve(clone(categories));
+  return Promise.resolve(clone(categories));
 }
