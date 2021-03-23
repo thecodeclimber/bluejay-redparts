@@ -10,7 +10,14 @@ import ReviewsView from '~/components/shop/ReviewsView';
 import Specification from '~/components/shop/Specification';
 import { IProduct, IProductAttributeGroup } from '~/interfaces/product';
 import { IProductPageLayout } from '~/interfaces/pages';
-
+import {
+    ProductProductTabs ,
+    ProductTabsList ,
+    ProductTabsItem ,
+    ProductTabsItemCounter ,
+    ProductTabsContent ,
+    ProductTabsPane
+} from '~/styled-components/shop/ProductTabs';
 export interface ITab {
     id: string;
     title: React.ReactNode;
@@ -76,40 +83,36 @@ function ProductTabs(props: Props) {
     const rootClasses = classNames(`product-tabs product-tabs--layout--${layout}`, className);
 
     return (
-        <div className={rootClasses} {...rootProps}>
+        <ProductProductTabs  {...rootProps}>
             {tabs.map((tab, index) => (
                 <div key={index} id={tab.id} />
             ))}
-            <ul className="product-tabs__list">
+            <ProductTabsList >
                 {tabs.map((tab, index) => (
-                    <li
+                    <ProductTabsItem
+                      active={activeTab === tab.id}
                         key={index}
-                        className={classNames('product-tabs__item', {
-                            'product-tabs__item--active': activeTab === tab.id,
-                        })}
                     >
                         <AppLink href={{ href: { hash: tab.id } }} onClick={() => setActiveTab(tab.id)}>
                             {tab.title}
                             {tab.showCounter && (
-                                <span className="product-tabs__item-counter">{tab.counter}</span>
+                                <ProductTabsItemCounter>{tab.counter}</ProductTabsItemCounter>
                             )}
                         </AppLink>
-                    </li>
+                    </ProductTabsItem>
                 ))}
-            </ul>
-            <div className="product-tabs__content">
+            </ProductTabsList>
+            <ProductTabsContent>
                 {tabs.map((tab, index) => (
-                    <div
+                    <ProductTabsPane
+                      active ={activeTab === tab.id}
                         key={index}
-                        className={classNames('product-tabs__pane', {
-                            'product-tabs__pane--active': activeTab === tab.id,
-                        })}
                     >
                         {tab.content}
-                    </div>
+                    </ProductTabsPane>
                 ))}
-            </div>
-        </div>
+            </ProductTabsContent>
+        </ProductProductTabs>
     );
 }
 

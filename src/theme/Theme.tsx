@@ -62,6 +62,7 @@ const theme: DefaultTheme = {
     bordercolor: '#ebebeb',
     blockbanneritemtitlecolor: '#ffdf40',
     subtitilecolor: '#6c757d',
+    tabbgcolor: '#f7f7f7',
     itemhover: '#e0e0e0',
   },
   headers: {
