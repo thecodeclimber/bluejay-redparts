@@ -37,6 +37,7 @@ declare module 'styled-components' {
       ItemDetailsColor: string;
       widgetanchorhovercolor: string;
       widgetauthorbordercolor: string;
+      formProductTitle: string;
       blockPostsLoaderBg: string;
       BlockSiteFooterColor: string;
       plusiconcolor: string;
@@ -56,7 +57,9 @@ declare module 'styled-components' {
       shadowcolor: string;
       boxshadowcolor: string;
       bordercolor: string;
+      blockbanneritemtitlecolor:string;
       subtitilecolor: string;
+      itemhover:string;
     };
     headers: {
       h1: {
@@ -119,3 +122,4 @@ declare module 'styled-components' {
     };
   }
 }
+
