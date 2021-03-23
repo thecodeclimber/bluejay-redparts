@@ -126,6 +126,8 @@ const theme: DefaultTheme = {
   },
   boxShadow: {
     blockFinderTextShadow: '0 1px 3px rgb(0 0 0 / 20%)',
+    checkBoxCheckedShadow: '0 0 0 1px rgba(#000, 0.05) inset',
+    checkBoxDisabledShadow: '0 0 0 1px rgba(#000, 0.1) inset',
   },
   background: {
     blockbanneritemlineargradient:
