@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import ProductGallery from '~/components/shop/ProductGallery';
+import ProductForm from '~/components/shop/ProductForm';
+import ProductTabs from '~/components/shop/ProductTabs';
 
 export const ProductCardOne = styled.div`
   background-color: ${(props) => `${props.theme.colors.white}`};
@@ -248,5 +250,131 @@ export const ProductFeaturesLink = styled.div`
   border-top: 1px solid ${(props) => `${props.theme.colors.bordercolor}`};
   a:hover {
     text-decoration: underline;
+  }
+`;
+
+export const ProductActions = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  white-space: nowrap;
+  padding: 0 28px 24px;
+  margin-top: -20px;
+  @media (max-width: ${(props) => `${props.theme.breakPoints.xl}`}px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  @media (max-width: ${(props) => `${props.theme.breakPoints.md}`}px) {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  @media (max-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
+    margin-top: -12px;
+    margin-bottom: -6px;
+  }
+`;
+
+export const ProductFormForm = styled(ProductForm)`
+  background: ${(props) => `${props.theme.colors.formbgcolor}`};
+  margin-bottom: 24px;
+  margin-top: -4px;
+  padding: 16px 28px 18px;
+  border-top: 1px solid ${(props) => `${props.theme.colors.bordercolor}`};
+  border-bottom: 1px solid ${(props) => `${props.theme.colors.bordercolor}`};
+  display: block;
+  @media (max-width: ${(props) => `${props.theme.breakPoints.xl}`}px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  @media (max-width: ${(props) => `${props.theme.breakPoints.md}`}px) {
+    background: transparent;
+    border: none;
+    margin-bottom: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+`;
+
+export const ProdcutInfoCard = styled.form`
+  position: relative;
+  width: 100%;
+  @media (min-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
+    background-color: ${(props) => `${props.theme.colors.white}`};
+    box-shadow: 0 1px 3px ${(props) => `${props.theme.colors.boxshadowcolor}`};
+  }
+  @media (max-width: ${(props) => `${props.theme.breakPoints.md}`}px) {
+    position: static;
+    margin-top: 16px;
+    padding-top: 24px;
+    padding-bottom: 28px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  @media (max-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
+    margin-top: 0;
+    padding-top: 0;
+  }
+`;
+
+export const ProductInfo = styled.div`
+  grid-column: 3;
+  grid-row: 1 / 5;
+  margin-left: 30px;
+  @media (max-width: ${(props) => `${props.theme.breakPoints.lg}`}px) {
+    grid-column: 3;
+    grid-row: 1/4;
+    display: flex;
+  }
+  @media (max-width: ${(props) => `${props.theme.breakPoints.md}`}px) {
+    grid-column: 2;
+    grid-row: 3;
+    margin-left: 16px;
+  }
+  @media (max-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
+    grid-column: 1;
+    grid-row: 4;
+    width: 100%;
+    margin-left: 0;
+  }
+`;
+
+export const ProductTabsTabs = styled(ProductTabs)`
+  background-color: ${(props) => `${props.theme.colors.white}`};
+  box-shadow: 0 1px 3px ${(props) => `${props.theme.colors.boxshadowcolor}`};
+  grid-column: 1/3;
+  grid-row: 4;
+  margin-top: 30px;
+  @media (max-width: ${(props) => `${props.theme.breakPoints.lg}`}px) {
+    grid-column: 1/4;
+    grid-row: 4;
+  }
+  @media (max-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
+    grid-column: 1;
+    grid-row: 5;
+  }
+`;
+
+export const ProductBody = styled.div`
+  display: grid;
+  grid-template-columns: auto 1fr 370px;
+  grid-template-rows: max-content auto auto 1fr;
+  @media (max-width: ${(props) => `${props.theme.breakPoints.xl}`}px) {
+    grid-template-columns: auto 1fr 336px;
+  }
+  @media (max-width: ${(props) => `${props.theme.breakPoints.lg}`}px) {
+    grid-template-columns: auto 1fr 336px;
+    grid-template-rows: max-content auto auto 1fr;
+  }
+  @media (max-width: ${(props) => `${props.theme.breakPoints.md}`}px) {
+    grid-template-columns: auto 1fr;
+    grid-template-rows: max-content auto auto 1fr;
+  }
+  @media (max-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    width: 100%;
   }
 `;

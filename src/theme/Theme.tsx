@@ -59,6 +59,9 @@ const theme: DefaultTheme = {
     bordercolor: '#ebebeb',
     subtitilecolor: '#6c757d',
     badgebgcolor: '#ff3333' ,
+    loadingbordercolor: '#0000001a',
+    loadingbordertopcolor : '#00000080',
+    formbgcolor: '#f9f9f9',
   },
   headers: {
     h1: {

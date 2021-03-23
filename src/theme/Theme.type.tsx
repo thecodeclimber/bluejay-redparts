@@ -58,6 +58,9 @@ declare module 'styled-components' {
       bordercolor: string;
       subtitilecolor: string;
       badgebgcolor: string;
+      loadingbordercolor: string;
+      loadingbordertopcolor: string;
+      formbgcolor: string;
     };
     headers: {
       h1: {
