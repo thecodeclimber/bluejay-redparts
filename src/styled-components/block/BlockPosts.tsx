@@ -19,7 +19,7 @@ export const BlockPostsCarouselLoader = styled.div`
     top: -10px;
     width: calc(100% + 20px);
     height: calc(100% + 20px);
-    background: ${props => `${props.theme.colors.blockPostsLoaderBg}`};
+    background: ${props => `${props.theme.colors.cardbgcolor}`};
     opacity: 0.9;
   }
   &:after {
