@@ -1,26 +1,30 @@
 // react
 import React from 'react';
 // third-party
-import classNames from 'classnames';
-
+import {
+  DecorStyledComponent,
+  DecorBody,
+  DecorStart,
+  DecorEnd,
+  DecorCenter,
+} from '~/styled-components/components/Decor';
 type Type = 'center' | 'bottom';
 
 interface Props extends React.HTMLAttributes<HTMLElement> {
-    type: Type;
+  type: Type;
 }
 
 function Decor(props: Props) {
   const { type, className } = props;
-  const rootClasses = classNames('decor', `decor--type--${type}`, className);
 
   return (
-    <div className={rootClasses}>
-      <div className="decor__body">
-        <div className="decor__start" />
-        <div className="decor__end" />
-        <div className="decor__center" />
-      </div>
-    </div>
+    <DecorStyledComponent className={className} type={type}>
+      <DecorBody>
+        <DecorStart />
+        <DecorEnd />
+        <DecorCenter />
+      </DecorBody>
+    </DecorStyledComponent>
   );
 }
 

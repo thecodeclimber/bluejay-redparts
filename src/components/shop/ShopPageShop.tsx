@@ -1,11 +1,14 @@
 // react
 import React, { useEffect, useMemo } from 'react';
 // third-party
-import classNames from 'classnames';
 import queryString from 'query-string';
 import { useIntl } from 'react-intl';
 // application
-import { NoGutters } from '~/styled-components/shop/ShopPageShop';
+import {
+  NoGutters,
+  BlockSplitItem,
+  BlockSplitItemSidebar,
+} from '~/styled-components/shop/ShopPageShop';
 import BlockHeader from '~/components/blocks/BlockHeader';
 import BlockSpace from '~/components/blocks/BlockSpace';
 import ProductsView from '~/components/shop/ProductsView';
@@ -25,19 +28,16 @@ import {
   IShopPageOffCanvasSidebar,
   IShopPageSidebarPosition,
 } from '~/interfaces/pages';
-
 interface Props {
   layout: IShopPageLayout;
   gridLayout: IShopPageGridLayout;
   sidebarPosition?: IShopPageSidebarPosition;
 }
-
 function ShopPageShop(props: Props) {
   const { layout, gridLayout, sidebarPosition = 'start' } = props;
   const intl = useIntl();
   const router = useAppRouter();
   const shopState = useShop();
-
   // Replace current url.
   useEffect(() => {
     const query = buildQuery(shopState.options, shopState.filters);
@@ -48,7 +48,6 @@ function ShopPageShop(props: Props) {
       },
       { encode: false }
     );
-
     router
       .replace(
         {
@@ -77,7 +76,6 @@ function ShopPageShop(props: Props) {
         );
       });
   }, [shopState.options, shopState.filters]);
-
   const hasSidebar = ['grid-3-sidebar', 'grid-4-sidebar'].includes(gridLayout);
   const offCanvasSidebar: IShopPageOffCanvasSidebar = [
     'grid-4-full',
@@ -86,55 +84,49 @@ function ShopPageShop(props: Props) {
   ].includes(gridLayout)
     ? 'always'
     : 'mobile';
-
   const pageHeader = useMemo(() => {
     let pageTitle = intl.formatMessage({ id: 'HEADER_SHOP' });
     const breadcrumb: ILink[] = [
       { title: intl.formatMessage({ id: 'LINK_HOME' }), url: url.home() },
       { title: intl.formatMessage({ id: 'LINK_SHOP' }), url: url.shop() },
     ];
-
     if (shopState.category) {
       getCategoryParents(shopState.category).forEach((parent) => {
         breadcrumb.push({ title: parent.name, url: url.category(parent) });
       });
-
       breadcrumb.push({
         title: shopState.category.name,
         url: url.category(shopState.category),
       });
-
       pageTitle = shopState.category.name;
     }
-
     return <BlockHeader pageTitle={pageTitle} breadcrumb={breadcrumb} />;
   }, [intl, shopState.category]);
-
   if (
     shopState.categoryIsLoading ||
     (shopState.productsListIsLoading && !shopState.productsList)
   ) {
     return null;
   }
-
   const sidebar = <ShopSidebar offcanvas={offCanvasSidebar} />;
-
   return (
     <React.Fragment>
       <SidebarProvider>
         <CurrentVehicleScopeProvider>
           {pageHeader}
-
           <div>
             {offCanvasSidebar === 'always' && sidebar}
-
             <div className="container">
-              <NoGutters className="row">
+              <NoGutters className="row no-gutters">
                 {sidebarPosition === 'start' && hasSidebar && (
-                  <div className="col-auto">{sidebar}</div>
+                  <BlockSplitItemSidebar className="col-auto">
+                    {sidebar}
+                  </BlockSplitItemSidebar>
                 )}
-
-                <div className="col-auto flex-grow-1">
+                <BlockSplitItem
+                  itemContent={true}
+                  className="col-auto flex-grow-1"
+                >
                   <div className="block">
                     <ProductsView
                       layout={layout}
@@ -142,20 +134,19 @@ function ShopPageShop(props: Props) {
                       offCanvasSidebar={offCanvasSidebar}
                     />
                   </div>
-                </div>
-
+                </BlockSplitItem>
                 {sidebarPosition === 'end' && hasSidebar && (
-                  <div className="col-auto">{sidebar}</div>
+                  <BlockSplitItemSidebar className="col-auto">
+                    {sidebar}
+                  </BlockSplitItemSidebar>
                 )}
               </NoGutters>
             </div>
           </div>
-
           <BlockSpace layout="before-footer" />
         </CurrentVehicleScopeProvider>
       </SidebarProvider>
     </React.Fragment>
   );
 }
-
 export default ShopPageShop;
