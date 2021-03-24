@@ -73,6 +73,9 @@ const theme: DefaultTheme = {
     loaderbgcolor: '#fafafab3',
     tabbgcolor: '#f7f7f7',
     itemhover: '#e0e0e0',
+    radiobgcolor: '#0000002b',
+    disabledradiocolor: '#0000001f',
+    disabledbgcolorafter: '#00000033',
   },
   headers: {
     h1: {
