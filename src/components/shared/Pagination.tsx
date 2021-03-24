@@ -1,10 +1,18 @@
 // react
 import React from 'react';
-// third-party
-import classNames from 'classnames';
 // application
 import { ArrowRoundedLeft7x11Svg, ArrowRoundedRight7x11Svg } from '~/svg';
-
+import {
+    PaginationPagination ,
+    PageItem ,
+    PageLink ,
+    CurrentPageLink ,
+    PageLinkWithArrow ,
+    PageLinkArrowLeft ,
+    PageLinkArrowRight ,
+    PageItemDot ,
+    PaginationDots ,
+} from '~/styled-components/components/Pagination';
 interface Props {
     siblings?: number;
     current?: number;
@@ -63,61 +71,58 @@ function Pagination(props: Props) {
     };
 
     return (
-        <ul className="pagination">
-            <li className={classNames('page-item', { disabled: current <= 1 })}>
-                <button
+        < PaginationPagination >
+            <PageItem isdisabled={current <= 1}  >
+                <PageLinkWithArrow
                     type="button"
-                    className="page-link page-link--with-arrow"
                     aria-label="Previous"
                     onClick={() => setPage(current - 1)}
                 >
-                    <span className="page-link__arrow page-link__arrow--left" aria-hidden="true">
+                    <PageLinkArrowLeft  aria-hidden="true">
                         <ArrowRoundedLeft7x11Svg />
-                    </span>
-                </button>
-            </li>
+                    </PageLinkArrowLeft>
+                </PageLinkWithArrow>
+            </PageItem>
 
             {getPages().map((page) => (
                 <React.Fragment key={page}>
                     {page !== 0 && (
-                        <li
-                            className={classNames('page-item', { active: page === current })}
+                        <PageItem  isactive ={page === current}
                             aria-current={page === current ? 'page' : undefined}
                         >
                             {page !== current && (
-                                <button type="button" className="page-link" onClick={() => setPage(page)}>
+                                <PageLink type="button"  onClick={() => setPage(page)}>
                                     {page}
-                                </button>
+                                </PageLink>
                             )}
                             {page === current && (
-                                <span className="page-link">
+                                <CurrentPageLink >
                                     {page}
                                     <span className="sr-only">(current)</span>
-                                </span>
+                                </CurrentPageLink>
                             )}
-                        </li>
+                        </PageItem>
                     )}
                     {page === 0 && (
-                        <li className="page-item page-item--dots">
-                            <div className="pagination__dots" />
-                        </li>
+                        <PageItemDot >
+                            <PaginationDots  />
+                        </PageItemDot>
                     )}
                 </React.Fragment>
             ))}
 
-            <li className={classNames('page-item', { disabled: current >= total })}>
-                <button
+            <PageItem isdisabled={current >= total} >
+                <PageLinkWithArrow
                     type="button"
-                    className="page-link page-link--with-arrow"
                     aria-label="Next"
                     onClick={() => setPage(current + 1)}
                 >
-                    <span className="page-link__arrow page-link__arrow--right" aria-hidden="true">
+                    <PageLinkArrowRight  aria-hidden="true">
                         <ArrowRoundedRight7x11Svg />
-                    </span>
-                </button>
-            </li>
-        </ul>
+                    </PageLinkArrowRight>
+                </PageLinkWithArrow>
+            </PageItem>
+        </ PaginationPagination>
     );
 }
 
