@@ -80,10 +80,18 @@ function ShopSidebar(props: Props) {
     []
   );
 
+  const rootClasses = classNames(
+    'sidebar',
+    `sidebar--offcanvas--${offcanvas}`,
+    {
+      'sidebar--open': true,
+    }
+  );
+
   return (
-    <Sidebar isopen={isOpen} offcanvas={offcanvas}>
+    <Sidebar className={rootClasses}>
       <SideBarBackDrop onClick={close} />
-      <SideBarBody>
+      <SideBarBody className="sidebar__body">
         <SideBarHeader>
           <SideBarTitle>
             <FormattedMessage id="HEADER_FILTERS" />
@@ -109,3 +117,30 @@ function ShopSidebar(props: Props) {
 }
 
 export default React.memo(ShopSidebar);
+
+{
+  /* <div className={rootClasses}>
+<div className="sidebar__backdrop" onClick={close} />
+<div className="sidebar__body">
+  <div className="sidebar__header">
+    <div className="sidebar__title">
+      <FormattedMessage id="HEADER_FILTERS" />
+    </div>
+    <button className="sidebar__close" type="button" onClick={close}>
+      <Cross12Svg />
+    </button>
+  </div>
+  <div className="sidebar__content">
+    <WidgetFilters offcanvasSidebar={offcanvas} />
+
+    {offcanvas !== 'always' && (
+      <WidgetProducts
+        className="d-none d-lg-block"
+        widgetTitle={latestProductsTitle}
+        products={latestProducts}
+      />
+    )}
+  </div>
+</div>
+</div> */
+}
