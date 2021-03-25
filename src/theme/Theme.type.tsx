@@ -72,6 +72,14 @@ declare module 'styled-components' {
       loaderbgcolor: string;
       tabbgcolor: string;
       itemhover: string;
+      likebgcolor: string;
+      likebghovercolor: string;
+      tweetbgcolor: string;
+      tweetbghovercolor: string;
+      pinbgcolor: string;
+      pinbghovercolor: string;
+      countercolor: string;
+      counterhovercolor: string;
     };
     headers: {
       h1: {

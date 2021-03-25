@@ -73,6 +73,14 @@ const theme: DefaultTheme = {
     loaderbgcolor: '#fafafab3',
     tabbgcolor: '#f7f7f7',
     itemhover: '#e0e0e0',
+    likebgcolor: '#4267b2' ,
+    likebghovercolor: '#3b5c9f',
+    tweetbgcolor: '#1b95e0',
+    tweetbghovercolor: '#1886c9',
+    pinbgcolor: '#e63939',
+    pinbghovercolor: '#e32222' ,
+    countercolor: '#00000033',
+    counterhovercolor: '#666666',
   },
   headers: {
     h1: {
