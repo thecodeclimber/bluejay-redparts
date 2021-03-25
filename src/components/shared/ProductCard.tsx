@@ -17,6 +17,20 @@ import { useCompareAddItem } from '~/store/compare/compareHooks';
 import { useQuickviewOpen } from '~/store/quickview/quickviewHooks';
 import { useWishlistAddItem } from '~/store/wishlist/wishlistHooks';
 import {
+    ProductCardMeta ,
+    ProductCardbadges ,
+    TagBadge ,
+    ProductCardRatingLabel,
+    ProductCardRatingStars ,
+    ProductCardFeatures ,
+    ProductCardPriceOld ,
+    ProductCardPriceNew ,
+    CurrentCardProductPrice ,
+    ImageTag ,
+    ImageBody ,
+    ImageTypeProduct ,
+} from '~/styled-components/mixin/ProductCard';
+import {
     Cart20Svg,
     Compare16Svg,
     Quickview16Svg,
@@ -112,11 +126,11 @@ function ProductCard(props: Props) {
             </div>
 
             <div className="product-card__image">
-                <div className="image image--type--product">
-                    <AppLink href={url.product(product)} className="image__body">
-                        {product.images && <AppImage className="image__tag" src={product.images[0]} />}
-                    </AppLink>
-                </div>
+                <ImageTypeProduct >
+                    <ImageBody href={url.product(product)} >
+                        {product.images && <ImageTag  src={product.images[0]} />}
+                    </ImageBody>
+                </ImageTypeProduct>
 
                 {!exclude.includes('status-badge') && (
                     <CompatibilityStatusBadge className="product-card__fit" product={product} />
@@ -125,29 +139,29 @@ function ProductCard(props: Props) {
 
             <div className="product-card__info">
                 {!exclude.includes('meta') && (
-                    <div className="product-card__meta">
-                        <span className="product-card__meta-title">
+                    <ProductCardMeta >
+                        <span >
                             <FormattedMessage id="TEXT_SKU" />
                             {': '}
                         </span>
                         {product.sku}
-                    </div>
+                    </ProductCardMeta>
                 )}
 
                 <div className="product-card__name">
                     {product.badges && product.badges.length > 0 && (
-                        <div className="product-card__badges">
+                        <ProductCardbadges >
                             {product.badges.map((badge) => (
-                                <div key={badge} className={`tag-badge tag-badge--${badge}`}>{badge}</div>
+                                <TagBadge badge={badge} key={badge} >{badge}</TagBadge>
                             ))}
-                        </div>
+                        </ProductCardbadges>
                     )}
                     <AppLink href={url.product(product)}>{product.name}</AppLink>
                 </div>
 
                 <div className="product-card__rating">
-                    <Rating className="product-card__rating-stars" value={product.rating || 0} />
-                    <div className=" product-card__rating-label">
+                    <ProductCardRatingStars value={product.rating || 0} />
+                    <ProductCardRatingLabel >
                         <FormattedMessage
                             id="TEXT_RATING_LABEL"
                             values={{
@@ -155,11 +169,11 @@ function ProductCard(props: Props) {
                                 reviews: product.reviews,
                             }}
                         />
-                    </div>
+                    </ProductCardRatingLabel>
                 </div>
 
                 {!exclude.includes('features') && featuredAttributes.length > 0 && (
-                    <div className="product-card__features">
+                    <ProductCardFeatures >
                         <ul>
                             {featuredAttributes.map((attribute, index) => (
                                 <li key={index}>
@@ -169,7 +183,7 @@ function ProductCard(props: Props) {
                                 </li>
                             ))}
                         </ul>
-                    </div>
+                    </ProductCardFeatures>
                 )}
             </div>
 
@@ -177,18 +191,18 @@ function ProductCard(props: Props) {
                 <div className="product-card__prices">
                     {product.compareAtPrice !== null && (
                         <React.Fragment>
-                            <div className="product-card__price product-card__price--new">
+                            <ProductCardPriceNew >
                                 <CurrencyFormat value={product.price} />
-                            </div>
-                            <div className="product-card__price product-card__price--old">
+                            </ProductCardPriceNew>
+                            <ProductCardPriceOld >
                                 <CurrencyFormat value={product.compareAtPrice} />
-                            </div>
+                            </ProductCardPriceOld>
                         </React.Fragment>
                     )}
                     {product.compareAtPrice === null && (
-                        <div className="product-card__price product-card__price--current">
+                        <CurrentCardProductPrice >
                             <CurrencyFormat value={product.price} />
-                        </div>
+                        </CurrentCardProductPrice>
                     )}
                 </div>
                 {!exclude.includes('buttons') && (
