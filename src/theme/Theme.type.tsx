@@ -64,6 +64,7 @@ declare module 'styled-components' {
       loadingbordercolor: string;
       loadingbordertopcolor: string;
       formbgcolor: string;
+      backdropbgcolor: string;
       borderleftcolor: string;
       backgroundcolor: string;
       switcherbtncolor: string;
@@ -133,6 +134,8 @@ declare module 'styled-components' {
     };
     boxShadow: {
       blockFinderTextShadow: string;
+      checkBoxCheckedShadow: string;
+      checkBoxDisabledShadow: string;
     };
   }
 }

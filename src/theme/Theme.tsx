@@ -62,9 +62,10 @@ const theme: DefaultTheme = {
     bordercolor: '#ebebeb',
     blockbanneritemtitlecolor: '#ffdf40',
     subtitilecolor: '#6c757d',
-    badgebgcolor: '#ff3333' ,
+    badgebgcolor: '#ff3333',
     loadingbordercolor: '#0000001a',
-    loadingbordertopcolor : '#00000080',
+    loadingbordertopcolor: '#00000080',
+    backdropbgcolor: '#333333cc',
     borderleftcolor: '#0000001a',
     backgroundcolor: '#00000008',
     switcherbtncolor: '#95a0a6',
@@ -130,6 +131,8 @@ const theme: DefaultTheme = {
   },
   boxShadow: {
     blockFinderTextShadow: '0 1px 3px rgb(0 0 0 / 20%)',
+    checkBoxCheckedShadow: '0 0 0 1px rgba(#000, 0.05) inset',
+    checkBoxDisabledShadow: '0 0 0 1px rgba(#000, 0.1) inset',
   },
   background: {
     blockbanneritemlineargradient:
