@@ -131,6 +131,8 @@ declare module 'styled-components' {
     };
     boxShadow: {
       blockFinderTextShadow: string;
+      checkBoxCheckedShadow: string;
+      checkBoxDisabledShadow: string;
     };
   }
 }
