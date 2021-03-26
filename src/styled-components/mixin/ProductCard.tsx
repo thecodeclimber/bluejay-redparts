@@ -139,3 +139,226 @@ export const ImageBody = styled(AppLink)`
 `;
 
 export const ImageTypeProduct = styled.div``;
+
+export const ProductCardAddToCartIcon = styled.button`
+  position: relative;
+  border: none;
+  padding: 8px;
+  border-radius: 2px;
+  background: transparent;
+  fill: ${(props) => `${props.theme.colors.plusiconcolor}`};
+  z-index: 0;
+  transition: color 0.2s;
+  margin: -3px;
+  ${(props: { loading?: any }) =>
+    props.loading &&
+    css`
+      cursor: default;
+      &:after {
+        left: calc(50% - 11px);
+        top: calc(50% - 11px);
+        width: 22px;
+        height: 22px;
+        border-radius: 11px;
+        border-width: 2px;
+        border-color: ${(props) => `${props.theme.colors.loaderbordercolor}`};
+        border-top-color: ${(props) =>
+          `${props.theme.colors.loaderbordertopcolor}`};
+        border-style: solid;
+        animation-name: loader-animation;
+        animation-duration: 0.5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        position: absolute;
+        display: block;
+        content: '';
+      }
+      svg {
+        display: block;
+        fill: currentColor;
+        opacity: 0.3;
+      }
+    `}
+  svg {
+    display: block;
+    fill: currentColor;
+  }
+  &:before {
+    top: -2px;
+    left: -2px;
+    display: block;
+    content: '';
+    position: absolute;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    background: transparent;
+    z-index: -1;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: transform 0.2s, background 0.2s;
+  }
+`;
+
+export const ProductCardAction = styled.button`
+  position: relative;
+  display: block;
+  padding: 8px;
+  margin: 0;
+  border: none;
+  transition: color 0.08s, background 0.08s;
+  background-color: ${(props) => `${props.theme.colors.white}`};
+  color: ${(props) => `${props.theme.colors.plusiconcolor}`};
+  ${(props: { loading?: any }) =>
+    props.loading &&
+    css`
+      &,
+      &:hover {
+        cursor: default;
+        background: transparent;
+        color: transparent;
+        transition-duration: 0s;
+      }
+      svg {
+        opacity: 0;
+      }
+      &:before {
+        left: calc(50% - 8px);
+        top: calc(50% - 8px);
+        width: 16px;
+        height: 16px;
+        border-radius: 8px;
+        border-width: 2px;
+        border-color: ${(props) => `${props.theme.colors.borderleftcolor}`};
+        border-top-color: ${(props) =>
+          `${props.theme.colors.loaderborderactiontopcolor}`};
+        border-style: solid;
+        animation-name: loader-animation;
+        animation-duration: 0.5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        position: absolute;
+        display: block;
+        content: '';
+      }
+    `}
+  &:first-child {
+    border-top-right-radius: 2.5px;
+  }
+  &:last-child {
+    border-bottom-left-radius: 2px;
+  }
+  svg {
+    fill: currentColor;
+    display: block;
+  }
+  &:focus {
+    outline: none;
+  }
+  &:active {
+    transition-duration: 0s;
+    background-color: ${(props) => `${props.theme.colors.bordercolor}`};
+    color: ${(props) => `${props.theme.colors.selectarrowcolor}`};
+  }
+  &:hover {
+    background-color: ${(props) => `${props.theme.colors.tagBgColor}`};
+    color: ${(props) => `${props.theme.colors.selectarrowcolor}`};
+  }
+`;
+
+export const ProductCardActionQuickView = styled(ProductCardAction)``;
+
+export const ProductCardActionWishList = styled(ProductCardAction)`
+  transition: transform 0.2s, opacity 0.2s, color 0.12s, background 0.12s;
+  opacity: 0;
+  will-change: transform;
+  transform: translateX(100%) translateX(6px);
+`;
+
+export const ProductCardActionCompare = styled(ProductCardActionWishList)``;
+
+export const ProductCardActionsList = styled.div`
+  position: absolute;
+  overflow: hidden;
+  z-index: 1;
+  right: 0;
+`;
+
+export const ProductCardLayout = styled.div`
+  &:hover,
+  &:active {
+    ${ProductCardAddToCartIcon} {
+      fill: ${(props) => `${props.theme.colors.white}`};
+      &:before {
+        transform: scale(1);
+        background: ${(props) => `${props.theme.colors.primary}`};
+      }
+      &:hover {
+        fill: ${(props) => `${props.theme.colors.white}`};
+        &:before {
+          background: ${(props) =>
+            `${props.theme.colors.widgetnewsletterbgcolor}`};
+        }
+      }
+      &:active {
+        fill: ${(props) => `${props.theme.colors.white}`};
+        &:before {
+          transition-duration: 0.05s;
+          background: ${(props) => `${props.theme.colors.selectarrowcolor}`};
+        }
+      }
+    }
+    ${ProductCardActionWishList} {
+      transform: none;
+      opacity: 1;
+    }
+  }
+`;
+
+export const ProductCardAddToCartFull = styled.button`
+  display: none;
+  position: relative;
+  background: ${(props) => `${props.theme.colors.primary}`};
+  color: ${(props) => `${props.theme.colors.white}`};
+  border: none;
+  border-radius: 2px;
+  font-weight: 500;
+  transition: background-color 0.15s, color 0.15s;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    background: ${(props) => `${props.theme.colors.dark}`};
+    color: ${(props) => `${props.theme.colors.white}`};
+  }
+  &:active {
+    background: ${(props) => `${props.theme.colors.selectarrowcolor}`};
+    color: ${(props) => `${props.theme.colors.white}`};
+  }
+  ${(props: { loading?: any }) =>
+    props.loading &&
+    css`
+      background: ${(props) => `${props.theme.colors.primary}`};
+      color: transparent;
+      cursor: default;
+      &:after {
+        left: calc(50% - 11px);
+        top: calc(50% - 11px);
+        width: 22px;
+        height: 22px;
+        border-radius: 11px;
+        border-width: 2px;
+        border-color: ${(props) =>
+          `${props.theme.colors.loaderbordertopcolor}`};
+        border-top-color: ${(props) =>
+          `${props.theme.colors.loaderborderactiontopcolor}`};
+        border-style: solid;
+        animation-name: loader-animation;
+        animation-duration: 0.5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        position: absolute;
+        display: block;
+        content: '';
+      }
+    `}
+`;

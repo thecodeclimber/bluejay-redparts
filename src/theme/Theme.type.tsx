@@ -75,6 +75,9 @@ declare module 'styled-components' {
       badgehotcolor: string;
       badgenewcolor: string;
       badgesalecolor: string;
+      loaderbordercolor: string;
+      loaderbordertopcolor: string;
+      loaderborderactiontopcolor: string;
     };
     headers: {
       h1: {

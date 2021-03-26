@@ -76,6 +76,9 @@ const theme: DefaultTheme = {
     badgehotcolor: '#614ba6',
     badgenewcolor: '#3377ff',
     badgesalecolor: '#ff3333',
+    loaderbordercolor: '#ffffff1a',
+    loaderbordertopcolor: '#ffffff80',
+    loaderborderactiontopcolor: '#00000080',
   },
   headers: {
     h1: {
