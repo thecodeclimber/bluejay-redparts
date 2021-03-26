@@ -1,7 +1,6 @@
 /* eslint-disable import/prefer-default-export */
 
 // application
-import { brands } from '~/fake-server/database/brands';
 import { IBrand } from '~/interfaces/brand';
 import { anchor } from '~/fake-server/database/products/anchors';
 import { bolts } from '~/fake-server/database/products/bolts';
@@ -66,7 +65,7 @@ function resolveProductAttributesDef(
   return attributes;
 }
 
-function makeProducts(defs: IProductDef[]): IProduct[] {
+function makeProducts(defs: any[]): IProduct[] {
   return defs.map((def) => {
     let badges: string[] = [];
 
@@ -203,4 +202,15 @@ function makeProducts(defs: IProductDef[]): IProduct[] {
   });
 }
 
-export const products: IProduct[] = makeProducts(washers);
+const TotalProducts = [];
+
+TotalProducts.push(
+  ...anchor,
+  ...bolts,
+  ...nuts,
+  ...pins,
+  ...screws,
+  ...washers
+);
+
+export const products: any[] = makeProducts(TotalProducts);

@@ -18,7 +18,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '3/16 x 1-1/4 -- Slotted Hex Washer Head -- Tapcon',
     Diameter: '3/16',
     Length: '1-1/4',
@@ -31,6 +31,7 @@ export const screws: any[] = [
     list_price: '49.70',
     Net_per_box: '14.91',
   },
+  //abc
   {
     sku: '8616056-HWH',
     name: 'Test',
@@ -50,7 +51,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '3/16 x 1-3/4 -- Slotted Hex Washer Head -- Tapcon',
     Diameter: '3/16',
     Length: '1-3/4',
@@ -82,7 +83,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '3/16 x 2-1/4 -- Slotted Hex Washer Head -- Tapcon',
     Diameter: '3/16',
     Length: '2-1/4',
@@ -114,7 +115,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '3/16 x 2-3/4 -- Slotted Hex Washer Head -- Tapcon',
     Diameter: '3/16',
     Length: '2-3/4',
@@ -146,7 +147,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '3/16 x 3-1/4 -- Slotted Hex Washer Head -- Tapcon',
     Diameter: '3/16',
     Length: '3-1/4',
@@ -178,7 +179,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '3/16 x 3-3/4 -- Slotted Hex Washer Head -- Tapcon',
     Diameter: '3/16',
     Length: '3-3/4',
@@ -210,7 +211,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '3/16 x 4 -- Slotted Hex Washer Head -- Tapcon',
     Diameter: '3/16',
     Length: '4',
@@ -242,7 +243,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '1/4 x 1-1/4 -- Slotted Hex Washer Head -- Tapcon',
     Diameter: '1/4',
     Length: '1-1/4',
@@ -274,7 +275,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '1/4 x 1-3/4 -- Slotted Hex Washer Head -- Tapcon',
     Diameter: '1/4',
     Length: '1-3/4',
@@ -306,7 +307,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '1/4 x 2-1/4 -- Slotted Hex Washer Head -- Tapcon',
     Diameter: '1/4',
     Length: '2-1/4',
@@ -338,7 +339,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '1/4 x 2-3/4 -- Slotted Hex Washer Head -- Tapcon',
     Diameter: '1/4',
     Length: '2-3/4',
@@ -370,7 +371,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '1/4 x 3-1/4 -- Slotted Hex Washer Head -- Tapcon',
     Diameter: '1/4',
     Length: '3-1/4',
@@ -402,7 +403,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '1/4 x 3-3/4 -- Slotted Hex Washer Head -- Tapcon',
     Diameter: '1/4',
     Length: '3-3/4',
@@ -434,7 +435,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '1/4 x 4 -- Slotted Hex Washer Head -- Tapcon',
     Diameter: '1/4',
     Length: '4',
@@ -466,7 +467,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '3/16 x 1-1/4 -- Phillips Flat Head -- Tapcon',
     Diameter: '3/16',
     Length: '1-1/4',
@@ -498,7 +499,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '3/16 x 1-3/4 -- Phillips Flat Head -- Tapcon',
     Diameter: '3/16',
     Length: '1-3/4',
@@ -530,7 +531,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '3/16 x 2-1/4 -- Phillips Flat Head -- Tapcon',
     Diameter: '3/16',
     Length: '2-1/4',
@@ -562,7 +563,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '3/16 x 2-3/4 -- Phillips Flat Head -- Tapcon',
     Diameter: '3/16',
     Length: '2-3/4',
@@ -594,7 +595,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '3/16 x 3-1/4 -- Phillips Flat Head -- Tapcon',
     Diameter: '3/16',
     Length: '3-1/4',
@@ -626,7 +627,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '3/16 x 3-3/4 -- Phillips Flat Head -- Tapcon',
     Diameter: '3/16',
     Length: '3-3/4',
@@ -658,7 +659,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '3/16 x 4 -- Phillips Flat Head -- Tapcon',
     Diameter: '3/16',
     Length: '4',
@@ -690,7 +691,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '1/4 x 1-1/4 -- Phillips Flat Head -- Tapcon',
     Diameter: '1/4',
     Length: '1-1/4',
@@ -722,7 +723,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '1/4 x 1-3/4 -- Phillips Flat Head -- Tapcon',
     Diameter: '1/4',
     Length: '1-3/4',
@@ -754,7 +755,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '1/4 x 2-1/4 -- Phillips Flat Head -- Tapcon',
     Diameter: '1/4',
     Length: '2-1/4',
@@ -786,7 +787,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '1/4 x 2-3/4 -- Phillips Flat Head -- Tapcon',
     Diameter: '1/4',
     Length: '2-3/4',
@@ -818,7 +819,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '1/4 x 3-1/4 -- Phillips Flat Head -- Tapcon',
     Diameter: '1/4',
     Length: '3-1/4',
@@ -850,7 +851,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '1/4 x 3-3/4 -- Phillips Flat Head -- Tapcon',
     Diameter: '1/4',
     Length: '3-3/4',
@@ -882,7 +883,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '1/4 x 4 -- Phillips Flat Head -- Tapcon',
     Diameter: '1/4',
     Length: '4',
@@ -914,7 +915,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '1/4 x 5 -- Phillips Flat Head -- Tapcon',
     Diameter: '1/4',
     Length: '5',
@@ -946,7 +947,7 @@ export const screws: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Concrete',
+
     description: '1/4 x 6 -- Phillips Flat Head -- Tapcon',
     Diameter: '1/4',
     Length: '6',
@@ -1246,9 +1247,6 @@ export const screws: any[] = [
     Qty_per_Box: '100',
     list_price: '34.88',
     Net_per_box: '10.46',
-  },
-  {
-    Head_type: ' ',
   },
   {
     sku: '99906032',
@@ -1843,9 +1841,6 @@ export const screws: any[] = [
     Qty_per_Box: '100',
     list_price: '8.29',
     Net_per_box: '2.49',
-  },
-  {
-    Grade: 'n/a',
   },
   {
     sku: '99908016K-ZN',
@@ -9268,7 +9263,7 @@ export const screws: any[] = [
     list_price: '10.96',
     Net_per_box: '3.29',
   },
-   {
+  {
     sku: '3616052-ZN',
     name: 'Test',
     slug: 'Test',
@@ -12998,9 +12993,6 @@ export const screws: any[] = [
     Net_per_box: '1.95',
   },
   {
-    list_price: ' ',
-  },
-  {
     sku: '3616012C-ZN',
     name: 'Test',
     slug: 'Test',
@@ -14948,10 +14940,6 @@ export const screws: any[] = [
     Net_per_box: '3.49',
   },
   {
-    list_price: '0.00',
-    Net_per_box: '0.00',
-  },
-  {
     sku: '8708012P-ZN',
     name: 'Test',
     slug: 'Test',
@@ -15181,10 +15169,6 @@ export const screws: any[] = [
     Qty_per_Box: '100',
     list_price: '13.20',
     Net_per_box: '3.96',
-  },
-  {
-    list_price: '0.00',
-    Net_per_box: '0.00',
   },
   {
     sku: '8710016P-ZN',
@@ -24392,10 +24376,6 @@ export const screws: any[] = [
     Qty_per_Box: '100',
     list_price: '41.34',
     Net_per_box: '12.40',
-  },
-  {
-    list_price: '0.00',
-    Net_per_box: '0.00',
   },
   {
     sku: '5235032-ZN',

@@ -18,7 +18,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 3/8 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -51,7 +51,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -84,7 +84,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 5/8 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -117,7 +117,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -150,7 +150,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 7/8 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -183,7 +183,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 1 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -216,7 +216,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -249,7 +249,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 1 1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -282,7 +282,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -315,7 +315,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -348,7 +348,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -381,7 +381,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -414,7 +414,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -447,7 +447,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 3 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -480,7 +480,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 3-1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -513,7 +513,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -546,7 +546,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 3-3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -579,7 +579,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -612,7 +612,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -645,7 +645,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 5 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -678,7 +678,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -711,7 +711,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 6 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -744,7 +744,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 6-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -777,7 +777,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 7 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -810,7 +810,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 8 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -843,7 +843,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -876,7 +876,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 5/8 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -909,7 +909,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -942,7 +942,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 7/8 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -975,7 +975,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -1008,7 +1008,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -1041,7 +1041,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -1074,7 +1074,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -1107,7 +1107,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 X 2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -1140,7 +1140,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 X 2 1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -1173,7 +1173,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -1206,7 +1206,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -1239,7 +1239,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -1272,7 +1272,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3-1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -1305,7 +1305,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -1338,7 +1338,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3-3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -1371,7 +1371,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -1404,7 +1404,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -1437,7 +1437,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 5 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -1470,7 +1470,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -1503,7 +1503,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 6 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -1536,7 +1536,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 6-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -1569,7 +1569,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 7 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -1602,7 +1602,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 8 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -1635,7 +1635,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -1668,7 +1668,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 5/8 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -1701,7 +1701,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -1734,7 +1734,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 7/8 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -1767,7 +1767,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -1800,7 +1800,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1-1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -1833,7 +1833,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1-3/8 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -1866,7 +1866,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -1899,7 +1899,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1-3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -1932,7 +1932,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -1965,7 +1965,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 2-1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -1998,7 +1998,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 2-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -2031,7 +2031,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -2064,7 +2064,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -2097,7 +2097,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3-1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -2130,7 +2130,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -2163,7 +2163,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3-3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -2196,7 +2196,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -2229,7 +2229,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -2262,7 +2262,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 5 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -2295,7 +2295,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -2328,7 +2328,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 6 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -2361,7 +2361,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 6-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -2394,7 +2394,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 7 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -2427,7 +2427,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 7-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -2460,7 +2460,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 8 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -2493,7 +2493,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 9 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -2506,9 +2506,6 @@ export const hexHeadCapScrews: any[] = [
     Qty_per_Box: '50',
     list_price: '85.17',
     Net_per_box: '25.55',
-  },
-  {
-    Net_per_box: '0.00',
   },
   {
     sku: '0119024-ZN',
@@ -2529,7 +2526,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -2562,7 +2559,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 1 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -2595,7 +2592,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -2628,7 +2625,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -2661,7 +2658,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -2694,7 +2691,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -2727,7 +2724,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 2-1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -2760,7 +2757,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 2-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -2793,7 +2790,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -2826,7 +2823,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -2859,7 +2856,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3-1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -2892,7 +2889,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -2925,7 +2922,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3-3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -2958,7 +2955,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -2991,7 +2988,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -3024,7 +3021,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 5 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -3057,7 +3054,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -3090,7 +3087,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 6 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -3103,9 +3100,6 @@ export const hexHeadCapScrews: any[] = [
     Qty_per_Box: '25',
     list_price: '37.74',
     Net_per_box: '11.32',
-  },
-  {
-    Net_per_box: '0.00',
   },
   {
     sku: '0120024-ZN',
@@ -3126,7 +3120,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3159,7 +3153,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 7/8 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3192,7 +3186,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3225,7 +3219,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3258,7 +3252,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3291,7 +3285,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3324,7 +3318,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3357,7 +3351,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 2-1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3390,7 +3384,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3423,7 +3417,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3456,7 +3450,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 X 3 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3489,7 +3483,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3-1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3522,7 +3516,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3555,7 +3549,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3-3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3588,7 +3582,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3621,7 +3615,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3654,7 +3648,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 5 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3687,7 +3681,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3720,7 +3714,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 6 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3753,7 +3747,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 6-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3786,7 +3780,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 7 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3819,7 +3813,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 7-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3852,7 +3846,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 8 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3885,7 +3879,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 9 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -3898,9 +3892,6 @@ export const hexHeadCapScrews: any[] = [
     Qty_per_Box: '25',
     list_price: '71.04',
     Net_per_box: '21.31',
-  },
-  {
-    Net_per_box: '0.00',
   },
   {
     sku: '0122032-ZN',
@@ -3921,7 +3912,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -3954,7 +3945,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -3987,7 +3978,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -4020,7 +4011,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -4053,7 +4044,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -4086,7 +4077,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 2-1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -4119,7 +4110,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -4152,7 +4143,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -4185,7 +4176,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -4218,7 +4209,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3-1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -4251,7 +4242,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -4284,7 +4275,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3-3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -4317,7 +4308,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -4350,7 +4341,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -4383,7 +4374,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 5 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -4416,7 +4407,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -4449,7 +4440,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 6 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -4482,7 +4473,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 6-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -4515,7 +4506,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 7 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -4548,7 +4539,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 7-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -4581,7 +4572,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 8 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -4594,9 +4585,6 @@ export const hexHeadCapScrews: any[] = [
     Qty_per_Box: '25',
     list_price: '102.15',
     Net_per_box: '30.65',
-  },
-  {
-    Net_per_box: '0.00',
   },
   {
     sku: '0123032-ZN',
@@ -4617,7 +4605,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -4650,7 +4638,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -4683,7 +4671,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -4716,7 +4704,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -4749,7 +4737,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -4782,7 +4770,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 2-1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -4815,7 +4803,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -4848,7 +4836,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -4881,7 +4869,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -4914,7 +4902,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3-1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -4947,7 +4935,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -4980,7 +4968,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3-3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -5013,7 +5001,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -5046,7 +5034,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -5079,7 +5067,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 5 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -5112,7 +5100,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -5145,7 +5133,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 6 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -5178,7 +5166,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 6-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -5211,7 +5199,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 7 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -5244,7 +5232,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 7-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -5277,7 +5265,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 8 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -5310,7 +5298,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 9 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -5343,7 +5331,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 10 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -5376,7 +5364,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 11 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -5409,7 +5397,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 12 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -5422,9 +5410,6 @@ export const hexHeadCapScrews: any[] = [
     Qty_per_Box: '20',
     list_price: '174.47',
     Net_per_box: '52.34',
-  },
-  {
-    Net_per_box: '0.00',
   },
   {
     sku: '0124048-ZN',
@@ -5445,7 +5430,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -5478,7 +5463,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -5511,7 +5496,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -5544,7 +5529,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 2-1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -5577,7 +5562,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -5610,7 +5595,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 2-3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -5643,7 +5628,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 3 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -5676,7 +5661,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 3-1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -5709,7 +5694,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -5742,7 +5727,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 3-3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -5775,7 +5760,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -5808,7 +5793,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -5841,7 +5826,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 5 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -5874,7 +5859,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -5907,7 +5892,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 6 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -5940,7 +5925,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 6-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -5973,7 +5958,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 7 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -6006,7 +5991,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 7-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -6039,7 +6024,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 8 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -6072,7 +6057,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 9 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -6105,7 +6090,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 10 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -6138,7 +6123,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 11 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -6171,7 +6156,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 12 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -6204,7 +6189,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-8',
@@ -6237,7 +6222,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-8',
@@ -6270,7 +6255,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1-8 x 2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-8',
     Length: '2',
@@ -6302,7 +6287,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 2-1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-8',
@@ -6335,7 +6320,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-8',
@@ -6368,7 +6353,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 2-3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-8',
@@ -6401,7 +6386,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1-8 x 3 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-8',
     Length: '3',
@@ -6433,7 +6418,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 3-1/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-8',
@@ -6466,7 +6451,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-8',
@@ -6499,7 +6484,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 3-3/4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-8',
@@ -6532,7 +6517,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1-8 x 4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-8',
     Length: '4',
@@ -6564,7 +6549,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-8',
@@ -6597,7 +6582,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1-8 x 5 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-8',
     Length: '5',
@@ -6629,7 +6614,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-8',
@@ -6662,7 +6647,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1-8 x 6 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-8',
     Length: '6',
@@ -6694,7 +6679,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 6-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-8',
@@ -6727,7 +6712,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1-8 x 7 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-8',
     Length: '7',
@@ -6759,7 +6744,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 7-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-8',
@@ -6792,7 +6777,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1-8 x 8 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-8',
     Length: '8',
@@ -6824,7 +6809,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1-8 x 9 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-8',
     Length: '9',
@@ -6856,7 +6841,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1-8 x 10 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-8',
     Length: '10',
@@ -6888,7 +6873,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1-8 x 11 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-8',
     Length: '11',
@@ -6920,7 +6905,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1-8 x 12 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-8',
     Length: '12',
@@ -6932,9 +6917,6 @@ export const hexHeadCapScrews: any[] = [
     Qty_per_Box: '10',
     list_price: '158.61',
     Net_per_box: '47.58',
-  },
-  {
-    Net_per_box: '0.00',
   },
   {
     sku: '0126080-ZN',
@@ -6955,7 +6937,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -6988,7 +6970,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 3 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -7021,7 +7003,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -7054,7 +7036,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -7087,7 +7069,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -7120,7 +7102,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 5 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -7153,7 +7135,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -7186,7 +7168,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 6 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -7219,7 +7201,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 X 6-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -7252,7 +7234,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 7 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -7285,7 +7267,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 8 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -7318,7 +7300,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 9 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -7351,7 +7333,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 10 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -7384,7 +7366,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 11 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -7417,7 +7399,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 12 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -7430,10 +7412,6 @@ export const hexHeadCapScrews: any[] = [
     Qty_per_Box: '3',
     list_price: '69.71',
     Net_per_box: '20.91',
-  },
-  {
-    list_price: '0.00',
-    Net_per_box: '0.00',
   },
   {
     sku: '0127080-ZN',
@@ -7454,7 +7432,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -7487,7 +7465,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 3 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -7520,7 +7498,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -7553,7 +7531,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -7586,7 +7564,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -7619,7 +7597,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 5 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -7652,7 +7630,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -7685,7 +7663,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 6 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -7718,7 +7696,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 6-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -7751,7 +7729,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 7 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -7784,7 +7762,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 8 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -7817,7 +7795,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 9 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -7850,7 +7828,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 10 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -7883,7 +7861,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 11 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -7916,7 +7894,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 12 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -7929,9 +7907,6 @@ export const hexHeadCapScrews: any[] = [
     Qty_per_Box: '3',
     list_price: '92.84',
     Net_per_box: '27.85',
-  },
-  {
-    Net_per_box: ' ',
   },
   {
     sku: '0129096-ZN',
@@ -7952,7 +7927,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-6 x 3 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/2-6',
@@ -7985,7 +7960,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-6 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/2-6',
@@ -8018,7 +7993,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-6 x 4 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/2-6',
@@ -8051,7 +8026,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-6 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/2-6',
@@ -8084,7 +8059,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-6 x 5 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/2-6',
@@ -8117,7 +8092,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-6 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/2-6',
@@ -8150,7 +8125,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-6 x 6 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/2-6',
@@ -8183,7 +8158,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-6 x 6-1/2 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/2-6',
@@ -8216,7 +8191,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-6 x 7 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/2-6',
@@ -8249,7 +8224,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-6 x 8 -- Hex Head Cap Screw -- UNC Grade 2 -- Zinc Plated',
     Diameter: '1-1/2-6',
@@ -8262,9 +8237,6 @@ export const hexHeadCapScrews: any[] = [
     Qty_per_Box: '5',
     list_price: '161.67',
     Net_per_box: '48.50',
-  },
-  {
-    Net_per_box: ' ',
   },
   {
     sku: '0316016-ZN',
@@ -8285,7 +8257,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -8318,7 +8290,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -8351,7 +8323,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -8384,7 +8356,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 5/8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -8417,7 +8389,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 5/8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -8450,7 +8422,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 5/8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -8483,7 +8455,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -8516,7 +8488,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -8549,7 +8521,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -8582,7 +8554,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 7/8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -8615,7 +8587,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 7/8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -8648,7 +8620,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 7/8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -8681,7 +8653,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -8714,7 +8686,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -8747,7 +8719,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -8780,7 +8752,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -8813,7 +8785,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -8846,7 +8818,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -8879,7 +8851,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 1 1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -8912,7 +8884,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 1 1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -8945,7 +8917,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 1 1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -8978,7 +8950,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9011,7 +8983,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9044,7 +9016,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9077,7 +9049,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9110,7 +9082,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9143,7 +9115,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9176,7 +9148,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9209,7 +9181,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9242,7 +9214,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9275,7 +9247,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9308,7 +9280,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9341,7 +9313,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9374,7 +9346,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9407,7 +9379,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9440,7 +9412,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9473,7 +9445,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9506,7 +9478,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9539,7 +9511,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9572,7 +9544,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9605,7 +9577,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9638,7 +9610,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9671,7 +9643,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9704,7 +9676,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9737,7 +9709,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9770,7 +9742,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9803,7 +9775,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9836,7 +9808,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9869,7 +9841,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9902,7 +9874,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9935,7 +9907,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -9968,7 +9940,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -10001,7 +9973,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -10034,7 +10006,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -10067,7 +10039,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -10100,7 +10072,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -10133,7 +10105,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -10166,7 +10138,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -10199,7 +10171,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -10232,7 +10204,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -10265,7 +10237,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -10298,7 +10270,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -10331,7 +10303,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -10364,7 +10336,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 6-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -10397,7 +10369,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/4-20',
@@ -10430,7 +10402,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -10463,7 +10435,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -10496,7 +10468,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -10529,7 +10501,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 5/8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -10562,7 +10534,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 5/8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -10595,7 +10567,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 5/8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -10628,7 +10600,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -10661,7 +10633,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -10694,7 +10666,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -10727,7 +10699,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 7/8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -10760,7 +10732,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 7/8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -10793,7 +10765,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 7/8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -10826,7 +10798,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -10859,7 +10831,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -10892,7 +10864,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -10925,7 +10897,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -10958,7 +10930,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -10991,7 +10963,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11024,7 +10996,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11057,7 +11029,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11090,7 +11062,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11123,7 +11095,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11156,7 +11128,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11189,7 +11161,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11222,7 +11194,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 X 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11255,7 +11227,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 X 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11288,7 +11260,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 X 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11321,7 +11293,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 X 2 1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11354,7 +11326,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 X 2 1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11387,7 +11359,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 X 2 1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11420,7 +11392,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11453,7 +11425,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11486,7 +11458,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11519,7 +11491,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11552,7 +11524,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11585,7 +11557,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11618,7 +11590,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11651,7 +11623,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11684,7 +11656,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11717,7 +11689,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11750,7 +11722,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11783,7 +11755,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11816,7 +11788,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11849,7 +11821,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11882,7 +11854,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11915,7 +11887,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11948,7 +11920,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -11981,7 +11953,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -12014,7 +11986,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -12047,7 +12019,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -12080,7 +12052,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -12113,7 +12085,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -12146,7 +12118,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -12179,7 +12151,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -12212,7 +12184,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -12245,7 +12217,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -12278,7 +12250,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -12311,7 +12283,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -12344,7 +12316,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -12377,7 +12349,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -12410,7 +12382,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -12443,7 +12415,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -12476,7 +12448,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -12509,7 +12481,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -12542,7 +12514,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 X 6-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -12575,7 +12547,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 7 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -12608,7 +12580,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 X 8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/16-18',
@@ -12641,7 +12613,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -12674,7 +12646,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -12707,7 +12679,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -12740,7 +12712,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 5/8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -12773,7 +12745,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 5/8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -12806,7 +12778,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 5/8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -12839,7 +12811,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -12872,7 +12844,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -12905,7 +12877,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -12938,7 +12910,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 7/8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -12971,7 +12943,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 7/8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13004,7 +12976,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 7/8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13037,7 +13009,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13070,7 +13042,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13103,7 +13075,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13136,7 +13108,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13169,7 +13141,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13202,7 +13174,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13235,7 +13207,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13268,7 +13240,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13301,7 +13273,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13334,7 +13306,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13367,7 +13339,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13400,7 +13372,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13433,7 +13405,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13466,7 +13438,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13499,7 +13471,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13532,7 +13504,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13565,7 +13537,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13598,7 +13570,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 2-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13631,7 +13603,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 2-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13664,7 +13636,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 2-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13697,7 +13669,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13730,7 +13702,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13763,7 +13735,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13796,7 +13768,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13829,7 +13801,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13862,7 +13834,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13895,7 +13867,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13928,7 +13900,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13961,7 +13933,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -13994,7 +13966,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14027,7 +13999,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14060,7 +14032,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14093,7 +14065,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14126,7 +14098,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14159,7 +14131,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14192,7 +14164,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14225,7 +14197,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14258,7 +14230,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14291,7 +14263,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14324,7 +14296,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14357,7 +14329,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14390,7 +14362,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14423,7 +14395,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14456,7 +14428,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14489,7 +14461,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14522,7 +14494,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14555,7 +14527,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14588,7 +14560,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14621,7 +14593,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14654,7 +14626,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14687,7 +14659,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14720,7 +14692,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14753,7 +14725,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14786,7 +14758,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 6-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14819,7 +14791,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 7 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14852,7 +14824,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 7-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14885,7 +14857,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14918,7 +14890,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 8-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14951,7 +14923,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 9 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -14984,7 +14956,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 10 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/8-16',
@@ -15017,7 +14989,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15050,7 +15022,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15083,7 +15055,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15116,7 +15088,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15149,7 +15121,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15182,7 +15154,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15215,7 +15187,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15248,7 +15220,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15281,7 +15253,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15314,7 +15286,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15347,7 +15319,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15380,7 +15352,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15413,7 +15385,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15446,7 +15418,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15479,7 +15451,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15512,7 +15484,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15545,7 +15517,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15578,7 +15550,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15611,7 +15583,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 2-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15644,7 +15616,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 2-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15677,7 +15649,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 2-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15710,7 +15682,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15743,7 +15715,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15776,7 +15748,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15809,7 +15781,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15842,7 +15814,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15875,7 +15847,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15908,7 +15880,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15941,7 +15913,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -15974,7 +15946,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16007,7 +15979,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16040,7 +16012,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16073,7 +16045,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16106,7 +16078,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16139,7 +16111,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16172,7 +16144,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16205,7 +16177,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16238,7 +16210,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16271,7 +16243,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16304,7 +16276,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16337,7 +16309,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16370,7 +16342,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16403,7 +16375,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16436,7 +16408,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16469,7 +16441,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16502,7 +16474,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16535,7 +16507,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16568,7 +16540,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16601,7 +16573,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16634,7 +16606,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16667,7 +16639,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16700,7 +16672,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16733,7 +16705,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16766,7 +16738,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/16-14',
@@ -16799,7 +16771,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -16832,7 +16804,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -16865,7 +16837,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -16898,7 +16870,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 7/8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -16931,7 +16903,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 7/8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -16964,7 +16936,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 7/8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -16997,7 +16969,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17030,7 +17002,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17063,7 +17035,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17096,7 +17068,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17129,7 +17101,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17162,7 +17134,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17195,7 +17167,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17228,7 +17200,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17261,7 +17233,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17294,7 +17266,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17327,7 +17299,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17360,7 +17332,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17393,7 +17365,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17426,7 +17398,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17459,7 +17431,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17492,7 +17464,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 2-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17525,7 +17497,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 2-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17558,7 +17530,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 2-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17591,7 +17563,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17624,7 +17596,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17657,7 +17629,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17690,7 +17662,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17723,7 +17695,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17756,7 +17728,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17789,7 +17761,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 X 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17822,7 +17794,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 X 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17855,7 +17827,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 X 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17888,7 +17860,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17921,7 +17893,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17954,7 +17926,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -17987,7 +17959,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18020,7 +17992,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18053,7 +18025,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18086,7 +18058,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18119,7 +18091,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18152,7 +18124,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18185,7 +18157,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18218,7 +18190,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18251,7 +18223,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18284,7 +18256,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18317,7 +18289,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18350,7 +18322,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18383,7 +18355,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18416,7 +18388,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18449,7 +18421,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18482,7 +18454,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18515,7 +18487,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18548,7 +18520,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18581,7 +18553,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18614,7 +18586,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18647,7 +18619,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18680,7 +18652,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 6-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18713,7 +18685,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 6-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18746,7 +18718,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 6-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18779,7 +18751,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 7 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18812,7 +18784,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 7 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18845,7 +18817,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 7 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18878,7 +18850,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 7 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18911,7 +18883,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18944,7 +18916,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -18977,7 +18949,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -19010,7 +18982,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 X 8-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -19043,7 +19015,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/3-13 X 9 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -19076,7 +19048,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 X 9-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -19109,7 +19081,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 X 10 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -19142,7 +19114,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 X 12 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1/2-13',
@@ -19175,7 +19147,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19208,7 +19180,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19241,7 +19213,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19274,7 +19246,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19307,7 +19279,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19340,7 +19312,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19373,7 +19345,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19406,7 +19378,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19439,7 +19411,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19472,7 +19444,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19505,7 +19477,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19538,7 +19510,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19571,7 +19543,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19604,7 +19576,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19637,7 +19609,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19670,7 +19642,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 2-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19703,7 +19675,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 2-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19736,7 +19708,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 2-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19769,7 +19741,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19802,7 +19774,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19835,7 +19807,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19868,7 +19840,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19901,7 +19873,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19934,7 +19906,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -19967,7 +19939,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 X 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20000,7 +19972,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 X 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20033,7 +20005,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 X 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20066,7 +20038,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20099,7 +20071,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20132,7 +20104,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20165,7 +20137,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20198,7 +20170,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20231,7 +20203,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20264,7 +20236,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20297,7 +20269,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20330,7 +20302,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20363,7 +20335,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20396,7 +20368,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20429,7 +20401,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20462,7 +20434,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20495,7 +20467,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20528,7 +20500,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20561,7 +20533,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20594,7 +20566,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20627,7 +20599,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20660,7 +20632,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20693,7 +20665,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20726,7 +20698,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20759,7 +20731,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20792,7 +20764,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20825,7 +20797,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '9/16-12',
@@ -20858,7 +20830,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -20891,7 +20863,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -20924,7 +20896,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -20957,7 +20929,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -20990,7 +20962,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21023,7 +20995,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21056,7 +21028,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21089,7 +21061,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21122,7 +21094,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21155,7 +21127,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21188,7 +21160,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21221,7 +21193,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21254,7 +21226,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21287,7 +21259,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21320,7 +21292,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21353,7 +21325,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 2-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21386,7 +21358,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 2-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21419,7 +21391,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 2-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21452,7 +21424,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21485,7 +21457,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21518,7 +21490,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21551,7 +21523,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21584,7 +21556,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21617,7 +21589,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21650,7 +21622,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21683,7 +21655,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21716,7 +21688,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21749,7 +21721,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21782,7 +21754,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21815,7 +21787,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21848,7 +21820,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21881,7 +21853,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21914,7 +21886,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21947,7 +21919,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -21980,7 +21952,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22013,7 +21985,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22046,7 +22018,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22079,7 +22051,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22112,7 +22084,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22145,7 +22117,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22178,7 +22150,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22211,7 +22183,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22244,7 +22216,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22277,7 +22249,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22310,7 +22282,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22343,7 +22315,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22376,7 +22348,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22409,7 +22381,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22442,7 +22414,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22475,7 +22447,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22508,7 +22480,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22541,7 +22513,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22574,7 +22546,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22607,7 +22579,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 6-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22640,7 +22612,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 6-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22673,7 +22645,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 6-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22706,7 +22678,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 7 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22739,7 +22711,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 7 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22772,7 +22744,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 7 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22805,7 +22777,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 7-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22838,7 +22810,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 7-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22871,7 +22843,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 7-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22904,7 +22876,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22937,7 +22909,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -22970,7 +22942,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -23003,7 +22975,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -23036,7 +23008,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 9 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -23069,7 +23041,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 9 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -23102,7 +23074,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 9 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -23135,7 +23107,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 10 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -23168,7 +23140,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 10 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -23201,7 +23173,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 10 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -23234,7 +23206,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 X 11 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -23267,7 +23239,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 X 12 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '5/8-11',
@@ -23300,7 +23272,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -23333,7 +23305,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -23366,7 +23338,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -23399,7 +23371,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -23432,7 +23404,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -23465,7 +23437,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -23498,7 +23470,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -23531,7 +23503,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -23564,7 +23536,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -23597,7 +23569,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -23630,7 +23602,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -23663,7 +23635,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -23696,7 +23668,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -23729,7 +23701,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -23762,7 +23734,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -23795,7 +23767,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 2-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -23828,7 +23800,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 2-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -23861,7 +23833,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 2-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -23894,7 +23866,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -23927,7 +23899,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -23960,7 +23932,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -23993,7 +23965,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24026,7 +23998,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24059,7 +24031,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 X 2 3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24092,7 +24064,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24125,7 +24097,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24158,7 +24130,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24191,7 +24163,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24224,7 +24196,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24257,7 +24229,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24290,7 +24262,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24323,7 +24295,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24356,7 +24328,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24389,7 +24361,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24422,7 +24394,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24455,7 +24427,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24488,7 +24460,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24521,7 +24493,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24554,7 +24526,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24587,7 +24559,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24620,7 +24592,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24653,7 +24625,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24686,7 +24658,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24719,7 +24691,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24752,7 +24724,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24785,7 +24757,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24818,7 +24790,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24851,7 +24823,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24884,7 +24856,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24917,7 +24889,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24950,7 +24922,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -24983,7 +24955,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 6-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -25016,7 +24988,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 6-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -25049,7 +25021,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 6-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -25082,7 +25054,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 7 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -25115,7 +25087,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 7 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -25148,7 +25120,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 7 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -25181,7 +25153,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 7-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -25214,7 +25186,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 7-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -25247,7 +25219,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 7-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -25280,7 +25252,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -25313,7 +25285,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -25346,7 +25318,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -25379,7 +25351,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 X 9 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -25412,7 +25384,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 X 10 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -25445,7 +25417,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 X 11 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -25478,7 +25450,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 X 12 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '3/4-10',
@@ -25511,7 +25483,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -25544,7 +25516,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -25577,7 +25549,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 1-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -25610,7 +25582,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -25641,7 +25613,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -25674,7 +25646,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -25707,7 +25679,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -25740,7 +25712,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -25773,7 +25745,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -25806,7 +25778,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -25839,7 +25811,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -25872,7 +25844,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -25905,7 +25877,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -25938,7 +25910,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -25971,7 +25943,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26004,7 +25976,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26037,7 +26009,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26070,7 +26042,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26103,7 +26075,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26136,7 +26108,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26169,7 +26141,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26202,7 +26174,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26235,7 +26207,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26268,7 +26240,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26301,7 +26273,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26334,7 +26306,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26367,7 +26339,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26400,7 +26372,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26433,7 +26405,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26466,7 +26438,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26499,7 +26471,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26532,7 +26504,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26565,7 +26537,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26598,7 +26570,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 6" -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26631,7 +26603,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 6" -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26664,7 +26636,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 6" -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26697,7 +26669,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 7 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26730,7 +26702,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 7 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26763,7 +26735,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 7 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26796,7 +26768,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26829,7 +26801,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26862,7 +26834,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26895,7 +26867,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 X 9 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26928,7 +26900,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 X 10 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26961,7 +26933,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 X 11 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -26994,7 +26966,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 X 12 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '7/8-9',
@@ -27027,7 +26999,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27060,7 +27032,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27093,7 +27065,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27126,7 +27098,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 2-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27159,7 +27131,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 2-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27192,7 +27164,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 2-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27225,7 +27197,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27258,7 +27230,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27291,7 +27263,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27324,7 +27296,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 2-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27357,7 +27329,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 2-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27390,7 +27362,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 2-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27423,7 +27395,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27456,7 +27428,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27489,7 +27461,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27522,7 +27494,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27555,7 +27527,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27588,7 +27560,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 3-1/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27621,7 +27593,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27654,7 +27626,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27687,7 +27659,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27720,7 +27692,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27753,7 +27725,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27786,7 +27758,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 3-3/4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27819,7 +27791,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27852,7 +27824,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27885,7 +27857,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27918,7 +27890,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27951,7 +27923,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -27984,7 +27956,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -28017,7 +27989,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -28050,7 +28022,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -28083,7 +28055,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -28116,7 +28088,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -28149,7 +28121,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -28182,7 +28154,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -28215,7 +28187,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 6" -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -28248,7 +28220,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 6" -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -28281,7 +28253,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 6" -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -28314,7 +28286,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 7 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -28347,7 +28319,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 7 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -28380,7 +28352,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 7 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -28413,7 +28385,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -28446,7 +28418,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -28479,7 +28451,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -28512,7 +28484,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 X 9 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -28545,7 +28517,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 X 10 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -28578,7 +28550,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 X 11 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -28611,7 +28583,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 X 12 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-8',
@@ -28624,9 +28596,6 @@ export const hexHeadCapScrews: any[] = [
     Qty_per_Box: '10',
     list_price: '207.28',
     Net_per_box: '62.18',
-  },
-  {
-    Net_per_box: '0.00',
   },
   {
     sku: '0326064-ZN',
@@ -28647,7 +28616,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -28680,7 +28649,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -28713,7 +28682,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -28746,7 +28715,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -28779,7 +28748,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -28812,7 +28781,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -28845,7 +28814,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -28878,7 +28847,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -28911,7 +28880,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -28944,7 +28913,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 6-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -28977,7 +28946,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 7 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -29010,7 +28979,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 x 8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -29043,7 +29012,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 X 9 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -29076,7 +29045,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 X 10 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -29109,7 +29078,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 X 11 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -29142,7 +29111,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/8-7 X 12 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/8-7',
@@ -29155,14 +29124,6 @@ export const hexHeadCapScrews: any[] = [
     Qty_per_Box: '5',
     list_price: '159.40',
     Net_per_box: '47.82',
-  },
-  {
-    Head_type: 'Hex Cap',
-    Drive: 'n/a',
-    Grade: '5',
-    Material: 'Steel',
-    Finish: 'Zinc',
-    Net_per_box: '0.00',
   },
   {
     sku: '0327080-ZN',
@@ -29183,7 +29144,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 2-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -29216,7 +29177,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -29249,7 +29210,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -29282,7 +29243,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -29315,7 +29276,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -29348,7 +29309,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -29381,7 +29342,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -29414,7 +29375,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -29447,7 +29408,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 6-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -29480,7 +29441,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 7 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -29513,7 +29474,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 7-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -29546,7 +29507,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 x 8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -29579,7 +29540,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 X 9 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -29612,7 +29573,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 X 10 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -29645,7 +29606,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 X 11 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -29678,7 +29639,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/4-7 X 12 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/4-7',
@@ -29691,9 +29652,6 @@ export const hexHeadCapScrews: any[] = [
     Qty_per_Box: '10',
     list_price: '322.39',
     Net_per_box: '96.72',
-  },
-  {
-    Net_per_box: '0.00',
   },
   {
     sku: '0329096-ZN',
@@ -29714,7 +29672,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-7 x 3 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/2-7',
@@ -29747,7 +29705,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-7 x 3-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/2-7',
@@ -29780,7 +29738,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-7 x 4 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/2-7',
@@ -29813,7 +29771,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-7 x 4-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/2-7',
@@ -29846,7 +29804,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-7 x 5 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/2-7',
@@ -29879,7 +29837,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-7 x 5-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/2-7',
@@ -29912,7 +29870,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-7 x 6 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/2-7',
@@ -29945,7 +29903,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-7 x 6-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/2-7',
@@ -29978,7 +29936,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-7 x 7 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/2-7',
@@ -30011,7 +29969,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-7 x 7-1/2 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/2-7',
@@ -30044,7 +30002,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-7 x 8 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/2-7',
@@ -30077,7 +30035,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-7 X 9 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/2-7',
@@ -30110,7 +30068,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-7 X 10 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/2-7',
@@ -30143,7 +30101,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-7 X 11 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/2-7',
@@ -30176,7 +30134,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-1/2-7 X 12 -- Hex Head Cap Screw (HCS) -- UNC/USS Grade 5 -- Zinc Plated',
     Diameter: '1-1/2-7',
@@ -30189,9 +30147,6 @@ export const hexHeadCapScrews: any[] = [
     Qty_per_Box: '10',
     list_price: '611.57',
     Net_per_box: '183.47',
-  },
-  {
-    Net_per_box: '0.00',
   },
   {
     sku: '0416016-ZN',
@@ -30212,7 +30167,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -30245,7 +30200,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -30278,7 +30233,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -30311,7 +30266,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 5/8 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -30344,7 +30299,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 5/8 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -30377,7 +30332,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 5/8 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -30410,7 +30365,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -30443,7 +30398,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -30476,7 +30431,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -30509,7 +30464,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 7/8 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -30542,7 +30497,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 7/8 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -30575,7 +30530,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 7/8 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -30608,7 +30563,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 1 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -30641,7 +30596,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 1 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -30674,7 +30629,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 1 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -30707,7 +30662,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -30740,7 +30695,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -30773,7 +30728,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -30806,7 +30761,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 1 1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -30839,7 +30794,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 1 1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -30872,7 +30827,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 1 1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -30905,7 +30860,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -30938,7 +30893,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -30971,7 +30926,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31004,7 +30959,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31037,7 +30992,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31070,7 +31025,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31103,7 +31058,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31136,7 +31091,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31169,7 +31124,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31202,7 +31157,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31235,7 +31190,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31268,7 +31223,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31301,7 +31256,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31334,7 +31289,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31367,7 +31322,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31400,7 +31355,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 3 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31433,7 +31388,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 3 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31466,7 +31421,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 3 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31499,7 +31454,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31532,7 +31487,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31565,7 +31520,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31598,7 +31553,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 3-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31631,7 +31586,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 3-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31664,7 +31619,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 3-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31697,7 +31652,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31730,7 +31685,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31763,7 +31718,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31796,7 +31751,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31829,7 +31784,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31862,7 +31817,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31895,7 +31850,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 5 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31928,7 +31883,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 5 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31961,7 +31916,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 5 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -31994,7 +31949,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -32027,7 +31982,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -32060,7 +32015,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -32093,7 +32048,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 6 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -32126,7 +32081,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 6 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -32159,7 +32114,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 6 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/4-28',
@@ -32192,7 +32147,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32225,7 +32180,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32258,7 +32213,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32291,7 +32246,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 5/8 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32324,7 +32279,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 5/8 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32357,7 +32312,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 5/8 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32390,7 +32345,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32423,7 +32378,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32456,7 +32411,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32489,7 +32444,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 7/8 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32522,7 +32477,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 7/8 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32555,7 +32510,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 7/8 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32588,7 +32543,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32621,7 +32576,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32654,7 +32609,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32687,7 +32642,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32720,7 +32675,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32753,7 +32708,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32786,7 +32741,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32819,7 +32774,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32852,7 +32807,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32885,7 +32840,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32918,7 +32873,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32951,7 +32906,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -32984,7 +32939,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 X 2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33017,7 +32972,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 X 2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33050,7 +33005,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 X 2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33083,7 +33038,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 X 2 1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33116,7 +33071,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 X 2 1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33149,7 +33104,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 X 2 1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33182,7 +33137,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33215,7 +33170,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33248,7 +33203,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33281,7 +33236,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33314,7 +33269,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33347,7 +33302,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33380,7 +33335,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33413,7 +33368,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33446,7 +33401,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33479,7 +33434,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33512,7 +33467,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33545,7 +33500,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33578,7 +33533,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33611,7 +33566,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33644,7 +33599,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33677,7 +33632,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33710,7 +33665,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33743,7 +33698,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33776,7 +33731,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33809,7 +33764,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33842,7 +33797,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33875,7 +33830,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33908,7 +33863,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33941,7 +33896,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -33974,7 +33929,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 5 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -34007,7 +33962,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 5 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -34040,7 +33995,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 5 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -34073,7 +34028,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -34106,7 +34061,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -34139,7 +34094,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -34172,7 +34127,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 6 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -34205,7 +34160,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 6 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -34238,7 +34193,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 6 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/16-24',
@@ -34271,7 +34226,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -34304,7 +34259,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -34337,7 +34292,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -34370,7 +34325,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 5/8 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -34403,7 +34358,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 5/8 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -34436,7 +34391,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 5/8 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -34469,7 +34424,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -34502,7 +34457,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -34535,7 +34490,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -34568,7 +34523,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 7/8 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -34601,7 +34556,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 7/8 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -34634,7 +34589,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 7/8 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -34667,7 +34622,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -34700,7 +34655,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -34733,7 +34688,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -34766,7 +34721,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -34799,7 +34754,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -34832,7 +34787,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -34865,7 +34820,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -34898,7 +34853,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -34931,7 +34886,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -34964,7 +34919,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -34997,7 +34952,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35030,7 +34985,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35063,7 +35018,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35096,7 +35051,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35129,7 +35084,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35162,7 +35117,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 2-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35195,7 +35150,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 2-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35228,7 +35183,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 2-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35261,7 +35216,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 2-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35294,7 +35249,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 2-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35327,7 +35282,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 2-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35360,7 +35315,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35393,7 +35348,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35426,7 +35381,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35459,7 +35414,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35492,7 +35447,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35525,7 +35480,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35558,7 +35513,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35591,7 +35546,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35624,7 +35579,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35657,7 +35612,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35690,7 +35645,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35723,7 +35678,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35756,7 +35711,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35789,7 +35744,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35822,7 +35777,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35855,7 +35810,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35888,7 +35843,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35921,7 +35876,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35954,7 +35909,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -35987,7 +35942,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -36020,7 +35975,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -36053,7 +36008,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 5 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -36086,7 +36041,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 5 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -36119,7 +36074,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 5 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -36152,7 +36107,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -36185,7 +36140,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -36218,7 +36173,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -36251,7 +36206,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 6 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -36284,7 +36239,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 6 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -36317,7 +36272,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 6 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/8-24',
@@ -36350,7 +36305,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -36383,7 +36338,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -36416,7 +36371,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -36449,7 +36404,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 7/8 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -36482,7 +36437,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 7/8 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -36515,7 +36470,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 7/8 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -36548,7 +36503,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 1 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -36581,7 +36536,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 1 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -36614,7 +36569,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 1 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -36647,7 +36602,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -36680,7 +36635,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -36713,7 +36668,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -36746,7 +36701,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -36779,7 +36734,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -36812,7 +36767,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -36845,7 +36800,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -36878,7 +36833,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -36911,7 +36866,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -36944,7 +36899,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -36977,7 +36932,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37010,7 +36965,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37043,7 +36998,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 2-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37076,7 +37031,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 2-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37109,7 +37064,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 2-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37142,7 +37097,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 2-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37175,7 +37130,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 2-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37208,7 +37163,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 2-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37241,7 +37196,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37274,7 +37229,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37307,7 +37262,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37340,7 +37295,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37373,7 +37328,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37406,7 +37361,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37439,7 +37394,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37472,7 +37427,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37505,7 +37460,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37538,7 +37493,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37571,7 +37526,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37604,7 +37559,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37637,7 +37592,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37670,7 +37625,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37703,7 +37658,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37736,7 +37691,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37769,7 +37724,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37802,7 +37757,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37835,7 +37790,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37868,7 +37823,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37901,7 +37856,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37934,7 +37889,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 5 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -37967,7 +37922,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 5 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -38000,7 +37955,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 5 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -38033,7 +37988,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -38066,7 +38021,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -38099,7 +38054,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -38132,7 +38087,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 6 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -38165,7 +38120,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 6 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -38198,7 +38153,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 6 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/16-20',
@@ -38231,7 +38186,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -38264,7 +38219,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -38297,7 +38252,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -38330,7 +38285,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 1 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -38363,7 +38318,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 1 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -38396,7 +38351,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 1 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -38429,7 +38384,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -38462,7 +38417,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -38495,7 +38450,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -38528,7 +38483,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -38561,7 +38516,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -38594,7 +38549,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -38627,7 +38582,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -38660,7 +38615,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -38693,7 +38648,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -38726,7 +38681,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -38759,7 +38714,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -38792,7 +38747,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -38825,7 +38780,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 2-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -38858,7 +38813,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 2-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -38891,7 +38846,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 2-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -38924,7 +38879,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 2-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -38957,7 +38912,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 2-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -38990,7 +38945,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 2-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39023,7 +38978,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 2-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39056,7 +39011,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 2-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39089,7 +39044,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 2-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39122,7 +39077,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 2-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39155,7 +39110,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 3 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39188,7 +39143,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 3 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39221,7 +39176,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 3 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39254,7 +39209,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 3 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39287,7 +39242,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 3-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39320,7 +39275,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 3-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39353,7 +39308,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 3-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39386,7 +39341,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 3-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39419,7 +39374,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 3-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39452,7 +39407,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 3-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39485,7 +39440,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 3-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39518,7 +39473,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 3-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39551,7 +39506,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 3-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39584,7 +39539,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39617,7 +39572,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39650,7 +39605,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39683,7 +39638,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 4-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39716,7 +39671,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 4-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39749,7 +39704,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 4-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39782,7 +39737,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 5 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39815,7 +39770,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 5 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39848,7 +39803,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 5 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39881,7 +39836,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 5-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39914,7 +39869,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 5-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39947,7 +39902,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 5-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -39980,7 +39935,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 6 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -40013,7 +39968,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 6 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -40046,7 +40001,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 6 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1/2-20',
@@ -40079,7 +40034,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 1-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '9/16-18',
@@ -40112,7 +40067,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 1-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '9/16-18',
@@ -40145,7 +40100,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 1-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '9/16-18',
@@ -40178,7 +40133,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '9/16-18',
@@ -40211,7 +40166,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '9/16-18',
@@ -40244,7 +40199,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '9/16-18',
@@ -40277,7 +40232,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 2-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '9/16-18',
@@ -40310,7 +40265,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 2-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '9/16-18',
@@ -40343,7 +40298,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 2-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '9/16-18',
@@ -40376,7 +40331,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 3 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '9/16-18',
@@ -40409,7 +40364,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 3 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '9/16-18',
@@ -40442,7 +40397,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 3 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '9/16-18',
@@ -40475,7 +40430,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 3-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '9/16-18',
@@ -40508,7 +40463,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 3-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '9/16-18',
@@ -40541,7 +40496,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 3-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '9/16-18',
@@ -40574,7 +40529,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '9/16-18',
@@ -40607,7 +40562,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '9/16-18',
@@ -40640,7 +40595,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '9/16-18',
@@ -40673,7 +40628,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 X 1 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/8-18',
@@ -40706,7 +40661,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 X 1-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/8-18',
@@ -40739,7 +40694,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 X 1-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/8-18',
@@ -40772,7 +40727,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 X 1-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/8-18',
@@ -40805,7 +40760,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 X 2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/8-18',
@@ -40838,7 +40793,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 X 2-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/8-18',
@@ -40871,7 +40826,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 X 2-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/8-18',
@@ -40904,7 +40859,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 X 2-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/8-18',
@@ -40937,7 +40892,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 X 3 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/8-18',
@@ -40970,7 +40925,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 X 3-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/8-18',
@@ -41003,7 +40958,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 X 3-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/8-18',
@@ -41036,7 +40991,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 X 4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/8-18',
@@ -41069,7 +41024,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 X 4-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/8-18',
@@ -41102,7 +41057,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 X 5 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/8-18',
@@ -41135,7 +41090,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 X 5-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/8-18',
@@ -41168,7 +41123,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 X 6 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/8-18',
@@ -41201,7 +41156,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 X 7 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/8-18',
@@ -41234,7 +41189,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 X 7-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '5/8-18',
@@ -41267,7 +41222,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 X 1-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/4-16',
@@ -41300,7 +41255,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 X 1-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/4-16',
@@ -41333,7 +41288,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 X 1-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/4-16',
@@ -41366,7 +41321,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 X 2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/4-16',
@@ -41399,7 +41354,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 X 2-1/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/4-16',
@@ -41432,7 +41387,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 X 2-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/4-16',
@@ -41465,7 +41420,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 X 2-3/4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/4-16',
@@ -41498,7 +41453,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 X 3 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/4-16',
@@ -41531,7 +41486,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 X 3-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/4-16',
@@ -41564,7 +41519,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 X 4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/4-16',
@@ -41597,7 +41552,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 X 4-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/4-16',
@@ -41630,7 +41585,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 X 5 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/4-16',
@@ -41663,7 +41618,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 X 5-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/4-16',
@@ -41696,7 +41651,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 X 6-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/4-16',
@@ -41729,7 +41684,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 X 7 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '3/4-16',
@@ -41762,7 +41717,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 X 2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/8-14',
@@ -41795,7 +41750,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 X 2-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/8-14',
@@ -41828,7 +41783,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 X 3 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/8-14',
@@ -41861,7 +41816,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 X 3-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/8-14',
@@ -41894,7 +41849,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 X 4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/8-14',
@@ -41927,7 +41882,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 X 4-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/8-14',
@@ -41960,7 +41915,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 X 5 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/8-14',
@@ -41993,7 +41948,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 X 5-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/8-14',
@@ -42026,7 +41981,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 X 6 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '7/8-14',
@@ -42059,7 +42014,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1-14',
@@ -42092,7 +42047,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1-14',
@@ -42125,7 +42080,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 3 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1-14',
@@ -42158,7 +42113,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1-14',
@@ -42191,7 +42146,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 4 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1-14',
@@ -42224,7 +42179,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 5 -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1-14',
@@ -42257,7 +42212,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 6" -- Hex Head Cap Screw -- UNF Grade 5 -- Fine Thread -- Zinc Plated',
     Diameter: '1-14',
@@ -42270,9 +42225,6 @@ export const hexHeadCapScrews: any[] = [
     Qty_per_Box: '10',
     list_price: '133.85',
     Net_per_box: '40.15',
-  },
-  {
-    Net_per_box: '0.00',
   },
   {
     sku: '0516016-ZNDI',
@@ -42293,7 +42245,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -42326,7 +42278,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -42359,7 +42311,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -42392,7 +42344,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 5/8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -42425,7 +42377,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 5/8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -42458,7 +42410,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 5/8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -42491,7 +42443,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -42524,7 +42476,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -42557,7 +42509,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -42590,7 +42542,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 7/8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -42623,7 +42575,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 7/8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -42656,7 +42608,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 7/8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -42689,7 +42641,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 1 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -42722,7 +42674,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 1 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -42755,7 +42707,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 1 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -42788,7 +42740,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -42821,7 +42773,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -42854,7 +42806,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -42887,7 +42839,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 1 1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -42920,7 +42872,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 1 1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -42953,7 +42905,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 1 1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -42986,7 +42938,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43019,7 +42971,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43052,7 +43004,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43085,7 +43037,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43118,7 +43070,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43151,7 +43103,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43184,7 +43136,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43217,7 +43169,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43250,7 +43202,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43283,7 +43235,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43316,7 +43268,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43349,7 +43301,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43382,7 +43334,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43415,7 +43367,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43448,7 +43400,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43481,7 +43433,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43514,7 +43466,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43547,7 +43499,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43580,7 +43532,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43613,7 +43565,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43646,7 +43598,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43679,7 +43631,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43712,7 +43664,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43745,7 +43697,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 X 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43778,7 +43730,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43811,7 +43763,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43844,7 +43796,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43877,7 +43829,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43910,7 +43862,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43943,7 +43895,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -43976,7 +43928,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -44009,7 +43961,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -44042,7 +43994,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -44075,7 +44027,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -44108,7 +44060,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -44141,7 +44093,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -44174,7 +44126,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -44207,7 +44159,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-20 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-20',
@@ -44240,7 +44192,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -44273,7 +44225,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -44306,7 +44258,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -44339,7 +44291,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 5/8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -44372,7 +44324,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 5/8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -44405,7 +44357,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 5/8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -44438,7 +44390,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -44471,7 +44423,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -44504,7 +44456,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -44537,7 +44489,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 7/8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -44570,7 +44522,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 7/8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -44603,7 +44555,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 7/8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -44636,7 +44588,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -44669,7 +44621,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -44702,7 +44654,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -44735,7 +44687,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -44768,7 +44720,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -44801,7 +44753,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -44834,7 +44786,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -44867,7 +44819,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -44900,7 +44852,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -44933,7 +44885,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -44966,7 +44918,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -44999,7 +44951,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45032,7 +44984,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45065,7 +45017,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 X 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45098,7 +45050,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 X 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45131,7 +45083,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 X 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45164,7 +45116,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 X 2 1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45197,7 +45149,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 X 2 1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45230,7 +45182,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 X 2 1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45263,7 +45215,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45296,7 +45248,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45329,7 +45281,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45362,7 +45314,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45395,7 +45347,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45428,7 +45380,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45461,7 +45413,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45494,7 +45446,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45527,7 +45479,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45560,7 +45512,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45593,7 +45545,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45626,7 +45578,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45659,7 +45611,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45692,7 +45644,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45725,7 +45677,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45758,7 +45710,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45791,7 +45743,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45824,7 +45776,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45857,7 +45809,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45890,7 +45842,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45923,7 +45875,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45956,7 +45908,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -45989,7 +45941,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -46022,7 +45974,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -46055,7 +46007,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -46088,7 +46040,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -46121,7 +46073,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -46154,7 +46106,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-18 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-18',
@@ -46187,7 +46139,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46220,7 +46172,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46253,7 +46205,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46286,7 +46238,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 5/8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46319,7 +46271,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 5/8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46352,7 +46304,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 5/8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46385,7 +46337,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46418,7 +46370,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46451,7 +46403,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46484,7 +46436,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 7/8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46517,7 +46469,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 7/8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46550,7 +46502,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 7/8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46583,7 +46535,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46616,7 +46568,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46649,7 +46601,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46682,7 +46634,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46715,7 +46667,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46748,7 +46700,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46781,7 +46733,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46814,7 +46766,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46847,7 +46799,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46880,7 +46832,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46913,7 +46865,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46946,7 +46898,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -46979,7 +46931,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47012,7 +46964,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47045,7 +46997,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47078,7 +47030,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 2-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47111,7 +47063,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 2-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47144,7 +47096,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 2-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47177,7 +47129,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47210,7 +47162,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47243,7 +47195,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47276,7 +47228,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47309,7 +47261,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47342,7 +47294,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47375,7 +47327,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47408,7 +47360,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47441,7 +47393,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47474,7 +47426,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47507,7 +47459,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47540,7 +47492,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47573,7 +47525,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47606,7 +47558,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47639,7 +47591,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47672,7 +47624,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47705,7 +47657,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47738,7 +47690,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 3-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47771,7 +47723,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47804,7 +47756,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47837,7 +47789,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47870,7 +47822,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47903,7 +47855,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47936,7 +47888,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -47969,7 +47921,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -48002,7 +47954,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -48035,7 +47987,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -48068,7 +48020,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -48101,7 +48053,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -48134,7 +48086,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -48167,7 +48119,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -48200,7 +48152,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -48233,7 +48185,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-16 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-16',
@@ -48266,7 +48218,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -48299,7 +48251,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -48332,7 +48284,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -48365,7 +48317,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 1 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -48398,7 +48350,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 1 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -48431,7 +48383,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 1 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -48464,7 +48416,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -48497,7 +48449,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -48530,7 +48482,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -48563,7 +48515,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -48596,7 +48548,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -48629,7 +48581,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -48662,7 +48614,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -48695,7 +48647,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -48728,7 +48680,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -48761,7 +48713,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -48794,7 +48746,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -48827,7 +48779,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -48860,7 +48812,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 2-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -48893,7 +48845,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 2-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -48926,7 +48878,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 2-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -48959,7 +48911,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -48992,7 +48944,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49025,7 +48977,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49058,7 +49010,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49091,7 +49043,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49124,7 +49076,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49157,7 +49109,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49190,7 +49142,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49223,7 +49175,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49256,7 +49208,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49289,7 +49241,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49322,7 +49274,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49355,7 +49307,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49388,7 +49340,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49421,7 +49373,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49454,7 +49406,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49487,7 +49439,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49520,7 +49472,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49553,7 +49505,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49586,7 +49538,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49619,7 +49571,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49652,7 +49604,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49685,7 +49637,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49718,7 +49670,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49751,7 +49703,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49784,7 +49736,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49817,7 +49769,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-14 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-14',
@@ -49850,7 +49802,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -49883,7 +49835,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -49916,7 +49868,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -49949,7 +49901,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 7/8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -49982,7 +49934,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 7/8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50015,7 +49967,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 7/8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50048,7 +50000,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50081,7 +50033,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50114,7 +50066,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50147,7 +50099,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50180,7 +50132,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50213,7 +50165,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50246,7 +50198,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50279,7 +50231,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50312,7 +50264,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50345,7 +50297,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50378,7 +50330,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50411,7 +50363,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50444,7 +50396,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50477,7 +50429,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50510,7 +50462,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50543,7 +50495,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50576,7 +50528,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 2-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50609,7 +50561,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 2-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50642,7 +50594,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 2-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50675,7 +50627,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50708,7 +50660,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50741,7 +50693,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50774,7 +50726,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50807,7 +50759,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50840,7 +50792,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50873,7 +50825,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 X 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50906,7 +50858,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 X 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50939,7 +50891,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 X 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -50972,7 +50924,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51005,7 +50957,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51038,7 +50990,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51071,7 +51023,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51104,7 +51056,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51137,7 +51089,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51170,7 +51122,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51203,7 +51155,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51236,7 +51188,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 3-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51269,7 +51221,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51302,7 +51254,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51335,7 +51287,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51368,7 +51320,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51401,7 +51353,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51434,7 +51386,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51467,7 +51419,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51500,7 +51452,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51533,7 +51485,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51566,7 +51518,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51599,7 +51551,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51632,7 +51584,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51665,7 +51617,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51698,7 +51650,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51731,7 +51683,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51764,7 +51716,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51797,7 +51749,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-13 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-13',
@@ -51830,7 +51782,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -51863,7 +51815,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -51896,7 +51848,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -51929,7 +51881,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -51962,7 +51914,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -51995,7 +51947,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52028,7 +51980,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52061,7 +52013,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52094,7 +52046,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52127,7 +52079,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52160,7 +52112,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52193,7 +52145,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52226,7 +52178,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52259,7 +52211,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52292,7 +52244,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52325,7 +52277,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 2-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52358,7 +52310,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 2-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52391,7 +52343,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 2-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52424,7 +52376,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52457,7 +52409,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52490,7 +52442,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52523,7 +52475,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52556,7 +52508,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52589,7 +52541,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52622,7 +52574,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 X 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52655,7 +52607,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 X 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52688,7 +52640,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 X 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52721,7 +52673,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 X 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52754,7 +52706,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52787,7 +52739,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52820,7 +52772,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52853,7 +52805,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52886,7 +52838,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52919,7 +52871,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52952,7 +52904,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -52985,7 +52937,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -53018,7 +52970,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -53051,7 +53003,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -53084,7 +53036,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -53117,7 +53069,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -53150,7 +53102,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -53183,7 +53135,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -53216,7 +53168,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -53249,7 +53201,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -53282,7 +53234,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 X 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -53315,7 +53267,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-12 X 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-12',
@@ -53348,7 +53300,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-16 X 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-16',
@@ -53381,7 +53333,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-16 X 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-16',
@@ -53414,7 +53366,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -53447,7 +53399,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -53480,7 +53432,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -53513,7 +53465,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -53546,7 +53498,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -53579,7 +53531,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -53612,7 +53564,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -53645,7 +53597,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -53678,7 +53630,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -53711,7 +53663,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -53744,7 +53696,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -53777,7 +53729,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -53810,7 +53762,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -53843,7 +53795,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -53876,7 +53828,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -53909,7 +53861,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 2-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -53942,7 +53894,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 2-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -53975,7 +53927,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 2-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54008,7 +53960,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54041,7 +53993,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54074,7 +54026,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54107,7 +54059,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54140,7 +54092,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54173,7 +54125,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54206,7 +54158,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54239,7 +54191,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54272,7 +54224,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54305,7 +54257,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54338,7 +54290,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54371,7 +54323,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54404,7 +54356,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54437,7 +54389,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54470,7 +54422,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54503,7 +54455,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54536,7 +54488,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54569,7 +54521,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54602,7 +54554,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 3-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54635,7 +54587,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54668,7 +54620,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54701,7 +54653,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54734,7 +54686,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54767,7 +54719,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54800,7 +54752,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54833,7 +54785,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54866,7 +54818,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54899,7 +54851,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54932,7 +54884,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54965,7 +54917,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -54998,7 +54950,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -55031,7 +54983,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -55064,7 +55016,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -55097,7 +55049,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -55130,7 +55082,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 6-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -55163,7 +55115,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 6-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -55196,7 +55148,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 6-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -55229,7 +55181,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 7 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -55262,7 +55214,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 7 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -55295,7 +55247,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 7 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -55328,7 +55280,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -55361,7 +55313,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -55394,7 +55346,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-11 x 8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-11',
@@ -55427,7 +55379,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -55460,7 +55412,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -55493,7 +55445,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -55526,7 +55478,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -55559,7 +55511,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -55592,7 +55544,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -55625,7 +55577,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -55658,7 +55610,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -55691,7 +55643,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 1-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -55724,7 +55676,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -55757,7 +55709,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -55790,7 +55742,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -55823,7 +55775,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 2-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -55856,7 +55808,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 2-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -55889,7 +55841,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 2-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -55922,7 +55874,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -55955,7 +55907,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -55988,7 +55940,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56021,7 +55973,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56054,7 +56006,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56087,7 +56039,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 X 2 3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56120,7 +56072,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56153,7 +56105,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56186,7 +56138,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56219,7 +56171,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56252,7 +56204,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56285,7 +56237,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56318,7 +56270,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56351,7 +56303,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56384,7 +56336,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56417,7 +56369,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56450,7 +56402,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56483,7 +56435,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 3-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56516,7 +56468,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56549,7 +56501,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56582,7 +56534,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56615,7 +56567,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56648,7 +56600,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56681,7 +56633,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56714,7 +56666,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56747,7 +56699,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56780,7 +56732,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56813,7 +56765,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56846,7 +56798,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56879,7 +56831,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56912,7 +56864,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56945,7 +56897,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -56978,7 +56930,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -57011,7 +56963,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 7 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -57044,7 +56996,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 7 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -57077,7 +57029,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 7 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -57110,7 +57062,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -57143,7 +57095,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -57176,7 +57128,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -57209,7 +57161,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 9 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -57242,7 +57194,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-10 x 10 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-10',
@@ -57275,7 +57227,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -57308,7 +57260,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -57341,7 +57293,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -57374,7 +57326,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 2-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -57407,7 +57359,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 2-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -57440,7 +57392,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 2-1/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -57473,7 +57425,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -57506,7 +57458,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -57539,7 +57491,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -57572,7 +57524,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 2-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -57605,7 +57557,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 2-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -57638,7 +57590,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 2-3/4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -57671,7 +57623,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -57704,7 +57656,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -57737,7 +57689,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -57770,7 +57722,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -57803,7 +57755,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -57836,7 +57788,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -57869,7 +57821,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -57902,7 +57854,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -57935,7 +57887,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -57968,7 +57920,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -58001,7 +57953,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -58034,7 +57986,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -58067,7 +58019,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -58100,7 +58052,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -58133,7 +58085,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -58166,7 +58118,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -58199,7 +58151,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -58232,7 +58184,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -58265,7 +58217,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -58298,7 +58250,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -58331,7 +58283,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 6 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -58364,7 +58316,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 6-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -58397,7 +58349,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 7 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -58430,7 +58382,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 7-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -58463,7 +58415,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-9 x 8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-9',
@@ -58496,7 +58448,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -58529,7 +58481,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -58562,7 +58514,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -58595,7 +58547,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -58628,7 +58580,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -58661,7 +58613,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 2-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -58694,7 +58646,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -58727,7 +58679,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -58760,7 +58712,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 3 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -58793,7 +58745,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -58826,7 +58778,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -58859,7 +58811,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 3-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -58892,7 +58844,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -58925,7 +58877,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -58958,7 +58910,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 4 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -58991,7 +58943,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -59024,7 +58976,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -59057,7 +59009,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 4-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -59090,7 +59042,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -59123,7 +59075,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -59156,7 +59108,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 5 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -59189,7 +59141,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -59222,7 +59174,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -59255,7 +59207,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 5-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -59288,7 +59240,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 6" -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -59321,7 +59273,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 6" -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -59354,7 +59306,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 6" -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -59387,7 +59339,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 X 6-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -59420,7 +59372,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 X 6-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -59453,7 +59405,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 X 6-1/2 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -59486,7 +59438,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 7 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -59519,7 +59471,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 7 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -59552,7 +59504,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 7 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -59585,7 +59537,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -59618,7 +59570,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -59651,7 +59603,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 8 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -59684,7 +59636,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 9 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -59717,7 +59669,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-8 x 10 -- Hex Head Cap Screw -- UNC Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-8',
@@ -59730,9 +59682,6 @@ export const hexHeadCapScrews: any[] = [
     Qty_per_Box: '10',
     list_price: '273.00',
     Net_per_box: '81.90',
-  },
-  {
-    Net_per_box: ' ',
   },
   {
     sku: '0616016-ZNDI',
@@ -59753,7 +59702,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -59786,7 +59735,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -59819,7 +59768,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -59852,7 +59801,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 5/8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -59885,7 +59834,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 5/8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -59918,7 +59867,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 5/8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -59951,7 +59900,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -59984,7 +59933,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60017,7 +59966,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60050,7 +59999,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 7/8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60083,7 +60032,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 7/8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60116,7 +60065,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 7/8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60149,7 +60098,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60182,7 +60131,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60215,7 +60164,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60248,7 +60197,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60281,7 +60230,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60314,7 +60263,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60347,7 +60296,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 1 1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60380,7 +60329,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 1 1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60413,7 +60362,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 1 1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60446,7 +60395,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60479,7 +60428,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60512,7 +60461,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60545,7 +60494,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60578,7 +60527,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60611,7 +60560,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60644,7 +60593,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60677,7 +60626,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60710,7 +60659,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60743,7 +60692,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60776,7 +60725,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60809,7 +60758,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60842,7 +60791,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60875,7 +60824,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60908,7 +60857,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60941,7 +60890,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -60974,7 +60923,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -61007,7 +60956,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -61040,7 +60989,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -61073,7 +61022,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -61106,7 +61055,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -61139,7 +61088,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -61172,7 +61121,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -61205,7 +61154,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -61238,7 +61187,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -61271,7 +61220,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -61304,7 +61253,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -61337,7 +61286,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/4-28 X 6 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/4-28',
@@ -61370,7 +61319,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -61403,7 +61352,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -61436,7 +61385,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -61469,7 +61418,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 5/8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -61502,7 +61451,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 5/8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -61535,7 +61484,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 5/8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -61568,7 +61517,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -61601,7 +61550,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -61634,7 +61583,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -61667,7 +61616,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 7/8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -61700,7 +61649,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 7/8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -61733,7 +61682,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 7/8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -61766,7 +61715,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -61799,7 +61748,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -61832,7 +61781,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -61865,7 +61814,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -61898,7 +61847,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -61931,7 +61880,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -61964,7 +61913,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -61997,7 +61946,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62030,7 +61979,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62063,7 +62012,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62096,7 +62045,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62129,7 +62078,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62162,7 +62111,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 X 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62195,7 +62144,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 X 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62228,7 +62177,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 X 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62261,7 +62210,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 X 2 1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62294,7 +62243,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 X 2 1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62327,7 +62276,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 X 2 1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62360,7 +62309,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62393,7 +62342,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62426,7 +62375,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62459,7 +62408,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62492,7 +62441,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62525,7 +62474,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62558,7 +62507,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62591,7 +62540,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62624,7 +62573,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62657,7 +62606,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62690,7 +62639,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62723,7 +62672,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62756,7 +62705,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62789,7 +62738,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62822,7 +62771,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62855,7 +62804,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 X 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62888,7 +62837,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62921,7 +62870,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 X 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62954,7 +62903,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/16-24 X 6 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/16-24',
@@ -62987,7 +62936,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63020,7 +62969,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63053,7 +63002,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63086,7 +63035,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 5/8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63119,7 +63068,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 5/8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63152,7 +63101,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 5/8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63185,7 +63134,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63218,7 +63167,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63251,7 +63200,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63284,7 +63233,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 7/8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63317,7 +63266,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 7/8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63350,7 +63299,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 7/8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63383,7 +63332,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63416,7 +63365,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63449,7 +63398,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63482,7 +63431,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63515,7 +63464,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63548,7 +63497,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63581,7 +63530,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63614,7 +63563,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63647,7 +63596,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63680,7 +63629,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63713,7 +63662,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63746,7 +63695,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63779,7 +63728,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63812,7 +63761,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63845,7 +63794,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63878,7 +63827,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 2-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63911,7 +63860,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 2-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63944,7 +63893,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 2-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -63977,7 +63926,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64010,7 +63959,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64043,7 +63992,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64076,7 +64025,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64109,7 +64058,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64142,7 +64091,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64175,7 +64124,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64208,7 +64157,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64241,7 +64190,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64274,7 +64223,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64307,7 +64256,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64340,7 +64289,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64373,7 +64322,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64406,7 +64355,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64439,7 +64388,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64472,7 +64421,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64505,7 +64454,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64538,7 +64487,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64571,7 +64520,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64604,7 +64553,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64637,7 +64586,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64670,7 +64619,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64703,7 +64652,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64736,7 +64685,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64769,7 +64718,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 6 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64802,7 +64751,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 6 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64835,7 +64784,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/8-24 x 6 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/8-24',
@@ -64868,7 +64817,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -64901,7 +64850,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -64934,7 +64883,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -64967,7 +64916,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65000,7 +64949,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65033,7 +64982,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65066,7 +65015,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65099,7 +65048,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65132,7 +65081,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65165,7 +65114,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65198,7 +65147,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65231,7 +65180,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65264,7 +65213,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65297,7 +65246,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65330,7 +65279,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65363,7 +65312,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65396,7 +65345,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65429,7 +65378,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65462,7 +65411,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 2-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65495,7 +65444,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 2-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65528,7 +65477,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 2-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65561,7 +65510,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65594,7 +65543,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65627,7 +65576,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65660,7 +65609,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65693,7 +65642,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65726,7 +65675,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65759,7 +65708,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65792,7 +65741,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65825,7 +65774,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65858,7 +65807,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65891,7 +65840,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65924,7 +65873,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65957,7 +65906,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -65990,7 +65939,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -66023,7 +65972,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -66056,7 +66005,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -66089,7 +66038,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -66122,7 +66071,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -66155,7 +66104,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -66188,7 +66137,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -66221,7 +66170,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -66254,7 +66203,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -66287,7 +66236,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -66320,7 +66269,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -66353,7 +66302,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 6 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -66386,7 +66335,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 6 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -66419,7 +66368,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/16-20 x 6 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/16-20',
@@ -66452,7 +66401,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -66485,7 +66434,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -66518,7 +66467,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -66551,7 +66500,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -66584,7 +66533,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -66617,7 +66566,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -66650,7 +66599,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -66683,7 +66632,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -66716,7 +66665,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -66749,7 +66698,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -66782,7 +66731,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -66815,7 +66764,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -66848,7 +66797,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -66881,7 +66830,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -66914,7 +66863,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -66947,7 +66896,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -66980,7 +66929,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67013,7 +66962,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67046,7 +66995,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 2-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67079,7 +67028,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 2-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67112,7 +67061,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 2-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67145,7 +67094,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67178,7 +67127,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67211,7 +67160,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67244,7 +67193,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67277,7 +67226,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67310,7 +67259,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67343,7 +67292,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67376,7 +67325,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67409,7 +67358,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 X 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67442,7 +67391,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 3-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67475,7 +67424,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 3-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67508,7 +67457,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 3-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67541,7 +67490,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67574,7 +67523,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67607,7 +67556,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67640,7 +67589,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67673,7 +67622,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67706,7 +67655,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67739,7 +67688,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67772,7 +67721,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67805,7 +67754,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67838,7 +67787,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67871,7 +67820,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67904,7 +67853,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67937,7 +67886,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -67970,7 +67919,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -68003,7 +67952,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -68036,7 +67985,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 6 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -68069,7 +68018,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 6 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -68102,7 +68051,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1/2-20 x 6 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1/2-20',
@@ -68135,7 +68084,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68168,7 +68117,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68201,7 +68150,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68234,7 +68183,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68267,7 +68216,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68300,7 +68249,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68333,7 +68282,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68366,7 +68315,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68399,7 +68348,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68432,7 +68381,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68465,7 +68414,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68498,7 +68447,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68531,7 +68480,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68564,7 +68513,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68597,7 +68546,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68630,7 +68579,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 2-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68663,7 +68612,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 2-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68696,7 +68645,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 2-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68729,7 +68678,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68762,7 +68711,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68795,7 +68744,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68828,7 +68777,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68861,7 +68810,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68894,7 +68843,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68927,7 +68876,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68960,7 +68909,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -68993,7 +68942,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 X 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -69026,7 +68975,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -69059,7 +69008,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -69092,7 +69041,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -69125,7 +69074,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -69158,7 +69107,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -69191,7 +69140,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -69224,7 +69173,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -69257,7 +69206,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -69290,7 +69239,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -69323,7 +69272,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -69356,7 +69305,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -69389,7 +69338,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -69422,7 +69371,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -69455,7 +69404,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -69488,7 +69437,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -69521,7 +69470,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 6 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -69554,7 +69503,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 6 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -69587,7 +69536,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '9/16-18 x 6 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '9/16-18',
@@ -69620,7 +69569,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -69653,7 +69602,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -69686,7 +69635,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -69719,7 +69668,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -69752,7 +69701,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -69785,7 +69734,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -69818,7 +69767,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -69851,7 +69800,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -69884,7 +69833,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -69917,7 +69866,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -69950,7 +69899,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -69983,7 +69932,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70016,7 +69965,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70049,7 +69998,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70082,7 +70031,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70115,7 +70064,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 2-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70148,7 +70097,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 2-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70181,7 +70130,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 2-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70214,7 +70163,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70247,7 +70196,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70280,7 +70229,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70313,7 +70262,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70346,7 +70295,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70379,7 +70328,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70412,7 +70361,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70445,7 +70394,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70478,7 +70427,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70511,7 +70460,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 3-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70544,7 +70493,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 3-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70577,7 +70526,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 3-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70610,7 +70559,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70643,7 +70592,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70676,7 +70625,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70709,7 +70658,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 3-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70742,7 +70691,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 3-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70775,7 +70724,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 3-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70808,7 +70757,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70841,7 +70790,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70874,7 +70823,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70907,7 +70856,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70940,7 +70889,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -70973,7 +70922,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -71006,7 +70955,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -71039,7 +70988,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -71072,7 +71021,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -71105,7 +71054,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -71138,7 +71087,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -71171,7 +71120,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -71204,7 +71153,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 6 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -71237,7 +71186,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 6 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -71270,7 +71219,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 6 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -71303,7 +71252,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 6-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -71336,7 +71285,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 6-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -71369,7 +71318,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 6-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -71402,7 +71351,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 7 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -71435,7 +71384,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 7 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -71468,7 +71417,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 7 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -71501,7 +71450,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -71534,7 +71483,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -71567,7 +71516,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '5/8-18 x 8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '5/8-18',
@@ -71600,7 +71549,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -71633,7 +71582,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -71666,7 +71615,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 1 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -71699,7 +71648,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -71732,7 +71681,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -71765,7 +71714,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 1-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -71798,7 +71747,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -71831,7 +71780,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -71864,7 +71813,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 1-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -71897,7 +71846,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -71930,7 +71879,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -71963,7 +71912,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 1-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -71996,7 +71945,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72029,7 +71978,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72062,7 +72011,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72095,7 +72044,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 2-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72128,7 +72077,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 2-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72161,7 +72110,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 2-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72194,7 +72143,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72227,7 +72176,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72260,7 +72209,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72293,7 +72242,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72326,7 +72275,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72359,7 +72308,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 X 2 3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72392,7 +72341,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72425,7 +72374,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72458,7 +72407,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72491,7 +72440,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 3-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72524,7 +72473,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 3-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72557,7 +72506,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 3-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72590,7 +72539,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72623,7 +72572,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72656,7 +72605,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72689,7 +72638,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 3-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72722,7 +72671,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 3-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72755,7 +72704,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 3-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72788,7 +72737,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72821,7 +72770,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72854,7 +72803,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72887,7 +72836,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72920,7 +72869,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72953,7 +72902,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -72986,7 +72935,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -73019,7 +72968,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -73052,7 +73001,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -73085,7 +73034,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -73118,7 +73067,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -73151,7 +73100,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -73184,7 +73133,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 6 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -73217,7 +73166,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 6 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -73250,7 +73199,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 6 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -73283,7 +73232,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 7 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -73316,7 +73265,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 7 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -73349,7 +73298,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 7 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -73382,7 +73331,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -73415,7 +73364,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -73448,7 +73397,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 x 8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -73481,7 +73430,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 X 9 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -73514,7 +73463,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '3/4-16 X 10 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '3/4-16',
@@ -73547,7 +73496,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -73580,7 +73529,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -73613,7 +73562,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -73646,7 +73595,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 2-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -73679,7 +73628,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 2-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -73712,7 +73661,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 2-1/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -73745,7 +73694,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -73778,7 +73727,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -73811,7 +73760,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -73844,7 +73793,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 2-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -73877,7 +73826,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 2-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -73910,7 +73859,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 2-3/4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -73943,7 +73892,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -73976,7 +73925,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74009,7 +73958,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74042,7 +73991,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74075,7 +74024,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74108,7 +74057,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74141,7 +74090,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74174,7 +74123,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74207,7 +74156,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74240,7 +74189,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74273,7 +74222,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74306,7 +74255,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74339,7 +74288,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74372,7 +74321,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74405,7 +74354,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74438,7 +74387,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74471,7 +74420,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74504,7 +74453,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74537,7 +74486,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 6" -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74570,7 +74519,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 6" -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74603,7 +74552,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 x 6" -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74636,7 +74585,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 X 7" -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74669,7 +74618,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 X 7" -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74702,7 +74651,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 X 7" -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74735,7 +74684,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 X 8" -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74768,7 +74717,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 X 8" -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74801,7 +74750,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '7/8-14 X 8" -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '7/8-14',
@@ -74834,7 +74783,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -74867,7 +74816,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -74900,7 +74849,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -74933,7 +74882,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -74966,7 +74915,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -74999,7 +74948,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 2-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75032,7 +74981,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75065,7 +75014,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75098,7 +75047,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 3 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75131,7 +75080,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75164,7 +75113,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75197,7 +75146,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 3-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75230,7 +75179,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75263,7 +75212,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75296,7 +75245,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 4 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75329,7 +75278,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75362,7 +75311,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75395,7 +75344,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 4-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75428,7 +75377,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75461,7 +75410,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75494,7 +75443,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 5 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75527,7 +75476,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75560,7 +75509,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75593,7 +75542,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 5-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75626,7 +75575,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 6" -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75659,7 +75608,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 6" -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75692,7 +75641,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 6" -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75725,7 +75674,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 X 6-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75758,7 +75707,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 X 6-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75791,7 +75740,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 X 6-1/2 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75824,7 +75773,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 7 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75857,7 +75806,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 7 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75890,7 +75839,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 7 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75923,7 +75872,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75956,7 +75905,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -75989,7 +75938,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 x 8 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -76022,7 +75971,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 X 9 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -76055,7 +76004,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description:
       '1-14 X 10 -- Hex Head Cap Screw -- UNF Grade 8 -- Zinc & Dichromate Plated',
     Diameter: '1-14',
@@ -76068,9 +76017,6 @@ export const hexHeadCapScrews: any[] = [
     Qty_per_Box: '10',
     list_price: '308.80',
     Net_per_box: '92.64',
-  },
-  {
-    Net_per_box: ' ',
   },
   {
     sku: 'SS-0116016',
@@ -76091,7 +76037,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1/4-20 x 1/2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '1/4-20',
     Length: '1/2',
@@ -76123,7 +76069,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1/4-20 x 5/8 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '1/4-20',
     Length: '5/8',
@@ -76155,7 +76101,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1/4-20 x 3/4 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '1/4-20',
     Length: '3/4',
@@ -76187,7 +76133,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1/4-20 X 1 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '1/4-20',
     Length: '1',
@@ -76219,7 +76165,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1/4-20 x 1-1/4 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '1/4-20',
     Length: '1-1/4',
@@ -76251,7 +76197,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1/4-20 X 1 1/2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '1/4-20',
     Length: '1 1/2',
@@ -76283,7 +76229,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1/4-20 X 2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '1/4-20',
     Length: '2',
@@ -76315,7 +76261,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1/4-20 X 2 1/2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '1/4-20',
     Length: '2 1/2',
@@ -76347,7 +76293,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1/4-20 X 3 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '1/4-20',
     Length: '3',
@@ -76379,7 +76325,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1/4-20 x 3-1/2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '1/4-20',
     Length: '3-1/2',
@@ -76391,9 +76337,6 @@ export const hexHeadCapScrews: any[] = [
     Qty_per_Box: '100',
     list_price: '130.88',
     Net_per_box: '39.26',
-  },
-  {
-    Net_per_box: ' ',
   },
   {
     sku: 'SS-0117024',
@@ -76414,7 +76357,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '5/16-18 x 3/4 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '5/16-18',
     Length: '3/4',
@@ -76446,7 +76389,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '5/16-18 x 1 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '5/16-18',
     Length: '1',
@@ -76478,7 +76421,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '5/16-18 x 1-1/4 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '5/16-18',
     Length: '1-1/4',
@@ -76510,7 +76453,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '5/16-18 x 1-1/2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '5/16-18',
     Length: '1-1/2',
@@ -76542,7 +76485,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '5/16-18 X 2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '5/16-18',
     Length: '2',
@@ -76574,7 +76517,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '5/16-18 x 2-1/2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '5/16-18',
     Length: '2-1/2',
@@ -76606,7 +76549,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '5/16-18 x 3 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '5/16-18',
     Length: '3',
@@ -76638,7 +76581,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '5/16-18 x 3-1/2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '5/16-18',
     Length: '3-1/2',
@@ -76650,9 +76593,6 @@ export const hexHeadCapScrews: any[] = [
     Qty_per_Box: '50',
     list_price: '107.80',
     Net_per_box: '32.34',
-  },
-  {
-    Net_per_box: ' ',
   },
   {
     sku: 'SS-0118024',
@@ -76673,7 +76613,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '3/8-16 x 3/4 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '3/8-16',
     Length: '3/4',
@@ -76705,7 +76645,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '3/8-16 X 1 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '3/8-16',
     Length: '1',
@@ -76737,7 +76677,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '3/8-16 X 1-1/4 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '3/8-16',
     Length: '1-1/4',
@@ -76769,7 +76709,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '3/8-16 X 1-1/2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '3/8-16',
     Length: '1-1/2',
@@ -76801,7 +76741,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '3/8-16 x 2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '3/8-16',
     Length: '2',
@@ -76833,7 +76773,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '3/8-16 X 2-1/2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '3/8-16',
     Length: '2-1/2',
@@ -76865,7 +76805,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '3/8-16 x 3 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '3/8-16',
     Length: '3',
@@ -76897,7 +76837,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '3/8-16 x 3-1/2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '3/8-16',
     Length: '3-1/2',
@@ -76929,7 +76869,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '3/8-16 x 4 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '3/8-16',
     Length: '4',
@@ -76941,9 +76881,6 @@ export const hexHeadCapScrews: any[] = [
     Qty_per_Box: '50',
     list_price: '154.63',
     Net_per_box: '46.39',
-  },
-  {
-    Net_per_box: ' ',
   },
   {
     sku: 'SS-0120032',
@@ -76964,7 +76901,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1/2-13 x 1 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '1/2-13',
     Length: '1',
@@ -76996,7 +76933,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1/2-13 x 1-1/4 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '1/2-13',
     Length: '1-1/4',
@@ -77028,7 +76965,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1/2-13 x 1-1/2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '1/2-13',
     Length: '1-1/2',
@@ -77060,7 +76997,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1/2-13 x 2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '1/2-13',
     Length: '2',
@@ -77092,7 +77029,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1/2-13 x 2-1/2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '1/2-13',
     Length: '2-1/2',
@@ -77124,7 +77061,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1/2-13 X 3 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '1/2-13',
     Length: '3',
@@ -77156,7 +77093,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1/2-13 x 3-1/2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '1/2-13',
     Length: '3-1/2',
@@ -77188,7 +77125,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '1/2-13 x 4 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '1/2-13',
     Length: '4',
@@ -77200,9 +77137,6 @@ export const hexHeadCapScrews: any[] = [
     Qty_per_Box: '25',
     list_price: '141.81',
     Net_per_box: '42.54',
-  },
-  {
-    Net_per_box: ' ',
   },
   {
     sku: 'SS-0122032',
@@ -77223,7 +77157,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '5/8-11 x 1 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '5/8-11',
     Length: '1',
@@ -77255,7 +77189,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '5/8-11 x 1-1/2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '5/8-11',
     Length: '1-1/2',
@@ -77287,7 +77221,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '5/8-11 x 2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '5/8-11',
     Length: '2',
@@ -77319,7 +77253,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '5/8-11 x 2-1/2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '5/8-11',
     Length: '2-1/2',
@@ -77351,7 +77285,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '5/8-11 x 3 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '5/8-11',
     Length: '3',
@@ -77383,7 +77317,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '5/8-11 x 3-1/2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '5/8-11',
     Length: '3-1/2',
@@ -77415,7 +77349,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '5/8-11 x 4 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '5/8-11',
     Length: '4',
@@ -77447,7 +77381,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '5/8-11 x 4-1/2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '5/8-11',
     Length: '4-1/2',
@@ -77479,7 +77413,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '5/8-11 x 5 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '5/8-11',
     Length: '5',
@@ -77511,7 +77445,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '5/8-11 x 5-1/2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '5/8-11',
     Length: '5-1/2',
@@ -77523,9 +77457,6 @@ export const hexHeadCapScrews: any[] = [
     Qty_per_Box: '25',
     list_price: '0.00',
     Net_per_box: '0.00',
-  },
-  {
-    Net_per_box: ' ',
   },
   {
     sku: 'SS-0123048',
@@ -77546,7 +77477,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '3/4-10 x 1-1/2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '3/4-10',
     Length: '1-1/2',
@@ -77578,7 +77509,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '3/4-10 x 2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '3/4-10',
     Length: '2',
@@ -77610,7 +77541,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '3/4-10 x 2-1/2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '3/4-10',
     Length: '2-1/2',
@@ -77642,7 +77573,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '3/4-10 x 3 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '3/4-10',
     Length: '3',
@@ -77674,7 +77605,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '3/4-10 x 3-1/2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '3/4-10',
     Length: '3-1/2',
@@ -77706,7 +77637,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '3/4-10 x 4 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '3/4-10',
     Length: '4',
@@ -77738,7 +77669,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '3/4-10 x 4-1/2 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '3/4-10',
     Length: '4-1/2',
@@ -77770,7 +77701,7 @@ export const hexHeadCapScrews: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Hex Cap Screws',
+
     description: '3/4-10 x 5 -- Hex Head Cap Screw -- UNC 18-8SS',
     Diameter: '3/4-10',
     Length: '5',

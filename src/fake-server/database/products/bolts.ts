@@ -16,7 +16,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 x 1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/4-20',
     Length: '1/2',
@@ -46,7 +46,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 x 5/8 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/4-20',
     Length: '5/8',
@@ -77,7 +77,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 x 3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/4-20',
     Length: '3/4',
@@ -108,7 +108,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 X 1 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/4-20',
     Length: '1',
@@ -139,7 +139,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 x 1-1/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/4-20',
     Length: '1-1/4',
@@ -170,7 +170,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 X 1 1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/4-20',
     Length: '1 1/2',
@@ -201,7 +201,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 x 1-3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/4-20',
     Length: '1-3/4',
@@ -232,7 +232,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 X 2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/4-20',
     Length: '2',
@@ -263,7 +263,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 X 2 1/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/4-20',
     Length: '2 1/4',
@@ -294,7 +294,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 X 2 1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/4-20',
     Length: '2 1/2',
@@ -325,7 +325,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 X 2 3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/4-20',
     Length: '2 3/4',
@@ -356,7 +356,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 X 3 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/4-20',
     Length: '3',
@@ -387,7 +387,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 x 3-1/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/4-20',
     Length: '3-1/4',
@@ -418,7 +418,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 x 3-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/4-20',
     Length: '3-1/2',
@@ -449,7 +449,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 x 3-3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/4-20',
     Length: '3-3/4',
@@ -480,7 +480,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 X 4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/4-20',
     Length: '4',
@@ -511,7 +511,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 x 4-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/4-20',
     Length: '4-1/2',
@@ -542,7 +542,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 x 5 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/4-20',
     Length: '5',
@@ -573,7 +573,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 x 5-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/4-20',
     Length: '5-1/2',
@@ -604,7 +604,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 x 6 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/4-20',
     Length: '6',
@@ -635,7 +635,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 x 6-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/4-20',
     Length: '6-1/2',
@@ -666,7 +666,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 x 7 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/4-20',
     Length: '7',
@@ -697,7 +697,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 x 8 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/4-20',
     Length: '8',
@@ -728,7 +728,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '1/2',
@@ -759,7 +759,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 5/8 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '5/8',
@@ -790,7 +790,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '3/4',
@@ -821,7 +821,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 1 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '1',
@@ -852,7 +852,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 1-1/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '1-1/4',
@@ -883,7 +883,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 1-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '1 1/2',
@@ -914,7 +914,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 1-3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '1-3/4',
@@ -945,7 +945,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 X 2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '2',
@@ -976,7 +976,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 X 2 1/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '2 1/4',
@@ -1007,7 +1007,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 2-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '2 1/2',
@@ -1038,7 +1038,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 X 2 3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '2 3/4',
@@ -1069,7 +1069,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 3 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '3',
@@ -1100,7 +1100,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 3-1/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '3-1/4',
@@ -1131,7 +1131,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 3-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '3-1/2',
@@ -1162,7 +1162,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 3-3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '3-3/4',
@@ -1193,7 +1193,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '4',
@@ -1224,7 +1224,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 4-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '4-1/2',
@@ -1255,7 +1255,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 5 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '5',
@@ -1286,7 +1286,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 5-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '5-1/2',
@@ -1317,7 +1317,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 6 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '6',
@@ -1348,7 +1348,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 6-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '6-1/2',
@@ -1379,7 +1379,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 7 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '7',
@@ -1410,7 +1410,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 8 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '8',
@@ -1441,7 +1441,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 9 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '9',
@@ -1472,7 +1472,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 10 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '5/16-18',
     Length: '10',
@@ -1503,7 +1503,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '3/4',
@@ -1534,7 +1534,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 X 1 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '1',
@@ -1565,7 +1565,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 X 1-1/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '1-1/4',
@@ -1596,7 +1596,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 X 1-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '1-1/2',
@@ -1627,7 +1627,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 X 1-3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '1-3/4',
@@ -1658,7 +1658,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '2',
@@ -1689,7 +1689,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 X 2-1/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '2-1/4',
@@ -1720,7 +1720,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 X 2-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '2-1/2',
@@ -1751,7 +1751,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 X 2 3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '2 3/4',
@@ -1782,7 +1782,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 3 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '3',
@@ -1813,7 +1813,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 3-1/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '3-1/4',
@@ -1844,7 +1844,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 3-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '3-1/2',
@@ -1875,7 +1875,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 3-3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '3-3/4',
@@ -1906,7 +1906,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '4',
@@ -1937,7 +1937,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 4-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '4-1/2',
@@ -1968,7 +1968,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 5 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '5',
@@ -1999,7 +1999,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 5-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '5-1/2',
@@ -2030,7 +2030,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 6 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '6',
@@ -2061,7 +2061,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 6-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '6-1/2',
@@ -2092,7 +2092,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 7 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '7',
@@ -2123,7 +2123,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 7-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '7-1/2',
@@ -2154,7 +2154,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 8 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '8',
@@ -2185,7 +2185,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 8-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '8-1/2',
@@ -2216,7 +2216,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 9 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '9',
@@ -2247,7 +2247,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 X 9-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '9-1/2',
@@ -2278,7 +2278,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 X 10 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '10',
@@ -2309,7 +2309,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 X 11 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '11',
@@ -2340,7 +2340,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 X 12 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '3/8-16',
     Length: '12',
@@ -2371,7 +2371,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 1 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '1',
@@ -2402,7 +2402,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 1-1/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '1-1/4',
@@ -2433,7 +2433,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 1-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '1-1/2',
@@ -2464,7 +2464,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 1-3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '1-3/4',
@@ -2495,7 +2495,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '2',
@@ -2526,7 +2526,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 2-1/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '2-1/4',
@@ -2557,7 +2557,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 2-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '2-1/2',
@@ -2588,7 +2588,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 X 2 3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '2 3/4',
@@ -2619,7 +2619,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 X 3 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '3',
@@ -2650,7 +2650,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 3-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '3-1/2',
@@ -2681,7 +2681,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '4',
@@ -2712,7 +2712,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 4-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '4-1/2',
@@ -2743,7 +2743,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 5 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '5',
@@ -2774,7 +2774,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 5-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '5-1/2',
@@ -2805,7 +2805,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 6 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '6',
@@ -2836,7 +2836,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 6-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '6-1/2',
@@ -2867,7 +2867,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 7 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '7',
@@ -2898,7 +2898,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 7-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '7-1/2',
@@ -2929,7 +2929,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 8 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '8',
@@ -2960,7 +2960,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 8-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '8-1/2',
@@ -2991,7 +2991,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 9 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '9',
@@ -3022,7 +3022,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 X 9-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '9-1/2',
@@ -3053,7 +3053,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 X 10 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '10',
@@ -3084,7 +3084,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 X 11 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '11',
@@ -3115,7 +3115,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 X 12 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '12',
@@ -3146,7 +3146,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 X 13 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '13',
@@ -3177,7 +3177,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 X 14 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '14',
@@ -3208,7 +3208,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 X 15 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '15',
@@ -3239,7 +3239,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 X 16 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     Diameter: '1/2-13',
     Length: '16',
@@ -3270,7 +3270,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 X 1 1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/4-20',
     Length: '1 1/2',
@@ -3301,7 +3301,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 X 2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/4-20',
     Length: '2',
@@ -3332,7 +3332,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 X 2 1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/4-20',
     Length: '2 1/2',
@@ -3363,7 +3363,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 X 3 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/4-20',
     Length: '3',
@@ -3394,7 +3394,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 x 3-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/4-20',
     Length: '3-1/2',
@@ -3425,7 +3425,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 X 4 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/4-20',
     Length: '4',
@@ -3456,7 +3456,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 x 4-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/4-20',
     Length: '4-1/2',
@@ -3487,7 +3487,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 x 5 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/4-20',
     Length: '5',
@@ -3518,7 +3518,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 x 5-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/4-20',
     Length: '5-1/2',
@@ -3549,7 +3549,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/4-20 x 6 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/4-20',
     Length: '6',
@@ -3580,7 +3580,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 1 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '5/16-18',
     Length: '1',
@@ -3611,7 +3611,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 1-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '5/16-18',
     Length: '1-1/2',
@@ -3642,7 +3642,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 X 2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '5/16-18',
     Length: '2',
@@ -3673,7 +3673,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 2-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '5/16-18',
     Length: '2-1/2',
@@ -3704,7 +3704,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 3 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '5/16-18',
     Length: '3',
@@ -3735,7 +3735,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 3-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '5/16-18',
     Length: '3-1/2',
@@ -3766,7 +3766,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 4 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '5/16-18',
     Length: '4',
@@ -3797,7 +3797,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 4-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '5/16-18',
     Length: '4-1/2',
@@ -3828,7 +3828,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 5 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '5/16-18',
     Length: '5',
@@ -3859,7 +3859,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 X 5-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '5/16-18',
     Length: '5-1/2',
@@ -3890,7 +3890,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '5/16-18 x 6 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '5/16-18',
     Length: '6',
@@ -3921,7 +3921,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 X 1 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '3/8-16',
     Length: '1',
@@ -3952,7 +3952,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 X 1-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '3/8-16',
     Length: '1-1/2',
@@ -3983,7 +3983,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '3/8-16',
     Length: '2',
@@ -4014,7 +4014,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 X 2-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '3/8-16',
     Length: '2-1/2',
@@ -4045,7 +4045,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 3 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '3/8-16',
     Length: '3',
@@ -4076,7 +4076,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 3-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '3/8-16',
     Length: '3-1/2',
@@ -4107,7 +4107,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 4 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '3/8-16',
     Length: '4',
@@ -4138,7 +4138,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 4-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '3/8-16',
     Length: '4-1/2',
@@ -4169,7 +4169,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 5 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '3/8-16',
     Length: '5',
@@ -4200,7 +4200,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 5-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '3/8-16',
     Length: '5-1/2',
@@ -4231,7 +4231,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 6 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '3/8-16',
     Length: '6',
@@ -4262,7 +4262,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 7 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '3/8-16',
     Length: '7',
@@ -4293,7 +4293,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 8 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '3/8-16',
     Length: '8',
@@ -4324,7 +4324,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 9 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '3/8-16',
     Length: '9',
@@ -4355,7 +4355,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 10 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '3/8-16',
     Length: '10',
@@ -4386,7 +4386,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '3/8-16 x 11 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '3/8-16',
     Length: '11',
@@ -4417,7 +4417,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 1 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/2-13',
     Length: '1',
@@ -4448,7 +4448,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 1-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/2-13',
     Length: '1-1/2',
@@ -4479,7 +4479,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/2-13',
     Length: '2',
@@ -4510,7 +4510,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 2-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/2-13',
     Length: '2-1/2',
@@ -4541,7 +4541,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 X 3 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/2-13',
     Length: '3',
@@ -4572,7 +4572,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 3-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/2-13',
     Length: '3-1/2',
@@ -4603,7 +4603,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 4 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/2-13',
     Length: '4',
@@ -4634,7 +4634,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 4-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/2-13',
     Length: '4-1/2',
@@ -4665,7 +4665,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 5 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/2-13',
     Length: '5',
@@ -4696,7 +4696,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 5-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/2-13',
     Length: '5-1/2',
@@ -4727,7 +4727,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 6 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/2-13',
     Length: '6',
@@ -4758,7 +4758,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 6-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/2-13',
     Length: '6-1/2',
@@ -4789,7 +4789,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 7 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/2-13',
     Length: '7',
@@ -4820,7 +4820,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 7-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/2-13',
     Length: '7-1/2',
@@ -4851,7 +4851,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 8 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/2-13',
     Length: '8',
@@ -4882,7 +4882,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 x 9 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/2-13',
     Length: '9',
@@ -4913,7 +4913,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 X 10 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/2-13',
     Length: '10',
@@ -4944,7 +4944,7 @@ export const bolts: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Carriage',
+
     description: '1/2-13 X 11 -- Carriage Bolt -- Hot Dip Galvanized',
     Diameter: '1/2-13',
     Length: '11',
