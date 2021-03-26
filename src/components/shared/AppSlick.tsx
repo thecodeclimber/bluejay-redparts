@@ -1,10 +1,8 @@
-// react
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 // third-party
 import classNames from 'classnames';
 import Slick, { Settings } from 'react-slick';
 // application
-import { SlickPreventClickActive } from '~/styled-components/components/SlickPreventClick';
 import { useDirection } from '~/services/i18n/hooks';
 
 export type ISlickProps = Settings;
@@ -208,6 +206,10 @@ function AppSlickInner(props: Props) {
     [beforeChange]
   );
 
+  const classes = classNames('slick-prevent-click', {
+    'slick-prevent-click--active': preventClick,
+  });
+
   // we need to reverse slides if direction is RTL
   // because react-slick displays them in the wrong order
   let reversedChildren = React.Children.toArray(children);
@@ -220,21 +222,20 @@ function AppSlickInner(props: Props) {
   reversedChildren = reversedChildren.map((slide, index) => {
     // react-slick incorrectly adds the .slick-active class to slides
     // if the RTL parameter is true so we will do it ourselves
+    const slideClasses = classNames({
+      'correct-slick-active': activeSlides.includes(index),
+    });
 
     return (
-      <>
-        {activeSlides.includes(index) && (
-          <SlickPreventClickActive key={index} dir={direction}>
-            {slide}
-          </SlickPreventClickActive>
-        )}
-      </>
+      <div key={index} dir={direction} className={slideClasses}>
+        {slide}
+      </div>
     );
   });
 
   return (
     // eslint-disable-next-line jsx-a11y/no-static-element-interactions
-    <SlickPreventClickActive onMouseDown={onMousedown}>
+    <div className={classes} onMouseDown={onMousedown}>
       <Slick
         {...otherProps}
         rtl={direction === 'rtl'}
@@ -243,7 +244,7 @@ function AppSlickInner(props: Props) {
       >
         {reversedChildren}
       </Slick>
-    </SlickPreventClickActive>
+    </div>
   );
 }
 
