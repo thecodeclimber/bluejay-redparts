@@ -11,3 +11,12 @@ export const CardLoader = styled.div`
   width: 100%;
   height: 100%;
 `;
+export const CardTitle = styled.div`
+  font-size: 24px;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
+  padding-bottom: 8px;
+  border-bottom: 1px solid
+    ${(props) => `${props.theme.colors.blockBrandDivider}`};
+  margin-bottom: 2rem;
+  margin-top: -4px;
+`;
