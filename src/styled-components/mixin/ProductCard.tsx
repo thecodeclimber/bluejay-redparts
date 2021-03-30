@@ -362,3 +362,54 @@ export const ProductCardAddToCartFull = styled.button`
       }
     `}
 `;
+
+export const ProductCardWishList = styled.button`
+  display: none;
+  position: relative;
+  border: none;
+  background: transparent;
+  color: ${(props) => `${props.theme.colors.selectfontcolor}`};
+  fill: ${(props) => `${props.theme.colors.tagBgActiveColor}`};
+  border-radius: 2px;
+  transition: background 0.15s, fill 0.15s;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    background: ${(props) => `${props.theme.colors.widgetchildbgcolor}`};
+    fill: ${(props) => `${props.theme.colors.widgetsearchbuttoncolor}`};
+  }
+  &:active {
+    background: ${(props) => `${props.theme.colors.switcherbgcolor}`};
+    fill: ${(props) => `${props.theme.colors.blockBrandsItemName}`};
+  }
+  ${(props: { loading?: any }) =>
+    props.loading &&
+    css`
+      background: ${(props) => `${props.theme.colors.primary}`};
+      fill: transparent;
+      cursor: default;
+      &:after {
+        left: calc(50% - 11px);
+        top: calc(50% - 11px);
+        width: 22px;
+        height: 22px;
+        border-radius: 11px;
+        border-width: 2px;
+        border-color: ${(props) =>
+          `${props.theme.colors.loaderbordertopcolor}`};
+        border-top-color: ${(props) =>
+          `${props.theme.colors.loaderborderactiontopcolor}`};
+        border-style: solid;
+        animation-name: loader-animation;
+        animation-duration: 0.5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        position: absolute;
+        display: block;
+        content: '';
+      }
+    `}
+`;
+
+export const ProductCardCompare = styled(ProductCardWishList)``;
