@@ -69,6 +69,8 @@ function makeProducts(defs: any[]): IProduct[] {
   return defs.map((def) => {
     let badges: string[] = [];
 
+ 
+
     // if (def.badges) {
     //   if (typeof def.badges === 'string') {
     //     badges = [def.badges];
@@ -131,7 +133,6 @@ function makeProducts(defs: any[]): IProduct[] {
       price: def.list_price,
       compareAtPrice: def.compareAtPrice || null,
       images: def.images.slice(0),
-      badges,
       rating: def.rating,
       reviews: def.reviews,
       availability: def.availability,

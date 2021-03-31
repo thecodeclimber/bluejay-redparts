@@ -1,37 +1,23 @@
 import styled, { css } from 'styled-components';
 
 export const SideBarBody = styled.div`
-  @media (max-width: ${(props) => `${props.theme.breakPoints.md}`}px) {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    z-index: 1000;
-    background: ${(props) => `${props.theme.colors.white}`};
-    width: 300px;
-    transition: transform 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    will-change: transform;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    left: 0;
-    transform: translateX(-100%);
-  }
+  display: block;
 `;
 
 export const SideBarBackDrop = styled.div`
-  @media (max-width: ${(props) => `${props.theme.breakPoints.md}`}px) {
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1000;
-    background: ${(props) => `${props.theme.colors.backdropbgcolor}`};
-    opacity: 0;
-    will-change: opacity;
-    transition: opacity 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  }
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  background: ${(props) => `${props.theme.colors.backdropbgcolor}`};
+  opacity: 0;
+  visibility: hidden;
+  will-change: opacity;
+  transition: opacity 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 `;
+
 const MobileSideBar = css`
   @media (max-width: ${(props) => `${props.theme.breakPoints.md}`}px) {
     visibility: hidden;
@@ -53,26 +39,51 @@ const MobileSideBar = css`
 const SideBarAlways = css`
   visibility: hidden;
   transition: visibility 0s 0.25s;
-  ${(props: { isopen?: boolean; offcanvas?: any }) =>
-    props.isopen &&
-    css`
-      visibility: visible;
-      transition-delay: 0s;
-      ${SideBarBackDrop} {
-        opacity: 1;
-      }
-      ${SideBarBody} {
-        transform: translateX(0);
-      }
-    `}
+  ${SideBarBody} {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+    background: ${(props) => `${props.theme.colors.white}`};
+    width: 300px;
+    transition: transform 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    will-change: transform;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  ${SideBarBody} {
+    direction: ltr;
+    left: 0;
+    transform: translateX(-100%);
+  }
+`;
+
+const SidebarOpen = css`
+  visibility: visible;
+  transition-delay: 0s;
+  ${SideBarBackDrop} {
+    opacity: 1;
+    visibility: visible;
+    will-change: opacity;
+    transition: opacity 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  ${SideBarBody} {
+    display: block;
+    transition: visibility 0s 0.25s;
+    transform: translateX(0);
+  }
 `;
 
 export const Sidebar = styled.div`
-  ${(props: { isopen?: boolean; offcanvas?: any }) => {
-    if (props.offcanvas === 'mobile') {
+  ${(props: { isOpen?: boolean; offCanvas?: any }) => {
+    if (props.isOpen) {
+      return SidebarOpen;
+    }
+    if (props.offCanvas === 'mobile') {
       return MobileSideBar;
     }
-    if (props.offcanvas === 'always') {
+    if (props.offCanvas === 'always') {
       return SideBarAlways;
     }
   }}

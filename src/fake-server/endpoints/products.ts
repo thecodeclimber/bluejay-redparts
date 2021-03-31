@@ -70,9 +70,13 @@ export function getProductsList(
   filters.forEach((filter) => filter.calc(filters));
 
   // Apply filters to products list.
-  products = products.filter((product) =>
-    filters.reduce<boolean>((mr, filter) => mr && filter.test(product), true)
-  );
+
+  // products = products.filter((product) => {
+  //   return filters.reduce<boolean>(
+  //     (mr, filter) => mr && filter.test(product),
+  //     true
+  //   );
+  // });
 
   const page = options?.page || 1;
   const limit = options?.limit || 16;
