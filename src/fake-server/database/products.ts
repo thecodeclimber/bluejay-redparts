@@ -210,7 +210,8 @@ TotalProducts.push(
   ...nuts,
   ...pins,
   ...screws,
-  ...washers
+  ...washers,
+  ...hexHeadCapScrews
 );
 
 export const products: any[] = makeProducts(TotalProducts);
