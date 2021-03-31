@@ -37,6 +37,7 @@ declare module 'styled-components' {
       ItemDetailsColor: string;
       widgetanchorhovercolor: string;
       widgetauthorbordercolor: string;
+      formProductTitle: string;
       blockPostsLoaderBg: string;
       BlockSiteFooterColor: string;
       plusiconcolor: string;
@@ -47,6 +48,7 @@ declare module 'styled-components' {
       youtube: string;
       instagram: string;
       rss: string;
+      titlecolor: string;
       cardbodybgcolor: string;
       anchorcolor: string;
       activebordercolor: string;
@@ -56,7 +58,23 @@ declare module 'styled-components' {
       shadowcolor: string;
       boxshadowcolor: string;
       bordercolor: string;
+      blockbanneritemtitlecolor: string;
       subtitilecolor: string;
+      badgebgcolor: string;
+      loadingbordercolor: string;
+      loadingbordertopcolor: string;
+      formbgcolor: string;
+      backdropbgcolor: string;
+      borderleftcolor: string;
+      backgroundcolor: string;
+      switcherbtncolor: string;
+      switcherbgcolor: string;
+      btnicon: string;
+      svgfillcolor: string;
+      btnafterbgcolor: string;
+      loaderbgcolor: string;
+      tabbgcolor: string;
+      itemhover: string;
     };
     headers: {
       h1: {
@@ -116,6 +134,8 @@ declare module 'styled-components' {
     };
     boxShadow: {
       blockFinderTextShadow: string;
+      checkBoxCheckedShadow: string;
+      checkBoxDisabledShadow: string;
     };
   }
 }
