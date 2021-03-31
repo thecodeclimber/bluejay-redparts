@@ -76,6 +76,7 @@ const theme: DefaultTheme = {
     loaderbgcolor: '#fafafab3',
     tabbgcolor: '#f7f7f7',
     itemhover: '#e0e0e0',
+    activeclor: '#808080' ,
   },
   headers: {
     h1: {
