@@ -1,7 +1,6 @@
 // react
 import React, { useEffect, useMemo } from 'react';
 // third-party
-import classNames from 'classnames';
 import queryString from 'query-string';
 import { useIntl } from 'react-intl';
 // application
@@ -118,7 +117,7 @@ function ShopPageShop(props: Props) {
           <div>
             {offCanvasSidebar === 'always' && sidebar}
             <div className="container">
-              <NoGutters className="row no-gutter">
+              <NoGutters className="row no-gutters">
                 {sidebarPosition === 'start' && hasSidebar && (
                   <BlockSplitItemSidebar className="col-auto">
                     {sidebar}

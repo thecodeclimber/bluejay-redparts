@@ -3,7 +3,6 @@
 // react
 import React, { useContext, useEffect, useMemo, useState } from 'react';
 // third-party
-import classNames from 'classnames';
 import { FormattedMessage } from 'react-intl';
 // application
 import WidgetFilters from '~/components/widgets/WidgetFilters';
@@ -81,7 +80,7 @@ function ShopSidebar(props: Props) {
   );
 
   return (
-    <Sidebar isopen={isOpen} offcanvas={offcanvas}>
+    <Sidebar isOpen={isOpen} offCanvas={offcanvas}>
       <SideBarBackDrop onClick={close} />
       <SideBarBody>
         <SideBarHeader>
