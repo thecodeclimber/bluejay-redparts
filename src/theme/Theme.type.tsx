@@ -75,6 +75,7 @@ declare module 'styled-components' {
       loaderbgcolor: string;
       tabbgcolor: string;
       itemhover: string;
+      activeclor: string;
       timerlabelcolor: string;
       radiobgcolor: string;
       disabledradiocolor: string;
