@@ -81,6 +81,14 @@ const theme: DefaultTheme = {
     disabledbgcolorafter: '#00000033',
     paginationbordercolor: '#dee2e6',
     paginationdotbgcolor: '#00000040',
+    likebgcolor: '#4267b2',
+    likebghovercolor: '#3b5c9f',
+    tweetbgcolor: '#1b95e0',
+    tweetbghovercolor: '#1886c9',
+    pinbgcolor: '#e63939',
+    pinbghovercolor: '#e32222',
+    countercolor: '#00000033',
+    counterhovercolor: '#666666',
   },
   headers: {
     h1: {
