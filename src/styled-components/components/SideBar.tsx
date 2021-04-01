@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
 export const SideBarBody = styled.div`
-  display: none;
+  display: block;
 `;
 
 export const SideBarBackDrop = styled.div`

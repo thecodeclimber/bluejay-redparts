@@ -2,27 +2,28 @@
 import React from 'react';
 // third-party
 import classNames from 'classnames';
-
+//application
+import {
+  InputRadio,
+  InputRadioBody,
+  InputRadioCircle,
+  InputRadioInput,
+} from '~/styled-components/components/InputRadio';
 interface Props extends React.InputHTMLAttributes<HTMLInputElement> {
-    inputRef?: React.Ref<any>
+  inputRef?: React.Ref<any>;
 }
 
 function RadioButton(props: Props) {
-    const { className, inputRef, ...inputProps } = props;
+  const { className, inputRef, ...inputProps } = props;
 
-    return (
-        <span className={classNames('input-radio', className)}>
-            <span className="input-radio__body">
-                <input
-                    className="input-radio__input"
-                    type="radio"
-                    ref={inputRef}
-                    {...inputProps}
-                />
-                <span className="input-radio__circle" />
-            </span>
-        </span>
-    );
+  return (
+    <InputRadio className={classNames(className)}>
+      <InputRadioBody>
+        <InputRadioInput type="radio" ref={inputRef} {...inputProps} />
+        <InputRadioCircle />
+      </InputRadioBody>
+    </InputRadio>
+  );
 }
 
 export default RadioButton;
