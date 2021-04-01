@@ -2,123 +2,119 @@
 import React from 'react';
 // third-party
 import classNames from 'classnames';
-
+//application
+import {
+  InputInputNumber,
+  InputNumberInput,
+  InputNumberAdd,
+  InputNumberSub,
+} from '~/styled-components/components/InputNumber';
 type Size = 'sm' | 'lg';
 
 interface Props {
-    id?: string;
-    name?: string;
-    size?: Size;
-    className?: string;
-    value?: string | number;
-    step?: number;
-    min?: number;
-    max?: number;
-    onChange?: (value: number | string) => void;
-    onBlur?: React.FocusEventHandler<HTMLInputElement>;
-    disabled?: boolean;
-    readonly?: boolean;
-    inputRef?: React.Ref<HTMLInputElement>;
+  id?: string;
+  name?: string;
+  size?: Size;
+  className?: string;
+  value?: string | number;
+  step?: number;
+  min?: number;
+  max?: number;
+  onChange?: (value: number | string) => void;
+  onBlur?: React.FocusEventHandler<HTMLInputElement>;
+  disabled?: boolean;
+  readonly?: boolean;
+  inputRef?: React.Ref<HTMLInputElement>;
 }
 
 function InputNumber(props: Props) {
-    const {
-        size,
-        className,
-        onChange,
-        inputRef,
-        ...otherProps
-    } = props;
-    const {
-        value = '',
-        step = 1,
-        min = null,
-        max = null,
-    } = props;
+  const { size, className, onChange, inputRef, ...otherProps } = props;
+  const { value = '', step = 1, min = null, max = null } = props;
 
-    const change = (direction: -1 | 1, prevValue: string | number = value) => {
-        // noinspection SuspiciousTypeOfGuard
-        let newValue = typeof prevValue === 'string' ? parseFloat(prevValue) : prevValue;
+  const change = (direction: -1 | 1, prevValue: string | number = value) => {
+    // noinspection SuspiciousTypeOfGuard
+    let newValue =
+      typeof prevValue === 'string' ? parseFloat(prevValue) : prevValue;
 
-        newValue = (Number.isNaN(newValue) ? 0 : newValue) + step * direction;
+    newValue = (Number.isNaN(newValue) ? 0 : newValue) + step * direction;
 
-        if (max !== null) {
-            newValue = Math.min(max, newValue);
-        }
-        if (min !== null) {
-            newValue = Math.max(min, newValue);
-        }
+    if (max !== null) {
+      newValue = Math.min(max, newValue);
+    }
+    if (min !== null) {
+      newValue = Math.max(min, newValue);
+    }
 
-        if (newValue !== prevValue && onChange) {
-            onChange(newValue);
-        }
+    if (newValue !== prevValue && onChange) {
+      onChange(newValue);
+    }
 
-        return newValue;
+    return newValue;
+  };
+
+  const changeByTimer = (direction: -1 | 1) => {
+    let prevValue = value;
+    let interval: NodeJS.Timeout;
+    const timer = setTimeout(() => {
+      interval = setInterval(() => {
+        prevValue = change(direction, prevValue);
+      }, 50);
+    }, 300);
+
+    const documentMouseUp = () => {
+      clearTimeout(timer);
+      clearInterval(interval);
+
+      document.removeEventListener('mouseup', documentMouseUp, false);
     };
 
-    const changeByTimer = (direction: -1 | 1) => {
-        let prevValue = value;
-        let interval: NodeJS.Timeout;
-        const timer = setTimeout(() => {
-            interval = setInterval(() => {
-                prevValue = change(direction, prevValue);
-            }, 50);
-        }, 300);
+    document.addEventListener('mouseup', documentMouseUp, false);
+  };
 
-        const documentMouseUp = () => {
-            clearTimeout(timer);
-            clearInterval(interval);
+  const handleAddMouseDown = () => {
+    change(1);
+    changeByTimer(1);
+  };
 
-            document.removeEventListener('mouseup', documentMouseUp, false);
-        };
+  const handleSubMouseDown = () => {
+    change(-1);
+    changeByTimer(-1);
+  };
 
-        document.addEventListener('mouseup', documentMouseUp, false);
-    };
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    if (onChange) {
+      if (event.target.value.trim() === '') {
+        onChange('');
+      } else {
+        const value = parseFloat(event.target.value);
 
-    const handleAddMouseDown = () => {
-        change(1);
-        changeByTimer(1);
-    };
+        onChange(Number.isNaN(value) ? min || 0 : value);
+      }
+    }
+  };
 
-    const handleSubMouseDown = () => {
-        change(-1);
-        changeByTimer(-1);
-    };
+  const classes = classNames(className);
+  const formControlClasses = classNames('form-control', {
+    'form-control-sm': size === 'sm',
+    'form-control-lg': size === 'lg',
+  });
 
-    const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-        if (onChange) {
-            if (event.target.value.trim() === '') {
-                onChange('');
-            } else {
-                const value = parseFloat(event.target.value);
+  return (
+    <InputInputNumber className={classes}>
+      <InputNumberInput
+        className={formControlClasses}
+        type="number"
+        onChange={handleChange}
+        ref={inputRef}
+        {...otherProps}
+      />
 
-                onChange(Number.isNaN(value) ? (min || 0) : value);
-            }
-        }
-    };
-
-    const classes = classNames('input-number', className);
-    const formControlClasses = classNames('form-control', 'input-number__input', {
-        'form-control-sm': size === 'sm',
-        'form-control-lg': size === 'lg',
-    });
-
-    return (
-        <div className={classes}>
-            <input
-                className={formControlClasses}
-                type="number"
-                onChange={handleChange}
-                ref={inputRef}
-                {...otherProps}
-            />
-
-            {/* eslint-disable-next-line jsx-a11y/no-static-element-interactions */}
-            <div className="input-number__add" onMouseDown={handleAddMouseDown} />
-            {/* eslint-disable-next-line jsx-a11y/no-static-element-interactions */}
-            <div className="input-number__sub" onMouseDown={handleSubMouseDown} />
-        </div>
-    );
+      {/* eslint-disable-next-line jsx-a11y/no-static-element-interactions */}
+      <InputNumberAdd onMouseDown={handleAddMouseDown} />
+      {/* eslint-disable-next-line jsx-a11y/no-static-element-interactions */}
+      <InputNumberSub onMouseDown={handleSubMouseDown} />
+    </InputInputNumber>
+  );
 }
 
 export default InputNumber;
