@@ -90,7 +90,11 @@ function BlockSale(props: Props) {
               direction="next"
               onClick={handleNextClick}
             />
-            <Decor type="center" className="block-sale__header-decor" />
+            <Decor
+              sliderdecor={true}
+              type="center"
+              className="block-sale__header-decor"
+            />
           </BlockSaleControls>
         </BlockSaleheader>
         <BlockSaleBody>

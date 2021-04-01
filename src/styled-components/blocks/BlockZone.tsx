@@ -24,7 +24,7 @@ export const CategoryCardBody = styled.div`
     right: 0;
     top: 0;
     bottom: 0;
-    background-color: ${props => `${props.theme.colors.cardbodybgcolor}`};
+    background-color: ${(props) => `${props.theme.colors.cardbodybgcolor}`};
     background-image: linear-gradient(
       to top,
       rgba(26, 26, 26, 0.4) 20%,
@@ -98,7 +98,7 @@ export const CategoryCardName = styled.div`
     transition: color 0.12s;
   }
   a:hover {
-    color: ${props => `${props.theme.colors.anchorcolor}`};
+    color: ${(props) => `${props.theme.colors.anchorcolor}`};
   }
   @media (max-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
     margin-bottom: 10px;
@@ -122,7 +122,7 @@ export const CategoryCardChildren = styled.div`
     transition: color 0.12s;
   }
   a:hover {
-    color:${props => `${props.theme.colors.anchorcolor}`};
+    color: ${(props) => `${props.theme.colors.anchorcolor}`};
   }
   @media (max-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
     display: flex;
@@ -138,6 +138,7 @@ export const CategoryCardChildren = styled.div`
 `;
 
 export const CategoryCardLayoutOverLay = styled.div`
+  direction: ltr;
   display: flex;
   &:hover {
     ${CategoryCardOverlayImage} {
@@ -151,6 +152,14 @@ export const CategoryCardLayoutOverLay = styled.div`
     margin-right: 36px;
     width: 285px;
   }
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    margin-right: 28px;
+    width: 264px;
+  }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    margin-right: 24px;
+    width: 232px;
+  }
 `;
 
 export const BlockZoneWidget = styled.div`
@@ -162,10 +171,17 @@ export const BlockZoneWidget = styled.div`
   @media (max-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
     margin-top: 16px;
   }
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    width: calc(100% - 292px);
+  }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    width: calc(100% - 256px);
+  }
 `;
 
 export const BlockZoneWidgetHeader = styled.div`
-  border-bottom: 2px solid ${props => `${props.theme.colors.widgetauthorbordercolor}`};
+  border-bottom: 2px solid
+    ${(props) => `${props.theme.colors.widgetauthorbordercolor}`};
   margin-bottom: 24px;
   display: flex;
 `;
@@ -173,7 +189,9 @@ export const BlockZoneWidgetHeader = styled.div`
 export const BlockZoneTabs = styled.div`
   margin-bottom: -2px;
   display: flex;
-  @media (min-width: ${(props) => `${props.theme.breakPoints.sm}`}px) and (max-width: ${(props) => `${props.theme.breakPoints.md}`}px) {
+  @media (min-width: ${(props) =>
+      `${props.theme.breakPoints.sm}`}px) and (max-width: ${(props) =>
+      `${props.theme.breakPoints.md}`}px) {
     flex-grow: 1;
     overflow-x: auto;
   }
@@ -193,19 +211,21 @@ export const BlockZoneTabsButton = styled.button`
   color: inherit;
   font-size: 16px;
   font-weight: 500;
-  border-bottom: 2px solid ${props => `${props.theme.colors.widgetauthorbordercolor}`};
+  border-bottom: 2px solid
+    ${(props) => `${props.theme.colors.widgetauthorbordercolor}`};
   transition: background 0.12s, border-color 0.12s;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   ${(props: { active?: boolean }) =>
     props.active
       ? css`
-          border-color: ${props => `${props.theme.colors.activebordercolor}`};
+          border-color: ${(props) => `${props.theme.colors.activebordercolor}`};
         `
       : css`
           &:hover {
-            background:${props => `${props.theme.colors.tagBgColor}`};
-            border-color:${props => `${props.theme.colors.hoverbordercolor}`};
+            background: ${(props) => `${props.theme.colors.tagBgColor}`};
+            border-color: ${(props) =>
+              `${props.theme.colors.hoverbordercolor}`};
           }
         `}
   &:focus {
