@@ -3,6 +3,7 @@
 // react
 import React, { useContext, useEffect, useMemo, useState } from 'react';
 // third-party
+import classNames from 'classnames';
 import { FormattedMessage } from 'react-intl';
 // application
 import WidgetFilters from '~/components/widgets/WidgetFilters';
@@ -79,10 +80,18 @@ function ShopSidebar(props: Props) {
     []
   );
 
+  const rootClasses = classNames(
+    'sidebar',
+    `sidebar--offcanvas--${offcanvas}`,
+    {
+      'sidebar--open': isOpen,
+    }
+  );
+
   return (
-    <Sidebar isOpen={isOpen} offCanvas={offcanvas}>
-      <SideBarBackDrop onClick={close} />
-      <SideBarBody>
+    <div className={rootClasses}>
+      <div className="sidebar__backdrop" onClick={close} />
+      <div className="sidebar__body">
         <SideBarHeader>
           <SideBarTitle>
             <FormattedMessage id="HEADER_FILTERS" />
@@ -102,8 +111,8 @@ function ShopSidebar(props: Props) {
             />
           )}
         </SideBarContent>
-      </SideBarBody>
-    </Sidebar>
+      </div>
+    </div>
   );
 }
 
