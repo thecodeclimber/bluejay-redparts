@@ -8,21 +8,16 @@ import {
   DecorEnd,
   DecorCenter,
 } from '~/styled-components/components/Decor';
-type Type = 'center' | 'bottom';
 
-interface Props extends React.HTMLAttributes<HTMLElement> {
-  type: Type;
-}
-
-function Decor(props: Props) {
-  const { type, className } = props;
+function Decor(props: any) {
+  const { type, className, sliderdecor } = props;
 
   return (
     <DecorStyledComponent className={className} type={type}>
       <DecorBody>
         <DecorStart />
         <DecorEnd />
-        <DecorCenter />
+        <DecorCenter slider={sliderdecor} />
       </DecorBody>
     </DecorStyledComponent>
   );

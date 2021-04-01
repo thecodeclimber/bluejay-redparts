@@ -23,13 +23,17 @@ export const DecorEnd = styled.div`
   height: 28px;
   width: calc(50% - 26.1658px);
   box-shadow: none;
-  background: ${(props) => `${props.theme.colors.blockPostsLoaderBg}`}; ;
+  background: ${(props) => `${props.theme.colors.blockPostsLoaderBg}`};
 `;
 
 export const DecorCenter = styled.div`
   height: 28px;
   width: 34.3316px;
-  background: ${(props) => `${props.theme.colors.blockPostsLoaderBg}`}; ;
+  ${(props: { slider?: boolean }) =>
+    props.slider &&
+    css`
+      background: ${(props) => `${props.theme.colors.blockPostsLoaderBg}`};
+    `};
 `;
 
 const DecorTypeBottom = css`
