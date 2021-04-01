@@ -80,6 +80,14 @@ declare module 'styled-components' {
       disabledbgcolorafter: string;
       paginationbordercolor: string;
       paginationdotbgcolor: string;
+      likebgcolor: string;
+      likebghovercolor: string;
+      tweetbgcolor: string;
+      tweetbghovercolor: string;
+      pinbgcolor: string;
+      pinbghovercolor: string;
+      countercolor: string;
+      counterhovercolor: string;
     };
     headers: {
       h1: {
