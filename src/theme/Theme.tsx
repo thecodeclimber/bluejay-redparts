@@ -62,6 +62,9 @@ const theme: DefaultTheme = {
     bordercolor: '#ebebeb',
     blockbanneritemtitlecolor: '#ffdf40',
     subtitilecolor: '#6c757d',
+    badgebgcolor: '#ff3333',
+    loadingbordercolor: '#0000001a',
+    loadingbordertopcolor: '#00000080',
     backdropbgcolor: '#333333cc',
     borderleftcolor: '#0000001a',
     backgroundcolor: '#00000008',
@@ -79,6 +82,19 @@ const theme: DefaultTheme = {
     loaderbordercolor: '#ffffff1a',
     loaderbordertopcolor: '#ffffff80',
     loaderborderactiontopcolor: '#00000080',
+    radiobgcolor: '#0000002b',
+    disabledradiocolor: '#0000001f',
+    disabledbgcolorafter: '#00000033',
+    paginationbordercolor: '#dee2e6',
+    paginationdotbgcolor: '#00000040',
+    likebgcolor: '#4267b2',
+    likebghovercolor: '#3b5c9f',
+    tweetbgcolor: '#1b95e0',
+    tweetbghovercolor: '#1886c9',
+    pinbgcolor: '#e63939',
+    pinbghovercolor: '#e32222',
+    countercolor: '#00000033',
+    counterhovercolor: '#666666',
   },
   headers: {
     h1: {
@@ -134,6 +150,8 @@ const theme: DefaultTheme = {
   },
   boxShadow: {
     blockFinderTextShadow: '0 1px 3px rgb(0 0 0 / 20%)',
+    checkBoxCheckedShadow: '0 0 0 1px rgba(#000, 0.05) inset',
+    checkBoxDisabledShadow: '0 0 0 1px rgba(#000, 0.1) inset',
   },
   background: {
     blockbanneritemlineargradient:
