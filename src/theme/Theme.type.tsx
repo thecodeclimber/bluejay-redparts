@@ -75,6 +75,8 @@ declare module 'styled-components' {
       loaderbgcolor: string;
       tabbgcolor: string;
       itemhover: string;
+      paginationbordercolor: string;
+      paginationdotbgcolor: string;
     };
     headers: {
       h1: {
