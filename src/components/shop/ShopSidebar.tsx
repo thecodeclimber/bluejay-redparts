@@ -15,7 +15,7 @@ import { SidebarContext } from '~/services/sidebar';
 import { useMedia } from '~/store/hooks';
 import { IShopPageOffCanvasSidebar } from '~/interfaces/pages';
 import {
-  Sidebar,
+  SideBar,
   SideBarBackDrop,
   SideBarBody,
   SideBarHeader,
@@ -80,18 +80,10 @@ function ShopSidebar(props: Props) {
     []
   );
 
-  const rootClasses = classNames(
-    'sidebar',
-    `sidebar--offcanvas--${offcanvas}`,
-    {
-      'sidebar--open': isOpen,
-    }
-  );
-
   return (
-    <div className={rootClasses}>
-      <div className="sidebar__backdrop" onClick={close} />
-      <div className="sidebar__body">
+    <SideBar isopen={isOpen}>
+      <SideBarBackDrop onClick={close} />
+      <SideBarBody>
         <SideBarHeader>
           <SideBarTitle>
             <FormattedMessage id="HEADER_FILTERS" />
@@ -111,8 +103,8 @@ function ShopSidebar(props: Props) {
             />
           )}
         </SideBarContent>
-      </div>
-    </div>
+      </SideBarBody>
+    </SideBar>
   );
 }
 

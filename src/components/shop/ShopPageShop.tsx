@@ -5,7 +5,6 @@ import classNames from 'classnames';
 import queryString from 'query-string';
 import { useIntl } from 'react-intl';
 // application
-import { NoGutters } from '~/styled-components/shop/ShopPageShop';
 import BlockHeader from '~/components/blocks/BlockHeader';
 import BlockSpace from '~/components/blocks/BlockSpace';
 import ProductsView from '~/components/shop/ProductsView';
@@ -119,22 +118,28 @@ function ShopPageShop(props: Props) {
 
   const sidebar = <ShopSidebar offcanvas={offCanvasSidebar} />;
 
+  const blockSplitClasses = classNames('block-split', {
+    'block-split--has-sidebar': hasSidebar,
+  });
+
   return (
     <React.Fragment>
       <SidebarProvider>
         <CurrentVehicleScopeProvider>
           {pageHeader}
 
-          <div>
+          <div className={blockSplitClasses}>
             {offCanvasSidebar === 'always' && sidebar}
 
             <div className="container">
-              <NoGutters className="row">
+              <div className="block-split__row row no-gutters">
                 {sidebarPosition === 'start' && hasSidebar && (
-                  <div className="col-auto">{sidebar}</div>
+                  <div className="block-split__item block-split__item-sidebar col-auto">
+                    {sidebar}
+                  </div>
                 )}
 
-                <div className="col-auto flex-grow-1">
+                <div className="block-split__item block-split__item-content col-auto flex-grow-1">
                   <div className="block">
                     <ProductsView
                       layout={layout}
@@ -145,9 +150,11 @@ function ShopPageShop(props: Props) {
                 </div>
 
                 {sidebarPosition === 'end' && hasSidebar && (
-                  <div className="col-auto">{sidebar}</div>
+                  <div className="block-split__item block-split__item-sidebar col-auto">
+                    {sidebar}
+                  </div>
                 )}
-              </NoGutters>
+              </div>
             </div>
           </div>
 
