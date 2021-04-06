@@ -3,6 +3,24 @@ import React from 'react';
 // third-party
 import classNames from 'classnames';
 // application
+import {
+  PostView,
+  PostHeader,
+  PostHeaderImage,
+  PostHeaderBody,
+  PostHeaderCategories,
+  PostHeaderCategoriesList,
+  PostHeaderCategoriesItem,
+  PostHeaderCategoriesLink,
+  PostHeaderTitle,
+  PostHeaderMeta,
+  PostHeaderMetaList,
+  PostHeaderMetaLink,
+  PostHeaderMetaItem,
+  PostViewBody,
+  PostViewItem,
+  PostViewItemPost,
+} from '~/styled-components/blog/BlogPagePost';
 import AppLink from '~/components/shared/AppLink';
 import BlockSpace from '~/components/blocks/BlockSpace';
 import BlogSidebar from '~/components/blog/BlogSidebar';
@@ -10,81 +28,81 @@ import Decor from '~/components/shared/Decor';
 import Post from '~/components/blog/Post';
 import { baseUrl } from '~/services/utils';
 import { IBlogPageSidebarPosition } from '~/interfaces/pages';
+import App from 'next/app';
 
 interface Props {
-    featuredImage?: boolean;
-    sidebarPosition?: IBlogPageSidebarPosition | false;
+  featuredImage?: boolean;
+  sidebarPosition?: IBlogPageSidebarPosition | false;
 }
 
 function BlogPagePost(props: Props) {
-    const { featuredImage = false, sidebarPosition = false } = props;
+  const { featuredImage = false, sidebarPosition = false } = props;
 
-    return (
-        <React.Fragment>
-            <div className="block post-view">
-                <div
-                    className={classNames('post-view__header post-header', {
-                        'post-header--has-image': featuredImage,
-                    })}
-                >
-                    {featuredImage && (
-                        <div
-                            className="post-header__image"
-                            style={{ backgroundImage: `url(${baseUrl('/images/posts/post-1.jpg')})` }}
-                        />
-                    )}
+  return (
+    <React.Fragment>
+      <PostView className="block">
+        <PostHeader hasimage={featuredImage}>
+          {featuredImage && (
+            <PostHeaderImage
+              style={{
+                backgroundImage: `url(${baseUrl('/images/posts/post-1.jpg')})`,
+              }}
+            />
+          )}
 
-                    <div className="post-header__body">
-                        <div className="post-header__categories">
-                            <ul className="post-header__categories-list">
-                                <li className="post-header__categories-item">
-                                    <AppLink href="/" className="post-header__categories-link">
-                                        Latest News
-                                    </AppLink>
-                                </li>
-                            </ul>
-                        </div>
-                        <h1 className="post-header__title">Morbi Interdum Velit Quis Magna Placerat Lobortis Eget</h1>
-                        <div className="post-header__meta">
-                            <ul className="post-header__meta-list">
-                                <li className="post-header__meta-item">
-                                    {'By '}
-                                    <AppLink href="/" className="post-header__meta-link">
-                                        Jessica Moore
-                                    </AppLink>
-                                </li>
-                                <li className="post-header__meta-item">November 30, 2018</li>
-                                <li className="post-header__meta-item">
-                                    <AppLink href="/" className="post-header__meta-link">
-                                        4 Comments
-                                    </AppLink>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <Decor type="bottom" className="post-header__decor" />
-                </div>
+          <PostHeaderBody>
+            <PostHeaderCategories>
+              <PostHeaderCategoriesList as="ul">
+                <PostHeaderCategoriesItem as="li">
+                  <PostHeaderCategoriesLink as={AppLink} href="/">
+                    Latest News
+                  </PostHeaderCategoriesLink>
+                </PostHeaderCategoriesItem>
+              </PostHeaderCategoriesList>
+            </PostHeaderCategories>
+            <PostHeaderTitle>
+              Morbi Interdum Velit Quis Magna Placerat Lobortis Eget
+            </PostHeaderTitle>
+            <PostHeaderMeta>
+              <PostHeaderMetaList>
+                <PostHeaderMetaLink>
+                  {'By '}
+                  <PostHeaderMetaLink as={AppLink} href="/">
+                    Jessica Moore
+                  </PostHeaderMetaLink>
+                </PostHeaderMetaLink>
+                <PostHeaderMetaItem>November 30, 2018</PostHeaderMetaItem>
+                <PostHeaderMetaItem>
+                  <PostHeaderMetaLink as={AppLink} href="/">
+                    4 Comments
+                  </PostHeaderMetaLink>
+                </PostHeaderMetaItem>
+              </PostHeaderMetaList>
+            </PostHeaderMeta>
+          </PostHeaderBody>
+          <Decor type="bottom" className="post-header__decor" />
+        </PostHeader>
 
-                <div className="container">
-                    <div className="post-view__body">
-                        {sidebarPosition === 'start' && (
-                            <div className="post-view__item post-view__item-sidebar">
-                                <BlogSidebar />
-                            </div>
-                        )}
-                        <Post className="post-view__item post-view__item-post" />
-                        {sidebarPosition === 'end' && (
-                            <div className="post-view__item post-view__item-sidebar">
-                                <BlogSidebar />
-                            </div>
-                        )}
-                    </div>
-                </div>
-            </div>
+        <div className="container">
+          <PostViewBody>
+            {sidebarPosition === 'start' && (
+              <PostViewItem>
+                <BlogSidebar />
+              </PostViewItem>
+            )}
+            <PostViewItemPost as={Post} />
+            {sidebarPosition === 'end' && (
+              <PostViewItem>
+                <BlogSidebar />
+              </PostViewItem>
+            )}
+          </PostViewBody>
+        </div>
+      </PostView>
 
-            <BlockSpace layout="before-footer" />
-        </React.Fragment>
-    );
+      <BlockSpace layout="before-footer" />
+    </React.Fragment>
+  );
 }
 
 export default BlogPagePost;

@@ -8,7 +8,6 @@ export const NoGutters = styled.div`
 const BlockSplitItemContent = css`
   width: calc(100% - 292px);
 `;
-
 export const BlockSplitItem = styled.div`
   @media (min-width: ${(props) =>
       `${props.theme.breakPoints.md}`}px) and (max-width: ${(props) =>

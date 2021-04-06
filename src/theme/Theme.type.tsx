@@ -49,7 +49,6 @@ declare module 'styled-components' {
       instagram: string;
       rss: string;
       titlecolor: string;
-      formbgcolor: string;
       cardbodybgcolor: string;
       anchorcolor: string;
       activebordercolor: string;
@@ -61,6 +60,10 @@ declare module 'styled-components' {
       bordercolor: string;
       blockbanneritemtitlecolor: string;
       subtitilecolor: string;
+      badgebgcolor: string;
+      loadingbordercolor: string;
+      loadingbordertopcolor: string;
+      formbgcolor: string;
       backdropbgcolor: string;
       borderleftcolor: string;
       backgroundcolor: string;
@@ -72,6 +75,21 @@ declare module 'styled-components' {
       loaderbgcolor: string;
       tabbgcolor: string;
       itemhover: string;
+      activeclor: string;
+      timerlabelcolor: string;
+      radiobgcolor: string;
+      disabledradiocolor: string;
+      disabledbgcolorafter: string;
+      paginationbordercolor: string;
+      paginationdotbgcolor: string;
+      likebgcolor: string;
+      likebghovercolor: string;
+      tweetbgcolor: string;
+      tweetbghovercolor: string;
+      pinbgcolor: string;
+      pinbghovercolor: string;
+      countercolor: string;
+      counterhovercolor: string;
     };
     headers: {
       h1: {
@@ -131,6 +149,8 @@ declare module 'styled-components' {
     };
     boxShadow: {
       blockFinderTextShadow: string;
+      checkBoxCheckedShadow: string;
+      checkBoxDisabledShadow: string;
     };
   }
 }

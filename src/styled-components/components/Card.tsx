@@ -1,5 +1,9 @@
 import styled, { css } from 'styled-components';
 
+const CardTitleLg = css`
+  font-size: 28px;
+`;
+
 export const CardLoader = styled.div`
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
@@ -19,4 +23,16 @@ export const CardTitle = styled.div`
     ${(props) => `${props.theme.colors.blockBrandDivider}`};
   margin-bottom: 2rem;
   margin-top: -4px;
+  ${(props: { cardtitlelg?: boolean }) =>
+    props.cardtitlelg &&
+    css`
+      ${CardTitleLg}
+    `};
+`;
+
+export const CardBodyPadding2 = styled.div`
+  padding: 2rem;
+  @media (max-width: ${(props) => `${props.theme.breakPoints.xs}`}px) {
+    padding: 1.5rem;
+  }
 `;
