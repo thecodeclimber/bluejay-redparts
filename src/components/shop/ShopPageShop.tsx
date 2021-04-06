@@ -109,7 +109,6 @@ function ShopPageShop(props: Props) {
     return null;
   }
   const sidebar = <ShopSidebar offcanvas={offCanvasSidebar} />;
-
   return (
     <React.Fragment>
       <SidebarProvider>

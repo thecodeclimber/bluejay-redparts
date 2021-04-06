@@ -75,6 +75,21 @@ declare module 'styled-components' {
       loaderbgcolor: string;
       tabbgcolor: string;
       itemhover: string;
+      activeclor: string;
+      timerlabelcolor: string;
+      radiobgcolor: string;
+      disabledradiocolor: string;
+      disabledbgcolorafter: string;
+      paginationbordercolor: string;
+      paginationdotbgcolor: string;
+      likebgcolor: string;
+      likebghovercolor: string;
+      tweetbgcolor: string;
+      tweetbghovercolor: string;
+      pinbgcolor: string;
+      pinbghovercolor: string;
+      countercolor: string;
+      counterhovercolor: string;
     };
     headers: {
       h1: {
