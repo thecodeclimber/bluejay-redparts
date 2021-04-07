@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events,jsx-a11y/no-static-element-interactions */
 
-// react
 import React, { useContext, useEffect, useMemo, useState } from 'react';
 // third-party
 import { FormattedMessage } from 'react-intl';
 // application
+import classNames from 'classnames';
 import WidgetFilters from '~/components/widgets/WidgetFilters';
 import WidgetProducts from '~/components/widgets/WidgetProducts';
 import { Cross12Svg } from '~/svg';
@@ -14,9 +14,6 @@ import { SidebarContext } from '~/services/sidebar';
 import { useMedia } from '~/store/hooks';
 import { IShopPageOffCanvasSidebar } from '~/interfaces/pages';
 import {
-  SideBar,
-  SideBarBackDrop,
-  SideBarBody,
   SideBarHeader,
   SideBarTitle,
   SideBarClose,
@@ -69,10 +66,18 @@ function ShopSidebar(props: Props) {
     []
   );
 
+  const rootClasses = classNames(
+    'sidebar',
+    `sidebar--offcanvas--${offcanvas}`,
+    {
+      'sidebar--open': isOpen,
+    }
+  );
+
   return (
-    <SideBar isopen={isOpen}>
-      <SideBarBackDrop onClick={close} />
-      <SideBarBody>
+    <div className={rootClasses}>
+      <div className="sidebar__backdrop" onClick={close} />
+      <div className="sidebar__body">
         <SideBarHeader>
           <SideBarTitle>
             <FormattedMessage id="HEADER_FILTERS" />
@@ -91,8 +96,8 @@ function ShopSidebar(props: Props) {
             />
           )}
         </SideBarContent>
-      </SideBarBody>
-    </SideBar>
+      </div>
+    </div>
   );
 }
 
