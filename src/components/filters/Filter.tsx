@@ -6,7 +6,7 @@ import {
   FilterTitle,
   FilterBody,
   FilterArrow,
-  FilterContainer
+  FilterContainer,
 } from '~/styled-components/filter/Filter';
 import {
   getFilterValue,
