@@ -1,6 +1,23 @@
 // react
 import React from 'react';
 // application
+import {
+  About,
+  AboutBody,
+  AboutImage,
+  AboutImageBg,
+  AboutImageDecor,
+  AboutCard,
+  AboutCardTitle,
+  AboutCardText,
+  AboutCardAuthor,
+  AboutCardSignature,
+  AboutIndicators,
+  AboutIndicatorsBody,
+  AboutIndicatorsItem,
+  AboutIndicatorsItemValue,
+  AboutIndicatorsItemTitle,
+} from '~/styled-components/pages/About';
 import AppImage from '~/components/shared/AppImage';
 import BlockReviews from '~/components/blocks/BlockReviews';
 import BlockSpace from '~/components/blocks/BlockSpace';
@@ -14,49 +31,55 @@ function Page() {
     <React.Fragment>
       <PageTitle>About Us</PageTitle>
 
-      <div className="about">
-        <div className="about__body">
-          <div className="about__image">
-            <div
-              className="about__image-bg"
+      <About>
+        <AboutBody>
+          <AboutImage>
+            <AboutImageBg
               style={{
                 backgroundImage: `url(${baseUrl('/images/about.jpg')})`,
               }}
             />
-            <Decor className="about__image-decor" type="bottom" />
-          </div>
+            <AboutImageDecor as={Decor} type="bottom" />
+          </AboutImage>
 
-          <div className="about__card">
-            <div className="about__card-title">About Us</div>
-            <div className="about__card-text">
-              RedParts is an international company with 30 years of history selling spare parts for cars, trucks and
-              motorcycles. During our work we managed to create a unique service for the sale and delivery of spare
-              parts around the world.
-            </div>
-            <div className="about__card-author">Ryan Ford, CEO RedParts</div>
-            <div className="about__card-signature">
+          <AboutCard>
+            <AboutCardTitle>About Us</AboutCardTitle>
+            <AboutCardText>
+              RedParts is an international company with 30 years of history
+              selling spare parts for cars, trucks and motorcycles. During our
+              work we managed to create a unique service for the sale and
+              delivery of spare parts around the world.
+            </AboutCardText>
+            <AboutCardAuthor>Ryan Ford, CEO RedParts</AboutCardAuthor>
+            <AboutCardSignature>
               <AppImage src="/images/signature.jpg" width="160" height="55" />
-            </div>
-          </div>
+            </AboutCardSignature>
+          </AboutCard>
 
-          <div className="about__indicators">
-            <div className="about__indicators-body">
-              <div className="about__indicators-item">
-                <div className="about__indicators-item-value">350</div>
-                <div className="about__indicators-item-title">Stores around the world</div>
-              </div>
-              <div className="about__indicators-item">
-                <div className="about__indicators-item-value">80 000</div>
-                <div className="about__indicators-item-title">Original auto parts</div>
-              </div>
-              <div className="about__indicators-item">
-                <div className="about__indicators-item-value">5 000</div>
-                <div className="about__indicators-item-title">Satisfied customers</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+          <AboutIndicators>
+            <AboutIndicatorsBody>
+              <AboutIndicatorsItem>
+                <AboutIndicatorsItemValue>350</AboutIndicatorsItemValue>
+                <AboutIndicatorsItemTitle>
+                  Stores around the world
+                </AboutIndicatorsItemTitle>
+              </AboutIndicatorsItem>
+              <AboutIndicatorsItem>
+                <AboutIndicatorsItemValue>80 000</AboutIndicatorsItemValue>
+                <AboutIndicatorsItemTitle>
+                  Original auto parts
+                </AboutIndicatorsItemTitle>
+              </AboutIndicatorsItem>
+              <AboutIndicatorsItem>
+                <AboutIndicatorsItemValue>5 000</AboutIndicatorsItemValue>
+                <AboutIndicatorsItemTitle>
+                  Satisfied customers
+                </AboutIndicatorsItemTitle>
+              </AboutIndicatorsItem>
+            </AboutIndicatorsBody>
+          </AboutIndicators>
+        </AboutBody>
+      </About>
 
       <BlockSpace layout="divider-xl" />
 

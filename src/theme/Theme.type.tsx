@@ -75,6 +75,12 @@ declare module 'styled-components' {
       loaderbgcolor: string;
       tabbgcolor: string;
       itemhover: string;
+      badgehotcolor: string;
+      badgenewcolor: string;
+      badgesalecolor: string;
+      loaderbordercolor: string;
+      loaderbordertopcolor: string;
+      loaderborderactiontopcolor: string;
       activeclor: string;
       timerlabelcolor: string;
       radiobgcolor: string;
