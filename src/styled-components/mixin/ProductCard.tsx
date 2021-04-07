@@ -143,13 +143,19 @@ export const ImageTypeProduct = styled.div``;
 export const ProductCardAddToCartIcon = styled.button`
   position: relative;
   border: none;
-  padding: 8px;
+
   border-radius: 2px;
   background: transparent;
   fill: ${(props) => `${props.theme.colors.plusiconcolor}`};
   z-index: 0;
   transition: color 0.2s;
   margin: -3px;
+  width: 36px;
+  height: 36px;
+  align-self: center;
+  &:focus {
+    outline: none;
+  }
   ${(props: { loading?: any }) =>
     props.loading &&
     css`
