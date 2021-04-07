@@ -81,6 +81,8 @@ declare module 'styled-components' {
       loaderbordercolor: string;
       loaderbordertopcolor: string;
       loaderborderactiontopcolor: string;
+      activeclor: string;
+      timerlabelcolor: string;
       radiobgcolor: string;
       disabledradiocolor: string;
       disabledbgcolorafter: string;

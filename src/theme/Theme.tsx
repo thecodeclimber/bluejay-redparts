@@ -82,6 +82,8 @@ const theme: DefaultTheme = {
     loaderbordercolor: '#ffffff1a',
     loaderbordertopcolor: '#ffffff80',
     loaderborderactiontopcolor: '#00000080',
+    activeclor: '#808080',
+    timerlabelcolor: '#99752e',
     radiobgcolor: '#0000002b',
     disabledradiocolor: '#0000001f',
     disabledbgcolorafter: '#00000033',
