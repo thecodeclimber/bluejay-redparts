@@ -68,3 +68,7 @@ export const CheckoutTotalsFooter = styled.tfoot`
       ${(props) => `${props.theme.colors.widgetauthorbordercolor}`};
   }
 `;
+
+export const CheckoutAgree = styled.div`
+  margin-bottom: 40px;
+`;
