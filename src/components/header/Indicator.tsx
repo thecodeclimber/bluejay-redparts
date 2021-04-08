@@ -91,7 +91,7 @@ function Indicator(props: Props) {
   );
 
   return (
-    <IndicatorStyledComponent>
+    <IndicatorStyledComponent ref={rootRef}>
       {buttonType === 'button' && (
         <IndicatorButton as="button" type="button" onClick={handleButtonClick}>
           {buttonContent}

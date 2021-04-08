@@ -35,7 +35,6 @@ function FilterRange(props: Props) {
   const [state, setState] = useState([propsFrom, propsTo]);
   const [stateFrom, stateTo] = state;
   const direction = useDirection();
-  console.log(options);
   let { min, max } = options;
   let from = Math.max(getFirstValidValue(stateFrom, propsFrom, min)!, min);
   let to = Math.min(getFirstValidValue(stateTo, propsTo, max)!, max);

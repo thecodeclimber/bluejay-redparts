@@ -20,7 +20,7 @@ import {
   AccountMenuAnchorLink,
   AccountMenuLogoutButton,
   AccountMenuFormAnchorLink,
-  InvalidFeedback
+  InvalidFeedback,
 } from '~/styled-components/header/AccountMenu';
 import AppImage from '~/components/shared/AppImage';
 import AppLink from '~/components/shared/AppLink';
@@ -58,7 +58,7 @@ function AccountMenu(props: Props) {
   return (
     <AccountMenuStyledComponent onSubmit={signInForm.submit}>
       {user === null && (
-        <AccountMenuForm >
+        <AccountMenuForm>
           <AccountMenuFormTitle>
             <FormattedMessage id="HEADER_LOGIN_TO_YOUR_ACCOUNT" />
           </AccountMenuFormTitle>
@@ -138,7 +138,7 @@ function AccountMenu(props: Props) {
               <FormattedMessage id="BUTTON_LOGIN" />
             </button>
           </AccountMenuFormButton>
-          <AccountMenuFormLink >
+          <AccountMenuFormLink>
             <AccountMenuFormAnchorLink
               as="a"
               href={url.signUp()}

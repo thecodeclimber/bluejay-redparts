@@ -69,8 +69,6 @@ function makeProducts(defs: any[]): IProduct[] {
   return defs.map((def) => {
     let badges: string[] = [];
 
- 
-
     // if (def.badges) {
     //   if (typeof def.badges === 'string') {
     //     badges = [def.badges];
@@ -211,8 +209,7 @@ TotalProducts.push(
   ...nuts,
   ...pins,
   ...screws,
-  ...washers,
-  ...hexHeadCapScrews
+  ...washers
 );
 
 export const products: any[] = makeProducts(TotalProducts);
