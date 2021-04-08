@@ -14,7 +14,9 @@ import { RadioFilterBuilder } from '~/fake-server/filters/radio-filter-builder';
 import { RangeFilterBuilder } from '~/fake-server/filters/range-filter-builder';
 import { RatingFilterBuilder } from '~/fake-server/filters/rating-filter-builder';
 import { shopCategoriesList } from '~/fake-server/database/categories';
+import { LenghtFilterBuilder } from '~/fake-server/filters/length-filter-builder';
 import { VehicleFilterBuilder } from '~/fake-server/filters/vehicle-filter-builder';
+
 import {
   IAddProductReviewData,
   IGetSearchSuggestionsOptions,
@@ -57,6 +59,7 @@ export function getProductsList(
     new CheckFilterBuilder('brand', 'Brand'),
     new RadioFilterBuilder('discount', 'With Discount'),
     new RatingFilterBuilder('rating', 'Rating'),
+    new LenghtFilterBuilder('length', 'length'),
     new ColorFilterBuilder('color', 'Color'),
   ];
 
@@ -71,12 +74,12 @@ export function getProductsList(
 
   // Apply filters to products list.
 
-  // products = products.filter((product) => {
-  //   return filters.reduce<boolean>(
-  //     (mr, filter) => mr && filter.test(product),
-  //     true
-  //   );
-  // });
+  products = products.filter((product) => {
+    return filters.reduce<boolean>(
+      (mr, filter) => mr && filter.test(product),
+      true
+    );
+  });
 
   const page = options?.page || 1;
   const limit = options?.limit || 16;

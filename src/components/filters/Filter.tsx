@@ -18,6 +18,7 @@ import FilterCheck from '~/components/filters/FilterCheck';
 import FilterRadio from '~/components/filters/FilterRadio';
 import FilterRating from '~/components/filters/FilterRating';
 import FilterColor from '~/components/filters/FilterColor';
+import FilterLength from '~/components/filters/FilterLength';
 import { ICollapseRenderFn } from '~/components/shared/Collapse';
 import { IFilter } from '~/interfaces/filter';
 import { useShopSetFilterValueThunk } from '~/store/shop/shopHooks';
@@ -88,14 +89,55 @@ function Filter(props: Props) {
                 onChangeValue={handleValueChange}
               />
             )}
+            {filter.type === 'length' && <FilterLength options={filter} />}
 
-            {filter.type === 'radio' && (
+            {/* {filter.type === 'diameter' && (
               <FilterRadio
                 options={filter}
                 value={getFilterValue(filter, value)}
                 onChangeValue={handleValueChange}
               />
             )}
+
+            {filter.type === 'thread_size' && (
+              <FilterRadio
+                options={filter}
+                value={getFilterValue(filter, value)}
+                onChangeValue={handleValueChange}
+              />
+            )}
+
+            {filter.type === 'thread_length' && (
+              <FilterRadio
+                options={filter}
+                value={getFilterValue(filter, value)}
+                onChangeValue={handleValueChange}
+              />
+            )}
+
+            {filter.type === 'thread_length' && (
+              <FilterRadio
+                options={filter}
+                value={getFilterValue(filter, value)}
+                onChangeValue={handleValueChange}
+              />
+            )}
+
+            {filter.type === 'thread coverage' && (
+              <FilterRadio
+                options={filter}
+                value={getFilterValue(filter, value)}
+                onChangeValue={handleValueChange}
+              />
+            )}
+
+            {filter.type === 'screw_size' && (
+              <FilterRadio
+                options={filter}
+                value={getFilterValue(filter, value)}
+                onChangeValue={handleValueChange}
+              />
+            )} */}
 
             {filter.type === 'rating' && (
               <FilterRating

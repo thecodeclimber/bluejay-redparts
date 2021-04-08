@@ -26,7 +26,6 @@ function WidgetFilters(props: Props) {
   const values = useShopFilterValues();
   const shopResetFilters = useShopResetFiltersThunk();
 
-  
   return (
     <WidgetFilter>
       <WidgetFilterHeader>
