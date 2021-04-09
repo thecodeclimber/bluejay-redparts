@@ -19,16 +19,20 @@ import FilterRadio from '~/components/filters/FilterRadio';
 import FilterRating from '~/components/filters/FilterRating';
 import FilterColor from '~/components/filters/FilterColor';
 import FilterLength from '~/components/filters/FilterLength';
+import FilterDiameter from '~/components/filters/FilterDiameter';
+import FilterThreadCoverage from '~/components/filters/FilterThreadCoverage';
+import FilterScrewSize from '~/components/filters/FilterScrewSize';
+import FilterThreadLength from '~/components/filters/FilterThreadLength';
 import { ICollapseRenderFn } from '~/components/shared/Collapse';
 import { IFilter } from '~/interfaces/filter';
 import { useShopSetFilterValueThunk } from '~/store/shop/shopHooks';
 interface ChangeValueEvent {
-  filter: IFilter;
+  filter: any;
   value: IFilter['value'];
 }
 
 interface Props {
-  filter: IFilter;
+  filter: any;
   value: string;
 }
 
@@ -90,15 +94,7 @@ function Filter(props: Props) {
               />
             )}
             {filter.type === 'length' && <FilterLength options={filter} />}
-
-            {/* {filter.type === 'diameter' && (
-              <FilterRadio
-                options={filter}
-                value={getFilterValue(filter, value)}
-                onChangeValue={handleValueChange}
-              />
-            )}
-
+            {filter.type === 'diameter' && <FilterDiameter options={filter} />}
             {filter.type === 'thread_size' && (
               <FilterRadio
                 options={filter}
@@ -106,39 +102,15 @@ function Filter(props: Props) {
                 onChangeValue={handleValueChange}
               />
             )}
-
-            {filter.type === 'thread_length' && (
-              <FilterRadio
-                options={filter}
-                value={getFilterValue(filter, value)}
-                onChangeValue={handleValueChange}
-              />
+            {filter.type === 'threadLength' && (
+              <FilterThreadLength options={filter} />
             )}
-
-            {filter.type === 'thread_length' && (
-              <FilterRadio
-                options={filter}
-                value={getFilterValue(filter, value)}
-                onChangeValue={handleValueChange}
-              />
+            {filter.type === 'threadCoverage' && (
+              <FilterThreadCoverage options={filter} />
             )}
-
-            {filter.type === 'thread coverage' && (
-              <FilterRadio
-                options={filter}
-                value={getFilterValue(filter, value)}
-                onChangeValue={handleValueChange}
-              />
+            {filter.type === 'screwSize' && (
+              <FilterScrewSize options={filter} />
             )}
-
-            {filter.type === 'screw_size' && (
-              <FilterRadio
-                options={filter}
-                value={getFilterValue(filter, value)}
-                onChangeValue={handleValueChange}
-              />
-            )} */}
-
             {filter.type === 'rating' && (
               <FilterRating
                 options={filter}

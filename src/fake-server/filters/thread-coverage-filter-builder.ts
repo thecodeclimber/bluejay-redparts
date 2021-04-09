@@ -5,7 +5,7 @@ import { AbstractFilterBuilder } from '~/fake-server/filters/abstract-filter-bui
 import { IProduct } from '~/interfaces/product';
 import { attribute_3 } from '~/fake-server/database/attributes';
 
-export class LenghtFilterBuilder extends AbstractFilterBuilder {
+export class ThreadCoverageFilterBuilder extends AbstractFilterBuilder {
   private value: string | null = null;
 
   private items: any[] = [];
@@ -17,22 +17,22 @@ export class LenghtFilterBuilder extends AbstractFilterBuilder {
   makeItems(products: IProduct[], value: string): void {
     this.value = value === undefined ? null : value;
 
-    const length: any[] = [];
+    const threadCoverage: any[] = [];
     attribute_3.map((x) => {
-      if (x?.length) {
-        return length.push(x.length);
+      if (x?.threadCoverage) {
+        return threadCoverage.push(x.threadCoverage);
       }
     });
-    this.items = [...length];
+    this.items = [...threadCoverage];
   }
 
   calc(): void {}
 
   build(): any {
     return {
-      type: 'length',
+      type: 'threadCoverage',
       items: this.items,
-      name: 'Length',
+      name: 'Thread Coverage',
     };
   }
 }

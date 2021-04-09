@@ -5,7 +5,7 @@ import { AbstractFilterBuilder } from '~/fake-server/filters/abstract-filter-bui
 import { IProduct } from '~/interfaces/product';
 import { attribute_3 } from '~/fake-server/database/attributes';
 
-export class LenghtFilterBuilder extends AbstractFilterBuilder {
+export class DiameterFilterBuilder extends AbstractFilterBuilder {
   private value: string | null = null;
 
   private items: any[] = [];
@@ -17,22 +17,22 @@ export class LenghtFilterBuilder extends AbstractFilterBuilder {
   makeItems(products: IProduct[], value: string): void {
     this.value = value === undefined ? null : value;
 
-    const length: any[] = [];
+    const diameter: any[] = [];
     attribute_3.map((x) => {
-      if (x?.length) {
-        return length.push(x.length);
+      if (x?.diameter) {
+        return diameter.push(x.diameter);
       }
     });
-    this.items = [...length];
+    this.items = [...diameter];
   }
 
   calc(): void {}
 
   build(): any {
     return {
-      type: 'length',
+      type: 'diameter',
       items: this.items,
-      name: 'Length',
+      name: 'Diameter',
     };
   }
 }

@@ -15,6 +15,10 @@ import { RangeFilterBuilder } from '~/fake-server/filters/range-filter-builder';
 import { RatingFilterBuilder } from '~/fake-server/filters/rating-filter-builder';
 import { shopCategoriesList } from '~/fake-server/database/categories';
 import { LenghtFilterBuilder } from '~/fake-server/filters/length-filter-builder';
+import { ThreadCoverageFilterBuilder } from '~/fake-server/filters/thread-coverage-filter-builder';
+import { ScrewSizeFilterBuilder } from '~/fake-server/filters/screw-size-filter-builder';
+import { DiameterFilterBuilder } from '~/fake-server/filters/diameter-filter-builder';
+import { ThreadLengthFilterBuilder } from '~/fake-server/filters/thread-length-filter-builder';
 import { VehicleFilterBuilder } from '~/fake-server/filters/vehicle-filter-builder';
 
 import {
@@ -60,6 +64,10 @@ export function getProductsList(
     new RadioFilterBuilder('discount', 'With Discount'),
     new RatingFilterBuilder('rating', 'Rating'),
     new LenghtFilterBuilder('length', 'length'),
+    new ThreadCoverageFilterBuilder('threadCoverage', 'threadCoverage'),
+    new DiameterFilterBuilder('diameter', 'diameter'),
+    new ScrewSizeFilterBuilder('screwSize', 'screwSize'),
+    new ThreadLengthFilterBuilder('threadlength', 'threadlength'),
     new ColorFilterBuilder('color', 'Color'),
   ];
 
