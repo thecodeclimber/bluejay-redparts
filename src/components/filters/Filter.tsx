@@ -23,6 +23,7 @@ import FilterDiameter from '~/components/filters/FilterDiameter';
 import FilterThreadCoverage from '~/components/filters/FilterThreadCoverage';
 import FilterScrewSize from '~/components/filters/FilterScrewSize';
 import FilterThreadLength from '~/components/filters/FilterThreadLength';
+import FilterThreadSize from '~/components/filters/FilterThreadSize';
 import { ICollapseRenderFn } from '~/components/shared/Collapse';
 import { IFilter } from '~/interfaces/filter';
 import { useShopSetFilterValueThunk } from '~/store/shop/shopHooks';
@@ -104,6 +105,9 @@ function Filter(props: Props) {
             )}
             {filter.type === 'threadLength' && (
               <FilterThreadLength options={filter} />
+            )}
+            {filter.type === 'threadSize' && (
+              <FilterThreadSize options={filter} />
             )}
             {filter.type === 'threadCoverage' && (
               <FilterThreadCoverage options={filter} />

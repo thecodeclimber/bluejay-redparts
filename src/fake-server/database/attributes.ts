@@ -2643,7 +2643,10 @@ export const attribute_3: any[] = [
       threadlength: '1/8',
       metric: '5',
     },
-    threadSize: '#2-56',
+    threadSize: {
+      threadSize: '#2-56',
+      metric: 'M10-1.00',
+    },
     threadCoverage: 'Partial',
     screwSize: '8-10',
   },
@@ -2654,7 +2657,10 @@ export const attribute_3: any[] = [
       metric: '6',
       threadlength: '3/16',
     },
-    threadSize: '#3-48',
+    threadSize: {
+      threadSize: '#3-48',
+      metric: 'M10-1.25',
+    },
     screwSize: '10-12',
   },
   {
@@ -2664,7 +2670,10 @@ export const attribute_3: any[] = [
       metric: '8',
       threadlength: '1/4',
     },
-    threadSize: '#4-40',
+    threadSize: {
+      threadSize: '#4-40',
+      metric: 'M10-1.50',
+    },
     screwSize: '14-16',
   },
   {
@@ -2674,7 +2683,10 @@ export const attribute_3: any[] = [
       metric: '10',
       threadlength: '5/16',
     },
-    threadSize: '#6-32',
+    threadSize: {
+      threadSize: '#6-32',
+      metric: 'M12-1.25',
+    },
   },
   {
     diameter: '#10',
@@ -2683,223 +2695,312 @@ export const attribute_3: any[] = [
       metric: '12',
       threadlength: '3/8',
     },
-    threadSize: '#8-32',
+    threadSize: {
+      threadSize: '#8-32',
+      metric: 'M12-1.50',
+    },
   },
   {
     diameter: '1/8',
-    threadSize: '#10-24',
+
     threadLength: {
       metric: '14',
       threadlength: '7/16',
     },
+    threadSize: {
+      threadSize: '#10-24',
+      metric: 'M12-1.75',
+    },
   },
   {
     diameter: '3/16',
-    threadSize: '#10-32',
+
     threadLength: {
       metric: '16',
       threadlength: '1/2',
     },
+    threadSize: {
+      threadSize: '#10-32',
+      metric: 'M14-1.50',
+    },
   },
   {
     diameter: '1/4',
-    threadSize: '1/2"-13',
     threadLength: {
       metric: '18',
       threadlength: '5/8',
     },
+    threadSize: {
+      threadSize: '1/2"-13',
+      metric: 'M14-2.00',
+    },
   },
   {
     diameter: '5/16',
-    threadSize: '1/2"-20',
     threadLength: {
       metric: '20 ',
       threadlength: '3/4',
     },
+    threadSize: {
+      threadSize: '1/2"-20',
+      metric: 'M16-1.50',
+    },
   },
   {
     diameter: '3/8',
-    threadSize: '1/4"-20',
     threadLength: {
       metric: '25 ',
       threadlength: '7/8',
     },
+    threadSize: {
+      threadSize: '1/4"-20',
+      metric: 'M16-2.00',
+    },
   },
   {
     diameter: '7/16',
-    threadSize: '1/4"-28',
     threadLength: {
       metric: '30 ',
       threadlength: '1',
     },
+    threadSize: {
+      threadSize: '1/4"-28',
+      metric: 'M18-1.50',
+    },
   },
   {
     diameter: '1/2',
-    threadSize: '3/4"-10',
     threadLength: {
       metric: '35 ',
       threadlength: '1 1/8',
     },
+    threadSize: {
+      threadSize: '3/4"-10',
+      metric: 'M18-2.50',
+    },
   },
   {
     diameter: '9/16',
-    threadSize: '3/4"-16',
     threadLength: {
       metric: '40 ',
       threadlength: '1 1/4',
     },
+    threadSize: {
+      threadSize: '3/4"-16',
+      metric: 'M20-1.50',
+    },
   },
   {
     diameter: '5/8',
-    threadSize: '3/8"-16',
     threadLength: {
       metric: '45 ',
       threadlength: '1 3/8',
     },
+    threadSize: {
+      threadSize: '3/8"-16',
+      metric: 'M20-2.50',
+    },
   },
   {
     diameter: '3/4',
-    threadSize: '3/8"-24',
     threadLength: {
       metric: '50 ',
       threadlength: '1 1/2',
     },
+    threadSize: {
+      threadSize: '3/8"-24',
+      metric: 'M22-1.50',
+    },
   },
   {
     diameter: '7/8',
-    threadSize: '5/16"-18',
     threadLength: {
       metric: '55 ',
       threadlength: '1 3/4',
     },
+    threadSize: {
+      threadSize: '5/16"-18',
+      metric: 'M22-2.50',
+    },
   },
   {
     diameter: '1',
-    threadSize: '5/16"-24',
     threadLength: {
       metric: '60',
       threadlength: '2',
     },
+    threadSize: {
+      threadSize: '5/16"-24',
+      metric: 'M24-2.00',
+    },
   },
   {
     diameter: '1 1/8',
-    threadSize: '5/8"-11',
     threadLength: {
       metric: '65',
       threadlength: '2 1/4',
     },
+    threadSize: {
+      threadSize: '5/8"-11',
+      metric: 'M24-3.00',
+    },
   },
   {
     diameter: '1 1/4',
-    threadSize: '5/8"-18',
     threadLength: {
       metric: '70',
       threadlength: '2 1/2',
     },
+    threadSize: {
+      threadSize: '5/8"-18',
+      metric: 'M27-3.00',
+    },
   },
   {
     diameter: '1 3/8',
-    threadSize: '7/16"-14',
     threadLength: {
       metric: '75',
       threadlength: '2 3/4',
     },
+    threadSize: {
+      threadSize: '7/16"-14',
+      metric: 'M3-0.5',
+    },
   },
   {
     diameter: '1 1/2',
-    threadSize: '7/16"-20',
     threadLength: {
       metric: '80',
       threadlength: '3',
     },
+    threadSize: {
+      threadSize: '7/16"-20',
+      metric: 'M30-3.50',
+    },
   },
   {
     diameter: '1 3/4',
-    threadSize: '7/8"-14',
     threadLength: {
       metric: '90',
       threadlength: '3 1/4',
     },
+    threadSize: {
+      threadSize: '7/8"-14',
+      metric: 'M33-3.50',
+    },
   },
   {
     diameter: '2',
-    threadSize: '7/8"-9',
     threadLength: {
       metric: '100',
       threadlength: '3 1/2',
     },
+    threadSize: {
+      threadSize: '7/8"-9',
+      metric: 'M36-4.00',
+    },
   },
   {
     diameter: '2 1/4',
-    threadSize: '9/16"-12',
     threadLength: {
       metric: '110',
       threadlength: '3 3/4',
     },
+    threadSize: {
+      threadSize: '9/16"-12',
+      metric: 'M39-4.00',
+    },
   },
   {
     diameter: '2 1/2',
-    threadSize: '9/16"-18',
     threadLength: {
       metric: '120',
       threadlength: '4',
     },
+    threadSize: {
+      threadSize: '9/16"-18',
+      metric: 'M4-0.7',
+    },
   },
   {
     diameter: '2 3/4',
-    threadSize: '1-1/2"-12',
     threadLength: {
       metric: '130',
       threadlength: '4 1/4',
     },
+    threadSize: {
+      threadSize: '1-1/2"-12',
+      metric: 'M42-4.50',
+    },
   },
   {
     diameter: '3',
-    threadSize: '1-1/2"-6',
     threadLength: {
       metric: '140 ',
       threadlength: '4 1/2',
     },
+    threadSize: {
+      threadSize: '1-1/2"-6',
+      metric: 'M45-4.50',
+    },
   },
   {
-    threadSize: '1-1/4"-12',
     threadLength: {
       metric: '150',
       threadlength: '4 3/4',
     },
+    threadSize: {
+      threadSize: '1-1/4"-12',
+      metric: 'M48-5.00',
+    },
   },
   {
-    threadSize: '1-1/4"-7',
     threadLength: {
       metric: '160 ',
       threadlength: '5',
     },
+    threadSize: {
+      threadSize: '1-1/4"-7',
+      metric: 'M5-0.8',
+    },
   },
   {
-    threadSize: '1-1/8"-12',
     threadLength: {
       metric: '170',
       threadlength: '5 1/2',
     },
+    threadSize: {
+      threadSize: '1-1/8"-12',
+      metric: 'M6-1.00',
+    },
   },
   {
-    threadSize: '1-1/8"-7',
     threadLength: {
       metric: '180',
       threadlength: '6',
     },
+    threadSize: {
+      threadSize: '1-1/8"-7',
+      metric: 'M7-1.00',
+    },
   },
   {
-    threadSize: '1-3/4"-12',
     threadLength: {
       metric: '200',
       threadlength: '6 1/2',
     },
+    threadSize: {
+      threadSize: '1-3/4"-12',
+      metric: 'M8-1.00',
+    },
   },
   {
-    threadSize: '1-3/4"-5',
     threadLength: {
       threadlength: '7',
+    },
+    threadSize: {
+      threadSize: '1-3/4"-5',
+      metric: 'M8-1.25',
     },
   },
   {

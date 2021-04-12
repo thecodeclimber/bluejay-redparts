@@ -17,13 +17,11 @@ export class ScrewSizeFilterBuilder extends AbstractFilterBuilder {
   makeItems(products: IProduct[], value: string): void {
     this.value = value === undefined ? null : value;
 
-    const screwSize: any[] = [];
-    attribute_3.map((x) => {
+    for (let x of attribute_3) {
       if (x?.screwSize) {
-        return screwSize.push(x.screwSize);
+        this.items.push(x.screwSize);
       }
-    });
-    this.items = [...screwSize];
+    }
   }
 
   calc(): void {}

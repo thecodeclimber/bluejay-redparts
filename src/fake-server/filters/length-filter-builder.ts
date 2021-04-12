@@ -17,13 +17,11 @@ export class LenghtFilterBuilder extends AbstractFilterBuilder {
   makeItems(products: IProduct[], value: string): void {
     this.value = value === undefined ? null : value;
 
-    const length: any[] = [];
-    attribute_3.map((x) => {
+    for (let x of attribute_3) {
       if (x?.length) {
-        return length.push(x.length);
+        this.items.push(x.length);
       }
-    });
-    this.items = [...length];
+    }
   }
 
   calc(): void {}

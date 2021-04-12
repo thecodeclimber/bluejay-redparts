@@ -5,10 +5,11 @@ import { AbstractFilterBuilder } from '~/fake-server/filters/abstract-filter-bui
 import { IProduct } from '~/interfaces/product';
 import { attribute_3 } from '~/fake-server/database/attributes';
 
-export class DiameterFilterBuilder extends AbstractFilterBuilder {
+export class ThreadSizeFilterBuilder extends AbstractFilterBuilder {
   private value: string | null = null;
 
-  private items: any[] = [];
+  private size: any[] = [];
+  private metric: any[] = [];
 
   test(): boolean {
     return true;
@@ -18,8 +19,11 @@ export class DiameterFilterBuilder extends AbstractFilterBuilder {
     this.value = value === undefined ? null : value;
 
     for (let x of attribute_3) {
-      if (x?.diameter) {
-        this.items.push(x.diameter);
+      if (x?.threadSize?.threadSize) {
+        this.size.push(x.threadSize?.threadSize);
+      }
+      if (x?.threadSize?.metric) {
+        this.metric.push(x.threadSize?.metric);
       }
     }
   }
@@ -28,9 +32,10 @@ export class DiameterFilterBuilder extends AbstractFilterBuilder {
 
   build(): any {
     return {
-      type: 'diameter',
-      items: this.items,
-      name: 'Diameter',
+      type: 'threadSize',
+      size: this.size,
+      metric: this.metric,
+      name: 'Thread Size',
     };
   }
 }

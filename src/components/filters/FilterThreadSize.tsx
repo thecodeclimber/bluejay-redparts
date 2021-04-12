@@ -13,22 +13,22 @@ interface Props {
   options: any;
 }
 
-function FilterThreadLength(props: Props) {
+function FilterThreadSize(props: Props) {
   const { options } = props;
-  const [itemsToShow, setItemsToShow] = useState(10);
+  const [sizeToShow, setSizeToShow] = useState(10);
   const [metricToShow, setMetricToShow] = useState(10);
   const [expend, setExpend] = useState(true);
   const [expendMetric, setExpendMetric] = useState(true);
 
-  const handleItemsToShow = () => {
-    if (itemsToShow === options.length.length) {
-      setItemsToShow(10);
+  const handleSizeToShow = () => {
+    if (sizeToShow === options.size.length) {
+      setSizeToShow(10);
       setExpend(true);
-    } else if (itemsToShow >= 10 && itemsToShow <= options.length.length) {
-      setItemsToShow(itemsToShow + 10);
+    } else if (sizeToShow >= 10 && sizeToShow <= options.size.length) {
+      setSizeToShow(sizeToShow + 10);
       setExpend(true);
-    } else if (itemsToShow >= options.length.length) {
-      setItemsToShow(options.length.length);
+    } else if (sizeToShow >= options.size.length) {
+      setSizeToShow(options.size.length);
       setExpend(false);
     }
   };
@@ -48,10 +48,10 @@ function FilterThreadLength(props: Props) {
 
   return (
     <div>
-      <p>Length</p>
+      <p>Size</p>
       <InputRadioLabelList>
-        {options.length
-          .filter((item: any, idx: any) => idx < itemsToShow)
+        {options.size
+          .filter((item: any, idx: any) => idx < sizeToShow)
           .map((item: any, index: number) => (
             <InputRadioLabelItem key={index}>
               <InputRadioLabelInput type="radio" />
@@ -59,10 +59,10 @@ function FilterThreadLength(props: Props) {
             </InputRadioLabelItem>
           ))}
         <div>
-          {options.length?.length > 10 && (
+          {options.size?.length > 10 && (
             <WidgetCategoriesListShowMoreButton
               onClick={() => {
-                handleItemsToShow();
+                handleSizeToShow();
               }}
             >
               {expend ? <p>Show more</p> : <p>Show less</p>}
@@ -97,4 +97,4 @@ function FilterThreadLength(props: Props) {
   );
 }
 
-export default FilterThreadLength;
+export default FilterThreadSize;
