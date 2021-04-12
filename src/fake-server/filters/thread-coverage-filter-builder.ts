@@ -17,13 +17,11 @@ export class ThreadCoverageFilterBuilder extends AbstractFilterBuilder {
   makeItems(products: IProduct[], value: string): void {
     this.value = value === undefined ? null : value;
 
-    const threadCoverage: any[] = [];
-    attribute_3.map((x) => {
+    for (let x of attribute_3) {
       if (x?.threadCoverage) {
-        return threadCoverage.push(x.threadCoverage);
+        this.items.push(x.threadCoverage);
       }
-    });
-    this.items = [...threadCoverage];
+    }
   }
 
   calc(): void {}

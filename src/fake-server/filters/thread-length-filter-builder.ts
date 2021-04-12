@@ -18,18 +18,14 @@ export class ThreadLengthFilterBuilder extends AbstractFilterBuilder {
   makeItems(products: IProduct[], value: string): void {
     this.value = value === undefined ? null : value;
 
-    const threadLength: any[] = [];
-    const metric: any[] = [];
-    attribute_3.map((x) => {
+    for (let x of attribute_3) {
       if (x?.threadLength) {
-        return (
-          threadLength.push(x.threadLength?.threadlength),
-          metric.push(x.threadLength?.metric)
-        );
+        this.length.push(x.threadLength?.threadlength);
       }
-    });
-    this.length = [...threadLength];
-    this.metric = [...metric];
+      if (x?.threadLength?.metric) {
+        this.metric.push(x.threadLength?.metric);
+      }
+    }
   }
 
   calc(): void {}
@@ -38,6 +34,7 @@ export class ThreadLengthFilterBuilder extends AbstractFilterBuilder {
     return {
       type: 'threadLength',
       length: this.length,
+      metric: this.metric,
       name: 'Thread Length',
     };
   }
