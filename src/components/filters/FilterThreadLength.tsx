@@ -17,6 +17,7 @@ function FilterThreadLength(props: Props) {
   const { options } = props;
   const [itemsToShow, setItemsToShow] = useState(10);
   const [metricToShow, setMetricToShow] = useState(10);
+  const [selectedItem, setSelectedItem] = useState<any[]>([]);
   const [expend, setExpend] = useState(true);
   const [expendMetric, setExpendMetric] = useState(true);
 
@@ -46,6 +47,16 @@ function FilterThreadLength(props: Props) {
     }
   };
 
+  const handleSelect = (index: number) => {
+    const items = [...selectedItem];
+    const isSelected: boolean = items.includes(index);
+    if (isSelected) {
+      const result = items.filter((id) => id !== index);
+      return setSelectedItem(result);
+    }
+    return setSelectedItem([...items, index]);
+  };
+
   return (
     <div>
       <p>Length</p>
@@ -54,8 +65,10 @@ function FilterThreadLength(props: Props) {
           .filter((item: any, idx: any) => idx < itemsToShow)
           .map((item: any, index: number) => (
             <InputRadioLabelItem key={index}>
-              <InputRadioLabelInput type="radio" />
-              <InputRadioLabelTitle>{item}</InputRadioLabelTitle>
+              <InputRadioLabelInput onClick={() => handleSelect(index)} />
+              <InputRadioLabelTitle selected={selectedItem.includes(index)}>
+                {item}
+              </InputRadioLabelTitle>
             </InputRadioLabelItem>
           ))}
         <div>

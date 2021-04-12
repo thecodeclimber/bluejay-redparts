@@ -15,6 +15,7 @@ interface Props {
 
 function FilterThreadSize(props: Props) {
   const { options } = props;
+  const [selectedItem, setSelectedItem] = useState<any[]>([]);
   const [sizeToShow, setSizeToShow] = useState(10);
   const [metricToShow, setMetricToShow] = useState(10);
   const [expend, setExpend] = useState(true);
@@ -46,6 +47,16 @@ function FilterThreadSize(props: Props) {
     }
   };
 
+  const handleSelect = (index: number) => {
+    const items = [...selectedItem];
+    const isSelected: boolean = items.includes(index);
+    if (isSelected) {
+      const result = items.filter((id) => id !== index);
+      return setSelectedItem(result);
+    }
+    return setSelectedItem([...items, index]);
+  };
+
   return (
     <div>
       <p>Size</p>
@@ -54,8 +65,10 @@ function FilterThreadSize(props: Props) {
           .filter((item: any, idx: any) => idx < sizeToShow)
           .map((item: any, index: number) => (
             <InputRadioLabelItem key={index}>
-              <InputRadioLabelInput type="radio" />
-              <InputRadioLabelTitle>{item}</InputRadioLabelTitle>
+              <InputRadioLabelInput onClick={() => handleSelect(index)} />
+              <InputRadioLabelTitle selected={selectedItem.includes(index)}>
+                {item}
+              </InputRadioLabelTitle>
             </InputRadioLabelItem>
           ))}
         <div>
