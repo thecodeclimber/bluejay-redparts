@@ -89,7 +89,7 @@ function FilterThreadSize(props: Props) {
           {options.metric
             .filter((item: any, idx: any) => idx < metricToShow)
             .map((item: any, index: number) => (
-              <AppLink href="#" key={index}>
+              <AppLink href="#!" key={index}>
                 {item}
               </AppLink>
             ))}
