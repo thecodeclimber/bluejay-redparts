@@ -2,82 +2,96 @@
 import { clone, delayResponse, error } from '~/fake-server/utils';
 import { IVehicle } from '~/interfaces/vehicle';
 import { userVehicles, vehicles } from '~/fake-server/database/vehicles';
+import { attribute_3 } from '~/fake-server/database/attributes';
+import { shopCategoriesTree } from '~/fake-server/database/categories';
 
-export function getYears(): Promise<number[]> {
-    const result: number[] = [];
+export function getCategory(): Promise<number[]> {
+  const result: any[] = [];
 
-    vehicles.forEach((vehicle) => {
-        if (result.indexOf(vehicle.year) === -1) {
-            result.push(vehicle.year);
-        }
-    });
+  shopCategoriesTree.forEach((vehicle) => {
+    if (vehicle?.name) {
+      result.push(vehicle?.name);
+    }
+  });
 
-    return delayResponse(Promise.resolve(result.sort()), 750);
+  return delayResponse(Promise.resolve(result.sort()), 750);
 }
 
-export function getMakes(year: number): Promise<string[]> {
-    const result: string[] = [];
+export function getSubCategory(year: string): Promise<string[]> {
+  const result: any[] = [];
 
-    vehicles.filter((x) => x.year === year).forEach((vehicle) => {
-        if (result.indexOf(vehicle.make) === -1) {
-            result.push(vehicle.make);
-        }
-    });
+  const CategoryIndex = shopCategoriesTree.findIndex(
+    (category) => category?.name == year
+  );
 
-    return delayResponse(Promise.resolve(result.sort()), 750);
+  shopCategoriesTree[CategoryIndex]?.children.forEach((subCategory: any) =>
+    result.push(subCategory.name)
+  );
+
+  return delayResponse(Promise.resolve(result.sort()), 750);
 }
 
-export function getModels(year: number, make: string): Promise<string[]> {
-    const result: string[] = [];
+export function getDiameter(year: number, make: string): Promise<string[]> {
+  const result: string[] = [];
 
-    vehicles.filter((x) => x.year === year && x.make === make).forEach((vehicle) => {
-        if (result.indexOf(vehicle.model) === -1) {
-            result.push(vehicle.model);
-        }
-    });
+  attribute_3.forEach((attribute) => {
+    if (attribute.diameter) {
+      result.push(attribute.diameter);
+    }
+  });
 
-    return delayResponse(Promise.resolve(result.sort()), 750);
+  return delayResponse(Promise.resolve(result.sort()), 750);
 }
 
-export function getVehicles(year: number, make: string, model: string): Promise<IVehicle[]> {
-    const result = vehicles.filter((x) => x.year === year && x.make === make && x.model === model);
+export function getLength(
+  year: number,
+  make: string,
+  model: string
+): Promise<IVehicle[]> {
+  const result: any[] = [];
 
-    return delayResponse(Promise.resolve(result.sort()), 750);
+  attribute_3.forEach((attribute) => {
+    if (attribute.length) {
+      result.push(attribute.length);
+    }
+  });
+
+  return delayResponse(Promise.resolve(result.sort()), 750);
 }
 
 export function getVehicleByVin(vin: string): Promise<IVehicle> {
-    const vinValue = vin.trim();
+  const vinValue = vin.trim();
 
-    const vehicle = vehicles.find((x) => x.model === 'Focus S');
+  const vehicle = vehicles.find((x) => x.model === 'Focus S');
 
-    if (vinValue === '' || vinValue === 'error' || !vehicle) {
-        return error('Page Not Found');
-    }
+  if (vinValue === '' || vinValue === 'error' || !vehicle) {
+    return error('Page Not Found');
+  }
 
-    return Promise.resolve(vehicle);
+  return Promise.resolve(vehicle);
 }
 
 export function getUserVehicles(): Promise<IVehicle[]> {
-    return Promise.resolve(clone(userVehicles));
+  return Promise.resolve(clone(userVehicles));
 }
 
 export function addUserVehicles(vehicleId: number): Promise<void> {
-    const index = userVehicles.findIndex((x) => x.id === vehicleId);
-    const vehicle = vehicles.find((x) => x.id === vehicleId);
+  const index = userVehicles.findIndex((x) => x.id === vehicleId);
+  const vehicle = vehicles.find((x) => x.id === vehicleId);
 
-    if (vehicle && index === -1) {
-        userVehicles.push(vehicle);
-    }
+  if (vehicle && index === -1) {
+    userVehicles.push(vehicle);
+  }
 
-    return delayResponse(Promise.resolve());
+  return delayResponse(Promise.resolve());
 }
 
 export function removeUserVehicles(vehicleId: number): Promise<void> {
-    const index = userVehicles.findIndex((x) => x.id === vehicleId);
+  const index = userVehicles.findIndex((x) => x.id === vehicleId);
 
-    if (index !== -1) {
-        userVehicles.splice(index, 1);
-    }
+  if (index !== -1) {
+    userVehicles.splice(index, 1);
+  }
 
-    return delayResponse(Promise.resolve());
+  return delayResponse(Promise.resolve());
 }

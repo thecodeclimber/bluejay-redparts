@@ -11,6 +11,7 @@ export const MegaMenuLinkItem = styled.li`
 `;
 
 export const MegaMenuItemLinksItemLink = styled.a`
+  white-space: pre;
   ${(props: { hasSubLinks?: any }) =>
     !props.hasSubLinks
       ? css`

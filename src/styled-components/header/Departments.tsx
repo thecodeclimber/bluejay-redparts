@@ -125,6 +125,7 @@ export const DepartmentsItemLink = styled.a`
   display: block;
   position: relative;
   text-decoration: none;
+  width: 100%;
   &:hover {
     color: inherit;
     background-color: #ebebeb;
