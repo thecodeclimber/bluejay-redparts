@@ -12,6 +12,7 @@ const layout = (props: any) => {
 
 export const BlockSpaceStyledComponent = styled.div`
   display: block;
+  margin-top: 50px;
   ${(props: { layout?: any }) =>
     css`
       ${layout}
