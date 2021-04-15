@@ -4,6 +4,16 @@ import AppImage from '~/components/shared/AppImage';
 import AppLink from '~/components/shared/AppLink';
 
 //info
+
+export const ProductCardStyledComponent = styled.div`
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 9%);
+`;
+
 export const ProductCardMetaTitle = styled.span``;
 
 export const ProductCardMeta = styled.div`

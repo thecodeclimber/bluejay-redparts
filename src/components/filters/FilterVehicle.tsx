@@ -8,14 +8,13 @@ import {
   FilterVehicleButton,
   FilterVehicleList,
   FilterVehicleItemLabel,
-  FilterVehicleCheckbox ,
-  FilterVehicleItemTitle ,
-  FilterVehicleVehicle ,
-  FilterVehicleVehicleTitle ,
-  FilterVehicleVehicleSubTitle ,
-  FilterVehicleDiv
+  FilterVehicleCheckbox,
+  FilterVehicleItemTitle,
+  FilterVehicleVehicle,
+  FilterVehicleVehicleTitle,
+  FilterVehicleVehicleSubTitle,
+  FilterVehicleDiv,
 } from '~/styled-components/filter/FilterVehicle';
-import Checkbox from '~/components/shared/Checkbox';
 import VehiclePickerModal from '~/components/shared/VehiclePickerModal';
 import { IVehicle } from '~/interfaces/vehicle';
 import { IVehicleFilter, IVehicleFilterValue } from '~/interfaces/filter';
@@ -77,7 +76,7 @@ function FilterVehicle(props: Props) {
   }, [setCurrentVehicle, initialVehicle]);
 
   return (
-    <FilterVehicleDiv >
+    <FilterVehicleDiv>
       <VehiclePickerModal
         value={currentVehicle}
         isOpen={vehiclePickerIsOpen}
@@ -94,16 +93,16 @@ function FilterVehicle(props: Props) {
                 checked={value !== null}
                 onChange={handleChange}
               />
-              <FilterVehicleItemTitle >
+              <FilterVehicleItemTitle>
                 <FormattedMessage id="INPUT_ONLY_EXACT_FIT_PARTS_LABEL" />
               </FilterVehicleItemTitle>
             </FilterVehicleItemLabel>
           </li>
-          <FilterVehicleVehicle >
-            <FilterVehicleVehicleTitle >
+          <FilterVehicleVehicle>
+            <FilterVehicleVehicleTitle>
               {`${currentVehicle.year} ${currentVehicle.make} ${currentVehicle.model}`}
             </FilterVehicleVehicleTitle>
-            <FilterVehicleVehicleSubTitle >
+            <FilterVehicleVehicleSubTitle>
               {currentVehicle.engine}
             </FilterVehicleVehicleSubTitle>
           </FilterVehicleVehicle>
