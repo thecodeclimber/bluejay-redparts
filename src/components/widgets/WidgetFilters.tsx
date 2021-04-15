@@ -26,7 +26,6 @@ function WidgetFilters(props: Props) {
   const values = useShopFilterValues();
   const shopResetFilters = useShopResetFiltersThunk();
 
-  
   return (
     <WidgetFilter>
       <WidgetFilterHeader>
@@ -36,12 +35,8 @@ function WidgetFilters(props: Props) {
       </WidgetFilterHeader>
 
       <WidgetFilterList>
-        {filters.map((filter) => (
-          <Filter
-            key={filter.slug}
-            filter={filter}
-            value={values[filter.slug]}
-          />
+        {filters.map((filter, index) => (
+          <Filter key={index} filter={filter} value={values[filter.slug]} />
         ))}
       </WidgetFilterList>
 

@@ -68,6 +68,13 @@ export const InputRadioLabelTitle = styled.span`
   &:active {
     box-shadow: 0 0 0 2px rgb(0 0 0 / 20%) inset;
   }
+  ${(props: { selected?: boolean }) =>
+    props.selected &&
+    css`
+      background-color: ${(props) => `${props.theme.colors.primary}`};
+      color: ${(props) => `${props.theme.colors.white}`};
+      box-shadow: 0 0 0 2px ${(props) => `${props.theme.colors.primary}`} inset;
+    `}
 `;
 
 export const InputRadioLabelInput = styled.input`

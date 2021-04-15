@@ -177,25 +177,9 @@ const shopCategoriesDef: ICategoryDef[] = [
       { name: 'Machine Screw', slug: 'machine-screw' },
     ],
   },
-  {
-    name: 'Oils & Lubricants',
-    slug: 'oils-lubricants',
-    image: '/images/categories/category-7.jpg',
-    items: 179,
-  },
-  {
-    name: 'Tools & Garage',
-    slug: 'tools-garage',
-    image: '/images/categories/category-8.jpg',
-    items: 106,
-  },
 ];
 
 const blogCategoriesDef: ICategoryDef[] = [
-  {
-    name: 'Tools & Garage',
-    slug: 'tools-garage',
-  },
   {
     name: 'Anchor',
     slug: 'anchor',
@@ -223,10 +207,6 @@ const blogCategoriesDef: ICategoryDef[] = [
     ],
   },
   {
-    name: 'Oils & Lubricants',
-    slug: 'oils-lubricants',
-  },
-  {
     name: 'Bolts',
     slug: 'bolts',
   },
@@ -248,7 +228,7 @@ const blogCategoriesDef: ICategoryDef[] = [
   },
 ];
 
-export const shopCategoriesTree: IShopCategory[] = makeCategories(
+export const shopCategoriesTree: any[] = makeCategories(
   makeShopCategory,
   shopCategoriesDef
 );
