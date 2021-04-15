@@ -121,7 +121,10 @@ function VehiclePickerModal(props: Props) {
                 />
                 <VehicleListItemInfo>
                   <VehiclesListItemName>
-                    {`${vehicle.year} ${vehicle.make} ${vehicle.model}`}
+                    {`${
+                      vehicle.year.toString().charAt(0).toUpperCase() +
+                      vehicle.year.toString().slice(1)
+                    }`}
                   </VehiclesListItemName>
                   <VehiclesListItemDetails>
                     <FormattedMessage
@@ -155,23 +158,6 @@ function VehiclePickerModal(props: Props) {
         >
           <FormattedMessage id="BUTTON_ADD_VEHICLE_LONG" />
         </VehiclePickerModalAddButton>
-
-        <VehiclePickerModalAction>
-          <button
-            type="button"
-            className="btn btn-sm btn-secondary"
-            onClick={onClose}
-          >
-            <FormattedMessage id="BUTTON_CANCEL" />
-          </button>
-          <button
-            type="button"
-            className="btn btn-sm btn-primary"
-            onClick={onSelectClick}
-          >
-            <FormattedMessage id="BUTTON_SELECT_VEHICLE" />
-          </button>
-        </VehiclePickerModalAction>
       </VehiclePickerModalPanel>
 
       <VehiclePickerModalPanel
@@ -181,33 +167,6 @@ function VehiclePickerModal(props: Props) {
           <FormattedMessage id="HEADER_ADD_VEHICLE" />
         </VehiclePickerModalTitle>
         <VehicleForm location="modal" onVehicleChange={setControlValue} />
-        <VehiclePickerModalAction>
-          {vehicles.length !== 0 && (
-            <button
-              type="button"
-              className="btn btn-sm btn-secondary"
-              onClick={() => setCurrentPanel('list')}
-            >
-              <FormattedMessage id="BUTTON_BACK_TO_LIST" />
-            </button>
-          )}
-
-          <AsyncAction
-            action={onAddVehicleClick}
-            render={({ run, loading }) => (
-              <button
-                type="button"
-                className={classNames('btn', 'btn-sm', 'btn-primary', {
-                  'btn-loading': loading,
-                })}
-                disabled={controlValue === null}
-                onClick={run}
-              >
-                <FormattedMessage id="BUTTON_ADD_VEHICLE" />
-              </button>
-            )}
-          />
-        </VehiclePickerModalAction>
       </VehiclePickerModalPanel>
     </Modal>
   );

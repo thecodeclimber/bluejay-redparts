@@ -7,6 +7,7 @@ export const SearchBody = styled.form`
   z-index: 0;
   position: relative;
   max-width: 560px;
+  min-width: 560px;
   height: 38px;
 `;
 

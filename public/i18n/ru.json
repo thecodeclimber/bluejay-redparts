@@ -156,7 +156,7 @@
   "INPUT_REMEMBER_ME_LABEL": "Запомнить меня",
   "INPUT_SEARCH_LABEL": "Поиск для",
   "INPUT_SEARCH_PLACEHOLDER": "Ключ. слово или номер детали",
-  "INPUT_SEARCH_PLACEHOLDER_VEHICLE": "Поиск для {year} {make} {model}",
+  "INPUT_SEARCH_PLACEHOLDER_VEHICLE": "Поиск для {year}",
   "INPUT_SET_AS_MY_DEFAULT_ADDRESS_LABEL": "Использовать как адрес по умолчанию",
   "INPUT_SHIP_TO_DIFFERENT_ADDRESS_LABEL": "Доставить заказ на другой адрес?",
   "INPUT_SHOW_LABEL": "Показывать",
