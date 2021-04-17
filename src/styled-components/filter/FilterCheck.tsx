@@ -12,12 +12,11 @@ export const FilterListItem = styled.label`
   cursor: pointer;
   display: flex;
   margin: 8px 0;
-  ${(props : { item?: boolean }) => 
-     props.item &&
-     css`
+  ${(props: { item?: boolean }) =>
+    props.item &&
+    css`
       cursor: default;
-     `
-  }
+    `}
 `;
 
 export const FilterListInput = styled(Checkbox)`
@@ -30,18 +29,17 @@ export const FilterListTitle = styled.span`
   font-size: 14px;
   line-height: 16px;
   flex-grow: 1;
-  ${(props : { item?: boolean }) => 
-     props.item &&
-     css`
+  ${(props: { item?: boolean }) =>
+    props.item &&
+    css`
       color: #6c757d;
-     `
-  }
+    `}
 `;
 
 export const FilterListCounter = styled.span`
-   padding-top: 3px;
-    font-size: 12px;
-    line-height: 12px;
-    margin-left: 12px;
-    color: #6c757d;
+  padding-top: 3px;
+  font-size: 12px;
+  line-height: 12px;
+  margin-left: 12px;
+  color: #6c757d;
 `;
