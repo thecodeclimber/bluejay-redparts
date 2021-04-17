@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled, { css } from 'styled-components';
 
 const TextColor = css`
   color: #fff;
@@ -36,6 +36,7 @@ export const TopbarItemTitle = styled.div`
 `;
 
 export const TopbarLink = styled.div`
+  display: flex;
   ${(props: { href?: string }) =>
     props.href &&
     css`
