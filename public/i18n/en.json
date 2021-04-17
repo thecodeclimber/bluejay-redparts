@@ -155,7 +155,7 @@
   "INPUT_RATING_PLACEHOLDER": "Select rating value",
   "INPUT_REMEMBER_ME_LABEL": "Remember Me",
   "INPUT_SEARCH_LABEL": "Search for",
-  "INPUT_SEARCH_PLACEHOLDER": "Enter Keyword or Part Number",
+  "INPUT_SEARCH_PLACEHOLDER": "Search...",
   "INPUT_SEARCH_PLACEHOLDER_VEHICLE": "Search for {year}",
   "INPUT_SET_AS_MY_DEFAULT_ADDRESS_LABEL": "Set as my default address",
   "INPUT_SHIP_TO_DIFFERENT_ADDRESS_LABEL": "Ship to a different address?",
