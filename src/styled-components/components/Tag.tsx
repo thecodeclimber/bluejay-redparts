@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import ShareLinks from '~/components/shared/ShareLinks';
 
 export const Tags = styled.div`
@@ -13,7 +13,7 @@ export const TagList = styled.div`
   a {
     display: block;
     margin: 2px;
-    background: ${props => `${props.theme.colors.cardbgcolor}`};
+    background: ${(props) => `${props.theme.colors.cardbgcolor}`};
     padding: 4px 11px;
     color: inherit;
     border-radius: 1.5px;
@@ -23,15 +23,39 @@ export const TagList = styled.div`
     }
     &:hover {
       color: inherit;
-      background: ${props => `${props.theme.colors.tagBgHoverColor}`};
+      background: ${(props) => `${props.theme.colors.tagBgHoverColor}`};
     }
     &:active {
       transition-duration: 0s;
-      background: ${props => `${props.theme.colors.tagBgActiveColor}`};
+      background: ${(props) => `${props.theme.colors.tagBgActiveColor}`};
     }
   }
 `;
 
 export const ProductShareLinks = styled(ShareLinks)`
   margin-top: 18px;
+`;
+
+export const TagLink = styled.div`
+  ${(props: { selected?: boolean }) =>
+    props.selected &&
+    css`
+      a {
+        display: block;
+        margin: 2px;
+        padding: 4px 11px;
+        color: inherit;
+        border-radius: 1.5px;
+        transition: background 0.12s;
+        background-color: ${(props) =>
+          `${props.theme.colors.primary}`} !important;
+        color: ${(props) => `${props.theme.colors.white}`} !important;
+      }
+      &:hover {
+        background-color: ${(props) =>
+          `${props.theme.colors.primary}`} !important;
+        color: ${(props) => `${props.theme.colors.white}`} !important;
+        transition: none !important;
+      }
+    `}
 `;

@@ -10,6 +10,13 @@ import { prepareCategory } from '~/fake-server/endpoints/categories';
 import { products as dbProducts } from '~/fake-server/database/products';
 import { RangeFilterBuilder } from '~/fake-server/filters/range-filter-builder';
 import { shopCategoriesList } from '~/fake-server/database/categories';
+import { LenghtFilterBuilder } from '~/fake-server/filters/length-filter-builder';
+import { ThreadCoverageFilterBuilder } from '~/fake-server/filters/thread-coverage-filter-builder';
+import { ScrewSizeFilterBuilder } from '~/fake-server/filters/screw-size-filter-builder';
+import { DiameterFilterBuilder } from '~/fake-server/filters/diameter-filter-builder';
+import { ThreadLengthFilterBuilder } from '~/fake-server/filters/thread-length-filter-builder';
+import { ThreadSizeFilterBuilder } from '~/fake-server/filters/thread-size-filter-buider';
+
 import {
   IAddProductReviewData,
   IGetSearchSuggestionsOptions,
@@ -48,6 +55,12 @@ export function getProductsList(
   const filters: AbstractFilterBuilder[] = [
     new CategoryFilterBuilder('category', 'Categories'),
     new RangeFilterBuilder('price', 'Price'),
+    new LenghtFilterBuilder('length', 'length'),
+    new ThreadCoverageFilterBuilder('threadCoverage', 'threadCoverage'),
+    new DiameterFilterBuilder('diameter', 'diameter'),
+    new ScrewSizeFilterBuilder('screwSize', 'screwSize'),
+    new ThreadLengthFilterBuilder('threadlength', 'threadlength'),
+    new ThreadSizeFilterBuilder('threadSize', 'threadSize'),
   ];
 
   let products = dbProducts.slice(0);
@@ -61,12 +74,12 @@ export function getProductsList(
 
   // Apply filters to products list.
 
-  // products = products.filter((product) => {
-  //   return filters.reduce<boolean>(
-  //     (mr, filter) => mr && filter.test(product),
-  //     true
-  //   );
-  // });
+  products = products.filter((product) => {
+    return filters.reduce<boolean>(
+      (mr, filter) => mr && filter.test(product),
+      true
+    );
+  });
 
   const page = options?.page || 1;
   const limit = options?.limit || 16;
