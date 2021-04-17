@@ -6,15 +6,112 @@ import AppLink from '~/components/shared/AppLink';
 //info
 
 export const ProductCardStyledComponent = styled.div`
-  display: flex;
-  flex-direction: column;
-  position: relative;
   width: 100%;
-  background-color: #fff;
-  box-shadow: 0 1px 3px rgb(0 0 0 / 9%);
+  ${(props: { layout?: any }) => {
+    if (props.layout === 'grid') {
+      return css`
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-color: #fff;
+        box-shadow: 0 1px 3px rgb(0 0 0 / 9%);
+        &:after {
+          display: block;
+          position: static;
+          content: '';
+          order: 1;
+          flex-grow: 1;
+        }
+      `;
+    } else if (props.layout === 'table') {
+      return css`
+        background: transparent;
+        box-shadow: none;
+        display: flex;
+        align-items: center;
+        @media (min-width: 576px) {
+          padding-left: 16px;
+          padding-right: 0;
+        }
+        @media (max-width: 575.98px) {
+          background-color: #fff;
+          box-shadow: 0 1px 3px rgb(0 0 0 / 9%);
+          flex-wrap: wrap;
+          align-items: stretch;
+          padding-top: 0;
+          padding-bottom: 0;
+        }
+      `;
+    } else if (props.layout === 'list') {
+      return css`
+        display: flex;
+        position: relative;
+        background-color: #fff;
+        box-shadow: 0 1px 3px rgb(0 0 0 / 9%);
+        @media (max-width: 767.98px) {
+          flex-direction: column;
+        }
+      `;
+    }
+  }}
 `;
 
-export const ProductCardMetaTitle = styled.span``;
+export const ProductCardActionsList = styled.div`
+  ${(props: { layout?: any }) => {
+    if (props.layout === 'grid') {
+      return css`
+        direction: ltr;
+        right: 0;
+        position: absolute;
+        overflow: hidden;
+        z-index: 1;
+      `;
+    } else if (props.layout === 'table') {
+      return css`
+        direction: ltr;
+        right: 0;
+        position: absolute;
+        overflow: hidden;
+        z-index: 1;
+      `;
+    } else if (props.layout === 'list') {
+      return css`
+        @media (min-width: 576px);
+         {
+          padding: 0;
+          display: none;
+        }
+      `;
+    }
+  }}
+`;
+
+export const ProductCardAction = styled.div`
+  position: relative;
+  display: block;
+  padding: 8px;
+  margin: 0;
+  border: none;
+  transition: color 0.08s, background 0.08s;
+  background-color: #fff;
+  color: #ccc;
+
+  svg {
+    fill: currentColor;
+    display: block;
+    overflow: hidden;
+    vertical-align: middle;
+  }
+  &:hover {
+    background-color: #f2f2f2;
+    color: #4d4d4d;
+  }
+`;
+
+export const ProductCardImage = styled.div`
+  display: block;
+  position: relative;
+`;
 
 export const ProductCardMeta = styled.div`
   font-size: 12px;
@@ -215,72 +312,6 @@ export const ProductCardAddToCartIcon = styled.button`
   }
 `;
 
-export const ProductCardAction = styled.button`
-  position: relative;
-  display: block;
-  padding: 8px;
-  margin: 0;
-  border: none;
-  transition: color 0.08s, background 0.08s;
-  background-color: ${(props) => `${props.theme.colors.white}`};
-  color: ${(props) => `${props.theme.colors.plusiconcolor}`};
-  ${(props: { loading?: any }) =>
-    props.loading &&
-    css`
-      &,
-      &:hover {
-        cursor: default;
-        background: transparent;
-        color: transparent;
-        transition-duration: 0s;
-      }
-      svg {
-        opacity: 0;
-      }
-      &:before {
-        left: calc(50% - 8px);
-        top: calc(50% - 8px);
-        width: 16px;
-        height: 16px;
-        border-radius: 8px;
-        border-width: 2px;
-        border-color: ${(props) => `${props.theme.colors.borderleftcolor}`};
-        border-top-color: ${(props) =>
-          `${props.theme.colors.loaderborderactiontopcolor}`};
-        border-style: solid;
-        animation-name: loader-animation;
-        animation-duration: 0.5s;
-        animation-timing-function: linear;
-        animation-iteration-count: infinite;
-        position: absolute;
-        display: block;
-        content: '';
-      }
-    `}
-  &:first-child {
-    border-top-right-radius: 2.5px;
-  }
-  &:last-child {
-    border-bottom-left-radius: 2px;
-  }
-  svg {
-    fill: currentColor;
-    display: block;
-  }
-  &:focus {
-    outline: none;
-  }
-  &:active {
-    transition-duration: 0s;
-    background-color: ${(props) => `${props.theme.colors.bordercolor}`};
-    color: ${(props) => `${props.theme.colors.selectarrowcolor}`};
-  }
-  &:hover {
-    background-color: ${(props) => `${props.theme.colors.tagBgColor}`};
-    color: ${(props) => `${props.theme.colors.selectarrowcolor}`};
-  }
-`;
-
 export const ProductCardActionQuickView = styled(ProductCardAction)``;
 
 export const ProductCardActionWishList = styled(ProductCardAction)`
@@ -291,13 +322,6 @@ export const ProductCardActionWishList = styled(ProductCardAction)`
 `;
 
 export const ProductCardActionCompare = styled(ProductCardActionWishList)``;
-
-export const ProductCardActionsList = styled.div`
-  position: absolute;
-  overflow: hidden;
-  z-index: 1;
-  right: 0;
-`;
 
 export const ProductCardLayout = styled.div`
   &:hover,
@@ -322,10 +346,6 @@ export const ProductCardLayout = styled.div`
           background: ${(props) => `${props.theme.colors.selectarrowcolor}`};
         }
       }
-    }
-    ${ProductCardActionWishList} {
-      transform: none;
-      opacity: 1;
     }
   }
 `;

@@ -4,7 +4,12 @@ import React from 'react';
 import classNames from 'classnames';
 import { FormattedMessage, useIntl } from 'react-intl';
 // application
-import { ProductCardStyledComponent } from '~/styled-components/mixin/ProductCard';
+import {
+  ProductCardStyledComponent,
+  ProductCardActionsList,
+  ProductCardAction,
+  ProductCardImage,
+} from '~/styled-components/mixin/ProductCard';
 import AppImage from '~/components/shared/AppImage';
 import AppLink from '~/components/shared/AppLink';
 import AsyncAction from '~/components/shared/AsyncAction';
@@ -27,7 +32,7 @@ export type IProductCardElement =
   | 'buttons'
   | 'list-buttons';
 
-export type IProductCardLayout = 'grid' | 'list' | 'table' | 'horizontal';
+export type IProductCardLayout = 'grid' | 'list' | 'table' | 'horizontal' | any;
 
 interface Props extends React.HTMLAttributes<HTMLElement> {
   product: IProduct;
@@ -51,24 +56,25 @@ function ProductCard(props: Props) {
   const rootClasses = classNames('product-card', className);
 
   return (
-    <ProductCardStyledComponent className={rootClasses} {...rootProps}>
-      <div className="product-card__actions-list">
+    <ProductCardStyledComponent
+      className={rootClasses}
+      layout={layout}
+      {...rootProps}
+    >
+      <ProductCardActionsList layout={layout}>
         <AsyncAction
           action={() => showQuickview()}
           render={({ run, loading }) => (
-            <button
-              type="button"
-              className={classNames(
-                'product-card__action product-card__action--quickview',
-                {
-                  'product-card__action--loading': loading,
-                }
-              )}
+            <ProductCardAction
+              as="button"
+              className={classNames('product-card__action--quickview', {
+                'product-card__action--loading': loading,
+              })}
               aria-label={intl.formatMessage({ id: 'BUTTON_QUICKVIEW' })}
               onClick={run}
             >
               <Quickview16Svg />
-            </button>
+            </ProductCardAction>
           )}
         />
 
@@ -77,46 +83,40 @@ function ProductCard(props: Props) {
             <AsyncAction
               action={() => addToWishlist()}
               render={({ run, loading }) => (
-                <button
-                  type="button"
-                  className={classNames(
-                    'product-card__action product-card__action--wishlist',
-                    {
-                      'product-card__action--loading': loading,
-                    }
-                  )}
+                <ProductCardAction
+                  as="button"
+                  className={classNames('product-card__action--wishlist', {
+                    'product-card__action--loading': loading,
+                  })}
                   aria-label={intl.formatMessage({
                     id: 'BUTTON_ADD_TO_WISHLIST',
                   })}
                   onClick={run}
                 >
                   <Wishlist16Svg />
-                </button>
+                </ProductCardAction>
               )}
             />
             <AsyncAction
               action={() => addToCompare()}
               render={({ run, loading }) => (
-                <button
-                  type="button"
-                  className={classNames(
-                    'product-card__action product-card__action--compare',
-                    {
-                      'product-card__action--loading': loading,
-                    }
-                  )}
+                <ProductCardAction
+                  as="button"
+                  className={classNames('product-card__action--compare', {
+                    'product-card__action--loading': loading,
+                  })}
                   aria-label={intl.formatMessage({
                     id: 'BUTTON_ADD_TO_COMPARE',
                   })}
                   onClick={run}
                 >
                   <Compare16Svg />
-                </button>
+                </ProductCardAction>
               )}
             />
           </React.Fragment>
         )}
-      </div>
+      </ProductCardActionsList>
 
       <div className="product-card__image">
         <div className="image image--type--product">
