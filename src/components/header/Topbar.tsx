@@ -60,13 +60,13 @@ function Topbar(props: Props) {
       {layout === 'classic' && (
         <React.Fragment>
           <TopbarItemText>
-            <TopbarLink as="a" href={url.pageAboutUs()}>
-              <FormattedMessage id="LINK_ABOUT_US" />
+            <TopbarLink as="a" href={url.pageContactUs()}>
+              <FormattedMessage id="LINK_CONTACTS" />
             </TopbarLink>
           </TopbarItemText>
           <TopbarItemText>
-            <TopbarLink as="a" href={url.pageContactUs()}>
-              <FormattedMessage id="LINK_CONTACTS" />
+            <TopbarLink as="a" href="#!">
+              <FormattedMessage id="LINK_TRACK_ORDER" />
             </TopbarLink>
           </TopbarItemText>
           <TopbarItemText>
@@ -74,16 +74,7 @@ function Topbar(props: Props) {
               <FormattedMessage id="LINK_STORE_LOCATION" />
             </TopbarLink>
           </TopbarItemText>
-          <TopbarItemText>
-            <TopbarLink as="a" href={url.trackOrder()}>
-              <FormattedMessage id="LINK_TRACK_ORDER" />
-            </TopbarLink>
-          </TopbarItemText>
-          <TopbarItemText>
-            <TopbarLink as="a" href={url.blog()}>
-              <FormattedMessage id="LINK_BLOG" />
-            </TopbarLink>
-          </TopbarItemText>
+
           <TopbarItemSpring />
         </React.Fragment>
       )}
