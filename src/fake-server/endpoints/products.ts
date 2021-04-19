@@ -1,20 +1,22 @@
 // application
 import { AbstractFilterBuilder } from '~/fake-server/filters/abstract-filter-builder';
 import { CategoryFilterBuilder } from '~/fake-server/filters/category-filter-builder';
-import { CheckFilterBuilder } from '~/fake-server/filters/check-filter-builder';
 import { clone, delayResponse, error } from '~/fake-server/utils';
-import { ColorFilterBuilder } from '~/fake-server/filters/color-filter-builder';
 import { getNextReviewId, reviews } from '~/fake-server/database/reviews';
 import { IFilterValues, IListOptions, IReviewsList } from '~/interfaces/list';
 import { IProductsList, IProduct } from '~/interfaces/product';
 import { IReview } from '~/interfaces/review';
 import { prepareCategory } from '~/fake-server/endpoints/categories';
 import { products as dbProducts } from '~/fake-server/database/products';
-import { RadioFilterBuilder } from '~/fake-server/filters/radio-filter-builder';
 import { RangeFilterBuilder } from '~/fake-server/filters/range-filter-builder';
-import { RatingFilterBuilder } from '~/fake-server/filters/rating-filter-builder';
 import { shopCategoriesList } from '~/fake-server/database/categories';
-import { VehicleFilterBuilder } from '~/fake-server/filters/vehicle-filter-builder';
+import { LenghtFilterBuilder } from '~/fake-server/filters/length-filter-builder';
+import { ThreadCoverageFilterBuilder } from '~/fake-server/filters/thread-coverage-filter-builder';
+import { ScrewSizeFilterBuilder } from '~/fake-server/filters/screw-size-filter-builder';
+import { DiameterFilterBuilder } from '~/fake-server/filters/diameter-filter-builder';
+import { ThreadLengthFilterBuilder } from '~/fake-server/filters/thread-length-filter-builder';
+import { ThreadSizeFilterBuilder } from '~/fake-server/filters/thread-size-filter-buider';
+
 import {
   IAddProductReviewData,
   IGetSearchSuggestionsOptions,
@@ -52,12 +54,13 @@ export function getProductsList(
 ): Promise<IProductsList> {
   const filters: AbstractFilterBuilder[] = [
     new CategoryFilterBuilder('category', 'Categories'),
-    new VehicleFilterBuilder('vehicle', 'Vehicle'),
     new RangeFilterBuilder('price', 'Price'),
-    new CheckFilterBuilder('brand', 'Brand'),
-    new RadioFilterBuilder('discount', 'With Discount'),
-    new RatingFilterBuilder('rating', 'Rating'),
-    new ColorFilterBuilder('color', 'Color'),
+    new LenghtFilterBuilder('length', 'length'),
+    new ThreadCoverageFilterBuilder('threadCoverage', 'threadCoverage'),
+    new DiameterFilterBuilder('diameter', 'diameter'),
+    new ScrewSizeFilterBuilder('screwSize', 'screwSize'),
+    new ThreadLengthFilterBuilder('threadlength', 'threadlength'),
+    new ThreadSizeFilterBuilder('threadSize', 'threadSize'),
   ];
 
   let products = dbProducts.slice(0);
@@ -71,12 +74,12 @@ export function getProductsList(
 
   // Apply filters to products list.
 
-  // products = products.filter((product) => {
-  //   return filters.reduce<boolean>(
-  //     (mr, filter) => mr && filter.test(product),
-  //     true
-  //   );
-  // });
+  products = products.filter((product) => {
+    return filters.reduce<boolean>(
+      (mr, filter) => mr && filter.test(product),
+      true
+    );
+  });
 
   const page = options?.page || 1;
   const limit = options?.limit || 16;

@@ -5,31 +5,64 @@ export const NoGutters = styled.div`
   margin-left: 0;
 `;
 
-const BlockSplitItemContent = css`
-  width: calc(100% - 292px);
-`;
-export const BlockSplitItem = styled.div`
+export const BlockSplitItem = styled.div``;
+
+export const BlockSplitItemContent = styled.div`
   @media (min-width: ${(props) =>
       `${props.theme.breakPoints.md}`}px) and (max-width: ${(props) =>
       `${props.theme.breakPoints.xl}`}px) {
     margin-left: 32px;
+    direction: ltr;
   }
-  ${(props: { itemContent?: boolean }) =>
-    props.itemContent &&
-    css`
-      ${BlockSplitItemContent}
-    `};
+  @media (min-width: ${(props) => `${props.theme.breakPoints.xl}`}px) {
+    margin-left: 40px;
+    direction: ltr;
+  }
+
+  @media (max-width: ${(props) => `${props.theme.breakPoints.md}`}px) {
+    width: 100%;
+  }
+  ${BlockSplitItem}
 `;
 
 export const BlockSplitItemSidebar = styled.div`
-  @media (min-width: ${(props) =>
-      `${props.theme.breakPoints.md}`}px) and (max-width: ${(props) =>
-      `${props.theme.breakPoints.xl}`}px) {
-    width: 260px;
-  }
   @media (max-width: ${(props) => `${props.theme.breakPoints.md}`}px) {
     width: 100%;
     order: 1;
     margin-top: 52px;
   }
+  ${BlockSplitItem}
+`;
+
+export const BlockSplitHasSidebar = styled.div`
+  ${(props: { hassidebar?: boolean }) =>
+    props.hassidebar &&
+    css`
+      @media (min-width: ${(props) => `${props.theme.breakPoints.xl}`}px) {
+        ${BlockSplitItemSidebar} {
+          width: 270px;
+        }
+        ${BlockSplitItem} + ${BlockSplitItem} {
+          direction: ltr;
+          margin-left: 40px;
+        }
+        ${BlockSplitItemContent} {
+          width: calc(100% - 310px);
+        }
+      }
+      @media (min-width: ${(props) =>
+          `${props.theme.breakPoints.md}`}px) and (max-width: ${(props) =>
+          `${props.theme.breakPoints.xl}`}px) {
+        ${BlockSplitItemSidebar} {
+          width: 260px;
+        }
+        ${BlockSplitItem} + ${BlockSplitItem} {
+          direction: ltr;
+          margin-left: 32px;
+        }
+        ${BlockSplitItemContent} {
+          width: calc(100% - 292px);
+        }
+      }
+    `};
 `;

@@ -378,14 +378,11 @@ export function Search() {
                         />
                         <VehiclesListItemInfo>
                           <VehiclesListItemName>
-                            {`${vehicle.year} ${vehicle.make} ${vehicle.model}`}
+                            {`${
+                              vehicle.year.toString().charAt(0).toUpperCase() +
+                              vehicle.year.toString().slice(1)
+                            }`}
                           </VehiclesListItemName>
-                          <VehiclesListItemDetails>
-                            <FormattedMessage
-                              id="TEXT_VEHICLE_ENGINE"
-                              values={{ engine: vehicle.engine }}
-                            />
-                          </VehiclesListItemDetails>
                         </VehiclesListItemInfo>
                         <AsyncAction
                           action={() => garageRemoveItem(vehicle.id)}
@@ -407,64 +404,6 @@ export function Search() {
                   ))}
                 </VehiclesListBody>
               </div>
-
-              <VehiclePickerActions>
-                <button
-                  type="button"
-                  className="btn btn-primary btn-sm"
-                  onClick={() => setVehiclePanel('form')}
-                >
-                  <FormattedMessage id="BUTTON_ADD_VEHICLE" />
-                </button>
-              </VehiclePickerActions>
-            </VehiclePickerPanelBody>
-          </VehiclePickerPanelActive>
-
-          <VehiclePickerPanelActive
-            isActive={vehiclePanel === 'form' || !hasVehicles}
-          >
-            <VehiclePickerPanelBody>
-              <VehicleForm
-                location="search"
-                onVehicleChange={handleVehicleChange}
-              />
-              <VehiclePickerActions>
-                {hasVehicles && (
-                  <SearchCarSelectorLink>
-                    {/* eslint-disable-next-line */}
-                    <AppLink
-                      anchor
-                      onClick={(event) => {
-                        event.preventDefault();
-
-                        setVehiclePanel('list');
-                      }}
-                    >
-                      <FormattedMessage id="BUTTON_BACK_TO_LIST" />
-                    </AppLink>
-                  </SearchCarSelectorLink>
-                )}
-
-                <AsyncAction
-                  action={() =>
-                    addVehicle
-                      ? garageAddItem(addVehicle.id)
-                      : Promise.resolve()
-                  }
-                  render={({ run, loading }) => (
-                    <button
-                      type="button"
-                      className={classNames('btn', 'btn-primary', 'btn-sm', {
-                        'btn-loading': loading,
-                      })}
-                      disabled={addVehicle === null}
-                      onClick={run}
-                    >
-                      <FormattedMessage id="BUTTON_ADD_VEHICLE" />
-                    </button>
-                  )}
-                />
-              </VehiclePickerActions>
             </VehiclePickerPanelBody>
           </VehiclePickerPanelActive>
         </SearchDropdown>

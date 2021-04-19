@@ -136,10 +136,7 @@ function MobileHeader() {
             <MobileLogo />
           </MobileHeaderLogo>
 
-          <MobileHeaderSearch
-            isOpen={searchIsOpen}
-            ref={searchFormRef}
-          >
+          <MobileHeaderSearch isOpen={searchIsOpen} ref={searchFormRef}>
             <MobileSearchBody onSubmit={onSearchSubmit}>
               <label className="sr-only" htmlFor="mobile-site-search">
                 <FormattedMessage id="INPUT_SEARCH_LABEL" />
