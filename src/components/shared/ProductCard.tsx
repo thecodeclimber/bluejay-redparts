@@ -9,7 +9,10 @@ import {
   ProductCardActionsList,
   ProductCardAction,
   ProductCardImage,
+  ProductCardMeta,
+  ProductCardName,
 } from '~/styled-components/mixin/ProductCard';
+import { ImageTag, ImageBody } from '~/styled-components/components/Image';
 import AppImage from '~/components/shared/AppImage';
 import AppLink from '~/components/shared/AppLink';
 import AsyncAction from '~/components/shared/AsyncAction';
@@ -118,13 +121,13 @@ function ProductCard(props: Props) {
         )}
       </ProductCardActionsList>
 
-      <div className="product-card__image">
+      <ProductCardImage className="product-card__image">
         <div className="image image--type--product">
-          <AppLink href={url.product(product)} className="image__body">
+          <ImageBody as={AppLink} href={url.product(product)}>
             {product.images && (
-              <AppImage className="image__tag" src={product.images[0]} />
+              <ImageTag as={AppImage} src={product.images[0]} />
             )}
-          </AppLink>
+          </ImageBody>
         </div>
 
         {!exclude.includes('status-badge') && (
@@ -133,20 +136,20 @@ function ProductCard(props: Props) {
             product={product}
           />
         )}
-      </div>
+      </ProductCardImage>
 
       <div className="product-card__info">
         {!exclude.includes('meta') && (
-          <div className="product-card__meta">
+          <ProductCardMeta>
             <span className="product-card__meta-title">
               <FormattedMessage id="TEXT_SKU" />
               {': '}
             </span>
             {product.sku}
-          </div>
+          </ProductCardMeta>
         )}
 
-        <div className="product-card__name">
+        <ProductCardName>
           {product.badges && product.badges.length > 0 && (
             <div className="product-card__badges">
               {product.badges.map((badge) => (
@@ -157,7 +160,7 @@ function ProductCard(props: Props) {
             </div>
           )}
           <AppLink href={url.product(product)}>{product.name}</AppLink>
-        </div>
+        </ProductCardName>
 
         <div className="product-card__rating">
           <Rating

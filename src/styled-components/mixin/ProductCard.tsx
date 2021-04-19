@@ -109,8 +109,43 @@ export const ProductCardAction = styled.div`
 `;
 
 export const ProductCardImage = styled.div`
-  display: block;
-  position: relative;
+  ${(props: { layout?: any }) => {
+    if (props.layout === 'grid') {
+      return css`
+        display: block;
+        position: relative;
+      `;
+    } else if (props.layout === 'table') {
+      return css`
+        direction: ltr;
+        right: 0;
+        position: absolute;
+        overflow: hidden;
+        z-index: 1;
+      `;
+    } else if (props.layout === 'list') {
+      return css`
+        @media (min-width: 768px);
+         {
+          padding: 16px 24px;
+          width: 260px;
+          flex-shrink: 0;
+          display: block;
+        }
+        @media (min-width: 768px) and (max-width: 1199.98px) {
+          width: 192px;
+          padding-left: 16px;
+          padding-right: 16px;
+        }
+        @media (max-width: 767.98px) {
+          padding: 20px;
+          width: 100%;
+          display: flex;
+          position: relative;
+        }
+      `;
+    }
+  }}
 `;
 
 export const ProductCardMeta = styled.div`
@@ -118,6 +153,47 @@ export const ProductCardMeta = styled.div`
   line-height: 1;
   color: ${(props) => `${props.theme.colors.selectdisabledfontcolor}`};
   padding: 6px 16px;
+`;
+
+export const ProductCardName = styled.div`
+  ${(props: { layout?: any }) => {
+    if (props.layout === 'grid') {
+      return css`
+        padding: 0 16px;
+        line-height: 1.1875;
+      `;
+    } else if (props.layout === 'table') {
+      return css`
+        @media (min-width: 1200px) {
+          direction: ltr;
+          border-left: 1px solid #ebebeb;
+          padding: 0 18px;
+        }
+        @media (min-width: 576px) {
+          flex-grow: 1;
+          display: flex;
+          align-items: center;
+          font-size: 15px;
+          line-height: 18px;
+        }
+        @media (min-width: 576px) and (max-width: 1199.98px) {
+          padding: 0;
+        }
+        @media (max-width: 575.98px) {
+          line-height: 20px;
+          margin-top: 6px;
+        }
+      `;
+    } else if (props.layout === 'list') {
+      return css``;
+    }
+  }}
+  a {
+    color: inherit;
+  }
+  a:hover {
+    text-decoration: none;
+  }
 `;
 
 export const ProductCardbadges = styled.div`
@@ -236,13 +312,6 @@ export const ImageTag = styled(AppImage)`
   width: 100%;
   height: 100%;
   object-fit: scale-down;
-`;
-
-export const ImageBody = styled(AppLink)`
-  display: block;
-  position: relative;
-  width: 100%;
-  padding-bottom: 100%;
 `;
 
 export const ImageTypeProduct = styled.div``;
