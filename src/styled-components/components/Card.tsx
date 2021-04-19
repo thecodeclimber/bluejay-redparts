@@ -1,7 +1,131 @@
 import styled, { css } from 'styled-components';
 
+export const CardStyledComponent = styled.div`
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 9%);
+  border: none;
+  border-radius: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+`;
+
+export const CardHeader = styled.div`
+  background: transparent;
+  padding: 1.25rem 2rem;
+  border: none;
+  margin-bottom: 0;
+  &:first-child {
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+  }
+`;
+
+export const CardDivider = styled.div`
+  height: 1px;
+  background: #ebebeb;
+`;
+
+export const CardTable = styled.div`
+  font-size: 15px;
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  table {
+    width: 100%;
+    min-width: 500px;
+    direction: ltr;
+    text-align: start;
+  }
+  thead th {
+    border-bottom: 1px solid map_get($card-scheme, divider);
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 10px 12px;
+  }
+  tbody,
+  tfoot {
+    th,
+    td {
+      padding: 12px 12px;
+    }
+  }
+  tfoot {
+    th,
+    td {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+  }
+  tbody + tbody tr,
+  tbody + tfoot tr,
+  tbody tr + tr {
+    th,
+    td {
+      border-top: 1px solid map_get($card-scheme, divider);
+    }
+  }
+  tbody,
+  tfoot {
+    tr:hover > * {
+      background-color: #f7f7f7;
+    }
+  }
+  th,
+  td {
+    direction: ltr;
+    &:first-child {
+      padding-left: 2rem;
+    }
+    &:last-child {
+      padding-right: 2rem;
+    }
+  }
+
+  .card-table__body--merge-rows {
+    th,
+    td {
+      padding-top: 3px;
+      padding-bottom: 3px;
+    }
+    tr:first-child {
+      th,
+      td {
+        padding-top: 12px;
+      }
+    }
+    tr:last-child {
+      th,
+      td {
+        padding-bottom: 12px;
+      }
+    }
+
+    tr + tr {
+      th,
+      td {
+        border-top: none;
+      }
+    }
+  }
+`;
+
 const CardTitleLg = css`
   font-size: 28px;
+`;
+
+export const CardFooter = styled.div`
+  border-radius: 0;
+  background: transparent;
+  padding: 1.25rem 2rem;
+  border: none;
+  &:last-child {
+    border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+  }
 `;
 
 export const CardLoader = styled.div`
