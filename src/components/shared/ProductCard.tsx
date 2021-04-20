@@ -4,39 +4,33 @@ import React from 'react';
 import classNames from 'classnames';
 import { FormattedMessage, useIntl } from 'react-intl';
 // application
+import {
+  ProductCardStyledComponent,
+  ProductCardActionsList,
+  ProductCardAction,
+  ProductCardImage,
+  ProductCardMeta,
+  ProductCardName,
+  ProductCardRating,
+  ProductCardRatingLabel,
+  ProductCardFeatures,
+  ProductCardFooter,
+  ProductCardPrices,
+  ProductCardAddtocartIcon,
+} from '~/styled-components/mixin/ProductCard';
+import { ImageTag, ImageBody } from '~/styled-components/components/Image';
+import AppImage from '~/components/shared/AppImage';
 import AppLink from '~/components/shared/AppLink';
 import AsyncAction from '~/components/shared/AsyncAction';
 import CompatibilityStatusBadge from '~/components/shared/CompatibilityStatusBadge';
 import CurrencyFormat from '~/components/shared/CurrencyFormat';
+import Rating from '~/components/shared/Rating';
 import url from '~/services/url';
 import { IProduct } from '~/interfaces/product';
 import { useCartAddItem } from '~/store/cart/cartHooks';
 import { useCompareAddItem } from '~/store/compare/compareHooks';
 import { useQuickviewOpen } from '~/store/quickview/quickviewHooks';
 import { useWishlistAddItem } from '~/store/wishlist/wishlistHooks';
-import {
-  ProductCardLayout,
-  ProductCardActionsList,
-  ProductCardActionQuickView,
-  ProductCardActionWishList,
-  ProductCardActionCompare,
-  ProductCardMeta,
-  ProductCardbadges,
-  TagBadge,
-  ProductCardRatingLabel,
-  ProductCardRatingStars,
-  ProductCardFeatures,
-  ProductCardPriceOld,
-  ProductCardPriceNew,
-  CurrentCardProductPrice,
-  ImageTag,
-  ImageBody,
-  ImageTypeProduct,
-  ProductCardAddToCartIcon,
-  ProductCardAddToCartFull,
-  ProductCardWishList,
-  ProductCardCompare,
-} from '~/styled-components/mixin/ProductCard';
 import { Cart20Svg, Compare16Svg, Quickview16Svg, Wishlist16Svg } from '~/svg';
 
 export type IProductCardElement =
@@ -47,7 +41,7 @@ export type IProductCardElement =
   | 'buttons'
   | 'list-buttons';
 
-export type IProductCardLayout = 'grid' | 'list' | 'table' | 'horizontal';
+export type IProductCardLayout = 'grid' | 'list' | 'table' | 'horizontal' | any;
 
 interface Props extends React.HTMLAttributes<HTMLElement> {
   product: IProduct;
@@ -68,24 +62,30 @@ function ProductCard(props: Props) {
   const addToWishlist = () => wishlistAddItem(product);
   const addToCompare = () => compareAddItem(product);
 
-  const rootClasses = classNames('product-card', className, {
-    [`product-card--layout--${layout}`]: layout,
-  });
+  const rootClasses = classNames('product-card', className);
 
   return (
-    <ProductCardLayout className={rootClasses} {...rootProps}>
-      <ProductCardActionsList>
+    <ProductCardStyledComponent
+      className={rootClasses}
+      layout={layout}
+      {...rootProps}
+    >
+      <ProductCardActionsList
+        layout={layout === 'grid-with-features' ? 'grid' : layout}
+      >
         <AsyncAction
           action={() => showQuickview()}
           render={({ run, loading }) => (
-            <ProductCardActionQuickView
-              loading={loading ? 1 : 0}
-              type="button"
+            <ProductCardAction
+              as="button"
+              className={classNames('product-card__action--quickview', {
+                'product-card__action--loading': loading,
+              })}
               aria-label={intl.formatMessage({ id: 'BUTTON_QUICKVIEW' })}
               onClick={run}
             >
               <Quickview16Svg />
-            </ProductCardActionQuickView>
+            </ProductCardAction>
           )}
         />
 
@@ -94,43 +94,49 @@ function ProductCard(props: Props) {
             <AsyncAction
               action={() => addToWishlist()}
               render={({ run, loading }) => (
-                <ProductCardActionWishList
-                  loading={loading ? 1 : 0}
-                  type="button"
+                <ProductCardAction
+                  as="button"
+                  className={classNames('product-card__action--wishlist', {
+                    'product-card__action--loading': loading,
+                  })}
                   aria-label={intl.formatMessage({
                     id: 'BUTTON_ADD_TO_WISHLIST',
                   })}
                   onClick={run}
                 >
                   <Wishlist16Svg />
-                </ProductCardActionWishList>
+                </ProductCardAction>
               )}
             />
             <AsyncAction
               action={() => addToCompare()}
               render={({ run, loading }) => (
-                <ProductCardActionCompare
-                  loading={loading ? 1 : 0}
-                  type="button"
+                <ProductCardAction
+                  as="button"
+                  className={classNames('product-card__action--compare', {
+                    'product-card__action--loading': loading,
+                  })}
                   aria-label={intl.formatMessage({
                     id: 'BUTTON_ADD_TO_COMPARE',
                   })}
                   onClick={run}
                 >
                   <Compare16Svg />
-                </ProductCardActionCompare>
+                </ProductCardAction>
               )}
             />
           </React.Fragment>
         )}
       </ProductCardActionsList>
 
-      <div className="product-card__image">
-        <ImageTypeProduct>
-          <ImageBody href={url.product(product)}>
-            {product.images && <ImageTag src={product.images[0]} />}
+      <ProductCardImage className="product-card__image">
+        <div className="image image--type--product">
+          <ImageBody as={AppLink} href={url.product(product)}>
+            {product.images && (
+              <ImageTag as={AppImage} src={product.images[0]} />
+            )}
           </ImageBody>
-        </ImageTypeProduct>
+        </div>
 
         {!exclude.includes('status-badge') && (
           <CompatibilityStatusBadge
@@ -138,12 +144,12 @@ function ProductCard(props: Props) {
             product={product}
           />
         )}
-      </div>
+      </ProductCardImage>
 
       <div className="product-card__info">
         {!exclude.includes('meta') && (
           <ProductCardMeta>
-            <span>
+            <span className="product-card__meta-title">
               <FormattedMessage id="TEXT_SKU" />
               {': '}
             </span>
@@ -151,22 +157,31 @@ function ProductCard(props: Props) {
           </ProductCardMeta>
         )}
 
-        <div className="product-card__name">
+        <ProductCardName
+          layout={layout === 'grid-with-features' ? 'grid' : layout}
+        >
           {product.badges && product.badges.length > 0 && (
-            <ProductCardbadges>
+            <div className="product-card__badges">
               {product.badges.map((badge) => (
-                <TagBadge badge={badge} key={badge}>
+                <div key={badge} className={`tag-badge tag-badge--${badge}`}>
                   {badge}
-                </TagBadge>
+                </div>
               ))}
-            </ProductCardbadges>
+            </div>
           )}
           <AppLink href={url.product(product)}>{product.name}</AppLink>
-        </div>
+        </ProductCardName>
 
-        <div className="product-card__rating">
-          <ProductCardRatingStars value={product.rating || 0} />
-          <ProductCardRatingLabel>
+        <ProductCardRating
+          layout={layout === 'grid-with-features' ? 'grid' : layout}
+        >
+          <Rating
+            className="product-card__rating-stars"
+            value={product.rating || 0}
+          />
+          <ProductCardRatingLabel
+            layout={layout === 'grid-with-features' ? 'grid' : layout}
+          >
             <FormattedMessage
               id="TEXT_RATING_LABEL"
               values={{
@@ -175,10 +190,10 @@ function ProductCard(props: Props) {
               }}
             />
           </ProductCardRatingLabel>
-        </div>
+        </ProductCardRating>
 
         {!exclude.includes('features') && featuredAttributes.length > 0 && (
-          <ProductCardFeatures>
+          <ProductCardFeatures layout={layout}>
             <ul>
               {featuredAttributes.map((attribute, index) => (
                 <li key={index}>
@@ -192,37 +207,42 @@ function ProductCard(props: Props) {
         )}
       </div>
 
-      <div className="product-card__footer">
-        <div className="product-card__prices">
+      <ProductCardFooter
+        layout={layout === 'grid-with-features' ? 'grid' : layout}
+      >
+        <ProductCardPrices layout={layout}>
           {product.compareAtPrice !== null && (
             <React.Fragment>
-              <ProductCardPriceNew>
+              <ProductCardPrices price={'new'}>
                 <CurrencyFormat value={product.price} />
-              </ProductCardPriceNew>
-              <ProductCardPriceOld>
+              </ProductCardPrices>
+              <ProductCardPrices price={'old'}>
                 <CurrencyFormat value={product.compareAtPrice} />
-              </ProductCardPriceOld>
+              </ProductCardPrices>
             </React.Fragment>
           )}
           {product.compareAtPrice === null && (
-            <CurrentCardProductPrice>
+            <ProductCardPrices price={'current'}>
               <CurrencyFormat value={product.price} />
-            </CurrentCardProductPrice>
+            </ProductCardPrices>
           )}
-        </div>
+        </ProductCardPrices>
         {!exclude.includes('buttons') && (
           <React.Fragment>
             <AsyncAction
               action={() => cartAddItem(product)}
               render={({ run, loading }) => (
-                <ProductCardAddToCartIcon
-                  loading={loading ? 1 : 0}
+                <ProductCardAddtocartIcon
+                  as={'button'}
                   type="button"
+                  className={classNames('product-card__addtocart-icon', {
+                    'product-card__addtocart-icon--loading': loading,
+                  })}
                   aria-label={intl.formatMessage({ id: 'BUTTON_ADD_TO_CART' })}
                   onClick={run}
                 >
                   <Cart20Svg />
-                </ProductCardAddToCartIcon>
+                </ProductCardAddtocartIcon>
               )}
             />
             {!exclude.includes('list-buttons') && (
@@ -230,51 +250,57 @@ function ProductCard(props: Props) {
                 <AsyncAction
                   action={() => cartAddItem(product)}
                   render={({ run, loading }) => (
-                    <ProductCardAddToCartFull
-                      loading={loading ? 1 : 0}
+                    <button
                       type="button"
+                      className={classNames('product-card__addtocart-full', {
+                        'product-card__addtocart-full--loading': loading,
+                      })}
                       onClick={run}
                     >
                       <FormattedMessage id="BUTTON_ADD_TO_CART" />
-                    </ProductCardAddToCartFull>
+                    </button>
                   )}
                 />
                 <AsyncAction
                   action={() => addToWishlist()}
                   render={({ run, loading }) => (
-                    <ProductCardWishList
-                      loading={loading ? 1 : 0}
+                    <button
                       type="button"
+                      className={classNames('product-card__wishlist', {
+                        'product-card__wishlist--loading': loading,
+                      })}
                       onClick={run}
                     >
                       <Wishlist16Svg />
                       <span>
                         <FormattedMessage id="BUTTON_ADD_TO_WISHLIST" />
                       </span>
-                    </ProductCardWishList>
+                    </button>
                   )}
                 />
                 <AsyncAction
                   action={() => addToCompare()}
                   render={({ run, loading }) => (
-                    <ProductCardCompare
-                      loading={loading ? 1 : 0}
+                    <button
                       type="button"
+                      className={classNames('product-card__compare', {
+                        'product-card__compare--loading': loading,
+                      })}
                       onClick={run}
                     >
                       <Compare16Svg />
                       <span>
                         <FormattedMessage id="BUTTON_ADD_TO_COMPARE" />
                       </span>
-                    </ProductCardCompare>
+                    </button>
                   )}
                 />
               </React.Fragment>
             )}
           </React.Fragment>
         )}
-      </div>
-    </ProductCardLayout>
+      </ProductCardFooter>
+    </ProductCardStyledComponent>
   );
 }
 
