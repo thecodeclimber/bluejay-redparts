@@ -3,6 +3,23 @@ import React, { useEffect, useState } from 'react';
 // third-party
 import { FormattedMessage, useIntl } from 'react-intl';
 // application
+import {
+  CardHeader,
+  CardDivider,
+  CardTable,
+} from '~/styled-components/components/Card';
+import {
+  Dashboard,
+  DashboardOrders,
+  DashboardProfile,
+  DashboardAddress,
+} from '~/styled-components/pages/Dashboard';
+import {
+  ProfileCardBody,
+  ProfileCardAvatar,
+  ProfileCardName,
+  ProfileCardEmail,
+} from '~/styled-components/pages/ProfileCard';
 import AccountLayout from '~/components/account/AccountLayout';
 import AddressCard from '~/components/shared/AddressCard';
 import AppImage from '~/components/shared/AppImage';
@@ -16,142 +33,152 @@ import { IOrder } from '~/interfaces/order';
 import { useUser } from '~/store/user/userHooks';
 
 function Page() {
-    const intl = useIntl();
-    const user = useUser();
-    const [address, setAddress] = useState<IAddress | null>(null);
-    const [orders, setOrders] = useState<IOrder[]>([]);
+  const intl = useIntl();
+  const user = useUser();
+  const [address, setAddress] = useState<IAddress | null>(null);
+  const [orders, setOrders] = useState<IOrder[]>([]);
 
-    useEffect(() => {
-        if (user) {
-            accountApi.getDefaultAddress().then(setAddress);
-            accountApi.getOrdersList({ limit: 3 }).then((list) => {
-                setOrders(list.items);
-            });
-        } else {
-            setAddress(null);
-            setOrders([]);
-        }
-    }, [user]);
-
-    if (!user) {
-        return null;
+  useEffect(() => {
+    if (user) {
+      accountApi.getDefaultAddress().then(setAddress);
+      accountApi.getOrdersList({ limit: 3 }).then((list) => {
+        setOrders(list.items);
+      });
+    } else {
+      setAddress(null);
+      setOrders([]);
     }
+  }, [user]);
 
-    return (
-        <div className="dashboard">
-            <PageTitle>{intl.formatMessage({ id: 'HEADER_DASHBOARD' })}</PageTitle>
+  if (!user) {
+    return null;
+  }
 
-            <div className="dashboard__profile card profile-card">
-                <div className="card-body profile-card__body">
-                    <div className="profile-card__avatar">
-                        <AppImage src={user.avatar} />
-                    </div>
-                    <div className="profile-card__name">
-                        {`${user.firstName} ${user.lastName}`}
-                    </div>
-                    <div className="profile-card__email">{user.email}</div>
-                    <div className="profile-card__edit">
-                        <AppLink href={url.accountProfile()} className="btn btn-secondary btn-sm">
-                            <FormattedMessage id="BUTTON_EDIT_PROFILE" />
-                        </AppLink>
-                    </div>
-                </div>
+  return (
+    <Dashboard>
+      <PageTitle>{intl.formatMessage({ id: 'HEADER_DASHBOARD' })}</PageTitle>
+
+      <DashboardProfile className="card profile-card">
+        <ProfileCardBody className="card-body">
+          <ProfileCardAvatar>
+            <AppImage src={user.avatar} />
+          </ProfileCardAvatar>
+          <ProfileCardName>
+            {`${user.firstName} ${user.lastName}`}
+          </ProfileCardName>
+          <ProfileCardEmail>{user.email}</ProfileCardEmail>
+          <div className="profile-card__edit">
+            <AppLink
+              href={url.accountProfile()}
+              className="btn btn-secondary btn-sm"
+            >
+              <FormattedMessage id="BUTTON_EDIT_PROFILE" />
+            </AppLink>
+          </div>
+        </ProfileCardBody>
+      </DashboardProfile>
+
+      {!address && (
+        <DashboardAddress className="card">
+          <div className="card-body d-flex justify-content-center align-items-center">
+            <div className="text-center w-75">
+              <p>
+                <FormattedMessage id="TEXT_CALL_ADD_ADDRESS" />
+              </p>
+
+              <AppLink
+                href={url.accountAddressNew()}
+                className="btn btn-secondary btn-sm"
+              >
+                <FormattedMessage id="BUTTON_ADD_ADDRESS" />
+              </AppLink>
             </div>
+          </div>
+        </DashboardAddress>
+      )}
 
-            {!address && (
-                <div className="dashboard__address card">
-                    <div className="card-body d-flex justify-content-center align-items-center">
-                        <div className="text-center w-75">
-                            <p><FormattedMessage id="TEXT_CALL_ADD_ADDRESS" /></p>
+      {address && (
+        <DashboardAddress
+          as={AddressCard}
+          address={address}
+          label={<FormattedMessage id="TEXT_DEFAULT_ADDRESS" />}
+          featured
+          footer={
+            <AppLink href={url.accountAddressEdit(address)}>
+              <FormattedMessage id="LINK_EDIT_ADDRESS" />
+            </AppLink>
+          }
+        />
+      )}
 
-                            <AppLink href={url.accountAddressNew()} className="btn btn-secondary btn-sm">
-                                <FormattedMessage id="BUTTON_ADD_ADDRESS" />
-                            </AppLink>
-                        </div>
-                    </div>
-                </div>
-            )}
-
-            {address && (
-                <AddressCard
-                    className="dashboard__address"
-                    address={address}
-                    label={<FormattedMessage id="TEXT_DEFAULT_ADDRESS" />}
-                    featured
-                    footer={(
-                        <AppLink href={url.accountAddressEdit(address)}>
-                            <FormattedMessage id="LINK_EDIT_ADDRESS" />
+      {orders.length > 0 && (
+        <DashboardOrders className="card">
+          <CardHeader>
+            <h5>
+              <FormattedMessage id="HEADER_RECENT_ORDERS" />
+            </h5>
+          </CardHeader>
+          <CardDivider />
+          <CardTable>
+            <div className="table-responsive-sm">
+              <table>
+                <thead>
+                  <tr>
+                    <th>
+                      <FormattedMessage id="TABLE_NUMBER" />
+                    </th>
+                    <th>
+                      <FormattedMessage id="TABLE_DATE" />
+                    </th>
+                    <th>
+                      <FormattedMessage id="TABLE_STATUS" />
+                    </th>
+                    <th>
+                      <FormattedMessage id="TABLE_TOTAL" />
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {orders.map((order) => (
+                    <tr key={order.id}>
+                      <td>
+                        <AppLink href={url.accountOrderView(order)}>
+                          <FormattedMessage
+                            id="FORMAT_ORDER_NUMBER"
+                            values={{ number: order.number }}
+                          />
                         </AppLink>
-                    )}
-                />
-            )}
-
-            {orders.length > 0 && (
-                <div className="dashboard__orders card">
-                    <div className="card-header">
-                        <h5><FormattedMessage id="HEADER_RECENT_ORDERS" /></h5>
-                    </div>
-                    <div className="card-divider" />
-                    <div className="card-table">
-                        <div className="table-responsive-sm">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th>
-                                            <FormattedMessage id="TABLE_NUMBER" />
-                                        </th>
-                                        <th>
-                                            <FormattedMessage id="TABLE_DATE" />
-                                        </th>
-                                        <th>
-                                            <FormattedMessage id="TABLE_STATUS" />
-                                        </th>
-                                        <th>
-                                            <FormattedMessage id="TABLE_TOTAL" />
-                                        </th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    {orders.map((order) => (
-                                        <tr key={order.id}>
-                                            <td>
-                                                <AppLink href={url.accountOrderView(order)}>
-                                                    <FormattedMessage
-                                                        id="FORMAT_ORDER_NUMBER"
-                                                        values={{ number: order.number }}
-                                                    />
-                                                </AppLink>
-                                            </td>
-                                            <td>
-                                                <FormattedMessage
-                                                    id="FORMAT_DATE_MEDIUM"
-                                                    values={{ date: Date.parse(order.createdAt) }}
-                                                />
-                                            </td>
-                                            <td>
-                                                <FormattedMessage
-                                                    id={`TEXT_ORDER_STATUS_${order.status}`}
-                                                />
-                                            </td>
-                                            <td>
-                                                <FormattedMessage
-                                                    id="TEXT_ORDER_TOTAL"
-                                                    values={{
-                                                        total: <CurrencyFormat value={order.total} />,
-                                                        quantity: order.quantity,
-                                                    }}
-                                                />
-                                            </td>
-                                        </tr>
-                                    ))}
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            )}
-        </div>
-    );
+                      </td>
+                      <td>
+                        <FormattedMessage
+                          id="FORMAT_DATE_MEDIUM"
+                          values={{ date: Date.parse(order.createdAt) }}
+                        />
+                      </td>
+                      <td>
+                        <FormattedMessage
+                          id={`TEXT_ORDER_STATUS_${order.status}`}
+                        />
+                      </td>
+                      <td>
+                        <FormattedMessage
+                          id="TEXT_ORDER_TOTAL"
+                          values={{
+                            total: <CurrencyFormat value={order.total} />,
+                            quantity: order.quantity,
+                          }}
+                        />
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </CardTable>
+        </DashboardOrders>
+      )}
+    </Dashboard>
+  );
 }
 
 Page.Layout = AccountLayout;
