@@ -29,6 +29,15 @@ export const VehicleListItemInfo = styled.span`
   line-height: 1.25;
 `;
 
+export const VehiclesListItemLinks = styled.div`
+  font-size: 14px;
+  margin-top: 12px;
+
+  a:hover {
+    text-decoration: underline;
+  }
+`;
+
 export const VehiclesListItemName = styled.span`
   display: block;
   font-size: 15px;
