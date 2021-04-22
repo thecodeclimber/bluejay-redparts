@@ -10,7 +10,7 @@ import {
   CardDivider,
   CardBodyPadding2,
 } from '~/styled-components/components/Card';
-import { FormCheckInput } from '~/styled-components/components/Form';
+import { FormCheckInput, FormCheck } from '~/styled-components/components/Form';
 import AccountLayout from '~/components/account/AccountLayout';
 import AddressForm, {
   getAddressFormDefaultValue,
@@ -124,7 +124,7 @@ function Page() {
               <AddressForm namespace="address" idPrefix="address" />
 
               <div className="form-group mt-3">
-                <div className="form-check">
+                <FormCheck>
                   <FormCheckInput
                     as={Checkbox}
                     id="address-form-id-default"
@@ -138,7 +138,7 @@ function Page() {
                   >
                     <FormattedMessage id="INPUT_SET_AS_MY_DEFAULT_ADDRESS_LABEL" />
                   </label>
-                </div>
+                </FormCheck>
               </div>
 
               <div className="form-group mb-0 pt-3 mt-3">
