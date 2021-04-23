@@ -110,6 +110,7 @@ interface Props {
 
 function ShopPageProduct(props: Props) {
   const { product, layout, sidebarPosition = 'start' } = props;
+
   const intl = useIntl();
   const wishlistAddItem = useWishlistAddItem();
   const compareAddItem = useCompareAddItem();

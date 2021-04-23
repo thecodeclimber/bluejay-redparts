@@ -27,9 +27,11 @@ function resolveProductAttributesDef(
   const attributes: IProductAttribute[] = [];
   const keys = Object.keys(attributesDef);
 
+
   for (let i = 0; i < keys.length; i += 1) {
     const attributeName = keys[i];
-    const attribute: IProductAttribute = {
+
+    const attribute: any = {
       name: attributeName,
       slug: nameToSlug(attributeName),
       featured: false,
@@ -49,18 +51,18 @@ function resolveProductAttributesDef(
 
       valueNames = valuesDef as string[];
     }
-
     valueNames.forEach((valueName) => {
       attribute.values.push({
         name: valueName,
         slug: nameToSlug(valueName),
       });
     });
-
     if (attribute.values.length > 0) {
       attributes.push(attribute);
     }
   }
+  attributes.forEach((value) => {
+  });
 
   return attributes;
 }
@@ -144,25 +146,32 @@ function makeProducts(defs: any[]): IProduct[] {
             name: 'General',
             slug: 'general',
             attributes: [
-              'speed',
-              'power-source',
-              'battery-cell-type',
-              'voltage',
-              'battery-capacity',
+              'length',
+              'diameter',
+              'head_type',
+              'drive',
+              'grade',
               'material',
-              'engine-type',
+              'finish',
+              'qty_per_box',
             ],
           },
           {
             name: 'Dimensions',
             slug: 'dimensions',
-            attributes: ['length', 'width', 'height'],
+            attributes: ['length', 'diameter'],
           },
         ],
       },
       attributes: resolveProductAttributesDef({
-        ...attributesDef,
-        ...def.attributes,
+        length: [true, `${def?.length}` || ''],
+        diameter: [true, `${def?.diameter} ` || ''],
+        head_type: [true, `${def?.head_type}` || ''],
+        drive: [true, `${def?.drive}` || ''],
+        grade: [true, `${def?.grade}` || ''],
+        Material: [true, `${def?.material}` || ''],
+        finish: [true, `${def?.finish}` || ''],
+        qty_per_box: [true, `${def?.qty_per_box}` || ''],
       }),
       options: [
         {
@@ -203,13 +212,6 @@ function makeProducts(defs: any[]): IProduct[] {
 
 const TotalProducts = [];
 
-TotalProducts.push(
-  ...anchor,
-  ...bolts,
-  ...nuts,
-  ...pins,
-  ...screws,
-  ...washers
-);
+TotalProducts.push(...anchor);
 
 export const products: any[] = makeProducts(TotalProducts);
