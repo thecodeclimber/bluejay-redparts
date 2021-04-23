@@ -26,12 +26,8 @@ export function clone(data: any): any {
 }
 
 export function nameToSlug(name: string): string {
-  if (name) {
-    return name
-      ?.toLowerCase()
-      .replace(/[^a-z0-9]/, '-')
-      .replace(/-+/, '-');
-  }
-
-  return;
+  return name
+    ?.toLowerCase()
+    .replace(/[^a-z0-9]/, '-')
+    .replace(/-+/, '-');
 }
