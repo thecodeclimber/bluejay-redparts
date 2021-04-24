@@ -404,4 +404,4 @@ function ProductsView(props: Props) {
   );
 }
 
-export default ProductsView;
+export default React.memo(ProductsView);

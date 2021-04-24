@@ -19,7 +19,6 @@ export const getServerSideProps: GetServerSideProps<Props> = async () => ({
 
 function Page(props: Props) {
   const { product } = props;
-
   return (
     <ShopPageProduct
       product={product}

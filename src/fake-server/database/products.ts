@@ -27,7 +27,6 @@ function resolveProductAttributesDef(
   const attributes: IProductAttribute[] = [];
   const keys = Object.keys(attributesDef);
 
-
   for (let i = 0; i < keys.length; i += 1) {
     const attributeName = keys[i];
 
@@ -61,8 +60,7 @@ function resolveProductAttributesDef(
       attributes.push(attribute);
     }
   }
-  attributes.forEach((value) => {
-  });
+  attributes.forEach((value) => {});
 
   return attributes;
 }
