@@ -65,7 +65,7 @@ function resolveProductAttributesDef(
   return attributes;
 }
 
-function makeProducts(defs: any[]): IProduct[] {
+function makeProducts(defs: any[]): any[] {
   return defs.map((def) => {
     let badges: string[] = [];
 
@@ -96,26 +96,6 @@ function makeProducts(defs: any[]): IProduct[] {
       .map((x) => (x ? prepareCategory(x) : null))
       .filter((x) => x !== null) as IShopCategory[];
 
-    const attributesDef: IProductAttributesDef = {
-      Speed: [true, '750 RPM'],
-      'Power Source': [true, 'Cordless-Electric'],
-      'Battery Cell Type': [true, 'Lithium'],
-      Voltage: [true, '20 Volts'],
-      'Battery Capacity': [true, '2 Ah'],
-      Material: [
-        'Aluminium',
-        'Plastic',
-        'Metal',
-        'Nylon',
-        'Steel',
-        'Stainless Steel',
-      ],
-      'Engine Type': 'Brushless',
-      Length: '99 mm',
-      Width: '207 mm',
-      Height: '208 mm',
-    };
-
     return {
       id: getNextId(),
       name: def.name,
@@ -130,7 +110,7 @@ function makeProducts(defs: any[]): IProduct[] {
       stock: 'in-stock',
       price: def.list_price,
       compareAtPrice: def.compareAtPrice || null,
-      images: def.images.slice(0),
+      images: def.images,
       rating: def.rating,
       reviews: def.reviews,
       availability: def.availability,
@@ -202,6 +182,7 @@ function makeProducts(defs: any[]): IProduct[] {
         'Transmission',
         'Hood',
       ],
+      subCategory: def.Category,
       categories,
       customFields: {},
     };
@@ -209,7 +190,11 @@ function makeProducts(defs: any[]): IProduct[] {
 }
 
 const TotalProducts = [];
-
+anchor.forEach((data, index) => {
+  if (data?.name && data.slug) {
+    data.name = `Test${index + 1}`;
+    data.slug = `test${index + 1}`;
+  }
+});
 TotalProducts.push(...anchor);
-
 export const products: any[] = makeProducts(TotalProducts);
