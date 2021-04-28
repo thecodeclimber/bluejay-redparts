@@ -65,29 +65,16 @@ function resolveProductAttributesDef(
   return attributes;
 }
 
+function fetchImages(def: any) {
+  return [
+    `/images/fasteners/${def.Type.trim().toLowerCase()}s/fasteners__${def.Type.trim().toLowerCase()}s__${def.Category.trim()
+      .toLowerCase()
+      .replace(/ /g, '_')}__800x800 (1).png`,
+  ];
+}
+
 function makeProducts(defs: any[]): any[] {
   return defs.map((def) => {
-    let badges: string[] = [];
-
-    // if (def.badges) {
-    //   if (typeof def.badges === 'string') {
-    //     badges = [def.badges];
-    //   } else {
-    //     badges = def.badges.slice(0);
-    //   }
-    // }
-
-    let brand: IBrand = {
-      slug: 'brandix',
-      name: 'Brandix',
-      image: '',
-      country: 'JP',
-    };
-
-    // if (def.brand) {
-    //   brand = brands.find((x) => x.slug === def.brand) || brand;
-    // }
-
     const categorySlugs: string[] = def.categories || ['anchor'];
     const categories = categorySlugs
       .map((categorySlug) =>
@@ -110,12 +97,11 @@ function makeProducts(defs: any[]): any[] {
       stock: 'in-stock',
       price: def.list_price,
       compareAtPrice: def.compareAtPrice || null,
-      images: def.images,
+      images: fetchImages(def),
       rating: def.rating,
       reviews: def.reviews,
       availability: def.availability,
       compatibility: def.compatibility || 'all',
-      brand,
       type: {
         slug: 'default',
         name: 'Default',
@@ -196,5 +182,6 @@ anchor.forEach((data, index) => {
     data.slug = `test${index + 1}`;
   }
 });
+
 TotalProducts.push(...anchor);
 export const products: any[] = makeProducts(TotalProducts);
