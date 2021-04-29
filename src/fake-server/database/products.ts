@@ -86,7 +86,7 @@ const fetchImages = (def: any) => {
   ];
 };
 
-const makeProducts = (defs: any[]) => {
+const makeProducts = (defs: any[]): any[] => {
   return defs.map((def) => {
     const categorySlugs: string[] = def.categories || ['anchor'];
     const categories = categorySlugs
@@ -198,4 +198,4 @@ anchor.forEach((data, index) => {
 
 TotalProducts.push(...anchor);
 
-export const products = makeProducts(TotalProducts);
+export const products: any[] = makeProducts(TotalProducts);
