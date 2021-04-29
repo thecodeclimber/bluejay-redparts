@@ -123,7 +123,14 @@ function ProductCard(props: Props) {
         <div className="image image--type--product">
           <AppLink href={url.product(product)} className="image__body">
             {product.images && (
-              <AppImage className="image__tag" src={product.images[0]} />
+              <AppImage
+                className="image__tag"
+                src={
+                  product.images && product.images[0].length > 0
+                    ? product.images[0]
+                    : product.images[1]
+                }
+              />
             )}
           </AppLink>
         </div>

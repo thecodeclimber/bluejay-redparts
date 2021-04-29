@@ -2,6 +2,7 @@ export const anchor: any[] = [
   {
     sku: '6335000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -21,6 +22,7 @@ export const anchor: any[] = [
     diameter: '6-8',
     length: 'n/a',
     head_type: 'n/a',
+    color: 'red',
     drive: 'n/a',
     grade: 'n/a',
     material: 'Plastic',
@@ -32,6 +34,7 @@ export const anchor: any[] = [
   {
     sku: '6336000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test1',
     slug: 'test1',
     images: [
@@ -52,6 +55,7 @@ export const anchor: any[] = [
     diameter: '8-10',
     length: 'n/a',
     head_type: 'n/a',
+    color: 'blue',
     drive: 'n/a',
     grade: 'n/a',
     material: 'Plastic',
@@ -63,6 +67,7 @@ export const anchor: any[] = [
   {
     sku: '6337000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test3',
     slug: 'test3',
     images: [
@@ -82,6 +87,7 @@ export const anchor: any[] = [
     diameter: '10-12',
     length: 'n/a',
     head_type: 'n/a',
+    color: 'blue',
     drive: 'n/a',
     grade: 'n/a',
     material: 'Plastic',
@@ -93,6 +99,7 @@ export const anchor: any[] = [
   {
     sku: '6338000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Drop In set Tool',
     slug: 'drop_in__set_tool',
     images: [
@@ -113,6 +120,7 @@ export const anchor: any[] = [
     diameter: '14-16',
     length: 'n/a',
     head_type: 'n/a',
+    color: 'red',
     drive: 'n/a',
     grade: 'n/a',
     material: 'Plastic',
@@ -124,6 +132,7 @@ export const anchor: any[] = [
   {
     sku: '6333000E',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Drop In',
     slug: 'drop_in',
     images: [
@@ -155,6 +164,7 @@ export const anchor: any[] = [
   {
     sku: '6333000Z',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Expansion Shield Double',
     slug: 'expansion_shield__double',
     images: [
@@ -186,6 +196,7 @@ export const anchor: any[] = [
   {
     sku: '5860028',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Expansion Shield Single',
     slug: 'expansion_shield__single',
     images: [
@@ -218,6 +229,7 @@ export const anchor: any[] = [
   {
     sku: '5866024',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -250,6 +262,7 @@ export const anchor: any[] = [
   {
     sku: '5866032',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'test2',
     slug: 'test2',
     images: [
@@ -282,6 +295,7 @@ export const anchor: any[] = [
   {
     sku: '5866040',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -314,6 +328,7 @@ export const anchor: any[] = [
   {
     sku: '5866048',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -346,6 +361,7 @@ export const anchor: any[] = [
   {
     sku: '5866064',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -378,6 +394,7 @@ export const anchor: any[] = [
   {
     sku: '6450001',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -409,6 +426,7 @@ export const anchor: any[] = [
   {
     sku: '6450003',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -440,6 +458,7 @@ export const anchor: any[] = [
   {
     sku: '6450004',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -471,6 +490,7 @@ export const anchor: any[] = [
   {
     sku: '6450005',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -502,6 +522,7 @@ export const anchor: any[] = [
   {
     sku: '6450008',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -533,6 +554,7 @@ export const anchor: any[] = [
   {
     sku: '6450009',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -564,6 +586,7 @@ export const anchor: any[] = [
   {
     sku: '6450010',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -595,6 +618,7 @@ export const anchor: any[] = [
   {
     sku: '6450011',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -626,6 +650,7 @@ export const anchor: any[] = [
   {
     sku: '6450012',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -657,6 +682,7 @@ export const anchor: any[] = [
   {
     sku: '6450013',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -688,6 +714,7 @@ export const anchor: any[] = [
   {
     sku: '6431000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -719,6 +746,7 @@ export const anchor: any[] = [
   {
     sku: '6431000WD',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -750,6 +778,7 @@ export const anchor: any[] = [
   {
     sku: '6433000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -780,6 +809,7 @@ export const anchor: any[] = [
   {
     sku: '6435000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -810,6 +840,7 @@ export const anchor: any[] = [
   {
     sku: '6436000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -840,6 +871,7 @@ export const anchor: any[] = [
   {
     sku: '6437000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -870,6 +902,7 @@ export const anchor: any[] = [
   {
     sku: '6438000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -901,6 +934,7 @@ export const anchor: any[] = [
   {
     sku: '6439000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -932,6 +966,7 @@ export const anchor: any[] = [
   {
     sku: '5870032',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -962,6 +997,7 @@ export const anchor: any[] = [
   {
     sku: '5876032',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -992,6 +1028,7 @@ export const anchor: any[] = [
   {
     sku: '5876048',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1022,6 +1059,7 @@ export const anchor: any[] = [
   {
     sku: '5876064',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1052,6 +1090,7 @@ export const anchor: any[] = [
   {
     sku: '5896032',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1082,6 +1121,7 @@ export const anchor: any[] = [
   {
     sku: '5896048',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1112,6 +1152,7 @@ export const anchor: any[] = [
   {
     sku: '5896064',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1142,6 +1183,7 @@ export const anchor: any[] = [
   {
     sku: '7316000-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1172,6 +1214,7 @@ export const anchor: any[] = [
   {
     sku: '7318000-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1202,6 +1245,7 @@ export const anchor: any[] = [
   {
     sku: '7320000-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1232,6 +1276,7 @@ export const anchor: any[] = [
   {
     sku: '7322000-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1262,6 +1307,7 @@ export const anchor: any[] = [
   {
     sku: '7323000-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1292,6 +1338,7 @@ export const anchor: any[] = [
   {
     sku: '7206000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1323,6 +1370,7 @@ export const anchor: any[] = [
   {
     sku: '7208000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1354,6 +1402,7 @@ export const anchor: any[] = [
   {
     sku: '7210000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1385,6 +1434,7 @@ export const anchor: any[] = [
   {
     sku: '7216000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1416,6 +1466,7 @@ export const anchor: any[] = [
   {
     sku: '7217000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1447,6 +1498,7 @@ export const anchor: any[] = [
   {
     sku: '7218000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1478,6 +1530,7 @@ export const anchor: any[] = [
   {
     sku: '7220000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1509,6 +1562,7 @@ export const anchor: any[] = [
   {
     sku: '7222000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1540,6 +1594,7 @@ export const anchor: any[] = [
   {
     sku: '7223000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1571,6 +1626,7 @@ export const anchor: any[] = [
   {
     sku: '7606000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1601,6 +1657,7 @@ export const anchor: any[] = [
   {
     sku: '7608000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1631,6 +1688,7 @@ export const anchor: any[] = [
   {
     sku: '7610000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1661,6 +1719,7 @@ export const anchor: any[] = [
   {
     sku: '7616000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1691,6 +1750,7 @@ export const anchor: any[] = [
   {
     sku: '7617000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1721,6 +1781,7 @@ export const anchor: any[] = [
   {
     sku: '7618000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1751,6 +1812,7 @@ export const anchor: any[] = [
   {
     sku: '7620000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1781,6 +1843,7 @@ export const anchor: any[] = [
   {
     sku: '7622000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1811,6 +1874,7 @@ export const anchor: any[] = [
   {
     sku: '7623000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1841,6 +1905,7 @@ export const anchor: any[] = [
   {
     sku: '7716000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1871,6 +1936,7 @@ export const anchor: any[] = [
   {
     sku: '7718000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1901,6 +1967,7 @@ export const anchor: any[] = [
   {
     sku: '7720000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1931,6 +1998,7 @@ export const anchor: any[] = [
   {
     sku: '7722000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1961,6 +2029,7 @@ export const anchor: any[] = [
   {
     sku: '7723000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -1991,6 +2060,7 @@ export const anchor: any[] = [
   {
     sku: '7460000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2006,10 +2076,11 @@ export const anchor: any[] = [
       Color: 'Silver',
     },
     Category: 'Shields',
+    shieldType: 'Lag Screw Shield',
     description: '1/4-S -- Lag Screw --  -- Shield',
     diameter: '1/4-S',
     length: 'short',
-    head_type: 'n/a',
+    head_type: 'Lag Screw shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2021,6 +2092,7 @@ export const anchor: any[] = [
   {
     sku: '7461000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2036,10 +2108,11 @@ export const anchor: any[] = [
       Color: 'Silver',
     },
     Category: 'Shields',
+    shieldType: 'Lag Screw Shield',
     description: '5/16-S -- Lag Screw -- Shield',
     diameter: '5/16-S',
     length: 'short',
-    head_type: 'n/a',
+    head_type: 'Lag Screw shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2051,6 +2124,7 @@ export const anchor: any[] = [
   {
     sku: '7462000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2066,10 +2140,11 @@ export const anchor: any[] = [
       Color: 'Silver',
     },
     Category: 'Shields',
+    shieldType: 'Lag Screw Shield',
     description: '3/8-S -- Lag Screw -- Shield',
     diameter: '3/8-S',
     length: 'short',
-    head_type: 'n/a',
+    head_type: 'Lag Screw shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2081,6 +2156,7 @@ export const anchor: any[] = [
   {
     sku: '7463000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2096,10 +2172,11 @@ export const anchor: any[] = [
       Color: 'Silver',
     },
     Category: 'Shields',
+    shieldType: 'Lag Screw Shield',
     description: '1/2-S -- Lag Screw -- Shield',
     diameter: '1/2-S',
     length: 'short',
-    head_type: 'n/a',
+    head_type: 'Lag Screw shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2111,6 +2188,7 @@ export const anchor: any[] = [
   {
     sku: '7464000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2126,10 +2204,11 @@ export const anchor: any[] = [
       Color: 'Silver',
     },
     Category: 'Shields',
+    shieldType: 'Lag Screw Shield',
     description: '5/8-S -- Lag Screw -- Shield',
     diameter: '5/8-S',
     length: 'short',
-    head_type: 'n/a',
+    head_type: 'Lag Screw shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2141,6 +2220,7 @@ export const anchor: any[] = [
   {
     sku: '7465000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2156,10 +2236,11 @@ export const anchor: any[] = [
       Color: 'Silver',
     },
     Category: 'Shields',
+    shieldType: 'Lag Screw Shield',
     description: '3/4-S -- Lag Screw -- Shield',
     diameter: '3/4-S',
     length: 'short',
-    head_type: 'n/a',
+    head_type: 'Lag Screw shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2171,6 +2252,7 @@ export const anchor: any[] = [
   {
     sku: '7466000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2186,10 +2268,11 @@ export const anchor: any[] = [
       Color: 'Silver',
     },
     Category: 'Shields',
+    shieldType: 'Lag Screw Shield',
     description: '1/4-L -- Lag Screw -- Shield',
     diameter: '1/4-L',
     length: 'long',
-    head_type: 'n/a',
+    head_type: 'Lag Screw shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2201,6 +2284,7 @@ export const anchor: any[] = [
   {
     sku: '7467000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2216,10 +2300,11 @@ export const anchor: any[] = [
       Color: 'Silver',
     },
     Category: 'Shields',
+    shieldType: 'Lag Screw Shield',
     description: '5/16-L -- Lag Screw -- Shield',
     diameter: '5/16-L',
     length: 'long',
-    head_type: 'n/a',
+    head_type: 'Lag Screw shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2231,6 +2316,7 @@ export const anchor: any[] = [
   {
     sku: '7468000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2249,7 +2335,7 @@ export const anchor: any[] = [
     description: '3/8-L -- Lag Screw -- Shield',
     diameter: '3/8-L',
     length: 'long',
-    head_type: 'n/a',
+    head_type: 'Lag Screw shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2261,6 +2347,7 @@ export const anchor: any[] = [
   {
     sku: '7469000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2279,7 +2366,7 @@ export const anchor: any[] = [
     description: '1/2-L -- Lag Screw -- Shield',
     diameter: '1/2-L',
     length: 'long',
-    head_type: 'n/a',
+    head_type: 'Lag Screw shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2291,6 +2378,7 @@ export const anchor: any[] = [
   {
     sku: '7470000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2309,7 +2397,7 @@ export const anchor: any[] = [
     description: '5/8-L -- Lag Screw -- Shield',
     diameter: '5/8-L',
     length: 'long',
-    head_type: 'n/a',
+    head_type: 'Lag Screw shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2321,6 +2409,7 @@ export const anchor: any[] = [
   {
     sku: '7471000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2339,7 +2428,7 @@ export const anchor: any[] = [
     description: '3/4-L -- Lag Screw -- Shield',
     diameter: '3/4-L',
     length: 'long',
-    head_type: 'n/a',
+    head_type: 'Lag Screw shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2351,6 +2440,7 @@ export const anchor: any[] = [
   {
     sku: '7516000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2371,7 +2461,7 @@ export const anchor: any[] = [
     description: '1/4 -- Single Expansion -- Shield',
     diameter: '1/4',
     length: 'n/a',
-    head_type: 'n/a',
+    head_type: 'single Expansion shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2383,6 +2473,7 @@ export const anchor: any[] = [
   {
     sku: '7517000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2403,7 +2494,7 @@ export const anchor: any[] = [
     description: '5/16 -- Single Expansion -- Shield',
     diameter: '5/16',
     length: 'n/a',
-    head_type: 'n/a',
+    head_type: 'single Expansion shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2415,6 +2506,7 @@ export const anchor: any[] = [
   {
     sku: '7518000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2435,7 +2527,7 @@ export const anchor: any[] = [
     description: '3/8 -- Single Expansion -- Shield',
     diameter: '3/8',
     length: 'n/a',
-    head_type: 'n/a',
+    head_type: 'single Expansion shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2447,6 +2539,7 @@ export const anchor: any[] = [
   {
     sku: '7520000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2467,7 +2560,7 @@ export const anchor: any[] = [
     description: '1/2 -- Single Expansion -- Shield',
     diameter: '1/2',
     length: 'n/a',
-    head_type: 'n/a',
+    head_type: 'single Expansion shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2479,6 +2572,7 @@ export const anchor: any[] = [
   {
     sku: '7522000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2499,7 +2593,7 @@ export const anchor: any[] = [
     description: '5/8 -- Single Expansion -- Shield',
     diameter: '5/8',
     length: 'n/a',
-    head_type: 'n/a',
+    head_type: 'single Expansion shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2511,6 +2605,7 @@ export const anchor: any[] = [
   {
     sku: '7523000',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2531,7 +2626,7 @@ export const anchor: any[] = [
     description: '3/4 -- Single Expansion -- Shield',
     diameter: '3/4',
     length: 'n/a',
-    head_type: 'n/a',
+    head_type: 'single Expansion shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2543,6 +2638,7 @@ export const anchor: any[] = [
   {
     sku: '7516002',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2561,7 +2657,7 @@ export const anchor: any[] = [
     description: '1/4 -- Double Expansion -- Shield',
     diameter: '1/4',
     length: 'n/a',
-    head_type: 'n/a',
+    head_type: 'Double Expansion shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2573,6 +2669,7 @@ export const anchor: any[] = [
   {
     sku: '7517002',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2591,7 +2688,7 @@ export const anchor: any[] = [
     description: '5/16 -- Double Expansion -- Shield',
     diameter: '5/16',
     length: 'n/a',
-    head_type: 'n/a',
+    head_type: 'Double Expansion shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2603,6 +2700,7 @@ export const anchor: any[] = [
   {
     sku: '7518002',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2621,7 +2719,7 @@ export const anchor: any[] = [
     description: '3/8 -- Double Expansion -- Shield',
     diameter: '3/8',
     length: 'n/a',
-    head_type: 'n/a',
+    head_type: 'Double Expansion shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2633,6 +2731,7 @@ export const anchor: any[] = [
   {
     sku: '7520002',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2651,7 +2750,7 @@ export const anchor: any[] = [
     description: '1/2 -- Double Expansion -- Shield',
     diameter: '1/2',
     length: 'n/a',
-    head_type: 'n/a',
+    head_type: 'Double Expansion shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2663,6 +2762,7 @@ export const anchor: any[] = [
   {
     sku: '7522002',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2681,7 +2781,7 @@ export const anchor: any[] = [
     description: '5/8 -- Double Expansion -- Shield',
     diameter: '5/8',
     length: 'n/a',
-    head_type: 'n/a',
+    head_type: 'Double Expansion shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2693,6 +2793,7 @@ export const anchor: any[] = [
   {
     sku: '7523002',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2711,7 +2812,7 @@ export const anchor: any[] = [
     description: '3/4 -- Double Expansion -- Shield',
     diameter: '3/4',
     length: 'n/a',
-    head_type: 'n/a',
+    head_type: 'Double Expansion shield',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -2723,6 +2824,7 @@ export const anchor: any[] = [
   {
     sku: '5856044-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2754,6 +2856,7 @@ export const anchor: any[] = [
   {
     sku: '5856072-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2785,6 +2888,7 @@ export const anchor: any[] = [
   {
     sku: '5717048-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2816,6 +2920,7 @@ export const anchor: any[] = [
   {
     sku: '5717080-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2847,6 +2952,7 @@ export const anchor: any[] = [
   {
     sku: '5718060-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2878,6 +2984,7 @@ export const anchor: any[] = [
   {
     sku: '5718096-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2908,6 +3015,7 @@ export const anchor: any[] = [
   {
     sku: '5718128-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2938,6 +3046,7 @@ export const anchor: any[] = [
   {
     sku: '5720072-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2969,6 +3078,7 @@ export const anchor: any[] = [
   {
     sku: '5720096-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -2999,6 +3109,7 @@ export const anchor: any[] = [
   {
     sku: '5720128-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3029,6 +3140,7 @@ export const anchor: any[] = [
   {
     sku: '5720192-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3059,6 +3171,7 @@ export const anchor: any[] = [
   {
     sku: '5722072-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3090,6 +3203,7 @@ export const anchor: any[] = [
   {
     sku: '5722096-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3120,6 +3234,7 @@ export const anchor: any[] = [
   {
     sku: '5722136-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3151,6 +3266,7 @@ export const anchor: any[] = [
   {
     sku: '5722192-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3181,6 +3297,7 @@ export const anchor: any[] = [
   {
     sku: '5723080-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3212,6 +3329,7 @@ export const anchor: any[] = [
   {
     sku: '5723136-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3243,6 +3361,7 @@ export const anchor: any[] = [
   {
     sku: '5723200-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3274,6 +3393,7 @@ export const anchor: any[] = [
   {
     sku: '5816064-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3306,6 +3426,7 @@ export const anchor: any[] = [
   {
     sku: '5816096-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3338,6 +3459,7 @@ export const anchor: any[] = [
   {
     sku: '5816128-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3370,6 +3492,7 @@ export const anchor: any[] = [
   {
     sku: '5818096-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3402,6 +3525,7 @@ export const anchor: any[] = [
   {
     sku: '5818128-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3434,6 +3558,7 @@ export const anchor: any[] = [
   {
     sku: '5818160-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3466,6 +3591,7 @@ export const anchor: any[] = [
   {
     sku: '5818192-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3498,6 +3624,7 @@ export const anchor: any[] = [
   {
     sku: '5826040-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3529,6 +3656,7 @@ export const anchor: any[] = [
   {
     sku: '5826064-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3560,6 +3688,7 @@ export const anchor: any[] = [
   {
     sku: '5926088-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3591,6 +3720,7 @@ export const anchor: any[] = [
   {
     sku: '5828080-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3622,6 +3752,7 @@ export const anchor: any[] = [
   {
     sku: '5828120-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3653,6 +3784,7 @@ export const anchor: any[] = [
   {
     sku: '5828152-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3684,6 +3816,7 @@ export const anchor: any[] = [
   {
     sku: '5828184-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3715,6 +3848,7 @@ export const anchor: any[] = [
   {
     sku: '5828192-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3746,6 +3880,7 @@ export const anchor: any[] = [
   {
     sku: '5616056-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3776,6 +3911,7 @@ export const anchor: any[] = [
   {
     sku: '5616072-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3806,6 +3942,7 @@ export const anchor: any[] = [
   {
     sku: '5616104-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3836,6 +3973,7 @@ export const anchor: any[] = [
   {
     sku: '5618072-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3866,6 +4004,7 @@ export const anchor: any[] = [
   {
     sku: '5618088-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3896,6 +4035,7 @@ export const anchor: any[] = [
   {
     sku: '5618096-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3926,6 +4066,7 @@ export const anchor: any[] = [
   {
     sku: '5618120-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3956,6 +4097,7 @@ export const anchor: any[] = [
   {
     sku: '5618160-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -3986,6 +4128,7 @@ export const anchor: any[] = [
   {
     sku: '5620088-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4016,6 +4159,7 @@ export const anchor: any[] = [
   {
     sku: '5620120-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4046,6 +4190,7 @@ export const anchor: any[] = [
   {
     sku: '5620136-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4076,6 +4221,7 @@ export const anchor: any[] = [
   {
     sku: '5620176-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4106,6 +4252,7 @@ export const anchor: any[] = [
   {
     sku: '5620224-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4136,6 +4283,7 @@ export const anchor: any[] = [
   {
     sku: '5622112-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4166,6 +4314,7 @@ export const anchor: any[] = [
   {
     sku: '5622144-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4196,6 +4345,7 @@ export const anchor: any[] = [
   {
     sku: '5622160-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4226,6 +4376,7 @@ export const anchor: any[] = [
   {
     sku: '5622192-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4256,6 +4407,7 @@ export const anchor: any[] = [
   {
     sku: '5622224-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4286,6 +4438,7 @@ export const anchor: any[] = [
   {
     sku: '5622272-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4316,6 +4469,7 @@ export const anchor: any[] = [
   {
     sku: '5623136-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4346,6 +4500,7 @@ export const anchor: any[] = [
   {
     sku: '5623152-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4376,6 +4531,7 @@ export const anchor: any[] = [
   {
     sku: '5623176-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4406,6 +4562,7 @@ export const anchor: any[] = [
   {
     sku: '5623224-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4436,6 +4593,7 @@ export const anchor: any[] = [
   {
     sku: '5623272-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4466,6 +4624,7 @@ export const anchor: any[] = [
   {
     sku: '5623320-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4496,6 +4655,7 @@ export const anchor: any[] = [
   {
     sku: '5624192-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4526,6 +4686,7 @@ export const anchor: any[] = [
   {
     sku: '5624256-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4556,6 +4717,7 @@ export const anchor: any[] = [
   {
     sku: '5624320-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4586,6 +4748,7 @@ export const anchor: any[] = [
   {
     sku: '5625192-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4616,6 +4779,7 @@ export const anchor: any[] = [
   {
     sku: '5625288-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4646,6 +4810,7 @@ export const anchor: any[] = [
   {
     sku: '5625384-ZN',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4676,6 +4841,7 @@ export const anchor: any[] = [
   {
     sku: '5616056-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4706,6 +4872,7 @@ export const anchor: any[] = [
   {
     sku: '5616072-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4736,6 +4903,7 @@ export const anchor: any[] = [
   {
     sku: '5616104-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4766,6 +4934,7 @@ export const anchor: any[] = [
   {
     sku: '5618072-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4796,6 +4965,7 @@ export const anchor: any[] = [
   {
     sku: '5618088-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4826,6 +4996,7 @@ export const anchor: any[] = [
   {
     sku: '5618096-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4856,6 +5027,7 @@ export const anchor: any[] = [
   {
     sku: '5618120-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4886,6 +5058,7 @@ export const anchor: any[] = [
   {
     sku: '5618160-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4916,6 +5089,7 @@ export const anchor: any[] = [
   {
     sku: '5620088-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4946,6 +5120,7 @@ export const anchor: any[] = [
   {
     sku: '5620120-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -4976,6 +5151,7 @@ export const anchor: any[] = [
   {
     sku: '5620136-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -5006,6 +5182,7 @@ export const anchor: any[] = [
   {
     sku: '5620176-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -5036,6 +5213,7 @@ export const anchor: any[] = [
   {
     sku: '5620224-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -5066,6 +5244,7 @@ export const anchor: any[] = [
   {
     sku: '5622112-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -5096,6 +5275,7 @@ export const anchor: any[] = [
   {
     sku: '5622144-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -5126,6 +5306,7 @@ export const anchor: any[] = [
   {
     sku: '5622160-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -5156,6 +5337,7 @@ export const anchor: any[] = [
   {
     sku: '5622192-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -5186,6 +5368,7 @@ export const anchor: any[] = [
   {
     sku: '5622224-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -5216,6 +5399,7 @@ export const anchor: any[] = [
   {
     sku: '5622272-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -5246,6 +5430,7 @@ export const anchor: any[] = [
   {
     sku: '5623136-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -5276,6 +5461,7 @@ export const anchor: any[] = [
   {
     sku: '5623152-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -5306,6 +5492,7 @@ export const anchor: any[] = [
   {
     sku: '5623176-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -5336,6 +5523,7 @@ export const anchor: any[] = [
   {
     sku: '5623224-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -5366,6 +5554,7 @@ export const anchor: any[] = [
   {
     sku: '5623272-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -5396,6 +5585,7 @@ export const anchor: any[] = [
   {
     sku: '5623320-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -5426,6 +5616,7 @@ export const anchor: any[] = [
   {
     sku: '5624192-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -5456,6 +5647,7 @@ export const anchor: any[] = [
   {
     sku: '5624256-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -5486,6 +5678,7 @@ export const anchor: any[] = [
   {
     sku: '5624320-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -5516,6 +5709,7 @@ export const anchor: any[] = [
   {
     sku: '5625192-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -5546,6 +5740,7 @@ export const anchor: any[] = [
   {
     sku: '5625288-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [
@@ -5576,6 +5771,7 @@ export const anchor: any[] = [
   {
     sku: '5625384-SS',
     Type: 'Anchor',
+    superCategory: 'fasteners',
     name: 'Test',
     slug: 'test',
     images: [

@@ -65,15 +65,28 @@ function resolveProductAttributesDef(
   return attributes;
 }
 
-function fetchImages(def: any) {
+const fetchImages = (def: any) => {
+  const checkAttribute = (def: any) => {
+    if (def?.color && def?.color !== 'n/a') return `__${def.color}__`;
+    else if (def?.head_type && def?.head_type !== 'n/a')
+      return `__${def.head_type}__`;
+    else if (def?.material && def?.material !== 'n/a')
+      return `__${def.material}__`;
+    else if (def?.finish && def?.finish !== 'n/a') return `__${def.finish}__`;
+    else return false;
+  };
+  let value = checkAttribute(def);
   return [
-    `/images/fasteners/${def.Type.trim().toLowerCase()}s/fasteners__${def.Type.trim().toLowerCase()}s__${def.Category.trim()
+    `/images/${def?.superCategory.toLowerCase()}/${def?.Type.trim().toLowerCase()}s/fasteners__${def?.Type.trim().toLowerCase()}s__${def?.Category.trim()
       .toLowerCase()
-      .replace(/ /g, '_')}__800x800 (1).png`,
+      .replace(/ /g, '_')}${
+      value ? value.toLowerCase().replace(/ /g, '_') : '__'
+    }800x800 (1).png`,
+    '/images/products/product-2-1.jpg',
   ];
-}
+};
 
-function makeProducts(defs: any[]): any[] {
+const makeProducts = (defs: any[]) => {
   return defs.map((def) => {
     const categorySlugs: string[] = def.categories || ['anchor'];
     const categories = categorySlugs
@@ -173,7 +186,7 @@ function makeProducts(defs: any[]): any[] {
       customFields: {},
     };
   });
-}
+};
 
 const TotalProducts = [];
 anchor.forEach((data, index) => {
@@ -184,4 +197,5 @@ anchor.forEach((data, index) => {
 });
 
 TotalProducts.push(...anchor);
-export const products: any[] = makeProducts(TotalProducts);
+
+export const products = makeProducts(TotalProducts);
