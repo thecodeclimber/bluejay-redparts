@@ -5,6 +5,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -37,6 +38,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -69,6 +71,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -101,6 +104,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -133,6 +137,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -165,6 +170,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -197,6 +203,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -229,6 +236,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -261,6 +269,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -293,6 +302,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -325,6 +335,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -357,6 +368,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -390,6 +402,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -422,6 +435,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -454,6 +468,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -486,6 +501,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -518,6 +534,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -550,6 +567,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -582,6 +600,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -614,6 +633,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -646,6 +666,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -678,6 +699,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -710,6 +732,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -742,6 +765,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -774,6 +798,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -806,6 +831,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -838,6 +864,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -870,6 +897,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -902,6 +930,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -934,6 +963,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -966,6 +996,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -998,6 +1029,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1030,6 +1062,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1062,6 +1095,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1094,6 +1128,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1126,6 +1161,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1158,6 +1194,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1190,6 +1227,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1222,6 +1260,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1254,6 +1293,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1286,6 +1326,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1318,6 +1359,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1350,6 +1392,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1383,6 +1426,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1416,6 +1460,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1449,6 +1494,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1482,6 +1528,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1515,6 +1562,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1548,6 +1596,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1581,6 +1630,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1614,6 +1664,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1647,6 +1698,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1680,6 +1732,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1713,6 +1766,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1746,6 +1800,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1779,6 +1834,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1812,6 +1868,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1845,6 +1902,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1878,6 +1936,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1911,6 +1970,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1944,6 +2004,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1977,6 +2038,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2010,6 +2072,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2043,6 +2106,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2076,6 +2140,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2109,6 +2174,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2142,6 +2208,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2175,6 +2242,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2208,6 +2276,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2241,6 +2310,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2274,6 +2344,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2307,6 +2378,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2340,6 +2412,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2373,6 +2446,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2406,6 +2480,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2439,6 +2514,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2472,6 +2548,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2505,6 +2582,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2538,6 +2616,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2571,6 +2650,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2604,6 +2684,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2637,6 +2718,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2670,6 +2752,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2703,6 +2786,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2736,6 +2820,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2769,6 +2854,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2802,6 +2888,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2835,6 +2922,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2868,6 +2956,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2901,6 +2990,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2934,6 +3024,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2967,6 +3058,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3000,6 +3092,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3033,6 +3126,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3066,6 +3160,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3099,6 +3194,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3132,6 +3228,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3165,6 +3262,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3198,6 +3296,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3231,6 +3330,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3264,6 +3364,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3297,6 +3398,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3330,6 +3432,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3363,6 +3466,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3396,6 +3500,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3429,6 +3534,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3462,6 +3568,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3495,6 +3602,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3528,6 +3636,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3561,6 +3670,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3594,6 +3704,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3627,6 +3738,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3660,6 +3772,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3693,6 +3806,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3726,6 +3840,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3759,6 +3874,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3792,6 +3908,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3825,6 +3942,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3858,6 +3976,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3891,6 +4010,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3924,6 +4044,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3957,6 +4078,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3990,6 +4112,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4023,6 +4146,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4056,6 +4180,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4089,6 +4214,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4122,6 +4248,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4155,6 +4282,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4188,6 +4316,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4221,6 +4350,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4254,6 +4384,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4287,6 +4418,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4320,6 +4452,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4353,6 +4486,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4386,6 +4520,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4419,6 +4554,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4452,6 +4588,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4485,6 +4622,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4518,6 +4656,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4551,6 +4690,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4584,6 +4724,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4617,6 +4758,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4650,6 +4792,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4683,6 +4826,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4716,6 +4860,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4749,6 +4894,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4782,6 +4928,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4815,6 +4962,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4848,6 +4996,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4881,6 +5030,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4914,6 +5064,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4947,6 +5098,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4980,6 +5132,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5013,6 +5166,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5046,6 +5200,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5079,6 +5234,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5112,6 +5268,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5145,6 +5302,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5178,6 +5336,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5211,6 +5370,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5243,6 +5403,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5275,6 +5436,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5307,6 +5469,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5339,6 +5502,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5371,6 +5535,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5403,6 +5568,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5435,6 +5601,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5467,6 +5634,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5499,6 +5667,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5531,6 +5700,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5563,6 +5733,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5595,6 +5766,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5627,6 +5799,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5660,6 +5833,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5693,6 +5867,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5726,6 +5901,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5759,6 +5935,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5792,6 +5969,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5825,6 +6003,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5858,6 +6037,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5891,6 +6071,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5924,6 +6105,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5957,6 +6139,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5990,6 +6173,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6023,6 +6207,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6056,6 +6241,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6089,6 +6275,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6122,6 +6309,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6155,6 +6343,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6188,6 +6377,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6221,6 +6411,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6254,6 +6445,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6287,6 +6479,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6320,6 +6513,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6353,6 +6547,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6386,6 +6581,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6419,6 +6615,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6452,6 +6649,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6485,6 +6683,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6518,6 +6717,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6551,6 +6751,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6583,6 +6784,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6615,6 +6817,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6647,6 +6850,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6679,6 +6883,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6711,6 +6916,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6743,6 +6949,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6775,6 +6982,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6808,6 +7016,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6841,6 +7050,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6873,6 +7083,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6906,6 +7117,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6938,6 +7150,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6971,6 +7184,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7003,6 +7217,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7035,6 +7250,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7067,6 +7283,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7099,6 +7316,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7132,6 +7350,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7165,6 +7384,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7198,6 +7418,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7230,6 +7451,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7263,6 +7485,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7295,6 +7518,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7328,6 +7552,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7360,6 +7585,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7392,6 +7618,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7424,6 +7651,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7456,6 +7684,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7488,6 +7717,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7521,6 +7751,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7554,6 +7785,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7587,6 +7819,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7620,6 +7853,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7653,6 +7887,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7686,6 +7921,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7719,6 +7955,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7752,6 +7989,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7785,6 +8023,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7818,6 +8057,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7851,6 +8091,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7884,6 +8125,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7917,6 +8159,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7950,6 +8193,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7983,6 +8227,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8016,6 +8261,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8049,6 +8295,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8082,6 +8329,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8115,6 +8363,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8148,6 +8397,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8181,6 +8431,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8214,6 +8465,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8247,6 +8499,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8280,6 +8533,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8313,6 +8567,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8346,6 +8601,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8379,6 +8635,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8412,6 +8669,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8445,6 +8703,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8478,6 +8737,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8511,6 +8771,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8544,6 +8805,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8577,6 +8839,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8610,6 +8873,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8643,6 +8907,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8676,6 +8941,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8709,6 +8975,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8742,6 +9009,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8775,6 +9043,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8807,6 +9076,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8839,6 +9109,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8871,6 +9142,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8903,6 +9175,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8935,6 +9208,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8967,6 +9241,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8999,6 +9274,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9031,6 +9307,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9063,6 +9340,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9096,6 +9374,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9129,6 +9408,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9162,6 +9442,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9195,6 +9476,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9228,6 +9510,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9261,6 +9544,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9293,6 +9577,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9325,6 +9610,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9357,6 +9643,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9389,6 +9676,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9421,6 +9709,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9453,6 +9742,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9485,6 +9775,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9517,6 +9808,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9549,6 +9841,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9581,6 +9874,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9613,6 +9907,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9645,6 +9940,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9677,6 +9973,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9709,6 +10006,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9741,6 +10039,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9773,6 +10072,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9805,6 +10105,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9837,6 +10138,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9869,6 +10171,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9901,6 +10204,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9933,6 +10237,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9965,6 +10270,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9997,6 +10303,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10029,6 +10336,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10061,6 +10369,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10093,6 +10402,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10125,6 +10435,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10157,6 +10468,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10189,6 +10501,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10221,6 +10534,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10253,6 +10567,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10285,6 +10600,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10317,6 +10633,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10349,6 +10666,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10381,6 +10699,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10413,6 +10732,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10445,6 +10765,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10477,6 +10798,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10509,6 +10831,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10541,6 +10864,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10573,6 +10897,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10605,6 +10930,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10637,6 +10963,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10669,6 +10996,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10701,6 +11029,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10733,6 +11062,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10765,6 +11095,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10797,6 +11128,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10829,6 +11161,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10861,6 +11194,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10894,6 +11228,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10927,6 +11262,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10959,6 +11295,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10991,6 +11328,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11024,6 +11362,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11057,6 +11396,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11090,6 +11430,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11123,6 +11464,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11156,6 +11498,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11188,6 +11531,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11220,6 +11564,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11252,6 +11597,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11284,6 +11630,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11316,6 +11663,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11348,6 +11696,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11380,6 +11729,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11412,6 +11762,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11444,6 +11795,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11476,6 +11828,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11508,6 +11861,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11540,6 +11894,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11572,6 +11927,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11604,6 +11960,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11636,6 +11993,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11668,6 +12026,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11700,6 +12059,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11732,6 +12092,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11764,6 +12125,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11796,6 +12158,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11828,6 +12191,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11860,6 +12224,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11892,6 +12257,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11924,6 +12290,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11956,6 +12323,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -11973,7 +12341,7 @@ export const nuts: any[] = [
     description: '5/8-11 -- Cold Forged Wing Nuts -- Zinc Plated',
     diameter: '5/8-11',
     length: 'n/a',
-    head_type: 'n/a',
+    head_type: 'Cold Forged Wing Nuts',
     drive: 'n/a',
     grade: 'n/a',
     material: 'n/a',
@@ -11988,6 +12356,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -12020,6 +12389,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -12037,7 +12407,7 @@ export const nuts: any[] = [
     description: '8-32 -- Stamped Wing Nuts -- Steel -- Zinc Plated',
     diameter: '8-32',
     length: 'n/a',
-    head_type: 'n/a',
+    head_type: 'Stamped Wing Nuts',
     drive: 'n/a',
     grade: 'n/a',
     material: 'Steel',
@@ -12052,6 +12422,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -12069,7 +12440,7 @@ export const nuts: any[] = [
     description: '10-24 -- Stamped Wing Nuts -- Steel -- Zinc Plated',
     diameter: '10-24',
     length: 'n/a',
-    head_type: 'n/a',
+    head_type: 'Stamped Wing Nuts',
     drive: 'n/a',
     grade: 'n/a',
     material: 'Steel',
@@ -12084,6 +12455,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -12101,7 +12473,7 @@ export const nuts: any[] = [
     description: '10-32 -- Stamped Wing Nuts -- Steel -- Zinc Plated',
     diameter: '10-32',
     length: 'n/a',
-    head_type: 'n/a',
+    head_type: 'Stamped Wing Nuts',
     drive: 'n/a',
     grade: 'n/a',
     material: 'Steel',
@@ -12116,6 +12488,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -12133,7 +12506,7 @@ export const nuts: any[] = [
     description: '1/4-20 -- Stamped Wing Nuts -- Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: 'n/a',
-    head_type: 'n/a',
+    head_type: 'Stamped Wing Nuts',
     drive: 'n/a',
     grade: 'n/a',
     material: 'Steel',
@@ -12148,6 +12521,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -12165,7 +12539,7 @@ export const nuts: any[] = [
     description: '5/16-18 -- Stamped Wing Nuts -- Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: 'n/a',
-    head_type: 'n/a',
+    head_type: 'Stamped Wing Nuts',
     drive: 'n/a',
     grade: 'n/a',
     material: 'Steel',
@@ -12180,6 +12554,7 @@ export const nuts: any[] = [
     slug: 'Test',
 
     Type: 'Nuts',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -12197,7 +12572,7 @@ export const nuts: any[] = [
     description: '3/8-16 -- Stamped Wing Nuts -- Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: 'n/a',
-    head_type: 'n/a',
+    head_type: 'Stamped Wing Nuts',
     drive: 'n/a',
     grade: 'n/a',
     material: 'Steel',

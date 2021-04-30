@@ -76,8 +76,9 @@ const fetchImages = (def: any) => {
     else return false;
   };
   let value = checkAttribute(def);
+
   return [
-    `/images/${def?.superCategory.toLowerCase()}/${def?.Type.trim().toLowerCase()}s/fasteners__${def?.Type.trim().toLowerCase()}s__${def?.Category.trim()
+    `/images/${def?.superCategory.toLowerCase()}/${def?.Type.trim().toLowerCase()}/fasteners__${def?.Type.trim().toLowerCase()}__${def?.Category.trim()
       .toLowerCase()
       .replace(/ /g, '_')}${
       value ? value.toLowerCase().replace(/ /g, '_') : '__'
@@ -189,13 +190,13 @@ const makeProducts = (defs: any[]): any[] => {
 };
 
 const TotalProducts = [];
-anchor.forEach((data, index) => {
+
+TotalProducts.push(...anchor, ...pins, ...nuts);
+TotalProducts.forEach((data, index) => {
   if (data?.name && data.slug) {
     data.name = `Test${index + 1}`;
     data.slug = `test${index + 1}`;
   }
 });
-
-TotalProducts.push(...anchor);
 
 export const products: any[] = makeProducts(TotalProducts);

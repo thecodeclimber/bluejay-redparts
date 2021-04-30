@@ -5,6 +5,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -37,6 +38,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -69,6 +71,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -101,6 +104,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -133,6 +137,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -165,6 +170,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -197,6 +203,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -229,6 +236,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -261,6 +269,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -293,6 +302,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -325,6 +335,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -357,6 +368,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -389,6 +401,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -421,6 +434,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -453,6 +467,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -485,6 +500,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -517,6 +533,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -549,6 +566,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -581,6 +599,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -613,6 +632,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -645,6 +665,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -677,6 +698,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -709,6 +731,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -741,6 +764,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -773,6 +797,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -805,6 +830,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -837,6 +863,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -869,6 +896,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -901,6 +929,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -933,6 +962,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -965,6 +995,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -997,6 +1028,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1029,6 +1061,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1061,6 +1094,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1093,6 +1127,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1125,6 +1160,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1157,6 +1193,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1189,6 +1226,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1221,6 +1259,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1253,6 +1292,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1285,6 +1325,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1317,6 +1358,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1349,6 +1391,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1381,6 +1424,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1413,6 +1457,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1445,6 +1490,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1477,6 +1523,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1509,6 +1556,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1541,6 +1589,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1573,6 +1622,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1605,6 +1655,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1637,6 +1688,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1669,6 +1721,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1701,6 +1754,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1733,6 +1787,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1765,6 +1820,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1797,6 +1853,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1829,6 +1886,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1861,6 +1919,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1893,6 +1952,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1925,6 +1985,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1957,6 +2018,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1989,6 +2051,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2021,6 +2084,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2053,6 +2117,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2085,6 +2150,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2117,6 +2183,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2149,6 +2216,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2181,6 +2249,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2213,6 +2282,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2245,6 +2315,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2277,6 +2348,7 @@ export const pins: any[] = [
     slug: 'Test',
 
     Type: 'Pins',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
