@@ -1,5 +1,5 @@
 // react
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 // third-party
 import classNames from 'classnames';
 import { FormattedMessage } from 'react-intl';
@@ -12,11 +12,13 @@ import {
   TopbarButtonLabel,
   TopbarItemTitle,
 } from '~/styled-components/header/Topbar';
-import AppLink from '~/components/shared/AppLink';
 import DropdownCurrency from '~/components/header/DropdownCurrency';
-import DropdownLanguage from '~/components/header/DropdownLanguage';
 import url from '~/services/url';
 import { useCompare } from '~/store/compare/compareHooks';
+import { useUser } from '~/store/user/userHooks';
+import { accountApi } from '~/api';
+import { IOrder } from '~/interfaces/order';
+import { useWishlist } from '~/store/wishlist/wishlistHooks';
 
 type Layout = 'spaceship-start' | 'spaceship-end' | 'classic';
 
@@ -26,7 +28,21 @@ interface Props {
 
 function Topbar(props: Props) {
   const { layout } = props;
+  const user = useUser();
+  const wishlist = useWishlist();
   const compare = useCompare();
+  const [orders, setOrders] = useState<IOrder[]>([]);
+  const { items } = wishlist;
+
+  useEffect(() => {
+    if (user) {
+      accountApi.getOrdersList().then((list) => {
+        setOrders(list.items);
+      });
+    } else {
+      setOrders([]);
+    }
+  }, [user]);
 
   const rootClasses = classNames(`topbar--spaceship-end`);
 
@@ -81,17 +97,29 @@ function Topbar(props: Props) {
       {layout !== 'spaceship-start' && (
         <React.Fragment>
           <TopbarItemText>
-            <TopbarLink as="a">
-              <TopbarButtonLabel>
-                <FormattedMessage id="TEXT_TOPBAR_COMPARE" />:
-              </TopbarButtonLabel>
-              <TopbarItemTitle>{compare.items.length}</TopbarItemTitle>
+            <TopbarLink as="a" href={url.wishlist()}>
+              <FormattedMessage id="TEXT_TOPBAR_FAVORITES" />:
+              <TopbarItemTitle>{items.length}</TopbarItemTitle>
             </TopbarLink>
           </TopbarItemText>
 
-          <DropdownCurrency />
+          {/* <DropdownCurrency /> */}
 
-          <DropdownLanguage />
+          {user ? (
+            <React.Fragment>
+              <TopbarItemText>
+                <TopbarLink as="a" href={url.accountOrders()}>
+                  <FormattedMessage id="TEXT_TOPBAR_ORDERS" />:
+                  <TopbarItemTitle>{orders.length}</TopbarItemTitle>
+                </TopbarLink>
+              </TopbarItemText>
+              <TopbarItemText>
+                <TopbarLink as="a" href={url.accountDashboard()}>
+                  <FormattedMessage id="TEXT_TOPBAR_ACCOUNT" />
+                </TopbarLink>
+              </TopbarItemText>
+            </React.Fragment>
+          ) : null}
         </React.Fragment>
       )}
     </TopbarStyledComponent>

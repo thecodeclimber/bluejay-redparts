@@ -37,7 +37,7 @@ export const TopbarItemTitle = styled.div`
 
 export const TopbarLink = styled.div`
   display: flex;
-  ${(props: { href?: string }) =>
+  ${(props: { href?: any }) =>
     props.href &&
     css`
       color: #9e9e9e;
