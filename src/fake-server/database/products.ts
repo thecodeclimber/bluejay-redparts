@@ -191,7 +191,7 @@ const makeProducts = (defs: any[]): any[] => {
 
 const TotalProducts = [];
 
-TotalProducts.push(...anchor, ...pins, ...nuts);
+TotalProducts.push(...anchor, ...pins, ...nuts, ...washers);
 TotalProducts.forEach((data, index) => {
   if (data?.name && data.slug) {
     data.name = `Test${index + 1}`;

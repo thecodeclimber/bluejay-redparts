@@ -3,7 +3,8 @@ export const washers: any[] = [
     sku: '7039000-ZN',
     name: 'Test',
     slug: 'Test',
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
     images: [
       '/images/products/product-2-1.jpg',
       '/images/products/product-2-2.jpg',
@@ -17,7 +18,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Fender',
-    description: '-1 -- 9/64 X 5/8 -- Fender Washer -- Steel -- Zinc Plated',
+    description: '-1 -- 9/64 X 5/8 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '9/64',
     length: '5/8',
     head_type: 'n/a',
@@ -34,7 +35,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -49,7 +51,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Fender',
-    description: '-1A -- 3/16 X 3/4 -- Fender Washer -- Steel -- Zinc Plated',
+    description: '-1A -- 3/16 X 3/4 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '3/16',
     length: '3/4',
     head_type: 'n/a',
@@ -66,7 +68,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -81,7 +84,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Fender',
-    description: '-2 -- 5/32 X 9/16 -- Fender Washer -- Steel -- Zinc Plated',
+    description: '-2 -- 5/32 X 9/16 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '5/32',
     length: '9/16',
     head_type: 'n/a',
@@ -98,7 +101,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -113,7 +117,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Fender',
-    description: '-3 -- 13/64 X 1/2 -- Fender Washer -- Steel -- Zinc Plated',
+    description: '-3 -- 13/64 X 1/2 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '13/64',
     length: '1/2',
     head_type: 'n/a',
@@ -130,7 +134,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -145,7 +150,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Fender',
-    description: '-4 -- 7/32 X 1-1/4 -- Fender Washer -- Steel -- Zinc Plated',
+    description: '-4 -- 7/32 X 1-1/4 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '7/32',
     length: '1-1/4',
     head_type: 'n/a',
@@ -162,7 +167,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -177,7 +183,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Fender',
-    description: '-5 -- 17/64 X 1/2 -- Fender Washer -- Steel -- Zinc Plated',
+    description: '-5 -- 17/64 X 1/2 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '17/64',
     length: '1/2',
     head_type: 'n/a',
@@ -194,7 +200,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -209,7 +216,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Fender',
-    description: '-6 -- 17/64 X 9/16 -- Fender Washer -- Steel -- Zinc Plated',
+    description: '-6 -- 17/64 X 9/16 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '17/64',
     length: '9/16',
     head_type: 'n/a',
@@ -226,7 +233,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -241,7 +249,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Fender',
-    description: '-7 -- 17/64 X 7/8 -- Fender Washer -- Steel -- Zinc Plated',
+    description: '-7 -- 17/64 X 7/8 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '17/64',
     length: '7/8',
     head_type: 'n/a',
@@ -258,7 +266,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -273,7 +282,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Fender',
-    description: '-8 -- 9/32 X 1 -- Fender Washer -- Steel -- Zinc Plated',
+    description: '-8 -- 9/32 X 1 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '9/32',
     length: '1',
     head_type: 'n/a',
@@ -290,7 +299,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -305,7 +315,8 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Fender',
-    description: '-8A -- 9/32 X 1-1/4 -- Fender Washer -- Steel -- Zinc Plated',
+    description:
+      '-8A -- 9/32 X 1-1/4 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '9/32',
     length: '1-1/4',
     head_type: 'n/a',
@@ -322,7 +333,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -338,7 +350,7 @@ export const washers: any[] = [
     },
     Category: 'Fender',
     description:
-      '-10 -- 11/32 X 1-1/2 -- Fender Washer -- Steel -- Zinc Plated',
+      '-10 -- 11/32 X 1-1/2 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '11/32',
     length: '1-1/2',
     head_type: 'n/a',
@@ -355,7 +367,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -371,7 +384,7 @@ export const washers: any[] = [
     },
     Category: 'Fender',
     description:
-      '-10 -- 11/32 X 1-1/2 -- Fender Washer -- Steel -- Zinc Plated',
+      '-10 -- 11/32 X 1-1/2 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '11/32',
     length: '1-1/2',
     head_type: 'n/a',
@@ -388,7 +401,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -404,7 +418,7 @@ export const washers: any[] = [
     },
     Category: 'Fender',
     description:
-      '10A -- 11/32 X 1-1/2 -- Fender Washer -- Steel -- Zinc Plated',
+      '10A -- 11/32 X 1-1/2 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '11/32',
     length: '1-1/2',
     head_type: 'n/a',
@@ -421,7 +435,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -436,7 +451,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Fender',
-    description: '-11 -- 13/32 X 1 -- Fender Washer -- Steel -- Zinc Plated',
+    description: '-11 -- 13/32 X 1 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '13/32',
     length: '1',
     head_type: 'n/a',
@@ -453,7 +468,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -468,7 +484,8 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Fender',
-    description: '-12 -- 9/32 X 1-1/2 -- Fender Washer -- Steel -- Zinc Plated',
+    description:
+      '-12 -- 9/32 X 1-1/2 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '9/32',
     length: '1-1/2',
     head_type: 'n/a',
@@ -485,7 +502,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -501,7 +519,7 @@ export const washers: any[] = [
     },
     Category: 'Fender',
     description:
-      '-13 -- 17/32 X 1-1/2 -- Fender Washer -- Steel -- Zinc Plated',
+      '-13 -- 17/32 X 1-1/2 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '17/32',
     length: '1-1/2',
     head_type: 'n/a',
@@ -518,7 +536,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -534,7 +553,7 @@ export const washers: any[] = [
     },
     Category: 'Fender',
     description:
-      '-14 -- 13/32 X 1-1/2 -- Fender Washer -- Steel -- Zinc Plated',
+      '-14 -- 13/32 X 1-1/2 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '13/32',
     length: '1-1/2',
     head_type: 'n/a',
@@ -551,7 +570,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -567,7 +587,7 @@ export const washers: any[] = [
     },
     Category: 'Fender',
     description:
-      '-14A -- 13/32 X1-1/4 -- Fender Washer -- Steel -- Zinc Plated',
+      '-14A -- 13/32 X1-1/4 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '13/32',
     length: '1-1/4',
     head_type: 'n/a',
@@ -584,7 +604,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -599,7 +620,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Fender',
-    description: '-15 -- 9/32 X 2 -- Fender Washer -- Steel -- Zinc Plated',
+    description: '-15 -- 9/32 X 2 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '9/32',
     length: '2',
     head_type: 'n/a',
@@ -616,7 +637,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -631,7 +653,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Fender',
-    description: '-16 -- 13/32 X 2 -- Fender Washer -- Steel -- Zinc Plated',
+    description: '-16 -- 13/32 X 2 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '13/32',
     length: '2',
     head_type: 'n/a',
@@ -648,7 +670,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -663,7 +686,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Fender',
-    description: '-17 -- 17/32 X 2 -- Fender Washer -- Steel -- Zinc Plated',
+    description: '-17 -- 17/32 X 2 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '17/32',
     length: '2',
     head_type: 'n/a',
@@ -680,7 +703,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -696,7 +720,7 @@ export const washers: any[] = [
     },
     Category: 'Fender',
     description:
-      '-18 -- 17/64 X 1-1/2 -- Fender Washer -- Steel -- Zinc Plated',
+      '-18 -- 17/64 X 1-1/2 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '17/64',
     length: '1-1/2',
     head_type: 'n/a',
@@ -713,7 +737,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -729,7 +754,7 @@ export const washers: any[] = [
     },
     Category: 'Fender',
     description:
-      '-19 -- 17/64 X 2-1/2 -- Fender Washer -- Steel -- Zinc Plated',
+      '-19 -- 17/64 X 2-1/2 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '17/64',
     length: '2-1/2',
     head_type: 'n/a',
@@ -746,7 +771,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -762,7 +788,7 @@ export const washers: any[] = [
     },
     Category: 'Fender',
     description:
-      '-20 -- 13/32 X 2-1/2 -- Fender Washer -- Steel -- Zinc Plated',
+      '-20 -- 13/32 X 2-1/2 -- Fender Washers -- Steel -- Zinc Plated',
     diameter: '13/32',
     length: '2-1/2',
     head_type: 'n/a',
@@ -779,7 +805,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -794,7 +821,8 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'finishing',
-    description: '#6 -- Countersunk finishing Washer -- Steel -- Nickel Plated',
+    description:
+      '#6 -- Countersunk finishing Washers -- Steel -- Nickel Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -811,7 +839,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -826,7 +855,8 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'finishing',
-    description: '#8 -- Countersunk finishing Washer -- Steel -- Nickel Plated',
+    description:
+      '#8 -- Countersunk finishing Washers -- Steel -- Nickel Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -843,7 +873,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -859,7 +890,7 @@ export const washers: any[] = [
     },
     Category: 'finishing',
     description:
-      '#10 -- Countersunk finishing Washer -- Steel -- Nickel Plated',
+      '#10 -- Countersunk finishing Washers -- Steel -- Nickel Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -876,7 +907,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -892,7 +924,7 @@ export const washers: any[] = [
     },
     Category: 'finishing',
     description:
-      '#12 -- Countersunk finishing Washer -- Steel -- Nickel Plated',
+      '#12 -- Countersunk finishing Washers -- Steel -- Nickel Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -909,7 +941,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -925,7 +958,7 @@ export const washers: any[] = [
     },
     Category: 'finishing',
     description:
-      '#14 -- Countersunk finishing Washer -- Steel -- Nickel Plated',
+      '#14 -- Countersunk finishing Washers -- Steel -- Nickel Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -942,7 +975,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -958,7 +992,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1/4 USS -- Flat Washer -- Hot Dip Galvanized --  5/16 x 3/4 x 1/16',
+      '1/4 USS -- Flat Washers -- Hot Dip Galvanized --  5/16 x 3/4 x 1/16',
     diameter: '5/16',
     length: '3/4',
     head_type: 'n/a',
@@ -975,7 +1009,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -991,7 +1026,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '5/16 USS -- Flat Washer -- Hot Dip Galvanized --  3/8 x 7/8 x 5/64',
+      '5/16 USS -- Flat Washers -- Hot Dip Galvanized --  3/8 x 7/8 x 5/64',
     diameter: '3/8',
     length: '7/8',
     head_type: 'n/a',
@@ -1008,7 +1043,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1024,7 +1060,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '3/8 USS -- Flat Washer -- Hot Dip Galvanized --  7/16 x 1 x 5/64',
+      '3/8 USS -- Flat Washers -- Hot Dip Galvanized --  7/16 x 1 x 5/64',
     diameter: '7/16',
     length: '1',
     head_type: 'n/a',
@@ -1041,7 +1077,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1057,7 +1094,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1/2 USS -- Flat Washer -- Hot Dip Galvanized --  9/16  1-3/8 x 7/64',
+      '1/2 USS -- Flat Washers -- Hot Dip Galvanized --  9/16  1-3/8 x 7/64',
     diameter: '9/16',
     length: '3/8',
     head_type: 'n/a',
@@ -1074,7 +1111,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1090,7 +1128,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '5/8 USS -- Flat Washer -- Hot Dip Galvanized --  11/16 x 1-3/4 x 9/64',
+      '5/8 USS -- Flat Washers -- Hot Dip Galvanized --  11/16 x 1-3/4 x 9/64',
     diameter: '11/16',
     length: '1-3/4',
     head_type: 'n/a',
@@ -1107,7 +1145,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1123,7 +1162,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '5/8 USS -- Flat Washer -- Hot Dip Galvanized --  11/16 x 1-3/4 x 9/64',
+      '5/8 USS -- Flat Washers -- Hot Dip Galvanized --  11/16 x 1-3/4 x 9/64',
     diameter: '11/16',
     length: '1-3/4',
     head_type: 'n/a',
@@ -1140,7 +1179,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1156,7 +1196,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '3/4 USS -- Flat Washer -- Hot Dip Galvanized --  13/16 x 2 x 5/32',
+      '3/4 USS -- Flat Washers -- Hot Dip Galvanized --  13/16 x 2 x 5/32',
     diameter: '13/16',
     length: '2',
     head_type: 'n/a',
@@ -1173,7 +1213,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1189,7 +1230,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '3/4 USS -- Flat Washer -- Hot Dip Galvanized --  13/16 x 2 x 5/32',
+      '3/4 USS -- Flat Washers -- Hot Dip Galvanized --  13/16 x 2 x 5/32',
     diameter: '13/16',
     length: '2',
     head_type: 'n/a',
@@ -1206,7 +1247,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1222,7 +1264,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1/4 USS -- Flat Washer -- Hot Dip Galvanized --  5/16 x 3/4 x 1/16',
+      '1/4 USS -- Flat Washers -- Hot Dip Galvanized --  5/16 x 3/4 x 1/16',
     diameter: '5/16',
     length: '3/4',
     head_type: 'n/a',
@@ -1239,7 +1281,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1255,7 +1298,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '5/16 USS -- Flat Washer -- Hot Dip Galvanized --  3/8 x 7/8 x 5/64',
+      '5/16 USS -- Flat Washers -- Hot Dip Galvanized --  3/8 x 7/8 x 5/64',
     diameter: '3/8',
     length: '7/8',
     head_type: 'n/a',
@@ -1272,7 +1315,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1288,7 +1332,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '3/8 USS -- Flat Washer -- Hot Dip Galvanized --  7/16 x 1 x 5/64',
+      '3/8 USS -- Flat Washers -- Hot Dip Galvanized --  7/16 x 1 x 5/64',
     diameter: '7/16',
     length: '1',
     head_type: 'n/a',
@@ -1305,7 +1349,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1321,7 +1366,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1/2 USS -- Flat Washer -- Hot Dip Galvanized --  9/16 bx 1-3/8 x 7/64',
+      '1/2 USS -- Flat Washers -- Hot Dip Galvanized --  9/16 bx 1-3/8 x 7/64',
     diameter: '9/16',
     length: '3/8',
     head_type: 'n/a',
@@ -1338,7 +1383,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1354,7 +1400,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '5/8 USS -- Flat Washer -- Hot Dip Galvanized --  11/16 x 1-3/4 x 9/64',
+      '5/8 USS -- Flat Washers -- Hot Dip Galvanized --  11/16 x 1-3/4 x 9/64',
     diameter: '11/16',
     length: '1-3/4',
     head_type: 'n/a',
@@ -1371,7 +1417,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1387,7 +1434,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '3/4 USS -- Flat Washer -- Hot Dip Galvanized --  13/16 x 2 x 5/32',
+      '3/4 USS -- Flat Washers -- Hot Dip Galvanized --  13/16 x 2 x 5/32',
     diameter: '13/16',
     length: '2',
     head_type: 'n/a',
@@ -1404,7 +1451,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1419,7 +1467,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '#4 SAE -- Flat Washer -- Zinc Plated',
+    description: '#4 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -1436,7 +1484,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1451,7 +1500,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '#4 SAE -- Flat Washer -- Zinc Plated',
+    description: '#4 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -1468,7 +1517,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1483,7 +1533,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '#5 SAE -- Flat Washer -- Zinc Plated',
+    description: '#5 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -1500,7 +1550,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1515,7 +1566,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '#6 SAE -- Flat Washer -- Zinc Plated',
+    description: '#6 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -1532,7 +1583,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1547,7 +1599,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '#8 SAE -- Flat Washer -- Zinc Plated',
+    description: '#8 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -1564,7 +1616,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1579,7 +1632,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '#10 SAE -- Flat Washer -- Zinc Plated',
+    description: '#10 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -1596,7 +1649,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1611,7 +1665,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '#12 SAE -- Flat Washer -- Zinc Plated',
+    description: '#12 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -1628,7 +1682,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1643,7 +1698,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '#12 SAE -- Flat Washer -- Zinc Plated',
+    description: '#12 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -1660,7 +1715,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1675,7 +1731,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1/4 SAE -- Flat Washer -- Zinc Plated',
+    description: '1/4 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -1692,7 +1748,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1707,7 +1764,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1/4 SAE -- Flat Washer -- Zinc Plated',
+    description: '1/4 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -1724,7 +1781,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1739,7 +1797,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1/4 SAE -- Flat Washer -- Zinc Plated',
+    description: '1/4 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -1756,7 +1814,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1771,7 +1830,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '5/16 SAE -- Flat Washer -- Zinc Plated',
+    description: '5/16 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -1788,7 +1847,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1803,7 +1863,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '5/16 SAE -- Flat Washer -- Zinc Plated',
+    description: '5/16 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -1820,7 +1880,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1835,7 +1896,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '5/16 SAE -- Flat Washer -- Zinc Plated',
+    description: '5/16 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -1852,7 +1913,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1867,7 +1929,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '3/8 SAE -- Flat Washer -- Zinc Plated',
+    description: '3/8 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -1884,7 +1946,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1899,7 +1962,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '3/8 SAE -- Flat Washer -- Zinc Plated',
+    description: '3/8 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -1916,7 +1979,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1931,7 +1995,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '3/8 SAE -- Flat Washer -- Zinc Plated',
+    description: '3/8 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -1948,7 +2012,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1963,7 +2028,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '7/16 SAE -- Flat Washer -- Zinc Plated',
+    description: '7/16 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -1980,7 +2045,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -1995,7 +2061,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '7/16 SAE -- Flat Washer -- Zinc Plated',
+    description: '7/16 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2012,7 +2078,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2027,7 +2094,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '7/16 SAE -- Flat Washer -- Zinc Plated',
+    description: '7/16 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2044,7 +2111,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2059,7 +2127,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1/2 SAE -- Flat Washer -- Zinc Plated',
+    description: '1/2 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2076,7 +2144,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2091,7 +2160,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1/2 SAE -- Flat Washer -- Zinc Plated',
+    description: '1/2 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2108,7 +2177,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2123,7 +2193,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1/2 SAE -- Flat Washer -- Zinc Plated',
+    description: '1/2 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2140,7 +2210,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2155,7 +2226,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '9/16 SAE -- Flat Washer -- Zinc Plated',
+    description: '9/16 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2172,7 +2243,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2187,7 +2259,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '9/16 SAE -- Flat Washer -- Zinc Plated',
+    description: '9/16 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2204,7 +2276,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2219,7 +2292,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '9/16 SAE -- Flat Washer -- Zinc Plated',
+    description: '9/16 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2236,7 +2309,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2251,7 +2325,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '5/8 SAE -- Flat Washer -- Zinc Plated',
+    description: '5/8 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2268,7 +2342,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2283,7 +2358,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '5/8 SAE -- Flat Washer -- Zinc Plated',
+    description: '5/8 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2300,7 +2375,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2315,7 +2391,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '5/8 SAE -- Flat Washer -- Zinc Plated',
+    description: '5/8 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2332,7 +2408,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2347,7 +2424,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '3/4 SAE -- Flat Washer -- Zinc Plated',
+    description: '3/4 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2364,7 +2441,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2379,7 +2457,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '3/4 SAE -- Flat Washer -- Zinc Plated',
+    description: '3/4 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2396,7 +2474,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2411,7 +2490,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '3/4 SAE -- Flat Washer -- Zinc Plated',
+    description: '3/4 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2428,7 +2507,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2443,7 +2523,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '7/8 SAE -- Flat Washer -- Zinc Plated',
+    description: '7/8 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2460,7 +2540,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2475,7 +2556,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '7/8 SAE -- Flat Washer -- Zinc Plated',
+    description: '7/8 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2492,7 +2573,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2507,7 +2589,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '7/8 SAE -- Flat Washer -- Zinc Plated',
+    description: '7/8 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2524,7 +2606,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2539,7 +2622,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1" SAE -- Flat Washer -- Zinc Plated',
+    description: '1" SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2556,7 +2639,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2571,7 +2655,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1" SAE -- Flat Washer -- Zinc Plated',
+    description: '1" SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2588,7 +2672,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2603,7 +2688,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1" SAE -- Flat Washer -- Zinc Plated',
+    description: '1" SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2620,7 +2705,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2635,7 +2721,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1-1/8 SAE -- Flat Washer -- Zinc Plated',
+    description: '1-1/8 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2652,7 +2738,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2667,7 +2754,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1-1/4 SAE -- Flat Washer -- Zinc Plated',
+    description: '1-1/4 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2684,7 +2771,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2699,7 +2787,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1-1/2 SAE -- Flat Washer -- Zinc Plated',
+    description: '1-1/2 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2716,7 +2804,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2731,7 +2820,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '#4 SAE -- Flat Washer -- Zinc Plated',
+    description: '#4 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2748,7 +2837,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2763,7 +2853,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '#5 SAE -- Flat Washer -- Zinc Plated',
+    description: '#5 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2780,7 +2870,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2795,7 +2886,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '#6 SAE -- Flat Washer -- Zinc Plated',
+    description: '#6 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2812,7 +2903,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2827,7 +2919,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '#8 SAE -- Flat Washer -- Zinc Plated',
+    description: '#8 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2844,7 +2936,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2859,7 +2952,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '#10 SAE -- Flat Washer -- Zinc Plated',
+    description: '#10 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2876,7 +2969,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2891,7 +2985,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '#12 SAE -- Flat Washer -- Zinc Plated',
+    description: '#12 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2908,7 +3002,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2923,7 +3018,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1/4 SAE -- Flat Washer -- Zinc Plated',
+    description: '1/4 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2940,7 +3035,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2955,7 +3051,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '5/16 SAE -- Flat Washer -- Zinc Plated',
+    description: '5/16 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -2972,7 +3068,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -2987,7 +3084,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '3/8 SAE -- Flat Washer -- Zinc Plated',
+    description: '3/8 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3004,7 +3101,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3019,7 +3117,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '7/16 SAE -- Flat Washer -- Zinc Plated',
+    description: '7/16 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3036,7 +3134,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3051,7 +3150,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1/2 SAE -- Flat Washer -- Zinc Plated',
+    description: '1/2 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3068,7 +3167,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3083,7 +3183,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '9/16 SAE -- Flat Washer -- Zinc Plated',
+    description: '9/16 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3100,7 +3200,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3115,7 +3216,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '5/8 SAE -- Flat Washer -- Zinc Plated',
+    description: '5/8 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3132,7 +3233,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3147,7 +3249,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '3/4 SAE -- Flat Washer -- Zinc Plated',
+    description: '3/4 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3164,7 +3266,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3179,7 +3282,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '7/8 SAE -- Flat Washer -- Zinc Plated',
+    description: '7/8 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3196,7 +3299,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3211,7 +3315,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1" SAE -- Flat Washer -- Zinc Plated',
+    description: '1" SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3228,7 +3332,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3243,7 +3348,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1-1/8 SAE -- Flat Washer -- Zinc Plated',
+    description: '1-1/8 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3260,7 +3365,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3275,7 +3381,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1-1/4 SAE -- Flat Washer -- Zinc Plated',
+    description: '1-1/4 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3292,7 +3398,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3307,7 +3414,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1-1/2 SAE -- Flat Washer -- Zinc Plated',
+    description: '1-1/2 SAE -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3324,7 +3431,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3339,7 +3447,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1/4 USS -- Flat Washer -- Zinc Plated',
+    description: '1/4 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3356,7 +3464,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3371,7 +3480,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1/4 USS -- Flat Washer -- Zinc Plated',
+    description: '1/4 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3388,7 +3497,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3403,7 +3513,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1/4 USS -- Flat Washer -- Zinc Plated',
+    description: '1/4 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3420,7 +3530,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3435,7 +3546,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '5/16 USS -- Flat Washer -- Zinc Plated',
+    description: '5/16 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3452,7 +3563,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3467,7 +3579,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '5/16 USS -- Flat Washer -- Zinc Plated',
+    description: '5/16 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3484,7 +3596,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3499,7 +3612,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '5/16 USS -- Flat Washer -- Zinc Plated',
+    description: '5/16 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3516,7 +3629,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3531,7 +3645,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '3/8 USS -- Flat Washer -- Zinc Plated',
+    description: '3/8 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3548,7 +3662,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3563,7 +3678,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '3/8 USS -- Flat Washer -- Zinc Plated',
+    description: '3/8 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3580,7 +3695,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3595,7 +3711,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '3/8 USS -- Flat Washer -- Zinc Plated',
+    description: '3/8 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3612,7 +3728,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3627,7 +3744,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '3/8 USS -- Flat Washer -- Zinc Plated',
+    description: '3/8 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3644,7 +3761,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3659,7 +3777,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '7/16 USS -- Flat Washer -- Zinc Plated',
+    description: '7/16 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3676,7 +3794,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3691,7 +3810,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '7/16 USS -- Flat Washer -- Zinc Plated',
+    description: '7/16 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3708,7 +3827,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3723,7 +3843,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '7/16 USS -- Flat Washer -- Zinc Plated',
+    description: '7/16 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3740,7 +3860,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3755,7 +3876,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1/2 USS -- Flat Washer -- Zinc Plated',
+    description: '1/2 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3772,7 +3893,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3787,7 +3909,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1/2 USS -- Flat Washer -- Zinc Plated',
+    description: '1/2 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3804,7 +3926,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3819,7 +3942,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1/2 USS -- Flat Washer -- Zinc Plated',
+    description: '1/2 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3836,7 +3959,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3851,7 +3975,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '9/16 USS -- Flat Washer -- Zinc Plated',
+    description: '9/16 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3868,7 +3992,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3883,7 +4008,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '9/16 USS -- Flat Washer -- Zinc Plated',
+    description: '9/16 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3900,7 +4025,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3915,7 +4041,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '9/16 USS -- Flat Washer -- Zinc Plated',
+    description: '9/16 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3932,7 +4058,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3947,7 +4074,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '5/8 USS -- Flat Washer -- Zinc Plated',
+    description: '5/8 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3964,7 +4091,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -3979,7 +4107,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '5/8 USS -- Flat Washer -- Zinc Plated',
+    description: '5/8 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -3996,7 +4124,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4011,7 +4140,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '5/8 USS -- Flat Washer -- Zinc Plated',
+    description: '5/8 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4028,7 +4157,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4043,7 +4173,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '3/4 USS -- Flat Washer -- Zinc Plated',
+    description: '3/4 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4060,7 +4190,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4075,7 +4206,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '3/4 USS -- Flat Washer -- Zinc Plated',
+    description: '3/4 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4092,7 +4223,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4107,7 +4239,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '3/4 USS -- Flat Washer -- Zinc Plated',
+    description: '3/4 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4124,7 +4256,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4139,7 +4272,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '7/8 USS -- Flat Washer -- Zinc Plated',
+    description: '7/8 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4156,7 +4289,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4171,7 +4305,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '7/8 USS -- Flat Washer -- Zinc Plated',
+    description: '7/8 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4188,7 +4322,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4203,7 +4338,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '7/8 USS -- Flat Washer -- Zinc Plated',
+    description: '7/8 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4220,7 +4355,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4235,7 +4371,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1" USS -- Flat Washer -- Zinc Plated',
+    description: '1" USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4252,7 +4388,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4267,7 +4404,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1" USS -- Flat Washer -- Zinc Plated',
+    description: '1" USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4284,7 +4421,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4299,7 +4437,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1" USS -- Flat Washer -- Zinc Plated',
+    description: '1" USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4316,7 +4454,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4331,7 +4470,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1-1/8 USS -- Flat Washer -- Zinc Plated',
+    description: '1-1/8 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4348,7 +4487,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4363,7 +4503,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1-1/8 USS -- Flat Washer -- Zinc Plated',
+    description: '1-1/8 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4380,7 +4520,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4395,7 +4536,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1-1/8 USS -- Flat Washer -- Zinc Plated',
+    description: '1-1/8 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4412,7 +4553,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4427,7 +4569,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1-1/4" USS -- Flat Washer -- Zinc Plated',
+    description: '1-1/4" USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4444,7 +4586,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4459,7 +4602,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1-1/4" USS -- Flat Washer -- Zinc Plated',
+    description: '1-1/4" USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4476,7 +4619,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4491,7 +4635,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1-1/4" USS -- Flat Washer -- Zinc Plated',
+    description: '1-1/4" USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4508,7 +4652,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4523,7 +4668,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1-1/2 USS -- Flat Washer -- Zinc Plated',
+    description: '1-1/2 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4540,7 +4685,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4555,7 +4701,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1-1/2 USS -- Flat Washer -- Zinc Plated',
+    description: '1-1/2 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4572,7 +4718,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4587,7 +4734,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1-1/2 USS -- Flat Washer -- Zinc Plated',
+    description: '1-1/2 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4604,7 +4751,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4619,7 +4767,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '3/16 USS -- Flat Washer -- Zinc Plated',
+    description: '3/16 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4636,7 +4784,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4651,7 +4800,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1/4 USS -- Flat Washer -- Zinc Plated',
+    description: '1/4 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4668,7 +4817,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4683,7 +4833,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '5/16 USS -- Flat Washer -- Zinc Plated',
+    description: '5/16 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4700,7 +4850,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4715,7 +4866,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '3/8 USS -- Flat Washer -- Zinc Plated',
+    description: '3/8 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4732,7 +4883,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4747,7 +4899,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '7/16 USS -- Flat Washer -- Zinc Plated',
+    description: '7/16 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4764,7 +4916,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4779,7 +4932,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1/2 USS -- Flat Washer -- Zinc Plated',
+    description: '1/2 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4796,7 +4949,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4811,7 +4965,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '9/16 USS -- Flat Washer -- Zinc Plated',
+    description: '9/16 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4828,7 +4982,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4843,7 +4998,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '5/8 USS -- Flat Washer -- Zinc Plated',
+    description: '5/8 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4860,7 +5015,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4875,7 +5031,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '3/4 USS -- Flat Washer -- Zinc Plated',
+    description: '3/4 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4892,7 +5048,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4907,7 +5064,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '7/8 USS -- Flat Washer -- Zinc Plated',
+    description: '7/8 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4924,7 +5081,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4939,7 +5097,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1" USS -- Flat Washer -- Zinc Plated',
+    description: '1" USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4956,7 +5114,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -4971,7 +5130,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1-1/8 USS -- Flat Washer -- Zinc Plated',
+    description: '1-1/8 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -4988,7 +5147,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5003,7 +5163,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1-1/4" USS -- Flat Washer -- Zinc Plated',
+    description: '1-1/4" USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5020,7 +5180,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5035,7 +5196,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1-1/2 USS -- Flat Washer -- Zinc Plated',
+    description: '1-1/2 USS -- Flat Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5052,7 +5213,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5068,7 +5230,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1/4 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '1/4 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5085,7 +5247,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5101,7 +5264,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1/4 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '1/4 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5118,7 +5281,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5134,7 +5298,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1/4 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '1/4 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5151,7 +5315,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5167,7 +5332,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '5/16 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '5/16 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5184,7 +5349,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5200,7 +5366,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '5/16 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '5/16 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5217,7 +5383,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5233,7 +5400,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '5/16 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '5/16 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5250,7 +5417,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5266,7 +5434,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '3/8 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '3/8 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5283,7 +5451,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5299,7 +5468,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '3/8 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '3/8 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5316,7 +5485,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5332,7 +5502,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '3/8 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '3/8 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5349,7 +5519,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5365,7 +5536,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '7/16 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '7/16 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5382,7 +5553,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5398,7 +5570,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '7/16 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '7/16 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5415,7 +5587,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5431,7 +5604,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '7/16 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '7/16 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5448,7 +5621,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5464,7 +5638,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1/2 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '1/2 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5481,7 +5655,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5497,7 +5672,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1/2 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '1/2 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5514,7 +5689,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5530,7 +5706,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1/2 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '1/2 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5547,7 +5723,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5563,7 +5740,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '9/16 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '9/16 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5580,7 +5757,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5596,7 +5774,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '9/16 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '9/16 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5613,7 +5791,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5629,7 +5808,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '9/16 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '9/16 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5646,7 +5825,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5662,7 +5842,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '5/8 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '5/8 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5679,7 +5859,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5695,7 +5876,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '5/8 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '5/8 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5712,7 +5893,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5728,7 +5910,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '5/8 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '5/8 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5745,7 +5927,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5761,7 +5944,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '3/4 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '3/4 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5778,7 +5961,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5794,7 +5978,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '3/4 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '3/4 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5811,7 +5995,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5827,7 +6012,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '3/4 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '3/4 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5844,7 +6029,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5860,7 +6046,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '3/4 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '3/4 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5877,7 +6063,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5893,7 +6080,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '7/8 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '7/8 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5910,7 +6097,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5926,7 +6114,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '7/8 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '7/8 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5943,7 +6131,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5959,7 +6148,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '7/8 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '7/8 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -5976,7 +6165,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -5992,7 +6182,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1" SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '1" SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6009,7 +6199,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6025,7 +6216,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1" SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '1" SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6042,7 +6233,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6058,7 +6250,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1" SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '1" SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6075,7 +6267,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6091,7 +6284,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1-1/8 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '1-1/8 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6108,7 +6301,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6124,7 +6318,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1-1/4 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '1-1/4 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6141,7 +6335,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6157,7 +6352,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1-1/2 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '1-1/2 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6174,7 +6369,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6190,7 +6386,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1-3/4 SAE -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '1-3/4 SAE -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6207,7 +6403,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6223,7 +6420,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1/4 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '1/4 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6240,7 +6437,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6256,7 +6454,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1/4 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '1/4 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6273,7 +6471,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6289,7 +6488,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1/4 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '1/4 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6306,7 +6505,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6322,7 +6522,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '5/16 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '5/16 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6339,7 +6539,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6355,7 +6556,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '5/16 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '5/16 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6372,7 +6573,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6388,7 +6590,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '5/16 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '5/16 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6405,7 +6607,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6421,7 +6624,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '3/8 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '3/8 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6438,7 +6641,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6454,7 +6658,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '3/8 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '3/8 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6471,7 +6675,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6487,7 +6692,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '3/8 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '3/8 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6504,7 +6709,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6520,7 +6726,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '7/16 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '7/16 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6537,7 +6743,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6553,7 +6760,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '7/16 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '7/16 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6570,7 +6777,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6586,7 +6794,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '7/16 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '7/16 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6603,7 +6811,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6619,7 +6828,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1/2 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '1/2 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6636,7 +6845,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6652,7 +6862,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1/2 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '1/2 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6669,7 +6879,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6685,7 +6896,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1/2 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '1/2 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6702,7 +6913,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6718,7 +6930,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '9/16 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '9/16 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6735,7 +6947,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6751,7 +6964,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '9/16 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '9/16 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6768,7 +6981,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6784,7 +6998,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '9/16 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '9/16 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6801,7 +7015,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6817,7 +7032,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '5/8 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '5/8 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6834,7 +7049,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6850,7 +7066,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '5/8 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '5/8 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6867,7 +7083,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6883,7 +7100,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '5/8 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '5/8 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6900,7 +7117,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6916,7 +7134,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '3/4 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '3/4 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6933,7 +7151,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6949,7 +7168,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '3/4 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '3/4 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6966,7 +7185,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -6982,7 +7202,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '3/4 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '3/4 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -6999,7 +7219,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7015,7 +7236,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '7/8 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '7/8 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7032,7 +7253,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7048,7 +7270,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '7/8 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '7/8 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7065,7 +7287,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7081,7 +7304,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '7/8 USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '7/8 USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7098,7 +7321,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7114,7 +7338,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1" USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '1" USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7131,7 +7355,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7147,7 +7372,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1" USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '1" USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7164,7 +7389,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7180,7 +7406,7 @@ export const washers: any[] = [
     },
     Category: 'Flat',
     description:
-      '1" USS -- Flat Washer -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
+      '1" USS -- Flat Washers -- ASTM-436 Hardened -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7197,7 +7423,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7212,7 +7439,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1/4 -- Flat Washer 18-8 -- Stainless Steel',
+    description: '1/4 -- Flat Washers 18-8 -- Stainless Steel',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7229,7 +7456,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7244,7 +7472,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '5/16 -- Flat Washer 18-8 -- Stainless Steel',
+    description: '5/16 -- Flat Washers 18-8 -- Stainless Steel',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7261,7 +7489,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7276,7 +7505,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '3/8 -- Flat Washer 18-8 -- Stainless Steel',
+    description: '3/8 -- Flat Washers 18-8 -- Stainless Steel',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7293,7 +7522,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7308,7 +7538,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '1/2 -- Flat Washer 18-8 -- Stainless Steel',
+    description: '1/2 -- Flat Washers 18-8 -- Stainless Steel',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7325,7 +7555,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7340,7 +7571,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '5/8 -- Flat Washer 18-8 -- Stainless Steel',
+    description: '5/8 -- Flat Washers 18-8 -- Stainless Steel',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7357,7 +7588,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7372,7 +7604,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Flat',
-    description: '3/4 -- Flat Washer 18-8 -- Stainless Steel',
+    description: '3/4 -- Flat Washers 18-8 -- Stainless Steel',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7389,7 +7621,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7403,8 +7636,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1/4 -- Medium Split Lock Washer -- Hot Dip Galvanizedanized',
+    Category: 'Lock Washers',
+    description: '1/4 -- Medium Split Lock Washers -- Hot Dip Galvanizedanized',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7421,7 +7654,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7435,8 +7669,9 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '5/16 -- Medium Split Lock Washer -- Hot Dip Galvanizedanized',
+    Category: 'Lock Washers',
+    description:
+      '5/16 -- Medium Split Lock Washers -- Hot Dip Galvanizedanized',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7453,7 +7688,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7467,8 +7703,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '3/8 -- Medium Split Lock Washer -- Hot Dip Galvanizedanized',
+    Category: 'Lock Washers',
+    description: '3/8 -- Medium Split Lock Washers -- Hot Dip Galvanizedanized',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7485,7 +7721,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7499,8 +7736,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1/2 -- Medium Split Lock Washer -- Hot Dip Galvanizedanized',
+    Category: 'Lock Washers',
+    description: '1/2 -- Medium Split Lock Washers -- Hot Dip Galvanizedanized',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7517,7 +7754,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7531,8 +7769,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '5/8 -- Medium Split Lock Washer -- Hot Dip Galvanizedanized',
+    Category: 'Lock Washers',
+    description: '5/8 -- Medium Split Lock Washers -- Hot Dip Galvanizedanized',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7549,7 +7787,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7563,8 +7802,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '3/4 -- Medium Split Lock Washer -- Hot Dip Galvanizedanized',
+    Category: 'Lock Washers',
+    description: '3/4 -- Medium Split Lock Washers -- Hot Dip Galvanizedanized',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7581,7 +7820,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7595,8 +7835,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1/4 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '1/4 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7613,7 +7853,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7627,8 +7868,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1/4 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '1/4 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7645,7 +7886,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7659,8 +7901,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1/4 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '1/4 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7677,7 +7919,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7691,8 +7934,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '5/16 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '5/16 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7709,7 +7952,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7723,8 +7967,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '5/16 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '5/16 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7741,7 +7985,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7755,8 +8000,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '5/16 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '5/16 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7773,7 +8018,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7787,8 +8033,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '3/8 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '3/8 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7805,7 +8051,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7819,8 +8066,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '3/8 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '3/8 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7837,7 +8084,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7851,8 +8099,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '3/8 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '3/8 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7869,7 +8117,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7883,8 +8132,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '7/16 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '7/16 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7901,7 +8150,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7915,8 +8165,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '7/16 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '7/16 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7933,7 +8183,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7947,8 +8198,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '7/16 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '7/16 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7965,7 +8216,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -7979,8 +8231,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1/2 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '1/2 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -7997,7 +8249,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8011,8 +8264,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1/2 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '1/2 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8029,7 +8282,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8043,8 +8297,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1/2 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '1/2 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8061,7 +8315,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8075,8 +8330,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '9/16 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '9/16 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8093,7 +8348,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8107,8 +8363,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '9/16 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '9/16 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8125,7 +8381,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8139,8 +8396,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '9/16 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '9/16 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8157,7 +8414,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8171,8 +8429,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '5/8 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '5/8 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8189,7 +8447,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8203,8 +8462,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '5/8 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '5/8 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8221,7 +8480,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8235,8 +8495,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '5/8 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '5/8 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8253,7 +8513,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8267,8 +8528,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '3/4 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '3/4 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8285,7 +8546,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8299,8 +8561,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '3/4 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '3/4 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8317,7 +8579,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8331,8 +8594,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '3/4 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '3/4 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8349,7 +8612,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8363,8 +8627,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '7/8 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '7/8 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8381,7 +8645,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8395,8 +8660,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '7/8 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '7/8 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8413,7 +8678,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8427,8 +8693,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '7/8 -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '7/8 -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8445,7 +8711,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8459,8 +8726,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1" -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '1" -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8477,7 +8744,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8491,8 +8759,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1" -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '1" -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8509,7 +8777,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8523,8 +8792,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1" -- Medium Split Lock Washer -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '1" -- Medium Split Lock Washers -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8541,7 +8810,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8555,8 +8825,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1/4 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '1/4 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8573,7 +8843,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8587,8 +8858,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1/4 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '1/4 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8605,7 +8876,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8619,8 +8891,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1/4 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '1/4 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8637,7 +8909,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8651,8 +8924,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '5/16 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '5/16 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8669,7 +8942,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8683,8 +8957,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '5/16 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '5/16 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8701,7 +8975,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8715,8 +8990,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '5/16 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '5/16 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8733,7 +9008,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8747,8 +9023,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '3/8 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '3/8 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8765,7 +9041,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8779,8 +9056,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '3/8 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '3/8 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8797,7 +9074,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8811,8 +9089,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '3/8 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '3/8 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8829,7 +9107,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8843,8 +9122,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '7/16 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '7/16 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8861,7 +9140,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8875,8 +9155,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '7/16 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '7/16 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8893,7 +9173,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8907,8 +9188,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '7/16 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '7/16 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8925,7 +9206,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8939,8 +9221,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1/2 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '1/2 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8957,7 +9239,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -8971,8 +9254,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1/2 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '1/2 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -8989,7 +9272,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9003,8 +9287,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1/2 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '1/2 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9021,7 +9305,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9035,8 +9320,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '9/16 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '9/16 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9053,7 +9338,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9067,8 +9353,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '9/16 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '9/16 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9085,7 +9371,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9099,8 +9386,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '9/16 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '9/16 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9117,7 +9404,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9131,8 +9419,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '5/8 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '5/8 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9149,7 +9437,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9163,8 +9452,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '5/8 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '5/8 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9181,7 +9470,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9195,8 +9485,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '5/8 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '5/8 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9213,7 +9503,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9227,8 +9518,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '3/4 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '3/4 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9245,7 +9536,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9259,8 +9551,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '3/4 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '3/4 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9277,7 +9569,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9291,8 +9584,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '3/4 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '3/4 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9309,7 +9602,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9323,8 +9617,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '3/4 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '3/4 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9341,7 +9635,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9355,8 +9650,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '7/8 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '7/8 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9373,7 +9668,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9387,8 +9683,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '7/8 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '7/8 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9405,7 +9701,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9419,8 +9716,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '7/8 Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '7/8 Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9437,7 +9734,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9451,8 +9749,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1" Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '1" Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9469,7 +9767,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9483,8 +9782,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1" Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '1" Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9501,7 +9800,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9515,8 +9815,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1" Alloy Split Lock Washer -- Zinc & Dichromate Plated',
+    Category: 'Lock Washers',
+    description: '1" Alloy Split Lock Washers -- Zinc & Dichromate Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9533,7 +9833,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9547,8 +9848,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '#4 Internal Tooth Lock Washer -- Steel -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '#4 Internal Tooth Lock Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9565,7 +9866,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9579,8 +9881,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '#6 Internal Tooth Lock Washer -- Steel -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '#6 Internal Tooth Lock Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9597,7 +9899,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9611,8 +9914,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '#8 Internal Tooth Lock Washer -- Steel -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '#8 Internal Tooth Lock Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9629,7 +9932,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9643,8 +9947,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '#10 Internal Tooth Lock Washer -- Steel -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '#10 Internal Tooth Lock Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9661,7 +9965,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9675,8 +9980,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1/4 Internal Tooth Lock Washer -- Steel -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '1/4 Internal Tooth Lock Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9693,7 +9998,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9707,8 +10013,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '5/16 Internal Tooth Lock Washer -- Steel -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '5/16 Internal Tooth Lock Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9725,7 +10031,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9739,8 +10046,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '3/8 Internal Tooth Lock Washer -- Steel -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '3/8 Internal Tooth Lock Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9757,7 +10064,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9771,8 +10079,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '7/16 Internal Tooth Lock Washer -- Steel -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '7/16 Internal Tooth Lock Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9789,7 +10097,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9803,8 +10112,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1/2 Internal Tooth Lock Washer -- Steel -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '1/2 Internal Tooth Lock Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9821,7 +10130,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9835,8 +10145,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '5/8 Internal Tooth Lock Washer -- Steel -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '5/8 Internal Tooth Lock Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9853,7 +10163,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9867,8 +10178,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '#4 External Tooth Lock Washer -- Steel -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '#4 External Tooth Lock Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9885,7 +10196,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9899,8 +10211,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '#6 External Tooth Lock Washer -- Steel -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '#6 External Tooth Lock Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9917,7 +10229,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9931,8 +10244,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '#8 External Tooth Lock Washer -- Steel -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '#8 External Tooth Lock Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9949,7 +10262,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9963,8 +10277,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '#10 External Tooth Lock Washer -- Steel -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '#10 External Tooth Lock Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -9981,7 +10295,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -9995,8 +10310,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1/4 External Tooth Lock Washer -- Steel -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '1/4 External Tooth Lock Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -10013,7 +10328,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10027,8 +10343,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '5/16 External Tooth Lock Washer -- Steel -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '5/16 External Tooth Lock Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -10045,7 +10361,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10059,8 +10376,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '3/8 External Tooth Lock Washer -- Steel -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '3/8 External Tooth Lock Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -10077,7 +10394,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10091,8 +10409,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '7/16 External Tooth Lock Washer -- Steel -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '7/16 External Tooth Lock Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -10109,7 +10427,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10123,8 +10442,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1/2 External Tooth Lock Washer -- Steel -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '1/2 External Tooth Lock Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -10141,7 +10460,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10155,8 +10475,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '5/8 External Tooth Lock Washer -- Steel -- Zinc Plated',
+    Category: 'Lock Washers',
+    description: '5/8 External Tooth Lock Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -10173,7 +10493,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10187,8 +10508,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1/4 -- Medium Split Lock Washer 18-8SS',
+    Category: 'Lock Washers',
+    description: '1/4 -- Medium Split Lock Washers 18-8SS',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -10205,7 +10526,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10219,8 +10541,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '5/16 -- Medium Split Lock Washer 18-8SS',
+    Category: 'Lock Washers',
+    description: '5/16 -- Medium Split Lock Washers 18-8SS',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -10237,7 +10559,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10251,8 +10574,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '3/8 -- Medium Split Lock Washer 18-8SS',
+    Category: 'Lock Washers',
+    description: '3/8 -- Medium Split Lock Washers 18-8SS',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -10269,7 +10592,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10283,8 +10607,8 @@ export const washers: any[] = [
     attributes: {
       Color: 'Silver',
     },
-    Category: 'Lock Washer',
-    description: '1/2 -- Medium Split Lock Washer 18-8SS',
+    Category: 'Lock Washers',
+    description: '1/2 -- Medium Split Lock Washers 18-8SS',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -10301,7 +10625,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10316,7 +10641,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Machine Screw',
-    description: '#4 Machine Screw Washer -- Steel -- Zinc Plated',
+    description: '#4 Machine Screw Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -10333,7 +10658,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10348,7 +10674,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Machine Screw',
-    description: '#6 Machine Screw Washer -- Steel -- Zinc Plated',
+    description: '#6 Machine Screw Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -10365,7 +10691,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10380,7 +10707,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Machine Screw',
-    description: '#8 Machine Screw Washer -- Steel -- Zinc Plated',
+    description: '#8 Machine Screw Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -10397,7 +10724,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10412,7 +10740,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Machine Screw',
-    description: '#10 Machine Screw Washer -- Steel -- Zinc Plated',
+    description: '#10 Machine Screw Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -10429,7 +10757,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10444,7 +10773,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Machine Screw',
-    description: '#12 Machine Screw Washer -- Steel -- Zinc Plated',
+    description: '#12 Machine Screw Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
@@ -10461,7 +10790,8 @@ export const washers: any[] = [
     name: 'Test',
     slug: 'Test',
 
-    Type: 'Washer',
+    Type: 'Washers',
+    superCategory: 'fasteners',
 
     images: [
       '/images/products/product-2-1.jpg',
@@ -10476,7 +10806,7 @@ export const washers: any[] = [
       Color: 'Silver',
     },
     Category: 'Machine Screw',
-    description: '#14 Machine Screw Washer -- Steel -- Zinc Plated',
+    description: '#14 Machine Screw Washers -- Steel -- Zinc Plated',
     diameter: 'n/a',
     length: 'n/a',
     head_type: 'n/a',
