@@ -2,23 +2,10 @@ export const screws: any[] = [
   {
     sku: '8616040-HWH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '3/16 x 1-1/4 -- Slotted Hex Washer Head -- Tapcon',
     diameter: '3/16',
     length: '1-1/4',
@@ -31,27 +18,13 @@ export const screws: any[] = [
     list_price: '49.70',
     net_per_box: '14.91',
   },
-  //abc
   {
     sku: '8616056-HWH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '3/16 x 1-3/4 -- Slotted Hex Washer Head -- Tapcon',
     diameter: '3/16',
     length: '1-3/4',
@@ -67,23 +40,10 @@ export const screws: any[] = [
   {
     sku: '8616072-HWH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '3/16 x 2-1/4 -- Slotted Hex Washer Head -- Tapcon',
     diameter: '3/16',
     length: '2-1/4',
@@ -99,23 +59,10 @@ export const screws: any[] = [
   {
     sku: '8616088-HWH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '3/16 x 2-3/4 -- Slotted Hex Washer Head -- Tapcon',
     diameter: '3/16',
     length: '2-3/4',
@@ -131,23 +78,10 @@ export const screws: any[] = [
   {
     sku: '8616104-HWH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '3/16 x 3-1/4 -- Slotted Hex Washer Head -- Tapcon',
     diameter: '3/16',
     length: '3-1/4',
@@ -163,23 +97,10 @@ export const screws: any[] = [
   {
     sku: '8616120-HWH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '3/16 x 3-3/4 -- Slotted Hex Washer Head -- Tapcon',
     diameter: '3/16',
     length: '3-3/4',
@@ -195,23 +116,10 @@ export const screws: any[] = [
   {
     sku: '8616128-HWH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '3/16 x 4 -- Slotted Hex Washer Head -- Tapcon',
     diameter: '3/16',
     length: '4',
@@ -227,23 +135,10 @@ export const screws: any[] = [
   {
     sku: '8616040-HWH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '1/4 x 1-1/4 -- Slotted Hex Washer Head -- Tapcon',
     diameter: '1/4',
     length: '1-1/4',
@@ -259,23 +154,10 @@ export const screws: any[] = [
   {
     sku: '8616056-HWH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '1/4 x 1-3/4 -- Slotted Hex Washer Head -- Tapcon',
     diameter: '1/4',
     length: '1-3/4',
@@ -291,23 +173,10 @@ export const screws: any[] = [
   {
     sku: '8616072-HWH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '1/4 x 2-1/4 -- Slotted Hex Washer Head -- Tapcon',
     diameter: '1/4',
     length: '2-1/4',
@@ -323,23 +192,10 @@ export const screws: any[] = [
   {
     sku: '8616088-HWH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '1/4 x 2-3/4 -- Slotted Hex Washer Head -- Tapcon',
     diameter: '1/4',
     length: '2-3/4',
@@ -355,23 +211,10 @@ export const screws: any[] = [
   {
     sku: '8616104-HWH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '1/4 x 3-1/4 -- Slotted Hex Washer Head -- Tapcon',
     diameter: '1/4',
     length: '3-1/4',
@@ -387,23 +230,10 @@ export const screws: any[] = [
   {
     sku: '8616120-HWH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '1/4 x 3-3/4 -- Slotted Hex Washer Head -- Tapcon',
     diameter: '1/4',
     length: '3-3/4',
@@ -419,23 +249,10 @@ export const screws: any[] = [
   {
     sku: '8616128-HWH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '1/4 x 4 -- Slotted Hex Washer Head -- Tapcon',
     diameter: '1/4',
     length: '4',
@@ -451,23 +268,10 @@ export const screws: any[] = [
   {
     sku: '8616040-PH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '3/16 x 1-1/4 -- Phillips Flat Head -- Tapcon',
     diameter: '3/16',
     length: '1-1/4',
@@ -483,23 +287,10 @@ export const screws: any[] = [
   {
     sku: '8616056-PH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '3/16 x 1-3/4 -- Phillips Flat Head -- Tapcon',
     diameter: '3/16',
     length: '1-3/4',
@@ -515,23 +306,10 @@ export const screws: any[] = [
   {
     sku: '8616072-PH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '3/16 x 2-1/4 -- Phillips Flat Head -- Tapcon',
     diameter: '3/16',
     length: '2-1/4',
@@ -547,23 +325,10 @@ export const screws: any[] = [
   {
     sku: '8616088-PH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '3/16 x 2-3/4 -- Phillips Flat Head -- Tapcon',
     diameter: '3/16',
     length: '2-3/4',
@@ -579,23 +344,10 @@ export const screws: any[] = [
   {
     sku: '8616104-PH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '3/16 x 3-1/4 -- Phillips Flat Head -- Tapcon',
     diameter: '3/16',
     length: '3-1/4',
@@ -611,23 +363,10 @@ export const screws: any[] = [
   {
     sku: '8616120-PH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '3/16 x 3-3/4 -- Phillips Flat Head -- Tapcon',
     diameter: '3/16',
     length: '3-3/4',
@@ -643,23 +382,10 @@ export const screws: any[] = [
   {
     sku: '8616128-PH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '3/16 x 4 -- Phillips Flat Head -- Tapcon',
     diameter: '3/16',
     length: '4',
@@ -675,23 +401,10 @@ export const screws: any[] = [
   {
     sku: '8616040-PH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '1/4 x 1-1/4 -- Phillips Flat Head -- Tapcon',
     diameter: '1/4',
     length: '1-1/4',
@@ -707,23 +420,10 @@ export const screws: any[] = [
   {
     sku: '8616056-PH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '1/4 x 1-3/4 -- Phillips Flat Head -- Tapcon',
     diameter: '1/4',
     length: '1-3/4',
@@ -739,23 +439,10 @@ export const screws: any[] = [
   {
     sku: '8616072-PH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '1/4 x 2-1/4 -- Phillips Flat Head -- Tapcon',
     diameter: '1/4',
     length: '2-1/4',
@@ -771,23 +458,10 @@ export const screws: any[] = [
   {
     sku: '8616088-PH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '1/4 x 2-3/4 -- Phillips Flat Head -- Tapcon',
     diameter: '1/4',
     length: '2-3/4',
@@ -803,23 +477,10 @@ export const screws: any[] = [
   {
     sku: '8616104-PH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '1/4 x 3-1/4 -- Phillips Flat Head -- Tapcon',
     diameter: '1/4',
     length: '3-1/4',
@@ -835,23 +496,10 @@ export const screws: any[] = [
   {
     sku: '8616120-PH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '1/4 x 3-3/4 -- Phillips Flat Head -- Tapcon',
     diameter: '1/4',
     length: '3-3/4',
@@ -867,23 +515,10 @@ export const screws: any[] = [
   {
     sku: '8616128-PH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '1/4 x 4 -- Phillips Flat Head -- Tapcon',
     diameter: '1/4',
     length: '4',
@@ -899,23 +534,10 @@ export const screws: any[] = [
   {
     sku: '8616160-PH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '1/4 x 5 -- Phillips Flat Head -- Tapcon',
     diameter: '1/4',
     length: '5',
@@ -931,23 +553,10 @@ export const screws: any[] = [
   {
     sku: '8616192-PH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    Category: 'Concrete',
     description: '1/4 x 6 -- Phillips Flat Head -- Tapcon',
     diameter: '1/4',
     length: '6',
@@ -963,22 +572,9 @@ export const screws: any[] = [
   {
     sku: '99906032-DS',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Deck Screws',
     description: '6-9 x 1 -- Phillips Bugle Deck Screws -- Dacrotized',
     diameter: '6',
@@ -995,22 +591,9 @@ export const screws: any[] = [
   {
     sku: '99906040-DS',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Deck Screws',
     description: '6-9 x 1-1/4 -- Phillips Bugle Deck Screws -- Dacrotized',
     diameter: '6',
@@ -1027,22 +610,9 @@ export const screws: any[] = [
   {
     sku: '99906052-DS',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Deck Screws',
     description: '6-9 x 1-5/8 -- Phillips Bugle Deck Screws -- Dacrotized',
     diameter: '6',
@@ -1059,22 +629,9 @@ export const screws: any[] = [
   {
     sku: '99906064-DS',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Deck Screws',
     description: '6-9 x 2 -- Phillips Bugle Deck Screws -- Dacrotized',
     diameter: '6',
@@ -1091,22 +648,9 @@ export const screws: any[] = [
   {
     sku: '99908080-DS',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Deck Screws',
     description: '7-9 x 2-1/2 -- Phillips Bugle Deck Screws -- Dacrotized',
     diameter: '7',
@@ -1123,22 +667,9 @@ export const screws: any[] = [
   {
     sku: '99908080-DS',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Deck Screws',
     description: '8-8 x 2-1/2 -- Phillips Bugle Deck Screws -- Dacrotized',
     diameter: '8',
@@ -1155,22 +686,9 @@ export const screws: any[] = [
   {
     sku: '99908096-DS',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Deck Screws',
     description: '8-9 x 3 -- Phillips Bugle Deck Screws -- Dacrotized',
     diameter: '8',
@@ -1187,22 +705,9 @@ export const screws: any[] = [
   {
     sku: '99910112-DS',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Deck Screws',
     description: '10-8 x 3-1/2 -- Phillips Bugle Deck Screws -- Dacrotized',
     diameter: '10',
@@ -1219,22 +724,9 @@ export const screws: any[] = [
   {
     sku: '99910128-DS',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Deck Screws',
     description: '10-8 x 4 -- Phillips Bugle Deck Screws -- Dacrotized',
     diameter: '10',
@@ -1251,22 +743,9 @@ export const screws: any[] = [
   {
     sku: '99906032',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Drywall',
     description:
       '6-18 x 1 -- Phillips Bugle Dry Wall Screws -- Black Phosphate',
@@ -1284,22 +763,9 @@ export const screws: any[] = [
   {
     sku: '99906036',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Drywall',
     description:
       '6-18 x 1-1/8 -- Phillips Bugle Dry Wall Screws -- Black Phosphate',
@@ -1317,22 +783,9 @@ export const screws: any[] = [
   {
     sku: '99906040',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Drywall',
     description:
       '6-18 x 1-1/4 -- Phillips Bugle Dry Wall Screws -- Black Phosphate',
@@ -1350,22 +803,9 @@ export const screws: any[] = [
   {
     sku: '99906048',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Drywall',
     description:
       '6-18 x 1-1/2 -- Phillips Bugle Dry Wall Screws -- Black Phosphate',
@@ -1383,22 +823,9 @@ export const screws: any[] = [
   {
     sku: '99906052',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Drywall',
     description:
       '6-18 x 1-5/8 -- Phillips Bugle Dry Wall Screws -- Black Phosphate',
@@ -1416,22 +843,9 @@ export const screws: any[] = [
   {
     sku: '99906064',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Drywall',
     description:
       '6-18 x 2 -- Phillips Bugle Dry Wall Screws -- Black Phosphate',
@@ -1449,22 +863,9 @@ export const screws: any[] = [
   {
     sku: '99906072',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Drywall',
     description:
       '6-18 x 2-1/4 -- Phillips Bugle Dry Wall Screws -- Black Phosphate',
@@ -1482,22 +883,9 @@ export const screws: any[] = [
   {
     sku: '99908040',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Drywall',
     description:
       '8-15 x 1-1/4 -- Phillips Bugle Dry Wall Screws -- Black Phosphate',
@@ -1515,22 +903,9 @@ export const screws: any[] = [
   {
     sku: '99908048',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Drywall',
     description:
       '8-15 x 1-1/2 -- Phillips Bugle Dry Wall Screws -- Black Phosphate',
@@ -1548,22 +923,9 @@ export const screws: any[] = [
   {
     sku: '99908064',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Drywall',
     description:
       '8-15 x 2 -- Phillips Bugle Dry Wall Screws -- Black Phosphate',
@@ -1581,22 +943,9 @@ export const screws: any[] = [
   {
     sku: '99908080',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Drywall',
     description:
       '8-15 x 2-1/2 -- Phillips Bugle Dry Wall Screws -- Black Phosphate',
@@ -1614,22 +963,9 @@ export const screws: any[] = [
   {
     sku: '99908096',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Drywall',
     description:
       '8-15 x 3 -- Phillips Bugle Dry Wall Screws -- Black Phosphate',
@@ -1647,22 +983,9 @@ export const screws: any[] = [
   {
     sku: '99910112',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Drywall',
     description:
       '10-12 x 3-1/2 -- Phillips Bugle Dry Wall Screws -- Black Phosphate',
@@ -1680,22 +1003,9 @@ export const screws: any[] = [
   {
     sku: '99910120',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Drywall',
     description:
       '10-12 x 3-3/4 -- Phillips Bugle Dry Wall Screws -- Black Phosphate',
@@ -1713,22 +1023,9 @@ export const screws: any[] = [
   {
     sku: '99910128',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Drywall',
     description:
       '10-12 x 4 -- Phillips Bugle Dry Wall Screws -- Black Phosphate',
@@ -1746,22 +1043,9 @@ export const screws: any[] = [
   {
     sku: '99906032-FT-BULK',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Drywall',
     description:
       '6-18 x 1 -- Phillips Bugle Dry Wall Screws -- Black Phosphate Fine Thread',
@@ -1779,22 +1063,9 @@ export const screws: any[] = [
   {
     sku: '99906014F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Framing',
     description:
       '6 X 7/16 -- Phillips Pan Dry Wall Framing Screws -- Zinc Plated',
@@ -1812,22 +1083,9 @@ export const screws: any[] = [
   {
     sku: '99907014F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Framing',
     description:
       '7 X 7/16 -- Phillips Pan Dry Wall Framing Screws -- Zinc Plated',
@@ -1845,22 +1103,9 @@ export const screws: any[] = [
   {
     sku: '99908016K-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'K Lath',
     description: '8 X 1/2 -- Phillips Round Wash K Lath Screw -- Zinc Plated',
     diameter: '8',
@@ -1877,22 +1122,9 @@ export const screws: any[] = [
   {
     sku: '99908024K-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'K Lath',
     description: '8 X 3/4 -- Phillips Round Wash K Lath Screw -- Zinc Plated',
     diameter: '8',
@@ -1909,22 +1141,9 @@ export const screws: any[] = [
   {
     sku: '99908032K-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'K Lath',
     description: '8 X 1 -- Phillips Round Wash K Lath Screw -- Zinc Plated',
     diameter: '8',
@@ -1941,22 +1160,9 @@ export const screws: any[] = [
   {
     sku: '99908040K-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'K Lath',
     description: '8 X 1-1/4 -- Phillips Round Wash K Lath Screw -- Zinc Plated',
     diameter: '8',
@@ -1973,22 +1179,9 @@ export const screws: any[] = [
   {
     sku: '3406008-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 1/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2006,22 +1199,9 @@ export const screws: any[] = [
   {
     sku: '3406010-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 5/16 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2039,22 +1219,9 @@ export const screws: any[] = [
   {
     sku: '3406012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 3/8 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2072,22 +1239,9 @@ export const screws: any[] = [
   {
     sku: '3406016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2105,22 +1259,9 @@ export const screws: any[] = [
   {
     sku: '3406020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 5/8 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2138,22 +1279,9 @@ export const screws: any[] = [
   {
     sku: '3406024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 3/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2171,22 +1299,9 @@ export const screws: any[] = [
   {
     sku: '3406032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 1 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2204,22 +1319,9 @@ export const screws: any[] = [
   {
     sku: '3406040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 1-1/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2237,22 +1339,9 @@ export const screws: any[] = [
   {
     sku: '3406048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 1-1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2270,22 +1359,9 @@ export const screws: any[] = [
   {
     sku: '3406064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2303,22 +1379,9 @@ export const screws: any[] = [
   {
     sku: '3406072-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 2-1/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2336,22 +1399,9 @@ export const screws: any[] = [
   {
     sku: '3406080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 2-1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2369,22 +1419,9 @@ export const screws: any[] = [
   {
     sku: '3406096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 3 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2402,22 +1439,9 @@ export const screws: any[] = [
   {
     sku: '3406128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2435,22 +1459,9 @@ export const screws: any[] = [
   {
     sku: '3408008-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 1/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2468,22 +1479,9 @@ export const screws: any[] = [
   {
     sku: '3408010-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 5/16 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2501,22 +1499,9 @@ export const screws: any[] = [
   {
     sku: '3408012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 3/8 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2534,22 +1519,9 @@ export const screws: any[] = [
   {
     sku: '3408016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2567,22 +1539,9 @@ export const screws: any[] = [
   {
     sku: '3408020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 5/8 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2600,22 +1559,9 @@ export const screws: any[] = [
   {
     sku: '3408024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 3/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2633,22 +1579,9 @@ export const screws: any[] = [
   {
     sku: '3408032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 1 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2666,22 +1599,9 @@ export const screws: any[] = [
   {
     sku: '3408040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 1-1/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2699,22 +1619,9 @@ export const screws: any[] = [
   {
     sku: '3408048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 1-1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2732,22 +1639,9 @@ export const screws: any[] = [
   {
     sku: '3408056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 1-3/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2765,22 +1659,9 @@ export const screws: any[] = [
   {
     sku: '3408064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2798,22 +1679,9 @@ export const screws: any[] = [
   {
     sku: '3408080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 2-1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2831,22 +1699,9 @@ export const screws: any[] = [
   {
     sku: '3408096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 3 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2864,22 +1719,9 @@ export const screws: any[] = [
   {
     sku: '3408128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2897,22 +1739,9 @@ export const screws: any[] = [
   {
     sku: '3410012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 3/8 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2930,22 +1759,9 @@ export const screws: any[] = [
   {
     sku: '3410016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2963,22 +1779,9 @@ export const screws: any[] = [
   {
     sku: '3410020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 5/8 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -2996,22 +1799,9 @@ export const screws: any[] = [
   {
     sku: '3410024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 3/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3029,22 +1819,9 @@ export const screws: any[] = [
   {
     sku: '3410032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 1 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3062,22 +1839,9 @@ export const screws: any[] = [
   {
     sku: '3410040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 1-1/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3095,22 +1859,9 @@ export const screws: any[] = [
   {
     sku: '3410048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 1-1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3128,22 +1879,9 @@ export const screws: any[] = [
   {
     sku: '3410056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 1-3/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3161,22 +1899,9 @@ export const screws: any[] = [
   {
     sku: '3410064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3194,22 +1919,9 @@ export const screws: any[] = [
   {
     sku: '3410080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 2-1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3227,22 +1939,9 @@ export const screws: any[] = [
   {
     sku: '3410096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 3 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3260,22 +1959,9 @@ export const screws: any[] = [
   {
     sku: '3410112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 3-1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3293,22 +1979,9 @@ export const screws: any[] = [
   {
     sku: '3410128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3326,22 +1999,9 @@ export const screws: any[] = [
   {
     sku: '3510008-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 1/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3359,22 +2019,9 @@ export const screws: any[] = [
   {
     sku: '3510012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 3/8 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3392,22 +2039,9 @@ export const screws: any[] = [
   {
     sku: '3510016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3425,22 +2059,9 @@ export const screws: any[] = [
   {
     sku: '3510020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 5/8 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3458,22 +2079,9 @@ export const screws: any[] = [
   {
     sku: '3510024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 3/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3491,22 +2099,9 @@ export const screws: any[] = [
   {
     sku: '3510028-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 7/8 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3524,22 +2119,9 @@ export const screws: any[] = [
   {
     sku: '3510032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 1 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3557,22 +2139,9 @@ export const screws: any[] = [
   {
     sku: '3510040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 1-1/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3590,22 +2159,9 @@ export const screws: any[] = [
   {
     sku: '3510048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 1-1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3623,22 +2179,9 @@ export const screws: any[] = [
   {
     sku: '3510064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3656,22 +2199,9 @@ export const screws: any[] = [
   {
     sku: '3510080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 2-1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3689,22 +2219,9 @@ export const screws: any[] = [
   {
     sku: '3510096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 3 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3722,22 +2239,9 @@ export const screws: any[] = [
   {
     sku: '3416012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 3/8 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3755,22 +2259,9 @@ export const screws: any[] = [
   {
     sku: '3416016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3788,22 +2279,9 @@ export const screws: any[] = [
   {
     sku: '3416020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 5/8 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3821,22 +2299,9 @@ export const screws: any[] = [
   {
     sku: '3416024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 3/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3854,22 +2319,9 @@ export const screws: any[] = [
   {
     sku: '3416032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3887,22 +2339,9 @@ export const screws: any[] = [
   {
     sku: '3416036-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1-1/8 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3920,22 +2359,9 @@ export const screws: any[] = [
   {
     sku: '3416040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1-1/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3953,22 +2379,9 @@ export const screws: any[] = [
   {
     sku: '3416048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1-1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -3986,22 +2399,9 @@ export const screws: any[] = [
   {
     sku: '3416056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1-3/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4019,22 +2419,9 @@ export const screws: any[] = [
   {
     sku: '3416064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4052,22 +2439,9 @@ export const screws: any[] = [
   {
     sku: '3416072-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 2-1/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4085,22 +2459,9 @@ export const screws: any[] = [
   {
     sku: '3416080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 2-1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4118,22 +2479,9 @@ export const screws: any[] = [
   {
     sku: '3416088-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 2-3/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4151,22 +2499,9 @@ export const screws: any[] = [
   {
     sku: '3416096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 3 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4184,22 +2519,9 @@ export const screws: any[] = [
   {
     sku: '3416112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 3-1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4217,22 +2539,9 @@ export const screws: any[] = [
   {
     sku: '3416128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4250,22 +2559,9 @@ export const screws: any[] = [
   {
     sku: '3416144-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 4-1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4283,22 +2579,9 @@ export const screws: any[] = [
   {
     sku: '3416160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 5 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4316,22 +2599,9 @@ export const screws: any[] = [
   {
     sku: '3416192-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 6 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4349,22 +2619,9 @@ export const screws: any[] = [
   {
     sku: '3417016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4382,22 +2639,9 @@ export const screws: any[] = [
   {
     sku: '3417020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 5/8 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4415,22 +2659,9 @@ export const screws: any[] = [
   {
     sku: '3417024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 3/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4448,22 +2679,9 @@ export const screws: any[] = [
   {
     sku: '3417032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 1 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4481,22 +2699,9 @@ export const screws: any[] = [
   {
     sku: '3417040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 1-1/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4514,22 +2719,9 @@ export const screws: any[] = [
   {
     sku: '3417048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 1-1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4547,22 +2739,9 @@ export const screws: any[] = [
   {
     sku: '3417056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 1-3/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4580,22 +2759,9 @@ export const screws: any[] = [
   {
     sku: '3417064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4613,22 +2779,9 @@ export const screws: any[] = [
   {
     sku: '3417080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 2-1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4646,22 +2799,9 @@ export const screws: any[] = [
   {
     sku: '3417096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 3 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4679,22 +2819,9 @@ export const screws: any[] = [
   {
     sku: '3417112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 3-1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4712,22 +2839,9 @@ export const screws: any[] = [
   {
     sku: '3418016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4745,22 +2859,9 @@ export const screws: any[] = [
   {
     sku: '3418024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 3/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4778,22 +2879,9 @@ export const screws: any[] = [
   {
     sku: '3418032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 1 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4811,22 +2899,9 @@ export const screws: any[] = [
   {
     sku: '3418040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 1-1/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4844,22 +2919,9 @@ export const screws: any[] = [
   {
     sku: '3418048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 1-1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4877,22 +2939,9 @@ export const screws: any[] = [
   {
     sku: '3418056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 1-3/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4910,22 +2959,9 @@ export const screws: any[] = [
   {
     sku: '3418064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4943,22 +2979,9 @@ export const screws: any[] = [
   {
     sku: '3418072-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 2-1/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -4976,22 +2999,9 @@ export const screws: any[] = [
   {
     sku: '3418080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 2-1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -5009,22 +3019,9 @@ export const screws: any[] = [
   {
     sku: '3418096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 3 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -5042,22 +3039,9 @@ export const screws: any[] = [
   {
     sku: '3418112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 3-1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -5075,22 +3059,9 @@ export const screws: any[] = [
   {
     sku: '3418128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -5108,22 +3079,9 @@ export const screws: any[] = [
   {
     sku: '3418160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 5 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -5141,22 +3099,9 @@ export const screws: any[] = [
   {
     sku: '3418192-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 6 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -5174,22 +3119,9 @@ export const screws: any[] = [
   {
     sku: '3420032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/2-13 x 1 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -5207,22 +3139,9 @@ export const screws: any[] = [
   {
     sku: '3420040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/2-13 x 1-1/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -5240,22 +3159,9 @@ export const screws: any[] = [
   {
     sku: '3420048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/2-13 x 1-1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -5273,22 +3179,9 @@ export const screws: any[] = [
   {
     sku: '3420056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/2-13 x 1-3/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -5306,22 +3199,9 @@ export const screws: any[] = [
   {
     sku: '3420064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/2-13 x 2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -5339,22 +3219,9 @@ export const screws: any[] = [
   {
     sku: '3420072-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/2-13 x 2-1/4 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -5372,22 +3239,9 @@ export const screws: any[] = [
   {
     sku: '3420080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/2-13 x 2-1/2 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -5405,22 +3259,9 @@ export const screws: any[] = [
   {
     sku: '3420096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/2-13 x 3 -- Slotted Flat Machine Screws -- Steel -- Zinc Plated',
@@ -5438,22 +3279,9 @@ export const screws: any[] = [
   {
     sku: '3604008-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '4-40 x 1/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -5471,22 +3299,9 @@ export const screws: any[] = [
   {
     sku: '3604012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '4-40 x 3/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -5504,22 +3319,9 @@ export const screws: any[] = [
   {
     sku: '3604016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '4-40 x 1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -5537,22 +3339,9 @@ export const screws: any[] = [
   {
     sku: '3604020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '4-40 x 5/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -5570,22 +3359,9 @@ export const screws: any[] = [
   {
     sku: '3604024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '4-40 x 3/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -5603,22 +3379,9 @@ export const screws: any[] = [
   {
     sku: '3604032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '4-40 x 1 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -5636,22 +3399,9 @@ export const screws: any[] = [
   {
     sku: '3604048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '4-40 x 1-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -5669,22 +3419,9 @@ export const screws: any[] = [
   {
     sku: '3606005-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 3/16 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -5702,22 +3439,9 @@ export const screws: any[] = [
   {
     sku: '3606008-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 1/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -5735,22 +3459,9 @@ export const screws: any[] = [
   {
     sku: '3606010-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 5/16 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -5768,22 +3479,9 @@ export const screws: any[] = [
   {
     sku: '3606012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 3/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -5801,22 +3499,9 @@ export const screws: any[] = [
   {
     sku: '3606014-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 7/16 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -5834,22 +3519,9 @@ export const screws: any[] = [
   {
     sku: '3606016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -5867,22 +3539,9 @@ export const screws: any[] = [
   {
     sku: '3606020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 5/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -5900,22 +3559,9 @@ export const screws: any[] = [
   {
     sku: '3606024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 3/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -5933,22 +3579,9 @@ export const screws: any[] = [
   {
     sku: '3606028-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 7/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -5966,22 +3599,9 @@ export const screws: any[] = [
   {
     sku: '3606032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 1 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -5999,22 +3619,9 @@ export const screws: any[] = [
   {
     sku: '3606036-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 1-1/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6032,22 +3639,9 @@ export const screws: any[] = [
   {
     sku: '3606040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 1-1/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6065,22 +3659,9 @@ export const screws: any[] = [
   {
     sku: '3606048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 1-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6098,22 +3679,9 @@ export const screws: any[] = [
   {
     sku: '3606056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 1-3/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6131,22 +3699,9 @@ export const screws: any[] = [
   {
     sku: '3606064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6164,22 +3719,9 @@ export const screws: any[] = [
   {
     sku: '3606072-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 2-1/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6197,22 +3739,9 @@ export const screws: any[] = [
   {
     sku: '3606080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 2-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6230,22 +3759,9 @@ export const screws: any[] = [
   {
     sku: '3606088-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 2-3/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6263,22 +3779,9 @@ export const screws: any[] = [
   {
     sku: '3606096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 3 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6296,22 +3799,9 @@ export const screws: any[] = [
   {
     sku: '3606128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6329,22 +3819,9 @@ export const screws: any[] = [
   {
     sku: '3608006-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 3/16 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6362,22 +3839,9 @@ export const screws: any[] = [
   {
     sku: '3608008-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 1/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6395,22 +3859,9 @@ export const screws: any[] = [
   {
     sku: '3608010-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 5/16 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6428,22 +3879,9 @@ export const screws: any[] = [
   {
     sku: '3608012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 3/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6461,22 +3899,9 @@ export const screws: any[] = [
   {
     sku: '3608014-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 7/16 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6494,22 +3919,9 @@ export const screws: any[] = [
   {
     sku: '3608016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6527,22 +3939,9 @@ export const screws: any[] = [
   {
     sku: '3608020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 5/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6560,22 +3959,9 @@ export const screws: any[] = [
   {
     sku: '3608024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 3/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6593,22 +3979,9 @@ export const screws: any[] = [
   {
     sku: '3608024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 7/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6626,22 +3999,9 @@ export const screws: any[] = [
   {
     sku: '3608032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 1 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6659,22 +4019,9 @@ export const screws: any[] = [
   {
     sku: '3608036-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 1-1/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6692,22 +4039,9 @@ export const screws: any[] = [
   {
     sku: '3608040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 1-1/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6725,22 +4059,9 @@ export const screws: any[] = [
   {
     sku: '3608044-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 1-3/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6758,22 +4079,9 @@ export const screws: any[] = [
   {
     sku: '3608048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 1-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6791,22 +4099,9 @@ export const screws: any[] = [
   {
     sku: '3608056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 1-3/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6824,22 +4119,9 @@ export const screws: any[] = [
   {
     sku: '3608060-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 1-7/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6857,22 +4139,9 @@ export const screws: any[] = [
   {
     sku: '3608064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6890,22 +4159,9 @@ export const screws: any[] = [
   {
     sku: '3608068-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 2-1/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6923,22 +4179,9 @@ export const screws: any[] = [
   {
     sku: '3608072-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 2-1/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6956,22 +4199,9 @@ export const screws: any[] = [
   {
     sku: '3608076-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 2-3/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -6989,22 +4219,9 @@ export const screws: any[] = [
   {
     sku: '3608080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 2-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7022,22 +4239,9 @@ export const screws: any[] = [
   {
     sku: '3608084-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 2-5/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7055,22 +4259,9 @@ export const screws: any[] = [
   {
     sku: '3608088-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 2-3/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7088,22 +4279,9 @@ export const screws: any[] = [
   {
     sku: '3608096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 3 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7121,22 +4299,9 @@ export const screws: any[] = [
   {
     sku: '3608104-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 3-1/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7154,22 +4319,9 @@ export const screws: any[] = [
   {
     sku: '3608112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 3-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7187,22 +4339,9 @@ export const screws: any[] = [
   {
     sku: '3608128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7220,22 +4359,9 @@ export const screws: any[] = [
   {
     sku: '3610008-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 1/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7253,22 +4379,9 @@ export const screws: any[] = [
   {
     sku: '3610010-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 5/16 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7286,22 +4399,9 @@ export const screws: any[] = [
   {
     sku: '3610012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 3/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7319,22 +4419,9 @@ export const screws: any[] = [
   {
     sku: '3610014-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 7/16 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7352,22 +4439,9 @@ export const screws: any[] = [
   {
     sku: '3610016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7385,22 +4459,9 @@ export const screws: any[] = [
   {
     sku: '3610020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 5/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7418,22 +4479,9 @@ export const screws: any[] = [
   {
     sku: '3610024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 3/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7451,22 +4499,9 @@ export const screws: any[] = [
   {
     sku: '3610028-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 7/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7484,22 +4519,9 @@ export const screws: any[] = [
   {
     sku: '3610032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 1 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7517,22 +4539,9 @@ export const screws: any[] = [
   {
     sku: '3610036-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 1-1/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7550,22 +4559,9 @@ export const screws: any[] = [
   {
     sku: '3610040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 1-1/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7583,22 +4579,9 @@ export const screws: any[] = [
   {
     sku: '3610048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 1-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7616,22 +4599,9 @@ export const screws: any[] = [
   {
     sku: '3610056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 1-3/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7649,22 +4619,9 @@ export const screws: any[] = [
   {
     sku: '3610064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7682,22 +4639,9 @@ export const screws: any[] = [
   {
     sku: '3610072-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 2-1/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7715,22 +4659,9 @@ export const screws: any[] = [
   {
     sku: '3610080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 2-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7748,22 +4679,9 @@ export const screws: any[] = [
   {
     sku: '3610080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 2-3/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7781,22 +4699,9 @@ export const screws: any[] = [
   {
     sku: '3610096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 3 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7814,22 +4719,9 @@ export const screws: any[] = [
   {
     sku: '3610112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 3-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7847,22 +4739,9 @@ export const screws: any[] = [
   {
     sku: '3610128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7880,22 +4759,9 @@ export const screws: any[] = [
   {
     sku: '3610144-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 4-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7913,22 +4779,9 @@ export const screws: any[] = [
   {
     sku: '3610160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 5 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7946,22 +4799,9 @@ export const screws: any[] = [
   {
     sku: '3610192-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 6 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -7979,22 +4819,9 @@ export const screws: any[] = [
   {
     sku: '3610008-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 1/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8012,22 +4839,9 @@ export const screws: any[] = [
   {
     sku: '3610010-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 5/16 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8045,22 +4859,9 @@ export const screws: any[] = [
   {
     sku: '3610012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 3/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8078,22 +4879,9 @@ export const screws: any[] = [
   {
     sku: '3610014-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 7/16 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8111,22 +4899,9 @@ export const screws: any[] = [
   {
     sku: '3610016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8144,22 +4919,9 @@ export const screws: any[] = [
   {
     sku: '3610020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 5/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8177,22 +4939,9 @@ export const screws: any[] = [
   {
     sku: '3610024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 3/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8210,22 +4959,9 @@ export const screws: any[] = [
   {
     sku: '3610028-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 7/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8243,22 +4979,9 @@ export const screws: any[] = [
   {
     sku: '3610032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 1 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8276,22 +4999,9 @@ export const screws: any[] = [
   {
     sku: '3610036-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 1-1/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8309,22 +5019,9 @@ export const screws: any[] = [
   {
     sku: '3610040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 1-1/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8342,22 +5039,9 @@ export const screws: any[] = [
   {
     sku: '3610044-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 1-3/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8375,22 +5059,9 @@ export const screws: any[] = [
   {
     sku: '3610048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 1-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8408,22 +5079,9 @@ export const screws: any[] = [
   {
     sku: '3610056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 1-3/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8441,22 +5099,9 @@ export const screws: any[] = [
   {
     sku: '3610064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8474,22 +5119,9 @@ export const screws: any[] = [
   {
     sku: '3610072-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 2-1/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8507,22 +5139,9 @@ export const screws: any[] = [
   {
     sku: '3610080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 2-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8540,22 +5159,9 @@ export const screws: any[] = [
   {
     sku: '3610088-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 2-3/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8573,22 +5179,9 @@ export const screws: any[] = [
   {
     sku: '3610096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 3 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8606,22 +5199,9 @@ export const screws: any[] = [
   {
     sku: '3610112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 3-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8639,22 +5219,9 @@ export const screws: any[] = [
   {
     sku: '3610128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8672,22 +5239,9 @@ export const screws: any[] = [
   {
     sku: '3610144-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 4-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8705,22 +5259,9 @@ export const screws: any[] = [
   {
     sku: '3610160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 5 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8738,22 +5279,9 @@ export const screws: any[] = [
   {
     sku: '3612016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '12-24 x 1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8771,22 +5299,9 @@ export const screws: any[] = [
   {
     sku: '3612024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '12-24 x 3/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8804,22 +5319,9 @@ export const screws: any[] = [
   {
     sku: '3612032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '12-24 x 1 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8837,22 +5339,9 @@ export const screws: any[] = [
   {
     sku: '3612040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '12-24 x 1-1/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8870,22 +5359,9 @@ export const screws: any[] = [
   {
     sku: '3612048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '12-24 x 1-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8903,22 +5379,9 @@ export const screws: any[] = [
   {
     sku: '3616008-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8936,22 +5399,9 @@ export const screws: any[] = [
   {
     sku: '3616012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 3/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -8969,22 +5419,9 @@ export const screws: any[] = [
   {
     sku: '3616016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9002,22 +5439,9 @@ export const screws: any[] = [
   {
     sku: '3616020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 5/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9035,22 +5459,9 @@ export const screws: any[] = [
   {
     sku: '3616024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 3/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9068,22 +5479,9 @@ export const screws: any[] = [
   {
     sku: '3616028-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 7/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9101,22 +5499,9 @@ export const screws: any[] = [
   {
     sku: '3616032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9134,22 +5519,9 @@ export const screws: any[] = [
   {
     sku: '3616036-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1-1/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9167,22 +5539,9 @@ export const screws: any[] = [
   {
     sku: '3616040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1-1/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9200,22 +5559,9 @@ export const screws: any[] = [
   {
     sku: '3616044-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1-3/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9233,22 +5579,9 @@ export const screws: any[] = [
   {
     sku: '3616048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9266,22 +5599,9 @@ export const screws: any[] = [
   {
     sku: '3616052-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1-5/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9299,22 +5619,9 @@ export const screws: any[] = [
   {
     sku: '3616056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1-3/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9332,22 +5639,9 @@ export const screws: any[] = [
   {
     sku: '3616064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9365,22 +5659,9 @@ export const screws: any[] = [
   {
     sku: '3616072-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 2-1/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9398,22 +5679,9 @@ export const screws: any[] = [
   {
     sku: '3616080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 2-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9431,22 +5699,9 @@ export const screws: any[] = [
   {
     sku: '3616088-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 2-3/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9464,22 +5719,9 @@ export const screws: any[] = [
   {
     sku: '3616096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 3 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9497,22 +5739,9 @@ export const screws: any[] = [
   {
     sku: '3616104-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 3-1/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9530,22 +5759,9 @@ export const screws: any[] = [
   {
     sku: '3616112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 3-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9563,22 +5779,9 @@ export const screws: any[] = [
   {
     sku: '3616128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9596,22 +5799,9 @@ export const screws: any[] = [
   {
     sku: '3616144-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 4-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9629,22 +5819,9 @@ export const screws: any[] = [
   {
     sku: '3616160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 5 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9662,22 +5839,9 @@ export const screws: any[] = [
   {
     sku: '3616176-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 5-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9695,22 +5859,9 @@ export const screws: any[] = [
   {
     sku: '3616192-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 6 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9728,22 +5879,9 @@ export const screws: any[] = [
   {
     sku: '3617016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9761,22 +5899,9 @@ export const screws: any[] = [
   {
     sku: '3617020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 5/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9794,22 +5919,9 @@ export const screws: any[] = [
   {
     sku: '3617024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 3/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9827,22 +5939,9 @@ export const screws: any[] = [
   {
     sku: '3617032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 1 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9860,22 +5959,9 @@ export const screws: any[] = [
   {
     sku: '3617040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 1-1/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9893,22 +5979,9 @@ export const screws: any[] = [
   {
     sku: '3617048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 1-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9926,22 +5999,9 @@ export const screws: any[] = [
   {
     sku: '3617056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 1-3/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9959,22 +6019,9 @@ export const screws: any[] = [
   {
     sku: '3617064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -9992,22 +6039,9 @@ export const screws: any[] = [
   {
     sku: '3617072-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 2-1/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10025,22 +6059,9 @@ export const screws: any[] = [
   {
     sku: '3617080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 2-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10058,22 +6079,9 @@ export const screws: any[] = [
   {
     sku: '3617088-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 2-3/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10091,22 +6099,9 @@ export const screws: any[] = [
   {
     sku: '3617096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 3 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10124,22 +6119,9 @@ export const screws: any[] = [
   {
     sku: '3617112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 3-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10157,22 +6139,9 @@ export const screws: any[] = [
   {
     sku: '3617128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10190,22 +6159,9 @@ export const screws: any[] = [
   {
     sku: '3617144-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 4-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10223,22 +6179,9 @@ export const screws: any[] = [
   {
     sku: '3617160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 5 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10256,22 +6199,9 @@ export const screws: any[] = [
   {
     sku: '3617176-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 5-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10289,22 +6219,9 @@ export const screws: any[] = [
   {
     sku: '3617192-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '5/16-18 x 6 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10322,22 +6239,9 @@ export const screws: any[] = [
   {
     sku: '3618016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10355,22 +6259,9 @@ export const screws: any[] = [
   {
     sku: '3618020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 5/8 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10388,22 +6279,9 @@ export const screws: any[] = [
   {
     sku: '3618024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 3/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10421,22 +6299,9 @@ export const screws: any[] = [
   {
     sku: '3618032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 1 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10454,22 +6319,9 @@ export const screws: any[] = [
   {
     sku: '3618040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 1-1/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10487,22 +6339,9 @@ export const screws: any[] = [
   {
     sku: '3618048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 1-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10520,22 +6359,9 @@ export const screws: any[] = [
   {
     sku: '3618056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 1-3/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10553,22 +6379,9 @@ export const screws: any[] = [
   {
     sku: '3618064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10586,22 +6399,9 @@ export const screws: any[] = [
   {
     sku: '3618072-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 2-1/4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10619,22 +6419,9 @@ export const screws: any[] = [
   {
     sku: '3618080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 2-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10652,22 +6439,9 @@ export const screws: any[] = [
   {
     sku: '3618096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 3 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10685,22 +6459,9 @@ export const screws: any[] = [
   {
     sku: '3618112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 3-1/2 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10718,22 +6479,9 @@ export const screws: any[] = [
   {
     sku: '3618128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 4 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10751,22 +6499,9 @@ export const screws: any[] = [
   {
     sku: '3618160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 5 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10784,22 +6519,9 @@ export const screws: any[] = [
   {
     sku: '3618192-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '3/8-16 x 6 -- Slotted Round Machine Screws -- Steel -- Zinc Plated',
@@ -10817,22 +6539,9 @@ export const screws: any[] = [
   {
     sku: '98804008-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '4-40 x 1/4 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -10850,22 +6559,9 @@ export const screws: any[] = [
   {
     sku: '98804010-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '4-40 x 5/16 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -10883,22 +6579,9 @@ export const screws: any[] = [
   {
     sku: '98804012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '4-40 x 3/8 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -10916,22 +6599,9 @@ export const screws: any[] = [
   {
     sku: '98804016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '4-40 x 1/2 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -10949,22 +6619,9 @@ export const screws: any[] = [
   {
     sku: '98804020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '4-40 x 5/8 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -10982,22 +6639,9 @@ export const screws: any[] = [
   {
     sku: '98804024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '4-40 x 3/4 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11015,22 +6659,9 @@ export const screws: any[] = [
   {
     sku: '98804032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '4-40 x 1 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11048,22 +6679,9 @@ export const screws: any[] = [
   {
     sku: '98806008-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 1/4 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11081,22 +6699,9 @@ export const screws: any[] = [
   {
     sku: '98806010-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 5/16 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11114,22 +6719,9 @@ export const screws: any[] = [
   {
     sku: '98806012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 3/8 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11147,22 +6739,9 @@ export const screws: any[] = [
   {
     sku: '98806016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 1/2 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11180,22 +6759,9 @@ export const screws: any[] = [
   {
     sku: '98806020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 5/8 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11213,22 +6779,9 @@ export const screws: any[] = [
   {
     sku: '98806024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 3/4 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11246,22 +6799,9 @@ export const screws: any[] = [
   {
     sku: '98806032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 1 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11279,22 +6819,9 @@ export const screws: any[] = [
   {
     sku: '98806040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 1-1/4 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11312,22 +6839,9 @@ export const screws: any[] = [
   {
     sku: '98806048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 1-1/2 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11345,22 +6859,9 @@ export const screws: any[] = [
   {
     sku: '98806064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 2 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11378,22 +6879,9 @@ export const screws: any[] = [
   {
     sku: '98808008-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 1/4 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11411,22 +6899,9 @@ export const screws: any[] = [
   {
     sku: '98808010-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 5/16 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11444,22 +6919,9 @@ export const screws: any[] = [
   {
     sku: '98808012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 3/8 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11477,22 +6939,9 @@ export const screws: any[] = [
   {
     sku: '98808016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 1/2 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11510,22 +6959,9 @@ export const screws: any[] = [
   {
     sku: '98808020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 5/8 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11543,22 +6979,9 @@ export const screws: any[] = [
   {
     sku: '98808024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 3/4 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11576,22 +6999,9 @@ export const screws: any[] = [
   {
     sku: '98808032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 1 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11609,22 +7019,9 @@ export const screws: any[] = [
   {
     sku: '98808040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 1-1/4 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11642,22 +7039,9 @@ export const screws: any[] = [
   {
     sku: '98808048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 1-1/2 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11675,22 +7059,9 @@ export const screws: any[] = [
   {
     sku: '98808056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 1-3/4 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11708,22 +7079,9 @@ export const screws: any[] = [
   {
     sku: '98808064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 2 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11741,22 +7099,9 @@ export const screws: any[] = [
   {
     sku: '98810008-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 1/4 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11774,22 +7119,9 @@ export const screws: any[] = [
   {
     sku: '98810012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 3/8 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11807,22 +7139,9 @@ export const screws: any[] = [
   {
     sku: '98810014-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 7/16 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11840,22 +7159,9 @@ export const screws: any[] = [
   {
     sku: '98810016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 1/2 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11873,22 +7179,9 @@ export const screws: any[] = [
   {
     sku: '98810020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 5/8 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11906,22 +7199,9 @@ export const screws: any[] = [
   {
     sku: '98810024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 3/4 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11939,22 +7219,9 @@ export const screws: any[] = [
   {
     sku: '98810028-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 7/8 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -11972,22 +7239,9 @@ export const screws: any[] = [
   {
     sku: '98810032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 1 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12005,22 +7259,9 @@ export const screws: any[] = [
   {
     sku: '98810040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 1-1/4 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12038,22 +7279,9 @@ export const screws: any[] = [
   {
     sku: '98810048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 1-1/2 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12071,22 +7299,9 @@ export const screws: any[] = [
   {
     sku: '98810064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-24 x 2 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12104,22 +7319,9 @@ export const screws: any[] = [
   {
     sku: '98810008-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 1/4 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12137,22 +7339,9 @@ export const screws: any[] = [
   {
     sku: '98810012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 3/8 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12170,22 +7359,9 @@ export const screws: any[] = [
   {
     sku: '98810014-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 7/16 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12203,22 +7379,9 @@ export const screws: any[] = [
   {
     sku: '98810016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 1/2 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12236,22 +7399,9 @@ export const screws: any[] = [
   {
     sku: '98810020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 5/8 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12269,22 +7419,9 @@ export const screws: any[] = [
   {
     sku: '98810024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 3/4 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12302,22 +7439,9 @@ export const screws: any[] = [
   {
     sku: '98810028-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 7/8 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12335,22 +7459,9 @@ export const screws: any[] = [
   {
     sku: '98810032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 1 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12368,22 +7479,9 @@ export const screws: any[] = [
   {
     sku: '98810040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 1-1/4 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12401,22 +7499,9 @@ export const screws: any[] = [
   {
     sku: '98810048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '10-32 x 1-1/2 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12434,22 +7519,9 @@ export const screws: any[] = [
   {
     sku: '98816012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 3/8 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12467,22 +7539,9 @@ export const screws: any[] = [
   {
     sku: '98816016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1/2 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12500,22 +7559,9 @@ export const screws: any[] = [
   {
     sku: '98816020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 5/8 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12533,22 +7579,9 @@ export const screws: any[] = [
   {
     sku: '98816024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 3/4 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12566,22 +7599,9 @@ export const screws: any[] = [
   {
     sku: '98816028-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 7/8 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12599,22 +7619,9 @@ export const screws: any[] = [
   {
     sku: '98816032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12632,22 +7639,9 @@ export const screws: any[] = [
   {
     sku: '98816036-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1-1/8 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12665,22 +7659,9 @@ export const screws: any[] = [
   {
     sku: '98816040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1-1/4 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12698,22 +7679,9 @@ export const screws: any[] = [
   {
     sku: '98816048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1-1/2 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12731,22 +7699,9 @@ export const screws: any[] = [
   {
     sku: '98816064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 2 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12764,22 +7719,9 @@ export const screws: any[] = [
   {
     sku: '98816096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 3 -- Slotted Pan Machine Screws -- Steel -- Zinc Plated',
@@ -12797,22 +7739,9 @@ export const screws: any[] = [
   {
     sku: '3606016C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 1/2 -- Combo Round Machine Screws -- Steel -- Zinc Plated',
@@ -12830,22 +7759,9 @@ export const screws: any[] = [
   {
     sku: '3606024C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 3/4 -- Combo Round Machine Screws -- Steel -- Zinc Plated',
@@ -12863,22 +7779,9 @@ export const screws: any[] = [
   {
     sku: '3606032C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '6-32 x 1 -- Combo Round Machine Screws -- Steel -- Zinc Plated',
@@ -12896,22 +7799,9 @@ export const screws: any[] = [
   {
     sku: '3608016C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 1/2 -- Combo Round Machine Screws -- Steel -- Zinc Plated',
@@ -12929,22 +7819,9 @@ export const screws: any[] = [
   {
     sku: '3608024C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 3/4 -- Combo Round Machine Screws -- Steel -- Zinc Plated',
@@ -12962,22 +7839,9 @@ export const screws: any[] = [
   {
     sku: '3608032C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '8-32 x 1 -- Combo Round Machine Screws -- Steel -- Zinc Plated',
@@ -12995,22 +7859,9 @@ export const screws: any[] = [
   {
     sku: '3616012C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 3/8 -- Combo Round Machine Screws -- Steel -- Zinc Plated',
@@ -13028,22 +7879,9 @@ export const screws: any[] = [
   {
     sku: '3616016C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1/2 -- Combo Round Machine Screws -- Steel -- Zinc Plated',
@@ -13061,22 +7899,9 @@ export const screws: any[] = [
   {
     sku: '3616024C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 3/4 -- Combo Round Machine Screws -- Steel -- Zinc Plated',
@@ -13094,22 +7919,9 @@ export const screws: any[] = [
   {
     sku: '3616032C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1 -- Combo Round Machine Screws -- Steel -- Zinc Plated',
@@ -13127,22 +7939,9 @@ export const screws: any[] = [
   {
     sku: '3616040C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1-1/4 -- Combo Round Machine Screws -- Steel -- Zinc Plated',
@@ -13160,22 +7959,9 @@ export const screws: any[] = [
   {
     sku: '3616048C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Machine',
     description:
       '1/4-20 x 1-1/2 -- Combo Round Machine Screws -- Steel -- Zinc Plated',
@@ -13193,22 +7979,9 @@ export const screws: any[] = [
   {
     sku: 'BLX-8748016',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '8 X 1/2 -- Phillips Round Wash Head Self Drilling Screws (Tek) -- Black Oxide',
@@ -13226,22 +7999,9 @@ export const screws: any[] = [
   {
     sku: 'BLX-8748024',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '8 X 3/4 -- Phillips Round Wash Head Self Drilling Screws (Tek) -- Black Oxide',
@@ -13259,22 +8019,9 @@ export const screws: any[] = [
   {
     sku: 'BLX-8748032',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '8 X 1 -- Phillips Round Wash Head Self Drilling Screws (Tek) -- Black Oxide',
@@ -13292,22 +8039,9 @@ export const screws: any[] = [
   {
     sku: '8706012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '6-20 X 3/8 -- Unslotted Hex Washer Head -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -13325,22 +8059,9 @@ export const screws: any[] = [
   {
     sku: '8706016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '6-20 X 1/2 -- Unslotted Hex Washer Head -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -13358,22 +8079,9 @@ export const screws: any[] = [
   {
     sku: '8706024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '6-20 X 3/4 -- Unslotted Hex Washer Head -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -13391,22 +8099,9 @@ export const screws: any[] = [
   {
     sku: '8706032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '6-20 X 1 -- Unslotted Hex Washer Head -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -13424,22 +8119,9 @@ export const screws: any[] = [
   {
     sku: '8706040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '6-20 X 1-1/4 -- Unslotted Hex Washer Head -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -13457,22 +8139,9 @@ export const screws: any[] = [
   {
     sku: '8706048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '6-20 X 1-1/2 -- Unslotted Hex Washer Head -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -13490,22 +8159,9 @@ export const screws: any[] = [
   {
     sku: '8708012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '8-18 X 3/8 -- Unslotted Hex Washer Head -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -13523,22 +8179,9 @@ export const screws: any[] = [
   {
     sku: '8708016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '8-18 X 1/2 -- Unslotted Hex Washer Head -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -13556,22 +8199,9 @@ export const screws: any[] = [
   {
     sku: '8708020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '8-18 X 5/8 -- Unslotted Hex Washer Head -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -13589,22 +8219,9 @@ export const screws: any[] = [
   {
     sku: '8708024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '8-18 X 3/4 -- Unslotted Hex Washer Head -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -13622,22 +8239,9 @@ export const screws: any[] = [
   {
     sku: '8708032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '8-18 X 1 -- Unslotted Hex Washer Head -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -13655,22 +8259,9 @@ export const screws: any[] = [
   {
     sku: '8708040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '8-18 X 1-1/4 -- Unslotted Hex Washer Head -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -13688,22 +8279,9 @@ export const screws: any[] = [
   {
     sku: '8708048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '8-18 X 1-1/2 -- Unslotted Hex Washer Head -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -13721,22 +8299,9 @@ export const screws: any[] = [
   {
     sku: '8708056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '8-18 X 1-3/4 -- Unslotted Hex Washer Head -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -13754,22 +8319,9 @@ export const screws: any[] = [
   {
     sku: '8710016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '10-16 X 1/2 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -13787,22 +8339,9 @@ export const screws: any[] = [
   {
     sku: '8710020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '10-16 X 5/8 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -13820,22 +8359,9 @@ export const screws: any[] = [
   {
     sku: '8710024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '10-16 X 3/4 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -13853,22 +8379,9 @@ export const screws: any[] = [
   {
     sku: '8710032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '10-16 X 1 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -13886,22 +8399,9 @@ export const screws: any[] = [
   {
     sku: '8710032-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '10-16 X 1 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -13919,22 +8419,9 @@ export const screws: any[] = [
   {
     sku: '8710040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '10-16 X 1-1/4 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -13952,22 +8439,9 @@ export const screws: any[] = [
   {
     sku: '8710040-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '10-16 X 1-1/4 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -13985,22 +8459,9 @@ export const screws: any[] = [
   {
     sku: '8710048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '10-16 X 1-1/2 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14018,22 +8479,9 @@ export const screws: any[] = [
   {
     sku: '8710048-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '10-16 X 1-1/2 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14051,22 +8499,9 @@ export const screws: any[] = [
   {
     sku: '8710064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '10-16 X 2 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14084,22 +8519,9 @@ export const screws: any[] = [
   {
     sku: '8712024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '12-14 X 3/4 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14117,22 +8539,9 @@ export const screws: any[] = [
   {
     sku: '8712024-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '12-14 X 3/4 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14150,22 +8559,9 @@ export const screws: any[] = [
   {
     sku: '8712032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '12-14 X 1 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14183,22 +8579,9 @@ export const screws: any[] = [
   {
     sku: '8712032-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '12-14 X 1 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14216,22 +8599,9 @@ export const screws: any[] = [
   {
     sku: '8712040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '12-14 X 1-1/4 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14249,22 +8619,9 @@ export const screws: any[] = [
   {
     sku: '8712040-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '12-14 X 1-1/4 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14282,22 +8639,9 @@ export const screws: any[] = [
   {
     sku: '8712048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '12-14 X 1-1/2 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14315,22 +8659,9 @@ export const screws: any[] = [
   {
     sku: '8712048-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '12-14 X 1-1/2 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14348,22 +8679,9 @@ export const screws: any[] = [
   {
     sku: '8712056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '12-14 X 1-3/4 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14381,22 +8699,9 @@ export const screws: any[] = [
   {
     sku: '8712064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '12-14 X 2 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14414,22 +8719,9 @@ export const screws: any[] = [
   {
     sku: '8733024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '14-10 X 3/4 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14447,22 +8739,9 @@ export const screws: any[] = [
   {
     sku: '8733024-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '14-10 X 3/4 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14480,22 +8759,9 @@ export const screws: any[] = [
   {
     sku: '8733032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '14-10 X 1 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14513,22 +8779,9 @@ export const screws: any[] = [
   {
     sku: '8733032-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '14-10 X 1 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14546,22 +8799,9 @@ export const screws: any[] = [
   {
     sku: '8733040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '14-10 X 1-1/4 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14579,22 +8819,9 @@ export const screws: any[] = [
   {
     sku: '8733040-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '14-10 X 1-1/4 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14612,22 +8839,9 @@ export const screws: any[] = [
   {
     sku: '8733048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '14-10 X 1-1/2 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14645,22 +8859,9 @@ export const screws: any[] = [
   {
     sku: '8733048-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '14-10 X 1-1/2 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14678,22 +8879,9 @@ export const screws: any[] = [
   {
     sku: '8733056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '14-10 X 1-3/4 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14711,22 +8899,9 @@ export const screws: any[] = [
   {
     sku: '8733064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '14-10 X 2 -- Unslotted Hex Washer Head -- #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14744,22 +8919,9 @@ export const screws: any[] = [
   {
     sku: '8706012P-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '6-20 X 3/8 -- Phillips Pan -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14777,22 +8939,9 @@ export const screws: any[] = [
   {
     sku: '8706016P-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '6-20 X 1/2 -- Phillips Pan -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14810,22 +8959,9 @@ export const screws: any[] = [
   {
     sku: '8706024P-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '6-20 X 3/4 -- Phillips Pan -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14843,22 +8979,9 @@ export const screws: any[] = [
   {
     sku: '8706032P-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '6-20 X 1 -- Phillips Pan -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14876,22 +8999,9 @@ export const screws: any[] = [
   {
     sku: '8706040P-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '6-20 X 1-1/4 -- Phillips Pan -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14909,22 +9019,9 @@ export const screws: any[] = [
   {
     sku: '8706048P-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '6-20 X 1-1/2 -- Phillips Pan -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14942,22 +9039,9 @@ export const screws: any[] = [
   {
     sku: '8708012P-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '8-18 X 3/8 -- Phillips Pan -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -14975,22 +9059,9 @@ export const screws: any[] = [
   {
     sku: '8708016P-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '8-18 X 1/2 -- Phillips Pan -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -15008,22 +9079,9 @@ export const screws: any[] = [
   {
     sku: '8708020P-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '8-18 X 5/8 -- Phillips Pan -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -15041,22 +9099,9 @@ export const screws: any[] = [
   {
     sku: '8708024P-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '8-18 X 3/4 -- Phillips Pan -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -15074,22 +9119,9 @@ export const screws: any[] = [
   {
     sku: '8708032P-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '8-18 X 1 -- Phillips Pan -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -15107,22 +9139,9 @@ export const screws: any[] = [
   {
     sku: '8708040P-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '8-18 X 1-1/4 -- Phillips Pan -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -15140,22 +9159,9 @@ export const screws: any[] = [
   {
     sku: '8708048P-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '8-18 X 1-1/2 -- Phillips Pan -- #2 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -15173,22 +9179,9 @@ export const screws: any[] = [
   {
     sku: '8710016P-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '10-16 X 1/2 -- Phillips Pan #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -15206,22 +9199,9 @@ export const screws: any[] = [
   {
     sku: '8710020P-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '10-16 X 5/8 -- Phillips Pan #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -15239,22 +9219,9 @@ export const screws: any[] = [
   {
     sku: '8710024P-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '10-16 X 3/4 -- Phillips Pan #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -15272,22 +9239,9 @@ export const screws: any[] = [
   {
     sku: '8710032P-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '10-16 X 1 -- Phillips Pan #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -15305,22 +9259,9 @@ export const screws: any[] = [
   {
     sku: '8710040P-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '10-16 X 1-1/4 -- Phillips Pan #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -15338,22 +9279,9 @@ export const screws: any[] = [
   {
     sku: '8710048P-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Drilling',
     description:
       '10-16 X 1-1/2 -- Phillips Pan #3 Point Self Drilling Screws (Tek) -- Zinc Plated',
@@ -15371,22 +9299,9 @@ export const screws: any[] = [
   {
     sku: '999908016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Piercing',
     description:
       '8-15 X 1/2 -- Slotted Hex Washer Head (HWH) (1/4"A.F.) -- Self Piercing Screw -- Zinc Plated',
@@ -15404,22 +9319,9 @@ export const screws: any[] = [
   {
     sku: '999908024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Piercing',
     description:
       '8-15 X 3/4 -- Slotted Hex Washer Head (HWH) (1/4"A.F.) -- Self Piercing Screw -- Zinc Plated',
@@ -15437,22 +9339,9 @@ export const screws: any[] = [
   {
     sku: '999908032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Piercing',
     description:
       '8-15 X 1 -- Slotted Hex Washer Head (HWH) (1/4"A.F.) -- Self Piercing Screw -- Zinc Plated',
@@ -15470,22 +9359,9 @@ export const screws: any[] = [
   {
     sku: '999908048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Piercing',
     description:
       '8-15 X 1-1/2 -- Slotted Hex Washer Head (HWH) (1/4"A.F.) -- Self Piercing Screw -- Zinc Plated',
@@ -15503,22 +9379,9 @@ export const screws: any[] = [
   {
     sku: '999910016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Piercing',
     description:
       '10-12 X 1/2 -- Slotted Hex Washer Head (HWH) (5/16"A.F.) -- Self Piercing Screw -- Zinc Plated',
@@ -15536,22 +9399,9 @@ export const screws: any[] = [
   {
     sku: '999910024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Piercing',
     description:
       '10-12 X 3/4 -- Slotted Hex Washer Head (HWH) (5/16"A.F.) -- Self Piercing Screw -- Zinc Plated',
@@ -15569,22 +9419,9 @@ export const screws: any[] = [
   {
     sku: '999910032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Piercing',
     description:
       '10-12 X 1 -- Slotted Hex Washer Head (HWH) (5/16"A.F.) -- Self Piercing Screw -- Zinc Plated',
@@ -15602,22 +9439,9 @@ export const screws: any[] = [
   {
     sku: '999910048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Self Piercing',
     description:
       '10-12 X 1-1/2 -- Slotted Hex Washer Head (HWH) (5/16"A.F.) -- Self Piercing Screw -- Zinc Plated',
@@ -15635,22 +9459,9 @@ export const screws: any[] = [
   {
     sku: '5404012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '4-24 X 3/8 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -15668,22 +9479,9 @@ export const screws: any[] = [
   {
     sku: '5404016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '4-24 X 1/2 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -15701,22 +9499,9 @@ export const screws: any[] = [
   {
     sku: '5404020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '4-24 X 5/8 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -15734,22 +9519,9 @@ export const screws: any[] = [
   {
     sku: '5404024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '4-24 X 3/4 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -15767,22 +9539,9 @@ export const screws: any[] = [
   {
     sku: '5404032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '4-24 X 1 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -15800,22 +9559,9 @@ export const screws: any[] = [
   {
     sku: '5406008-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 1/4 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -15833,22 +9579,9 @@ export const screws: any[] = [
   {
     sku: '5406012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 3/8 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -15866,22 +9599,9 @@ export const screws: any[] = [
   {
     sku: '5406016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 1/2 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -15899,22 +9619,9 @@ export const screws: any[] = [
   {
     sku: '5406020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 5/8 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -15932,22 +9639,9 @@ export const screws: any[] = [
   {
     sku: '5406024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 3/4 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -15965,22 +9659,9 @@ export const screws: any[] = [
   {
     sku: '5406032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 1 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -15998,22 +9679,9 @@ export const screws: any[] = [
   {
     sku: '5406040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 1-1/4 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16031,22 +9699,9 @@ export const screws: any[] = [
   {
     sku: '5406048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 1-1/2 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16064,22 +9719,9 @@ export const screws: any[] = [
   {
     sku: '5406056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 1-3/4 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16097,22 +9739,9 @@ export const screws: any[] = [
   {
     sku: '5406064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 2 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16130,22 +9759,9 @@ export const screws: any[] = [
   {
     sku: '5408016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1/2 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16163,22 +9779,9 @@ export const screws: any[] = [
   {
     sku: '5408020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 5/8 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16196,22 +9799,9 @@ export const screws: any[] = [
   {
     sku: '5408024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 3/4 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16229,22 +9819,9 @@ export const screws: any[] = [
   {
     sku: '5408032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16262,22 +9839,9 @@ export const screws: any[] = [
   {
     sku: '5408040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1-1/4 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16295,22 +9859,9 @@ export const screws: any[] = [
   {
     sku: '5408048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1-1/2 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16328,22 +9879,9 @@ export const screws: any[] = [
   {
     sku: '5408056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1-3/4 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16361,22 +9899,9 @@ export const screws: any[] = [
   {
     sku: '5408056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 2 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16394,22 +9919,9 @@ export const screws: any[] = [
   {
     sku: '5408056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 2-1/4 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16427,22 +9939,9 @@ export const screws: any[] = [
   {
     sku: '5408056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 2-1/2 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16460,22 +9959,9 @@ export const screws: any[] = [
   {
     sku: '5408056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 3 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16493,22 +9979,9 @@ export const screws: any[] = [
   {
     sku: '5408056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 3-1/2 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16526,22 +9999,9 @@ export const screws: any[] = [
   {
     sku: '5410012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 3/8 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16559,22 +10019,9 @@ export const screws: any[] = [
   {
     sku: '5410016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 1/2 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16592,22 +10039,9 @@ export const screws: any[] = [
   {
     sku: '5410020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 5/8 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16625,22 +10059,9 @@ export const screws: any[] = [
   {
     sku: '5410024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 3/4 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16658,22 +10079,9 @@ export const screws: any[] = [
   {
     sku: '5410032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 1 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16691,22 +10099,9 @@ export const screws: any[] = [
   {
     sku: '5410040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 1-1/4 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16724,22 +10119,9 @@ export const screws: any[] = [
   {
     sku: '5410048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 1-1/2 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16757,22 +10139,9 @@ export const screws: any[] = [
   {
     sku: '5410056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 1-3/4 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16790,22 +10159,9 @@ export const screws: any[] = [
   {
     sku: '5410064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 2 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16823,22 +10179,9 @@ export const screws: any[] = [
   {
     sku: '5410072-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 2-1/4 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16856,22 +10199,9 @@ export const screws: any[] = [
   {
     sku: '5410080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 2-1/2 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16889,22 +10219,9 @@ export const screws: any[] = [
   {
     sku: '5410096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 3 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16922,22 +10239,9 @@ export const screws: any[] = [
   {
     sku: '5410112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 3-1/2 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16955,22 +10259,9 @@ export const screws: any[] = [
   {
     sku: '5412016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 1/2 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -16988,22 +10279,9 @@ export const screws: any[] = [
   {
     sku: '5412020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 5/8 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -17021,22 +10299,9 @@ export const screws: any[] = [
   {
     sku: '5412024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 3/4 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -17054,22 +10319,9 @@ export const screws: any[] = [
   {
     sku: '5412032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 1 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -17087,22 +10339,9 @@ export const screws: any[] = [
   {
     sku: '5412040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 1-1/4 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -17120,22 +10359,9 @@ export const screws: any[] = [
   {
     sku: '5412048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 1-1/2 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -17153,22 +10379,9 @@ export const screws: any[] = [
   {
     sku: '5412056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 1-3/4 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -17186,22 +10399,9 @@ export const screws: any[] = [
   {
     sku: '5412064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 2 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -17219,22 +10419,9 @@ export const screws: any[] = [
   {
     sku: '5412080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 2-1/2 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -17252,22 +10439,9 @@ export const screws: any[] = [
   {
     sku: '5412096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 3 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -17285,22 +10459,9 @@ export const screws: any[] = [
   {
     sku: '5412112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 3-1/2 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -17318,22 +10479,9 @@ export const screws: any[] = [
   {
     sku: '5433016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 1/2 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -17351,22 +10499,9 @@ export const screws: any[] = [
   {
     sku: '5433024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 3/4 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -17384,22 +10519,9 @@ export const screws: any[] = [
   {
     sku: '5433032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 1 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -17417,22 +10539,9 @@ export const screws: any[] = [
   {
     sku: '5433040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 1-1/4 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -17450,22 +10559,9 @@ export const screws: any[] = [
   {
     sku: '5433048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 1-1/2 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -17483,22 +10579,9 @@ export const screws: any[] = [
   {
     sku: '5433056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 1-3/4 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -17516,22 +10599,9 @@ export const screws: any[] = [
   {
     sku: '5433064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 2 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -17549,22 +10619,9 @@ export const screws: any[] = [
   {
     sku: '5433080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 2-1/2 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -17582,22 +10639,9 @@ export const screws: any[] = [
   {
     sku: '5433096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 3 -- Phillips Flat Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -17615,22 +10659,9 @@ export const screws: any[] = [
   {
     sku: '5004008-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '4-24 X 1/4 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -17648,22 +10679,9 @@ export const screws: any[] = [
   {
     sku: '5004012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '4-24 X 3/8 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -17681,22 +10699,9 @@ export const screws: any[] = [
   {
     sku: '5004016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '4-24 X 1/2 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -17714,22 +10719,9 @@ export const screws: any[] = [
   {
     sku: '5004020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '4-24 X 5/8 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -17747,22 +10739,9 @@ export const screws: any[] = [
   {
     sku: '5004024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '4-24 X 3/4 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -17780,22 +10759,9 @@ export const screws: any[] = [
   {
     sku: '5004032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '4-24 X 1 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -17813,22 +10779,9 @@ export const screws: any[] = [
   {
     sku: '5006008-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 1/4 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -17846,22 +10799,9 @@ export const screws: any[] = [
   {
     sku: '5006012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 3/8 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -17879,22 +10819,9 @@ export const screws: any[] = [
   {
     sku: '5006016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 1/2 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -17912,22 +10839,9 @@ export const screws: any[] = [
   {
     sku: '5006020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 5/8 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -17945,22 +10859,9 @@ export const screws: any[] = [
   {
     sku: '5006024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 3/4 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -17978,22 +10879,9 @@ export const screws: any[] = [
   {
     sku: '5006024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 7/8 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18011,22 +10899,9 @@ export const screws: any[] = [
   {
     sku: '5006032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 1 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18044,22 +10919,9 @@ export const screws: any[] = [
   {
     sku: '5006040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 1-1/4 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18077,22 +10939,9 @@ export const screws: any[] = [
   {
     sku: '5006048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 1-1/2 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18110,22 +10959,9 @@ export const screws: any[] = [
   {
     sku: '5006064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 2 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18143,22 +10979,9 @@ export const screws: any[] = [
   {
     sku: '5008008-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1/4 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18176,22 +10999,9 @@ export const screws: any[] = [
   {
     sku: '5008012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 3/8 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18209,22 +11019,9 @@ export const screws: any[] = [
   {
     sku: '5008016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1/2 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18242,22 +11039,9 @@ export const screws: any[] = [
   {
     sku: '5008020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 5/8 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18275,22 +11059,9 @@ export const screws: any[] = [
   {
     sku: '5008024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 3/4 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18308,22 +11079,9 @@ export const screws: any[] = [
   {
     sku: '5008028-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 7/8 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18341,22 +11099,9 @@ export const screws: any[] = [
   {
     sku: '5008032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18374,22 +11119,9 @@ export const screws: any[] = [
   {
     sku: '5008040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1-1/4 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18407,22 +11139,9 @@ export const screws: any[] = [
   {
     sku: '5008048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1-1/2 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18440,22 +11159,9 @@ export const screws: any[] = [
   {
     sku: '5008056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1-3/4 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18473,22 +11179,9 @@ export const screws: any[] = [
   {
     sku: '5008056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 2 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18506,22 +11199,9 @@ export const screws: any[] = [
   {
     sku: '5008056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 2-1/2 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18539,22 +11219,9 @@ export const screws: any[] = [
   {
     sku: '5008056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 3 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18572,22 +11239,9 @@ export const screws: any[] = [
   {
     sku: '5010012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 3/8 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18605,22 +11259,9 @@ export const screws: any[] = [
   {
     sku: '5010016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 1/2 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18638,22 +11279,9 @@ export const screws: any[] = [
   {
     sku: '5010020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 5/8 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18671,22 +11299,9 @@ export const screws: any[] = [
   {
     sku: '5010024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 3/4 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18704,22 +11319,9 @@ export const screws: any[] = [
   {
     sku: '5010028-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 7/8 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18737,22 +11339,9 @@ export const screws: any[] = [
   {
     sku: '5010032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 1 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18770,22 +11359,9 @@ export const screws: any[] = [
   {
     sku: '5010040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 1-1/4 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18803,22 +11379,9 @@ export const screws: any[] = [
   {
     sku: '5010048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 1-1/2 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18836,22 +11399,9 @@ export const screws: any[] = [
   {
     sku: '5010056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 1-3/4 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18869,22 +11419,9 @@ export const screws: any[] = [
   {
     sku: '5010064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 2 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18902,22 +11439,9 @@ export const screws: any[] = [
   {
     sku: '5010080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 2-1/2 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18935,22 +11459,9 @@ export const screws: any[] = [
   {
     sku: '5010096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 3 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -18968,22 +11479,9 @@ export const screws: any[] = [
   {
     sku: '5012016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 1/2 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -19001,22 +11499,9 @@ export const screws: any[] = [
   {
     sku: '5012020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 5/8 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -19034,22 +11519,9 @@ export const screws: any[] = [
   {
     sku: '5012024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 3/4 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -19067,22 +11539,9 @@ export const screws: any[] = [
   {
     sku: '5012032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 1 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -19100,22 +11559,9 @@ export const screws: any[] = [
   {
     sku: '5012040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 1-1/4 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -19133,22 +11579,9 @@ export const screws: any[] = [
   {
     sku: '5012048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 1-1/2 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -19166,22 +11599,9 @@ export const screws: any[] = [
   {
     sku: '5012056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 1-3/4 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -19199,22 +11619,9 @@ export const screws: any[] = [
   {
     sku: '5012064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 2 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -19232,22 +11639,9 @@ export const screws: any[] = [
   {
     sku: '5012080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 2-1/2 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -19265,22 +11659,9 @@ export const screws: any[] = [
   {
     sku: '5012096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 3 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -19298,22 +11679,9 @@ export const screws: any[] = [
   {
     sku: '5033016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 1/2 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -19331,22 +11699,9 @@ export const screws: any[] = [
   {
     sku: '5033020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 5/8 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -19364,22 +11719,9 @@ export const screws: any[] = [
   {
     sku: '5033024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 3/4 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -19397,22 +11739,9 @@ export const screws: any[] = [
   {
     sku: '5033028-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 7/8 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -19430,22 +11759,9 @@ export const screws: any[] = [
   {
     sku: '5033032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 1 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -19463,22 +11779,9 @@ export const screws: any[] = [
   {
     sku: '5033040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 1-1/4 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -19496,22 +11799,9 @@ export const screws: any[] = [
   {
     sku: '5033048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 1-1/2 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -19529,22 +11819,9 @@ export const screws: any[] = [
   {
     sku: '5033056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 1-3/4 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -19562,22 +11839,9 @@ export const screws: any[] = [
   {
     sku: '5033064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 2 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -19595,22 +11859,9 @@ export const screws: any[] = [
   {
     sku: '5033080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 2-1/2 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -19628,22 +11879,9 @@ export const screws: any[] = [
   {
     sku: '5033096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 3 -- Slotted Pan Head -- Sheet Metal Screw -- Steel -- Zinc Plated',
@@ -19661,22 +11899,9 @@ export const screws: any[] = [
   {
     sku: '5006012C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 3/8 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -19694,22 +11919,9 @@ export const screws: any[] = [
   {
     sku: '5006016C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 1/2 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -19727,22 +11939,9 @@ export const screws: any[] = [
   {
     sku: '5006032C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 1 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -19760,22 +11959,9 @@ export const screws: any[] = [
   {
     sku: '5008012C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 3/8 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -19793,22 +11979,9 @@ export const screws: any[] = [
   {
     sku: '5008016C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1/2 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -19826,22 +11999,9 @@ export const screws: any[] = [
   {
     sku: '5008020C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 5/8 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -19859,22 +12019,9 @@ export const screws: any[] = [
   {
     sku: '5008024C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 3/4 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -19892,22 +12039,9 @@ export const screws: any[] = [
   {
     sku: '5008032C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -19925,22 +12059,9 @@ export const screws: any[] = [
   {
     sku: '5008040C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1-1/4 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -19958,22 +12079,9 @@ export const screws: any[] = [
   {
     sku: '5008048C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1-1/2 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -19991,22 +12099,9 @@ export const screws: any[] = [
   {
     sku: '5010012C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 3/8 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20024,22 +12119,9 @@ export const screws: any[] = [
   {
     sku: '5010016C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 1/2 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20057,22 +12139,9 @@ export const screws: any[] = [
   {
     sku: '5010020C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 5/8 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20090,22 +12159,9 @@ export const screws: any[] = [
   {
     sku: '5010024C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 3/4 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20123,22 +12179,9 @@ export const screws: any[] = [
   {
     sku: '5010032C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 1 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20156,22 +12199,9 @@ export const screws: any[] = [
   {
     sku: '5010040C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 1-1/4 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20189,22 +12219,9 @@ export const screws: any[] = [
   {
     sku: '5010048C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 1-1/2 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20222,22 +12239,9 @@ export const screws: any[] = [
   {
     sku: '5010064C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 2 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20255,22 +12259,9 @@ export const screws: any[] = [
   {
     sku: '5012016C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 1/2 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20288,22 +12279,9 @@ export const screws: any[] = [
   {
     sku: '5012024C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 3/4 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20321,22 +12299,9 @@ export const screws: any[] = [
   {
     sku: '5012032C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 1 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20354,22 +12319,9 @@ export const screws: any[] = [
   {
     sku: '5012040C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 1-1/4 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20387,22 +12339,9 @@ export const screws: any[] = [
   {
     sku: '5012048C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 1-1/2 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20420,22 +12359,9 @@ export const screws: any[] = [
   {
     sku: '5012064C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 2 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20453,22 +12379,9 @@ export const screws: any[] = [
   {
     sku: '5033024C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 3/4 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20486,22 +12399,9 @@ export const screws: any[] = [
   {
     sku: '5033032C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 1 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20519,22 +12419,9 @@ export const screws: any[] = [
   {
     sku: '5033048C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 1-1/2 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20552,22 +12439,9 @@ export const screws: any[] = [
   {
     sku: '5033064C-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 2 PH/SLOT -- Combo Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20585,22 +12459,9 @@ export const screws: any[] = [
   {
     sku: '5304008-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '4-24 X 1/4 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20618,22 +12479,9 @@ export const screws: any[] = [
   {
     sku: '5304012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '4-24 X 3/8 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20651,22 +12499,9 @@ export const screws: any[] = [
   {
     sku: '5304016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '4-24 X 1/2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20684,22 +12519,9 @@ export const screws: any[] = [
   {
     sku: '5304020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '4-24 X 5/8 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20717,22 +12539,9 @@ export const screws: any[] = [
   {
     sku: '5304024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '4-24 X 3/4 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20750,22 +12559,9 @@ export const screws: any[] = [
   {
     sku: '5304032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '4-24 X 1 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20783,22 +12579,9 @@ export const screws: any[] = [
   {
     sku: '5306008-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 1/4 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20816,22 +12599,9 @@ export const screws: any[] = [
   {
     sku: '5306012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 3/8 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20849,22 +12619,9 @@ export const screws: any[] = [
   {
     sku: '5306016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 1/2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20882,22 +12639,9 @@ export const screws: any[] = [
   {
     sku: '5306020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 5/8 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20915,22 +12659,9 @@ export const screws: any[] = [
   {
     sku: '5306024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 3/4 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20948,22 +12679,9 @@ export const screws: any[] = [
   {
     sku: '5306032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 1 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -20981,22 +12699,9 @@ export const screws: any[] = [
   {
     sku: '5306040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 1-1/4 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21014,22 +12719,9 @@ export const screws: any[] = [
   {
     sku: '5306048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 1-1/2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21047,22 +12739,9 @@ export const screws: any[] = [
   {
     sku: '5306056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 1-3/4 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21080,22 +12759,9 @@ export const screws: any[] = [
   {
     sku: '5306064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-18 X 2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21113,22 +12779,9 @@ export const screws: any[] = [
   {
     sku: '5308008-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1/4 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21146,22 +12799,9 @@ export const screws: any[] = [
   {
     sku: '5308012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 3/8 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21179,22 +12819,9 @@ export const screws: any[] = [
   {
     sku: '5308016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1/2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21212,22 +12839,9 @@ export const screws: any[] = [
   {
     sku: '5308020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 5/8 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21245,22 +12859,9 @@ export const screws: any[] = [
   {
     sku: '5308024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 3/4 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21278,22 +12879,9 @@ export const screws: any[] = [
   {
     sku: '5308028-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 7/8 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21311,22 +12899,9 @@ export const screws: any[] = [
   {
     sku: '5308032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21344,22 +12919,9 @@ export const screws: any[] = [
   {
     sku: '5308040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1-1/4 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21377,22 +12939,9 @@ export const screws: any[] = [
   {
     sku: '5308048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1-1/2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21410,22 +12959,9 @@ export const screws: any[] = [
   {
     sku: '5308056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1-3/4 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21443,22 +12979,9 @@ export const screws: any[] = [
   {
     sku: '5308056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21476,22 +12999,9 @@ export const screws: any[] = [
   {
     sku: '5308056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 2-1/4 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21509,22 +13019,9 @@ export const screws: any[] = [
   {
     sku: '5308056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 2-1/2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21542,22 +13039,9 @@ export const screws: any[] = [
   {
     sku: '5308056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 3 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21575,22 +13059,9 @@ export const screws: any[] = [
   {
     sku: '5308056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 3-1/2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21608,22 +13079,9 @@ export const screws: any[] = [
   {
     sku: '5310012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 3/8 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21641,22 +13099,9 @@ export const screws: any[] = [
   {
     sku: '5310016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 1/2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21674,22 +13119,9 @@ export const screws: any[] = [
   {
     sku: '5310020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 5/8 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21707,22 +13139,9 @@ export const screws: any[] = [
   {
     sku: '5310024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 3/4 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21740,22 +13159,9 @@ export const screws: any[] = [
   {
     sku: '5310028-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 7/8 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21773,22 +13179,9 @@ export const screws: any[] = [
   {
     sku: '5310032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 1 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21806,22 +13199,9 @@ export const screws: any[] = [
   {
     sku: '5310040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 1-1/4 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21839,22 +13219,9 @@ export const screws: any[] = [
   {
     sku: '5310048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 1-1/2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21872,22 +13239,9 @@ export const screws: any[] = [
   {
     sku: '5310056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 1-3/4 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21905,22 +13259,9 @@ export const screws: any[] = [
   {
     sku: '5310064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21938,22 +13279,9 @@ export const screws: any[] = [
   {
     sku: '5310080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 2-1/2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -21971,22 +13299,9 @@ export const screws: any[] = [
   {
     sku: '5310096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 3 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22004,22 +13319,9 @@ export const screws: any[] = [
   {
     sku: '5310112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-12 X 3-1/2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22037,22 +13339,9 @@ export const screws: any[] = [
   {
     sku: '5312016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 1/2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22070,22 +13359,9 @@ export const screws: any[] = [
   {
     sku: '5312020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 5/8 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22103,22 +13379,9 @@ export const screws: any[] = [
   {
     sku: '5312024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 3/4 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22136,22 +13399,9 @@ export const screws: any[] = [
   {
     sku: '5312032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 1 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22169,22 +13419,9 @@ export const screws: any[] = [
   {
     sku: '5312040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 1-1/4 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22202,22 +13439,9 @@ export const screws: any[] = [
   {
     sku: '5312048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 1-1/2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22235,22 +13459,9 @@ export const screws: any[] = [
   {
     sku: '5312056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 1-3/4 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22268,22 +13479,9 @@ export const screws: any[] = [
   {
     sku: '5312064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22301,22 +13499,9 @@ export const screws: any[] = [
   {
     sku: '5312080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 2-1/2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22334,22 +13519,9 @@ export const screws: any[] = [
   {
     sku: '5312096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 3 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22367,22 +13539,9 @@ export const screws: any[] = [
   {
     sku: '5312112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-11 X 3-1/2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22400,22 +13559,9 @@ export const screws: any[] = [
   {
     sku: '5333016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 1/2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22433,22 +13579,9 @@ export const screws: any[] = [
   {
     sku: '5333020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 5/8 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22466,22 +13599,9 @@ export const screws: any[] = [
   {
     sku: '5333024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 3/4 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22499,22 +13619,9 @@ export const screws: any[] = [
   {
     sku: '5333028-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 7/8 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22532,22 +13639,9 @@ export const screws: any[] = [
   {
     sku: '5333032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 1 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22565,22 +13659,9 @@ export const screws: any[] = [
   {
     sku: '5333040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 1-1/4 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22598,22 +13679,9 @@ export const screws: any[] = [
   {
     sku: '5333048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 1-1/2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22631,22 +13699,9 @@ export const screws: any[] = [
   {
     sku: '5333056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 1-3/4 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22664,22 +13719,9 @@ export const screws: any[] = [
   {
     sku: '5333064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22697,22 +13739,9 @@ export const screws: any[] = [
   {
     sku: '5333080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 2-1/2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22730,22 +13759,9 @@ export const screws: any[] = [
   {
     sku: '5333096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 3 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22763,22 +13779,9 @@ export const screws: any[] = [
   {
     sku: '5333112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 3-1/2 -- Phillips Pan Head -- Sheet Metal Screws -- Steel -- Zinc Plated',
@@ -22796,22 +13799,9 @@ export const screws: any[] = [
   {
     sku: '5206012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-20 X 3/8 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -22829,22 +13819,9 @@ export const screws: any[] = [
   {
     sku: '5206016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-20 X 1/2 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -22862,22 +13839,9 @@ export const screws: any[] = [
   {
     sku: '5206020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-20 X 5/8 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -22895,22 +13859,9 @@ export const screws: any[] = [
   {
     sku: '5206024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-20 X 3/4 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -22928,22 +13879,9 @@ export const screws: any[] = [
   {
     sku: '5206032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-20 X 1 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -22961,22 +13899,9 @@ export const screws: any[] = [
   {
     sku: '5206040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-20 X 1-1/4 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -22994,22 +13919,9 @@ export const screws: any[] = [
   {
     sku: '5206048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-20 X 1-1/2 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23027,22 +13939,9 @@ export const screws: any[] = [
   {
     sku: '5206064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '6-20 X 2 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23060,22 +13959,9 @@ export const screws: any[] = [
   {
     sku: '5208008-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1/4 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23093,22 +13979,9 @@ export const screws: any[] = [
   {
     sku: '5208012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 3/8 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23126,22 +13999,9 @@ export const screws: any[] = [
   {
     sku: '5208016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1/2 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23159,22 +14019,9 @@ export const screws: any[] = [
   {
     sku: '5208020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 5/8 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23192,22 +14039,9 @@ export const screws: any[] = [
   {
     sku: '5208024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 3/4 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23225,22 +14059,9 @@ export const screws: any[] = [
   {
     sku: '5208032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23258,22 +14079,9 @@ export const screws: any[] = [
   {
     sku: '5208040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1-1/4 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23291,22 +14099,9 @@ export const screws: any[] = [
   {
     sku: '5208048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 1-1/2 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23324,22 +14119,9 @@ export const screws: any[] = [
   {
     sku: '5208056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 2 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23357,22 +14139,9 @@ export const screws: any[] = [
   {
     sku: '5208056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 2-1/2 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23390,22 +14159,9 @@ export const screws: any[] = [
   {
     sku: '5208056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '8-15 X 3 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23423,22 +14179,9 @@ export const screws: any[] = [
   {
     sku: '5210012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-16 X 3/8 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23456,22 +14199,9 @@ export const screws: any[] = [
   {
     sku: '5210016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-16 X 1/2 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23489,22 +14219,9 @@ export const screws: any[] = [
   {
     sku: '5210020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-16 X 5/8 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23522,22 +14239,9 @@ export const screws: any[] = [
   {
     sku: '5210024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-16 X 3/4 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23555,22 +14259,9 @@ export const screws: any[] = [
   {
     sku: '5210032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-16 X 1 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23588,22 +14279,9 @@ export const screws: any[] = [
   {
     sku: '5210040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-16 X 1-1/4 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23621,22 +14299,9 @@ export const screws: any[] = [
   {
     sku: '5210048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-16 X 1-1/2 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23654,22 +14319,9 @@ export const screws: any[] = [
   {
     sku: '5210064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-16 X 2 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23687,22 +14339,9 @@ export const screws: any[] = [
   {
     sku: '5210080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-16 X 2-1/2 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23720,22 +14359,9 @@ export const screws: any[] = [
   {
     sku: '5210096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '10-16 X 3 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23753,22 +14379,9 @@ export const screws: any[] = [
   {
     sku: '5212016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-14 X 1/2 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23786,22 +14399,9 @@ export const screws: any[] = [
   {
     sku: '5212020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-14 X 5/8 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23819,22 +14419,9 @@ export const screws: any[] = [
   {
     sku: '5212024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-14 X 3/4 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23852,22 +14439,9 @@ export const screws: any[] = [
   {
     sku: '5212032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-14 X 1 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23885,22 +14459,9 @@ export const screws: any[] = [
   {
     sku: '5212040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-14 X 1-1/4 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23918,22 +14479,9 @@ export const screws: any[] = [
   {
     sku: '5212048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-14 X 1-1/2 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23951,22 +14499,9 @@ export const screws: any[] = [
   {
     sku: '5212064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-14 X 2 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -23984,22 +14519,9 @@ export const screws: any[] = [
   {
     sku: '5212080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '12-14 X 2-1/2 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -24017,22 +14539,9 @@ export const screws: any[] = [
   {
     sku: '5233016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 1/2 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -24050,22 +14559,9 @@ export const screws: any[] = [
   {
     sku: '5233020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 5/8 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -24083,22 +14579,9 @@ export const screws: any[] = [
   {
     sku: '5233024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 3/4 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -24116,22 +14599,9 @@ export const screws: any[] = [
   {
     sku: '5233032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 1 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -24149,22 +14619,9 @@ export const screws: any[] = [
   {
     sku: '5233040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 1-1/4 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -24182,22 +14639,9 @@ export const screws: any[] = [
   {
     sku: '5233048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 1-1/2 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -24215,22 +14659,9 @@ export const screws: any[] = [
   {
     sku: '5233064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '14-10 X 2 -- Slotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -24248,22 +14679,9 @@ export const screws: any[] = [
   {
     sku: '5234024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '5/16-9 X 3/4 -- Unslotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -24281,22 +14699,9 @@ export const screws: any[] = [
   {
     sku: '5234032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '5/16-9 X 1 -- Unslotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -24314,22 +14719,9 @@ export const screws: any[] = [
   {
     sku: '5234040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '5/16-9 X 1-1/4 -- Unslotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -24347,22 +14739,9 @@ export const screws: any[] = [
   {
     sku: '5234048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '5/16-9 X 1-1/2 -- Unslotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -24380,22 +14759,9 @@ export const screws: any[] = [
   {
     sku: '5235032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '3/8-7 X 1 -- Unslotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -24413,22 +14779,9 @@ export const screws: any[] = [
   {
     sku: '5235040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '3/8-7 X 1-1/4 -- Unslotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -24446,22 +14799,9 @@ export const screws: any[] = [
   {
     sku: '5235048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description:
       '3/8-7 X 1-1/2 -- Unslotted Hex Washer Head -- Sheet Metal Screws -- Zinc Plated',
@@ -24479,22 +14819,9 @@ export const screws: any[] = [
   {
     sku: '5408032OV-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description: '8 X 1 -- Phillips Oval Sheet Metal Screw -- Zinc Plated',
     diameter: '8',
@@ -24511,22 +14838,9 @@ export const screws: any[] = [
   {
     sku: '5410032OV-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description: '10 X 1 -- Phillips Oval Sheet Metal Screw -- Zinc Plated',
     diameter: '10',
@@ -24543,22 +14857,9 @@ export const screws: any[] = [
   {
     sku: '5412032OV-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Sheet Metal',
     description: '12 X 1 -- Phillips Oval Sheet Metal Screw -- Zinc Plated',
     diameter: '12',
@@ -24575,22 +14876,9 @@ export const screws: any[] = [
   {
     sku: '5506012F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '6-32 x 3/8 -- Phillips Pan "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -24608,22 +14896,9 @@ export const screws: any[] = [
   {
     sku: '5506016F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '6-32 x 1/2 -- Phillips Pan "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -24641,22 +14916,9 @@ export const screws: any[] = [
   {
     sku: '5506020F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '6-32 x 5/8 -- Phillips Pan "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -24674,22 +14936,9 @@ export const screws: any[] = [
   {
     sku: '5506024F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '6-32 x 3/4 -- Phillips Pan "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -24707,22 +14956,9 @@ export const screws: any[] = [
   {
     sku: '5508012F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '8-32 x 3/8 -- Phillips Pan "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -24740,22 +14976,9 @@ export const screws: any[] = [
   {
     sku: '5508016F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '8-32 x 1/2 -- Phillips Pan "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -24773,22 +14996,9 @@ export const screws: any[] = [
   {
     sku: '5508020F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '8-32 x 5/8 -- Phillips Pan "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -24806,22 +15016,9 @@ export const screws: any[] = [
   {
     sku: '5508024F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '8-32 x 3/4 -- Phillips Pan "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -24839,22 +15036,9 @@ export const screws: any[] = [
   {
     sku: '5508032F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '8-32 x 1 -- Phillips Pan "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -24872,22 +15056,9 @@ export const screws: any[] = [
   {
     sku: '5510016F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '10-24 x 1/2 -- Phillips Pan "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -24905,22 +15076,9 @@ export const screws: any[] = [
   {
     sku: '5510020F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '10-24 x 5/8 -- Phillips Pan "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -24938,22 +15096,9 @@ export const screws: any[] = [
   {
     sku: '5510024F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '10-24 x 3/4 -- Phillips Pan "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -24971,22 +15116,9 @@ export const screws: any[] = [
   {
     sku: '5510032F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '10-24 x 1 -- Phillips Pan "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -25004,22 +15136,9 @@ export const screws: any[] = [
   {
     sku: '5506016HF-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '6-32 x 1/2 -- Slotted Hex Washer Head -- "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -25037,22 +15156,9 @@ export const screws: any[] = [
   {
     sku: '5506024HF-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '6-32 x 3/4 -- Slotted Hex Washer Head -- "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -25070,22 +15176,9 @@ export const screws: any[] = [
   {
     sku: '5508016HF-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '8-32 x 1/2 -- Slotted Hex Washer Head -- "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -25103,22 +15196,9 @@ export const screws: any[] = [
   {
     sku: '5508024HF-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '8-32 x 3/4 -- Slotted Hex Washer Head -- "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -25136,22 +15216,9 @@ export const screws: any[] = [
   {
     sku: '5510016HF-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '10-24 x 1/2 -- Slotted Hex Washer Head -- "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -25169,22 +15236,9 @@ export const screws: any[] = [
   {
     sku: '5510020HF-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '10-24 x 5/8 -- Slotted Hex Washer Head -- "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -25202,22 +15256,9 @@ export const screws: any[] = [
   {
     sku: '5510024HF-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '10-24 x 3/4 -- Slotted Hex Washer Head -- "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -25235,22 +15276,9 @@ export const screws: any[] = [
   {
     sku: '5510032HF-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '10-24 x 1 -- Slotted Hex Washer Head -- "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -25268,22 +15296,9 @@ export const screws: any[] = [
   {
     sku: '5516016HF-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '1/4-20 x 1/2 -- Slotted Hex Washer Head -- "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -25301,22 +15316,9 @@ export const screws: any[] = [
   {
     sku: '5516024HF-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '1/4-20 x 3/4 -- Slotted Hex Washer Head -- "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -25334,22 +15336,9 @@ export const screws: any[] = [
   {
     sku: '5516032HF-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '1/4-20 x 1 -- Slotted Hex Washer Head -- "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -25367,22 +15356,9 @@ export const screws: any[] = [
   {
     sku: '5516048HF-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Thread Cutting',
     description:
       '1/4-20 x 1-1/2 -- Slotted Hex Washer Head -- "F" Thread Cutting Screw -- Steel -- Zinc Plated',
@@ -25400,22 +15376,9 @@ export const screws: any[] = [
   {
     sku: '8206012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 3/8 -- Wall Plate Screws -- Zinc Plated',
     diameter: '6',
@@ -25432,22 +15395,9 @@ export const screws: any[] = [
   {
     sku: '8206016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 1/2 -- Wall Plate Screws -- Zinc Plated',
     diameter: '6',
@@ -25464,22 +15414,9 @@ export const screws: any[] = [
   {
     sku: '8206024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 3/4 -- Wall Plate Screws -- Zinc Plated',
     diameter: '6',
@@ -25496,22 +15433,9 @@ export const screws: any[] = [
   {
     sku: '8206032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 1 -- Wall Plate Screws -- Zinc Plated',
     diameter: '6',
@@ -25528,22 +15452,9 @@ export const screws: any[] = [
   {
     sku: '8206040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 1-1/4 -- Wall Plate Screws -- Zinc Plated',
     diameter: '6',
@@ -25560,22 +15471,9 @@ export const screws: any[] = [
   {
     sku: '8206048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 1-1/2 -- Wall Plate Screws -- Zinc Plated',
     diameter: '6',
@@ -25592,22 +15490,9 @@ export const screws: any[] = [
   {
     sku: '8206012-BR',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 3/8 -- Wall Plate Screws -- Brown',
     diameter: '6',
@@ -25624,22 +15509,9 @@ export const screws: any[] = [
   {
     sku: '8206016-BR',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 1/2 -- Wall Plate Screws -- Brown',
     diameter: '6',
@@ -25656,22 +15528,9 @@ export const screws: any[] = [
   {
     sku: '8206024-BR',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 3/4 -- Wall Plate Screws -- Brown',
     diameter: '6',
@@ -25688,22 +15547,9 @@ export const screws: any[] = [
   {
     sku: '8206032-BR',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 1 -- Wall Plate Screws -- Brown',
     diameter: '6',
@@ -25720,22 +15566,9 @@ export const screws: any[] = [
   {
     sku: '8206040-BR',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 1-1/4 -- Wall Plate Screws -- Brown',
     diameter: '6',
@@ -25752,22 +15585,9 @@ export const screws: any[] = [
   {
     sku: '8206048-BR',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 1-1/2 -- Wall Plate Screws -- Brown',
     diameter: '6',
@@ -25784,22 +15604,9 @@ export const screws: any[] = [
   {
     sku: '8206012-IV',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 3/8 -- Wall Plate Screws -- Ivory',
     diameter: '6',
@@ -25816,22 +15623,9 @@ export const screws: any[] = [
   {
     sku: '8206016-IV',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 1/2 -- Wall Plate Screws -- Ivory',
     diameter: '6',
@@ -25848,22 +15642,9 @@ export const screws: any[] = [
   {
     sku: '8206024-IV',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 3/4 -- Wall Plate Screws -- Ivory',
     diameter: '6',
@@ -25880,22 +15661,9 @@ export const screws: any[] = [
   {
     sku: '8206032-IV',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 1 -- Wall Plate Screws -- Ivory',
     diameter: '6',
@@ -25912,22 +15680,9 @@ export const screws: any[] = [
   {
     sku: '8206040-IV',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 1-1/4 -- Wall Plate Screws -- Ivory',
     diameter: '6',
@@ -25944,22 +15699,9 @@ export const screws: any[] = [
   {
     sku: '8206048-IV',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 1-1/2 -- Wall Plate Screws -- Ivory',
     diameter: '6',
@@ -25976,22 +15718,9 @@ export const screws: any[] = [
   {
     sku: '8206012-WH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 3/8 -- Wall Plate Screws -- White',
     diameter: '6',
@@ -26008,22 +15737,9 @@ export const screws: any[] = [
   {
     sku: '8206016-WH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 1/2 -- Wall Plate Screws -- White',
     diameter: '6',
@@ -26040,22 +15756,9 @@ export const screws: any[] = [
   {
     sku: '8206024-WH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 3/4 -- Wall Plate Screws -- White',
     diameter: '6',
@@ -26072,22 +15775,9 @@ export const screws: any[] = [
   {
     sku: '8206032-WH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 1 -- Wall Plate Screws -- White',
     diameter: '6',
@@ -26104,22 +15794,9 @@ export const screws: any[] = [
   {
     sku: '8206040-WH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 1-1/4 -- Wall Plate Screws -- White',
     diameter: '6',
@@ -26136,22 +15813,9 @@ export const screws: any[] = [
   {
     sku: '8206048-WH',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wall Plate',
     description: '6-32 x 1-1/2 -- Wall Plate Screws -- White',
     diameter: '6',
@@ -26168,22 +15832,9 @@ export const screws: any[] = [
   {
     sku: '4704016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '4 X 1/2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26201,22 +15852,9 @@ export const screws: any[] = [
   {
     sku: '4704020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '4 X 5/8 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26234,22 +15872,9 @@ export const screws: any[] = [
   {
     sku: '4704024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '4 X 3/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26267,22 +15892,9 @@ export const screws: any[] = [
   {
     sku: '4704032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '4 X 1 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26300,22 +15912,9 @@ export const screws: any[] = [
   {
     sku: '4706016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '6 X 1/2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26333,22 +15932,9 @@ export const screws: any[] = [
   {
     sku: '4706020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '6 X 5/8 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26366,22 +15952,9 @@ export const screws: any[] = [
   {
     sku: '4706024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '6 X 3/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26399,22 +15972,9 @@ export const screws: any[] = [
   {
     sku: '4706032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '6 X 1 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26432,22 +15992,9 @@ export const screws: any[] = [
   {
     sku: '4706036-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '6 X 1-1/8 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26465,22 +16012,9 @@ export const screws: any[] = [
   {
     sku: '4706040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '6 X 1-1/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26498,22 +16032,9 @@ export const screws: any[] = [
   {
     sku: '4706048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '6 X 1-1/2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26531,22 +16052,9 @@ export const screws: any[] = [
   {
     sku: '4706056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '6 X 1-3/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26564,22 +16072,9 @@ export const screws: any[] = [
   {
     sku: '4706064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '6 X 2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26597,22 +16092,9 @@ export const screws: any[] = [
   {
     sku: '4708016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '8 X 1/2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26630,22 +16112,9 @@ export const screws: any[] = [
   {
     sku: '4708020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '8 X 5/8 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26663,22 +16132,9 @@ export const screws: any[] = [
   {
     sku: '4708024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '8 X 3/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26696,22 +16152,9 @@ export const screws: any[] = [
   {
     sku: '4708032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '8 X 1 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26729,22 +16172,9 @@ export const screws: any[] = [
   {
     sku: '4708036-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '8 X 1-1/8 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26762,22 +16192,9 @@ export const screws: any[] = [
   {
     sku: '4708040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '8 X 1-1/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26795,22 +16212,9 @@ export const screws: any[] = [
   {
     sku: '4708048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '8 X 1-1/2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26828,22 +16232,9 @@ export const screws: any[] = [
   {
     sku: '4708056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '8 X 1-3/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26861,22 +16252,9 @@ export const screws: any[] = [
   {
     sku: '4708064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '8 X 2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26894,22 +16272,9 @@ export const screws: any[] = [
   {
     sku: '4708072-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '8 X 2-1/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26927,22 +16292,9 @@ export const screws: any[] = [
   {
     sku: '4708089-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '8 X 2-1/2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26960,22 +16312,9 @@ export const screws: any[] = [
   {
     sku: '4708088-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '8 X 2-3/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -26993,22 +16332,9 @@ export const screws: any[] = [
   {
     sku: '4708096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '8 X 3 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27026,22 +16352,9 @@ export const screws: any[] = [
   {
     sku: '4709024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '9 X 3/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27059,22 +16372,9 @@ export const screws: any[] = [
   {
     sku: '4709032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '9 X 1 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27092,22 +16392,9 @@ export const screws: any[] = [
   {
     sku: '4709040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '9 X 1-1/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27125,22 +16412,9 @@ export const screws: any[] = [
   {
     sku: '4709048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '9 X 1-1/2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27158,22 +16432,9 @@ export const screws: any[] = [
   {
     sku: '4709056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '9 X 1-3/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27191,22 +16452,9 @@ export const screws: any[] = [
   {
     sku: '4709064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '9 X 2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27224,22 +16472,9 @@ export const screws: any[] = [
   {
     sku: '4709072-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '9 X 2-1/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27257,22 +16492,9 @@ export const screws: any[] = [
   {
     sku: '4709089-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '9 X 2-1/2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27290,22 +16512,9 @@ export const screws: any[] = [
   {
     sku: '4710016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '10 X 1/2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27323,22 +16532,9 @@ export const screws: any[] = [
   {
     sku: '4710020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '10 X 5/8 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27356,22 +16552,9 @@ export const screws: any[] = [
   {
     sku: '4710024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '10 X 3/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27389,22 +16572,9 @@ export const screws: any[] = [
   {
     sku: '4710032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '10 X 1 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27422,22 +16592,9 @@ export const screws: any[] = [
   {
     sku: '4710040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '10 X 1-1/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27455,22 +16612,9 @@ export const screws: any[] = [
   {
     sku: '4710048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '10 X 1-1/2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27488,22 +16632,9 @@ export const screws: any[] = [
   {
     sku: '4710056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '10 X 1-3/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27521,22 +16652,9 @@ export const screws: any[] = [
   {
     sku: '4710064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '10 X 2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27554,22 +16672,9 @@ export const screws: any[] = [
   {
     sku: '4710072-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '10 X 2-1/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27587,22 +16692,9 @@ export const screws: any[] = [
   {
     sku: '4710089-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '10 X 2-1/2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27620,22 +16712,9 @@ export const screws: any[] = [
   {
     sku: '4710088-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '10 X 2-3/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27653,22 +16732,9 @@ export const screws: any[] = [
   {
     sku: '4710096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '10 X 3 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27686,22 +16752,9 @@ export const screws: any[] = [
   {
     sku: '4710112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '10 X 3-1/2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27719,22 +16772,9 @@ export const screws: any[] = [
   {
     sku: '4710128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '10 X 4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27752,22 +16792,9 @@ export const screws: any[] = [
   {
     sku: '4712024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '12 X 3/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27785,22 +16812,9 @@ export const screws: any[] = [
   {
     sku: '4712032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '12 X 1 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27818,22 +16832,9 @@ export const screws: any[] = [
   {
     sku: '4712040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '12 X 1-1/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27851,22 +16852,9 @@ export const screws: any[] = [
   {
     sku: '4712048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '12 X 1-1/2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27884,22 +16872,9 @@ export const screws: any[] = [
   {
     sku: '4712056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '12 X 1-3/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27917,22 +16892,9 @@ export const screws: any[] = [
   {
     sku: '4712064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '12 X 2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27950,22 +16912,9 @@ export const screws: any[] = [
   {
     sku: '4712072-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '12 X 2-1/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -27983,22 +16932,9 @@ export const screws: any[] = [
   {
     sku: '4712089-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '12 X 2-1/2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -28016,22 +16952,9 @@ export const screws: any[] = [
   {
     sku: '4712088-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '12 X 2-3/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -28049,22 +16972,9 @@ export const screws: any[] = [
   {
     sku: '4712096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '12 X 3 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -28082,22 +16992,9 @@ export const screws: any[] = [
   {
     sku: '4712112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '12 X 3-1/2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -28115,22 +17012,9 @@ export const screws: any[] = [
   {
     sku: '4712128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '12 X 4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -28148,22 +17032,9 @@ export const screws: any[] = [
   {
     sku: '4733024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '14 X 3/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -28181,22 +17052,9 @@ export const screws: any[] = [
   {
     sku: '4733032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '14 X 1 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -28214,22 +17072,9 @@ export const screws: any[] = [
   {
     sku: '4733040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '14 X 1-1/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -28247,22 +17092,9 @@ export const screws: any[] = [
   {
     sku: '4733048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '14 X 1-1/2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -28280,22 +17112,9 @@ export const screws: any[] = [
   {
     sku: '4733056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '14 X 1-3/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -28313,22 +17132,9 @@ export const screws: any[] = [
   {
     sku: '4733064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '14 X 2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -28346,22 +17152,9 @@ export const screws: any[] = [
   {
     sku: '4733072-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '14 X 2-1/4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -28379,22 +17172,9 @@ export const screws: any[] = [
   {
     sku: '4733089-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '14 X 2-1/2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -28412,22 +17192,9 @@ export const screws: any[] = [
   {
     sku: '4733096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '14 X 3 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -28445,22 +17212,9 @@ export const screws: any[] = [
   {
     sku: '4733112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '14 X 3-1/2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -28478,22 +17232,9 @@ export const screws: any[] = [
   {
     sku: '4733128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '14 X 4 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -28511,22 +17252,9 @@ export const screws: any[] = [
   {
     sku: '4733144-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '14 X 4-1/2 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
@@ -28544,22 +17272,9 @@ export const screws: any[] = [
   {
     sku: '4733160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
+    superCategory: 'fasteners',
     Type: 'Screws',
-
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
     Category: 'Wood',
     description:
       '14 X 5 -- Phillips Flat Head Wood Screws -- Steel -- Zinc Plated',
