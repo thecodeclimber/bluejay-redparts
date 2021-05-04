@@ -176,8 +176,7 @@ TotalProducts.push(
   ...nuts,
   ...washers,
   ...screws,
-  ...bolts,
-  ...hexHeadCapScrews
+  ...bolts
 );
 TotalProducts.forEach((data, index) => {
   if (data?.name && data.slug) {
