@@ -2,21 +2,10 @@ export const bolts: any[] = [
   {
     sku: '0816016-ZN',
     name: 'Test',
-    slug: 'Test',
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 x 1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: '1/2',
@@ -32,21 +21,10 @@ export const bolts: any[] = [
   {
     sku: '0816020-ZN',
     name: 'Test',
-    slug: 'Test',
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 x 5/8 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: '5/8',
@@ -62,22 +40,10 @@ export const bolts: any[] = [
   {
     sku: '0816024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 x 3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: '3/4',
@@ -93,22 +59,10 @@ export const bolts: any[] = [
   {
     sku: '0816032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 X 1 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: '1',
@@ -124,22 +78,10 @@ export const bolts: any[] = [
   {
     sku: '0816040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 x 1-1/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: '1-1/4',
@@ -155,22 +97,10 @@ export const bolts: any[] = [
   {
     sku: '0816048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 X 1 1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: '1 1/2',
@@ -186,22 +116,10 @@ export const bolts: any[] = [
   {
     sku: '0816056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 x 1-3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: '1-3/4',
@@ -217,22 +135,10 @@ export const bolts: any[] = [
   {
     sku: '0816064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 X 2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: '2',
@@ -248,22 +154,10 @@ export const bolts: any[] = [
   {
     sku: '0816082-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 X 2 1/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: '2 1/4',
@@ -279,22 +173,10 @@ export const bolts: any[] = [
   {
     sku: '0816080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 X 2 1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: '2 1/2',
@@ -310,22 +192,10 @@ export const bolts: any[] = [
   {
     sku: '0816088-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 X 2 3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: '2 3/4',
@@ -341,22 +211,10 @@ export const bolts: any[] = [
   {
     sku: '0816096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 X 3 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: '3',
@@ -372,22 +230,10 @@ export const bolts: any[] = [
   {
     sku: '0816104-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 x 3-1/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: '3-1/4',
@@ -403,22 +249,10 @@ export const bolts: any[] = [
   {
     sku: '0816112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 x 3-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: '3-1/2',
@@ -434,22 +268,10 @@ export const bolts: any[] = [
   {
     sku: '0816120-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 x 3-3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: '3-3/4',
@@ -465,22 +287,10 @@ export const bolts: any[] = [
   {
     sku: '0816128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 X 4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: '4',
@@ -496,22 +306,10 @@ export const bolts: any[] = [
   {
     sku: '0816144-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 x 4-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: '4-1/2',
@@ -527,22 +325,10 @@ export const bolts: any[] = [
   {
     sku: '0816160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 x 5 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: '5',
@@ -558,22 +344,10 @@ export const bolts: any[] = [
   {
     sku: '0816176-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 x 5-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: '5-1/2',
@@ -589,22 +363,10 @@ export const bolts: any[] = [
   {
     sku: '0816192-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 x 6 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: '6',
@@ -620,22 +382,10 @@ export const bolts: any[] = [
   {
     sku: '0816208-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 x 6-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: '6-1/2',
@@ -651,22 +401,10 @@ export const bolts: any[] = [
   {
     sku: '0816224-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 x 7 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: '7',
@@ -682,22 +420,10 @@ export const bolts: any[] = [
   {
     sku: '0816256-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 x 8 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/4-20',
     length: '8',
@@ -713,22 +439,10 @@ export const bolts: any[] = [
   {
     sku: '0817016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '1/2',
@@ -744,22 +458,10 @@ export const bolts: any[] = [
   {
     sku: '0817020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 5/8 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '5/8',
@@ -775,22 +477,10 @@ export const bolts: any[] = [
   {
     sku: '0817024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '3/4',
@@ -806,22 +496,10 @@ export const bolts: any[] = [
   {
     sku: '0817032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 1 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '1',
@@ -837,22 +515,10 @@ export const bolts: any[] = [
   {
     sku: '0817040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 1-1/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '1-1/4',
@@ -868,22 +534,10 @@ export const bolts: any[] = [
   {
     sku: '0817048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 1-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '1 1/2',
@@ -899,22 +553,10 @@ export const bolts: any[] = [
   {
     sku: '0817056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 1-3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '1-3/4',
@@ -930,22 +572,10 @@ export const bolts: any[] = [
   {
     sku: '0817064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 X 2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '2',
@@ -961,22 +591,10 @@ export const bolts: any[] = [
   {
     sku: '0817072-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 X 2 1/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '2 1/4',
@@ -992,22 +610,10 @@ export const bolts: any[] = [
   {
     sku: '0817080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 2-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '2 1/2',
@@ -1023,22 +629,10 @@ export const bolts: any[] = [
   {
     sku: '0817088-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 X 2 3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '2 3/4',
@@ -1054,22 +648,10 @@ export const bolts: any[] = [
   {
     sku: '0817096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 3 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '3',
@@ -1085,22 +667,10 @@ export const bolts: any[] = [
   {
     sku: '0817104-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 3-1/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '3-1/4',
@@ -1116,22 +686,10 @@ export const bolts: any[] = [
   {
     sku: '0817112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 3-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '3-1/2',
@@ -1147,22 +705,10 @@ export const bolts: any[] = [
   {
     sku: '0817120-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 3-3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '3-3/4',
@@ -1178,22 +724,10 @@ export const bolts: any[] = [
   {
     sku: '0817128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '4',
@@ -1209,22 +743,10 @@ export const bolts: any[] = [
   {
     sku: '0817144-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 4-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '4-1/2',
@@ -1240,22 +762,10 @@ export const bolts: any[] = [
   {
     sku: '0817160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 5 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '5',
@@ -1271,22 +781,10 @@ export const bolts: any[] = [
   {
     sku: '0817176-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 5-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '5-1/2',
@@ -1302,22 +800,10 @@ export const bolts: any[] = [
   {
     sku: '0817192-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 6 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '6',
@@ -1333,22 +819,10 @@ export const bolts: any[] = [
   {
     sku: '0817208-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 6-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '6-1/2',
@@ -1364,22 +838,10 @@ export const bolts: any[] = [
   {
     sku: '0817224-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 7 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '7',
@@ -1395,22 +857,10 @@ export const bolts: any[] = [
   {
     sku: '0817256-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 8 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '8',
@@ -1426,22 +876,10 @@ export const bolts: any[] = [
   {
     sku: '0817288-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 9 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '9',
@@ -1457,22 +895,10 @@ export const bolts: any[] = [
   {
     sku: '0817320-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 10 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '5/16-18',
     length: '10',
@@ -1488,22 +914,10 @@ export const bolts: any[] = [
   {
     sku: '0818024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '3/4',
@@ -1519,22 +933,10 @@ export const bolts: any[] = [
   {
     sku: '0818032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 X 1 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '1',
@@ -1550,22 +952,10 @@ export const bolts: any[] = [
   {
     sku: '0818040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 X 1-1/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '1-1/4',
@@ -1581,22 +971,10 @@ export const bolts: any[] = [
   {
     sku: '0818048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 X 1-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '1-1/2',
@@ -1612,22 +990,10 @@ export const bolts: any[] = [
   {
     sku: '0818056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 X 1-3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '1-3/4',
@@ -1643,22 +1009,10 @@ export const bolts: any[] = [
   {
     sku: '0818064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '2',
@@ -1674,22 +1028,10 @@ export const bolts: any[] = [
   {
     sku: '0818082-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 X 2-1/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '2-1/4',
@@ -1705,22 +1047,10 @@ export const bolts: any[] = [
   {
     sku: '0818080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 X 2-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '2-1/2',
@@ -1736,22 +1066,10 @@ export const bolts: any[] = [
   {
     sku: '0818088-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 X 2 3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '2 3/4',
@@ -1767,22 +1085,10 @@ export const bolts: any[] = [
   {
     sku: '0818096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 3 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '3',
@@ -1798,22 +1104,10 @@ export const bolts: any[] = [
   {
     sku: '0818104-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 3-1/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '3-1/4',
@@ -1829,22 +1123,10 @@ export const bolts: any[] = [
   {
     sku: '0818112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 3-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '3-1/2',
@@ -1860,22 +1142,10 @@ export const bolts: any[] = [
   {
     sku: '0818120-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 3-3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '3-3/4',
@@ -1891,22 +1161,10 @@ export const bolts: any[] = [
   {
     sku: '0818128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '4',
@@ -1922,22 +1180,10 @@ export const bolts: any[] = [
   {
     sku: '0818144-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 4-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '4-1/2',
@@ -1953,22 +1199,10 @@ export const bolts: any[] = [
   {
     sku: '0818160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 5 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '5',
@@ -1984,22 +1218,10 @@ export const bolts: any[] = [
   {
     sku: '0818176-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 5-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '5-1/2',
@@ -2015,22 +1237,10 @@ export const bolts: any[] = [
   {
     sku: '0818192-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 6 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '6',
@@ -2046,22 +1256,10 @@ export const bolts: any[] = [
   {
     sku: '0818208-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 6-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '6-1/2',
@@ -2077,22 +1275,10 @@ export const bolts: any[] = [
   {
     sku: '0818224-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 7 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '7',
@@ -2108,22 +1294,10 @@ export const bolts: any[] = [
   {
     sku: '0818240-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 7-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '7-1/2',
@@ -2139,22 +1313,10 @@ export const bolts: any[] = [
   {
     sku: '0818256-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 8 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '8',
@@ -2170,22 +1332,10 @@ export const bolts: any[] = [
   {
     sku: '0818272-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 8-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '8-1/2',
@@ -2201,22 +1351,10 @@ export const bolts: any[] = [
   {
     sku: '0818288-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 9 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '9',
@@ -2232,22 +1370,10 @@ export const bolts: any[] = [
   {
     sku: '0818304-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 X 9-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '9-1/2',
@@ -2263,22 +1389,10 @@ export const bolts: any[] = [
   {
     sku: '0818320-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 X 10 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '10',
@@ -2294,22 +1408,10 @@ export const bolts: any[] = [
   {
     sku: '0818352-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 X 11 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '11',
@@ -2325,22 +1427,10 @@ export const bolts: any[] = [
   {
     sku: '0818384-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 X 12 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '3/8-16',
     length: '12',
@@ -2356,22 +1446,10 @@ export const bolts: any[] = [
   {
     sku: '0820032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 1 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '1',
@@ -2387,22 +1465,10 @@ export const bolts: any[] = [
   {
     sku: '0820040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 1-1/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '1-1/4',
@@ -2418,22 +1484,10 @@ export const bolts: any[] = [
   {
     sku: '0820048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 1-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '1-1/2',
@@ -2449,22 +1503,10 @@ export const bolts: any[] = [
   {
     sku: '0820056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 1-3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '1-3/4',
@@ -2480,22 +1522,10 @@ export const bolts: any[] = [
   {
     sku: '0820064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '2',
@@ -2511,22 +1541,10 @@ export const bolts: any[] = [
   {
     sku: '0820082-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 2-1/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '2-1/4',
@@ -2542,22 +1560,10 @@ export const bolts: any[] = [
   {
     sku: '0820080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 2-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '2-1/2',
@@ -2573,22 +1579,10 @@ export const bolts: any[] = [
   {
     sku: '0820088-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 X 2 3/4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '2 3/4',
@@ -2604,22 +1598,10 @@ export const bolts: any[] = [
   {
     sku: '0820096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 X 3 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '3',
@@ -2635,22 +1617,10 @@ export const bolts: any[] = [
   {
     sku: '0820812-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 3-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '3-1/2',
@@ -2666,22 +1636,10 @@ export const bolts: any[] = [
   {
     sku: '0820828-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 4 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '4',
@@ -2697,22 +1655,10 @@ export const bolts: any[] = [
   {
     sku: '0820844-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 4-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '4-1/2',
@@ -2728,22 +1674,10 @@ export const bolts: any[] = [
   {
     sku: '0820860-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 5 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '5',
@@ -2759,22 +1693,10 @@ export const bolts: any[] = [
   {
     sku: '0820876-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 5-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '5-1/2',
@@ -2790,22 +1712,10 @@ export const bolts: any[] = [
   {
     sku: '0820892-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 6 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '6',
@@ -2821,22 +1731,10 @@ export const bolts: any[] = [
   {
     sku: '0820208-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 6-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '6-1/2',
@@ -2852,22 +1750,10 @@ export const bolts: any[] = [
   {
     sku: '0820224-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 7 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '7',
@@ -2883,22 +1769,10 @@ export const bolts: any[] = [
   {
     sku: '0820240-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 7-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '7-1/2',
@@ -2914,22 +1788,10 @@ export const bolts: any[] = [
   {
     sku: '0820256-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 8 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '8',
@@ -2945,22 +1807,10 @@ export const bolts: any[] = [
   {
     sku: '0820272-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 8-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '8-1/2',
@@ -2976,22 +1826,10 @@ export const bolts: any[] = [
   {
     sku: '0820288-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 9 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '9',
@@ -3007,22 +1845,10 @@ export const bolts: any[] = [
   {
     sku: '0820304-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 X 9-1/2 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '9-1/2',
@@ -3038,22 +1864,10 @@ export const bolts: any[] = [
   {
     sku: '0820320-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 X 10 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '10',
@@ -3069,22 +1883,10 @@ export const bolts: any[] = [
   {
     sku: '0820352-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 X 11 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '11',
@@ -3100,22 +1902,10 @@ export const bolts: any[] = [
   {
     sku: '0820384-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 X 12 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '12',
@@ -3131,22 +1921,10 @@ export const bolts: any[] = [
   {
     sku: '0820416-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 X 13 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '13',
@@ -3162,22 +1940,10 @@ export const bolts: any[] = [
   {
     sku: '0820448-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 X 14 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '14',
@@ -3193,22 +1959,10 @@ export const bolts: any[] = [
   {
     sku: '0820480-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 X 15 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '15',
@@ -3224,22 +1978,10 @@ export const bolts: any[] = [
   {
     sku: '0820512-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 X 16 -- Carriage Bolt -- UNC Steel -- Zinc Plated',
     diameter: '1/2-13',
     length: '16',
@@ -3255,22 +1997,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0816048',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 X 1 1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/4-20',
     length: '1 1/2',
@@ -3286,22 +2016,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0816064',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 X 2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/4-20',
     length: '2',
@@ -3317,22 +2035,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0816080',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 X 2 1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/4-20',
     length: '2 1/2',
@@ -3348,22 +2054,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0816096',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 X 3 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/4-20',
     length: '3',
@@ -3379,22 +2073,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0816112',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 x 3-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/4-20',
     length: '3-1/2',
@@ -3410,22 +2092,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0816128',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 X 4 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/4-20',
     length: '4',
@@ -3441,22 +2111,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0816144',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 x 4-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/4-20',
     length: '4-1/2',
@@ -3472,22 +2130,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0816160',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 x 5 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/4-20',
     length: '5',
@@ -3503,22 +2149,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0816176',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 x 5-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/4-20',
     length: '5-1/2',
@@ -3534,22 +2168,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0816192',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/4-20 x 6 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/4-20',
     length: '6',
@@ -3565,22 +2187,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0817032',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 1 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '5/16-18',
     length: '1',
@@ -3596,22 +2206,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0817048',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 1-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '5/16-18',
     length: '1-1/2',
@@ -3627,22 +2225,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0817064',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 X 2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '5/16-18',
     length: '2',
@@ -3658,22 +2244,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0817080',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 2-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '5/16-18',
     length: '2-1/2',
@@ -3689,22 +2263,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0817096',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 3 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '5/16-18',
     length: '3',
@@ -3720,22 +2282,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0817112',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 3-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '5/16-18',
     length: '3-1/2',
@@ -3751,22 +2301,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0817128',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 4 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '5/16-18',
     length: '4',
@@ -3782,22 +2320,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0817144',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 4-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '5/16-18',
     length: '4-1/2',
@@ -3813,22 +2339,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0817160',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 5 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '5/16-18',
     length: '5',
@@ -3844,22 +2358,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0817176',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 X 5-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '5/16-18',
     length: '5-1/2',
@@ -3875,22 +2377,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0817192',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '5/16-18 x 6 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '5/16-18',
     length: '6',
@@ -3906,22 +2396,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0818032',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 X 1 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '3/8-16',
     length: '1',
@@ -3937,22 +2415,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0818048',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 X 1-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '3/8-16',
     length: '1-1/2',
@@ -3968,22 +2434,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0818064',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '3/8-16',
     length: '2',
@@ -3999,22 +2453,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0818080',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 X 2-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '3/8-16',
     length: '2-1/2',
@@ -4030,22 +2472,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0818096',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 3 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '3/8-16',
     length: '3',
@@ -4061,22 +2491,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0818112',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 3-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '3/8-16',
     length: '3-1/2',
@@ -4092,22 +2510,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0818128',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 4 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '3/8-16',
     length: '4',
@@ -4123,22 +2529,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0818144',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 4-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '3/8-16',
     length: '4-1/2',
@@ -4154,22 +2548,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0818160',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 5 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '3/8-16',
     length: '5',
@@ -4185,22 +2567,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0818176',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 5-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '3/8-16',
     length: '5-1/2',
@@ -4216,22 +2586,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0818192',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 6 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '3/8-16',
     length: '6',
@@ -4247,22 +2605,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0818224',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 7 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '3/8-16',
     length: '7',
@@ -4278,22 +2624,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0818256',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 8 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '3/8-16',
     length: '8',
@@ -4309,22 +2643,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0818288',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 9 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '3/8-16',
     length: '9',
@@ -4340,22 +2662,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0818320',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 10 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '3/8-16',
     length: '10',
@@ -4371,22 +2681,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0818352',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '3/8-16 x 11 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '3/8-16',
     length: '11',
@@ -4402,22 +2700,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0820032',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 1 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/2-13',
     length: '1',
@@ -4433,22 +2719,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0820048',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 1-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/2-13',
     length: '1-1/2',
@@ -4464,22 +2738,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0820064',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/2-13',
     length: '2',
@@ -4495,22 +2757,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0820080',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 2-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/2-13',
     length: '2-1/2',
@@ -4526,22 +2776,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0820096',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 X 3 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/2-13',
     length: '3',
@@ -4557,22 +2795,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0820812',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 3-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/2-13',
     length: '3-1/2',
@@ -4588,22 +2814,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0820828',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 4 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/2-13',
     length: '4',
@@ -4619,22 +2833,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0820844',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 4-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/2-13',
     length: '4-1/2',
@@ -4650,22 +2852,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0820860',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 5 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/2-13',
     length: '5',
@@ -4681,22 +2871,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0820876',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 5-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/2-13',
     length: '5-1/2',
@@ -4712,22 +2890,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0820892',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 6 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/2-13',
     length: '6',
@@ -4743,22 +2909,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0820208',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 6-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/2-13',
     length: '6-1/2',
@@ -4774,22 +2928,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0820224',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 7 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/2-13',
     length: '7',
@@ -4805,22 +2947,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0820240',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 7-1/2 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/2-13',
     length: '7-1/2',
@@ -4836,22 +2966,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0820256',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 8 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/2-13',
     length: '8',
@@ -4867,22 +2985,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0820288',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 x 9 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/2-13',
     length: '9',
@@ -4898,22 +3004,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0820320',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 X 10 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/2-13',
     length: '10',
@@ -4929,22 +3023,10 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0820352',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
-
+    superCategory: 'fasteners',
+    Category: 'Carriage',
     description: '1/2-13 X 11 -- Carriage Bolt -- Hot Dip Galvanized',
     diameter: '1/2-13',
     length: '11',
@@ -4960,21 +3042,9 @@ export const bolts: any[] = [
   {
     sku: '4016024-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 3/4 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -4991,21 +3061,9 @@ export const bolts: any[] = [
   {
     sku: '4016024-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 3/4 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -5022,21 +3080,9 @@ export const bolts: any[] = [
   {
     sku: '4016024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 3/4 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -5053,21 +3099,9 @@ export const bolts: any[] = [
   {
     sku: '4016032-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 1 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -5084,21 +3118,9 @@ export const bolts: any[] = [
   {
     sku: '4016032-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 1 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -5115,21 +3137,9 @@ export const bolts: any[] = [
   {
     sku: '4016032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 1 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -5146,21 +3156,9 @@ export const bolts: any[] = [
   {
     sku: '4016040-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 1-1/4 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -5177,21 +3175,9 @@ export const bolts: any[] = [
   {
     sku: '4016040-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 1-1/4 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -5208,21 +3194,9 @@ export const bolts: any[] = [
   {
     sku: '4016040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 1-1/4 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -5239,21 +3213,9 @@ export const bolts: any[] = [
   {
     sku: '4016048-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 1-1/2 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -5270,21 +3232,9 @@ export const bolts: any[] = [
   {
     sku: '4016048-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 1-1/2 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -5301,21 +3251,9 @@ export const bolts: any[] = [
   {
     sku: '4016048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 1-1/2 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -5332,21 +3270,9 @@ export const bolts: any[] = [
   {
     sku: '4016056-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 1-3/4 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -5363,21 +3289,9 @@ export const bolts: any[] = [
   {
     sku: '4016056-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 1-3/4 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -5394,21 +3308,9 @@ export const bolts: any[] = [
   {
     sku: '4016056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 1-3/4 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -5425,21 +3327,9 @@ export const bolts: any[] = [
   {
     sku: '4016064-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 2 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -5456,21 +3346,9 @@ export const bolts: any[] = [
   {
     sku: '4016064-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 2 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -5487,21 +3365,9 @@ export const bolts: any[] = [
   {
     sku: '4016064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 2 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -5518,21 +3384,9 @@ export const bolts: any[] = [
   {
     sku: '4016080-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 2-1/2 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -5549,21 +3403,9 @@ export const bolts: any[] = [
   {
     sku: '4016080-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 2-1/2 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -5580,21 +3422,9 @@ export const bolts: any[] = [
   {
     sku: '4016080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 2-1/2 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -5611,21 +3441,9 @@ export const bolts: any[] = [
   {
     sku: '4016096-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 3 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -5642,21 +3460,9 @@ export const bolts: any[] = [
   {
     sku: '4016096-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 3 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -5673,21 +3479,9 @@ export const bolts: any[] = [
   {
     sku: '4016096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '1/4-20 x 3 -- Elevator Bolt -- Zinc Plated',
     diameter: '1/4-20',
@@ -5704,21 +3498,9 @@ export const bolts: any[] = [
   {
     sku: '4017032-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '5/16-18 x 1 -- Elevator Bolt -- Zinc Plated',
     diameter: '5/16-18',
@@ -5735,21 +3517,9 @@ export const bolts: any[] = [
   {
     sku: '4017032-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '5/16-18 x 1 -- Elevator Bolt -- Zinc Plated',
     diameter: '5/16-18',
@@ -5766,21 +3536,9 @@ export const bolts: any[] = [
   {
     sku: '4017032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '5/16-18 x 1 -- Elevator Bolt -- Zinc Plated',
     diameter: '5/16-18',
@@ -5797,21 +3555,9 @@ export const bolts: any[] = [
   {
     sku: '4017040-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '5/16-18 x 1-1/4 -- Elevator Bolt -- Zinc Plated',
     diameter: '5/16-18',
@@ -5828,21 +3574,9 @@ export const bolts: any[] = [
   {
     sku: '4017040-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '5/16-18 x 1-1/4 -- Elevator Bolt -- Zinc Plated',
     diameter: '5/16-18',
@@ -5859,21 +3593,9 @@ export const bolts: any[] = [
   {
     sku: '4017040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '5/16-18 x 1-1/4 -- Elevator Bolt -- Zinc Plated',
     diameter: '5/16-18',
@@ -5890,21 +3612,9 @@ export const bolts: any[] = [
   {
     sku: '4017048-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '5/16-18 x 1-1/2 -- Elevator Bolt -- Zinc Plated',
     diameter: '5/16-18',
@@ -5921,21 +3631,9 @@ export const bolts: any[] = [
   {
     sku: '4017048-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '5/16-18 x 1-1/2 -- Elevator Bolt -- Zinc Plated',
     diameter: '5/16-18',
@@ -5952,21 +3650,9 @@ export const bolts: any[] = [
   {
     sku: '4017048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '5/16-18 x 1-1/2 -- Elevator Bolt -- Zinc Plated',
     diameter: '5/16-18',
@@ -5983,21 +3669,9 @@ export const bolts: any[] = [
   {
     sku: '4017056-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '5/16-18 x 1-3/4 -- Elevator Bolt -- Zinc Plated',
     diameter: '5/16-18',
@@ -6014,21 +3688,9 @@ export const bolts: any[] = [
   {
     sku: '4017056-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '5/16-18 x 1-3/4 -- Elevator Bolt -- Zinc Plated',
     diameter: '5/16-18',
@@ -6045,21 +3707,9 @@ export const bolts: any[] = [
   {
     sku: '4017056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '5/16-18 x 1-3/4 -- Elevator Bolt -- Zinc Plated',
     diameter: '5/16-18',
@@ -6076,21 +3726,9 @@ export const bolts: any[] = [
   {
     sku: '4017064-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '5/16-18 x 2 -- Elevator Bolt -- Zinc Plated',
     diameter: '5/16-18',
@@ -6107,21 +3745,9 @@ export const bolts: any[] = [
   {
     sku: '4017064-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '5/16-18 x 2 -- Elevator Bolt -- Zinc Plated',
     diameter: '5/16-18',
@@ -6138,21 +3764,9 @@ export const bolts: any[] = [
   {
     sku: '4017064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '5/16-18 x 2 -- Elevator Bolt -- Zinc Plated',
     diameter: '5/16-18',
@@ -6169,21 +3783,9 @@ export const bolts: any[] = [
   {
     sku: '4017080-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '5/16-18 x 2-1/2 -- Elevator Bolt -- Zinc Plated',
     diameter: '5/16-18',
@@ -6200,21 +3802,9 @@ export const bolts: any[] = [
   {
     sku: '4017080-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '5/16-18 x 2-1/2 -- Elevator Bolt -- Zinc Plated',
     diameter: '5/16-18',
@@ -6231,21 +3821,9 @@ export const bolts: any[] = [
   {
     sku: '4017080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '5/16-18 x 2-1/2 -- Elevator Bolt -- Zinc Plated',
     diameter: '5/16-18',
@@ -6262,21 +3840,9 @@ export const bolts: any[] = [
   {
     sku: '4017096-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '5/16-18 x 3 -- Elevator Bolt -- Zinc Plated',
     diameter: '5/16-18',
@@ -6293,21 +3859,9 @@ export const bolts: any[] = [
   {
     sku: '4017096-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '5/16-18 x 3 -- Elevator Bolt -- Zinc Plated',
     diameter: '5/16-18',
@@ -6324,21 +3878,9 @@ export const bolts: any[] = [
   {
     sku: '4017096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '5/16-18 x 3 -- Elevator Bolt -- Zinc Plated',
     diameter: '5/16-18',
@@ -6355,21 +3897,9 @@ export const bolts: any[] = [
   {
     sku: '4018032-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '3/8-16 x 1 -- Elevator Bolt -- Zinc Plated',
     diameter: '3/8-16',
@@ -6386,21 +3916,9 @@ export const bolts: any[] = [
   {
     sku: '4018032-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '3/8-16 x 1 -- Elevator Bolt -- Zinc Plated',
     diameter: '3/8-16',
@@ -6417,21 +3935,9 @@ export const bolts: any[] = [
   {
     sku: '4018032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '3/8-16 x 1 -- Elevator Bolt -- Zinc Plated',
     diameter: '3/8-16',
@@ -6448,21 +3954,9 @@ export const bolts: any[] = [
   {
     sku: '4018040-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '3/8-16 x 1-1/4 -- Elevator Bolt -- Zinc Plated',
     diameter: '3/8-16',
@@ -6479,21 +3973,9 @@ export const bolts: any[] = [
   {
     sku: '4018040-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '3/8-16 x 1-1/4 -- Elevator Bolt -- Zinc Plated',
     diameter: '3/8-16',
@@ -6510,21 +3992,9 @@ export const bolts: any[] = [
   {
     sku: '4018040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '3/8-16 x 1-1/4 -- Elevator Bolt -- Zinc Plated',
     diameter: '3/8-16',
@@ -6541,21 +4011,9 @@ export const bolts: any[] = [
   {
     sku: '4018048-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '3/8-16 x 1-1/2 -- Elevator Bolt -- Zinc Plated',
     diameter: '3/8-16',
@@ -6572,21 +4030,9 @@ export const bolts: any[] = [
   {
     sku: '4018048-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '3/8-16 x 1-1/2 -- Elevator Bolt -- Zinc Plated',
     diameter: '3/8-16',
@@ -6603,21 +4049,9 @@ export const bolts: any[] = [
   {
     sku: '4018048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '3/8-16 x 1-1/2 -- Elevator Bolt -- Zinc Plated',
     diameter: '3/8-16',
@@ -6634,21 +4068,9 @@ export const bolts: any[] = [
   {
     sku: '4018056-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '3/8-16 x 1-3/4 -- Elevator Bolt -- Zinc Plated',
     diameter: '3/8-16',
@@ -6665,21 +4087,9 @@ export const bolts: any[] = [
   {
     sku: '4018056-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '3/8-16 x 1-3/4 -- Elevator Bolt -- Zinc Plated',
     diameter: '3/8-16',
@@ -6696,21 +4106,9 @@ export const bolts: any[] = [
   {
     sku: '4018056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '3/8-16 x 1-3/4 -- Elevator Bolt -- Zinc Plated',
     diameter: '3/8-16',
@@ -6727,21 +4125,9 @@ export const bolts: any[] = [
   {
     sku: '4018064-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '3/8-16 x 2 -- Elevator Bolt -- Zinc Plated',
     diameter: '3/8-16',
@@ -6758,21 +4144,9 @@ export const bolts: any[] = [
   {
     sku: '4018064-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '3/8-16 x 2 -- Elevator Bolt -- Zinc Plated',
     diameter: '3/8-16',
@@ -6789,21 +4163,9 @@ export const bolts: any[] = [
   {
     sku: '4018064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '3/8-16 x 2 -- Elevator Bolt -- Zinc Plated',
     diameter: '3/8-16',
@@ -6820,21 +4182,9 @@ export const bolts: any[] = [
   {
     sku: '4018080-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '3/8-16 x 2-1/2 -- Elevator Bolt -- Zinc Plated',
     diameter: '3/8-16',
@@ -6851,21 +4201,9 @@ export const bolts: any[] = [
   {
     sku: '4018080-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '3/8-16 x 2-1/2 -- Elevator Bolt -- Zinc Plated',
     diameter: '3/8-16',
@@ -6882,21 +4220,9 @@ export const bolts: any[] = [
   {
     sku: '4018080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '3/8-16 x 2-1/2 -- Elevator Bolt -- Zinc Plated',
     diameter: '3/8-16',
@@ -6913,21 +4239,9 @@ export const bolts: any[] = [
   {
     sku: '4018096-ZN-25',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '3/8-16 x 3 -- Elevator Bolt -- Zinc Plated',
     diameter: '3/8-16',
@@ -6944,21 +4258,9 @@ export const bolts: any[] = [
   {
     sku: '4018096-ZN-50',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '3/8-16 x 3 -- Elevator Bolt -- Zinc Plated',
     diameter: '3/8-16',
@@ -6975,21 +4277,9 @@ export const bolts: any[] = [
   {
     sku: '4018096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Elevator',
     description: '3/8-16 x 3 -- Elevator Bolt -- Zinc Plated',
     diameter: '3/8-16',
@@ -7006,21 +4296,9 @@ export const bolts: any[] = [
   {
     sku: '0518024F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '3/8-16 x 3/4 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7038,21 +4316,9 @@ export const bolts: any[] = [
   {
     sku: '0518032F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '3/8-16 X 1 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7070,21 +4336,9 @@ export const bolts: any[] = [
   {
     sku: '0518040F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '3/8-16 X 1-1/4 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7102,21 +4356,9 @@ export const bolts: any[] = [
   {
     sku: '0518048F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '3/8-16 X 1-1/2 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7134,21 +4376,9 @@ export const bolts: any[] = [
   {
     sku: '0518056F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '3/8-16 X 1-3/4 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7166,21 +4396,9 @@ export const bolts: any[] = [
   {
     sku: '0518064F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '3/8-16 x 2 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7198,21 +4416,9 @@ export const bolts: any[] = [
   {
     sku: '0520040F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '1/2-13 x 1-1/4 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7230,21 +4436,9 @@ export const bolts: any[] = [
   {
     sku: '0520048F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '1/2-13 x 1-1/2 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7262,21 +4456,9 @@ export const bolts: any[] = [
   {
     sku: '0520056F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '1/2-13 x 1-3/4 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7294,21 +4476,9 @@ export const bolts: any[] = [
   {
     sku: '0520064F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '1/2-13 x 2 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7326,21 +4496,9 @@ export const bolts: any[] = [
   {
     sku: '0520072F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '1/2-13 x 2-1/4 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7358,21 +4516,9 @@ export const bolts: any[] = [
   {
     sku: '0520080F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '1/2-13 x 2-1/2 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7390,21 +4536,9 @@ export const bolts: any[] = [
   {
     sku: '0520088F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '1/2-13 X 2 3/4 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7422,21 +4556,9 @@ export const bolts: any[] = [
   {
     sku: '0520096F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '1/2-13 X 3 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7454,21 +4576,9 @@ export const bolts: any[] = [
   {
     sku: '0520504F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '1/2-13 x 3-1/4 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7486,21 +4596,9 @@ export const bolts: any[] = [
   {
     sku: '0520512F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '1/2-13 x 3-1/2 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7518,21 +4616,9 @@ export const bolts: any[] = [
   {
     sku: '0520520F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '1/2-13 x 3-3/4 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7550,21 +4636,9 @@ export const bolts: any[] = [
   {
     sku: '0520528F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '1/2-13 x 4 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7582,21 +4656,9 @@ export const bolts: any[] = [
   {
     sku: '0522040F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '5/8-11 x 1-1/4 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7614,21 +4676,9 @@ export const bolts: any[] = [
   {
     sku: '0522048F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '5/8-11 x 1-1/2 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7646,21 +4696,9 @@ export const bolts: any[] = [
   {
     sku: '0522056F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '5/8-11 x 1-3/4 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7678,21 +4716,9 @@ export const bolts: any[] = [
   {
     sku: '0522064F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '5/8-11 x 2 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7710,21 +4736,9 @@ export const bolts: any[] = [
   {
     sku: '0522072F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '5/8-11 x 2-1/4 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7742,21 +4756,9 @@ export const bolts: any[] = [
   {
     sku: '0522080F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '5/8-11 x 2-1/2 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7774,21 +4776,9 @@ export const bolts: any[] = [
   {
     sku: '0522088F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '5/8-11 X 2 3/4 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7806,21 +4796,9 @@ export const bolts: any[] = [
   {
     sku: '0522096F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '5/8-11 x 3 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7838,21 +4816,9 @@ export const bolts: any[] = [
   {
     sku: '0522112F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '5/8-11 x 3-1/2 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7870,21 +4836,9 @@ export const bolts: any[] = [
   {
     sku: '0522128F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '5/8-11 x 4 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7902,21 +4856,9 @@ export const bolts: any[] = [
   {
     sku: '0523056F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '3/4-10 x 1-3/4 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7934,21 +4876,9 @@ export const bolts: any[] = [
   {
     sku: '0523064F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '3/4-10 x 2 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7966,21 +4896,9 @@ export const bolts: any[] = [
   {
     sku: '0523072F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '3/4-10 x 2-1/4 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -7998,21 +4916,9 @@ export const bolts: any[] = [
   {
     sku: '0523080F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '3/4-10 x 2-1/2 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -8030,21 +4936,9 @@ export const bolts: any[] = [
   {
     sku: '0523096F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '3/4-10 x 3 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -8062,21 +4956,9 @@ export const bolts: any[] = [
   {
     sku: '0523112F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '3/4-10 x 3-1/2 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -8094,21 +4976,9 @@ export const bolts: any[] = [
   {
     sku: '0523128F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '3/4-10 x 4 -- Indented Hex Flange Frame Bolt -- grade 8 -- Black Phosphate & Oil',
@@ -8126,21 +4996,9 @@ export const bolts: any[] = [
   {
     sku: '0316032F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '1/4-20 X 3/8 -- Hex Washer Head Serrated Flange Bolt -- Steel -- Zinc Plated',
@@ -8158,21 +5016,9 @@ export const bolts: any[] = [
   {
     sku: '0316036F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '1/4-20 x 1/2 -- Hex Washer Head Serrated Flange Bolt -- Steel -- Zinc Plated',
@@ -8190,21 +5036,9 @@ export const bolts: any[] = [
   {
     sku: '0316024F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '1/4-20 x 3/4 -- Hex Washer Head Serrated Flange Bolt -- Steel -- Zinc Plated',
@@ -8222,21 +5056,9 @@ export const bolts: any[] = [
   {
     sku: '0316032F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '1/4-20 X 1 -- Hex Washer Head Serrated Flange Bolt -- Steel -- Zinc Plated',
@@ -8254,21 +5076,9 @@ export const bolts: any[] = [
   {
     sku: '0316040F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '1/4-20 x 1-1/4 -- Hex Washer Head Serrated Flange Bolt -- Steel -- Zinc Plated',
@@ -8286,21 +5096,9 @@ export const bolts: any[] = [
   {
     sku: '0316048F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '1/4-20 X 1 1/2 -- Hex Washer Head Serrated Flange Bolt -- Steel -- Zinc Plated',
@@ -8318,21 +5116,9 @@ export const bolts: any[] = [
   {
     sku: '0316056F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '1/4-20 x 1-3/4 -- Hex Washer Head Serrated Flange Bolt -- Steel -- Zinc Plated',
@@ -8350,21 +5136,9 @@ export const bolts: any[] = [
   {
     sku: '0316064F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '1/4-20 X 2 -- Hex Washer Head Serrated Flange Bolt -- Steel -- Zinc Plated',
@@ -8382,21 +5156,9 @@ export const bolts: any[] = [
   {
     sku: '0317036F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '5/16-18 x 1/2 -- Hex Washer Head Serrated Flange Bolt -- Steel -- Zinc Plated',
@@ -8414,21 +5176,9 @@ export const bolts: any[] = [
   {
     sku: '0317024F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '5/16-18 x 3/4 -- Hex Washer Head Serrated Flange Bolt -- Steel -- Zinc Plated',
@@ -8446,21 +5196,9 @@ export const bolts: any[] = [
   {
     sku: '0317032F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '5/16-18 x 1 -- Hex Washer Head Serrated Flange Bolt -- Steel -- Zinc Plated',
@@ -8478,21 +5216,9 @@ export const bolts: any[] = [
   {
     sku: '0317040F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '5/16-18 x 1-1/4 -- Hex Washer Head Serrated Flange Bolt -- Steel -- Zinc Plated',
@@ -8510,21 +5236,9 @@ export const bolts: any[] = [
   {
     sku: '0317048F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '5/16-18 x 1-1/2 -- Hex Washer Head Serrated Flange Bolt -- Steel -- Zinc Plated',
@@ -8542,21 +5256,9 @@ export const bolts: any[] = [
   {
     sku: '0317056F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '5/16-18 x 1-3/4 -- Hex Washer Head Serrated Flange Bolt -- Steel -- Zinc Plated',
@@ -8574,21 +5276,9 @@ export const bolts: any[] = [
   {
     sku: '0317064F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '5/16-18 X 2 -- Hex Washer Head Serrated Flange Bolt -- Steel -- Zinc Plated',
@@ -8606,21 +5296,9 @@ export const bolts: any[] = [
   {
     sku: '0318024F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '3/8-16 x 3/4 -- Hex Washer Head Serrated Flange Bolt -- Steel -- Zinc Plated',
@@ -8638,21 +5316,9 @@ export const bolts: any[] = [
   {
     sku: '0318032F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '3/8-16 X 1 -- Hex Washer Head Serrated Flange Bolt -- Steel -- Zinc Plated',
@@ -8670,21 +5336,9 @@ export const bolts: any[] = [
   {
     sku: '0318040F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '3/8-16 X 1-1/4 -- Hex Washer Head Serrated Flange Bolt -- Steel -- Zinc Plated',
@@ -8702,21 +5356,9 @@ export const bolts: any[] = [
   {
     sku: '0318048F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '3/8-16 X 1-1/2 -- Hex Washer Head Serrated Flange Bolt -- Steel -- Zinc Plated',
@@ -8734,21 +5376,9 @@ export const bolts: any[] = [
   {
     sku: '0318056F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '3/8-16 X 1-3/4 -- Hex Washer Head Serrated Flange Bolt -- Steel -- Zinc Plated',
@@ -8766,21 +5396,9 @@ export const bolts: any[] = [
   {
     sku: '0318064F-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange',
     description:
       '3/8-16 x 2 -- Hex Washer Head Serrated Flange Bolt -- Steel -- Zinc Plated',
@@ -8798,21 +5416,9 @@ export const bolts: any[] = [
   {
     sku: '2318000SF',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange Locknut',
     description:
       '3/8-16 -- RB&W -- Stover Flange Locknuts -- grade G -- Black Phosphate & Oil',
@@ -8830,21 +5436,9 @@ export const bolts: any[] = [
   {
     sku: '2320000SF',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange Locknut',
     description:
       '1/2-13 -- RB&W -- Stover Flange Locknuts -- grade G -- Black Phosphate & Oil',
@@ -8862,21 +5456,9 @@ export const bolts: any[] = [
   {
     sku: '2322000SF',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange Locknut',
     description:
       '5/8-11 -- RB&W -- Stover Flange Locknuts -- grade G -- Black Phosphate & Oil',
@@ -8894,21 +5476,9 @@ export const bolts: any[] = [
   {
     sku: '2323000SF',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Flange Locknut',
     description:
       '3/4-10 -- RB&W -- Stover Flange Locknuts -- grade G -- Black Phosphate & Oil',
@@ -8926,21 +5496,9 @@ export const bolts: any[] = [
   {
     sku: '8116048',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '1/4 x 1-1/2 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '1/4',
@@ -8957,21 +5515,9 @@ export const bolts: any[] = [
   {
     sku: '8116056',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '1/4 x 1-3/4 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '1/4',
@@ -8988,21 +5534,9 @@ export const bolts: any[] = [
   {
     sku: '8116064',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '1/4 x 2 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '1/4',
@@ -9019,21 +5553,9 @@ export const bolts: any[] = [
   {
     sku: '8116072',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '1/4 x 2-1/4 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '1/4',
@@ -9050,21 +5572,9 @@ export const bolts: any[] = [
   {
     sku: '8116080',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '1/4 x 2-1/2 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '1/4',
@@ -9081,21 +5591,9 @@ export const bolts: any[] = [
   {
     sku: '8116096',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '1/4 x 3 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '1/4',
@@ -9112,21 +5610,9 @@ export const bolts: any[] = [
   {
     sku: '8116112',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '1/4 x 3-1/2 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '1/4',
@@ -9143,21 +5629,9 @@ export const bolts: any[] = [
   {
     sku: '8116128',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '1/4 x 4 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '1/4',
@@ -9174,21 +5648,9 @@ export const bolts: any[] = [
   {
     sku: '8116144',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '1/4 x 4-1/2 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '1/4',
@@ -9205,21 +5667,9 @@ export const bolts: any[] = [
   {
     sku: '8116160',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '1/4 x 5 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '1/4',
@@ -9236,21 +5686,9 @@ export const bolts: any[] = [
   {
     sku: '8116192',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '1/4 x 6 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '1/4',
@@ -9267,21 +5705,9 @@ export const bolts: any[] = [
   {
     sku: '8117048',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description:
       '5/16 x 1-1/2 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
@@ -9299,21 +5725,9 @@ export const bolts: any[] = [
   {
     sku: '8117056',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description:
       '5/16 x 1-3/4 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
@@ -9331,21 +5745,9 @@ export const bolts: any[] = [
   {
     sku: '8117064',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '5/16 x 2 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '5/16',
@@ -9362,21 +5764,9 @@ export const bolts: any[] = [
   {
     sku: '8117072',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description:
       '5/16 x 2-1/4 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
@@ -9394,21 +5784,9 @@ export const bolts: any[] = [
   {
     sku: '8117080',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description:
       '5/16 x 2-1/2 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
@@ -9426,21 +5804,9 @@ export const bolts: any[] = [
   {
     sku: '8117088',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description:
       '5/16 x 2-3/4 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
@@ -9458,21 +5824,9 @@ export const bolts: any[] = [
   {
     sku: '8117096',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '5/16 x 3 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '5/16',
@@ -9489,21 +5843,9 @@ export const bolts: any[] = [
   {
     sku: '8117112',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description:
       '5/16 x 3-1/2 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
@@ -9521,21 +5863,9 @@ export const bolts: any[] = [
   {
     sku: '8117112',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description:
       '5/16 x 3-3/4 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
@@ -9553,21 +5883,9 @@ export const bolts: any[] = [
   {
     sku: '8117128',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '5/16 x 4 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '5/16',
@@ -9584,21 +5902,9 @@ export const bolts: any[] = [
   {
     sku: '8117144',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description:
       '5/16 x 4-1/2 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
@@ -9616,21 +5922,9 @@ export const bolts: any[] = [
   {
     sku: '8117160',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '5/16 x 5 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '5/16',
@@ -9647,21 +5941,9 @@ export const bolts: any[] = [
   {
     sku: '8117144',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description:
       '5/16 x 5-1/2 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
@@ -9679,21 +5961,9 @@ export const bolts: any[] = [
   {
     sku: '8117192',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '5/16 x 6 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '5/16',
@@ -9710,21 +5980,9 @@ export const bolts: any[] = [
   {
     sku: '8118064',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '3/8 x 2 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '3/8',
@@ -9741,21 +5999,9 @@ export const bolts: any[] = [
   {
     sku: '8118080',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '3/8 x 2-1/2 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '3/8',
@@ -9772,21 +6018,9 @@ export const bolts: any[] = [
   {
     sku: '8118096',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '3/8 x 3 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '3/8',
@@ -9803,21 +6037,9 @@ export const bolts: any[] = [
   {
     sku: '8118112',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '3/8 x 3-1/2 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '3/8',
@@ -9834,21 +6056,9 @@ export const bolts: any[] = [
   {
     sku: '8118128',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '3/8 x 4 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '3/8',
@@ -9865,21 +6075,9 @@ export const bolts: any[] = [
   {
     sku: '8118144',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '3/8 x 4-1/2 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '3/8',
@@ -9896,21 +6094,9 @@ export const bolts: any[] = [
   {
     sku: '8118160',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '3/8 x 5 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '3/8',
@@ -9927,21 +6113,9 @@ export const bolts: any[] = [
   {
     sku: '8118144',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '3/8 x 5-1/2 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '3/8',
@@ -9958,21 +6132,9 @@ export const bolts: any[] = [
   {
     sku: '8118192',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '3/8 x 6 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '3/8',
@@ -9989,21 +6151,9 @@ export const bolts: any[] = [
   {
     sku: '8118256',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '3/8 x 8 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '3/8',
@@ -10020,21 +6170,9 @@ export const bolts: any[] = [
   {
     sku: '8118320',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hanger',
     description: '3/8 x 10 -- Hanger Bolt -- Full Thread -- Steel -- Plain ',
     diameter: '3/8',
@@ -10051,21 +6189,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0116032',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/4-20 X 1 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10083,21 +6209,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0116040',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/4-20 x 1-1/4 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10115,21 +6229,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0116048',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/4-20 X 1 1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10147,21 +6249,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0116064',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/4-20 X 2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10179,21 +6269,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0116080',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/4-20 X 2 1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10211,21 +6289,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0116096',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/4-20 X 3 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10243,21 +6309,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0116112',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/4-20 x 3-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10275,21 +6329,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0116128',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/4-20 X 4 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10307,21 +6349,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0116144',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/4-20 x 4-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10339,21 +6369,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0116160',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/4-20 x 5 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10371,21 +6389,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0116192',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/4-20 x 6 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10403,21 +6409,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0117032',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/16-18 x 1 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10435,21 +6429,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0117048',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/16-18 x 1-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10467,21 +6449,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0117064',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/16-18 X 2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10499,21 +6469,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0117080',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/16-18 x 2-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10531,21 +6489,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0117096',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/16-18 x 3 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10563,21 +6509,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0117112',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/16-18 x 3-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10595,21 +6529,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0117128',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/16-18 x 4 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10627,21 +6549,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0117144',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/16-18 x 4-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10659,21 +6569,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0117160',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/16-18 x 5 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10691,21 +6589,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0117176',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/16-18 X 5-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10723,21 +6609,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0117192',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/16-18 x 6 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10755,21 +6629,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0118032',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/8-16 X 1 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10787,21 +6649,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0118040',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/8-16 X 1-1/4 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10819,21 +6669,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0118048',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/8-16 X 1-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10851,21 +6689,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0118064',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/8-16 x 2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10883,21 +6709,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0118080',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/8-16 X 2-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10915,21 +6729,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0118096',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/8-16 x 3 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10947,21 +6749,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0118112',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/8-16 x 3-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -10979,21 +6769,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0118128',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/8-16 x 4 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11011,21 +6789,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0118144',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/8-16 x 4-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11043,21 +6809,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0118160',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/8-16 x 5 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11075,21 +6829,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0118192',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/8-16 x 6 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11107,21 +6849,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0118224',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/8-16 x 7 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11139,21 +6869,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0118256',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/8-16 x 8 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11171,21 +6889,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120032',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 x 1 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11203,21 +6909,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120040',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 x 1-1/4 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11235,21 +6929,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120048',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 x 1-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11267,21 +6949,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120056',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 x 1-3/4 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11299,21 +6969,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120064',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 x 2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11331,21 +6989,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120072',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 x 2-1/4 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11363,21 +7009,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120080',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 x 2-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11395,21 +7029,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120088',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 X 2 3/4 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11427,21 +7049,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120096',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 X 3 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11459,21 +7069,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120112',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 x 3-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11491,21 +7089,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120128',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 x 4 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11523,21 +7109,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120144',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 x 4-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11555,21 +7129,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120160',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 x 5 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11587,21 +7149,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120176',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 x 5-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11619,21 +7169,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120192',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 x 6 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11651,21 +7189,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120208',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 x 6-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11683,21 +7209,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120224',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 x 7 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11715,21 +7229,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120240',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 x 7-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11747,21 +7249,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120256',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 x 8 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11779,21 +7269,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120288',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 x 9 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11811,21 +7289,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120320',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 X 10 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11843,21 +7309,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120352',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 X 11 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11875,21 +7329,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120384',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 X 12 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11907,21 +7349,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0120448',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '1/2-13 X 14 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11939,21 +7369,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0122040',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/8-11 x 1-1/4 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -11971,21 +7389,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0122048',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/8-11 x 1-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12003,21 +7409,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0122056',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/8-11 x 1-3/4 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12035,21 +7429,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0122064',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/8-11 x 2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12067,21 +7449,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0122072',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/8-11 x 2-1/4 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12099,21 +7469,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0122080',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/8-11 x 2-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12131,21 +7489,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0122088',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/8-11 X 2 3/4 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12163,21 +7509,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0122096',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/8-11 x 3 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12195,21 +7529,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0122112',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/8-11 x 3-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12227,21 +7549,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0122128',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/8-11 x 4 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12259,21 +7569,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0122144',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/8-11 x 4-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12291,21 +7589,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0122160',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/8-11 x 5 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12323,21 +7609,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0122176',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/8-11 x 5-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12355,21 +7629,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0122192',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/8-11 x 6 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12387,21 +7649,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0122208',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/8-11 x 6-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12419,21 +7669,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0122224',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/8-11 x 7 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12451,21 +7689,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0122240',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/8-11 x 7-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12483,21 +7709,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0122256',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/8-11 x 8 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12515,21 +7729,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0122288',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/8-11 x 9 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12547,21 +7749,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0122320',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/8-11 x 10 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12579,21 +7769,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0122352',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/8-11 X 11 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12611,21 +7789,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0122384',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/8-11 X 12 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12643,21 +7809,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0122448',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '5/8-11 X 14 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12675,21 +7829,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0123056',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/4-10 x 1-3/4 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12707,21 +7849,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0123064',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/4-10 x 2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12739,21 +7869,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0123080',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/4-10 x 2-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12771,21 +7889,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0123096',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/4-10 x 3 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12803,21 +7909,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0123112',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/4-10 x 3-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12835,21 +7929,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0123128',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/4-10 x 4 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12867,21 +7949,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0123160',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/4-10 x 5 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12899,21 +7969,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0123192',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/4-10 x 6 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12931,21 +7989,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0123208',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/4-10 x 6-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12963,21 +8009,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0123224',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/4-10 x 7 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -12995,21 +8029,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0123240',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/4-10 x 7-1/2 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -13027,21 +8049,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0123256',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/4-10 x 8 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -13059,21 +8069,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0123288',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/4-10 x 9 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -13091,21 +8089,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0123320',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/4-10 x 10 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -13123,21 +8109,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0123352',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/4-10 x 11 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -13155,21 +8129,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0123384',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/4-10 x 12 -- Hex Head Bolt -- UNC A307 -- Hot Dip Galvanized',
@@ -13187,21 +8149,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-0123448',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Hex Head',
     description:
       '3/4-10 X 14 -- Hex Head Bolt -- UNC -- grade 2 -- Hot Dip Galvanized',
@@ -13219,21 +8169,9 @@ export const bolts: any[] = [
   {
     sku: '3916032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/4-10 X 1 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/4-10',
@@ -13250,21 +8188,9 @@ export const bolts: any[] = [
   {
     sku: '3916040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/4-10 x 1-1/4 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/4-10',
@@ -13281,21 +8207,9 @@ export const bolts: any[] = [
   {
     sku: '3916048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/4-10 X 1 1/2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/4-10',
@@ -13312,21 +8226,9 @@ export const bolts: any[] = [
   {
     sku: '3916056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/4-10 x 1-3/4 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/4-10',
@@ -13343,21 +8245,9 @@ export const bolts: any[] = [
   {
     sku: '3916064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/4-10 X 2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/4-10',
@@ -13374,21 +8264,9 @@ export const bolts: any[] = [
   {
     sku: '3916080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/4-10 X 2 1/2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/4-10',
@@ -13405,21 +8283,9 @@ export const bolts: any[] = [
   {
     sku: '3916088-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/4-10 X 2 3/4 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/4-10',
@@ -13436,21 +8302,9 @@ export const bolts: any[] = [
   {
     sku: '3916096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/4-10 X 3 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/4-10',
@@ -13467,21 +8321,9 @@ export const bolts: any[] = [
   {
     sku: '3916112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/4-10 x 3-1/2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/4-10',
@@ -13498,21 +8340,9 @@ export const bolts: any[] = [
   {
     sku: '3916128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/4-10 X 4 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/4-10',
@@ -13529,21 +8359,9 @@ export const bolts: any[] = [
   {
     sku: '3916144-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/4-10 x 4-1/2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/4-10',
@@ -13560,21 +8378,9 @@ export const bolts: any[] = [
   {
     sku: '3916160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/4-10 x 5 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/4-10',
@@ -13591,21 +8397,9 @@ export const bolts: any[] = [
   {
     sku: '3916176-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/4-10 x 5-1/2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/4-10',
@@ -13622,21 +8416,9 @@ export const bolts: any[] = [
   {
     sku: '3916192-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/4-10 x 6 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/4-10',
@@ -13653,21 +8435,9 @@ export const bolts: any[] = [
   {
     sku: '3917032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '5/16-9 x 1 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '5/16-9',
@@ -13684,21 +8454,9 @@ export const bolts: any[] = [
   {
     sku: '3917040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '5/16-9 x 1-1/4 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '5/16-9',
@@ -13715,21 +8473,9 @@ export const bolts: any[] = [
   {
     sku: '3917048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '5/16-9 x 1-1/2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '5/16-9',
@@ -13746,21 +8492,9 @@ export const bolts: any[] = [
   {
     sku: '3917056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '5/16-9 x 1-3/4 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '5/16-9',
@@ -13777,21 +8511,9 @@ export const bolts: any[] = [
   {
     sku: '3917064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '5/16-9 X 2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '5/16-9',
@@ -13808,21 +8530,9 @@ export const bolts: any[] = [
   {
     sku: '3917090-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '5/16-9 x 2-1/2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '5/16-9',
@@ -13839,21 +8549,9 @@ export const bolts: any[] = [
   {
     sku: '3917096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '5/16-9 x 3 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '5/16-9',
@@ -13870,21 +8568,9 @@ export const bolts: any[] = [
   {
     sku: '3917112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '5/16-9 x 3-1/2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '5/16-9',
@@ -13901,21 +8587,9 @@ export const bolts: any[] = [
   {
     sku: '3917128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '5/16-9 x 4 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '5/16-9',
@@ -13932,21 +8606,9 @@ export const bolts: any[] = [
   {
     sku: '3917144-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '5/16-9 x 4-1/2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '5/16-9',
@@ -13963,21 +8625,9 @@ export const bolts: any[] = [
   {
     sku: '3917160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '5/16-9 x 5 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '5/16-9',
@@ -13994,21 +8644,9 @@ export const bolts: any[] = [
   {
     sku: '3917176-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '5/16-9 x 5-1/2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '5/16-9',
@@ -14025,21 +8663,9 @@ export const bolts: any[] = [
   {
     sku: '3917192-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '5/16-9 x 6 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '5/16-9',
@@ -14056,21 +8682,9 @@ export const bolts: any[] = [
   {
     sku: '3918032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '3/8-7 X 1 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '3/8-7',
@@ -14087,21 +8701,9 @@ export const bolts: any[] = [
   {
     sku: '3918040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '3/8-7 X 1-1/4 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '3/8-7',
@@ -14118,21 +8720,9 @@ export const bolts: any[] = [
   {
     sku: '3918048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '3/8-7 X 1-1/2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '3/8-7',
@@ -14149,21 +8739,9 @@ export const bolts: any[] = [
   {
     sku: '3918056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '3/8-7 X 1-3/4 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '3/8-7',
@@ -14180,21 +8758,9 @@ export const bolts: any[] = [
   {
     sku: '3918064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '3/8-7 x 2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '3/8-7',
@@ -14211,21 +8777,9 @@ export const bolts: any[] = [
   {
     sku: '3918080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '3/8-7 X 2-1/2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '3/8-7',
@@ -14242,21 +8796,9 @@ export const bolts: any[] = [
   {
     sku: '3918096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '3/8-7 x 3 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '3/8-7',
@@ -14273,21 +8815,9 @@ export const bolts: any[] = [
   {
     sku: '3918112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '3/8-7 x 3-1/2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '3/8-7',
@@ -14304,21 +8834,9 @@ export const bolts: any[] = [
   {
     sku: '3918128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '3/8-7 x 4 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '3/8-7',
@@ -14335,21 +8853,9 @@ export const bolts: any[] = [
   {
     sku: '3918144-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '3/8-7 x 4-1/2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '3/8-7',
@@ -14366,21 +8872,9 @@ export const bolts: any[] = [
   {
     sku: '3918160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '3/8-7 x 5 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '3/8-7',
@@ -14397,21 +8891,9 @@ export const bolts: any[] = [
   {
     sku: '3918176-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '3/8-7 x 5-1/2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '3/8-7',
@@ -14428,21 +8910,9 @@ export const bolts: any[] = [
   {
     sku: '3918192-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '3/8-7 x 6 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '3/8-7',
@@ -14459,21 +8929,9 @@ export const bolts: any[] = [
   {
     sku: '3918239-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '3/8-7 x 6-1/2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '3/8-7',
@@ -14490,21 +8948,9 @@ export const bolts: any[] = [
   {
     sku: '3918224-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '3/8-7 x 7 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '3/8-7',
@@ -14521,21 +8967,9 @@ export const bolts: any[] = [
   {
     sku: '3918256-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '3/8-7 x 8 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '3/8-7',
@@ -14552,21 +8986,9 @@ export const bolts: any[] = [
   {
     sku: '3918288-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '3/8-7 x 9 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '3/8-7',
@@ -14583,21 +9005,9 @@ export const bolts: any[] = [
   {
     sku: '3918320-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '3/8-7 X 10 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '3/8-7',
@@ -14614,21 +9024,9 @@ export const bolts: any[] = [
   {
     sku: '3918384-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '3/8-7 X 12 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '3/8-7',
@@ -14645,21 +9043,9 @@ export const bolts: any[] = [
   {
     sku: '3920048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/2-6 x 1-1/2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/2-6',
@@ -14676,21 +9062,9 @@ export const bolts: any[] = [
   {
     sku: '3920064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/2-6 x 2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/2-6',
@@ -14707,21 +9081,9 @@ export const bolts: any[] = [
   {
     sku: '3920390-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/2-6 x 2-1/2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/2-6',
@@ -14738,21 +9100,9 @@ export const bolts: any[] = [
   {
     sku: '3920396-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/2-6 X 3 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/2-6',
@@ -14769,21 +9119,9 @@ export const bolts: any[] = [
   {
     sku: '3923912-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/2-6 x 3-1/2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/2-6',
@@ -14800,21 +9138,9 @@ export const bolts: any[] = [
   {
     sku: '3923928-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/2-6 x 4 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/2-6',
@@ -14831,21 +9157,9 @@ export const bolts: any[] = [
   {
     sku: '3923944-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/2-6 x 4-1/2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/2-6',
@@ -14862,21 +9176,9 @@ export const bolts: any[] = [
   {
     sku: '3923960-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/2-6 x 5 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/2-6',
@@ -14893,21 +9195,9 @@ export const bolts: any[] = [
   {
     sku: '3923976-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/2-6 x 5-1/2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/2-6',
@@ -14924,21 +9214,9 @@ export const bolts: any[] = [
   {
     sku: '3923992-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/2-6 x 6 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/2-6',
@@ -14955,21 +9233,9 @@ export const bolts: any[] = [
   {
     sku: '3920239-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/2-6 x 6-1/2 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/2-6',
@@ -14986,21 +9252,9 @@ export const bolts: any[] = [
   {
     sku: '3920224-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/2-6 x 7 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/2-6',
@@ -15017,21 +9271,9 @@ export const bolts: any[] = [
   {
     sku: '3920256-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/2-6 x 8 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/2-6',
@@ -15048,21 +9290,9 @@ export const bolts: any[] = [
   {
     sku: '3920288-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/2-6 x 9 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/2-6',
@@ -15079,21 +9309,9 @@ export const bolts: any[] = [
   {
     sku: '3920320-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/2-6 X 10 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/2-6',
@@ -15110,21 +9328,9 @@ export const bolts: any[] = [
   {
     sku: '3920352-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/2-6 X 11 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/2-6',
@@ -15141,21 +9347,9 @@ export const bolts: any[] = [
   {
     sku: '3920384-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description: '1/2-6 X 12 -- Hex Head Lag Bolt -- Steel -- Zinc Plated',
     diameter: '1/2-6',
@@ -15172,21 +9366,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3916032',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/4-10 X 1 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15204,21 +9386,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3916048',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/4-10 X 1 1/2 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15236,21 +9406,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3916064',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/4-10 X 2 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15268,21 +9426,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3916080',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/4-10 X 2 1/2 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15300,21 +9446,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3916396',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/4-10 X 3 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15332,21 +9466,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3916112',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/4-10 x 3-1/2 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15364,21 +9486,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3916128',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/4-10 X 4 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15396,21 +9506,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3916144',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/4-10 x 4-1/2 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15428,21 +9526,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3916160',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/4-10 x 5 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15460,21 +9546,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3916176',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/4-10 x 5-1/2 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15492,21 +9566,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3916192',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/4-10 x 6 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15524,21 +9586,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3917032',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '5/16-9 x 1 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15556,21 +9606,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3917048',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '5/16-9 x 1-1/2 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15588,21 +9626,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3917064',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '5/16-9 X 2 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15620,21 +9646,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3917090',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '5/16-9 x 2-1/2 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15652,21 +9666,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3917096',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '5/16-9 x 3 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15684,21 +9686,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3917112',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '5/16-9 x 3-1/2 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15716,21 +9706,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3917128',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '5/16-9 x 4 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15748,21 +9726,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3917144',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '5/16-9 x 4-1/2 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15780,21 +9746,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3917160',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '5/16-9 x 5 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15812,21 +9766,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3917176',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '5/16-9 x 5-1/2 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15844,21 +9786,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3917192',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '5/16-9 x 6 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15876,21 +9806,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3918048',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '3/8-7 X 1-1/2 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15908,21 +9826,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3918064',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '3/8-7 x 2 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15940,21 +9846,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3918390',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '3/8-7 X 2-1/2 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -15972,21 +9866,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3918396',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '3/8-7 x 3 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16004,21 +9886,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3918112',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '3/8-7 x 3-1/2 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16036,21 +9906,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3918128',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '3/8-7 x 4 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16068,21 +9926,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3918144',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '3/8-7 x 4-1/2 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16100,21 +9946,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3918160',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '3/8-7 x 5 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16132,21 +9966,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3918176',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '3/8-7 x 5-1/2 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16164,21 +9986,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3918192',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '3/8-7 x 6 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16196,21 +10006,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3918224',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '3/8-7 x 7 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16228,21 +10026,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3918256',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '3/8-7 x 8 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16260,21 +10046,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3918288',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '3/8-7 x 9 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16292,21 +10066,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3918320',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '3/8-7 X 10 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16324,21 +10086,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3918384',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '3/8-7 X 12 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16356,21 +10106,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3920064',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/2-6 x 2 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16388,21 +10126,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3920390',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/2-6 x 2-1/2 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16420,20 +10146,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3920396',
     name: 'Test',
-    slug: 'Test',
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/2-6 X 3 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16451,21 +10166,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3923912',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/2-6 x 3-1/2 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16483,21 +10186,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3923928',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/2-6 x 4 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16515,21 +10206,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3923944',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/2-6 x 4-1/2 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16547,21 +10226,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3923960',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/2-6 x 5 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16579,21 +10246,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3923976',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/2-6 x 5-1/2 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16611,21 +10266,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3923992',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/2-6 x 6 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16643,21 +10286,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3920224',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/2-6 x 7 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16675,21 +10306,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3920256',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/2-6 x 8 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16707,21 +10326,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3920288',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/2-6 x 9 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16739,21 +10346,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3920320',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/2-6 X 10 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16771,21 +10366,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3920352',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/2-6 X 11 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16803,21 +10386,9 @@ export const bolts: any[] = [
   {
     sku: 'HDG-3920384',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Lag',
     description:
       '1/2-6 X 12 -- Hex Head Lag Bolt -- Steel -- Hot Dip Galvanized',
@@ -16835,21 +10406,9 @@ export const bolts: any[] = [
   {
     sku: '4408016M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 1/2 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -16867,21 +10426,9 @@ export const bolts: any[] = [
   {
     sku: '4408024M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 3/4 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -16899,21 +10446,9 @@ export const bolts: any[] = [
   {
     sku: '4408032M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 1 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -16931,21 +10466,9 @@ export const bolts: any[] = [
   {
     sku: '4408040M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 1-1/4 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -16963,21 +10486,9 @@ export const bolts: any[] = [
   {
     sku: '4408048M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 1-1/2 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -16995,21 +10506,9 @@ export const bolts: any[] = [
   {
     sku: '4408064M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 2 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17027,21 +10526,9 @@ export const bolts: any[] = [
   {
     sku: '4410016M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 1/2 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17059,21 +10546,9 @@ export const bolts: any[] = [
   {
     sku: '4410020M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 5/8 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17091,21 +10566,9 @@ export const bolts: any[] = [
   {
     sku: '4410024M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 3/4 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17123,21 +10586,9 @@ export const bolts: any[] = [
   {
     sku: '4410032M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 1 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17155,21 +10606,9 @@ export const bolts: any[] = [
   {
     sku: '4410040M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 1-1/4 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17187,21 +10626,9 @@ export const bolts: any[] = [
   {
     sku: '4410048M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 1-1/2 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17219,21 +10646,9 @@ export const bolts: any[] = [
   {
     sku: '4410064M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 2 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17251,21 +10666,9 @@ export const bolts: any[] = [
   {
     sku: '4416016M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 1/2 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17283,21 +10686,9 @@ export const bolts: any[] = [
   {
     sku: '4416020M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 5/8 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17315,21 +10706,9 @@ export const bolts: any[] = [
   {
     sku: '4416024M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 3/4 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17347,21 +10726,9 @@ export const bolts: any[] = [
   {
     sku: '4416032M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 1 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17379,21 +10746,9 @@ export const bolts: any[] = [
   {
     sku: '4416040M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 1-1/4 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17411,21 +10766,9 @@ export const bolts: any[] = [
   {
     sku: '4416048M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 1-1/2 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17443,21 +10786,9 @@ export const bolts: any[] = [
   {
     sku: '4416064M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 2 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17475,21 +10806,9 @@ export const bolts: any[] = [
   {
     sku: '4416080M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 2-1/2 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17507,21 +10826,9 @@ export const bolts: any[] = [
   {
     sku: '4416096M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 3 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17539,21 +10846,9 @@ export const bolts: any[] = [
   {
     sku: '4416128M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 4 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17571,21 +10866,9 @@ export const bolts: any[] = [
   {
     sku: '4417016M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 1/2 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17603,21 +10886,9 @@ export const bolts: any[] = [
   {
     sku: '4417024M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 3/4 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17635,21 +10906,9 @@ export const bolts: any[] = [
   {
     sku: '4417032M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 1 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17667,21 +10926,9 @@ export const bolts: any[] = [
   {
     sku: '4417040M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 1-1/4 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17699,21 +10946,9 @@ export const bolts: any[] = [
   {
     sku: '4417048M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 1-1/2 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17731,21 +10966,9 @@ export const bolts: any[] = [
   {
     sku: '4417064M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 2 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17763,21 +10986,9 @@ export const bolts: any[] = [
   {
     sku: '4418024M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 3/4 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17795,21 +11006,9 @@ export const bolts: any[] = [
   {
     sku: '4418032M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 1 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17827,21 +11026,9 @@ export const bolts: any[] = [
   {
     sku: '4418040M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 1-1/4 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17859,21 +11046,9 @@ export const bolts: any[] = [
   {
     sku: '4418048M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 1-1/2 -- Stove Bolt with Hex Nuts --Slotted -- Mushroom Head -- Steel -- Zinc Plated',
@@ -17891,21 +11066,9 @@ export const bolts: any[] = [
   {
     sku: '4406016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '6-32 x 1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -17923,21 +11086,9 @@ export const bolts: any[] = [
   {
     sku: '4406024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '6-32 x 3/4 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -17955,21 +11106,9 @@ export const bolts: any[] = [
   {
     sku: '4406032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '6-32 x 1 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -17987,21 +11126,9 @@ export const bolts: any[] = [
   {
     sku: '4406040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '6-32 x 1-1/4 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18019,21 +11146,9 @@ export const bolts: any[] = [
   {
     sku: '4406048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '6-32 x 1-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18051,21 +11166,9 @@ export const bolts: any[] = [
   {
     sku: '4406064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '6-32 x 2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18083,21 +11186,9 @@ export const bolts: any[] = [
   {
     sku: '4406080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '6-32 x 2-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18115,21 +11206,9 @@ export const bolts: any[] = [
   {
     sku: '4408012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 3/8 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18147,21 +11226,9 @@ export const bolts: any[] = [
   {
     sku: '4408016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18179,21 +11246,9 @@ export const bolts: any[] = [
   {
     sku: '4408024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 3/4 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18211,21 +11266,9 @@ export const bolts: any[] = [
   {
     sku: '4408032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 1 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18243,21 +11286,9 @@ export const bolts: any[] = [
   {
     sku: '4408040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 1-1/4 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18275,21 +11306,9 @@ export const bolts: any[] = [
   {
     sku: '4408048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 1-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18307,21 +11326,9 @@ export const bolts: any[] = [
   {
     sku: '4408056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 1-3/4 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18339,21 +11346,9 @@ export const bolts: any[] = [
   {
     sku: '4408064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18371,21 +11366,9 @@ export const bolts: any[] = [
   {
     sku: '4408080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 2-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18403,21 +11386,9 @@ export const bolts: any[] = [
   {
     sku: '4408096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 3 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18435,21 +11406,9 @@ export const bolts: any[] = [
   {
     sku: '4410012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 3/8 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18467,21 +11426,9 @@ export const bolts: any[] = [
   {
     sku: '4410016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18499,21 +11446,9 @@ export const bolts: any[] = [
   {
     sku: '4410020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 5/8 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18531,21 +11466,9 @@ export const bolts: any[] = [
   {
     sku: '4410024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 3/4 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18563,21 +11486,9 @@ export const bolts: any[] = [
   {
     sku: '4410032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 1 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18595,21 +11506,9 @@ export const bolts: any[] = [
   {
     sku: '4410040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 1-1/4 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18627,21 +11526,9 @@ export const bolts: any[] = [
   {
     sku: '4410048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 1-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18659,21 +11546,9 @@ export const bolts: any[] = [
   {
     sku: '4410056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 1-3/4 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18691,21 +11566,9 @@ export const bolts: any[] = [
   {
     sku: '4410064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18723,21 +11586,9 @@ export const bolts: any[] = [
   {
     sku: '4410080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 2-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18755,21 +11606,9 @@ export const bolts: any[] = [
   {
     sku: '4410096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 3 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18787,21 +11626,9 @@ export const bolts: any[] = [
   {
     sku: '4410112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 3-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18819,21 +11646,9 @@ export const bolts: any[] = [
   {
     sku: '4410128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 4 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18851,21 +11666,9 @@ export const bolts: any[] = [
   {
     sku: '4410192-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 6 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18883,21 +11686,9 @@ export const bolts: any[] = [
   {
     sku: '4416012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 3/8 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18915,21 +11706,9 @@ export const bolts: any[] = [
   {
     sku: '4416016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18947,21 +11726,9 @@ export const bolts: any[] = [
   {
     sku: '4416020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 5/8 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -18979,21 +11746,9 @@ export const bolts: any[] = [
   {
     sku: '4416024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 3/4 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19011,21 +11766,9 @@ export const bolts: any[] = [
   {
     sku: '4416032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 1 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19043,21 +11786,9 @@ export const bolts: any[] = [
   {
     sku: '4416040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 1-1/4 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19075,21 +11806,9 @@ export const bolts: any[] = [
   {
     sku: '4416048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 1-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19107,21 +11826,9 @@ export const bolts: any[] = [
   {
     sku: '4416064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19139,21 +11846,9 @@ export const bolts: any[] = [
   {
     sku: '4416080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 2-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19171,21 +11866,9 @@ export const bolts: any[] = [
   {
     sku: '4416096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 3 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19203,21 +11886,9 @@ export const bolts: any[] = [
   {
     sku: '4416112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 3-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19235,21 +11906,9 @@ export const bolts: any[] = [
   {
     sku: '4416128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 4 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19267,21 +11926,9 @@ export const bolts: any[] = [
   {
     sku: '4416160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 5 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19299,21 +11946,9 @@ export const bolts: any[] = [
   {
     sku: '4416192-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 6 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19331,21 +11966,9 @@ export const bolts: any[] = [
   {
     sku: '4417016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19363,21 +11986,9 @@ export const bolts: any[] = [
   {
     sku: '4417024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 3/4 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19395,21 +12006,9 @@ export const bolts: any[] = [
   {
     sku: '4417032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 1 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19427,21 +12026,9 @@ export const bolts: any[] = [
   {
     sku: '4417040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 1-1/4 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19459,21 +12046,9 @@ export const bolts: any[] = [
   {
     sku: '4417048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 1-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19491,21 +12066,9 @@ export const bolts: any[] = [
   {
     sku: '4417064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19523,21 +12086,9 @@ export const bolts: any[] = [
   {
     sku: '4417080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 2-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19555,21 +12106,9 @@ export const bolts: any[] = [
   {
     sku: '4417096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 3 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19587,21 +12126,9 @@ export const bolts: any[] = [
   {
     sku: '4417112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 3-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19619,21 +12146,9 @@ export const bolts: any[] = [
   {
     sku: '4417128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 4 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19651,21 +12166,9 @@ export const bolts: any[] = [
   {
     sku: '4417160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 5 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19683,21 +12186,9 @@ export const bolts: any[] = [
   {
     sku: '4417192-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 6 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19715,21 +12206,9 @@ export const bolts: any[] = [
   {
     sku: '4418024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 3/4 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19747,21 +12226,9 @@ export const bolts: any[] = [
   {
     sku: '4418032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 1 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19779,21 +12246,9 @@ export const bolts: any[] = [
   {
     sku: '4418040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 1-1/4 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19811,21 +12266,9 @@ export const bolts: any[] = [
   {
     sku: '4418048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 1-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19843,21 +12286,9 @@ export const bolts: any[] = [
   {
     sku: '4418064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19875,21 +12306,9 @@ export const bolts: any[] = [
   {
     sku: '4418080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 2-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19907,21 +12326,9 @@ export const bolts: any[] = [
   {
     sku: '4418096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 3 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19939,21 +12346,9 @@ export const bolts: any[] = [
   {
     sku: '4418112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 3-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -19971,21 +12366,9 @@ export const bolts: any[] = [
   {
     sku: '4418128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 4 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -20003,21 +12386,9 @@ export const bolts: any[] = [
   {
     sku: '4418160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 5 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -20035,21 +12406,9 @@ export const bolts: any[] = [
   {
     sku: '4418192-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 6 -- Stove Bolt with Hex Nuts -- Slotted -- Round Head -- Steel -- Zinc Plated',
@@ -20067,21 +12426,9 @@ export const bolts: any[] = [
   {
     sku: '4606016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '6-32 x 1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20099,21 +12446,9 @@ export const bolts: any[] = [
   {
     sku: '4606024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '6-32 x 3/4 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20131,21 +12466,9 @@ export const bolts: any[] = [
   {
     sku: '4606032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '6-32 x 1 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20163,21 +12486,9 @@ export const bolts: any[] = [
   {
     sku: '4606040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '6-32 x 1-1/4 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20195,21 +12506,9 @@ export const bolts: any[] = [
   {
     sku: '4606048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '6-32 x 1-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20227,21 +12526,9 @@ export const bolts: any[] = [
   {
     sku: '4606064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '6-32 x 2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20259,21 +12546,9 @@ export const bolts: any[] = [
   {
     sku: '4606080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '6-32 x 2-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20291,21 +12566,9 @@ export const bolts: any[] = [
   {
     sku: '4608012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 3/8 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20323,21 +12586,9 @@ export const bolts: any[] = [
   {
     sku: '4608016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20355,21 +12606,9 @@ export const bolts: any[] = [
   {
     sku: '4608024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 3/4 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20387,21 +12626,9 @@ export const bolts: any[] = [
   {
     sku: '4608032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 1 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20419,21 +12646,9 @@ export const bolts: any[] = [
   {
     sku: '4608040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 1-1/4 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20451,21 +12666,9 @@ export const bolts: any[] = [
   {
     sku: '4608048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 1-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20483,21 +12686,9 @@ export const bolts: any[] = [
   {
     sku: '4608056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 1-3/4 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20515,21 +12706,9 @@ export const bolts: any[] = [
   {
     sku: '4608064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20547,21 +12726,9 @@ export const bolts: any[] = [
   {
     sku: '4608080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '8-32 x 2-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20579,21 +12746,9 @@ export const bolts: any[] = [
   {
     sku: '4610012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 3/8 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20611,21 +12766,9 @@ export const bolts: any[] = [
   {
     sku: '4610016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20643,21 +12786,9 @@ export const bolts: any[] = [
   {
     sku: '4610020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 5/8 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20675,21 +12806,9 @@ export const bolts: any[] = [
   {
     sku: '4610024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 3/4 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20707,21 +12826,9 @@ export const bolts: any[] = [
   {
     sku: '4610032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 1 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20739,21 +12846,9 @@ export const bolts: any[] = [
   {
     sku: '4610040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 1-1/4 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20771,21 +12866,9 @@ export const bolts: any[] = [
   {
     sku: '4610048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 1-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20803,21 +12886,9 @@ export const bolts: any[] = [
   {
     sku: '4610056-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 1-3/4 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20835,21 +12906,9 @@ export const bolts: any[] = [
   {
     sku: '4610064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20867,21 +12926,9 @@ export const bolts: any[] = [
   {
     sku: '4610080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 2-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20899,21 +12946,9 @@ export const bolts: any[] = [
   {
     sku: '4610096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 3 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20931,21 +12966,9 @@ export const bolts: any[] = [
   {
     sku: '4610112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 3-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20963,21 +12986,9 @@ export const bolts: any[] = [
   {
     sku: '4610128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '10-24 x 4 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -20995,21 +13006,9 @@ export const bolts: any[] = [
   {
     sku: '4616012-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 3/8 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21027,21 +13026,9 @@ export const bolts: any[] = [
   {
     sku: '4616016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21059,21 +13046,9 @@ export const bolts: any[] = [
   {
     sku: '4616020-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 5/8 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21091,21 +13066,9 @@ export const bolts: any[] = [
   {
     sku: '4616024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 3/4 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21123,21 +13086,9 @@ export const bolts: any[] = [
   {
     sku: '4616032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 1 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21155,21 +13106,9 @@ export const bolts: any[] = [
   {
     sku: '4616040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 1-1/4 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21187,21 +13126,9 @@ export const bolts: any[] = [
   {
     sku: '4616048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 1-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21219,21 +13146,9 @@ export const bolts: any[] = [
   {
     sku: '4616064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21251,21 +13166,9 @@ export const bolts: any[] = [
   {
     sku: '4616080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 2-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21283,21 +13186,9 @@ export const bolts: any[] = [
   {
     sku: '4616096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 3 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21315,21 +13206,9 @@ export const bolts: any[] = [
   {
     sku: '4616112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 3-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21347,21 +13226,9 @@ export const bolts: any[] = [
   {
     sku: '4616128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 4 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21379,21 +13246,9 @@ export const bolts: any[] = [
   {
     sku: '4616160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 5 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21411,21 +13266,9 @@ export const bolts: any[] = [
   {
     sku: '4616192-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '1/4-20 x 6 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21443,21 +13286,9 @@ export const bolts: any[] = [
   {
     sku: '4617016-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21475,21 +13306,9 @@ export const bolts: any[] = [
   {
     sku: '4617024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 3/4 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21507,21 +13326,9 @@ export const bolts: any[] = [
   {
     sku: '4617032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 1 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21539,21 +13346,9 @@ export const bolts: any[] = [
   {
     sku: '4617040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 1-1/4 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21571,21 +13366,9 @@ export const bolts: any[] = [
   {
     sku: '4617048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 1-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21603,21 +13386,9 @@ export const bolts: any[] = [
   {
     sku: '4617064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21635,21 +13406,9 @@ export const bolts: any[] = [
   {
     sku: '4617080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 2-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21667,21 +13426,9 @@ export const bolts: any[] = [
   {
     sku: '4617096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 3 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21699,21 +13446,9 @@ export const bolts: any[] = [
   {
     sku: '4617112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '5/16-18 x 3-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21731,21 +13466,9 @@ export const bolts: any[] = [
   {
     sku: '4618024-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 3/4 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21763,21 +13486,9 @@ export const bolts: any[] = [
   {
     sku: '4618032-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 1 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21795,21 +13506,9 @@ export const bolts: any[] = [
   {
     sku: '4618040-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 1-1/4 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21827,21 +13526,9 @@ export const bolts: any[] = [
   {
     sku: '4618048-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 1-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21859,21 +13546,9 @@ export const bolts: any[] = [
   {
     sku: '4618064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21891,21 +13566,9 @@ export const bolts: any[] = [
   {
     sku: '4618080-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 2-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21923,21 +13586,9 @@ export const bolts: any[] = [
   {
     sku: '4618096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 3 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21955,21 +13606,9 @@ export const bolts: any[] = [
   {
     sku: '4618112-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 3-1/2 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -21987,21 +13626,9 @@ export const bolts: any[] = [
   {
     sku: '4618128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 4 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -22019,21 +13646,9 @@ export const bolts: any[] = [
   {
     sku: '4618160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 5 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -22051,21 +13666,9 @@ export const bolts: any[] = [
   {
     sku: '4618192-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Stove',
     description:
       '3/8-16 x 6 -- Stove Bolt with Hex Nuts -- Slotted -- Flat Head -- Steel -- Zinc Plated',
@@ -22083,21 +13686,9 @@ export const bolts: any[] = [
   {
     sku: '6506003-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "6-32 X 3' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '6-32',
@@ -22114,21 +13705,9 @@ export const bolts: any[] = [
   {
     sku: '6508003-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "8-32 X 3' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '8-32',
@@ -22145,21 +13724,9 @@ export const bolts: any[] = [
   {
     sku: '6510003-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "10-24 X 3' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '10-24',
@@ -22176,21 +13743,9 @@ export const bolts: any[] = [
   {
     sku: '6516003-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "1/4-20 X 3' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '1/4-20',
@@ -22207,21 +13762,9 @@ export const bolts: any[] = [
   {
     sku: '6516006-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "1/4-20 X 6' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '1/4-20',
@@ -22238,21 +13781,9 @@ export const bolts: any[] = [
   {
     sku: '6516010-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "1/4-20 X 10' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '1/4-20',
@@ -22269,21 +13800,9 @@ export const bolts: any[] = [
   {
     sku: '6517003-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "5/16-18 X 3' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '5/16-18',
@@ -22300,21 +13819,9 @@ export const bolts: any[] = [
   {
     sku: '6517006-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "5/16-18 X 6' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '5/16-18',
@@ -22331,21 +13838,9 @@ export const bolts: any[] = [
   {
     sku: '6517010-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "5/16-18 X 10' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '5/16-18',
@@ -22362,21 +13857,9 @@ export const bolts: any[] = [
   {
     sku: '6518003-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "3/8-16 X 3' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '3/8-16',
@@ -22393,21 +13876,9 @@ export const bolts: any[] = [
   {
     sku: '6518006-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "3/8-16 X 6' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '3/8-16',
@@ -22424,21 +13895,9 @@ export const bolts: any[] = [
   {
     sku: '6518010-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "3/8-16 X 10' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '3/8-16',
@@ -22455,21 +13914,9 @@ export const bolts: any[] = [
   {
     sku: '6520003-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "1/2-13 X 3' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '1/2-13',
@@ -22486,21 +13933,9 @@ export const bolts: any[] = [
   {
     sku: '6520006-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "1/2-13 X 6' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '1/2-13',
@@ -22517,21 +13952,9 @@ export const bolts: any[] = [
   {
     sku: '6520010-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "1/2-13 X 10' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '1/2-13',
@@ -22548,21 +13971,9 @@ export const bolts: any[] = [
   {
     sku: '6522003-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "5/8-11 X 3' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '5/8-11',
@@ -22579,21 +13990,9 @@ export const bolts: any[] = [
   {
     sku: '6522006-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "5/8-11 X 6' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '5/8-11',
@@ -22610,21 +14009,9 @@ export const bolts: any[] = [
   {
     sku: '6522010-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "5/8-11 X 10' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '5/8-11',
@@ -22641,21 +14028,9 @@ export const bolts: any[] = [
   {
     sku: '6523003-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "3/4-10 X 3' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '3/4-10',
@@ -22672,21 +14047,9 @@ export const bolts: any[] = [
   {
     sku: '6523006-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "3/4-10 X 6' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '3/4-10',
@@ -22703,21 +14066,9 @@ export const bolts: any[] = [
   {
     sku: '6523010-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "3/4-10 X 10' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '3/4-10',
@@ -22734,21 +14085,9 @@ export const bolts: any[] = [
   {
     sku: '6524003-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "7/8-9 X 3' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '7/8-9',
@@ -22765,21 +14104,9 @@ export const bolts: any[] = [
   {
     sku: '6524006-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "7/8-9 X 6' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '7/8-9',
@@ -22796,21 +14123,9 @@ export const bolts: any[] = [
   {
     sku: '6524010-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "7/8-9 X 10' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '7/8-9',
@@ -22827,21 +14142,9 @@ export const bolts: any[] = [
   {
     sku: '6525003-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "1-8 X 3' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '1-8',
@@ -22858,21 +14161,9 @@ export const bolts: any[] = [
   {
     sku: '6525006-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "1-8 X 6' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '1-8',
@@ -22889,21 +14180,9 @@ export const bolts: any[] = [
   {
     sku: '6525010-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Threaded Rod',
     description: "1-8 X 10' -- Threaded Rod -- Steel -- Zinc Plated",
     diameter: '1-8',
@@ -22920,21 +14199,9 @@ export const bolts: any[] = [
   {
     sku: '6106000-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle Wing',
     description: '6-32 -- Toggle Wings -- Zinc Plated',
     diameter: '6-32',
@@ -22951,21 +14218,9 @@ export const bolts: any[] = [
   {
     sku: '6108000-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle Wing',
     description: '8-32 -- Toggle Wings -- Zinc Plated',
     diameter: '8-32',
@@ -22982,21 +14237,9 @@ export const bolts: any[] = [
   {
     sku: '6110000-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle Wing',
     description: '10-24 -- Toggle Wings -- Zinc Plated',
     diameter: '10-24',
@@ -23013,21 +14256,9 @@ export const bolts: any[] = [
   {
     sku: '6116000-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle Wing',
     description: '1/4-20 -- Toggle Wings -- Zinc Plated',
     diameter: '1/4-20',
@@ -23044,21 +14275,9 @@ export const bolts: any[] = [
   {
     sku: '6117000-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle Wing',
     description: '5/16-18 -- Toggle Wings -- Zinc Plated',
     diameter: '5/16-18',
@@ -23075,21 +14294,9 @@ export const bolts: any[] = [
   {
     sku: '6118000-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle Wing',
     description: '3/8-16 -- Toggle Wings -- Zinc Plated',
     diameter: '3/8-16',
@@ -23106,21 +14313,9 @@ export const bolts: any[] = [
   {
     sku: '6120000-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle Wing',
     description: '1/2-13 -- Toggle Wings -- Zinc Plated',
     diameter: '1/2-13',
@@ -23137,21 +14332,9 @@ export const bolts: any[] = [
   {
     sku: '6014064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '1/8 x 2 -- Toggle Bolt -- Round Head -- Zinc Plated',
     diameter: '1/8',
@@ -23168,21 +14351,9 @@ export const bolts: any[] = [
   {
     sku: '6014096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '1/8 x 3 -- Toggle Bolt -- Round Head -- Zinc Plated',
     diameter: '1/8',
@@ -23199,21 +14370,9 @@ export const bolts: any[] = [
   {
     sku: '6014128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '1/8 x 4 -- Toggle Bolt -- Round Head -- Zinc Plated',
     diameter: '1/8',
@@ -23230,21 +14389,9 @@ export const bolts: any[] = [
   {
     sku: '6015064-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '3/16 x 2 -- Toggle Bolt -- Round Head -- Zinc Plated',
     diameter: '3/16',
@@ -23261,21 +14408,9 @@ export const bolts: any[] = [
   {
     sku: '6015096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '3/16 x 3 -- Toggle Bolt -- Round Head -- Zinc Plated',
     diameter: '3/16',
@@ -23292,21 +14427,9 @@ export const bolts: any[] = [
   {
     sku: '6015128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '3/16 x 4 -- Toggle Bolt -- Round Head -- Zinc Plated',
     diameter: '3/16',
@@ -23323,21 +14446,9 @@ export const bolts: any[] = [
   {
     sku: '6015160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '3/16 x 5 -- Toggle Bolt -- Round Head -- Zinc Plated',
     diameter: '3/16',
@@ -23354,21 +14465,9 @@ export const bolts: any[] = [
   {
     sku: '6015192-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '3/16 x 6 -- Toggle Bolt -- Round Head -- Zinc Plated',
     diameter: '3/16',
@@ -23385,21 +14484,9 @@ export const bolts: any[] = [
   {
     sku: '6016096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '1/4 x 3 -- Toggle Bolt -- Round Head -- Zinc Plated',
     diameter: '1/4',
@@ -23416,21 +14503,9 @@ export const bolts: any[] = [
   {
     sku: '6016128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '1/4 x 4 -- Toggle Bolt -- Round Head -- Zinc Plated',
     diameter: '1/4',
@@ -23447,21 +14522,9 @@ export const bolts: any[] = [
   {
     sku: '6016160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '1/4 x 5 -- Toggle Bolt -- Round Head -- Zinc Plated',
     diameter: '1/4',
@@ -23478,21 +14541,9 @@ export const bolts: any[] = [
   {
     sku: '6016192-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '1/4 x 6 -- Toggle Bolt -- Round Head -- Zinc Plated',
     diameter: '1/4',
@@ -23509,21 +14560,9 @@ export const bolts: any[] = [
   {
     sku: '6017096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '5/16 x 3 -- Toggle Bolt -- Round Head -- Zinc Plated',
     diameter: '5/16',
@@ -23540,21 +14579,9 @@ export const bolts: any[] = [
   {
     sku: '6017128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '5/16 x 4 -- Toggle Bolt -- Round Head -- Zinc Plated',
     diameter: '5/16',
@@ -23571,21 +14598,9 @@ export const bolts: any[] = [
   {
     sku: '6017160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '5/16 x 5 -- Toggle Bolt -- Round Head -- Zinc Plated',
     diameter: '5/16',
@@ -23602,21 +14617,9 @@ export const bolts: any[] = [
   {
     sku: '6017192-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '5/16 x 6 -- Toggle Bolt -- Round Head -- Zinc Plated',
     diameter: '5/16',
@@ -23633,21 +14636,9 @@ export const bolts: any[] = [
   {
     sku: '6018096-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '3/8 x 3 -- Toggle Bolt -- Round Head -- Zinc Plated',
     diameter: '3/8',
@@ -23664,21 +14655,9 @@ export const bolts: any[] = [
   {
     sku: '6018128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '3/8 x 4 -- Toggle Bolt -- Round Head -- Zinc Plated',
     diameter: '3/8',
@@ -23695,21 +14674,9 @@ export const bolts: any[] = [
   {
     sku: '6018160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '3/8 x 5 -- Toggle Bolt -- Round Head -- Zinc Plated',
     diameter: '3/8',
@@ -23726,21 +14693,9 @@ export const bolts: any[] = [
   {
     sku: '6018192-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '3/8 x 6 -- Toggle Bolt -- Round Head -- Zinc Plated',
     diameter: '3/8',
@@ -23757,21 +14712,9 @@ export const bolts: any[] = [
   {
     sku: '6020128-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '1/2 x 4 -- Toggle Bolt -- Round Head -- Zinc Plated',
     diameter: '1/2',
@@ -23788,21 +14731,9 @@ export const bolts: any[] = [
   {
     sku: '6020160-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '1/2 x 5 -- Toggle Bolt -- Round Head -- Zinc Plated',
     diameter: '1/2',
@@ -23819,21 +14750,9 @@ export const bolts: any[] = [
   {
     sku: '6020192-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '1/2 x 6 -- Toggle Bolt -- Round Head -- Zinc Plated',
     diameter: '1/2',
@@ -23850,21 +14769,9 @@ export const bolts: any[] = [
   {
     sku: '6014064M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '1/8 x 2 -- Toggle Bolt -- Mushroom Head -- Zinc Plated',
     diameter: '1/8',
@@ -23881,21 +14788,9 @@ export const bolts: any[] = [
   {
     sku: '6014096M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '1/8 x 3 -- Toggle Bolt -- Mushroom Head -- Zinc Plated',
     diameter: '1/8',
@@ -23912,21 +14807,9 @@ export const bolts: any[] = [
   {
     sku: '6014128M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '1/8 x 4 -- Toggle Bolt -- Mushroom Head -- Zinc Plated',
     diameter: '1/8',
@@ -23943,21 +14826,9 @@ export const bolts: any[] = [
   {
     sku: '6015064M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '3/16 x 2 -- Toggle Bolt -- Mushroom Head -- Zinc Plated',
     diameter: '3/16',
@@ -23974,21 +14845,9 @@ export const bolts: any[] = [
   {
     sku: '6015096M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '3/16 x 3 -- Toggle Bolt -- Mushroom Head -- Zinc Plated',
     diameter: '3/16',
@@ -24005,21 +14864,9 @@ export const bolts: any[] = [
   {
     sku: '6015128M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '3/16 x 4 -- Toggle Bolt -- Mushroom Head -- Zinc Plated',
     diameter: '3/16',
@@ -24036,21 +14883,9 @@ export const bolts: any[] = [
   {
     sku: '6015160M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '3/16 x 5 -- Toggle Bolt -- Mushroom Head -- Zinc Plated',
     diameter: '3/16',
@@ -24067,21 +14902,9 @@ export const bolts: any[] = [
   {
     sku: '6015192M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '3/16 x 6 -- Toggle Bolt -- Mushroom Head -- Zinc Plated',
     diameter: '3/16',
@@ -24098,21 +14921,9 @@ export const bolts: any[] = [
   {
     sku: '6016096M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '1/4 x 3 -- Toggle Bolt -- Mushroom Head -- Zinc Plated',
     diameter: '1/4',
@@ -24129,21 +14940,9 @@ export const bolts: any[] = [
   {
     sku: '6016128M-ZN',
     name: 'Test',
-    slug: 'Test',
-
+    slug: 'test',
     Type: 'Bolts',
-    images: [
-      '/images/products/product-2-1.jpg',
-      '/images/products/product-2-2.jpg',
-    ],
-    rating: 5,
-    reviews: 22,
-    compareAtPrice: 415,
-    availability: 'in-stock',
-    compatibility: [1],
-    attributes: {
-      Color: 'Silver',
-    },
+    superCategory: 'fasteners',
     Category: 'Toggle',
     description: '1/4 x 4 -- Toggle Bolt -- Mushroom Head -- Zinc Plated',
     diameter: '1/4',

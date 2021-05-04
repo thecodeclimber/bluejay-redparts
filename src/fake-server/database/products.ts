@@ -68,17 +68,21 @@ function resolveProductAttributesDef(
 const fetchImages = (def: any) => {
   const checkAttribute = (def: any) => {
     if (def?.color && def?.color !== 'n/a') return `__${def.color}__`;
+    else if (def?.finish && def?.finish !== 'n/a') return `__${def.finish}__`;
     else if (def?.head_type && def?.head_type !== 'n/a')
       return `__${def.head_type}__`;
     else if (def?.material && def?.material !== 'n/a')
       return `__${def.material}__`;
-    else if (def?.finish && def?.finish !== 'n/a') return `__${def.finish}__`;
     else return false;
   };
   let value = checkAttribute(def);
 
   return [
-    `/images/${def?.superCategory.toLowerCase()}/${def?.Type.trim().toLowerCase()}/fasteners__${def?.Type.trim().toLowerCase()}__${def?.Category.trim()
+    `/images/${def?.superCategory.toLowerCase()}/${def?.Type.trim()
+      .toLowerCase()
+      .replace(/ /g, '_')}/fasteners__${def?.Type.trim()
+      .toLowerCase()
+      .replace(/ /g, '_')}__${def?.Category.trim()
       .toLowerCase()
       .replace(/ /g, '_')}${
       value ? value.toLowerCase().replace(/ /g, '_') : '__'
@@ -110,12 +114,7 @@ const makeProducts = (defs: any[]): any[] => {
       partNumber: 'BDX-750Z370-S',
       stock: 'in-stock',
       price: def.list_price,
-      compareAtPrice: def.compareAtPrice || null,
       images: fetchImages(def),
-      rating: def.rating,
-      reviews: def.reviews,
-      availability: def.availability,
-      compatibility: def.compatibility || 'all',
       type: {
         slug: 'default',
         name: 'Default',
@@ -162,36 +161,24 @@ const makeProducts = (defs: any[]): any[] => {
             { slug: 'thorium', name: 'Thorium' },
           ],
         },
-        {
-          type: 'color',
-          slug: 'color',
-          name: 'Color',
-          values: [
-            { slug: 'white', name: 'White', color: '#fff' },
-            { slug: 'yellow', name: 'Yellow', color: '#ffd333' },
-            { slug: 'red', name: 'Red', color: '#ff4040' },
-            { slug: 'blue', name: 'Blue', color: '#4080ff' },
-          ],
-        },
       ],
-      tags: [
-        'Brake Kit',
-        'Brandix',
-        'Filter',
-        'Bumper',
-        'Transmission',
-        'Hood',
-      ],
+
       subCategory: def.Category,
-      categories,
-      customFields: {},
     };
   });
 };
 
 const TotalProducts = [];
 
-TotalProducts.push(...anchor, ...pins, ...nuts, ...washers, ...screws);
+TotalProducts.push(
+  ...anchor,
+  ...pins,
+  ...nuts,
+  ...washers,
+  ...screws,
+  ...bolts,
+  ...hexHeadCapScrews
+);
 TotalProducts.forEach((data, index) => {
   if (data?.name && data.slug) {
     data.name = `Test${index + 1}`;
