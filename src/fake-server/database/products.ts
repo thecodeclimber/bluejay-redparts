@@ -1,7 +1,6 @@
 /* eslint-disable import/prefer-default-export */
 
 // application
-import { IBrand } from '~/interfaces/brand';
 import { anchor } from '~/fake-server/database/products/anchors';
 import { bolts } from '~/fake-server/database/products/bolts';
 import { nuts } from '~/fake-server/database/products/nuts';
@@ -9,13 +8,12 @@ import { pins } from '~/fake-server/database/products/pins';
 import { hexHeadCapScrews } from '~/fake-server/database/products/hex_head_cap_screws';
 import { screws } from '~/fake-server/database/products/screws';
 import { washers } from '~/fake-server/database/products/washers';
-import { IProduct, IProductAttribute } from '~/interfaces/product';
+import { IProductAttribute } from '~/interfaces/product';
 import { IShopCategory } from '~/interfaces/category';
 import { makeIdGenerator, nameToSlug } from '~/fake-server/utils';
 import { prepareCategory } from '~/fake-server/endpoints/categories';
 import {
   IProductAttributesDef,
-  IProductDef,
 } from '~/fake-server/interfaces/product-def';
 import { shopCategoriesList } from '~/fake-server/database/categories';
 
@@ -176,13 +174,16 @@ TotalProducts.push(
   ...nuts,
   ...washers,
   ...screws,
-  ...bolts
+  ...bolts,
 );
 TotalProducts.forEach((data, index) => {
   if (data?.name && data.slug) {
     data.name = `Test${index + 1}`;
     data.slug = `test${index + 1}`;
   }
+  data.list_price = Number(data.list_price);
+  data.qty_per_box = Number(data.qty_per_box);
+  data.net_per_box = Number(data.net_per_box);
 });
 
 export const products: any[] = makeProducts(TotalProducts);

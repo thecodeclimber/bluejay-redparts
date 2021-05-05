@@ -36167,9 +36167,6 @@ export const hexHeadCapScrews: any[] = [
     net_per_box: '81.90',
   },
   {
-    net_per_box: ' ',
-  },
-  {
     sku: '0616016-ZNDI',
     name: 'Test',
     slug: 'test',
@@ -46070,9 +46067,6 @@ export const hexHeadCapScrews: any[] = [
     net_per_box: '92.64',
   },
   {
-    net_per_box: ' ',
-  },
-  {
     sku: 'SS-0116016',
     name: 'Test',
     slug: 'test',
@@ -46263,9 +46257,6 @@ export const hexHeadCapScrews: any[] = [
     net_per_box: '39.26',
   },
   {
-    net_per_box: ' ',
-  },
-  {
     sku: 'SS-0117024',
     name: 'Test',
     slug: 'test',
@@ -46416,9 +46407,6 @@ export const hexHeadCapScrews: any[] = [
     qty_per_box: '50',
     list_price: '107.80',
     net_per_box: '32.34',
-  },
-  {
-    net_per_box: ' ',
   },
   {
     sku: 'SS-0118024',
@@ -46592,9 +46580,6 @@ export const hexHeadCapScrews: any[] = [
     net_per_box: '46.39',
   },
   {
-    net_per_box: ' ',
-  },
-  {
     sku: 'SS-0120032',
     name: 'Test',
     slug: 'test',
@@ -46745,9 +46730,6 @@ export const hexHeadCapScrews: any[] = [
     qty_per_box: '25',
     list_price: '141.81',
     net_per_box: '42.54',
-  },
-  {
-    net_per_box: ' ',
   },
   {
     sku: 'SS-0122032',
@@ -46938,9 +46920,6 @@ export const hexHeadCapScrews: any[] = [
     qty_per_box: '25',
     list_price: '0.00',
     net_per_box: '0.00',
-  },
-  {
-    net_per_box: ' ',
   },
   {
     sku: 'SS-0123048',
