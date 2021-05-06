@@ -233,3 +233,81 @@ export const MobileMenuPanelBack = styled.div`
     outline: none;
   }
 `;
+
+export const MobileMenuSettingsList = styled.div`
+  display: flex;
+`;
+
+export const MobileMenuSettingsStyledComponent = styled.div`
+  flex-basis: 0;
+  flex-grow: 1;
+  width: 50%;
+`;
+export const MobileMenuSettingsButton = styled.div`
+  direction: ltr;
+  padding-left: 14px;
+  padding-right: 26px;
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  color: inherit;
+  position: relative;
+  width: 100%;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  &:hover {
+    background-color: ${(props) => `${props.theme.colors.tagBgColor}`};
+  }
+`;
+
+export const MobileMenuSettingsIcon = styled.span`
+  direction: ltr;
+  margin-right: 7px;
+  display: block;
+  width: 22px;
+  height: 16px;
+  border-radius: 1.5px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  ${(props: { currency?: boolean }) =>
+    props.currency &&
+    css`
+      background: ${(props) =>
+        `${props.theme.colors.mobileMenuCurrencyBgColor}`};
+      color: ${(props) => `${props.theme.colors.white}`};
+      font-size: 10px;
+      line-height: 16px;
+    `}
+`;
+
+export const MobileMenuSettingsTitle = styled.span`
+  direction: ltr;
+  text-align: left;
+  font-size: 13px;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
+  line-height: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+`;
+export const MobileMenuSettingsArrow = styled.div`
+  direction: ltr;
+  right: 12px;
+  transform: scaleX(1);
+  position: absolute;
+  top: calc(50% - 5px);
+  fill: ${(props) => `${props.theme.colors.widgetsearchbuttoncolor}`};
+  svg {
+    display: block;
+  }
+`;
