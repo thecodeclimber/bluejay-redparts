@@ -28,6 +28,7 @@ declare module 'styled-components' {
       tagBgHoverColor: string;
       tagBgActiveColor: string;
       widgetsearchbuttoncolor: string;
+      mobileMenuCurrencyBgColor: string;
       widgetsearchbuttonhovercolor: string;
       widgetsearchbuttonhoverbgcolor: string;
       widgetsearchbuttonactivebgcolor: string;

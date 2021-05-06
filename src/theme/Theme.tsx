@@ -29,6 +29,7 @@ const theme: DefaultTheme = {
     tagBgHoverColor: '#e5e5e5',
     tagBgActiveColor: '#d9d9d9',
     widgetsearchbuttoncolor: '#bfbfbf',
+    mobileMenuCurrencyBgColor: '#5c6266',
     widgetsearchbuttonhovercolor: '#a6a6a6',
     widgetsearchbuttonhoverbgcolor: '#f5f5f5',
     widgetsearchbuttonactivebgcolor: '#f0f0f0',
