@@ -1,15 +1,12 @@
 import styled, { css } from 'styled-components';
-
 export const MobileMenuBase = styled.div`
   visibility: hidden;
   transition: translateX(0) 0s 0.25s;
-
   ${(props: { isOpen?: boolean }) =>
     props.isOpen &&
     css`
       visibility: visible;
       transition-duration: 0s;
-
       ${MobileMenuBackdrop} {
         opacity: 1;
       }
@@ -18,7 +15,6 @@ export const MobileMenuBase = styled.div`
       }
     `}
 `;
-
 export const MobileMenuBackdrop = styled.div`
   position: fixed;
   left: 0;
@@ -31,7 +27,6 @@ export const MobileMenuBackdrop = styled.div`
   will-change: opacity;
   transition: opacity 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 `;
-
 export const MobileMenuBody = styled.div`
   position: fixed;
   top: 0;
@@ -63,7 +58,6 @@ export const MobileMenuClose = styled.button`
   background-color: ${(props) => `${props.theme.colors.white}`};
   color: ${(props) => `${props.theme.colors.plusiconcolor}`};
   cursor: pointer;
-
   &:hover {
     background-color: ${(props) =>
       `${props.theme.colors.widgetauthorbordercolor}`};
@@ -130,7 +124,6 @@ export const MobileMenuIndicator = styled.div`
 
 export const MobileMenuIndicatorIcon = styled.span`
   position: relative;
-
   svg {
     display: block;
   }
@@ -172,4 +165,71 @@ export const MobileMenuIndicatorTitle = styled.span`
   text-transform: uppercase;
   color: ${(props) => `${props.theme.colors.selectdisabledfontcolor}`};
   margin-top: 5px;
+`;
+
+export const MobileMenuPanelStyledComponent = styled.div`
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  background: ${(props) => `${props.theme.colors.white}`};
+`;
+
+export const MobileMenuPanelHeader = styled.div`
+  flex-shrink: 0;
+  height: 51px;
+  border-bottom: 1px solid ${(props) => `${props.theme.colors.bordercolor}`};
+  display: flex;
+  align-items: center;
+  padding-bottom: 2px;
+  position: relative;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+`;
+
+export const MobileMenuPanelTitle = styled.div`
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
+`;
+export const MobileMenuPanelBody = styled.div`
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+`;
+
+export const MobileMenuPanelBack = styled.div`
+  direction: ltr;
+  left: 0;
+  padding-left: 0;
+  padding-right: 2px;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: absolute;
+  top: 0;
+  width: 48px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  border: none;
+  fill: currentColor;
+  transition: background-color 0.15s, color 0.15s;
+  background-color: ${(props) => `${props.theme.colors.white}`};
+  color: ${(props) => `${props.theme.colors.plusiconcolor}`};
+  svg {
+    direction: ltr;
+    transform: scaleX(1);
+  }
+  &:focus {
+    outline: none;
+  }
 `;
