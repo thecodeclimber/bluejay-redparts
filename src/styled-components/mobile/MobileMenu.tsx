@@ -44,43 +44,45 @@ export const MobileMenuBody = styled.div`
 `;
 
 export const MobileMenuClose = styled.button`
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 48px;
-    height: 50px;
-    display: -moz-box;
-    display: flex;
-    -moz-box-align: center;
-    align-items: center;
-    -moz-box-pack: center;
-    justify-content: center;
-    z-index: 2;
-    border: none;
-    padding: 0;
-    fill: currentColor;
-    transition: background-color 0.15s, color 0.15s;
-    background-color: #fff;
-    color: #ccc;
-    cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 48px;
+  height: 50px;
+  display: -moz-box;
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+  -moz-box-pack: center;
+  justify-content: center;
+  z-index: 2;
+  border: none;
+  padding: 0;
+  fill: currentColor;
+  transition: background-color 0.15s, color 0.15s;
+  background-color: ${(props) => `${props.theme.colors.white}`};
+  color: ${(props) => `${props.theme.colors.plusiconcolor}`};
+  cursor: pointer;
 
-    &:hover {
-      background-color: #ebebeb;
-      color: #4d4d4d;
-    }
-    &:active{
-        background-color: #ebebeb;
-        color: #4d4d4d;
-    }
-    &:focus {
-      outline: none;
-    }   
+  &:hover {
+    background-color: ${(props) =>
+      `${props.theme.colors.widgetauthorbordercolor}`};
+    color: ${(props) => `${props.theme.colors.selectarrowcolor}`};
+  }
+  &:active {
+    background-color: ${(props) =>
+      `${props.theme.colors.widgetauthorbordercolor}`};
+    color: ${(props) => `${props.theme.colors.selectarrowcolor}`};
+  }
+  &:focus {
+    outline: none;
+  }
 `;
 
 export const MobileMenuDivider = styled.div`
   flex-shrink: 0;
   height: 1px;
-  background: #ebebeb;
+  background: ${(props) => `${props.theme.colors.widgetauthorbordercolor}`};
 `;
 
 export const MobileMenuSpring = styled.div`
@@ -89,21 +91,85 @@ export const MobileMenuSpring = styled.div`
 
 export const MobileMenuContactsTitle = styled.div`
   font-size: 18px;
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
 `;
 
 export const MobileMenuContactsSubtitle = styled.div`
   font-size: 13px;
-  color: #999;
+  color: ${(props) => `${props.theme.colors.selectdisabledfontcolor}`};
 `;
 
 export const MobileMenuContacts = styled.a`
   text-align: center;
   padding: 16px 20px 14px;
   transition: background 0.2s;
-  color: #262626;
+  color: ${(props) => `${props.theme.colors.selectfontcolor}`};
   &:hover {
-    background: #f2f2f2;
-    color: #262626;
+    background: ${(props) => `${props.theme.colors.tagBgColor}`};
+    color: ${(props) => `${props.theme.colors.selectfontcolor}`};
   }
+`;
+
+export const MobileMenuIndicatorsStyledComponent = styled.div`
+  display: flex;
+  padding: 8px 11px;
+`;
+
+export const MobileMenuIndicator = styled.div`
+  width: calc((100% - 0px * 3) / 4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  fill: ${(props) => `${props.theme.colors.btnicon}`};
+  border-radius: 2px;
+  padding: 8px 0 6px;
+  &:hover {
+    background: ${(props) => `${props.theme.colors.tagBgColor}`};
+  }
+`;
+
+export const MobileMenuIndicatorIcon = styled.span`
+  position: relative;
+
+  svg {
+    display: block;
+  }
+`;
+
+export const MobileMenuIndicatorCounter = styled.span`
+  direction: ltr;
+  left: calc(100% - 4px);
+  position: absolute;
+  bottom: calc(100% - 7px);
+  color: ${(props) => `${props.theme.colors.white}`};
+  font-size: 10px;
+  line-height: 1;
+  padding: 2px 3px 1px;
+  border-radius: 6.5px;
+  text-align: center;
+  z-index: 0;
+  @media (-webkit-max-device-pixel-ratio: 1), (max-resolution: 1dppx) {
+    font-weight: ${(props) => `${props.theme.fontWeight.normal}`};
+  }
+  &:before {
+    transform: skewX(-11deg);
+    display: block;
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: ${(props) => `${props.theme.colors.primary}`};
+    z-index: -1;
+    border-radius: 2.5px;
+  }
+`;
+
+export const MobileMenuIndicatorTitle = styled.span`
+  font-size: 9px;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
+  text-transform: uppercase;
+  color: ${(props) => `${props.theme.colors.selectdisabledfontcolor}`};
+  margin-top: 5px;
 `;
