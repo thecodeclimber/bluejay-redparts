@@ -148,7 +148,7 @@ export const DepartmentsItemArrow = styled.span`
   fill: #bfbfbf;
   position: absolute;
   top: calc(50% - 12px);
-    @media (min-width: 1200px) and (max-width: 1399.98px) {
+  @media (min-width: 1200px) and (max-width: 1399.98px) {
     right: 11px;
     transform: scaleX(1);
   }
