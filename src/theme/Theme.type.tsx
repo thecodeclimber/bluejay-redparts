@@ -21,10 +21,18 @@ declare module 'styled-components' {
       blockcategoriesbodycolor: string;
       linkcolor: string;
       listcolor: string;
+      lightBlack: string;
+      redcolor: string;
       blockBrandDivider: string;
+      mutedTextColor: string;
+      blueColor: string;
+      searchfontcolor: string;
+      mobileSearchActiveBgColor: string;
+      searchhoverbgcolor: string;
       blockBrandHoverFontColor: string;
       blockBrandsItemName: string;
       tagBgColor: string;
+      browncolor: string;
       tagBgHoverColor: string;
       tagBgActiveColor: string;
       widgetsearchbuttoncolor: string;

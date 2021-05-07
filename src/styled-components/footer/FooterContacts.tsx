@@ -6,11 +6,11 @@ export const FooterContactsStyledComponent = styled.div`
 
 export const FooterContactsTitle = styled.h5`
   font-size: 20px;
-  color: #fff;
+  color: ${(props) => `${props.theme.colors.white}`};
   margin-bottom: 26px;
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   @media (-webkit-max-device-pixel-ratio: 1), (max-resolution: 1dppx) {
-    font-weight: 400;
+    font-weight: ${(props) => `${props.theme.fontWeight.normal}`};
   }
 `;
 
@@ -29,13 +29,13 @@ export const FooterAddress = styled.address`
   display: flex;
   flex-wrap: wrap;
   line-height: 20px;
-  @media (min-width: 1200px) {
+  @media (min-width: ${(props) => `${props.theme.breakPoints.lg}`}px) {
     margin: 24px -15px 0;
   }
 `;
 
 export const FooterAddressDescriptionList = styled.dl`
-  @media (min-width: 1200px) {
+  @media (min-width: ${(props) => `${props.theme.breakPoints.lg}`}px) {
     width: calc(100% / 2 - 30px - 1px);
     margin: 0 15px;
     margin-bottom: 18px;
@@ -44,19 +44,19 @@ export const FooterAddressDescriptionList = styled.dl`
 
 export const FooterAddressDefinitionList = styled.dt`
   font-size: 12px;
-  font-weight: 400;
+  font-weight: ${(props) => `${props.theme.fontWeight.normal}`};
   letter-spacing: 0.04em;
   text-transform: uppercase;
   margin-bottom: 2px;
 `;
 
 export const FooterAddressDefinitionDescription = styled.dd`
-  color: #fff;
+  color: ${(props) => `${props.theme.colors.white}`};
   margin: 0;
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   display: block;
- 
+
   @media (-webkit-max-device-pixel-ratio: 1), (max-resolution: 1dppx) {
-    font-weight: 400;
+    font-weight: ${(props) => `${props.theme.fontWeight.normal}`};
   }
 `;

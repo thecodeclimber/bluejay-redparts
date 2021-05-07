@@ -122,7 +122,7 @@ export const ProductHeader = styled.div`
 
 export const ProductTitle = styled.h1`
   font-size: 26px;
-  font-weight: 700;
+  font-weight: ${(props) => `${props.theme.fontWeight.bolder}`};
   line-height: 32px;
   margin: 0;
   @media (min-width: ${(props) =>

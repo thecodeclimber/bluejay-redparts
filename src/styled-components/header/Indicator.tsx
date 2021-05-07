@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
 const textColor = css`
-  color: #fff;
+  color: ${(props) => `${props.theme.colors.white}`};
 `;
 export const IndicatorStyledComponent = styled.div`
   position: relative;
@@ -55,7 +55,7 @@ export const IndicatorIcon = styled.span`
   display: block;
   width: 48px;
   height: 48px;
-  fill: #fff;
+  fill: ${(props) => `${props.theme.colors.white}`};
 `;
 
 export const IndicatorCounter = styled.span`
@@ -67,9 +67,9 @@ export const IndicatorCounter = styled.span`
   text-align: center;
   z-index: 0;
   right: 4px;
-  color: #262626;
-  font-weight: 500;
-  background-color: #ffdf40;
+  color: ${(props) => `${props.theme.colors.selectfontcolor}`};
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
+  background-color: ${(props) => `${props.theme.colors.anchorcolor}`};
   transform: skewX(-13deg);
   box-sizing: border-box;
   display: block;
@@ -77,7 +77,7 @@ export const IndicatorCounter = styled.span`
 `;
 
 export const IndicatorTitle = styled.span`
-  color: #cdc8e5;
+  color: ${(props) => `${props.theme.colors.mutedTextColor}`};
   margin-left: 50px;
   padding-top: 3px;
   margin-bottom: -3px;
@@ -91,7 +91,7 @@ export const IndicatorTitle = styled.span`
 
 export const IndicatorValue = styled.span`
   margin-left: 50px;
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   display: block;
   white-space: nowrap;
   ${textColor}

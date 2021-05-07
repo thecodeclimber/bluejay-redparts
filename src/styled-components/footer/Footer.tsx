@@ -5,8 +5,8 @@ import FooterNewsletter from '~/components/footer/FooterNewsletter';
 
 export const SiteFooter = styled.div`
   position: relative;
-  background-color: #333;
-  color: #9e9e9e;
+  background-color: ${(props) => `${props.theme.colors.blockFinderBgColor}`};
+  color: ${(props) => `${props.theme.colors.widgetnewslettertextcolor}`};
 `;
 
 export const SiteFooterWidgets = styled.div`
@@ -19,16 +19,16 @@ export const Container = styled.div`
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  @media (min-width: 1200px) {
+  @media (max-width: ${(props) => `${props.theme.breakPoints.lg}`}px) {
     max-width: 1140px;
   }
 `;
 
 export const SiteFooterBottom = styled.div`
-  background-color: #2b2b2b;
+  background-color: ${(props) => `${props.theme.colors.lightBlack}`};
   font-size: 14px;
-  color: #9e9e9e;
-  font-weight: 400;
+  color: ${(props) => `${props.theme.colors.widgetnewslettertextcolor}`};
+  font-weight: ${(props) => `${props.theme.fontWeight.normal}`};
 `;
 
 export const SiteFooterBottomRow = styled.div`

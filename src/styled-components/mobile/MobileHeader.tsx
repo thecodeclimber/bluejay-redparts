@@ -2,12 +2,12 @@ import styled, { css } from 'styled-components';
 
 export const MobileContainer = styled.div`
   display: block;
-  background: #1e74df;
-  box-shadow: #1e74df;
+  background: ${(props) => `${props.theme.colors.primary}`};
+  box-shadow: ${(props) => `${props.theme.colors.primary}`};
   position: relative;
   z-index: 100;
 
-  @media (min-width: 1200px) {
+  @media (min-width: ${(props) => `${props.theme.breakPoints.lg}`}px) {
     display: none;
   }
 `;
@@ -37,13 +37,13 @@ export const MobileHeaderMenuButton = styled.header`
   padding: 0;
   margin: 0;
   border: none;
-  background: #1e74df;
-  fill: #fff;
+  background: ${(props) => `${props.theme.colors.primary}`};
+  fill: ${(props) => `${props.theme.colors.white}`};
   &:hover {
-    background: #00000026;
+    background: ${(props) => `${props.theme.colors.btnafterbgcolor}`};
   }
   &:active {
-    background: #007bff;
+    background: ${(props) => `${props.theme.colors.link}`};
   }
   &:focus {
     outline: none;
@@ -63,7 +63,7 @@ export const MobileHeaderSearch = styled.div`
   padding: 0 12px;
   margin: 0 auto;
 
-  @media (max-width: 768px) {
+  @media (max-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
     left: 0;
     top: 0;
     position: absolute;
@@ -76,9 +76,9 @@ export const MobileHeaderSearch = styled.div`
     transform: translateY(-100%);
     transition: transform 0.3s;
     ${(props: { isOpen?: boolean }) =>
-    props.isOpen &&
-    css`
-      transform: none;
-    `};
+      props.isOpen &&
+      css`
+        transform: none;
+      `};
   }
 `;

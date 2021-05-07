@@ -6,7 +6,7 @@ import { FormattedMessage } from 'react-intl';
 import CurrencyFormat from '~/components/shared/CurrencyFormat';
 import { useCart } from '~/store/cart/cartHooks';
 import {
-    CheckoutTotals,
+  CheckoutTotals,
   CheckoutTotalsHeader,
   CheckoutTotalsProducts,
   CheckoutTotalsSubTotals,

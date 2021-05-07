@@ -10,18 +10,18 @@ export const FilterTitle = styled.div`
   width: calc(100% + 20px);
   position: relative;
   color: inherit;
-  font-weight: 700;
+  font-weight: ${(props) => `${props.theme.fontWeight.bolder}`};
   font-size: 15px;
   line-height: 18px;
   border-radius: 2px;
   margin: 0 -10px;
   transition: background-color 0.2s, fill 0.2s;
   background: transparent;
-  fill: #ccc;
+  fill: ${(props) => `${props.theme.colors.plusiconcolor}`};
   &:hover {
     transition-duration: 0.1s, 0.1s;
-    background: #f2f2f2;
-    fill: #b3b3b3;
+    background: ${(props) => `${props.theme.colors.cardbgcolor}`};
+    fill: ${(props) => `${props.theme.colors.blockBrandsItemName}`};
   }
 `;
 

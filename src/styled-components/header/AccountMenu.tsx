@@ -3,16 +3,16 @@ import styled, { css } from 'styled-components';
 export const AccountMenuStyledComponent = styled.div`
   display: block;
   width: 280px;
-  background-color: #fff;
+  background-color: ${(props) => `${props.theme.colors.white}`};
   box-shadow: 0 2px 20px rgb(0 0 0 / 20%);
   border-radius: 1.5px;
-  color: #262626;
+  color: ${(props) => `${props.theme.colors.selectfontcolor}`};
 `;
 
 export const AccountMenuFormTitle = styled.div`
   text-align: center;
   padding: 32px 0 26px;
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.normal}`};
 `;
 
 export const AccountMenuForm = styled.form`
@@ -35,7 +35,7 @@ export const InvalidFeedback = styled.div`
   width: 100%;
   margin-top: 0.25rem;
   font-size: 80%;
-  color: #dc3545;
+  color: ${(props) => `${props.theme.colors.redcolor}`};
 `;
 
 export const AccountMenuFormButton = styled.div`
@@ -46,16 +46,16 @@ export const AccountMenuFormButton = styled.div`
 export const AccountMenuFormLink = styled.div`
   font-size: 14px;
   text-align: center;
-  color: #6c757d;
+  color: ${(props) => `${props.theme.colors.listcolor}`};
 `;
 
 export const AccountMenuFormAnchorLink = styled.div`
-  color: #6c757d;
+  color: ${(props) => `${props.theme.colors.listcolor}`};
   ${(props: { href?: any }) =>
     props.href &&
     css`
       &:hover {
-        color: #262626;
+        color: ${(props) => `${props.theme.colors.selectfontcolor}`};
       }
     `}
 `;
@@ -95,13 +95,13 @@ export const AccountMenuUserName = styled.div`
 export const AccountMenuUserEmail = styled.div`
   font-size: 14px;
   line-height: 18px;
-  color: #6c757d;
+  color: ${(props) => `${props.theme.colors.ItemDetailsColor}`};
   margin-top: 1px;
 `;
 
 export const AccountMenuDivider = styled.div`
   height: 1px;
-  background: #ebebeb;
+  background: ${(props) => `${props.theme.colors.blockBrandDivider}`};
 `;
 
 export const AccountMenuAnchorLink = styled.ul`
@@ -117,10 +117,10 @@ export const AccountMenuAnchorLink = styled.ul`
       border: none;
       width: 100%;
       background: transparent;
-      font-weight: 500;
+      font-weight: ${(props) => `${props.theme.fontWeight.normal}`};
       text-align: left;
       &:hover {
-        background: #f2f2f2;
+        background: ${(props) => `${props.theme.colors.tagBgColor}`};
         color: inherit;
       }
     `}
@@ -143,9 +143,9 @@ export const AccountMenuLogoutButton = styled.button`
   border: none;
   width: 100%;
   background: transparent;
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.normal}`};
   &:hover {
-    background: #f2f2f2;
+    background: ${(props) => `${props.theme.colors.tagBgColor}`};
     color: inherit;
   }
 `;
