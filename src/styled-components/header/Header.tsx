@@ -1,18 +1,24 @@
 import styled from 'styled-components';
 
 export const HeaderStyledComponent = styled.div`
-  background: #1e74df;
-  color: #fff;
+  background: ${(props) => `${props.theme.colors.activebordercolor}`};
+  color: ${(props) => `${props.theme.colors.white}`};
   box-shadow: 0 1px 3px rgb(0 0 0 / 9%);
   position: relative;
   z-index: 10;
   display: grid;
-  grid-template-columns: calc(100% / 2 - 1350px / 2) min-content auto max-content calc(100% / 2 - 1350px / 2);
+  grid-template-columns: calc(100% / 2 - 1350px / 2) min-content auto max-content calc(
+      100% / 2 - 1350px / 2
+    );
   grid-template-rows: 34px auto auto;
-  @media (min-width: 1200px) and (max-width: 1399.98px) {
-    grid-template-columns: calc(100% / 2 - 1110px / 2) min-content auto max-content calc(100% / 2 - 1110px / 2);
+  @media (min-width: ${(props) =>
+      `${props.theme.breakPoints.lg}`}px) and (max-width: ${(props) =>
+      `${props.theme.breakPoints.xl}`}px) {
+    grid-template-columns: calc(100% / 2 - 1110px / 2) min-content auto max-content calc(
+        100% / 2 - 1110px / 2
+      );
   }
-  @media (max-width: 1199.9px) {
+  @media (max-width: ${(props) => `${props.theme.breakPoints.lg}`}px) {
     display: none;
   }
 `;
@@ -37,7 +43,9 @@ export const HeaderLogo = styled.div`
   margin-right: 24px;
   grid-column: 2;
   grid-row: 2;
-  @media (min-width: 1200px) and (max-width: 1399.98px) {
+  @media (min-width: ${(props) =>
+      `${props.theme.breakPoints.lg}`}px) and (max-width: ${(props) =>
+      `${props.theme.breakPoints.xl}`}px) {
     min-width: 210px;
   }
 `;
@@ -46,18 +54,19 @@ export const HeaderNavbar = styled.div`
   height: 46px;
   padding-top: 0;
   padding-bottom: 0;
-  background: #fff;
-  color: #262626;
+  background: ${(props) => `${props.theme.colors.white}`};
+  color: ${(props) => `${props.theme.colors.selectfontcolor}`};
   align-self: center;
   display: flex;
   align-items: center;
   grid-column: 1/6;
   grid-row: 3;
   padding: 7px calc((100% - 1350px) / 2);
-  @media (min-width: 1200px) and (max-width: 1399.98px){
+  @media (min-width: ${(props) =>
+      `${props.theme.breakPoints.lg}`}px) and (max-width: ${(props) =>
+      `${props.theme.breakPoints.xl}`}px) {
     padding: 7px calc((100% - 1110px) / 2);
   }
-}
 `;
 
 export const HeaderNavbarDepartments = styled.div`
@@ -80,7 +89,7 @@ export const PhoneBody = styled.a`
   border-radius: 0;
   display: flex;
   align-items: center;
-  color: #262626;
+  color: ${(props) => `${props.theme.colors.selectfontcolor}`};
   line-height: 1;
   height: 100%;
   padding: 4px 11px;
@@ -88,8 +97,8 @@ export const PhoneBody = styled.a`
   transition: background 0.12s;
   font-size: 17px;
   &:hover {
-    background: #f2f2f2;
-    color: #262626;
+    background: ${(props) => `${props.theme.colors.tagBgColor}`};
+    color: ${(props) => `${props.theme.colors.selectfontcolor}`};
   }
 `;
 
@@ -97,11 +106,11 @@ export const PhoneTitle = styled.div`
   font-size: 15px;
   margin-top: 1px;
   margin-right: 5px;
-  color: #999;
+  color: ${(props) => `${props.theme.colors.selectdisabledfontcolor}`};
 `;
 
 export const PhoneNumber = styled.div`
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
 `;
 
 export const HeaderMegamenuArea = styled.div`
@@ -115,7 +124,7 @@ export const HeaderTopbarClassic = styled.div`
 `;
 
 export const HeaderTopbarClassicBg = styled.div`
-  background: #333;
+  background: ${(props) => `${props.theme.colors.blockFinderBgColor}`};
   grid-column: 1/6;
   grid-row: 1;
 `;

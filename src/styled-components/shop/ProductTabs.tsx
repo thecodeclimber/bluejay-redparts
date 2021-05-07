@@ -12,7 +12,7 @@ export const ProductTabsItem = styled.li`
   position: relative;
   a {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
     color: inherit;
     display: flex;
     padding: 14px 18px 13px;

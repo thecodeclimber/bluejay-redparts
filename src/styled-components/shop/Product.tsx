@@ -83,7 +83,7 @@ export const ProductMeta = styled.div`
     padding: 3px 0;
   }
   th {
-    font-weight: 500;
+    font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
     padding-right: 12px;
   }
   tr + tr > * {

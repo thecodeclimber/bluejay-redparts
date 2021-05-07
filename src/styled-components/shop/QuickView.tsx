@@ -9,7 +9,7 @@ import ProductForm from '~/components/shop/ProductForm';
 
 export const QuickView = styled(Modal)`
   max-width: 800px;
-  @media (max-width: 991.98px) {
+  @media (max-width: ${(props) => `${props.theme.breakPoints.md}`}px) {
     max-width: 520px;
   }
   @media (max-width: 575.98px) {
@@ -24,9 +24,9 @@ export const QuickViewClose = styled.button`
   border: none;
   top: 0;
   border-radius: 0 2.5px 0 2.5px;
-  background-color: #fff;
+  background-color: ${(props) => `${props.theme.colors.white}`};
   cursor: pointer;
-  color: #ccc;
+  color: ${(props) => `${props.theme.colors.plusiconcolor}`};
   right: 0;
   fill: currentColor;
   transition: background 0.2s, color 0.2s;
@@ -34,14 +34,14 @@ export const QuickViewClose = styled.button`
     display: block;
   }
   &:hover {
-    background-color: #f2f2f2;
-    color: #4d4d4d;
+    background-color: ${(props) => `${props.theme.colors.tagBgColor}`};
+    color: ${(props) => `${props.theme.colors.selectarrowcolor}`};
   }
 
   &:active {
     transition-duration: 0s;
-    background-color: #ebebeb;
-    color: #4d4d4d;
+    background-color: ${(props) => `${props.theme.colors.blockBrandDivider}`};
+    color: ${(props) => `${props.theme.colors.selectarrowcolor}`};
   }
   &:focus {
     outline: none;
@@ -52,10 +52,10 @@ export const QuickViewBody = styled.form`
   padding: 32px 32px 36px;
   display: flex;
   flex-direction: row;
-  @media (max-width: 991.98px) {
+  @media (max-width: ${(props) => `${props.theme.breakPoints.md}`}px) {
     flex-direction: column;
   }
-  @media (max-width: 474px) {
+  @media (max-width: ${(props) => `${props.theme.breakPoints.xs}`}px) {
     padding: 20px 20px 24px;
   }
 `;
@@ -64,7 +64,7 @@ export const QuickViewGallery = styled(ProductGallery)`
   width: 320px;
   flex-shrink: 0;
   margin-right: 28px;
-  @media (max-width: 991.98px) {
+  @media (max-width: ${(props) => `${props.theme.breakPoints.md}`}px) {
     width: 100%;
     margin-bottom: 28px;
     margin-right: 0;
@@ -73,22 +73,22 @@ export const QuickViewGallery = styled(ProductGallery)`
 
 export const QuickViewSeeDetails = styled(AppLink)`
   border-radius: 0 0 2.5px 2.5px;
-  border-top: 1px solid #ebebeb;
+  border-top: 1px solid ${(props) => `${props.theme.colors.blockBrandDivider}`};
   display: block;
   text-align: center;
-  color: #6c757d;
+  color: ${(props) => `${props.theme.colors.ItemDetailsColor}`};
   font-size: 15px;
   height: 52px;
   line-height: 50px;
   transition: background 0.15s, border-color 0.15s;
 
   &:hover {
-    color: #6c757d;
-    background: #f7f7f7;
+    color: ${(props) => `${props.theme.colors.ItemDetailsColor}`};
+    background: ${(props) => `${props.theme.colors.tabbgcolor}`};
   }
 
   &:active {
-    background: #f0f0f0;
+    background: ${(props) => `${props.theme.colors.switcherbgcolor}`};
     transition-duration: 0s;
   }
 `;
@@ -101,7 +101,7 @@ export const QuickViewProduct = styled.div`
 export const QuickViewProductName = styled.div`
   font-size: 24px;
   line-height: 28px;
-  font-weight: 700;
+  font-weight: ${(props) => `${props.theme.fontWeight.bolder}`};
   margin-top: -2px;
 `;
 
@@ -113,7 +113,7 @@ export const QuickViewProductRating = styled.div`
 export const QuickViewProductRatingTitle = styled.div`
   font-size: 13px;
   line-height: 1;
-  color: #6c757d;
+  color: ${(props) => `${props.theme.colors.ItemDetailsColor}`};
   margin-left: 8px;
 `;
 
@@ -134,7 +134,7 @@ export const QuickViewProductMeta = styled.div`
     display: block;
   }
   tr {
-    background: #f2f2f2;
+    background: ${(props) => `${props.theme.colors.tagBgColor}`};
     border-radius: 1.5px;
     margin: 3px;
     padding-top: 5px;
@@ -144,14 +144,14 @@ export const QuickViewProductMeta = styled.div`
   }
   th {
     font-size: 11px;
-    font-weight: 400;
-    color: #808080;
+    font-weight: ${(props) => `${props.theme.fontWeight.normal}`};
+    color: ${(props) => `${props.theme.colors.activeclor}`};
     line-height: 1;
   }
   td {
     font-size: 13px;
     line-height: 1;
-    font-weight: 500;
+    font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   }
   a {
     color: inherit;
@@ -178,24 +178,24 @@ export const QuickViewProductPrice = styled.div`
 export const QuickViewProductOldPrice = styled.div`
   font-size: 14px;
   text-decoration: line-through;
-  font-weight: 400;
-  color: #999;
+  font-weight: ${(props) => `${props.theme.fontWeight.normal}`};
+  color: ${(props) => `${props.theme.colors.selectdisabledfontcolor}`};
   margin-bottom: 3px;
   letter-spacing: -0.04em;
 `;
 
 export const QuickViewProductNewPrice = styled.div`
-  color: #262626;
+  color: ${(props) => `${props.theme.colors.selectfontcolor}`};
   font-size: 24px;
-  font-weight: 700;
+  font-weight: ${(props) => `${props.theme.fontWeight.bolder}`};
   letter-spacing: -0.04em;
 `;
 
 export const QuickViewProductPriceCurrent = styled.div`
   font-size: 24px;
-  font-weight: 700;
+  font-weight: ${(props) => `${props.theme.fontWeight.bolder}`};
   letter-spacing: -0.04em;
-  color: #262626;
+  color: ${(props) => `${props.theme.colors.selectfontcolor}`};
 `;
 
 export const QuickViewProductStock = styled(StockStatusBadge)`

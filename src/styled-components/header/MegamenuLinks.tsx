@@ -15,34 +15,35 @@ export const MegaMenuItemLinksItemLink = styled.a`
   ${(props: { hasSubLinks?: any }) =>
     !props.hasSubLinks
       ? css`
-         font-weight: 400;
+         font-weight: ${(props) => `${props.theme.fontWeight.normal}`};
          font-size: 14px;
-         color: #6c757d;
+         color: ${(props) => `${props.theme.colors.listcolor}`};
          text-decoration: none;
          background-color: transparent;
          line-height: 18px;
          cursor: pointer
          list-style: none;
         &:hover {
-        color: #1961bb;
+        color: ${(props) => `${props.theme.colors.blueColor}`};
        }
          `
       : css`
           font-size: 15px;
-          color: #6c757d;
+          color: ${(props) => `${props.theme.colors.listcolor}`};
           color: inherit;
           transition: color 0.15s;
-          font-weight: 500;
+          font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
           text-decoration: none;
-          border-bottom: 1px solid #ebebeb;
+          border-bottom: 1px solid
+            ${(props) => `${props.theme.colors.blockBrandDivider}`};
           background-color: transparent;
           padding-bottom: 5px;
           cursor: pointer;
           list-style: none;
           &:hover {
-            color: #1961bb;
+            color: ${(props) => `${props.theme.colors.blueColor}`};
           }
-          @media (min-width: 1200px) {
+          @media (min-width: ${(props) => `${props.theme.breakPoints.lg}`}px) {
             font-size: 15px;
           }
         `}

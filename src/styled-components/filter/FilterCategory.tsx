@@ -7,11 +7,10 @@ export const FilterCategoryList = styled.div`
   margin: 0;
   font-size: 15px;
   line-height: 18px;
-  
 `;
 
 const FilterCategoryItemCurrent = css`
-  font-weight: 700;
+  font-weight: ${(props) => `${props.theme.fontWeight.bolder}`};
 `;
 
 const FilterCategoryItemParent = css`
@@ -44,7 +43,6 @@ export const FilterCategoryItem = styled.li`
     css`
       ${CategoryItem}
     `};
-
 `;
 
 export const FilterCategoryArrow = styled.span`
@@ -52,7 +50,7 @@ export const FilterCategoryArrow = styled.span`
   direction: ltr;
   left: 0;
   transform: scaleX(1);
-  fill: #ccc;
+  fill: ${(props) => `${props.theme.colors.plusiconcolor}`};
   top: 3px;
 `;
 
@@ -60,6 +58,6 @@ export const FilterAppLink = styled(AppLink)`
   color: inherit;
   transition: 0.15s;
   &:hover {
-    color: #007bff;
+    color: ${(props) => `${props.theme.colors.link}`};
   }
 `;

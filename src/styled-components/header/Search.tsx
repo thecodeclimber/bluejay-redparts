@@ -34,9 +34,9 @@ export const SearchInput = styled.input`
   direction: ltr;
   padding-left: 13px;
   padding-right: 37px;
-  color: #262626;
-  background-color: #fff;
-  border-color: #fff;
+  color: ${(props) => `${props.theme.colors.selectfontcolor}`};
+  background-color: ${(props) => `${props.theme.colors.white}`};
+  border-color: ${(props) => `${props.theme.colors.white}`};
   flex-grow: 1;
   font-size: 15px;
   padding-top: 0;
@@ -66,15 +66,15 @@ const SearchButtonHover = css``;
 export const SearchButtonStart = styled.div`
   ${SearchButton}
   direction: ltr;
-  background-color: #ffdf40;
-  color: #262626;
+  background-color: ${(props) => `${props.theme.colors.anchorcolor}`};
+  color: ${(props) => `${props.theme.colors.selectfontcolor}`};
   order: -1;
   padding: 0 27px 0 12px;
   border: 1px solid transparent;
   border-radius: 2.5px;
   margin-right: 5px;
   &:hover {
-    background-color: #ffd226;
+    background-color: ${(props) => `${props.theme.colors.searchhoverbgcolor}`};
   }
 `;
 
@@ -86,7 +86,7 @@ export const SearchButtonTitle = styled.span`
   direction: ltr;
   margin-left: 9px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   line-height: 1;
   margin-top: 1px;
 `;
@@ -95,14 +95,14 @@ export const SearchButtonEnd = styled.span`
   ${SearchButton}
   direction: ltr;
   right: 0;
-  color: #b2b2b2;
+  color: ${(props) => `${props.theme.colors.searchfontcolor}`};
   transition: color 0.2s;
   position: absolute;
   height: 38px;
   width: 38px;
   border: none;
   &:hover {
-    color: #404040;
+    color: ${(props) => `${props.theme.colors.btnicon}`};
   }
 `;
 
@@ -118,8 +118,8 @@ export const SearchDropdown = styled.div`
   direction: ltr;
   left: 0;
   right: 0;
-  color: #262626;
-  background-color: #fff;
+  color: ${(props) => `${props.theme.colors.selectfontcolor}`};
+  background-color: ${(props) => `${props.theme.colors.white}`};
   box-shadow: 0 2px 20px rgb(0 0 0 / 20%);
   position: absolute;
   top: 100%;
@@ -143,9 +143,9 @@ export const SearchDropdown = styled.div`
 export const SuggestionsGroupTitle = styled.span`
   padding: 3px 20px 3px;
   font-size: 11px;
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   text-transform: uppercase;
-  color: #999;
+  color: ${(props) => `${props.theme.colors.selectdisabledfontcolor}`};
 `;
 
 export const SuggestionsGroup = styled.div`
@@ -170,7 +170,7 @@ export const SuggestionsAppLink = styled(AppLink)`
   ${SuggestionsProduct}
   &:hover {
     color: inherit;
-    background: #f2f2f2;
+    background: ${(props) => `${props.theme.colors.tagBgColor}`};
   }
 `;
 
@@ -178,7 +178,7 @@ export const SuggestionsCategoryAppLink = styled(AppLink)`
   ${SuggestionsCategory}
   &:hover {
     color: inherit;
-    background: #f2f2f2;
+    background: ${(props) => `${props.theme.colors.tagBgColor}`};
   }
 `;
 
@@ -206,7 +206,7 @@ export const SuggestionsProductPrice = styled.div`
   white-space: nowrap;
   flex-shrink: 0;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: ${(props) => `${props.theme.fontWeight.bolder}`};
   padding-top: 3px;
   width: 70px;
 `;
@@ -231,7 +231,7 @@ export const SuggestionsProductRatingStars = styled.div`
 export const SuggestionsProductRatingLabel = styled.div`
   font-size: 13px;
   line-height: 1;
-  color: #6c757d;
+  color: ${(props) => `${props.theme.colors.subtitlecolor}`};
 `;
 
 export const SearchDropdownArrow = styled.div`
@@ -259,7 +259,7 @@ export const VehiclePickerPanelBody = styled.div`
 export const VehiclePickerText = styled.div`
   font-size: 15px;
   line-height: 18px;
-  color: #6c757d;
+  color: ${(props) => `${props.theme.colors.subtitlecolor}`};
   margin-bottom: 12px;
   &:first-child {
     margin-top: -3px;
@@ -275,7 +275,7 @@ export const VehiclesListBody = styled.div`
 export const VehiclesListItem = styled.label`
   display: flex;
   align-items: center;
-  border: 1px solid #ebebeb;
+  border: 1px solid ${(props) => `${props.theme.colors.bordercolor}`};
   border-radius: 2px;
   padding: 8px;
   width: 100%;
@@ -295,13 +295,13 @@ export const VehiclesListItemInfo = styled.span`
 export const VehiclesListItemName = styled.span`
   display: block;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
 `;
 
 export const VehiclesListItemDetails = styled.span`
   display: block;
   font-size: 13px;
-  color: #999;
+  color: ${(props) => `${props.theme.colors.selectdisabledfontcolor}`};
   margin-top: 2px;
 `;
 
@@ -314,11 +314,11 @@ export const VehiclesListItemRemove = styled.div`
   border-radius: 2px;
   fill: currentColor;
   transition: background-color 0.15s, color 0.15s;
-  background-color: #fff;
-  color: #ccc;
+  background-color: ${(props) => `${props.theme.colors.white}`};
+  color: ${(props) => `${props.theme.colors.plusiconcolor}`};
   &:hover {
-    background-color: #f2f2f2;
-    color: #999;
+    background-color: ${(props) => `${props.theme.colors.tagBgColor}`};
+    color: ${(props) => `${props.theme.colors.selectdisabledfontcolor}`};
   }
 `;
 
@@ -332,7 +332,7 @@ export const VehiclePickerActions = styled.div`
 export const SearchCarSelectorLink = styled.div`
   > a {
     font-size: 14px;
-    color: #999;
+    color: ${(props) => `${props.theme.colors.selectdisabledfontcolor}`};
     margin-right: 10px;
     &:hover {
       text-decoration: underline;

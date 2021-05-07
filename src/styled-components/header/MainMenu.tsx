@@ -15,34 +15,34 @@ export const MainMenuList = styled.ul`
 `;
 
 export const MainMenuItem = styled.li`
- ${(props: { itemHasSubmenu?: any }) =>
-   props.itemHasSubmenu &&
-   css`
-        position: relative;
-        display: list-item;
-       text-align: -webkit-match-parent;
-       list-style: none;
-       color: #262626;
-       &:hover {
-        background-color: #f2f2f2;
+  ${(props: { itemHasSubmenu?: any }) =>
+    props.itemHasSubmenu &&
+    css`
+      position: relative;
+      display: list-item;
+      text-align: -webkit-match-parent;
+      list-style: none;
+      color: ${(props) => `${props.theme.colors.selectfontcolor}`};
+      &:hover {
+        background-color: ${(props) => `${props.theme.colors.tagBgColor}`};
         color: inherit;
         visibility: visible;
         opacity: 1;
         -webkit-transform: rotateX(0);
         -ms-transform: rotateX(0);
         transform: rotateX(0);
-    ${MainMenuSubMenu}{
-      visibility: visible;
-      opacity: 1;
-    transform: rotateX(0);
-    }
-    ${MainMenuMegaMenu}{
-      visibility: visible;
-      opacity: 1;
-    transform: rotateX(0);
-    } 
+        ${MainMenuSubMenu} {
+          visibility: visible;
+          opacity: 1;
+          transform: rotateX(0);
+        }
+        ${MainMenuMegaMenu} {
+          visibility: visible;
+          opacity: 1;
+          transform: rotateX(0);
+        }
+      }
     `}
-  }
 `;
 
 export const MainMenuLink = styled.a`
@@ -51,7 +51,7 @@ export const MainMenuLink = styled.a`
   padding-right: 23px;
   padding-top: 0;
   padding-bottom: 0;
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   position: relative;
   border-radius: 0;
   display: flex;
@@ -64,7 +64,7 @@ export const MainMenuLink = styled.a`
   cursor: pointer;
   box-sizing: border-box;
   svg {
-    color: #bfbfbf;
+    color: ${(props) => `${props.theme.colors.widgetsearchbuttoncolor}`};
     right: 10px;
     top: calc(50% - 2px);
     position: absolute;
@@ -73,7 +73,7 @@ export const MainMenuLink = styled.a`
     vertical-align: middle;
   }
   &:hover {
-    background-color: #f2f2f2;
+    background-color: ${(props) => `${props.theme.colors.tagBgColor}`};
     color: inherit;
     visibility: visible;
     opacity: 1;
@@ -91,7 +91,7 @@ export const MainMenuSubMenu = styled.div`
   transform-origin: top;
   transform: rotateX(45deg);
   transition: transform 0.2s, opacity 0.2s;
-  color: #262626;
+  color: ${(props) => `${props.theme.colors.selectfontcolor}`};
   &:hover {
     visibility: visible;
     opacity: 1;
@@ -101,7 +101,7 @@ export const MainMenuSubMenu = styled.div`
 
 export const MainMenuMegaMenu = styled.div`
   padding: 26px 30px 30px;
-  background-color: #fff;
+  background-color: ${(props) => `${props.theme.colors.white}`};
   box-shadow: 0 2px 20px rgb(0 0 0 / 20%);
   width: calc((1110px - 30px) / 6 * 2 + 30px);
 `;
