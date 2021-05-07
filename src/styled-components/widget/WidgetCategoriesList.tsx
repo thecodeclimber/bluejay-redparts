@@ -9,7 +9,7 @@ export const WidgetCategoriesListRootItem = styled.li`
     transition: color 0.1s;
   }
   a:hover {
-    color: #007bff;
+    color: ${(props) => `${props.theme.colors.linkcolor}`};
   }
 `;
 
@@ -26,7 +26,7 @@ export const WidgetCategoriesListRoot = styled.ul`
 export const WidgetCategoriesListRootLink = styled(AppLink)`
   color: inherit;
   transition: color 0.1s;
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   font-size: 17px;
 `;
 
@@ -58,7 +58,7 @@ export const ShowMoreIcon = styled.div`
 
 export const WidgetCategoriesListShowMoreArrow = styled(ArrowDown9x6Svg)`
   transform: rotate(0deg);
-  fill: #999;
+  fill: ${(props) => `${props.theme.colors.selectdisabledfontcolor}`};
   transition: transform 0.2s;
   ${(props: { isopen?: any }) =>
     props.isopen &&
@@ -83,7 +83,7 @@ export const WidgetCategoriesListShowMoreButton = styled.button`
   display: inline;
   border: none;
   background: transparent;
-  color: #999;
+  color: ${(props) => `${props.theme.colors.selectdisabledfontcolor}`};
   font-size: 14px;
   font-family: inherit;
   margin-top: 4px;

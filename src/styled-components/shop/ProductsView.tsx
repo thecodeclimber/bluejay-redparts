@@ -37,7 +37,7 @@ export const ProductViewEmpty = styled.div`
 
 export const ProductViewEmptyTitle = styled.div`
   font-size: 22px;
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
 `;
 
 export const ProductViewEmptySubTitle = styled.div`
@@ -48,11 +48,11 @@ export const ProductsViewEmptyAction = styled.div`
   margin-top: 1.25rem;
 `;
 export const ProductViewOption = styled.div`
-    background-color: ${(props) => `${props.theme.colors.white}`};
-    box-shadow: 0 1px 3px ${(props) => `${props.theme.colors.shadowcolor}`};
-    margin-bottom: 20px;
-    font-size: 0.9375rem;
-    overflow: hidden;
+  background-color: ${(props) => `${props.theme.colors.white}`};
+  box-shadow: 0 1px 3px ${(props) => `${props.theme.colors.shadowcolor}`};
+  margin-bottom: 20px;
+  font-size: 0.9375rem;
+  overflow: hidden;
 `;
 
 export const ViewOptionsBody = styled.div`
@@ -141,7 +141,7 @@ export const FilterButtonTitle = styled.span`
 
 export const FilterButtonCounter = styled.span`
   background: ${(props) => `${props.theme.colors.primary}`};
-  color: #fff;
+  color: ${(props) => `${props.theme.colors.white}`};
   padding: 3px 4px 2px;
   font-size: 11px;
   border-radius: 1.5px;

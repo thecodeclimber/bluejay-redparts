@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 
 export const FooterNewsLetter = styled.div`
   display: block;
-  @media (max-width: 767.98px) {
+  @media (max-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
     text-align: center;
     margin-top: 28px;
   }
@@ -10,10 +10,10 @@ export const FooterNewsLetter = styled.div`
 
 export const FooterNewsLetterTitle = styled.h5`
   font-size: 20px;
-  color: #fff;
+  color: ${(props) => `${props.theme.colors.white}`};
   margin-bottom: 26px;
-  font-weight: 400;
-  @media (max-width: 767.98px) {
+  font-weight: ${(props) => `${props.theme.fontWeight.normal}`};
+  @media (max-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
     font-size: 24px;
     margin-bottom: 16px;
   }
@@ -28,7 +28,7 @@ export const FooterNewsLetterText = styled.div`
 export const FooterNewsLetterForm = styled.form`
   display: flex;
   max-width: 380px;
-  @media (max-width: 767.98px) {
+  @media (max-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
     margin: 0 auto;
   }
 `;
@@ -47,9 +47,9 @@ export const FooterNewsLetterFormInput = styled.input`
   border-style: solid;
   background-clip: padding-box;
   transition: border 0.2s, background 0.2s;
-  color: #fff;
-  background-color: #4c4c4c;
-  border-color: #4c4c4c;
+  color: ${(props) => `${props.theme.colors.white}`};
+  background-color: ${(props) => `${props.theme.colors.lightGrey}`};
+  border-color: ${(props) => `${props.theme.colors.lightGrey}`};
   &:hover {
     background-color: rgba(255, 255, 255, 0.16);
     border-color: rgba(24, 11, 11, 0.16);
@@ -69,8 +69,8 @@ export const FooterNewsLetterFormButton = styled.button`
   font-family: inherit;
   font-size: 15px;
   transition: background 0.2s, color 0.2s;
-  background-color: #1e74df;
-  color: #fff;
+  background-color: ${(props) => `${props.theme.colors.activebordercolor}`};
+  color: ${(props) => `${props.theme.colors.white}`};
   margin-left: 8px;
   &:hover {
     background-color: rgba(255, 255, 255, 0.16);
@@ -78,8 +78,8 @@ export const FooterNewsLetterFormButton = styled.button`
   }
   &:active {
     transition-duration: 0.1s, 0.1s;
-    background-color: #4c4c4c;
-    color: #fff;
+    background-color: ${(props) => `${props.theme.colors.lightGrey}`};
+    color: ${(props) => `${props.theme.colors.white}`};
   }
   &:focus {
     outline: none;
@@ -88,7 +88,7 @@ export const FooterNewsLetterFormButton = styled.button`
 
 export const FooterNewsLetterSocialLinks = styled.div`
   margin-top: 8px;
-  @media (max-width: 767.98px) {
+  @media (max-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
     margin-top: 12px;
     display: flex;
     justify-content: center;
@@ -115,39 +115,39 @@ export const SocialLinksItems = styled.li`
   ${(props: { link?: string }) => {
     if (props.link === 'facebook') {
       return css`
-        background: #3c5a99;
-        color: #fff;
+        background: ${(props) => `${props.theme.colors.facebook}`};
+        color: ${(props) => `${props.theme.colors.white}`};
         border-radius: 50%;
       `;
     }
     if (props.link === 'twitter') {
       return css`
-        background: #00a2e8;
-        color: #fff;
+        background: ${(props) => `${props.theme.colors.twitter}`};
+        color: ${(props) => `${props.theme.colors.white}`};
         border-radius: 50%;
       `;
     }
 
     if (props.link === 'youtube') {
       return css`
-        background: #e52e2e;
-        color: #fff;
+        background: ${(props) => `${props.theme.colors.youtube}`};
+        color: ${(props) => `${props.theme.colors.white}`};
         border-radius: 50%;
       `;
     }
 
     if (props.link === 'instagram') {
       return css`
-        background: #815dc7;
-        color: #fff;
+        background: ${(props) => `${props.theme.colors.instagram}`};
+        color: ${(props) => `${props.theme.colors.white}`};
         border-radius: 50%;
       `;
     }
 
     if (props.link === 'rss') {
       return css`
-        background: #ffc338;
-        color: #664729;
+        background: ${(props) => `${props.theme.colors.rss}`};
+        color: ${(props) => `${props.theme.colors.browncolor}`};
         border-radius: 50%;
       `;
     }

@@ -1,9 +1,9 @@
 import styled, { css } from 'styled-components';
 
 export const AccountNav = styled.div`
-  background-color: #fff;
+  background-color: ${(props) => `${props.theme.colors.white}`};
   box-shadow: 0 1px 3px rgb(0 0 0 / 9%);
-  @media (max-width: 991.98px) {
+  @media (max-width: ${(props) => `${props.theme.breakPoints.md}`}px) {
     overflow-x: auto;
     max-width: 100%;
   }
@@ -12,9 +12,9 @@ export const AccountNav = styled.div`
 export const AccountNavTitle = styled.h4`
   padding: 1.375rem 1.5rem;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   margin-bottom: 0;
-  @media (max-width: 991.98px) {
+  @media (max-width: ${(props) => `${props.theme.breakPoints.md}`}px) {
     display: none;
   }
 `;
@@ -26,11 +26,11 @@ export const AccountNavList = styled.ul`
   font-size: 15px;
   line-height: 20px;
 
-  @media (min-width: 992px) {
+  @media (min-width: ${(props) => `${props.theme.breakPoints.md}`}px) {
     padding-bottom: 1.375rem;
   }
 
-  @media (max-width: 991.98px) {
+  @media (max-width: ${(props) => `${props.theme.breakPoints.md}`}px) {
     display: flex;
     white-space: nowrap;
     padding: 0 8px;
@@ -39,7 +39,7 @@ export const AccountNavList = styled.ul`
 
 export const AccountNavItem = styled.li`
   &:hover {
-    background: #f2f2f2;
+    background: ${(props) => `${props.theme.colors.tagBgColor}`};
   }
   > a {
     cursor: pointer;
@@ -49,23 +49,25 @@ export const AccountNavItem = styled.li`
     width: 100%;
     background: transparent;
     text-align: left;
-    color: #6c757d;
+    color: ${(props) => `${props.theme.colors.listcolor}`};
     &:focus {
       outline: none;
     }
-    @media (max-width: 991.98px) {
+    @media (max-width: ${(props) => `${props.theme.breakPoints.md}`}px) {
       padding: 14px 20px;
     }
     ${(props: { active?: boolean }) =>
       props.active &&
       css`
         color: inherit;
-        font-weight: 500;
-        @media (min-width: 992px) {
-          box-shadow: 3px 0 #1e74df inset;
+        font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
+        @media (min-width: ${(props) => `${props.theme.breakPoints.md}`}px) {
+          box-shadow: 3px 0 ${(props) =>
+            `${props.theme.colors.primary}`}; inset;
         }
-        @media (max-width: 991.98px) {
-          box-shadow: 0 -3px #1e74df inset;
+        @media (min-width: ${(props) => `${props.theme.breakPoints.md}`}px) {
+          box-shadow: 0 -3px ${(props) =>
+            `${props.theme.colors.primary}`}; inset;
         }
       `}
   }
@@ -73,13 +75,13 @@ export const AccountNavItem = styled.li`
 
 export const AccountNavDevider = styled.li`
   height: 1px;
-  background: #ebebeb;
+  background: ${(props) => `${props.theme.colors.blockBrandDivider}`};
   margin: 10px 0;
 `;
 
 export const ActiveNavItemButton = styled.li`
   &:hover {
-    background: #f2f2f2;
+    background: ${(props) => `${props.theme.colors.tagBgColor}`};
   }
   > button {
     cursor: pointer;
@@ -89,7 +91,7 @@ export const ActiveNavItemButton = styled.li`
     width: 100%;
     background: transparent;
     text-align: left;
-    color: #6c757d;
+    color: ${(props) => `${props.theme.colors.listcolor}`};
     &:focus {
       outline: none;
     }
@@ -98,6 +100,6 @@ export const ActiveNavItemButton = styled.li`
     props.active &&
     css`
       color: inherit;
-      font-weight: 500;
+      font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
     `}
 `;

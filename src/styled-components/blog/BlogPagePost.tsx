@@ -123,7 +123,9 @@ export const PostViewItemPost = styled.div`
   max-width: 760px;
   direction: ltr;
   margin-inline-start: 48px;
-  @media (min-width: 768px) and (max-width: 1199.98px) {
+  @media (min-width: ${(props) =>
+      `${props.theme.breakPoints.sm}`}px) and (max-width: ${(props) =>
+      `${props.theme.breakPoints.lg}`}px) {
     margin-inline-start: 36px;
   }
 `;
@@ -131,7 +133,9 @@ export const PostViewItemPost = styled.div`
 export const PostViewItem = styled.div`
   direction: ltr;
   margin-inline-start: 48px;
-  @media (min-width: 768px) and (max-width: 1199.98px) {
+  @media (min-width: ${(props) =>
+      `${props.theme.breakPoints.sm}`}px) and (max-width: ${(props) =>
+      `${props.theme.breakPoints.lg}`}px) {
     margin-inline-start: 36px;
   }
 `;

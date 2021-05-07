@@ -18,7 +18,7 @@ export const SideBarTitle = styled.div`
   }
 `;
 export const SideBarContent = styled.div`
-  @media (max-width: 991.98px) {
+  @media (max-width: ${(props) => `${props.theme.breakPoints.md}`}px) {
     flex-grow: 1;
   }
 `;

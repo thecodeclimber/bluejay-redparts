@@ -54,7 +54,7 @@ export const WishlistRow = styled.div`
 
 const WishlistColumn = css`
   padding: 14px 16px;
-  @media (max-width: 767.98px) {
+  @media (max-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
     display: block;
   }
   @media (min-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
@@ -93,7 +93,9 @@ const WishlistColumnStock = css`
     width: 1px;
     white-space: nowrap;
   }
-  @media (min-width: 768px) and (max-width: 991.98px) {
+  @media (min-width: ${(props) =>
+      `${props.theme.breakPoints.sm}`}px) and (max-width: ${(props) =>
+      `${props.theme.breakPoints.md}`}px) {
     direction: ltr;
     padding-left: 0;
   }

@@ -22,9 +22,9 @@ export const DepartmentsButton = styled.button`
   height: 100%;
   width: 230px;
   text-align: left;
-  background: #fff;
-  color: #262626;
-  font-weight: 500;
+  background: ${(props) => `${props.theme.colors.white}`};
+  color: ${(props) => `${props.theme.colors.selectfontcolor}`};
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   position: relative;
   fill: currentColor;
   text-transform: none;
@@ -35,10 +35,12 @@ export const DepartmentsButton = styled.button`
   font-size: 15px;
   transition: background-color 0.2s, color 0.2s;
   &:hover {
-    background: #333;
-    color: #fff;
+    background: ${(props) => `${props.theme.colors.blockFinderBgColor}`};
+    color: ${(props) => `${props.theme.colors.white}`};
   }
-  @media (min-width: 1200px) and (max-width: 1399.98px) {
+  @media (min-width: ${(props) =>
+      `${props.theme.breakPoints.lg}`}px) and (max-width: ${(props) =>
+      `${props.theme.breakPoints.xl}`}px) {
     width: 210px;
   }
 `;
@@ -96,9 +98,9 @@ export const DepartmentsBody = styled.div`
   pointer-events: auto;
   display: flex;
   float: left;
-  background-color: #fff;
+  background-color: ${(props) => `${props.theme.colors.white}`};
   box-shadow: 0 2px 20px rgb(0 0 0 / 20%);
-  color: #262626;
+  color: ${(props) => `${props.theme.colors.selectfontcolor}`};
 `;
 
 export const DepartmentsList = styled.ul`
@@ -108,14 +110,18 @@ export const DepartmentsList = styled.ul`
   padding: 0;
   font-size: 15px;
   line-height: 20px;
-  font-weight: 500;
-  @media (min-width: 1200px) and (max-width: 1399.98px) {
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
+  @media (min-width: ${(props) =>
+      `${props.theme.breakPoints.lg}`}px) and (max-width: ${(props) =>
+      `${props.theme.breakPoints.xl}`}px) {
     width: 210px;
   }
 `;
 
 export const DepartmentsListPadding = styled.li`
-  @media (min-width: 1200px) and (max-width: 1399.98px) {
+  @media (min-width: ${(props) =>
+      `${props.theme.breakPoints.lg}`}px) and (max-width: ${(props) =>
+      `${props.theme.breakPoints.xl}`}px) {
     height: 10px;
   }
 `;
@@ -128,9 +134,11 @@ export const DepartmentsItemLink = styled.a`
   width: 100%;
   &:hover {
     color: inherit;
-    background-color: #ebebeb;
+    background-color: ${(props) => `${props.theme.colors.blockBrandDivider}`};
   }
-  @media (min-width: 1200px) and (max-width: 1399.98px) {
+  @media (min-width: ${(props) =>
+      `${props.theme.breakPoints.lg}`}px) and (max-width: ${(props) =>
+      `${props.theme.breakPoints.xl}`}px) {
     padding: 6px 26px 6px 17px;
   }
 `;
@@ -140,15 +148,17 @@ export const DepartmentsItemList = styled.li`
     props.itemHover &&
     css`
       color: inherit;
-      background-color: #ebebeb;
+      background-color: ${(props) => `${props.theme.colors.blockBrandDivider}`};
     `}
 `;
 
 export const DepartmentsItemArrow = styled.span`
-  fill: #bfbfbf;
+  fill: ${(props) => `${props.theme.colors.widgetsearchbuttoncolor}`};
   position: absolute;
   top: calc(50% - 12px);
-    @media (min-width: 1200px) and (max-width: 1399.98px) {
+  @media (min-width: ${(props) =>
+      `${props.theme.breakPoints.lg}`}px) and (max-width: ${(props) =>
+      `${props.theme.breakPoints.xl}`}px) {
     right: 11px;
     transform: scaleX(1);
   }

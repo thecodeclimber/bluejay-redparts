@@ -32,7 +32,7 @@ export const FilterListTitle = styled.span`
   ${(props: { item?: boolean }) =>
     props.item &&
     css`
-      color: #6c757d;
+      color: ${(props) => `${props.theme.colors.listcolor}`};
     `}
 `;
 
@@ -41,5 +41,5 @@ export const FilterListCounter = styled.span`
   font-size: 12px;
   line-height: 12px;
   margin-left: 12px;
-  color: #6c757d;
+  color: ${(props) => `${props.theme.colors.listcolor}`};
 `;

@@ -58,7 +58,7 @@ export const CategoriesListItem = styled.li`
   a {
     display: block;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
     line-height: 20px;
     color: inherit;
   }

@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
 export const CardStyledComponent = styled.div`
-  background-color: #fff;
+  background-color: ${(props) => `${props.theme.colors.white}`};
   box-shadow: 0 1px 3px rgb(0 0 0 / 9%);
   border: none;
   border-radius: 0;
@@ -25,7 +25,7 @@ export const CardHeader = styled.div`
 
 export const CardDivider = styled.div`
   height: 1px;
-  background: #ebebeb;
+  background: ${(props) => `${props.theme.colors.blockBrandDivider}`};
 `;
 
 export const CardTable = styled.div`
@@ -72,7 +72,7 @@ export const CardTable = styled.div`
   tbody,
   tfoot {
     tr:hover > * {
-      background-color: #f7f7f7;
+      background-color: ${(props) => `${props.theme.colors.tabbgcolor}`};
     }
   }
   th,

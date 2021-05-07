@@ -110,7 +110,7 @@ export const BlockFeaturesItemTitle = styled.div`
   font-size: 18px;
   line-height: 1.125;
   padding: 0.1666666667em 0;
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   @media (max-width: ${(props) => `${props.theme.breakPoints.xl}`}px) {
     font-size: 16px;
   }

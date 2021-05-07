@@ -30,7 +30,7 @@ export const ProductFormRow = styled.div`
 export const ProductFormTitle = styled.div`
   text-transform: uppercase;
   font-size: 11px;
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   color: ${(props) => `${props.theme.colors.titlecolor}`};
   margin-bottom: 4px;
 `;
@@ -57,7 +57,7 @@ export const InputRadioLabelTitle = styled.span`
   border-radius: 2px;
   box-shadow: 0 0 0 1px rgb(0 0 0 / 10%) inset;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   padding: 0 12px 2px;
   cursor: pointer;
   user-select: none;
@@ -142,7 +142,7 @@ export const InputRadioColorItem = styled.label`
       top: 3px;
       width: 22px;
       height: 22px;
-      background: #fff;
+      background: ${(props) => `${props.theme.colors.white}`};
       transform: scale(0);
       transition: transform 0.2s;
     }

@@ -2,13 +2,13 @@ import styled, { css } from 'styled-components';
 
 export const MenuStyledComponent = styled.div`
   display: block;
-  color: #262626;
-  background-color: #fff;
+  color: ${(props) => `${props.theme.colors.selectfontcolor}`};
+  background-color: ${(props) => `${props.theme.colors.white}`};
   box-shadow: 0 1px 15px rgb(0 0 0 / 10%), 0 1px 3px rgb(0 0 0 / 10%);
   width: 200px;
   font-size: 15px;
   line-height: 22px;
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
 `;
 
 export const MenuItemHasSubmenu = styled.div`
@@ -23,15 +23,6 @@ export const MenuSubmenu = styled.div`
   visibility: hidden;
   transition: opacity 0.2s;
 `;
-
-// const MenuSubmenuClose = css`
-//   left: 100%;
-//   position: absolute;
-//   top: -8px;
-//   visibility: hidden;
-//   opacity: 0;
-//   transition: opacity 0.2s;
-// `;
 
 export const MenuItem = styled.li`
   ${(props: { submenu?: boolean }) =>
@@ -64,13 +55,14 @@ export const MenuLink = styled.div`
       padding: 5px 28px 5px 16px;
       &:hover {
         color: inherit;
-        background-color: #ebebeb;
+        background-color: ${(props) =>
+          `${props.theme.colors.blockBrandDivider}`};
       }
     `}
 `;
 
 export const MenuArrow = styled.span`
-  fill: #bfbfbf;
+  fill: ${(props) => `${props.theme.colors.widgetsearchbuttoncolor}`};
   position: absolute;
   top: calc(50% - 12px);
   right: 14px;

@@ -152,11 +152,15 @@ export const CategoryCardLayoutOverLay = styled.div`
     margin-right: 36px;
     width: 285px;
   }
-  @media (min-width: 992px) and (max-width: 1199.98px) {
+  @media (min-width: ${(props) =>
+      `${props.theme.breakPoints.md}`}px) and (max-width: ${(props) =>
+      `${props.theme.breakPoints.lg}`}px) {
     margin-right: 28px;
     width: 264px;
   }
-  @media (min-width: 768px) and (max-width: 991.98px) {
+  @media (min-width: ${(props) =>
+      `${props.theme.breakPoints.sm}`}px) and (max-width: ${(props) =>
+      `${props.theme.breakPoints.md}`}px) {
     margin-right: 24px;
     width: 232px;
   }
@@ -171,10 +175,14 @@ export const BlockZoneWidget = styled.div`
   @media (max-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
     margin-top: 16px;
   }
-  @media (min-width: 992px) and (max-width: 1199.98px) {
+  @media (min-width: ${(props) =>
+      `${props.theme.breakPoints.md}`}px) and (max-width: ${(props) =>
+      `${props.theme.breakPoints.lg}`}px) {
     width: calc(100% - 292px);
   }
-  @media (min-width: 768px) and (max-width: 991.98px) {
+  @media (min-width: ${(props) =>
+      `${props.theme.breakPoints.sm}`}px) and (max-width: ${(props) =>
+      `${props.theme.breakPoints.md}`}px) {
     width: calc(100% - 256px);
   }
 `;
@@ -210,7 +218,7 @@ export const BlockZoneTabsButton = styled.button`
   font-family: inherit;
   color: inherit;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   border-bottom: 2px solid
     ${(props) => `${props.theme.colors.widgetauthorbordercolor}`};
   transition: background 0.12s, border-color 0.12s;
