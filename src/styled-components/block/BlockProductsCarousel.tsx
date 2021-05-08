@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import ProductCard from '~/components/shared/ProductCard';
 
 export const BlockProductsCarouselCarouselLoaderSiteFooter = styled.div`
@@ -40,6 +40,13 @@ export const BlockProductsCarouselCarouselLoaderSiteFooter = styled.div`
     display: block;
     content: '';
   }
+  ${(props: { isLoading?: boolean }) =>
+    props.isLoading &&
+    css`
+      visibility: visible;
+      transition-delay: 0s;
+      opacity: 1;
+    `}
 `;
 
 export const BlockProductsCarouselColumn = styled.div`
@@ -58,5 +65,37 @@ export const BlockProductsCarouselCell = styled(ProductCard)`
 
   .product-card {
     width: 100%;
+  }
+`;
+
+export const BlockProductsCarouselCarousel = styled.div`
+  position: relative;
+
+  .slick-track {
+    display: flex;
+    align-items: stretch;
+  }
+
+  .slick-list {
+    margin: 10px calc(18px);
+    padding: 10px 0;
+  }
+  .slick-slide {
+    padding: 0 calc(20px);
+    height: auto;
+    display: flex;
+
+    & > div,
+    & > div > div {
+      width: 100%;
+      display: flex !important;
+      align-items: stretch;
+    }
+  }
+  .slick-slide,
+  .slick-slide > div > div {
+    &:focus {
+      outline: none;
+    }
   }
 `;

@@ -24,6 +24,11 @@ import {
   BlockSaleBody,
   BlockSaleImage,
   BlockSaleLoader,
+  BlockSaleCarousel,
+  BlockSaleItem,
+  BlockSaleHeaderDecor,
+  BlockSaleBodyDecor,
+  BlockSaleArrow,
 } from '~/styled-components/blocks/BlockSale';
 interface Props {
   products: IProduct[];
@@ -75,8 +80,9 @@ function BlockSale(props: Props) {
             <Timer time={3 * 24 * 60 * 60} />
           </BlockSaleTimer>
           <BlockSaleControls>
-            <Arrow
-              className="block-sale__arrow block-sale__arrow--prev"
+            <BlockSaleArrow
+              as={Arrow}
+              prev={true}
               direction="prev"
               onClick={handlePrevClick}
             />
@@ -85,37 +91,34 @@ function BlockSale(props: Props) {
                 <FormattedMessage id="LINK_VIEW_ALL_AVAILABLE_OFFERS" />
               </AppLink>
             </BlockSaleLink>
-            <Arrow
-              className="block-sale__arrow block-sale__arrow--next"
+            <BlockSaleArrow
+              as={Arrow}
+              next={true}
               direction="next"
               onClick={handleNextClick}
             />
-            <Decor
-              sliderdecor={true}
-              type="center"
-              className="block-sale__header-decor"
-            />
+            <BlockSaleHeaderDecor as={Decor} sliderdecor={true} type="center" />
           </BlockSaleControls>
         </BlockSaleheader>
         <BlockSaleBody>
-          <Decor type="bottom" className="block-sale__body-decor" />
+          <BlockSaleBodyDecor as={Decor} type="bottom" />
           <BlockSaleImage
             style={{ backgroundImage: `url(${baseUrl('/images/sale.jpg')})` }}
           />
           <BlockSaleLoader loading={loading ? 1 : 0} />
           <div className="container">
-            <div className="block-sale__carousel">
+            <BlockSaleCarousel>
               <AppSlick ref={slickRef} {...slickSettings}>
                 {products.map((product) => (
-                  <div key={product.id} className="block-sale__item">
+                  <BlockSaleItem key={product.id}>
                     <ProductCard
                       product={product}
                       exclude={['features', 'list-buttons']}
                     />
-                  </div>
+                  </BlockSaleItem>
                 ))}
               </AppSlick>
-            </div>
+            </BlockSaleCarousel>
           </div>
         </BlockSaleBody>
       </BlockSaleContent>

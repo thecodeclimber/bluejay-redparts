@@ -20,4 +20,7 @@ export const BlockProductsColumnsListItem = styled.div`
   display: flex;
   background-color: ${(props) => `${props.theme.colors.white}`};
   box-shadow: 0 1px 3px rgb(0 0 0 / 9%);
+  & + & {
+    margin-top: 16px;
+  }
 `;

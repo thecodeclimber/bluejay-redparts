@@ -7,6 +7,7 @@ import AppLink from '~/components/shared/AppLink';
 
 export const ProductCardStyledComponent = styled.div`
   width: 100%;
+  margin-top: 20px;
   ${(props: { layout?: any }) => {
     if (props.layout === 'grid') {
       return css`
@@ -53,7 +54,7 @@ export const ProductCardStyledComponent = styled.div`
         }
       `;
     }
-  }}
+  }};
 `;
 
 export const ProductCardActionsList = styled.div`

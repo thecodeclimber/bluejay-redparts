@@ -32,7 +32,12 @@ import {
   BlockZoneWidgetHeader,
   BlockZoneTabs,
   BlockZoneTabsButton,
+  BlockZoneArrow,
   BlockZoneWidgetBody,
+  BlockZoneCarousel,
+  BlockZoneCarouselLoader,
+  BlockZoneCarouselItem,
+  BlockZoneCarouselSlick,
 } from '~/styled-components/blocks/BlockZone';
 export interface IBlockZoneTab {
   name: string;
@@ -222,40 +227,37 @@ function BlockZone(props: Props) {
                   </BlockZoneTabsButton>
                 ))}
               </BlockZoneTabs>
-              <Arrow
-                className="block-zone__arrow block-zone__arrow--prev"
+              <BlockZoneArrow
+                as={Arrow}
                 direction="prev"
                 onClick={handlePrevClick}
               />
-              <Arrow
-                className="block-zone__arrow block-zone__arrow--next"
+              <BlockZoneArrow
+                as={Arrow}
+                next
                 direction="next"
                 onClick={handleNextClick}
               />
             </BlockZoneWidgetHeader>
             <BlockZoneWidgetBody>
-              <div
-                className={classNames('block-zone__carousel', {
-                  'block-zone__carousel--loading': isLoading,
-                })}
-              >
-                <div className="block-zone__carousel-loader" />
+              <BlockZoneCarousel>
+                <BlockZoneCarouselLoader isLoading={isLoading} />
 
-                <AppSlick
-                  className="block-zone__carousel-slick"
+                <BlockZoneCarouselSlick
+                  as={AppSlick}
                   ref={slickRef}
                   {...slickSettings}
                 >
                   {products.map((product) => (
-                    <div key={product.id} className="block-zone__carousel-item">
+                    <BlockZoneCarouselItem key={product.id}>
                       <ProductCard
                         product={product}
                         exclude={excludeElements}
                       />
-                    </div>
+                    </BlockZoneCarouselItem>
                   ))}
-                </AppSlick>
-              </div>
+                </BlockZoneCarouselSlick>
+              </BlockZoneCarousel>
             </BlockZoneWidgetBody>
           </BlockZoneWidget>
         </BlockZoneBody>

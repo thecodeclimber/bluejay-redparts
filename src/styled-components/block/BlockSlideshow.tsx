@@ -167,3 +167,41 @@ export const BlockSlideshowItemButton = styled.span`
     margin-top: 20px;
   }
 `;
+
+export const BlockSlideshowCarousel = styled.div`
+  .slick-dots {
+    width: 100%;
+    position: absolute;
+    bottom: 26px;
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+    margin: 0;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      padding: (10px / 2);
+    }
+
+    button {
+      width: 12px;
+      height: 12px;
+      padding: 0;
+      border: none;
+      border-radius: 12px / 2;
+      background: rgba(#000, 0.12);
+
+      &:focus {
+        outline: none;
+      }
+
+      &:hover {
+        background: rgba(#000, 0.22);
+      }
+    }
+    .slick-active button {
+      background: #1e74df;
+    }
+  }
+`;

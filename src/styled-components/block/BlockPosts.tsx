@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-const BlockProductsCarouselGutter = "20px";
+const BlockProductsCarouselGutter = '20px';
 
 export const BlockPostsCarouselLoader = styled.div`
   left: 0;
@@ -19,7 +19,7 @@ export const BlockPostsCarouselLoader = styled.div`
     top: -10px;
     width: calc(100% + 20px);
     height: calc(100% + 20px);
-    background: ${props => `${props.theme.colors.cardbgcolor}`};
+    background: ${(props) => `${props.theme.colors.cardbgcolor}`};
     opacity: 0.9;
   }
   &:after {
@@ -60,4 +60,36 @@ export const BlockPostsCarouselayout = styled.div`
         opacity: 1;
       }
     `}
+`;
+
+export const BlockPostsCarouselCarousel = styled.div`
+  position: relative;
+
+  .slick-track {
+    display: flex;
+    align-items: stretch;
+  }
+
+  .slick-list {
+    margin: 10px calc(18px);
+    padding: 10px 0;
+  }
+  .slick-slide {
+    padding: 0 calc(10px);
+    height: auto;
+    display: flex;
+
+    & > div,
+    & > div > div {
+      width: 100%;
+      display: flex !important;
+      align-items: stretch;
+    }
+  }
+  .slick-slide,
+  .slick-slide > div > div {
+    &:focus {
+      outline: none;
+    }
+  }
 `;

@@ -7,6 +7,7 @@ import {
   BlockBlockProduct,
   BlockProductsColumnsTitle,
   BlockProductColumnList,
+  BlockProductsColumnsListItem,
 } from '~/styled-components/blocks/BlockProductsColumns';
 export interface IBlockProductsColumnsItem {
   title: string;
@@ -31,10 +32,7 @@ function BlockProductsColumns(props: Props) {
               </BlockProductsColumnsTitle>
               <BlockProductColumnList>
                 {column.products.map((product) => (
-                  <div
-                    key={product.id}
-                    className="block-products-columns__list-item"
-                  >
+                  <BlockProductsColumnsListItem key={product.id}>
                     <ProductCard
                       product={product}
                       exclude={[
@@ -45,7 +43,7 @@ function BlockProductsColumns(props: Props) {
                         'meta',
                       ]}
                     />
-                  </div>
+                  </BlockProductsColumnsListItem>
                 ))}
               </BlockProductColumnList>
             </div>

@@ -150,9 +150,136 @@ export const BlockSaleLoader = styled.div`
     `}
 `;
 
+export const BlockSaleHeaderDecor = styled.div`
+  position: absolute;
+  width: 100%;
+  bottom: 1px;
+  left: 0;
+  z-index: -1;
+`;
+
+export const BlockSaleBodyDecor = styled.div`
+  bottom: -1px;
+`;
+
 export const BlockSaleItem = styled.div`
   height: 100%;
   display: flex;
   justify-content: stretch;
   width: 100%;
+`;
+
+const ArrowPrev = css`
+  direction: ltr;
+  left: -49.7957px;
+`;
+
+const ArrowNext = css`
+  direction: ltr;
+  right: -49.7957px;
+`;
+
+export const BlockSaleArrow = styled.div`
+  position: absolute;
+  z-index: 1;
+  bottom: 3px;
+  ${(props: { prev?: any; next?: any }) => {
+    if (props.prev) {
+      return ArrowPrev;
+    }
+    return ArrowNext;
+  }}
+`;
+
+export const BlockSaleCarousel = styled.div`
+  .slick-track {
+    display: flex;
+    align-items: stretch;
+  }
+  .slick-list {
+    margin: 10px calc(24px / 2 * -1);
+    padding: 10px 0;
+  }
+  .slick-slide {
+    padding: 0 calc(12px);
+    height: auto;
+    display: flex;
+
+    & > div,
+    & > div > div {
+      width: 100%;
+      display: flex !important;
+      align-items: stretch;
+    }
+  }
+  .slick-slide,
+  .slick-slide > div > div {
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .slick-dots {
+    width: auto;
+    position: static;
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+    margin: 28px 0 -18px;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      padding: 6px;
+    }
+
+    button {
+      width: 10px;
+      height: 10px;
+      padding: 0;
+      border: none;
+      border-radius: 5px;
+      background: rgba(#fff, 0.3);
+      &:focus {
+        outline: none;
+      }
+      &:hover {
+        background: rgba(#fff, 0.5);
+      }
+    }
+    .slick-active button {
+      background: #1e74df;
+    }
+  }
+
+  .owl-dots {
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: (-10px - 28px);
+  }
+  .owl-carousel .owl-dot {
+    &:before {
+      display: block;
+      content: '';
+      width: 10px;
+      height: 10px;
+      border-radius: (10px / 2);
+      background: rgba(#fff, 0.3);
+      transition: background 0.12s;
+      margin: 6px;
+    }
+    &:focus {
+      outline: none;
+    }
+    &:hover:before {
+      background: rgba(#fff, 0.5);
+    }
+    &:active:before {
+      background: rgba(#fff, 0.7);
+    }
+    &.active:before {
+      background: #1e74df;
+    }
+  }
 `;

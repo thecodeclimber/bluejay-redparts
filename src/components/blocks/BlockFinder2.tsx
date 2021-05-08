@@ -10,6 +10,9 @@ import {
   BlockFinderBody,
   BlockFinderTitle,
   BlockFinderSubtitle,
+  BlockFinderForm,
+  BlockFinderSelect,
+  BlockFinderButton,
 } from '~/styled-components/blocks/BlockFinder2';
 import url from '~/services/url';
 import VehicleSelect from '~/components/shared/VehicleSelect';
@@ -54,16 +57,12 @@ function BlockFinder() {
         <BlockFinderSubtitle>
           <FormattedMessage id="TEXT_BLOCK_FINDER_SUBTITLE" />
         </BlockFinderSubtitle>
-        <form className="block-finder__form" onSubmit={onSubmit}>
-          <VehicleSelect
-            className="block-finder__select"
-            onVehicleChange={setVehicle}
-          />
-
-          <button className="block-finder__button" type="submit">
+        <BlockFinderForm onSubmit={onSubmit}>
+          <BlockFinderSelect onVehicleChange={setVehicle} />
+          <BlockFinderButton type="submit">
             <FormattedMessage id="BUTTON_BLOCK_FINDER_SEARCH" />
-          </button>
-        </form>
+          </BlockFinderButton>
+        </BlockFinderForm>
       </BlockFinderBody>
     </BlockFinderStyledComponent>
   );

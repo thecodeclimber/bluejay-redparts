@@ -10,6 +10,7 @@ import {
   BlockTeammatesItem,
   BlockmateInfo,
   BlockmatePosition,
+  BlockTeammatesList,
 } from '~/styled-components/blocks/BlockTeammates';
 // data
 import dataSiteTeammates from '~/data/siteTeammates';
@@ -61,7 +62,7 @@ function BlockTeammates() {
         <BlockTeammatesSubTitle>
           Meet this is our professional team.
         </BlockTeammatesSubTitle>
-        <div className="block-teammates__list">
+        <BlockTeammatesList>
           <AppSlick {...slickSettings}>
             {dataSiteTeammates.map((teammate, index) => (
               <BlockTeammatesItem key={index}>
@@ -75,7 +76,7 @@ function BlockTeammates() {
               </BlockTeammatesItem>
             ))}
           </AppSlick>
-        </div>
+        </BlockTeammatesList>
       </div>
     </BlockBlockTeammates>
   );

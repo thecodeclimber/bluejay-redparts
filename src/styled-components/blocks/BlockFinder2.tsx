@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Decor from '~/components/shared/Decor';
+import VehicleSelect from '~/components/shared/VehicleSelect';
 
 export const BlockFinderStyledComponent = styled.div`
   position: relative;
@@ -49,5 +50,28 @@ export const BlockFinderSubtitle = styled.div`
   text-shadow: ${(props) => `${props.theme.boxShadow.blockFinderTextShadow}`};
 `;
 
+export const BlockFinderForm = styled.form`
+  display: flex;
+  align-items: center;
+  margin: -7px;
+`;
 
+export const BlockFinderSelect = styled(VehicleSelect)`
+  width: 100%;
+  margin: 7px;
+`;
 
+export const BlockFinderButton = styled.button`
+  height: 44px;
+  min-height: 44px;
+  border-radius: 2px;
+  border: none;
+  padding: 0 40px;
+  transition: background 0.2s, color 0.2s;
+  background-color: ${(props) => `${props.theme.colors.primary}`};
+  color: ${(props) => `${props.theme.colors.white}`};
+  &:hover {
+    background-color: ${(props) => `${props.theme.colors.grey}`};
+    color: ${(props) => `${props.theme.colors.white}`};
+  }
+`;

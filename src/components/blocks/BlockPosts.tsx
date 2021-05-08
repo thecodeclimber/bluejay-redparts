@@ -8,7 +8,8 @@ import {
   BlockPostsCarouselayout,
   BlockPostsCarouselLoader,
   BlockPostsCarouselItem,
-  BlockPostsCarousel
+  BlockPostsCarousel,
+  BlockPostsCarouselCarousel,
 } from '~/styled-components/block/BlockPosts';
 import AppSlick, { ISlickProps } from '~/components/shared/AppSlick';
 import PostCard from '~/components/shared/PostCard';
@@ -72,7 +73,7 @@ function BlockPosts(props: Props) {
   const rootClasses = classNames(
     'block',
     'block-posts-carousel',
-    `block-posts-carousel--layout--${layout}`,
+    `block-posts-carousel--layout--${layout}`
   );
 
   return (
@@ -85,23 +86,17 @@ function BlockPosts(props: Props) {
           onNext={handleNextClick}
           onPrev={handlePrevClick}
         />
-        <BlockPostsCarousel
-          className={classNames('block-posts-carousel__carousel', {
-            'block-posts-carousel__carousel--has-items': posts.length < 0,
-          })}
-        >
+        <BlockPostsCarouselCarousel>
           <BlockPostsCarouselLoader />
 
           <AppSlick ref={slickRef} {...slickSettings[layout]}>
             {posts.map((post) => (
-              <BlockPostsCarouselItem
-                key={post.id}
-              >
+              <BlockPostsCarouselItem key={post.id}>
                 <PostCard post={post} />
               </BlockPostsCarouselItem>
             ))}
           </AppSlick>
-        </BlockPostsCarousel>
+        </BlockPostsCarouselCarousel>
       </div>
     </BlockPostsCarouselayout>
   );

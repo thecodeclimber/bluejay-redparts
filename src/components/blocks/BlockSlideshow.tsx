@@ -9,7 +9,8 @@ import {
   BlockSlideshowItemOffer,
   BlockSlideshowItemDetails,
   BlockSlideshowItemButton,
-  BlockSlideshowItemTitle
+  BlockSlideshowItemTitle,
+  BlockSlideshowCarousel,
 } from '~/styled-components/block/BlockSlideshow';
 import AppSlick, { ISlickProps } from '~/components/shared/AppSlick';
 import { baseUrl } from '~/services/utils';
@@ -43,12 +44,11 @@ function BlockSlideshow(props: Props) {
   return (
     <div className="block">
       <div className="container">
-        <div className="block-slideshow__carousel">
+        <BlockSlideshowCarousel>
           <AppSlick {...slickSettings}>
             {slides.map((slide, slideIdx) => (
               <BlockSlideshowItem href={slide.url} key={slideIdx}>
                 <BlockSlideshowItemImage
-                
                   style={{
                     backgroundImage: `url(${baseUrl(slide.desktopImage)})`,
                   }}
@@ -68,7 +68,6 @@ function BlockSlideshow(props: Props) {
                   dangerouslySetInnerHTML={{ __html: slide.title }}
                 />
                 <BlockSlideshowItemDetails
-
                   dangerouslySetInnerHTML={{ __html: slide.details }}
                 />
                 <BlockSlideshowItemButton>
@@ -77,7 +76,7 @@ function BlockSlideshow(props: Props) {
               </BlockSlideshowItem>
             ))}
           </AppSlick>
-        </div>
+        </BlockSlideshowCarousel>
       </div>
     </div>
   );
