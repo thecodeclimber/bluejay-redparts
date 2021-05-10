@@ -3,11 +3,11 @@ import styled, { css } from 'styled-components';
 export const DropcartStyledComponent = styled.div`
   display: block;
   width: 320px;
-  background-color: #fff;
+  background-color: ${(props) => `${props.theme.colors.white}`};
   box-shadow: 0 2px 20px rgb(0 0 0 / 20%);
   border-radius: 1.5px;
   padding: 24px;
-  color: #262626;
+  color: ${(props) => `${props.theme.colors.selectfontcolor}`};
 `;
 
 export const DropcartEmpty = styled.div`
@@ -67,7 +67,7 @@ export const DropcartItemNameLink = styled.div`
   ${(props: { href?: any }) =>
     props.href &&
     css`
-      color: #262626;
+      color: ${(props) => `${props.theme.colors.selectfontcolor}`};
     `}
 `;
 
@@ -78,18 +78,18 @@ export const DropcartItemMeta = styled.div`
 `;
 
 export const DropcartItemQuantity = styled.div`
-  font-weight: 400;
+  font-weight: ${(props) => `${props.theme.fontWeight.normal}`};
   position: relative;
   height: 16px;
   z-index: 0;
   font-size: 11px;
-  color: #fff;
+  color: ${(props) => `${props.theme.colors.white}`};
   padding: 1px 8.82352px 0;
   &:before {
     left: 0;
     transform: skewX(-20deg);
     transform-origin: left bottom;
-    background: #1e74df;
+    background: ${(props) => `${props.theme.colors.activebordercolor}`};
     position: absolute;
     display: block;
     content: '';
@@ -110,13 +110,13 @@ export const DropcartItemQuantity = styled.div`
     left: 0;
     border-top-left-radius: 2.5px;
     border-bottom-left-radius: 2.5px;
-    background: #1e74df;
+    background: ${(props) => `${props.theme.colors.activebordercolor}`};
   }
 `;
 
 export const DropcartItemPrice = styled.div`
-  color: #262626;
-  font-weight: 500;
+  color: ${(props) => `${props.theme.colors.selectfontcolor}`};
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   position: relative;
   height: 16px;
   z-index: 0;
@@ -126,7 +126,7 @@ export const DropcartItemPrice = styled.div`
     left: 0;
     transform: skewX(-20deg);
     transform-origin: left bottom;
-    background: #ebebeb;
+    background: ${(props) => `${props.theme.colors.bordercolor}`};
     position: absolute;
     display: block;
     content: '';
@@ -144,7 +144,7 @@ export const DropcartItemFeatures = styled.ul`
   margin-top: 2px;
   font-size: 13px;
   line-height: 17px;
-  color: #262626;
+  color: ${(props) => `${props.theme.colors.selectfontcolor}`};
 `;
 
 export const DropcartItemRemoveButton = styled.div`
@@ -159,17 +159,17 @@ export const DropcartItemRemoveButton = styled.div`
   padding: 0;
   border: none;
   fill: currentColor;
-  background-color: #fff;
-  color: #ccc;
+  background-color: ${(props) => `${props.theme.colors.white}`};
+  color: ${(props) => `${props.theme.colors.plusiconcolor}`};
   &:hover {
-    background-color: #f2f2f2;
-    color: #999;
+    background-color: ${(props) => `${props.theme.colors.tagBgColor}`};
+    color: ${(props) => `${props.theme.colors.selectdisabledfontcolor}`};
   }
 `;
 
 export const DropcartDivider = styled.div`
   height: 1px;
-  background: #ebebeb;
+  background: ${(props) => `${props.theme.colors.bordercolor}`};
   margin: 8px 0;
 `;
 
@@ -203,7 +203,7 @@ export const DropcartTabel = styled.table`
   width: 100%;
 `;
 export const DropcartTabelHeader = styled.th`
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
 `;
 
 export const DropcartTabelData = styled.td`

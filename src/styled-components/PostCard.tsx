@@ -12,7 +12,7 @@ export const PostCardCategory = styled.div`
   left: 0;
   position: absolute;
   bottom: calc(100% - 1px);
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   z-index: 0;
   font-size: 14px;
   @media (min-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
@@ -30,7 +30,7 @@ export const PostCardCategory = styled.div`
     display: block;
     content: '';
     top: 0;
-    background: #fff;
+    background: ${(props) => `${props.theme.colors.white}`};
     z-index: -1;
     height: 100%;
   }
@@ -42,7 +42,7 @@ export const PostCardCategory = styled.div`
     display: block;
     content: '';
     top: 0;
-    background: #fff;
+    background: ${(props) => `${props.theme.colors.white}`};
     z-index: -1;
     height: 100%;
   }
@@ -51,7 +51,7 @@ export const PostCardCategory = styled.div`
 export const PostCardTitle = styled.div`
   h2 {
     font-size: 26px;
-    font-weight: 500;
+    font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
     line-height: 34px;
     margin: 0;
   }
@@ -65,12 +65,12 @@ export const PostCardTitle = styled.div`
 
 export const PostCardDate = styled.div`
   font-size: 14px;
-  color: #999;
+  color: ${(props) => `${props.theme.colors.white}`};
   a {
     color: inherit;
   }
   a:hover {
-    color: #007bff;
+    color: ${(props) => `${props.theme.colors.linkcolor}`};
   }
   @media (min-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
     margin-top: 11px;
@@ -112,7 +112,7 @@ export const PostCardImage = styled.div`
 `;
 
 const postCardLayoutGrid = css`
-  background-color: #fff;
+  background-color: ${(props) => `${props.theme.colors.white}`};
   box-shadow: 0 1px 3px rgb(0 0 0 / 9%);
   ${PostCardImage}
 `;

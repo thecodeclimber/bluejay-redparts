@@ -73,7 +73,7 @@ export const WidgetProductsName = styled.div`
     transition: color 0.12s;
   }
   a:hover {
-    color: #007bff;
+    color: ${(props) => `${props.theme.colors.linkcolor}`};
   }
 `;
 

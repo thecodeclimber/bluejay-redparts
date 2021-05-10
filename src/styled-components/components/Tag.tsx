@@ -8,7 +8,7 @@ export const Tags = styled.div`
 export const TagList = styled.div`
   display: flex;
   flex-wrap: wrap;
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   margin: -2px;
   a {
     display: block;

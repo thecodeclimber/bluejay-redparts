@@ -78,7 +78,9 @@ export const BlockCardBody = styled.div`
 
 export const BlockCardContent = styled.div`
   display: flex;
-  @media (max-width: 991px) and (min-width: 475px) {
+  @media (max-width: ${(props) =>
+      `${props.theme.breakPoints.md}`}px) and (min-width: ${(props) =>
+      `${props.theme.breakPoints.xs}`}px) {
     flex-direction: column;
   }
   @media (max-width: 359px) {
@@ -100,7 +102,9 @@ export const CategoryCardImage = styled.div`
     width: 120px;
     margin: 0 26px;
   }
-  @media (max-width: 991px) and (min-width: 475px) {
+  @media (max-width: ${(props) =>
+      `${props.theme.breakPoints.md}`}px) and (min-width: ${(props) =>
+      `${props.theme.breakPoints.xs}`}px) {
     width: 132px;
     margin: 0 26px;
     padding: 20px 0;
@@ -120,7 +124,9 @@ export const CategoryCardInfo = styled.div`
   padding-bottom: 24px;
   padding-left: 0;
   padding-right: 28px;
-  @media (max-width: 991px) and (min-width: 475px) {
+  @media (max-width: ${(props) =>
+      `${props.theme.breakPoints.md}`}px) and (min-width: ${(props) =>
+      `${props.theme.breakPoints.xs}`}px) {
     padding-left: 26px;
     padding-right: 26px;
     padding-top: 0;
@@ -135,7 +141,7 @@ export const CategoryCardInfo = styled.div`
 `;
 
 export const CategoryCardName = styled.div`
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   font-size: 18px;
   line-height: 24px;
   a {
@@ -187,7 +193,7 @@ export const CategoryCardActions = styled.div`
 
 export const CategoryCardLink = styled(AppLink)`
   font-size: 14px;
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   color: ${(props) => `${props.theme.colors.linkcolor}`};
   &:hover {
     text-decoration: underline;

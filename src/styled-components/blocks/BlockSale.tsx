@@ -31,7 +31,7 @@ export const BlockSaleTitle = styled.div`
   font-size: 32px;
   font-weight: ${(props) => `${props.theme.fontWeight.bolder}`};
   line-height: 1;
-  @media (max-width: 474px) {
+  @media (max-width: ${(props) => `${props.theme.breakPoints.xs}`}px) {
     font-size: 28px;
     line-height: 30px;
   }
@@ -41,7 +41,7 @@ export const BlockSaleSubTitle = styled.div`
   color: ${(props) => `${props.theme.colors.subtitlecolor}`};
   line-height: 1;
   margin-top: 10px;
-  @media (max-width: 474px) {
+  @media (max-width: ${(props) => `${props.theme.breakPoints.xs}`}px) {
     margin-top: 6px;
     font-size: 15px;
   }
@@ -51,7 +51,7 @@ export const BlockSaleTimer = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 24px;
-  @media (max-width: 474px) {
+  @media (max-width: ${(props) => `${props.theme.breakPoints.xs}`}px) {
     margin-top: 16px;
   }
 `;
@@ -95,7 +95,7 @@ export const BlockSaleLink = styled.div`
   @media (max-width: 499px) {
     padding: 14px 20px;
   }
-  @media (max-width: 474px) {
+  @media (max-width: ${(props) => `${props.theme.breakPoints.xs}`}px) {
     padding: 13px 20px;
     min-width: 220px;
     font-size: 14px;

@@ -30,7 +30,7 @@ export const MobileIndicatorButton = styled.a`
 export const MobileIndicatorIcon = styled.span`
   display: block;
   position: relative;
-  fill: #fff;
+  fill: ${(props) => `${props.theme.colors.white}`};
 
   svg {
     display: block;
@@ -46,10 +46,10 @@ export const MobileIndicatorCounter = styled.span`
   border-radius: 6.5px;
   text-align: center;
   z-index: 0;
-  color: #fff;
-  font-weight: 500;
+  color: ${(props) => `${props.theme.colors.white}`};
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   right: -7px;
-  background-color: #333;
+  background-color: ${(props) => `${props.theme.colors.dark}`};
 
   &:before {
     display: block;
@@ -61,10 +61,10 @@ export const MobileIndicatorCounter = styled.span`
     right: 0;
     z-index: -1;
     border-radius: 2.5px;
-    background-color: #333;
+    background-color: ${(props) => `${props.theme.colors.dark}`};
     transform: skewX(-11deg);
   }
   @media (min-width: 1152px) {
-    font-weight: 400;
+    font-weight: ${(props) => `${props.theme.fontWeight.normal}`};
   }
 `;

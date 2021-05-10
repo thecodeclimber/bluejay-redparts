@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
 const TextColor = css`
-  color: #fff;
+  color: ${(props) => `${props.theme.colors.white}`};
 `;
 
 export const TopbarStyledComponent = styled.div`
@@ -13,7 +13,7 @@ export const TopbarStyledComponent = styled.div`
 
 export const TopbarItemText = styled.div`
   ${TextColor}
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   display: flex;
   -moz-box-align: center;
   align-items: center;
@@ -25,8 +25,8 @@ export const TopbarItemSpring = styled.div`
 `;
 
 export const TopbarButtonLabel = styled.div`
-  color: #9e9e9e;
-  font-weight: 400;
+  color: ${(props) => `${props.theme.colors.widgetnewslettertextcolor}`};
+  font-weight: ${(props) => `${props.theme.fontWeight.normal}`};
   margin-right: 3px;
   transition: color 0.12s;
 `;
@@ -37,11 +37,11 @@ export const TopbarItemTitle = styled.div`
 
 export const TopbarLink = styled.div`
   display: flex;
-  ${(props: { href?: string }) =>
+  ${(props: { href?: any }) =>
     props.href &&
     css`
-      color: #9e9e9e;
-      font-weight: 400;
+      color: ${(props) => `${props.theme.colors.widgetnewslettertextcolor}`};
+      font-weight: ${(props) => `${props.theme.fontWeight.normal}`};
       cursor: pointer;
       display: flex;
       transition: color 0.12s;

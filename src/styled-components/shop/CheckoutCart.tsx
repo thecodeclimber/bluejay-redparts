@@ -36,7 +36,7 @@ export const CheckoutTotalsProducts = styled.tbody`
 
 export const CheckoutTotalsSubTotals = styled.tbody`
   th {
-    font-weight: 500;
+    font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   }
   td,
   th {
@@ -59,7 +59,7 @@ export const CheckoutTotalsSubTotals = styled.tbody`
 export const CheckoutTotalsFooter = styled.tfoot`
   font-size: 24px;
   th {
-    font-weight: 500;
+    font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   }
   tr:first-child td,
   tr:first-child th {

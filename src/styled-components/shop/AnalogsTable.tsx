@@ -67,7 +67,7 @@ export const AnalogsTableProductName = styled(AppLink)`
 `;
 
 export const AnalogsTableSku = styled.div`
-  color: #6c757d;
+  color: ${(props) => `${props.theme.colors.listcolor}`};
   font-size: 13px;
   line-height: 1;
   margin-top: 1px;
@@ -85,7 +85,7 @@ export const AnalogstableRatingStars = styled.div`
 `;
 
 export const AnalogsTableRatingLabel = styled.div`
-  color: #6c757d;
+  color: ${(props) => `${props.theme.colors.listcolor}`};
   font-size: 13px;
   line-height: 1;
   @media (min-width: ${(props) => `${props.theme.breakPoints.sm}px`}) {
@@ -94,7 +94,7 @@ export const AnalogsTableRatingLabel = styled.div`
 `;
 
 export const AnalogsTableCountry = styled.div`
-  color: #6c757d;
+  color: ${(props) => `${props.theme.colors.listcolor}`};
   font-size: 13px;
   line-height: 1;
   margin-top: 1px;

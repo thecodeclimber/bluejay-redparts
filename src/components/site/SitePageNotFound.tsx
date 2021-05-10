@@ -1,61 +1,67 @@
 // react
 import React from 'react';
 // application
+import {
+  NotFound,
+  NotFound404,
+  NotFoundContent,
+  NotFoundTitle,
+  NotFoundText,
+  NotFoundSearch,
+  NotFoundSearchInput,
+} from '~/styled-components/pages/PageNotFound';
 import AppLink from '~/components/shared/AppLink';
 import BlockSpace from '~/components/blocks/BlockSpace';
 import PageTitle from '~/components/shared/PageTitle';
 import url from '~/services/url';
 
 function SitePageNotFound() {
-    return (
-        <React.Fragment>
-            <PageTitle>
-                Page Not Found
-            </PageTitle>
+  return (
+    <React.Fragment>
+      <PageTitle>Page Not Found</PageTitle>
 
-            <BlockSpace layout="spaceship-ledge-height" />
+      <BlockSpace layout="spaceship-ledge-height" />
 
-            <div className="block">
-                <div className="container">
-                    <div className="not-found">
-                        <div className="not-found__404">
-                            Oops! Error 404
-                        </div>
+      <div className="block">
+        <div className="container">
+          <NotFound>
+            <NotFound404>Oops! Error 404</NotFound404>
 
-                        <div className="not-found__content">
-                            <h1 className="not-found__title">Page Not Found</h1>
+            <NotFoundContent>
+              <NotFoundTitle as="h1">Page Not Found</NotFoundTitle>
 
-                            <p className="not-found__text">
-                                {'We can\'t seem to find the page you\'re looking for.'}
-                                <br />
-                                Try to use the search.
-                            </p>
+              <NotFoundText as="p">
+                {"We can't seem to find the page you're looking for."}
+                <br />
+                Try to use the search.
+              </NotFoundText>
 
-                            <form className="not-found__search">
-                                <input
-                                    type="text"
-                                    className="not-found__search-input form-control"
-                                    placeholder="Search Query..."
-                                />
-                                <button type="submit" className="not-found__search-button btn btn-primary">
-                                    Search
-                                </button>
-                            </form>
+              <NotFoundSearch as="form">
+                <NotFoundSearchInput
+                  as="input"
+                  type="text"
+                  className="form-control"
+                  placeholder="Search Query..."
+                />
+                <button type="submit" className="btn btn-primary">
+                  Search
+                </button>
+              </NotFoundSearch>
 
-                            <p className="not-found__text">
-                                Or go to the home page to start over.
-                            </p>
+              <NotFoundText as="p">
+                Or go to the home page to start over.
+              </NotFoundText>
 
-                            <AppLink href={url.home()} className="btn btn-secondary btn-sm">
-                                Go To Home Page
-                            </AppLink>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <BlockSpace layout="before-footer" />
-        </React.Fragment>
-    );
+              <AppLink href={url.home()} className="btn btn-secondary btn-sm">
+                Go To Home Page
+              </AppLink>
+            </NotFoundContent>
+          </NotFound>
+        </div>
+      </div>
+      <BlockSpace layout="before-footer" />
+    </React.Fragment>
+  );
 }
 
 export default SitePageNotFound;

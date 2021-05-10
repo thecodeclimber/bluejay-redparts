@@ -3,17 +3,17 @@ import AppLink from '~/components/shared/AppLink';
 
 export const FooterLink = styled.div`
   display: block;
-  @media (max-width: 767.98px) {
+  @media (max-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
     text-align: center;
   }
 `;
 
 export const FooterLinksTitle = styled.h5`
   font-size: 20px;
-  color: #fff;
+  color: ${(props) => `${props.theme.colors.white}`};
   margin-bottom: 22px;
-  font-weight: 400;
-  @media (max-width: 767.98px) {
+  font-weight: ${(props) => `${props.theme.fontWeight.normal}`};
+  @media (max-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
     margin-bottom: 12px;
   }
 `;
@@ -34,6 +34,6 @@ export const FooterLinksLink = styled(AppLink)`
   color: inherit;
   transition: 0.15s;
   &:hover {
-    color: #fff;
+    color: ${(props) => `${props.theme.colors.white}`};
   }
 `;

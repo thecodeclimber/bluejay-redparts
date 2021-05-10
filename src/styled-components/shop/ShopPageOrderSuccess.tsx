@@ -143,7 +143,7 @@ export const OrderListHeader = styled.thead`
     text-transform: uppercase;
     color: ${(props) => `${props.theme.colors.subtitlecolor}`};
     font-size: 13px;
-    font-weight: 500;
+    font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   }
   @media (min-width: 576px) {
     td,
@@ -350,7 +350,7 @@ export const OrderListSubtotals = styled.tbody`
 export const OrderListFooter = styled.tfoot`
   font-size: 20px;
   th {
-    font-weight: 500;
+    font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   }
   @media (min-width: 576px) {
     th,

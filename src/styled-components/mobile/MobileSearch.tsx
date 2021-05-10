@@ -9,9 +9,9 @@ export const MobileSearchBody = styled.form`
   &:focus {
     outline: -webkit-focus-ring-color auto 1px;
   }
-  @media (max-width: 767.98px) {
+  @media (max-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
     height: 100%;
-    background-color: #fff;
+    background-color: ${(props) => `${props.theme.colors.white}`};
   }
 `;
 
@@ -31,7 +31,7 @@ export const MobileSearchInput = styled.input`
     outline-offset: 0px;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
     padding-left: 11px;
     padding-right: 37px;
     height: 36px;
@@ -42,15 +42,15 @@ export const MobileSearchInput = styled.input`
     -webkit-transition: color 0.2s, background 0.2s, border-color 0.2s;
     -moz-transition: color 0.2s, background 0.2s, border-color 0.2s;
     transition: color 0.2s, background 0.2s, border-color 0.2s;
-    color: #262626;
-    background-color: #fff;
-    border-color: #fff;
+    color: ${(props) => `${props.theme.colors.selectfontcolor}`};
+    background-color: ${(props) => `${props.theme.colors.white}`};
+    border-color: ${(props) => `${props.theme.colors.white}`};
   }
-  @media (max-width: 767.98px) {
+  @media (max-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
     padding-left: 12px;
-    background-color: #fff;
+    background-color: ${(props) => `${props.theme.colors.white}`};
     padding-right: 0;
-    color: #262626;
+    color: ${(props) => `${props.theme.colors.selectfontcolor}`};
     padding-top: 0;
     padding-bottom: 0;
     flex-basis: 0;
@@ -60,14 +60,14 @@ export const MobileSearchInput = styled.input`
 
 export const MobileSearchVehiclePicker = styled.button`
   order: -1;
-  background: #ffdf40;
-  color: #262626;
+  background: ${(props) => `${props.theme.colors.OfferBg}`};
+  color: ${(props) => `${props.theme.colors.selectfontcolor}`};
   min-width: 44px;
   padding: 0px 12px;
   margin-right: 8px;
   white-space: nowrap;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: ${(props) => `${props.theme.fontWeight.medium}`};
   border-radius: 2.5px;
   flex-shrink: 0;
   display: flex;
@@ -77,10 +77,10 @@ export const MobileSearchVehiclePicker = styled.button`
   transition: color 0.15s, background-color 0.15s;
 
   &:hover {
-    background: #ffd226;
+    background: ${(props) => `${props.theme.colors.searchhoverbgcolor}`};
   }
   &:active {
-    background: #ffca16;
+    background: ${(props) => `${props.theme.colors.mobileSearchActiveBgColor}`};
   }
   &:focus {
     outline: none;
@@ -93,7 +93,7 @@ export const MobileSearchVehiclePicker = styled.button`
     margin-left: 8px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
     margin: 8px;
   }
 `;
@@ -102,7 +102,7 @@ export const MobileSearchButton = styled.button`
   background: transparent;
   border: none;
   font-family: inherit;
-  color: #b2b2b2;
+  color: ${(props) => `${props.theme.colors.searchfontcolor}`};
   width: 38px;
   flex-shrink: 0;
   padding: 0;
@@ -113,14 +113,14 @@ export const MobileSearchButton = styled.button`
   fill: currentcolor;
 
   &:hover {
-    color: #1e74df;
+    color: ${(props) => `${props.theme.colors.activebordercolor}`};
   }
 
   &:focus {
     outline: none;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: ${(props) => `${props.theme.breakPoints.sm}`}px) {
     width: 52px;
   }
 `;
