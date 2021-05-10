@@ -87,6 +87,35 @@ const fetchImages = (def: any) => {
   ];
 };
 
+const handleNotAvailable = (item: any) => {
+  if (item !== 'n/a') return `${item.toLowerCase().replace(/ /g, '_')}`;
+  return '';
+};
+
+const createProductName = (def: any) => {
+  return (
+    `${def.Category.charAt(0).toUpperCase() + def.Category.slice(1)}` +
+    ` ` +
+    handleNotAvailable(def?.material) +
+    ` ` +
+    `${def.Type}` +
+    `,  ` +
+    `${def.diameter}`
+  );
+};
+
+const createProductSlug = (def: any) => {
+  return (
+    `${def.Category.toLowerCase().replace(/ /g, '_')}` +
+    `_` +
+    handleNotAvailable(def?.material) +
+    `_` +
+    `${def.Type.toLowerCase().replace(/ /g, '_')}` +
+    `_` +
+    `${def.diameter}`
+  );
+};
+
 const makeProducts = (defs: any[]): any[] => {
   return defs.map((def) => {
     const categorySlugs: string[] = def.categories || ['anchor'];
@@ -99,17 +128,17 @@ const makeProducts = (defs: any[]): any[] => {
 
     return {
       id: getNextId(),
-      name: def.name,
+      name: createProductName(def),
+      slug: createProductSlug(def),
       excerpt: `
                 Many philosophical debates that began in ancient times are still debated today. In one general sense,
                 philosophy is associated with wisdom, intellectual culture and a search for knowledge.
             `,
       description: def.description,
-      slug: def.slug,
       sku: def.sku,
       partNumber: 'BDX-750Z370-S',
       stock: 'in-stock',
-      price: def?.list_price || '',
+      price: Number(def?.list_price) || '',
       images: fetchImages(def),
       type: {
         slug: 'default',
@@ -144,7 +173,7 @@ const makeProducts = (defs: any[]): any[] => {
         grade: [true, `${def?.grade}` || ''],
         Material: [true, `${def?.material}` || ''],
         finish: [true, `${def?.finish}` || ''],
-        qty_per_box: [true, `${def?.qty_per_box}` || ''],
+        qty_per_box: [true, `${Number(def?.qty_per_box)}` || ''],
       }),
       options: [
         {
@@ -158,7 +187,6 @@ const makeProducts = (defs: any[]): any[] => {
           ],
         },
       ],
-
       subCategory: def.Category,
     };
   });
@@ -175,15 +203,5 @@ TotalProducts.push(
   ...bolts,
   ...hexHeadCapScrews
 );
-
-TotalProducts.forEach((data, index) => {
-  if (data?.name && data.slug) {
-    data.name = `Test${index + 1}`;
-    data.slug = `test${index + 1}`;
-  }
-  data.list_price = Number(data.list_price);
-  data.qty_per_box = Number(data.qty_per_box);
-  data.net_per_box = Number(data.net_per_box);
-});
 
 export const products: any[] = makeProducts(TotalProducts);
