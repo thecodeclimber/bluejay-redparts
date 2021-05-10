@@ -14955,5 +14955,5 @@ export const bolts: any[] = [
     qty_per_box: '50',
     list_price: '32.52',
     net_per_box: '9.76',
-  },
+  }
 ];

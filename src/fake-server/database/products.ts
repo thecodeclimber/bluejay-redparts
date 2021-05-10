@@ -12,9 +12,7 @@ import { IProductAttribute } from '~/interfaces/product';
 import { IShopCategory } from '~/interfaces/category';
 import { makeIdGenerator, nameToSlug } from '~/fake-server/utils';
 import { prepareCategory } from '~/fake-server/endpoints/categories';
-import {
-  IProductAttributesDef,
-} from '~/fake-server/interfaces/product-def';
+import { IProductAttributesDef } from '~/fake-server/interfaces/product-def';
 import { shopCategoriesList } from '~/fake-server/database/categories';
 
 const getNextId = makeIdGenerator();
@@ -111,7 +109,7 @@ const makeProducts = (defs: any[]): any[] => {
       sku: def.sku,
       partNumber: 'BDX-750Z370-S',
       stock: 'in-stock',
-      price: def.list_price,
+      price: def?.list_price || '',
       images: fetchImages(def),
       type: {
         slug: 'default',
@@ -175,7 +173,9 @@ TotalProducts.push(
   ...washers,
   ...screws,
   ...bolts,
+  ...hexHeadCapScrews
 );
+
 TotalProducts.forEach((data, index) => {
   if (data?.name && data.slug) {
     data.name = `Test${index + 1}`;
