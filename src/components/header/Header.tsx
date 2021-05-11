@@ -3,6 +3,26 @@ import React, { useMemo, useRef } from 'react';
 // third-party
 import { FormattedMessage } from 'react-intl';
 // application
+import {
+  HeaderSearch,
+  HeaderIndicator,
+  HeaderLogo,
+  HeaderNavbar,
+  HeaderNavbarDepartments,
+  HeaderNavbarMenu,
+  HeaderNavbarPhone,
+  PhoneBody,
+  PhoneTitle,
+  PhoneNumber,
+  HeaderMegamenuArea,
+  HeaderStyledComponent,
+  HeaderTopbarClassic,
+  HeaderTopbarClassicBg,
+  HeaderTopbarSpaceshipStart,
+  HeaderTopbarSpaceshipStartBg,
+  HeaderTopbarSpaceshipEnd,
+  HeaderTopbarSpaceshipEndBg,
+} from '~/styled-components/header/Header';
 import AccountMenu from '~/components/header/AccountMenu';
 import AppLink from '~/components/shared/AppLink';
 import CurrencyFormat from '~/components/shared/CurrencyFormat';
@@ -53,8 +73,8 @@ function Header() {
   const cartIndicatorCtrl = useRef<IIndicatorController | null>(null);
 
   return (
-    <div className="header">
-      <div className="header__megamenu-area megamenu-area" />
+    <HeaderStyledComponent>
+      <HeaderMegamenuArea className="megamenu-area" />
       {desktopLayout === 'spaceship' && (
         <React.Fragment>
           <div className="header__topbar-start-bg" />
@@ -69,36 +89,36 @@ function Header() {
       )}
       {desktopLayout === 'classic' && (
         <React.Fragment>
-          <div className="header__topbar-classic-bg" />
-          <div className="header__topbar-classic">
+          <HeaderTopbarClassicBg />
+          <HeaderTopbarClassic>
             <Topbar layout="classic" />
-          </div>
+          </HeaderTopbarClassic>
         </React.Fragment>
       )}
 
-      <div className="header__navbar">
-        <div className="header__navbar-departments">
+      <HeaderNavbar>
+        <HeaderNavbarDepartments>
           <Departments label={departmentsLabel} />
-        </div>
-        <div className=" header__navbar-menu">
+        </HeaderNavbarDepartments>
+        <HeaderNavbarMenu>
           <MainMenu />
-        </div>
+        </HeaderNavbarMenu>
         {desktopLayout === 'classic' && (
-          <div className="header__navbar-phone phone">
-            <AppLink href={url.pageContactUs()} className="phone__body">
-              <div className="phone__title">
+          <HeaderNavbarPhone className="phone">
+            <PhoneBody as={AppLink} href={url.pageContactUs()}>
+              <PhoneTitle>
                 <FormattedMessage id="TEXT_CALL_US" />
-              </div>
-              <div className="phone__number">800 060-0730</div>
-            </AppLink>
-          </div>
+              </PhoneTitle>
+              <PhoneNumber>800 060-0730</PhoneNumber>
+            </PhoneBody>
+          </HeaderNavbarPhone>
         )}
-      </div>
-      <Logo className="header__logo" />
-      <div className="header__search">
+      </HeaderNavbar>
+      <HeaderLogo as={Logo} />
+      <HeaderSearch>
         <Search />
-      </div>
-      <div className="header__indicators">
+      </HeaderSearch>
+      <HeaderIndicator>
         <Indicator
           href={url.wishlist()}
           icon={<Heart32Svg />}
@@ -129,8 +149,8 @@ function Header() {
         >
           <Dropcart onCloseMenu={() => cartIndicatorCtrl.current?.close()} />
         </Indicator>
-      </div>
-    </div>
+      </HeaderIndicator>
+    </HeaderStyledComponent>
   );
 }
 

@@ -60,3 +60,11 @@ export const FilterBody = styled.div`
 export const FilterContainer = styled.div`
   padding: 10px 1.5rem 16px;
 `;
+
+export const WidgetFiltersItem = styled.div`
+  padding: 8px 1.5rem;
+  border-bottom: 1px solid #ebebeb;
+  &:first-child {
+    border-top: 1px solid #ebebeb;
+  }
+`;

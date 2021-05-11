@@ -54,7 +54,6 @@ function BlockSlideshow(props: Props) {
                   }}
                 />
                 <BlockSlideshowItemImage
-                  className={classNames('block-slideshow__item-image--mobile')}
                   style={{
                     backgroundImage: `url(${baseUrl(slide.mobileImage)})`,
                   }}

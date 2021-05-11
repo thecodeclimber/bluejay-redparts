@@ -163,3 +163,22 @@ export const DepartmentsItemArrow = styled.span`
     transform: scaleX(1);
   }
 `;
+
+export const DepartmentsMegamenu = styled.div`
+  direction: ltr;
+  box-shadow: 1px 0 #ebebeb inset;
+  min-height: 100%;
+  display: none;
+  @media (min-width: 1200px) and (max-width: 1399.98px) {
+    padding: 17px 20px 20px;
+  }
+  ${(props: { itemSize?: any; currentItem?: any }) =>
+    props.itemSize &&
+    props.currentItem &&
+    css`
+      display: block;
+      @media (min-width: 1200px) and (max-width: 1399.98px) {
+        width: 198px;
+      }
+    `}
+`;

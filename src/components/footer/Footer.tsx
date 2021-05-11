@@ -13,6 +13,7 @@ import {
   FooterLink,
   FooterContact,
   FooterNewsletterComponent,
+  SiteFooterDecor,
 } from '~/styled-components/footer/Footer';
 import AppImage from '~/components/shared/AppImage';
 import Decor from '~/components/shared/Decor';
@@ -22,7 +23,7 @@ import Decor from '~/components/shared/Decor';
 export function Footer() {
   return (
     <SiteFooter>
-      <Decor className="site-footer__decor" type="bottom" />
+      <SiteFooterDecor as={Decor} type="bottom" />
       <SiteFooterWidgets>
         <Container>
           <div className="row">

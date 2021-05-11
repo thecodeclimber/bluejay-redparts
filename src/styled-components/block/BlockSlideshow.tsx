@@ -27,9 +27,12 @@ const ReflectRtl = css`
 `;
 export const BlockSlideshowItemImageDesktop = styled.span``;
 
-export const BlockSlideshowItemImageMobile = styled.span`
+const BlockSlideshowItemImageMobile = css`
   display: none;
   background-position: top center;
+  @media (max-width: 575.98px) {
+    display: block;
+  }
 `;
 
 export const BlockSlideshowItemImage = styled.span`
@@ -40,13 +43,11 @@ export const BlockSlideshowItemImage = styled.span`
   left: 0;
   top: 0;
   background-size: cover;
-  ${ReflectRtl}
+  ${ReflectRtl};
+  ${BlockSlideshowItemImageMobile};
   @media (max-width: ${(props) => `${props.theme.breakPoints.sm}px`}) {
     ${BlockSlideshowItemImageDesktop} {
       display: none;
-    }
-    ${BlockSlideshowItemImageMobile} {
-      display: block;
     }
   }
 `;

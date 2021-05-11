@@ -20,6 +20,7 @@ import {
   PostViewBody,
   PostViewItem,
   PostViewItemPost,
+  PostHeaderDecor,
 } from '~/styled-components/blog/BlogPagePost';
 import AppLink from '~/components/shared/AppLink';
 import BlockSpace from '~/components/blocks/BlockSpace';
@@ -80,7 +81,7 @@ function BlogPagePost(props: Props) {
               </PostHeaderMetaList>
             </PostHeaderMeta>
           </PostHeaderBody>
-          <Decor type="bottom" className="post-header__decor" />
+          <PostHeaderDecor as={Decor} type="bottom" />
         </PostHeader>
 
         <div className="container">

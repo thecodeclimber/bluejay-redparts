@@ -6,6 +6,7 @@ import {
   FilterBody,
   FilterArrow,
   FilterContainer,
+  WidgetFiltersItem,
 } from '~/styled-components/filter/Filter';
 import {
   getFilterValue,
@@ -54,46 +55,42 @@ function Filter(props: Props) {
   };
 
   return (
-    <div className="widget-filters__item">
-      <div>
-        <FilterTitle as="button" type="button" onClick={handleToggle}>
-          {filter.name}
-          <FilterArrow isOpen={isOpen}>
-            <ArrowRoundedDown12x7Svg />
-          </FilterArrow>
-        </FilterTitle>
-        <FilterBody isOpen={isOpen}>
-          <FilterContainer>
-            {filter.type === 'category' && <FilterCategory options={filter} />}
+    <WidgetFiltersItem>
+      <FilterTitle as="button" type="button" onClick={handleToggle}>
+        {filter.name}
+        <FilterArrow isOpen={isOpen}>
+          <ArrowRoundedDown12x7Svg />
+        </FilterArrow>
+      </FilterTitle>
+      <FilterBody isOpen={isOpen}>
+        <FilterContainer>
+          {filter.type === 'category' && <FilterCategory options={filter} />}
 
-            {filter.type === 'range' && (
-              <FilterRange
-                options={filter}
-                value={getFilterValue(filter, value)}
-                onChangeValue={handleValueChange}
-              />
-            )}
+          {filter.type === 'range' && (
+            <FilterRange
+              options={filter}
+              value={getFilterValue(filter, value)}
+              onChangeValue={handleValueChange}
+            />
+          )}
 
-            {filter.type === 'length' && <FilterLength options={filter} />}
+          {filter.type === 'length' && <FilterLength options={filter} />}
 
-            {filter.type === 'diameter' && <FilterDiameter options={filter} />}
+          {filter.type === 'diameter' && <FilterDiameter options={filter} />}
 
-            {filter.type === 'threadLength' && (
-              <FilterThreadLength options={filter} />
-            )}
-            {filter.type === 'threadSize' && (
-              <FilterThreadSize options={filter} />
-            )}
-            {filter.type === 'threadCoverage' && (
-              <FilterThreadCoverage options={filter} />
-            )}
-            {filter.type === 'screwSize' && (
-              <FilterScrewSize options={filter} />
-            )}
-          </FilterContainer>
-        </FilterBody>
-      </div>
-    </div>
+          {filter.type === 'threadLength' && (
+            <FilterThreadLength options={filter} />
+          )}
+          {filter.type === 'threadSize' && (
+            <FilterThreadSize options={filter} />
+          )}
+          {filter.type === 'threadCoverage' && (
+            <FilterThreadCoverage options={filter} />
+          )}
+          {filter.type === 'screwSize' && <FilterScrewSize options={filter} />}
+        </FilterContainer>
+      </FilterBody>
+    </WidgetFiltersItem>
   );
 }
 

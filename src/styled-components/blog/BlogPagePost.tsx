@@ -139,3 +139,7 @@ export const PostViewItem = styled.div`
     margin-inline-start: 36px;
   }
 `;
+
+export const PostHeaderDecor = styled.div`
+  bottom: -1px;
+`;

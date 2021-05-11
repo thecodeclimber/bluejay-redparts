@@ -1,7 +1,5 @@
 // react
 import React, { useCallback, useRef, useState } from 'react';
-// third-party
-import classNames from 'classnames';
 // application
 import {
   DepartmentsStyledComponent,
@@ -17,6 +15,7 @@ import {
   DepartmentsItemLink,
   DepartmentsItemList,
   DepartmentsItemArrow,
+  DepartmentsMegamenu,
 } from '~/styled-components/header/Departments';
 import Megamenu from '~/components/header/Megamenu';
 import {
@@ -78,7 +77,7 @@ function Departments(props: Props) {
         <DepartmentsButtonIcon>
           <Menu16x12Svg />
         </DepartmentsButtonIcon>
-        <DepartmentsButtonTitle >{label}</DepartmentsButtonTitle>
+        <DepartmentsButtonTitle>{label}</DepartmentsButtonTitle>
         <DepartmentsButtonArrow isOpen={isOpen}>
           <ArrowRoundedDown9x6Svg />
         </DepartmentsButtonArrow>
@@ -94,17 +93,9 @@ function Departments(props: Props) {
               />
               {dataHeaderDepartments.map((item, index) => {
                 const itemHasSubmenu = !!item.submenu;
-                const itemClasses = classNames('departments__item', {
-                  'departments__item--has-submenu': itemHasSubmenu,
-                  'departments__item--submenu--megamenu':
-                    item.submenu?.type === 'megamenu',
-                  'departments__item--hover': item === currentItem,
-                });
-
                 return (
                   <DepartmentsItemList
                     itemHover={item === currentItem}
-                    className={itemClasses}
                     key={index}
                     onMouseEnter={() => handleItemMouseEnter(item)}
                   >
@@ -135,17 +126,11 @@ function Departments(props: Props) {
                   return null;
                 }
 
-                const itemClasses = classNames(
-                  'departments__megamenu',
-                  `departments__megamenu--size--${item.submenu.size}`,
-                  {
-                    'departments__megamenu--open': item === currentItem,
-                  }
-                );
-
                 return (
-                  <Megamenu
-                    className={itemClasses}
+                  <DepartmentsMegamenu
+                    as={Megamenu}
+                    itemSize={item.submenu.size}
+                    currentItem={item === currentItem}
                     menu={item.submenu}
                     key={index}
                     onItemClick={handleItemClick}

@@ -24,6 +24,7 @@ export const HeaderStyledComponent = styled.div`
 `;
 
 export const HeaderSearch = styled.div`
+  direction: ltr;
   margin-right: 24px;
   align-self: center;
   grid-column: 3/3;

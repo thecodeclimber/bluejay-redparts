@@ -208,7 +208,7 @@ function BlockProductsCarousel<T extends ISectionHeaderGroup>(props: Props<T>) {
   }, [columns, layout]);
 
   return (
-    <div className="block block-products-carousel" data-layout={layout}>
+    <div className="block" data-layout={layout}>
       <div className="container">
         <SectionHeader
           sectionTitle={blockTitle}

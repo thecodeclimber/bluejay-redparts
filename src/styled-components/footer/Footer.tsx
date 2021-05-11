@@ -53,3 +53,7 @@ export const FooterContact = styled(FooterContacts)`
 export const FooterNewsletterComponent = styled(FooterNewsletter)`
   padding: 56px 0 50px;
 `;
+
+export const SiteFooterDecor = styled.div`
+  bottom: calc(100% - 1px);
+`;

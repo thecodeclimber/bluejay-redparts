@@ -9,10 +9,8 @@ import {
   TopbarItemText,
   TopbarLink,
   TopbarItemSpring,
-  TopbarButtonLabel,
   TopbarItemTitle,
 } from '~/styled-components/header/Topbar';
-import DropdownCurrency from '~/components/header/DropdownCurrency';
 import url from '~/services/url';
 import { useCompare } from '~/store/compare/compareHooks';
 import { useUser } from '~/store/user/userHooks';

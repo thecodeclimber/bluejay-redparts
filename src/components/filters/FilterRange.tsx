@@ -90,7 +90,7 @@ function FilterRange(props: Props) {
 
   return useMemo(
     () => (
-      <div className="filter-range">
+      <div>
         <FilterRangeSlider dir="ltr">
           <InputRange
             minValue={min}
