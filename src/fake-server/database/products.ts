@@ -88,7 +88,14 @@ const fetchImages = (def: any) => {
 };
 
 const handleNotAvailable = (item: any) => {
-  if (item !== 'n/a') return `${item.toLowerCase().replace(/ /g, '_')}`;
+  if (item && item !== 'n/a') return `${item.toLowerCase().replace(/ /g, '_')}`;
+  return '';
+};
+
+const handelDiameter = (diameter: any) => {
+  if (diameter && diameter !== 'n/a') {
+    return `,  ` + diameter;
+  }
   return '';
 };
 
@@ -96,11 +103,11 @@ const createProductName = (def: any) => {
   return (
     `${def.Category.charAt(0).toUpperCase() + def.Category.slice(1)}` +
     ` ` +
-    handleNotAvailable(def?.material) +
+    handleNotAvailable(def?.material).charAt(0).toUpperCase() +
+    def?.material.slice(1) +
     ` ` +
-    `${def.Type}` +
-    `,  ` +
-    `${def.diameter}`
+    `${def?.Type.charAt(0).toUpperCase() + def?.Type.slice(1)}` +
+    handelDiameter(def?.diameter)
   );
 };
 
