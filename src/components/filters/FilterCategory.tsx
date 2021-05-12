@@ -8,7 +8,7 @@ import {
   FilterCategoryList,
   FilterCategoryItem,
   FilterCategoryArrow,
-  FilterAppLink
+  FilterAppLink,
 } from '~/styled-components/filter/FilterCategory';
 import url from '~/services/url';
 import { ArrowRoundedLeft6x9Svg } from '~/svg';
@@ -35,34 +35,36 @@ function FilterCategory(props: Props) {
             </FilterAppLink>
           </FilterCategoryItem>
         )}
-        {options.items.map((item) => (
-          <React.Fragment key={item.id}>
-            {getCategoryParents(item).map((parent) => 
-            {
-              
-            return (
-              <FilterCategoryItem key={parent.id} parent={true}>
-                <FilterCategoryArrow>
-                  <ArrowRoundedLeft6x9Svg />
-                </FilterCategoryArrow>
-                <FilterAppLink href={url.category(parent)}>{parent.name}</FilterAppLink>
+        {options.items.map((item) => {
+          return (
+            <React.Fragment key={item.id}>
+              {getCategoryParents(item).map((parent) => {
+                return (
+                  <FilterCategoryItem key={parent.id} parent={true}>
+                    <FilterCategoryArrow>
+                      <ArrowRoundedLeft6x9Svg />
+                    </FilterCategoryArrow>
+                    <FilterAppLink href={url.category(parent)}>
+                      {parent.name}
+                    </FilterAppLink>
+                  </FilterCategoryItem>
+                );
+              })}
+              <FilterCategoryItem current={options.value}>
+                <FilterAppLink href={url.category(item)}>
+                  {item.name}
+                </FilterAppLink>
               </FilterCategoryItem>
-            )})}
-            <FilterCategoryItem
-              current={options.value}
-            >
-              <FilterAppLink href={url.category(item)}>{item.name}</FilterAppLink>
-            </FilterCategoryItem>
-            {item.children?.map((child) => (
-              <FilterCategoryItem
-                key={child.id}
-                child={true}
-              >
-                <FilterAppLink href={url.category(child)}>{child.name}</FilterAppLink>
-              </FilterCategoryItem>
-            ))}
-          </React.Fragment>
-        ))}
+              {item.children?.map((child) => (
+                <FilterCategoryItem key={child.id} child={true}>
+                  <FilterAppLink href={url.category(child)}>
+                    {child.name}
+                  </FilterAppLink>
+                </FilterCategoryItem>
+              ))}
+            </React.Fragment>
+          );
+        })}
       </FilterCategoryList>
     </div>
   );

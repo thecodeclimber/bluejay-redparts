@@ -370,7 +370,7 @@ function ProductsView(props: Props) {
                 {productsList?.items.map((product) => {
                   return (
                     <div key={product.id} className="products-list__item">
-                      <ProductCard product={product} layout={layout} />
+                      <ProductCard product={product} />
                     </div>
                   );
                 })}
@@ -404,4 +404,4 @@ function ProductsView(props: Props) {
   );
 }
 
-export default ProductsView;
+export default React.memo(ProductsView);

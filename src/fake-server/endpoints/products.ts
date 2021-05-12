@@ -121,7 +121,6 @@ export function getProductsList(
 }
 
 export function getProductBySlug(slug: string): Promise<IProduct> {
-  slug = 'test';
   const product = dbProducts.find((x) => {
     return x.slug === slug;
   });

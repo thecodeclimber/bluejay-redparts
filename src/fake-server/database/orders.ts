@@ -19,7 +19,7 @@ function makeOrders(defs: IOrderDef[]): IOrder[] {
   return defs.map((def) => {
     const id = getNextOrderId();
     const items = def.items.map((orderItemDef) => {
-      const product = products.find((x) => x.name === orderItemDef.product);
+      const product = products.find((x) => x.name !== orderItemDef.product);
 
       if (!product) {
         throw new Error('Product not found');
@@ -70,7 +70,7 @@ const ordersDef: IOrderDef[] = [
     status: 'PENDING',
     items: [
       {
-        product: 'Test',
+        product: 'Test1',
         options: [
           { name: 'Color', value: 'True Red' },
           { name: 'Material', value: 'Aluminium' },
@@ -78,12 +78,12 @@ const ordersDef: IOrderDef[] = [
         quantity: 2,
       },
       {
-        product: 'Test',
+        product: 'Test2',
         options: [],
         quantity: 1,
       },
       {
-        product: 'Test',
+        product: 'Test3',
         options: [{ name: 'Color', value: 'Green' }],
         quantity: 3,
       },
@@ -96,7 +96,7 @@ const ordersDef: IOrderDef[] = [
     status: 'PENDING',
     items: [
       {
-        product: 'Test',
+        product: 'Test5',
         options: [
           { name: 'Color', value: 'True Red' },
           { name: 'Material', value: 'Aluminium' },
@@ -104,7 +104,7 @@ const ordersDef: IOrderDef[] = [
         quantity: 2,
       },
       {
-        product: 'Test',
+        product: 'Test6',
         options: [],
         quantity: 1,
       },
@@ -117,12 +117,12 @@ const ordersDef: IOrderDef[] = [
     status: 'SHIPPED',
     items: [
       {
-        product: 'Test',
+        product: 'Test7',
         options: [],
         quantity: 5,
       },
       {
-        product: 'Test',
+        product: 'Test8',
         options: [],
         quantity: 1,
       },
@@ -135,7 +135,7 @@ const ordersDef: IOrderDef[] = [
     status: 'COMPLETED',
     items: [
       {
-        product: 'Test',
+        product: 'Test9',
         options: [],
         quantity: 1,
       },
@@ -148,12 +148,12 @@ const ordersDef: IOrderDef[] = [
     status: 'COMPLETED',
     items: [
       {
-        product: 'Test',
+        product: 'Test10',
         options: [],
         quantity: 7,
       },
       {
-        product: 'Test',
+        product: 'Test11',
         options: [],
         quantity: 1,
       },
@@ -166,7 +166,7 @@ const ordersDef: IOrderDef[] = [
     status: 'COMPLETED',
     items: [
       {
-        product: 'Test',
+        product: 'Test12',
         options: [],
         quantity: 1,
       },

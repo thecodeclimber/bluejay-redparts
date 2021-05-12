@@ -8,25 +8,25 @@ import { IShopCategory } from '~/interfaces/category';
 import { shopApi } from '~/api';
 
 interface Props {
-    subcategories: IShopCategory[];
+  subcategories: IShopCategory[];
 }
 
 export const getServerSideProps: GetServerSideProps<Props> = async () => ({
-    props: {
-        subcategories: await shopApi.getCategories({ depth: 1 }),
-    },
+  props: {
+    subcategories: await shopApi.getCategories({ depth: 1 }),
+  },
 });
 
 function Page(props: Props) {
-    const { subcategories } = props;
+  const { subcategories } = props;
 
-    return (
-        <ShopPageCategory
-            layout="columns-4-sidebar"
-            sidebarPosition="end"
-            subcategories={subcategories}
-        />
-    );
+  return (
+    <ShopPageCategory
+      layout="columns-4-sidebar"
+      sidebarPosition="end"
+      subcategories={subcategories}
+    />
+  );
 }
 
 export default Page;

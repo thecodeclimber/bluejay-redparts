@@ -1,7 +1,6 @@
 /* eslint-disable import/prefer-default-export */
 
 // application
-import { IBrand } from '~/interfaces/brand';
 import { anchor } from '~/fake-server/database/products/anchors';
 import { bolts } from '~/fake-server/database/products/bolts';
 import { nuts } from '~/fake-server/database/products/nuts';
@@ -9,14 +8,11 @@ import { pins } from '~/fake-server/database/products/pins';
 import { hexHeadCapScrews } from '~/fake-server/database/products/hex_head_cap_screws';
 import { screws } from '~/fake-server/database/products/screws';
 import { washers } from '~/fake-server/database/products/washers';
-import { IProduct, IProductAttribute } from '~/interfaces/product';
+import { IProductAttribute } from '~/interfaces/product';
 import { IShopCategory } from '~/interfaces/category';
 import { makeIdGenerator, nameToSlug } from '~/fake-server/utils';
 import { prepareCategory } from '~/fake-server/endpoints/categories';
-import {
-  IProductAttributesDef,
-  IProductDef,
-} from '~/fake-server/interfaces/product-def';
+import { IProductAttributesDef } from '~/fake-server/interfaces/product-def';
 import { shopCategoriesList } from '~/fake-server/database/categories';
 
 const getNextId = makeIdGenerator();
@@ -29,7 +25,8 @@ function resolveProductAttributesDef(
 
   for (let i = 0; i < keys.length; i += 1) {
     const attributeName = keys[i];
-    const attribute: IProductAttribute = {
+
+    const attribute: any = {
       name: attributeName,
       slug: nameToSlug(attributeName),
       featured: false,
@@ -49,45 +46,49 @@ function resolveProductAttributesDef(
 
       valueNames = valuesDef as string[];
     }
-
     valueNames.forEach((valueName) => {
       attribute.values.push({
         name: valueName,
         slug: nameToSlug(valueName),
       });
     });
-
     if (attribute.values.length > 0) {
       attributes.push(attribute);
     }
   }
+  attributes.forEach((value) => {});
 
   return attributes;
 }
 
-function makeProducts(defs: any[]): IProduct[] {
+const fetchImages = (def: any) => {
+  const checkAttribute = (def: any) => {
+    if (def?.color && def?.color !== 'n/a') return `__${def.color}__`;
+    else if (def?.finish && def?.finish !== 'n/a') return `__${def.finish}__`;
+    else if (def?.head_type && def?.head_type !== 'n/a')
+      return `__${def.head_type}__`;
+    else if (def?.material && def?.material !== 'n/a')
+      return `__${def.material}__`;
+    else return false;
+  };
+  let value = checkAttribute(def);
+
+  return [
+    `/images/${def?.superCategory.toLowerCase()}/${def?.Type.trim()
+      .toLowerCase()
+      .replace(/ /g, '_')}/fasteners__${def?.Type.trim()
+      .toLowerCase()
+      .replace(/ /g, '_')}__${def?.Category.trim()
+      .toLowerCase()
+      .replace(/ /g, '_')}${
+      value ? value.toLowerCase().replace(/ /g, '_') : '__'
+    }800x800 (1).png`,
+    '/images/products/product-2-1.jpg',
+  ];
+};
+
+const makeProducts = (defs: any[]): any[] => {
   return defs.map((def) => {
-    let badges: string[] = [];
-
-    // if (def.badges) {
-    //   if (typeof def.badges === 'string') {
-    //     badges = [def.badges];
-    //   } else {
-    //     badges = def.badges.slice(0);
-    //   }
-    // }
-
-    let brand: IBrand = {
-      slug: 'brandix',
-      name: 'Brandix',
-      image: '',
-      country: 'JP',
-    };
-
-    // if (def.brand) {
-    //   brand = brands.find((x) => x.slug === def.brand) || brand;
-    // }
-
     const categorySlugs: string[] = def.categories || ['anchor'];
     const categories = categorySlugs
       .map((categorySlug) =>
@@ -95,26 +96,6 @@ function makeProducts(defs: any[]): IProduct[] {
       )
       .map((x) => (x ? prepareCategory(x) : null))
       .filter((x) => x !== null) as IShopCategory[];
-
-    const attributesDef: IProductAttributesDef = {
-      Speed: [true, '750 RPM'],
-      'Power Source': [true, 'Cordless-Electric'],
-      'Battery Cell Type': [true, 'Lithium'],
-      Voltage: [true, '20 Volts'],
-      'Battery Capacity': [true, '2 Ah'],
-      Material: [
-        'Aluminium',
-        'Plastic',
-        'Metal',
-        'Nylon',
-        'Steel',
-        'Stainless Steel',
-      ],
-      'Engine Type': 'Brushless',
-      Length: '99 mm',
-      Width: '207 mm',
-      Height: '208 mm',
-    };
 
     return {
       id: getNextId(),
@@ -128,14 +109,8 @@ function makeProducts(defs: any[]): IProduct[] {
       sku: def.sku,
       partNumber: 'BDX-750Z370-S',
       stock: 'in-stock',
-      price: def.list_price,
-      compareAtPrice: def.compareAtPrice || null,
-      images: def.images.slice(0),
-      rating: def.rating,
-      reviews: def.reviews,
-      availability: def.availability,
-      compatibility: def.compatibility || 'all',
-      brand,
+      price: def?.list_price || '',
+      images: fetchImages(def),
       type: {
         slug: 'default',
         name: 'Default',
@@ -144,25 +119,32 @@ function makeProducts(defs: any[]): IProduct[] {
             name: 'General',
             slug: 'general',
             attributes: [
-              'speed',
-              'power-source',
-              'battery-cell-type',
-              'voltage',
-              'battery-capacity',
+              'length',
+              'diameter',
+              'head_type',
+              'drive',
+              'grade',
               'material',
-              'engine-type',
+              'finish',
+              'qty_per_box',
             ],
           },
           {
             name: 'Dimensions',
             slug: 'dimensions',
-            attributes: ['length', 'width', 'height'],
+            attributes: ['length', 'diameter'],
           },
         ],
       },
       attributes: resolveProductAttributesDef({
-        ...attributesDef,
-        ...def.attributes,
+        length: [true, `${def?.length}` || ''],
+        diameter: [true, `${def?.diameter} ` || ''],
+        head_type: [true, `${def?.head_type}` || ''],
+        drive: [true, `${def?.drive}` || ''],
+        grade: [true, `${def?.grade}` || ''],
+        Material: [true, `${def?.material}` || ''],
+        finish: [true, `${def?.finish}` || ''],
+        qty_per_box: [true, `${def?.qty_per_box}` || ''],
       }),
       options: [
         {
@@ -175,41 +157,33 @@ function makeProducts(defs: any[]): IProduct[] {
             { slug: 'thorium', name: 'Thorium' },
           ],
         },
-        {
-          type: 'color',
-          slug: 'color',
-          name: 'Color',
-          values: [
-            { slug: 'white', name: 'White', color: '#fff' },
-            { slug: 'yellow', name: 'Yellow', color: '#ffd333' },
-            { slug: 'red', name: 'Red', color: '#ff4040' },
-            { slug: 'blue', name: 'Blue', color: '#4080ff' },
-          ],
-        },
       ],
-      tags: [
-        'Brake Kit',
-        'Brandix',
-        'Filter',
-        'Bumper',
-        'Transmission',
-        'Hood',
-      ],
-      categories,
-      customFields: {},
+
+      subCategory: def.Category,
     };
   });
-}
+};
 
 const TotalProducts = [];
 
 TotalProducts.push(
   ...anchor,
-  ...bolts,
-  ...nuts,
   ...pins,
+  ...nuts,
+  ...washers,
   ...screws,
-  ...washers
+  ...bolts,
+  ...hexHeadCapScrews
 );
+
+TotalProducts.forEach((data, index) => {
+  if (data?.name && data.slug) {
+    data.name = `Test${index + 1}`;
+    data.slug = `test${index + 1}`;
+  }
+  data.list_price = Number(data.list_price);
+  data.qty_per_box = Number(data.qty_per_box);
+  data.net_per_box = Number(data.net_per_box);
+});
 
 export const products: any[] = makeProducts(TotalProducts);

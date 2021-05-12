@@ -523,4 +523,4 @@ function ShopPageProduct(props: Props) {
   );
 }
 
-export default ShopPageProduct;
+export default React.memo(ShopPageProduct);
