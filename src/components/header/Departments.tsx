@@ -1,7 +1,8 @@
 // react
-import React, { useCallback, useRef, useState } from 'react';
+import React, { useCallback, useRef, useState, useEffect } from 'react';
 // third-party
 import classNames from 'classnames';
+import axios from '../../axios';
 // application
 import {
   DepartmentsStyledComponent,
@@ -36,12 +37,30 @@ interface Props {
 function Departments(props: Props) {
   const { label } = props;
   const [isOpen, setIsOpen] = useState(false);
+  const [categoriesData, setCategoriesData] = useState([]);
+  const [subCategoriesData, setSubCategoriesData] = useState([]);
   const [currentItem, setCurrentItem] = useState<IDepartmentsLink | null>(null);
   const rootRef = useRef<HTMLDivElement>(null);
 
   const handleButtonClick = () => {
     setIsOpen((state) => !state);
   };
+
+  useEffect(() => {
+    async function fetchCategories() {
+      const res = await axios.get('http://localhost:3000/api/categories');
+      setCategoriesData(res.data.data);
+    }
+    fetchCategories();
+  }, []);
+
+  useEffect(() => {
+    async function fetchSubCategories() {
+      const res = await axios.get('http://localhost:3000/api/sub_categories');
+      setSubCategoriesData(res.data.data);
+    }
+    fetchSubCategories();
+  }, []);
 
   const handleBodyMouseLeave = () => {
     setCurrentItem(null);
@@ -78,7 +97,7 @@ function Departments(props: Props) {
         <DepartmentsButtonIcon>
           <Menu16x12Svg />
         </DepartmentsButtonIcon>
-        <DepartmentsButtonTitle >{label}</DepartmentsButtonTitle>
+        <DepartmentsButtonTitle>{label}</DepartmentsButtonTitle>
         <DepartmentsButtonArrow isOpen={isOpen}>
           <ArrowRoundedDown9x6Svg />
         </DepartmentsButtonArrow>
@@ -92,37 +111,28 @@ function Departments(props: Props) {
                 role="presentation"
                 onMouseEnter={handleListPaddingMouseEnter}
               />
-              {dataHeaderDepartments.map((item, index) => {
-                const itemHasSubmenu = !!item.submenu;
-                const itemClasses = classNames('departments__item', {
-                  'departments__item--has-submenu': itemHasSubmenu,
-                  'departments__item--submenu--megamenu':
-                    item.submenu?.type === 'megamenu',
-                  'departments__item--hover': item === currentItem,
-                });
-
-                return (
-                  <DepartmentsItemList
-                    itemHover={item === currentItem}
-                    className={itemClasses}
-                    key={index}
-                    onMouseEnter={() => handleItemMouseEnter(item)}
-                  >
-                    <DepartmentsItemLink
-                      href={item.url}
-                      onClick={() => handleItemClick()}
-                      {...item.customFields?.anchorProps}
+              {categoriesData.length > 0 &&
+                categoriesData.map((item: any, index) => {
+                  return (
+                    <DepartmentsItemList
+                      itemHover={item === currentItem}
+                      key={index}
+                      onMouseEnter={() => handleItemMouseEnter(item)}
                     >
-                      {item.title}
-                      {itemHasSubmenu && (
-                        <DepartmentsItemArrow>
-                          <ArrowRoundedRight7x11Svg />
-                        </DepartmentsItemArrow>
-                      )}
-                    </DepartmentsItemLink>
-                  </DepartmentsItemList>
-                );
-              })}
+                      <DepartmentsItemLink
+                        href="#"
+                        onClick={() => handleItemClick()}
+                      >
+                        {item.name.charAt(0).toUpperCase() + item.name.slice(1)}
+                        {subCategoriesData.length > 0 && (
+                          <DepartmentsItemArrow>
+                            <ArrowRoundedRight7x11Svg />
+                          </DepartmentsItemArrow>
+                        )}
+                      </DepartmentsItemLink>
+                    </DepartmentsItemList>
+                  );
+                })}
               <DepartmentsListPadding
                 role="presentation"
                 onMouseEnter={handleListPaddingMouseEnter}
@@ -130,28 +140,29 @@ function Departments(props: Props) {
             </DepartmentsList>
 
             <div>
-              {dataHeaderDepartments.map((item, index) => {
-                if (!item.submenu) {
-                  return null;
-                }
-
-                const itemClasses = classNames(
-                  'departments__megamenu',
-                  `departments__megamenu--size--${item.submenu.size}`,
-                  {
-                    'departments__megamenu--open': item === currentItem,
+              {subCategoriesData.length > 0 &&
+                subCategoriesData.map((item: any, index) => {
+                  if (subCategoriesData.length <= 0) {
+                    return null;
                   }
-                );
 
-                return (
-                  <Megamenu
-                    className={itemClasses}
-                    menu={item.submenu}
-                    key={index}
-                    onItemClick={handleItemClick}
-                  />
-                );
-              })}
+                  const itemClasses = classNames(
+                    'departments__megamenu',
+                    `departments__megamenu--size--sm`,
+                    {
+                      'departments__megamenu--open': item === currentItem,
+                    }
+                  );
+                  // return <div>{item.name}</div>;
+                  // return (
+                  //   <Megamenu
+                  //     className={itemClasses}
+                  //     menu={item}
+                  //     key={index}
+                  //     onItemClick={handleItemClick}
+                  //   />
+                  // );
+                })}
             </div>
           </DepartmentsBody>
         </DepartmentsMenu>
