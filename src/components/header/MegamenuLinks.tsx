@@ -18,22 +18,22 @@ interface Props extends React.HTMLAttributes<HTMLElement> {
 
 function MegamenuLinks(props: Props) {
   const { links, level = 0, onItemClick, className, ...rootProps } = props;
-
   return (
-    <MegaMenuLinks  {...rootProps}>
-      {links.map((link, linkIndex) => {
+    <MegaMenuLinks {...rootProps}>
+      {links.map((link: any, linkIndex) => {
         const subLinks = link.links || [];
         const hasSubLinks = subLinks.length > 0;
-
         return (
           <MegaMenuLinkItem key={linkIndex}>
             <MegaMenuItemLinksItemLink
               hasSubLinks={hasSubLinks}
-              href={link.url}
+              href={`/catalog/${link.name
+                .toLowerCase()
+                .replace(/ /g, '-')}/products`}
               onClick={() => onItemClick && onItemClick(link)}
               {...link.customFields?.anchorProps}
             >
-              {link.title}
+              {link.name.charAt(0).toUpperCase() + link.name.slice(1)}
             </MegaMenuItemLinksItemLink>
             {hasSubLinks && (
               <MegamenuLinks links={subLinks} level={level + 1} />

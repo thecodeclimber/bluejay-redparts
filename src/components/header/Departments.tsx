@@ -120,11 +120,11 @@ function Departments(props: Props) {
                       onMouseEnter={() => handleItemMouseEnter(item)}
                     >
                       <DepartmentsItemLink
-                        href="#"
+                        href="/catalog/products"
                         onClick={() => handleItemClick()}
                       >
                         {item.name.charAt(0).toUpperCase() + item.name.slice(1)}
-                        {subCategoriesData.length > 0 && (
+                        {item.sub_categories.length > 0 && (
                           <DepartmentsItemArrow>
                             <ArrowRoundedRight7x11Svg />
                           </DepartmentsItemArrow>
@@ -140,9 +140,9 @@ function Departments(props: Props) {
             </DepartmentsList>
 
             <div>
-              {subCategoriesData.length > 0 &&
-                subCategoriesData.map((item: any, index) => {
-                  if (subCategoriesData.length <= 0) {
+              {categoriesData.length > 0 &&
+                categoriesData.map((item: any, index) => {
+                  if (!item.sub_categories) {
                     return null;
                   }
 
@@ -153,15 +153,15 @@ function Departments(props: Props) {
                       'departments__megamenu--open': item === currentItem,
                     }
                   );
-                  // return <div>{item.name}</div>;
-                  // return (
-                  //   <Megamenu
-                  //     className={itemClasses}
-                  //     menu={item}
-                  //     key={index}
-                  //     onItemClick={handleItemClick}
-                  //   />
-                  // );
+
+                  return (
+                    <Megamenu
+                      className={itemClasses}
+                      menu={item.sub_categories}
+                      key={index}
+                      onItemClick={handleItemClick}
+                    />
+                  );
                 })}
             </div>
           </DepartmentsBody>

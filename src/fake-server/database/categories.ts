@@ -91,9 +91,9 @@ const shopCategoriesDef: ICategoryDef[] = [
       { name: 'Drop-In', slug: 'drop-in' },
       { name: 'Machine Screw', slug: 'machine-screw' },
       { name: 'Setting Tools', slug: 'setting-tools' },
-      { name: 'Shield', slug: 'Shield' },
-      { name: 'Sleeve', slug: 'Sleeve' },
-      { name: 'Wedge', slug: 'Wedge' },
+      { name: 'Shield', slug: 'shield' },
+      { name: 'Sleeve', slug: 'sleeve' },
+      { name: 'Wedge', slug: 'wedge' },
     ],
   },
   {
@@ -102,7 +102,7 @@ const shopCategoriesDef: ICategoryDef[] = [
     image: '/images/categories/category-2.jpg',
     items: 356,
     children: [
-      { name: 'Carriage', slug: 'Carriage' },
+      { name: 'Carriage', slug: 'carriage' },
       { name: 'Elevator', slug: 'elevator' },
       { name: 'Flange', slug: 'flange' },
       { name: 'Control Motor', slug: 'control-motor' },
