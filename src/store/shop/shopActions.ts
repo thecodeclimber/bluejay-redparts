@@ -153,6 +153,7 @@ export function shopFetchProductsListThunk(): ShopThunkAction<Promise<void>> {
       shopState.options,
       filters
     );
+    console.log('pro=====>>>', productsList);
 
     if (canceled && process.browser) {
       return;

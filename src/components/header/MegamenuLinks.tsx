@@ -9,6 +9,7 @@ import {
   MegaMenuLinkItem,
 } from '~/styled-components/header/MegamenuLinks';
 import { ILink, INestedLink } from '~/interfaces/link';
+import axios from '../../axios';
 
 interface Props extends React.HTMLAttributes<HTMLElement> {
   links: INestedLink[];
@@ -18,6 +19,14 @@ interface Props extends React.HTMLAttributes<HTMLElement> {
 
 function MegamenuLinks(props: Props) {
   const { links, level = 0, onItemClick, className, ...rootProps } = props;
+
+  const handleProducts = async (item: any) => {
+    const products = await axios.get(
+      `http://localhost:3000/api/sub_categories/${item._id}/products`
+    );
+    console.log(products.data.products);
+  };
+
   return (
     <MegaMenuLinks {...rootProps}>
       {links.map((link: any, linkIndex) => {
@@ -30,7 +39,7 @@ function MegamenuLinks(props: Props) {
               href={`/catalog/${link.name
                 .toLowerCase()
                 .replace(/ /g, '-')}/products`}
-              onClick={() => onItemClick && onItemClick(link)}
+              onMouseOver={() => handleProducts(link)}
               {...link.customFields?.anchorProps}
             >
               {link.name.charAt(0).toUpperCase() + link.name.slice(1)}
