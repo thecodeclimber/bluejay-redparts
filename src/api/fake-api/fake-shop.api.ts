@@ -55,7 +55,7 @@ export class FakeShopApi implements ShopApi {
   getProductsList(
     options: IListOptions = {},
     filters: IFilterValues = {}
-  ): Promise<IProductsList> {
+  ): Promise<any> {
     return getProductsList(options, filters);
   }
 

@@ -12,6 +12,9 @@ export const MegaMenuLinkItem = styled.li`
 
 export const MegaMenuItemLinksItemLink = styled.a`
   white-space: pre;
+  &:hover {
+    cursor: pointer;
+  }
   ${(props: { hasSubLinks?: any }) =>
     !props.hasSubLinks
       ? css`

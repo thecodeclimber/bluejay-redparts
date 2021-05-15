@@ -1,8 +1,9 @@
 // react
-import React, { useContext, useMemo, useState } from 'react';
+import React, { useContext, useMemo, useState, useEffect } from 'react';
 // third-party
 import classNames from 'classnames';
 import { FormattedMessage, useIntl } from 'react-intl';
+import { useSelector } from 'react-redux';
 // application
 import CurrencyFormat from '~/components/shared/CurrencyFormat';
 import Pagination from '~/components/shared/Pagination';
@@ -79,7 +80,7 @@ function ProductsView(props: Props) {
   const intl = useIntl();
   const isLoading = useShopProductsListIsLoading();
   const shop = useShop();
-  const productsList = useShopProductsList();
+  const productsList = useSelector((state: any) => state.products);
   const options = useShopOptions();
   const shopResetFilters = useShopResetFiltersThunk();
   const shopResetFilter = useShopResetFilterThunk();
@@ -92,7 +93,7 @@ function ProductsView(props: Props) {
     parseFloat(event.target.value)
   );
 
-  const isEmptyList = productsList?.total === 0;
+  const isEmptyList = productsList?.length === 0;
   const hasActiveFilters = shop.activeFilters.length > 0;
   const currentFiltersCount = shop.currentFilters.length;
 
@@ -367,7 +368,7 @@ function ProductsView(props: Props) {
                 </div>
               </ProductListHead>
               <ProductListContent>
-                {productsList?.items.map((product) => {
+                {productsList.map((product: any) => {
                   return (
                     <div key={product.id} className="products-list__item">
                       <ProductCard product={product} />

@@ -26,7 +26,6 @@ export default async (req, res) => {
         category: data.category.name,
         sub_category: data.name,
       });
-      console.log({ _id: data._id, name: data.name, images, products });
       res.send({ _id: data._id, name: data.name, images, products });
       break;
     default:
@@ -42,28 +41,28 @@ function getCombn({ items, category, sub_category }) {
   );
 }
 
-var getAllCombinations = function (arraysToCombine) {
-  var divisors = [];
-  for (var i = arraysToCombine.length - 1; i >= 0; i--) {
+const getAllCombinations = function (arraysToCombine) {
+  let divisors = [];
+  for (let i = arraysToCombine.length - 1; i >= 0; i--) {
     divisors[i] = divisors[i + 1]
       ? divisors[i + 1] * arraysToCombine[i + 1].length
       : 1;
   }
   function getPermutation(n, arraysToCombine) {
-    var result = [],
+    let result = [],
       curArray;
-    for (var i = 0; i < arraysToCombine.length; i++) {
+    for (let i = 0; i < arraysToCombine.length; i++) {
       curArray = arraysToCombine[i];
       result.push(curArray[Math.floor(n / divisors[i]) % curArray.length]);
     }
     return result;
   }
-  var numPerms = arraysToCombine[0].length;
-  for (var i = 1; i < arraysToCombine.length; i++) {
+  let numPerms = arraysToCombine[0].length;
+  for (let i = 1; i < arraysToCombine.length; i++) {
     numPerms *= arraysToCombine[i].length;
   }
-  var combinations = [];
-  for (var i = 0; i < numPerms; i++) {
+  let combinations = [];
+  for (let i = 0; i < numPerms; i++) {
     combinations.push(getPermutation(i, arraysToCombine));
   }
   return combinations;

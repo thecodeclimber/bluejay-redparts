@@ -1,5 +1,5 @@
 // react
-import React, { useMemo, useRef } from 'react';
+import React, { useMemo, useRef, useEffect, useState } from 'react';
 // third-party
 import classNames from 'classnames';
 import Slick from 'react-slick';
@@ -7,7 +7,7 @@ import Slick from 'react-slick';
 import {
   BlockProductsCarouselCarouselLoaderSiteFooter,
   BlockProductsCarouselColumn,
-  BlockProductsCarouselCell
+  BlockProductsCarouselCell,
 } from '~/styled-components/block/BlockProductsCarousel';
 import AppSlick, { ISlickProps } from '~/components/shared/AppSlick';
 import ProductCard, {
@@ -19,6 +19,7 @@ import SectionHeader, {
 } from '~/components/shared/SectionHeader';
 import { ILink } from '~/interfaces/link';
 import { IProduct } from '~/interfaces/product';
+import axios from '../../axios';
 
 export type IBlockProductsCarouselLayout =
   | 'grid-4'
@@ -157,12 +158,22 @@ function BlockProductsCarousel<T extends ISectionHeaderGroup>(props: Props<T>) {
     onChangeGroup,
   } = props;
   const slickRef = useRef<Slick>(null);
+  const [subCategoriesData, setSubCategoriesData] = useState([]);
 
   const handleNextClick = () => {
     if (slickRef.current) {
       slickRef.current.slickNext();
     }
   };
+
+  useEffect(() => {
+    async function fetchSubCategories() {
+      const res = await axios.get('http://localhost:3000/api/sub_categories');
+      setSubCategoriesData(res.data.data);
+    }
+    fetchSubCategories();
+  }, []);
+
 
   const handlePrevClick = () => {
     if (slickRef.current) {
@@ -191,10 +202,7 @@ function BlockProductsCarousel<T extends ISectionHeaderGroup>(props: Props<T>) {
     return (
       <AppSlick ref={slickRef} {...slickSettings[layout]}>
         {columns.map((column, columnIdx) => (
-          <BlockProductsCarouselColumn
-            key={columnIdx}
-            
-          >
+          <BlockProductsCarouselColumn key={columnIdx}>
             {column.map((product, productIdx) => (
               <ProductCard
                 key={productIdx}

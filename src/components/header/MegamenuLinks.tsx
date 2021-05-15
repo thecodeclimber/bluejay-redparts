@@ -2,14 +2,18 @@
 import React from 'react';
 // third-party
 import classNames from 'classnames';
+import { useRouter } from 'next/router';
 // application
 import {
   MegaMenuLinks,
   MegaMenuItemLinksItemLink,
   MegaMenuLinkItem,
 } from '~/styled-components/header/MegamenuLinks';
+import { shopFetchProducts } from '../../store/shop/shopActions';
 import { ILink, INestedLink } from '~/interfaces/link';
+import { useDispatch } from 'react-redux';
 import axios from '../../axios';
+import { Router } from 'next/router';
 
 interface Props extends React.HTMLAttributes<HTMLElement> {
   links: INestedLink[];
@@ -19,12 +23,15 @@ interface Props extends React.HTMLAttributes<HTMLElement> {
 
 function MegamenuLinks(props: Props) {
   const { links, level = 0, onItemClick, className, ...rootProps } = props;
+  const dispatch = useDispatch();
+  const router = useRouter();
 
   const handleProducts = async (item: any) => {
-    const products = await axios.get(
-      `http://localhost:3000/api/sub_categories/${item._id}/products`
+    const products = await axios.get(`/sub_categories/${item._id}/products`);
+    dispatch(shopFetchProducts(products.data));
+    router.push(
+      `/catalog/${item.name.toLowerCase().replace(/ /g, '-')}/products`
     );
-    console.log(products.data.products);
   };
 
   return (
@@ -36,10 +43,7 @@ function MegamenuLinks(props: Props) {
           <MegaMenuLinkItem key={linkIndex}>
             <MegaMenuItemLinksItemLink
               hasSubLinks={hasSubLinks}
-              href={`/catalog/${link.name
-                .toLowerCase()
-                .replace(/ /g, '-')}/products`}
-              onMouseOver={() => handleProducts(link)}
+              onClick={() => handleProducts(link)}
               {...link.customFields?.anchorProps}
             >
               {link.name.charAt(0).toUpperCase() + link.name.slice(1)}

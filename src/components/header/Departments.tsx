@@ -48,7 +48,7 @@ function Departments(props: Props) {
 
   useEffect(() => {
     async function fetchCategories() {
-      const res = await axios.get('http://localhost:3000/api/categories');
+      const res = await axios.get('/categories');
       setCategoriesData(res.data.data);
     }
     fetchCategories();
@@ -56,7 +56,7 @@ function Departments(props: Props) {
 
   useEffect(() => {
     async function fetchSubCategories() {
-      const res = await axios.get('http://localhost:3000/api/sub_categories');
+      const res = await axios.get('/sub_categories');
       setSubCategoriesData(res.data.data);
     }
     fetchSubCategories();

@@ -3,6 +3,7 @@ import { IFilterValues, IListOptions } from '~/interfaces/list';
 import { IProductsList } from '~/interfaces/product';
 import { IShopCategory } from '~/interfaces/category';
 import { SHOP_NAMESPACE } from '~/store/shop/shopTypes';
+import { makeProduct } from './shopHelpers';
 import { shopApi } from '~/api';
 import {
   SHOP_FETCH_CATEGORY_SUCCESS,
@@ -11,6 +12,7 @@ import {
   SHOP_INIT,
   SHOP_RESET_FILTER,
   SHOP_RESET_FILTERS,
+  SELECTED_PRODUCTS,
   SHOP_SET_FILTER_VALUE,
   SHOP_SET_OPTION_VALUE,
   ShopFetchCategorySuccessAction,
@@ -55,11 +57,18 @@ export function shopFetchProductsListStart(): ShopFetchProductsListStartAction {
   };
 }
 
-export function shopFetchProductsListSuccess(
-  productsList: IProductsList
-): ShopFetchProductsListSuccessAction {
+// export function shopFetchProductsListSuccess(products: any): any {
+//   const productsList = makeProduct(products);
+//   return {
+//     type: SHOP_FETCH_PRODUCTS_LIST_SUCCESS,
+//     productsList,
+//   };
+// }
+
+export function shopFetchProducts(products: any): any {
+  const productsList = makeProduct(products);
   return {
-    type: SHOP_FETCH_PRODUCTS_LIST_SUCCESS,
+    type: SELECTED_PRODUCTS,
     productsList,
   };
 }
@@ -153,13 +162,12 @@ export function shopFetchProductsListThunk(): ShopThunkAction<Promise<void>> {
       shopState.options,
       filters
     );
-    console.log('pro=====>>>', productsList);
 
     if (canceled && process.browser) {
       return;
     }
 
-    dispatch(shopFetchProductsListSuccess(productsList));
+    // dispatch(shopFetchProductsListSuccess(productsList));
   };
 }
 

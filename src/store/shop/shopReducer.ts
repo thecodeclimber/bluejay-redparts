@@ -13,6 +13,7 @@ import {
   SHOP_FETCH_PRODUCTS_LIST_SUCCESS,
   SHOP_HYDRATE,
   SHOP_INIT,
+  SELECTED_PRODUCTS,
   SHOP_RESET_FILTER,
   SHOP_RESET_FILTERS,
   SHOP_SET_FILTER_VALUE,
@@ -22,14 +23,16 @@ import {
   ShopResetFilterAction,
   ShopSetFilterValueAction,
 } from '~/store/shop/shopActionTypes';
+import { products } from '~/fake-server/database/products';
 
-const initialState: IShopState = {
+const initialState: any = {
   init: false,
   categorySlug: null,
   categoryIsLoading: true,
   category: null,
   productsListIsLoading: true,
   productsList: null,
+  products: [],
   options: {},
   filters: {},
   activeFilters: [],
@@ -37,21 +40,12 @@ const initialState: IShopState = {
   currentFilters: [],
 };
 
-function shopReducerFetchProductsListSuccess(
-  state: IShopState,
-  action: ShopFetchProductsListSuccessAction
-): IShopState {
-  const activeFilters = action.productsList.filters
-    .filter((x) => hasHandler(x))
-    .reduce<IActiveFilter[]>(
-      (acc, filter) => [...acc, ...getActiveFilters(filter)],
-      []
-    );
-
+function shopReducerFetchProductsListSuccess(state: any, action: any): any {
+  const activeFilters: any[] = [];
   return {
     ...state,
     productsListIsLoading: false,
-    productsList: action.productsList,
+    productsList: action.productsLists,
     activeFilters,
     removedFilters: [],
     currentFilters: activeFilters,
@@ -125,7 +119,10 @@ function shopReducerResetFilter(
   };
 }
 
-function shopReducer(state = initialState, action: ShopAction): IShopState {
+export function shopReducer(
+  state = initialState,
+  action: ShopAction
+): IShopState {
   switch (action.type) {
     case SHOP_HYDRATE:
       return action.payload[SHOP_NAMESPACE];
@@ -163,4 +160,13 @@ function shopReducer(state = initialState, action: ShopAction): IShopState {
   }
 }
 
-export default shopReducer;
+export function productReducer(state = initialState, action: any): any {
+  switch (action.type) {
+    case SELECTED_PRODUCTS:
+      return {
+        products: [...state.products, action.productsList],
+      };
+    default:
+      return state;
+  }
+}
