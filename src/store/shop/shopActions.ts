@@ -57,21 +57,22 @@ export function shopFetchProductsListStart(): ShopFetchProductsListStartAction {
   };
 }
 
-// export function shopFetchProductsListSuccess(products: any): any {
-//   const productsList = makeProduct(products);
-//   return {
-//     type: SHOP_FETCH_PRODUCTS_LIST_SUCCESS,
-//     productsList,
-//   };
-// }
-
-export function shopFetchProducts(products: any): any {
+export function shopFetchProductsListSuccess(products: any): any {
   const productsList = makeProduct(products);
   return {
-    type: SELECTED_PRODUCTS,
+    type: SHOP_FETCH_PRODUCTS_LIST_SUCCESS,
     productsList,
   };
 }
+
+// export function shopFetchProducts(products: any): any {
+//   const productsList = makeProduct(products);
+//   console.log('selected Action', productsList);
+//   return {
+//     type: SELECTED_PRODUCTS,
+//     productsList,
+//   };
+// }
 
 export function shopResetFilters(): ShopResetFiltersAction {
   return {
@@ -158,16 +159,13 @@ export function shopFetchProductsListThunk(): ShopThunkAction<Promise<void>> {
       filters = { ...filters, category: shopState.categorySlug };
     }
 
-    const productsList = await shopApi.getProductsList(
-      shopState.options,
-      filters
-    );
+    const productsList = shopState;
 
     if (canceled && process.browser) {
       return;
     }
 
-    // dispatch(shopFetchProductsListSuccess(productsList));
+    dispatch(shopFetchProductsListSuccess(productsList));
   };
 }
 

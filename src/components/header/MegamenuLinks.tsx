@@ -9,7 +9,7 @@ import {
   MegaMenuItemLinksItemLink,
   MegaMenuLinkItem,
 } from '~/styled-components/header/MegamenuLinks';
-import { shopFetchProducts } from '../../store/shop/shopActions';
+import { shopFetchProductsListSuccess } from '../../store/shop/shopActions';
 import { ILink, INestedLink } from '~/interfaces/link';
 import { useDispatch } from 'react-redux';
 import axios from '../../axios';
@@ -28,7 +28,7 @@ function MegamenuLinks(props: Props) {
 
   const handleProducts = async (item: any) => {
     const products = await axios.get(`/sub_categories/${item._id}/products`);
-    dispatch(shopFetchProducts(products.data));
+    dispatch(shopFetchProductsListSuccess(products.data));
     router.push(
       `/catalog/${item.name.toLowerCase().replace(/ /g, '-')}/products`
     );

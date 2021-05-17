@@ -31,7 +31,7 @@ const initialState: any = {
   categoryIsLoading: true,
   category: null,
   productsListIsLoading: true,
-  productsList: null,
+  productsList: [],
   products: [],
   options: {},
   filters: {},
@@ -45,7 +45,7 @@ function shopReducerFetchProductsListSuccess(state: any, action: any): any {
   return {
     ...state,
     productsListIsLoading: false,
-    productsList: action.productsLists,
+    productsList: action.productsList,
     activeFilters,
     removedFilters: [],
     currentFilters: activeFilters,
@@ -160,13 +160,14 @@ export function shopReducer(
   }
 }
 
-export function productReducer(state = initialState, action: any): any {
-  switch (action.type) {
-    case SELECTED_PRODUCTS:
-      return {
-        products: [...state.products, action.productsList],
-      };
-    default:
-      return state;
-  }
-}
+// export function productReducer(state = initialState, action: any): any {
+//   console.log('2 reducer products', action.productsList);
+//   switch (action.type) {
+//     case SELECTED_PRODUCTS:
+//       return {
+//         products: [action.productsList],
+//       };
+//     default:
+//       return state;
+//   }
+// }

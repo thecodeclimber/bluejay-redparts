@@ -80,7 +80,7 @@ function ProductsView(props: Props) {
   const intl = useIntl();
   const isLoading = useShopProductsListIsLoading();
   const shop = useShop();
-  const productsList = useSelector((state: any) => state.products);
+  const productsList = useShopProductsList();
   const options = useShopOptions();
   const shopResetFilters = useShopResetFiltersThunk();
   const shopResetFilter = useShopResetFilterThunk();
@@ -93,7 +93,7 @@ function ProductsView(props: Props) {
     parseFloat(event.target.value)
   );
 
-  const isEmptyList = productsList?.length === 0;
+  const isEmptyList = productsList?.total === 0;
   const hasActiveFilters = shop.activeFilters.length > 0;
   const currentFiltersCount = shop.currentFilters.length;
 
