@@ -3,8 +3,16 @@ import React, { useEffect } from 'react';
 // application
 import { shopInitThunk } from '~/store/shop/shopActions';
 import { useDispatch } from 'react-redux';
+import getShopPageData from '~/store/shop/shopHelpers';
+import { wrapper } from '~/store/store';
 import ShopPageShop from '~/components/shop/ShopPageShop';
 import axios from '~/axios';
+
+export const getServerSideProps = wrapper.getServerSideProps(
+  async (context) => {
+    await getShopPageData(context);
+  }
+);
 
 function Page() {
   const dispatch = useDispatch();

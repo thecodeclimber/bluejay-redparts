@@ -159,23 +159,21 @@ export const makeProduct = (products: any) => {
   });
 };
 
-// export default async function getShopPageData(
-//   context: GetServerSidePropsContext,
-//   slug?: string,
-//   productList?: any
-// ): Promise<void> {
-//   const categorySlug =
-//     slug ||
-//     (typeof context.params?.slug === 'string' ? context.params.slug : null);
+export default async function getShopPageData(
+  context: GetServerSidePropsContext,
+  slug?: string,
+  productList?: any
+): Promise<void> {
+  const categorySlug =
+    slug ||
+    (typeof context.params?.slug === 'string' ? context.params.slug : null);
 
-//   if (typeof context.req.url === 'string') {
-//     const query = queryString.stringify(
-//       queryString.parseUrl(context.req.url).query
-//     );
-//     const options = parseQueryOptions(query);
-//     const filters = parseQueryFilters(query);
-//     const dispatch = context.store.dispatch as AppDispatch;
-
-//     await dispatch(shopInitThunk(productList));
-//   }
-// }
+  if (typeof context.req.url === 'string') {
+    const query = queryString.stringify(
+      queryString.parseUrl(context.req.url).query
+    );
+    const options = parseQueryOptions(query);
+    const filters = parseQueryFilters(query);
+    const dispatch = context.store.dispatch as AppDispatch;
+  }
+}
