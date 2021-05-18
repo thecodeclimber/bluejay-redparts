@@ -1,9 +1,8 @@
 const dbConnect = require('../../../../utils/dbConnect');
-dbConnect();
 
 const { Category} = require('../../../../models');
 
-export default async (req, res)=>{
+export default dbConnect(async (req, res)=>{
     switch(req.method)
     {
         case 'GET':
@@ -21,4 +20,4 @@ export default async (req, res)=>{
         break;
         default: res.send({ status: false, message: 'Not found!'})
     }
-}
+})

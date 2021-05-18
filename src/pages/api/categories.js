@@ -1,5 +1,4 @@
 const dbConnect = require('../../../utils/dbConnect');
-dbConnect();
 
 const {
   Section,
@@ -8,7 +7,7 @@ const {
   Category,
 } = require('../../../models');
 
-export default async (req, res) => {
+export default dbConnect(async (req, res) => {
   switch (req.method) {
     case 'GET':
       let data = await Category.aggregate([
@@ -26,4 +25,4 @@ export default async (req, res) => {
     default:
       res.send({ status: false, message: 'Not found!' });
   }
-};
+});

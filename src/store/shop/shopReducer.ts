@@ -130,8 +130,8 @@ export function shopReducer(
       return {
         ...initialState,
         categorySlug: action.categorySlug,
-        options: action.options,
-        filters: action.filters,
+        // options: action.options,
+        // filters: action.filters,
       };
     case SHOP_FETCH_CATEGORY_SUCCESS:
       return {
@@ -159,15 +159,3 @@ export function shopReducer(
       return state;
   }
 }
-
-// export function productReducer(state = initialState, action: any): any {
-//   console.log('2 reducer products', action.productsList);
-//   switch (action.type) {
-//     case SELECTED_PRODUCTS:
-//       return {
-//         products: [action.productsList],
-//       };
-//     default:
-//       return state;
-//   }
-// }

@@ -30,8 +30,6 @@ export interface ShopHydrateAction {
 export interface ShopInitAction {
   type: typeof SHOP_INIT;
   categorySlug: string | null;
-  options: IListOptions;
-  filters: IFilterValues;
 }
 
 export interface ShopFetchCategorySuccessAction {

@@ -1,8 +1,7 @@
 const dbConnect = require('../../../../utils/dbConnect');
-dbConnect();
 const { Attribute } = require('../../../../models');
 
-export default async (req, res) => {
+export default dbConnect(async (req, res) => {
   switch (req.method) {
     case 'GET':
       let data = await Attribute.findById(req.query.id);
@@ -11,4 +10,4 @@ export default async (req, res) => {
     default:
       res.send({ status: false, message: 'Not found!' });
   }
-};
+});

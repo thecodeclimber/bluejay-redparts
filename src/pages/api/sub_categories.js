@@ -1,9 +1,7 @@
 const dbConnect = require('../../../utils/dbConnect');
-dbConnect();
-
 const { SubCategory } = require('../../../models');
 
-export default async (req, res) => {
+export default dbConnect(async (req, res) => {
   switch (req.method) {
     case 'GET':
       let data = await SubCategory.find({});
@@ -12,4 +10,4 @@ export default async (req, res) => {
     default:
       res.send({ status: false, message: 'Not found!' });
   }
-};
+});

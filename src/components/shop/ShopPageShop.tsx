@@ -115,12 +115,12 @@ function ShopPageShop(props: Props) {
     return <BlockHeader pageTitle={pageTitle} breadcrumb={breadcrumb} />;
   }, [intl, shopState.category]);
 
-  if (
-    shopState.categoryIsLoading ||
-    (shopState.productsListIsLoading && !shopState.productsList)
-  ) {
-    return null;
-  }
+  // if (
+  //   shopState.categoryIsLoading ||
+  //   (shopState.productsListIsLoading && !shopState.productsList)
+  // ) {
+  //   return null;
+  // }
 
   const sidebar = <ShopSidebar offcanvas={offCanvasSidebar} />;
 

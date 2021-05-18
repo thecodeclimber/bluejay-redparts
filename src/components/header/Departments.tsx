@@ -50,16 +50,10 @@ function Departments(props: Props) {
     async function fetchCategories() {
       const res = await axios.get('/categories');
       setCategoriesData(res.data.data);
+      const getSub = await axios.get('/sub_categories');
+      setSubCategoriesData(getSub.data.data);
     }
     fetchCategories();
-  }, []);
-
-  useEffect(() => {
-    async function fetchSubCategories() {
-      const res = await axios.get('/sub_categories');
-      setSubCategoriesData(res.data.data);
-    }
-    fetchSubCategories();
   }, []);
 
   const handleBodyMouseLeave = () => {

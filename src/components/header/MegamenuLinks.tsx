@@ -27,11 +27,7 @@ function MegamenuLinks(props: Props) {
   const router = useRouter();
 
   const handleProducts = async (item: any) => {
-    const products = await axios.get(`/sub_categories/${item._id}/products`);
-    dispatch(shopFetchProductsListSuccess(products.data));
-    router.push(
-      `/catalog/${item.name.toLowerCase().replace(/ /g, '-')}/products`
-    );
+    localStorage.setItem('subCategoryId', item._id);
   };
 
   return (
@@ -43,6 +39,9 @@ function MegamenuLinks(props: Props) {
           <MegaMenuLinkItem key={linkIndex}>
             <MegaMenuItemLinksItemLink
               hasSubLinks={hasSubLinks}
+              href={`/catalog/${link.name
+                .toLowerCase()
+                .replace(/ /g, '-')}/products`}
               onClick={() => handleProducts(link)}
               {...link.customFields?.anchorProps}
             >

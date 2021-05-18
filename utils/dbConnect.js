@@ -1,15 +1,18 @@
 import mongoose from 'mongoose';
-const connection = {};
 
-const dbConnect = async () => {
-  if (connection.isConnected) {
-    return;
+const dbConnect = (handler) => async (req, res) => {
+  if (mongoose.connections[0].readyState) {
+    // Use current db connection
+    return handler(req, res);
   }
-  const db = await mongoose.connect(process.env.DATABASE_URL, {
-    useNewUrlParser: true,
+  // Use new db connection
+  await mongoose.connect(process.env.DATABASE_URL, {
     useUnifiedTopology: true,
+    useFindAndModify: false,
+    useCreateIndex: true,
+    useNewUrlParser: true,
   });
-  connection.isConnected = db.connections[0].readyState;
-  connection.onConnected = new Date().toISOString();
+  return handler(req, res);
 };
+
 module.exports = dbConnect;

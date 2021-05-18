@@ -5,6 +5,7 @@ import { IShopCategory } from '~/interfaces/category';
 import { SHOP_NAMESPACE } from '~/store/shop/shopTypes';
 import { makeProduct } from './shopHelpers';
 import { shopApi } from '~/api';
+import axios from 'axios';
 import {
   SHOP_FETCH_CATEGORY_SUCCESS,
   SHOP_FETCH_PRODUCTS_LIST_START,
@@ -29,16 +30,10 @@ import {
 let cancelPreviousCategoryRequest = () => {};
 let cancelPreviousProductsListRequest = () => {};
 
-export function shopInit(
-  categorySlug: string | null,
-  options: IListOptions = {},
-  filters: IFilterValues = {}
-): ShopInitAction {
+export function shopInit(categorySlug: string | null): ShopInitAction {
   return {
     type: SHOP_INIT,
     categorySlug,
-    options,
-    filters,
   };
 }
 
@@ -57,8 +52,7 @@ export function shopFetchProductsListStart(): ShopFetchProductsListStartAction {
   };
 }
 
-export function shopFetchProductsListSuccess(products: any): any {
-  const productsList = makeProduct(products);
+export function shopFetchProductsListSuccess(productsList: any): any {
   return {
     type: SHOP_FETCH_PRODUCTS_LIST_SUCCESS,
     productsList,
@@ -115,57 +109,50 @@ export function shopFetchCategoryThunk(
   categorySlug: string | null
 ): ShopThunkAction<Promise<void>> {
   return async (dispatch) => {
-    let canceled = false;
-
-    cancelPreviousCategoryRequest();
-    cancelPreviousCategoryRequest = () => {
-      canceled = true;
-    };
-
-    let request: Promise<IShopCategory | null>;
-
-    if (categorySlug) {
-      request = shopApi.getCategoryBySlug(categorySlug);
-    } else {
-      request = Promise.resolve(null);
-    }
-
-    const category = await request;
-
-    if (canceled && process.browser) {
-      return;
-    }
-
-    dispatch(shopFetchCategorySuccess(category));
+    // let canceled = false;
+    // cancelPreviousCategoryRequest();
+    // cancelPreviousCategoryRequest = () => {
+    //   canceled = true;
+    // };
+    // let request: Promise<IShopCategory | null>;
+    // if (categorySlug) {
+    //   request = shopApi.getCategoryBySlug(categorySlug);
+    // } else {
+    //   request = Promise.resolve(null);
+    // }
+    // const category = await request;
+    // if (canceled && process.browser) {
+    //   return;
+    // }
+    // dispatch(shopFetchCategorySuccess(category));
   };
 }
 
-export function shopFetchProductsListThunk(): ShopThunkAction<Promise<void>> {
+export function shopFetchProductsListThunk(
+  products: any
+): ShopThunkAction<Promise<void>> {
   return async (dispatch, getState) => {
-    let canceled = false;
+    // let canceled = false;
 
-    cancelPreviousProductsListRequest();
-    cancelPreviousProductsListRequest = () => {
-      canceled = true;
-    };
+    // cancelPreviousProductsListRequest();
+    // cancelPreviousProductsListRequest = () => {
+    //   canceled = true;
+    // };
 
-    dispatch(shopFetchProductsListStart());
+    // // dispatch(shopFetchProductsListStart());
 
-    const shopState = getState()[SHOP_NAMESPACE];
+    // const shopState = getState()[SHOP_NAMESPACE];
 
-    let { filters } = shopState;
+    // let { filters } = shopState;
 
-    if (shopState.categorySlug !== null) {
-      filters = { ...filters, category: shopState.categorySlug };
-    }
+    // if (shopState.categorySlug !== null) {
+    //   filters = { ...filters, category: shopState.categorySlug };
+    // }
+    // if (canceled && process.browser) {
+    //   return;
+    // }
 
-    const productsList = shopState;
-
-    if (canceled && process.browser) {
-      return;
-    }
-
-    dispatch(shopFetchProductsListSuccess(productsList));
+    dispatch(shopFetchProductsListSuccess(makeProduct(products)));
   };
 }
 
@@ -175,7 +162,6 @@ export function shopSetOptionValueThunk(
 ): ShopThunkAction<Promise<void>> {
   return async (dispatch) => {
     dispatch(shopSetOptionValue(option, value));
-    await dispatch(shopFetchProductsListThunk());
   };
 }
 
@@ -185,14 +171,12 @@ export function shopSetFilterValueThunk(
 ): ShopThunkAction<Promise<void>> {
   return async (dispatch) => {
     dispatch(shopSetFilterValue(filter, value));
-    await dispatch(shopFetchProductsListThunk());
   };
 }
 
 export function shopResetFiltersThunk(): ShopThunkAction<Promise<void>> {
   return async (dispatch) => {
     dispatch(shopResetFilters());
-    await dispatch(shopFetchProductsListThunk());
   };
 }
 
@@ -201,21 +185,19 @@ export function shopResetFilterThunk(
 ): ShopThunkAction<Promise<void>> {
   return async (dispatch) => {
     dispatch(shopResetFilter(activeFilter));
-    await dispatch(shopFetchProductsListThunk());
   };
 }
 
 export function shopInitThunk(
   categorySlug: string | null,
-  options: IListOptions = {},
-  filters: IFilterValues = {}
+  productList: any
 ): ShopThunkAction<Promise<void>> {
   return async (dispatch) => {
-    dispatch(shopInit(categorySlug, options, filters));
+    dispatch(shopInit(categorySlug));
 
     await Promise.all([
       dispatch(shopFetchCategoryThunk(categorySlug)),
-      dispatch(shopFetchProductsListThunk()),
+      dispatch(shopFetchProductsListThunk(productList)),
     ]);
   };
 }

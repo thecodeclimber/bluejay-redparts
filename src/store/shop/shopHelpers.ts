@@ -4,13 +4,14 @@ import queryString from 'query-string';
 import { AppDispatch } from '~/store/types';
 import { GetServerSidePropsContext } from '~/store/store';
 import { IFilterValues, IListOptions } from '~/interfaces/list';
-import { shopInitThunk } from '~/store/shop/shopActions';
+// import { shopInitThunk } from '~/store/shop/shopActions';
 import { IProductAttribute } from '~/interfaces/product';
 import { IShopCategory } from '~/interfaces/category';
 import { makeIdGenerator, nameToSlug } from '~/fake-server/utils';
 import { prepareCategory } from '~/fake-server/endpoints/categories';
 import { IProductAttributesDef } from '~/fake-server/interfaces/product-def';
 import { shopCategoriesList } from '~/fake-server/database/categories';
+import axios from '../../axios';
 
 const getNextId = makeIdGenerator();
 
@@ -76,13 +77,23 @@ export function buildQuery(options: IListOptions, filters: IFilterValues) {
 }
 
 const fetchImages = (images: any) => {
-  images.map((image: any) => {
-    return [`${image}.png`];
+  let TotalImage: any = [];
+  images.forEach((image: any) => {
+    TotalImage.push(`/images/fasteners/anchors/${image}.png`);
   });
+  return TotalImage;
 };
 
 const createProductName = (def: any) => {
-  return `${def.charAt(0).toUpperCase() + def.slice(1)}`;
+  const words = def.split(' ');
+
+  let productName: any = words
+    .map((word: any) => {
+      return word[0].toUpperCase() + word.substring(1);
+    })
+    .join(' ');
+
+  return productName;
 };
 
 const createProductSlug = (def: any) => {
@@ -90,7 +101,7 @@ const createProductSlug = (def: any) => {
 };
 
 export const makeProduct = (products: any) => {
-  return products.products.map((def: any) => {
+  return products.data.products.map((def: any) => {
     return {
       id: getNextId(),
       name: createProductName(def),
@@ -104,7 +115,7 @@ export const makeProduct = (products: any) => {
       partNumber: 'BDX-750Z370-S',
       stock: 'in-stock',
       price: 25,
-      images: fetchImages(products.images),
+      images: fetchImages(products.data.images),
       type: {
         slug: 'default',
         name: 'Default',
@@ -148,22 +159,23 @@ export const makeProduct = (products: any) => {
   });
 };
 
-export default async function getShopPageData(
-  context: GetServerSidePropsContext,
-  slug?: string
-): Promise<void> {
-  const categorySlug =
-    slug ||
-    (typeof context.params?.slug === 'string' ? context.params.slug : null);
+// export default async function getShopPageData(
+//   context: GetServerSidePropsContext,
+//   slug?: string,
+//   productList?: any
+// ): Promise<void> {
+//   const categorySlug =
+//     slug ||
+//     (typeof context.params?.slug === 'string' ? context.params.slug : null);
 
-  if (typeof context.req.url === 'string') {
-    const query = queryString.stringify(
-      queryString.parseUrl(context.req.url).query
-    );
-    const options = parseQueryOptions(query);
-    const filters = parseQueryFilters(query);
-    const dispatch = context.store.dispatch as AppDispatch;
+//   if (typeof context.req.url === 'string') {
+//     const query = queryString.stringify(
+//       queryString.parseUrl(context.req.url).query
+//     );
+//     const options = parseQueryOptions(query);
+//     const filters = parseQueryFilters(query);
+//     const dispatch = context.store.dispatch as AppDispatch;
 
-    await dispatch(shopInitThunk(categorySlug, options, filters));
-  }
-}
+//     await dispatch(shopInitThunk(productList));
+//   }
+// }
