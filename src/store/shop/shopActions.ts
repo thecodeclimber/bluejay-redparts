@@ -59,15 +59,6 @@ export function shopFetchProductsListSuccess(productsList: any): any {
   };
 }
 
-// export function shopFetchProducts(products: any): any {
-//   const productsList = makeProduct(products);
-//   console.log('selected Action', productsList);
-//   return {
-//     type: SELECTED_PRODUCTS,
-//     productsList,
-//   };
-// }
-
 export function shopResetFilters(): ShopResetFiltersAction {
   return {
     type: SHOP_RESET_FILTERS,
@@ -151,8 +142,16 @@ export function shopFetchProductsListThunk(
     // if (canceled && process.browser) {
     //   return;
     // }
+    let productList: any = [];
+    if (products.data.length > 0) {
+      products.data.map((product: any) => {
+        return productList.push(makeProduct(product));
+      });
+    } else {
+      productList = makeProduct(products);
+    }
 
-    dispatch(shopFetchProductsListSuccess(makeProduct(products)));
+    dispatch(shopFetchProductsListSuccess(productList));
   };
 }
 

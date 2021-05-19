@@ -1,45 +1,55 @@
 const dbConnect = require('../../../../../utils/dbConnect');
 const { SubCategory, Section } = require('../../../../../models');
+
 export default dbConnect(async (req, res) => {
   switch (req.method) {
     case 'GET':
-      let data = await SubCategory.findById(req.query.id)
+      let data = await SubCategory.find({ category: req.query.id })
         .populate('category', 'name section')
         .populate({ path: 'attributes.attribute', select: 'values' });
 
-      let section = await Section.findById(data.category.section, 'name');
+      if (data && data.length > 0) {
+        let newProducts = [];
+        await Promise.all(
+          data.map(async (newData) => {
+            let section = await Section.find({ _id: newData.category.section });
+            let items = [];
+            if (newData.attributes && newData.attributes.length > 0) {
+              newData.attributes.forEach((attribute) => {
+                let attrData = attribute.values.map((val) => {
+                  return attribute.attribute.values.find((attr) =>
+                    val.equals(attr._id)
+                  ).value;
+                });
+                items.push(attrData);
+              });
 
-      let items = [];
+              if (newData && newData.category?.name) {
+                let images = newData.images.map(
+                  (img) =>
+                    `${section.name}__${
+                      newData.category.name
+                    }__${newData.name.toLowerCase().replace(/ /g, '_')}__${img}`
+                );
+                let products = getCombn({
+                  items,
+                  category: newData.category?.name,
+                  sub_category: newData.name,
+                });
 
-      if (data.attributes && data.attributes.length > 0) {
-        data.attributes.forEach((attribute) => {
-          let attrData = attribute.values.map((val) => {
-            return attribute.attribute.values.find((attr) =>
-              val.equals(attr._id)
-            ).value;
-          });
-          items.push(attrData);
-        });
-
-        let images = data.images.map(
-          (img) =>
-            `${section.name}__${
-              data.category.name
-            }__${data.name.toLowerCase().replace(/ /g, '_')}__${img}`
+                newProducts.push({
+                  _id: newData._id,
+                  name: newData.name,
+                  images,
+                  products,
+                });
+              }
+            }
+            return newProducts;
+          })
         );
-        let products = getCombn({
-          items,
-          category: data.category.name,
-          sub_category: data.name,
-        });
-        if (res.status === 500) {
-          res.status(500);
-          res.send([]);
-          return;
-        }
-        res.send({ _id: data._id, name: data.name, images, products });
+        res.send(newProducts);
       }
-      res.send([]);
       break;
     default:
       res.send({ status: false, message: 'Not found!' });

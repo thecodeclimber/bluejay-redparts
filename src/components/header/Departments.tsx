@@ -38,7 +38,6 @@ function Departments(props: Props) {
   const { label } = props;
   const [isOpen, setIsOpen] = useState(false);
   const [categoriesData, setCategoriesData] = useState([]);
-  const [subCategoriesData, setSubCategoriesData] = useState([]);
   const [currentItem, setCurrentItem] = useState<IDepartmentsLink | null>(null);
   const rootRef = useRef<HTMLDivElement>(null);
 
@@ -50,8 +49,6 @@ function Departments(props: Props) {
     async function fetchCategories() {
       const res = await axios.get('/categories');
       setCategoriesData(res.data.data);
-      const getSub = await axios.get('/sub_categories');
-      setSubCategoriesData(getSub.data.data);
     }
     fetchCategories();
   }, []);
@@ -72,6 +69,12 @@ function Departments(props: Props) {
     setIsOpen(false);
     setCurrentItem(null);
   }, [setIsOpen, setCurrentItem]);
+
+  const handleCategoryProducts = (item: any) => {
+    if (item._id) {
+      localStorage.setItem('subCategoryId', item._id);
+    }
+  };
 
   useGlobalMousedown(
     (event) => {
@@ -115,7 +118,10 @@ function Departments(props: Props) {
                     >
                       <DepartmentsItemLink
                         href="/catalog/products"
-                        onClick={() => handleItemClick()}
+                        onClick={() => {
+                          handleItemClick();
+                          handleCategoryProducts(item);
+                        }}
                       >
                         {item.name.charAt(0).toUpperCase() + item.name.slice(1)}
                         {item.sub_categories.length > 0 && (

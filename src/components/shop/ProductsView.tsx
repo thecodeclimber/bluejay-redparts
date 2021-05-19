@@ -63,6 +63,7 @@ import {
   ProductsViewPagination,
   ProductViewPaginationLegend,
 } from '~/styled-components/shop/ProductsView';
+import { products } from '~/fake-server/database/products';
 
 interface LayoutButton {
   layout: IShopPageLayout;
@@ -93,7 +94,7 @@ function ProductsView(props: Props) {
     parseFloat(event.target.value)
   );
 
-  const isEmptyList = productsList?.total === 0;
+  const isEmptyList = productsList?.length === 0;
   const hasActiveFilters = shop.activeFilters.length > 0;
   const currentFiltersCount = shop.currentFilters.length;
 
@@ -139,6 +140,13 @@ function ProductsView(props: Props) {
   if (!productsList) {
     return null;
   }
+
+  let TotalProducts: any = [];
+  productsList.forEach((prducts: any) => {
+    products.forEach((product: any) => {
+      TotalProducts.push(product);
+    });
+  });
 
   return (
     <ProductsProductsView>
@@ -368,13 +376,14 @@ function ProductsView(props: Props) {
                 </div>
               </ProductListHead>
               <ProductListContent>
-                {productsList.map((product: any) => {
-                  return (
-                    <div key={product.id} className="products-list__item">
-                      <ProductCard product={product} />
-                    </div>
-                  );
-                })}
+                {productsList.length > 0 &&
+                  productsList.map((product: any) => {
+                    return (
+                      <div key={product.id} className="products-list__item">
+                        <ProductCard product={product} />
+                      </div>
+                    );
+                  })}
               </ProductListContent>
             </div>
 

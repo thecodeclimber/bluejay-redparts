@@ -77,11 +77,14 @@ export function buildQuery(options: IListOptions, filters: IFilterValues) {
 }
 
 const fetchImages = (images: any) => {
-  let TotalImage: any = [];
-  images.forEach((image: any) => {
-    TotalImage.push(`/images/fasteners/anchors/${image}.png`);
-  });
-  return TotalImage;
+  if (images && images.length > 0) {
+    let TotalImage: any = [];
+    images.forEach((image: any) => {
+      TotalImage.push(`/images/fasteners/anchors/${image}.png`);
+    });
+    return TotalImage;
+  }
+  return ['/images/products/product-2-1.jpg'];
 };
 
 const createProductName = (def: any) => {
@@ -100,63 +103,78 @@ const createProductSlug = (def: any) => {
   return `${def.toLowerCase().replace(/ /g, '_')}`;
 };
 
-export const makeProduct = (products: any) => {
-  return products.data.products.map((def: any) => {
-    return {
-      id: getNextId(),
-      name: createProductName(def),
-      slug: createProductSlug(def),
-      excerpt: `
-                      Many philosophical debates that began in ancient times are still debated today. In one general sense,
-                      philosophy is associated with wisdom, intellectual culture and a search for knowledge.
-                  `,
-      description: def,
-      sku: 'HJ55263',
-      partNumber: 'BDX-750Z370-S',
-      stock: 'in-stock',
-      price: 25,
-      images: fetchImages(products.data.images),
-      type: {
-        slug: 'default',
-        name: 'Default',
-        attributeGroups: [
-          {
-            name: 'General',
-            slug: 'general',
-            attributes: [
-              'length',
-              'diameter',
-              'head_type',
-              'drive',
-              'grade',
-              'material',
-              'finish',
-              'qty_per_box',
-            ],
-          },
-          {
-            name: 'Dimensions',
-            slug: 'dimensions',
-            attributes: ['length', 'diameter'],
-          },
-        ],
-      },
-
-      options: [
+const addKeys = (def: any, products: any) => {
+  return {
+    id: getNextId(),
+    name: createProductName(def),
+    slug: createProductSlug(def),
+    excerpt: `
+                    Many philosophical debates that began in ancient times are still debated today. In one general sense,
+                    philosophy is associated with wisdom, intellectual culture and a search for knowledge.
+                `,
+    description: def,
+    sku: 'HJ55263',
+    partNumber: 'BDX-750Z370-S',
+    stock: 'in-stock',
+    price: 25,
+    images: fetchImages(products.data ? products.data.images : products.images),
+    type: {
+      slug: 'default',
+      name: 'Default',
+      attributeGroups: [
         {
-          type: 'default',
-          slug: 'material',
-          name: 'Material',
-          values: [
-            { slug: 'steel', name: 'Steel' },
-            { slug: 'aluminium', name: 'Aluminium' },
-            { slug: 'thorium', name: 'Thorium' },
+          name: 'General',
+          slug: 'general',
+          attributes: [
+            'length',
+            'diameter',
+            'head_type',
+            'drive',
+            'grade',
+            'material',
+            'finish',
+            'qty_per_box',
           ],
         },
+        {
+          name: 'Dimensions',
+          slug: 'dimensions',
+          attributes: ['length', 'diameter'],
+        },
       ],
-      subCategory: def.Category,
-    };
-  });
+    },
+
+    options: [
+      {
+        type: 'default',
+        slug: 'material',
+        name: 'Material',
+        values: [
+          { slug: 'steel', name: 'Steel' },
+          { slug: 'aluminium', name: 'Aluminium' },
+          { slug: 'thorium', name: 'Thorium' },
+        ],
+      },
+    ],
+    subCategory: def.Category,
+  };
+};
+
+export const makeProduct = (products: any) => {
+  if (
+    products?.data &&
+    products?.data.products &&
+    products.data.products.length > 0
+  ) {
+    return products.data.products.map((def: any) => {
+      return addKeys(def, products);
+    });
+  } else if (products.products && products.products.length > 0) {
+    return products.products.map((def: any) => {
+      return addKeys(def, products);
+    });
+  }
+  return [];
 };
 
 export default async function getShopPageData(

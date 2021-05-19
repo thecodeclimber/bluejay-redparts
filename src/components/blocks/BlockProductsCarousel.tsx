@@ -158,22 +158,12 @@ function BlockProductsCarousel<T extends ISectionHeaderGroup>(props: Props<T>) {
     onChangeGroup,
   } = props;
   const slickRef = useRef<Slick>(null);
-  const [subCategoriesData, setSubCategoriesData] = useState([]);
 
   const handleNextClick = () => {
     if (slickRef.current) {
       slickRef.current.slickNext();
     }
   };
-
-  useEffect(() => {
-    async function fetchSubCategories() {
-      const res = await axios.get('http://localhost:3000/api/sub_categories');
-      setSubCategoriesData(res.data.data);
-    }
-    fetchSubCategories();
-  }, []);
-
 
   const handlePrevClick = () => {
     if (slickRef.current) {
