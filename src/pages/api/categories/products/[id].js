@@ -27,7 +27,7 @@ export default dbConnect(async (req, res) => {
               if (newData && newData.category?.name) {
                 let images = newData.images.map(
                   (img) =>
-                    `${section.name}__${
+                    `${section[0].name}__${
                       newData.category.name
                     }__${newData.name.toLowerCase().replace(/ /g, '_')}__${img}`
                 );
@@ -45,11 +45,13 @@ export default dbConnect(async (req, res) => {
                 });
               }
             }
+
             return newProducts;
           })
         );
         res.send(newProducts);
       }
+      res.send([]);
       break;
     default:
       res.send({ status: false, message: 'Not found!' });

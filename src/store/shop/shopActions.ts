@@ -1,11 +1,7 @@
 import { IActiveFilter } from '~/interfaces/filter';
-import { IFilterValues, IListOptions } from '~/interfaces/list';
-import { IProductsList } from '~/interfaces/product';
 import { IShopCategory } from '~/interfaces/category';
 import { SHOP_NAMESPACE } from '~/store/shop/shopTypes';
 import { makeProduct } from './shopHelpers';
-import { shopApi } from '~/api';
-import axios from 'axios';
 import {
   SHOP_FETCH_CATEGORY_SUCCESS,
   SHOP_FETCH_PRODUCTS_LIST_START,
@@ -13,13 +9,10 @@ import {
   SHOP_INIT,
   SHOP_RESET_FILTER,
   SHOP_RESET_FILTERS,
-  SELECTED_PRODUCTS,
   SHOP_SET_FILTER_VALUE,
   SHOP_SET_OPTION_VALUE,
   ShopFetchCategorySuccessAction,
   ShopFetchProductsListStartAction,
-  ShopFetchProductsListSuccessAction,
-  ShopInitAction,
   ShopResetFilterAction,
   ShopResetFiltersAction,
   ShopSetFilterValueAction,
@@ -30,10 +23,16 @@ import {
 let cancelPreviousCategoryRequest = () => {};
 let cancelPreviousProductsListRequest = () => {};
 
-export function shopInit(categorySlug: string | null): ShopInitAction {
+export function shopInit(
+  categorySlug: string | null,
+  options: any,
+  filters: any
+): any {
   return {
     type: SHOP_INIT,
     categorySlug,
+    options,
+    filters,
   };
 }
 
@@ -123,35 +122,39 @@ export function shopFetchProductsListThunk(
   products: any
 ): ShopThunkAction<Promise<void>> {
   return async (dispatch, getState) => {
-    // let canceled = false;
+    let canceled = false;
 
-    // cancelPreviousProductsListRequest();
-    // cancelPreviousProductsListRequest = () => {
-    //   canceled = true;
-    // };
+    cancelPreviousProductsListRequest();
+    cancelPreviousProductsListRequest = () => {
+      canceled = true;
+    };
 
-    // // dispatch(shopFetchProductsListStart());
+    dispatch(shopFetchProductsListStart());
 
-    // const shopState = getState()[SHOP_NAMESPACE];
+    const shopState = getState()[SHOP_NAMESPACE];
 
-    // let { filters } = shopState;
+    let { filters } = shopState;
 
-    // if (shopState.categorySlug !== null) {
-    //   filters = { ...filters, category: shopState.categorySlug };
-    // }
-    // if (canceled && process.browser) {
-    //   return;
-    // }
-    let productList: any = [];
+    if (shopState.categorySlug !== null) {
+      filters = { ...filters, category: shopState.categorySlug };
+    }
+    if (canceled && process.browser) {
+      return;
+    }
+    let TotalProducts: any = [];
     if (products.data.length > 0) {
+      let productList: any = [];
       products.data.map((product: any) => {
         return productList.push(makeProduct(product));
       });
+      TotalProducts = productList.reduce((arr: any, item: any) => {
+        return arr.concat(item);
+      });
     } else {
-      productList = makeProduct(products);
+      TotalProducts = makeProduct(products);
     }
 
-    dispatch(shopFetchProductsListSuccess(productList));
+    dispatch(shopFetchProductsListSuccess(TotalProducts));
   };
 }
 
@@ -189,14 +192,16 @@ export function shopResetFilterThunk(
 
 export function shopInitThunk(
   categorySlug: string | null,
-  productList: any
+  productsList: any,
+  options: any,
+  filters: any
 ): ShopThunkAction<Promise<void>> {
   return async (dispatch) => {
-    dispatch(shopInit(categorySlug));
+    dispatch(shopInit(categorySlug, options, filters));
 
     await Promise.all([
       dispatch(shopFetchCategoryThunk(categorySlug)),
-      dispatch(shopFetchProductsListThunk(productList)),
+      dispatch(shopFetchProductsListThunk(productsList)),
     ]);
   };
 }

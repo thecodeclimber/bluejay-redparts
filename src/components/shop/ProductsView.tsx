@@ -1,9 +1,8 @@
 // react
-import React, { useContext, useMemo, useState, useEffect } from 'react';
+import React, { useContext, useMemo, useState } from 'react';
 // third-party
 import classNames from 'classnames';
 import { FormattedMessage, useIntl } from 'react-intl';
-import { useSelector } from 'react-redux';
 // application
 import CurrencyFormat from '~/components/shared/CurrencyFormat';
 import Pagination from '~/components/shared/Pagination';
@@ -63,7 +62,6 @@ import {
   ProductsViewPagination,
   ProductViewPaginationLegend,
 } from '~/styled-components/shop/ProductsView';
-import { products } from '~/fake-server/database/products';
 
 interface LayoutButton {
   layout: IShopPageLayout;
@@ -94,7 +92,7 @@ function ProductsView(props: Props) {
     parseFloat(event.target.value)
   );
 
-  const isEmptyList = productsList?.length === 0;
+  const isEmptyList = productsList.length <= 0 && !isLoading;
   const hasActiveFilters = shop.activeFilters.length > 0;
   const currentFiltersCount = shop.currentFilters.length;
 
@@ -103,7 +101,6 @@ function ProductsView(props: Props) {
   const handleFiltersClick = () => {
     setSidebarIsOpen(true);
   };
-
   const layoutButtons: LayoutButton[] = useMemo(
     () => [
       { layout: 'grid', icon: <LayoutGrid16Svg /> },
@@ -140,13 +137,6 @@ function ProductsView(props: Props) {
   if (!productsList) {
     return null;
   }
-
-  let TotalProducts: any = [];
-  productsList.forEach((prducts: any) => {
-    products.forEach((product: any) => {
-      TotalProducts.push(product);
-    });
-  });
 
   return (
     <ProductsProductsView>

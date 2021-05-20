@@ -32,7 +32,6 @@ const initialState: any = {
   category: null,
   productsListIsLoading: true,
   productsList: [],
-  products: [],
   options: {},
   filters: {},
   activeFilters: [],
@@ -119,10 +118,7 @@ function shopReducerResetFilter(
   };
 }
 
-export function shopReducer(
-  state = initialState,
-  action: ShopAction
-): IShopState {
+export function shopReducer(state = initialState, action: any): IShopState {
   switch (action.type) {
     case SHOP_HYDRATE:
       return action.payload[SHOP_NAMESPACE];
@@ -130,8 +126,8 @@ export function shopReducer(
       return {
         ...initialState,
         categorySlug: action.categorySlug,
-        // options: action.options,
-        // filters: action.filters,
+        options: action.options,
+        filters: action.filters,
       };
     case SHOP_FETCH_CATEGORY_SUCCESS:
       return {

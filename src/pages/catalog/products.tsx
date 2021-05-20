@@ -6,6 +6,8 @@ import { useDispatch } from 'react-redux';
 import getShopPageData from '~/store/shop/shopHelpers';
 import { wrapper } from '~/store/store';
 import ShopPageShop from '~/components/shop/ShopPageShop';
+import { useRouter } from 'next/router';
+
 import axios from '~/axios';
 
 export const getServerSideProps = wrapper.getServerSideProps(
@@ -16,6 +18,7 @@ export const getServerSideProps = wrapper.getServerSideProps(
 
 function Page() {
   const dispatch = useDispatch();
+  const router = useRouter();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -24,7 +27,9 @@ function Page() {
         `/categories/products/${id}`
       );
       const categorySlug = productsList.data.name;
-      dispatch(shopInitThunk(categorySlug, productsList));
+      let options: any = {};
+      let filters: any = {};
+      dispatch(shopInitThunk(categorySlug, productsList, options, filters));
     };
     fetchData();
   }, []);

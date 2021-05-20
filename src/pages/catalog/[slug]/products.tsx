@@ -24,7 +24,9 @@ function Page() {
         `/sub_categories/${id}/products`
       );
       const categorySlug = productsList.data.name;
-      dispatch(shopInitThunk(categorySlug, productsList));
+      let options: any = {};
+      let filters: any = {};
+      dispatch(shopInitThunk(categorySlug, productsList, options, filters));
     };
     fetchData();
   }, []);

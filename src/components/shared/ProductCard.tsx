@@ -1,5 +1,5 @@
 // react
-import React, { useEffect } from 'react';
+import React from 'react';
 // third-party
 import classNames from 'classnames';
 import { FormattedMessage, useIntl } from 'react-intl';
@@ -38,7 +38,6 @@ function ProductCard(props: Props) {
   const { product, layout, exclude = [], className, ...rootProps } = props;
 
   const intl = useIntl();
-  const featuredAttributes: any[] = [];
   const cartAddItem = useCartAddItem();
   const quickviewOpen = useQuickviewOpen();
   const compareAddItem = useCompareAddItem();
