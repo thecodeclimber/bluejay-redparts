@@ -142,18 +142,18 @@ export function shopFetchProductsListThunk(
       return;
     }
     let TotalProducts: any = [];
+
     if (products.data.length > 0) {
       let productList: any = [];
       products.data.map((product: any) => {
-        return productList.push(makeProduct(product));
+        productList.push(product.products);
       });
       TotalProducts = productList.reduce((arr: any, item: any) => {
         return arr.concat(item);
       });
     } else {
-      TotalProducts = makeProduct(products);
+      TotalProducts = products.data.products;
     }
-
     dispatch(shopFetchProductsListSuccess(TotalProducts));
   };
 }

@@ -6,25 +6,26 @@ import { useDispatch } from 'react-redux';
 import getShopPageData from '~/store/shop/shopHelpers';
 import { wrapper } from '~/store/store';
 import ShopPageShop from '~/components/shop/ShopPageShop';
-import { useRouter } from 'next/router';
+import { withRouter } from 'next/router';
 
 import axios from '~/axios';
 
-export const getServerSideProps = wrapper.getServerSideProps(
-  async (context) => {
-    await getShopPageData(context);
+export async function getServerSideProps(content: any) {
+  const { urlParam } = content.query;
+  if (urlParam) {
+    return { props: { urlParam } };
   }
-);
+  return { props: {} };
+}
 
-function Page() {
+function Page(props: any) {
   const dispatch = useDispatch();
-  const router = useRouter();
 
   useEffect(() => {
     const fetchData = async () => {
       let id: any = localStorage.getItem('subCategoryId');
       const productsList: any = await axios.get<any>(
-        `/categories/products/${id}`
+        `/categories/${id}/products`
       );
       const categorySlug = productsList.data.name;
       let options: any = {};
@@ -43,4 +44,4 @@ function Page() {
   );
 }
 
-export default Page;
+export default withRouter(Page);

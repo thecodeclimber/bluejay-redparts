@@ -11,6 +11,7 @@ import CompatibilityStatusBadge from '~/components/shared/CompatibilityStatusBad
 import CurrencyFormat from '~/components/shared/CurrencyFormat';
 import Rating from '~/components/shared/Rating';
 import url from '~/services/url';
+import ShopPageProduct from '../shop/ShopPageProduct';
 import { IProduct } from '~/interfaces/product';
 import { useCartAddItem } from '~/store/cart/cartHooks';
 import { useCompareAddItem } from '~/store/compare/compareHooks';

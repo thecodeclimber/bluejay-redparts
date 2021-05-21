@@ -1,4 +1,5 @@
 const dbConnect = require('../../../../../utils/dbConnect');
+const { addAttributes } = require('../../../../../utils/productKeys');
 const { SubCategory, Section } = require('../../../../../models');
 export default dbConnect(async (req, res) => {
   switch (req.method) {
@@ -32,12 +33,17 @@ export default dbConnect(async (req, res) => {
           category: data.category.name,
           sub_category: data.name,
         });
+
+        products = products.map((product) => {
+          return addAttributes(product, images);
+        });
+
         if (res.status === 500) {
           res.status(500);
           res.send([]);
           return;
         }
-        res.send({ _id: data._id, name: data.name, images, products });
+        res.send({ _id: data._id, name: data.name, products });
       }
       res.send([]);
       break;

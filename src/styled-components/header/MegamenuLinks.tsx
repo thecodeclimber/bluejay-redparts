@@ -10,13 +10,13 @@ export const MegaMenuLinkItem = styled.li`
   margin-top: 4px;
 `;
 
-export const MegaMenuItemLinksItemLink = styled.a`
+export const MegaMenuItemLinksItemLink = styled.div`
   white-space: pre;
   &:hover {
     cursor: pointer;
   }
-  ${(props: { hasSubLinks?: any }) =>
-    !props.hasSubLinks
+  ${(props: { href?: any; hassublinks?: any }) =>
+    !props.hassublinks
       ? css`
          font-weight: ${(props) => `${props.theme.fontWeight.normal}`};
          font-size: 14px;

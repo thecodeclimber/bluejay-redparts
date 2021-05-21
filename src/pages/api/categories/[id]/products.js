@@ -1,5 +1,6 @@
 const dbConnect = require('../../../../../utils/dbConnect');
 const { SubCategory, Section } = require('../../../../../models');
+const { addAttributes } = require('../../../../../utils/productKeys');
 
 export default dbConnect(async (req, res) => {
   switch (req.method) {
@@ -36,11 +37,12 @@ export default dbConnect(async (req, res) => {
                   category: newData.category?.name,
                   sub_category: newData.name,
                 });
-
+                products = products.map((product) => {
+                  return addAttributes(product, images);
+                });
                 newProducts.push({
                   _id: newData._id,
                   name: newData.name,
-                  images,
                   products,
                 });
               }

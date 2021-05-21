@@ -25,6 +25,7 @@ import {
   ArrowRoundedRight7x11Svg,
   Menu16x12Svg,
 } from '~/svg';
+import { createProductName } from '../../store/shop/shopHelpers';
 import { IDepartmentsLink } from '~/interfaces/departments-link';
 import { useGlobalMousedown } from '~/services/hooks';
 // data
@@ -123,7 +124,7 @@ function Departments(props: Props) {
                           handleCategoryProducts(item);
                         }}
                       >
-                        {item.name.charAt(0).toUpperCase() + item.name.slice(1)}
+                        {createProductName(item.name)}
                         {item.sub_categories.length > 0 && (
                           <DepartmentsItemArrow>
                             <ArrowRoundedRight7x11Svg />

@@ -9,6 +9,8 @@ import {
   MegaMenuItemLinksItemLink,
   MegaMenuLinkItem,
 } from '~/styled-components/header/MegamenuLinks';
+import AppLink from '~/components/shared/AppLink';
+import { createProductName } from '../../store/shop/shopHelpers';
 import { shopFetchProductsListSuccess } from '../../store/shop/shopActions';
 import { ILink, INestedLink } from '~/interfaces/link';
 import { useDispatch } from 'react-redux';
@@ -38,14 +40,15 @@ function MegamenuLinks(props: Props) {
         return (
           <MegaMenuLinkItem key={linkIndex}>
             <MegaMenuItemLinksItemLink
-              hasSubLinks={hasSubLinks}
+              as={AppLink}
+              hassublinks={hasSubLinks ? 1 : 0}
               href={`/catalog/${link.name
                 .toLowerCase()
                 .replace(/ /g, '-')}/products`}
               onClick={() => handleProducts(link)}
               {...link.customFields?.anchorProps}
             >
-              {link.name.charAt(0).toUpperCase() + link.name.slice(1)}
+              {createProductName(link.name)}
             </MegaMenuItemLinksItemLink>
             {hasSubLinks && (
               <MegamenuLinks links={subLinks} level={level + 1} />

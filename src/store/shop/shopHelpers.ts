@@ -87,7 +87,7 @@ const fetchImages = (images: any) => {
   return ['/images/products/product-2-1.jpg'];
 };
 
-const createProductName = (def: any) => {
+export const createProductName = (def: any) => {
   const words = def.split(' ');
 
   let productName: any = words
