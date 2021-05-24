@@ -6,7 +6,6 @@ import { useDispatch } from 'react-redux';
 import getShopPageData from '~/store/shop/shopHelpers';
 import { wrapper } from '~/store/store';
 import ShopPageShop from '~/components/shop/ShopPageShop';
-import { withRouter } from 'next/router';
 
 import axios from '~/axios';
 
@@ -44,4 +43,4 @@ function Page(props: any) {
   );
 }
 
-export default withRouter(Page);
+export default Page;

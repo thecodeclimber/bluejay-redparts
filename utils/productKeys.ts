@@ -51,6 +51,7 @@ export const addAttributes = (def: any, image: any) => {
     partNumber: 'BDX-750Z370-S',
     stock: 'in-stock',
     price: 25,
+    compareAtPrice: 45,
     images: fetchImages(image),
     type: {
       slug: 'default',

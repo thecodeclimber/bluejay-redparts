@@ -37,20 +37,21 @@ export default dbConnect(async (req, res) => {
                   category: newData.category?.name,
                   sub_category: newData.name,
                 });
-                products = products.map((product) => {
-                  return addAttributes(product, images);
-                });
-                newProducts.push({
-                  _id: newData._id,
-                  name: newData.name,
-                  products,
-                });
+
+                newProducts.push(
+                  products.map((product) => {
+                    return addAttributes(product, images);
+                  })
+                );
               }
             }
 
             return newProducts;
           })
         );
+        newProducts = newProducts.reduce((arr, item) => {
+          return arr.concat(item);
+        });
         res.send(newProducts);
       }
       res.send([]);

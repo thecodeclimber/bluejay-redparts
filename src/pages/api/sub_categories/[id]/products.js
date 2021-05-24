@@ -43,7 +43,7 @@ export default dbConnect(async (req, res) => {
           res.send([]);
           return;
         }
-        res.send({ _id: data._id, name: data.name, products });
+        res.send(products);
       }
       res.send([]);
       break;

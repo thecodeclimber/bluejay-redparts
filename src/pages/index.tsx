@@ -2,6 +2,7 @@
 import React, { useMemo } from 'react';
 // third-party
 import { useIntl } from 'react-intl';
+import { useSelector } from 'react-redux';
 // application
 import BlockBanners from '~/components/blocks/BlockBanners';
 import BlockBrands from '~/components/blocks/BlockBrands';
@@ -22,6 +23,7 @@ import {
 
 function Page() {
   const intl = useIntl();
+  const categories = useSelector((state: any) => state.category);
 
   /**
    * Featured products.
@@ -145,18 +147,16 @@ function Page() {
       <BlockSale products={blockSale.data} loading={blockSale.isLoading} />
       <BlockSpace layout="divider-lg" />
 
-      {blockZones.map((blockZone, blockZoneIdx) => (
-        <React.Fragment key={blockZoneIdx}>
-          <BlockZone
-            image={blockZone.image}
-            mobileImage={blockZone.mobileImage}
-            categorySlug={blockZone.categorySlug}
-          />
-          {blockZoneIdx < blockZones.length - 1 && (
-            <BlockSpace layout="divider-sm" />
-          )}
-        </React.Fragment>
-      ))}
+      {categories.categories[0].map((category: any, index: any) => {
+        return (
+          <React.Fragment key={index}>
+            <BlockZone category={category} />
+            {index < categories.length - 1 && (
+              <BlockSpace layout="divider-sm" />
+            )}
+          </React.Fragment>
+        );
+      })}
 
       <BlockSpace layout="divider-nl" />
       <BlockBanners />

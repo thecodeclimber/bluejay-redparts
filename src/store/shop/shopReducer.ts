@@ -14,6 +14,7 @@ import {
   SHOP_HYDRATE,
   SHOP_INIT,
   SELECTED_PRODUCTS,
+  SHOP_SET_CATEGORY,
   SHOP_RESET_FILTER,
   SHOP_RESET_FILTERS,
   SHOP_SET_FILTER_VALUE,
@@ -34,6 +35,7 @@ const initialState: any = {
   productsList: [],
   options: {},
   filters: {},
+  categories: [],
   activeFilters: [],
   removedFilters: [],
   currentFilters: [],
@@ -151,6 +153,17 @@ export function shopReducer(state = initialState, action: any): IShopState {
       return { ...state, options: { ...state.options, page: 1 }, filters: {} };
     case SHOP_RESET_FILTER:
       return shopReducerResetFilter(state, action);
+    default:
+      return state;
+  }
+}
+
+export function categoryReducer(state = initialState, action: any) {
+  switch (action.type) {
+    case SHOP_SET_CATEGORY:
+      return {
+        categories: [...state.categories, action.payload],
+      };
     default:
       return state;
   }
