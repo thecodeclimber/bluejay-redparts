@@ -11,7 +11,6 @@ import {
   SHOP_RESET_FILTERS,
   SHOP_ATTRIBUTE,
   SHOP_SET_FILTER_VALUE,
-  SHOP_SET_CATEGORY,
   SHOP_SET_OPTION_VALUE,
   ShopFetchCategorySuccessAction,
   ShopFetchProductsListStartAction,
@@ -101,13 +100,6 @@ export function shopSetFilterValue(
     type: SHOP_SET_FILTER_VALUE,
     filter,
     value,
-  };
-}
-
-export function shopSetCategory(products: any): any {
-  return {
-    type: SHOP_SET_CATEGORY,
-    payload: products,
   };
 }
 

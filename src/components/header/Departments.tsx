@@ -26,7 +26,6 @@ import {
   ArrowRoundedRight7x11Svg,
   Menu16x12Svg,
 } from '~/svg';
-import { shopSetCategory } from '../../store/shop/shopActions';
 import { createProductName } from '../../store/shop/shopHelpers';
 import { IDepartmentsLink } from '~/interfaces/departments-link';
 import { useGlobalMousedown } from '~/services/hooks';
@@ -51,7 +50,6 @@ function Departments(props: Props) {
   useEffect(() => {
     async function fetchCategories() {
       const res = await axios.get('/categories');
-      dispatch(shopSetCategory(res.data.data));
       setCategoriesData(res.data.data);
     }
 
