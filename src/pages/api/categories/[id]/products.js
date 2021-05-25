@@ -1,14 +1,12 @@
 const dbConnect = require('../../../../../utils/dbConnect');
 const { SubCategory, Section } = require('../../../../../models');
 const { addAttributes } = require('../../../../../utils/productKeys');
-
 export default dbConnect(async (req, res) => {
   switch (req.method) {
     case 'GET':
       let data = await SubCategory.find({ category: req.query.id })
         .populate('category', 'name section')
         .populate({ path: 'attributes.attribute', select: 'values' });
-
       if (data && data.length > 0) {
         let newProducts = [];
         await Promise.all(
@@ -24,7 +22,6 @@ export default dbConnect(async (req, res) => {
                 });
                 items.push(attrData);
               });
-
               if (newData && newData.category?.name) {
                 let images = newData.images.map(
                   (img) =>
@@ -37,29 +34,30 @@ export default dbConnect(async (req, res) => {
                   category: newData.category?.name,
                   sub_category: newData.name,
                 });
-                products = products.map((product) => {
-                  return addAttributes(product, images);
-                });
-                newProducts.push({
-                  _id: newData._id,
-                  name: newData.name,
-                  products,
-                });
+
+                newProducts.push(
+                  products.map((product) => {
+                    return addAttributes(product, images);
+                  })
+                );
               }
             }
 
             return newProducts;
           })
         );
+        newProducts = newProducts.reduce((arr, item) => {
+          return arr.concat(item);
+        });
         res.send(newProducts);
       }
       res.send([]);
+
       break;
     default:
       res.send({ status: false, message: 'Not found!' });
   }
 });
-
 function getCombn({ items, category, sub_category }) {
   if (items.length == 1)
     return items[0].map((item) => `${sub_category} ${category} ${item}`);
@@ -68,7 +66,6 @@ function getCombn({ items, category, sub_category }) {
       `${sub_category} ${category} ${item.join(' ').replace(/ /g, ', ')}`
   );
 }
-
 var getAllCombinations = function (arraysToCombine) {
   var divisors = [];
   for (var i = arraysToCombine.length - 1; i >= 0; i--) {
@@ -76,7 +73,6 @@ var getAllCombinations = function (arraysToCombine) {
       ? divisors[i + 1] * arraysToCombine[i + 1].length
       : 1;
   }
-
   function getPermutation(n, arraysToCombine) {
     var result = [],
       curArray;
@@ -86,12 +82,10 @@ var getAllCombinations = function (arraysToCombine) {
     }
     return result.length ? result : [];
   }
-
   var numPerms = arraysToCombine[0].length;
   for (var i = 1; i < arraysToCombine.length; i++) {
     numPerms *= arraysToCombine[i].length;
   }
-
   var combinations = [];
   for (var i = 0; i < numPerms; i++) {
     combinations.push(getPermutation(i, arraysToCombine));

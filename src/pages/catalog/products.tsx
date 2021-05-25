@@ -3,11 +3,7 @@ import React, { useEffect } from 'react';
 // application
 import { shopInitThunk } from '~/store/shop/shopActions';
 import { useDispatch } from 'react-redux';
-import getShopPageData from '~/store/shop/shopHelpers';
-import { wrapper } from '~/store/store';
 import ShopPageShop from '~/components/shop/ShopPageShop';
-import { withRouter } from 'next/router';
-
 import axios from '~/axios';
 
 export async function getServerSideProps(content: any) {
@@ -44,4 +40,4 @@ function Page(props: any) {
   );
 }
 
-export default withRouter(Page);
+export default Page;

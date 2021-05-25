@@ -14,6 +14,7 @@ import {
   SHOP_HYDRATE,
   SHOP_INIT,
   SELECTED_PRODUCTS,
+  SHOP_ATTRIBUTE,
   SHOP_RESET_FILTER,
   SHOP_RESET_FILTERS,
   SHOP_SET_FILTER_VALUE,
@@ -24,6 +25,7 @@ import {
   ShopSetFilterValueAction,
 } from '~/store/shop/shopActionTypes';
 import { products } from '~/fake-server/database/products';
+import { AppInitialProps } from 'next/app';
 
 const initialState: any = {
   init: false,
@@ -32,6 +34,7 @@ const initialState: any = {
   category: null,
   productsListIsLoading: true,
   productsList: [],
+  attributes: [],
   options: {},
   filters: {},
   activeFilters: [],
@@ -151,6 +154,18 @@ export function shopReducer(state = initialState, action: any): IShopState {
       return { ...state, options: { ...state.options, page: 1 }, filters: {} };
     case SHOP_RESET_FILTER:
       return shopReducerResetFilter(state, action);
+    default:
+      return state;
+  }
+}
+
+export function shopAttributeReducer(state = initialState, action: any) {
+  switch (action.type) {
+    case SHOP_ATTRIBUTE:
+      return {
+        ...state,
+        attributes: action.payload,
+      };
     default:
       return state;
   }

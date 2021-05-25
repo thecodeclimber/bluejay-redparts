@@ -2,12 +2,10 @@ import React, { useState } from 'react';
 // application
 import AppLink from '~/components/shared/AppLink';
 import { Tags, TagList, TagLink } from '~/styled-components/components/Tag';
-interface Props {
-  options: any;
-}
 
-function FilterLength(props: Props) {
+function FilterLength(props: any) {
   const { options } = props;
+
   const [selectedItem, setSelectedItem] = useState<any[]>([]);
 
   const handleSelect = (index: number) => {
@@ -24,10 +22,10 @@ function FilterLength(props: Props) {
     <div>
       <Tags>
         <TagList>
-          {options.items.map((item: any, index: any) => (
+          {options.values.map((item: any, index: any) => (
             <TagLink key={index} selected={selectedItem.includes(index)}>
               <AppLink href="#!" onClick={() => handleSelect(index)}>
-                {item}
+                {item.value}
               </AppLink>
             </TagLink>
           ))}

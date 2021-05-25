@@ -5,9 +5,12 @@ import React, { useContext, useEffect, useMemo, useState } from 'react';
 // third-party
 import classNames from 'classnames';
 import { FormattedMessage } from 'react-intl';
+import axios from '../../axios';
+import { useDispatch } from 'react-redux';
 // application
 import WidgetFilters from '~/components/widgets/WidgetFilters';
 import WidgetProducts from '~/components/widgets/WidgetProducts';
+import { shopAttributes } from '~/store/shop/shopActions';
 import { Cross12Svg } from '~/svg';
 import { IProduct } from '~/interfaces/product';
 import { shopApi } from '~/api';
@@ -21,6 +24,7 @@ interface Props {
 
 function ShopSidebar(props: Props) {
   const { offcanvas } = props;
+  const dispatch = useDispatch();
   const [isOpen, setIsOpen] = useContext(SidebarContext);
   const [latestProducts, setLatestProducts] = useState<IProduct[]>([]);
   const isMobile = useMedia('(max-width: 991px)');
@@ -36,6 +40,13 @@ function ShopSidebar(props: Props) {
   const close = () => {
     setIsOpen(false);
   };
+  useEffect(() => {
+    async function fetchAttributes() {
+      const res = await axios.get('/attributes');
+      dispatch(shopAttributes(res.data));
+    }
+    fetchAttributes();
+  }, []);
 
   useEffect(() => {
     if (isOpen) {

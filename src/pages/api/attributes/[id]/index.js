@@ -1,5 +1,5 @@
-const dbConnect = require('../../../../utils/dbConnect');
-const { Attribute } = require('../../../../models');
+const dbConnect = require('../../../../../utils/dbConnect');
+const { Attribute } = require('../../../../../models');
 
 export default dbConnect(async (req, res) => {
   switch (req.method) {

@@ -12,6 +12,7 @@ import {
   isDefaultFilterValue,
   serializeFilterValue,
 } from '~/services/filters';
+import { createProductName } from '../../../utils/productKeys';
 import FilterRange from '~/components/filters/FilterRange';
 import FilterLength from '~/components/filters/FilterLength';
 import FilterDiameter from '~/components/filters/FilterDiameter';
@@ -32,8 +33,8 @@ interface Props {
   value: string;
 }
 
-function Filter(props: Props) {
-  const { filter, value } = props;
+function Filter(props: any) {
+  const { filter } = props;
   const [isOpen, setIsOpen] = useState(true);
   const shopSetFilterValue = useShopSetFilterValueThunk();
 
@@ -57,37 +58,37 @@ function Filter(props: Props) {
     <div className="widget-filters__item">
       <div>
         <FilterTitle as="button" type="button" onClick={handleToggle}>
-          {filter.name}
+          {createProductName(filter.name)}
           <FilterArrow isOpen={isOpen}>
             <ArrowRoundedDown12x7Svg />
           </FilterArrow>
         </FilterTitle>
         <FilterBody isOpen={isOpen}>
           <FilterContainer>
-            {filter.type === 'category' && <FilterCategory options={filter} />}
+            {/* {filter.type === 'category' && <FilterCategory options={filter} />} */}
 
-            {filter.type === 'range' && (
+            {/* {filter.type === 'range' && (
               <FilterRange
                 options={filter}
                 value={getFilterValue(filter, value)}
                 onChangeValue={handleValueChange}
               />
-            )}
+            )} */}
 
-            {filter.type === 'length' && <FilterLength options={filter} />}
+            {filter.name === 'length' && <FilterLength options={filter} />}
 
-            {filter.type === 'diameter' && <FilterDiameter options={filter} />}
+            {filter.name === 'diameter' && <FilterDiameter options={filter} />}
 
-            {filter.type === 'threadLength' && (
+            {filter.name === 'threadLength' && (
               <FilterThreadLength options={filter} />
             )}
-            {filter.type === 'threadSize' && (
+            {filter.name === 'threadSize' && (
               <FilterThreadSize options={filter} />
             )}
-            {filter.type === 'threadCoverage' && (
+            {filter.name === 'thread coverage' && (
               <FilterThreadCoverage options={filter} />
             )}
-            {filter.type === 'screwSize' && (
+            {filter.name === 'screw size' && (
               <FilterScrewSize options={filter} />
             )}
           </FilterContainer>

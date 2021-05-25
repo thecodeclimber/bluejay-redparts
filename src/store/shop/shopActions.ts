@@ -9,6 +9,7 @@ import {
   SHOP_INIT,
   SHOP_RESET_FILTER,
   SHOP_RESET_FILTERS,
+  SHOP_ATTRIBUTE,
   SHOP_SET_FILTER_VALUE,
   SHOP_SET_OPTION_VALUE,
   ShopFetchCategorySuccessAction,
@@ -33,6 +34,13 @@ export function shopInit(
     categorySlug,
     options,
     filters,
+  };
+}
+
+export function shopAttributes(attributes: any) {
+  return {
+    type: SHOP_ATTRIBUTE,
+    payload: attributes,
   };
 }
 
@@ -143,17 +151,7 @@ export function shopFetchProductsListThunk(
     }
     let TotalProducts: any = [];
 
-    if (products.data.length > 0) {
-      let productList: any = [];
-      products.data.map((product: any) => {
-        productList.push(product.products);
-      });
-      TotalProducts = productList.reduce((arr: any, item: any) => {
-        return arr.concat(item);
-      });
-    } else {
-      TotalProducts = products.data.products;
-    }
+    TotalProducts = products.data;
     dispatch(shopFetchProductsListSuccess(TotalProducts));
   };
 }

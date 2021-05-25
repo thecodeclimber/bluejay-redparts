@@ -8,25 +8,22 @@ import {
   InputRadioLabelList,
 } from '~/styled-components/shop/ProductForm';
 import { WidgetCategoriesListShowMoreButton } from '~/styled-components/widget/WidgetCategoriesList';
-interface Props {
-  options: any;
-}
 
-function FilterDiameter(props: Props) {
+function FilterDiameter(props: any) {
   const { options } = props;
   const [itemsToShow, setItemsToShow] = useState(10);
   const [selectedItem, setSelectedItem] = useState<any[]>([]);
   const [expend, setExpend] = useState(true);
 
   const handleItemsToShow = () => {
-    if (itemsToShow === options.items.length) {
+    if (itemsToShow === options.values.length) {
       setItemsToShow(10);
       setExpend(true);
-    } else if (itemsToShow >= 10 && itemsToShow <= options.items.length) {
+    } else if (itemsToShow >= 10 && itemsToShow <= options.values.length) {
       setItemsToShow(itemsToShow + 10);
       setExpend(true);
-    } else if (itemsToShow >= options.items.length) {
-      setItemsToShow(options.items.length);
+    } else if (itemsToShow >= options.values.length) {
+      setItemsToShow(options.values.length);
       setExpend(false);
     }
   };
@@ -44,13 +41,13 @@ function FilterDiameter(props: Props) {
   return (
     <div>
       <InputRadioLabelList>
-        {options.items
+        {options.values
           .filter((item: any, idx: any) => idx < itemsToShow)
           .map((item: any, index: any) => (
             <InputRadioLabelItem key={index}>
               <InputRadioLabelInput onClick={() => handleSelect(index)} />
               <InputRadioLabelTitle selected={selectedItem.includes(index)}>
-                {item}
+                {item.value}
               </InputRadioLabelTitle>
             </InputRadioLabelItem>
           ))}
