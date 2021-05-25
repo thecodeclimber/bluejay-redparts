@@ -37,6 +37,7 @@ const initialState: any = {
   attributes: [],
   options: {},
   filters: {},
+  categories: [],
   activeFilters: [],
   removedFilters: [],
   currentFilters: [],
