@@ -1,33 +1,21 @@
 // react
 import React from 'react';
 // third-party
-import { GetServerSideProps } from 'next';
+// import { GetServerSideProps } from 'next';
 // application
 import ShopPageProduct from '~/components/shop/ShopPageProduct';
-import { IProduct } from '~/interfaces/product';
-import { shopApi } from '~/api';
+// import { IProduct } from '~/interfaces/product';
+// import { shopApi } from '~/api';
+import { useShopProductsList } from '~/store/shop/shopHooks';
 import SitePageNotFound from '~/components/site/SitePageNotFound';
 
-interface Props {
-  product: IProduct | null;
-}
-
-export const getServerSideProps: GetServerSideProps<Props> = async ({
-  params,
-}) => {
-  const slug = typeof params?.slug === 'string' ? params?.slug : null;
-
-  return {
-    props: {
-      product: slug ? await shopApi.getProductBySlug(slug) : null,
-    },
-  };
-};
-
-function Page(props: Props) {
-  const { product } = props;
-
-  if (product === null) {
+function Page() {
+  const productsList = useShopProductsList();
+  const productId = localStorage.getItem('productId');
+  const product = productsList.find((item: any) => {
+    return item.id == productId;
+  });
+  if (productsList === null || productsList.lenght > 0) {
     return <SitePageNotFound />;
   }
 

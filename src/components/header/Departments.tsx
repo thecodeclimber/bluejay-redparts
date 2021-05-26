@@ -52,7 +52,6 @@ function Departments(props: Props) {
       const res = await axios.get('/categories');
       setCategoriesData(res.data.data);
     }
-
     fetchCategories();
   }, []);
 

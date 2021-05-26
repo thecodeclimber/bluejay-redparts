@@ -61,11 +61,12 @@ const slickSettings: ISlickProps = {
 
 const excludeElements: IProductCardElement[] = ['features', 'list-buttons'];
 
-function BlockZone(props: any) {
+function BlockZone(props: Props) {
   const intl = useIntl();
-  const { image, category, mobileImage, categorySlug } = props;
+  const { image, mobileImage, categorySlug } = props;
   const slickRef = useRef<Slick>(null);
   const cancelRequestRef = useRef(() => {});
+  const [category, setCategory] = useState<IShopCategory | null>(null);
   const [products, setProducts] = useState<IProduct[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [currentTab, setCurrentTab] = useState<IBlockZoneTab | null>(null);
@@ -82,7 +83,6 @@ function BlockZone(props: any) {
       slickRef.current.slickPrev();
     }
   };
-
 
   const tabs: IBlockZoneTab[] = useMemo(
     () => [
@@ -128,35 +128,35 @@ function BlockZone(props: any) {
   };
 
   // Unmount.
-  // useEffect(
-  //   () => () => {
-  //     cancelRequestRef.current();
-  //   },
-  //   []
-  // );
+  useEffect(
+    () => () => {
+      cancelRequestRef.current();
+    },
+    []
+  );
 
-  // useEffect(() => {
-  //   let canceled = false;
+  useEffect(() => {
+    let canceled = false;
 
-  //   shopApi.getCategoryBySlug(categorySlug, { depth: 1 }).then((result) => {
-  //     if (canceled) {
-  //       return;
-  //     }
+    shopApi.getCategoryBySlug(categorySlug, { depth: 1 }).then((result) => {
+      if (canceled) {
+        return;
+      }
 
-  //     setCategory(result);
-  //   });
+      setCategory(result);
+    });
 
-  //   setCurrentTab(tabs[0]);
-  //   load(tabs[0]);
+    setCurrentTab(tabs[0]);
+    load(tabs[0]);
 
-  //   return () => {
-  //     canceled = true;
-  //   };
-  // }, [tabs, categorySlug]);
+    return () => {
+      canceled = true;
+    };
+  }, [tabs, categorySlug]);
 
-  // if (!category) {
-  //   return null;
-  // }
+  if (!category) {
+    return null;
+  }
 
   return (
     <BlockBlockZone>
@@ -169,7 +169,7 @@ function BlockZone(props: any) {
                   srcSet={`${baseUrl(mobileImage)} 530w, ${baseUrl(
                     image
                   )} 305w`}
-                  src="/images/categories/category-overlay-3.jpg"
+                  src={image}
                   sizes="(max-width: 575px) 530px, 305px"
                 />
               </CategoryCardOverlayImage>
@@ -178,7 +178,7 @@ function BlockZone(props: any) {
                   srcSet={`${baseUrl(mobileImage)} 530w, ${baseUrl(
                     image
                   )} 305w`}
-                  src="/images/categories/category-overlay-3.jpg"
+                  src={image}
                   sizes="(max-width: 575px) 530px, 305px"
                 />
               </CategoryCardOverlayImageBlue>
@@ -189,13 +189,13 @@ function BlockZone(props: any) {
                       {category.name}
                     </AppLink>
                   </CategoryCardName>
-                  {/* <CategoryCardChildren>
+                  <CategoryCardChildren>
                     {subs.map((sub, subIdx) => (
                       <li key={subIdx}>
                         <AppLink href={url.category(sub)}>{sub.name}</AppLink>
                       </li>
                     ))}
-                  </CategoryCardChildren> */}
+                  </CategoryCardChildren>
                   <div>
                     <AppLink
                       href={url.category(category)}
@@ -223,12 +223,12 @@ function BlockZone(props: any) {
                 ))}
               </BlockZoneTabs>
               <Arrow
-                className="block-zone__arrow block-zone__arrow--prev"
+                className="block-zone_arrow block-zone_arrow--prev"
                 direction="prev"
                 onClick={handlePrevClick}
               />
               <Arrow
-                className="block-zone__arrow block-zone__arrow--next"
+                className="block-zone_arrow block-zone_arrow--next"
                 direction="next"
                 onClick={handleNextClick}
               />

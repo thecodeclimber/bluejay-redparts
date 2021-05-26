@@ -46,7 +46,6 @@ function MegamenuLinks(props: Props) {
                 .toLowerCase()
                 .replace(/ /g, '-')}/products`}
               onClick={() => handleProducts(link)}
-              {...link.customFields?.anchorProps}
             >
               {createProductName(link.name)}
             </MegaMenuItemLinksItemLink>

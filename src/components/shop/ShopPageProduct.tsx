@@ -149,7 +149,7 @@ function ShopPageProduct(props: Props) {
     { title: product.name, url: url.product(product) },
   ];
 
-  const featuredAttributes = product.attributes.filter((x) => x.featured);
+  // const featuredAttributes = product.attributes.filter((x) => x.featured);
 
   const shopFeatures = (
     <ShopFeatures>
@@ -437,7 +437,7 @@ function ShopPageProduct(props: Props) {
                         <ProductExcert>{product.excerpt}</ProductExcert>
                       )}
 
-                      {featuredAttributes.length > 0 && (
+                      {/* {featuredAttributes.length > 0 && (
                         <ProductFeatures>
                           <ProductFeaturesTitle>
                             <FormattedMessage id="TEXT_KEY_FEATURES" />:
@@ -465,7 +465,7 @@ function ShopPageProduct(props: Props) {
                             </AppLink>
                           </ProductFeaturesLink>
                         </ProductFeatures>
-                      )}
+                      )} */}
                     </ProductMain>
                   )}
 
@@ -490,7 +490,7 @@ function ShopPageProduct(props: Props) {
                     {shopFeatures}
                   </ProductInfo>
 
-                  <ProductTabsTabs product={product} layout={layout} />
+                  {/* <ProductTabsTabs product={product} layout={layout} /> */}
                 </ProductBody>
               </div>
 

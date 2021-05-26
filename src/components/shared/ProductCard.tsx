@@ -52,6 +52,12 @@ function ProductCard(props: Props) {
     [`product-card--layout--${layout}`]: layout,
   });
 
+  function handleProduct(productId: any) {
+    if (productId) {
+      localStorage.setItem('productId', productId);
+    }
+  }
+
   return (
     <div className={rootClasses} {...rootProps}>
       <div className="product-card__actions-list">
@@ -122,7 +128,11 @@ function ProductCard(props: Props) {
 
       <div className="product-card__image">
         <div className="image image--type--product">
-          <AppLink href={url.product(product)} className="image__body">
+          <AppLink
+            href={url.product(product)}
+            className="image__body"
+            onClick={() => handleProduct(product.id)}
+          >
             {product.images && (
               <AppImage className="image__tag" src={product.images[0]} />
             )}
@@ -158,7 +168,12 @@ function ProductCard(props: Props) {
               ))}
             </div>
           )}
-          <AppLink href={url.product(product)}>{product.name}</AppLink>
+          <AppLink
+            href={url.product(product)}
+            onClick={() => handleProduct(product.id)}
+          >
+            {product.name}
+          </AppLink>
         </div>
 
         <div className="product-card__rating">
