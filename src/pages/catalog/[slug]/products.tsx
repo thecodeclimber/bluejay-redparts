@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react';
 // application
 import { shopInitThunk } from '~/store/shop/shopActions';
+import { useRouter } from 'next/router';
 import { useDispatch } from 'react-redux';
 import getShopPageData from '~/store/shop/shopHelpers';
 import { wrapper } from '~/store/store';
@@ -15,6 +16,7 @@ export const getServerSideProps = wrapper.getServerSideProps(
 );
 
 function Page() {
+  const router = useRouter();
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -29,7 +31,7 @@ function Page() {
       dispatch(shopInitThunk(categorySlug, productsList, options, filters));
     };
     fetchData();
-  }, []);
+  }, [router.asPath]);
 
   return (
     <ShopPageShop

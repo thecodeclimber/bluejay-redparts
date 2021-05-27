@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 // application
 import { shopInitThunk } from '~/store/shop/shopActions';
 import { useDispatch } from 'react-redux';
+import { useRouter } from 'next/router';
 import ShopPageShop from '~/components/shop/ShopPageShop';
 import axios from '~/axios';
 
@@ -15,6 +16,7 @@ export async function getServerSideProps(content: any) {
 }
 
 function Page(props: any) {
+  const router = useRouter();
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -29,7 +31,7 @@ function Page(props: any) {
       dispatch(shopInitThunk(categorySlug, productsList, options, filters));
     };
     fetchData();
-  }, []);
+  }, [router.asPath]);
 
   return (
     <ShopPageShop
