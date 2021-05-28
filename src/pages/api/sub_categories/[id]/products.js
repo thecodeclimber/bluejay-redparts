@@ -1,6 +1,8 @@
 const dbConnect = require('../../../../../utils/dbConnect');
 const { addAttributes } = require('../../../../../utils/productKeys');
 const { SubCategory, Section } = require('../../../../../models');
+const { getCombn, generateProducts } = require('../../../../../utils/helper');
+
 export default dbConnect(async (req, res) => {
   switch (req.method) {
     case 'GET':
@@ -41,42 +43,13 @@ export default dbConnect(async (req, res) => {
       }
       res.send([]);
       break;
-
+      case 'POST':
+        {
+         await generateProducts(res, null, req.query.id);
+         return;
+        }
     default:
       res.send({ status: false, message: 'Not found!' });
   }
 });
-function getCombn({ items, category, sub_category }) {
-  if (items.length == 1)
-    return items[0].map((item) => `${sub_category} ${category} ${item}`);
-  return getAllCombinations(items).map(
-    (item) =>
-      `${sub_category} ${category} ${item.join(' ').replace(/ /g, ', ')}`
-  );
-}
-var getAllCombinations = function (arraysToCombine) {
-  var divisors = [];
-  for (var i = arraysToCombine.length - 1; i >= 0; i--) {
-    divisors[i] = divisors[i + 1]
-      ? divisors[i + 1] * arraysToCombine[i + 1].length
-      : 1;
-  }
-  function getPermutation(n, arraysToCombine) {
-    var result = [],
-      curArray;
-    for (var i = 0; i < arraysToCombine.length; i++) {
-      curArray = arraysToCombine[i];
-      result.push(curArray[Math.floor(n / divisors[i]) % curArray.length]);
-    }
-    return result.length ? result : [];
-  }
-  var numPerms = arraysToCombine[0].length;
-  for (var i = 1; i < arraysToCombine.length; i++) {
-    numPerms *= arraysToCombine[i].length;
-  }
-  var combinations = [];
-  for (var i = 0; i < numPerms; i++) {
-    combinations.push(getPermutation(i, arraysToCombine));
-  }
-  return combinations;
-};
+
