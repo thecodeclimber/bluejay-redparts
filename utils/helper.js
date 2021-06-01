@@ -38,6 +38,18 @@ exports.getAllCombinations = (arraysToCombine) => {
   return combinations;
 };
 
+const createProductSlug = (def) => {
+  const words = def.split(' ');
+
+  let slugName = words
+    .map((word) => {
+      return word[0].toUpperCase() + word.substring(1);
+    })
+    .join(' ');
+
+  return `${slugName.toLowerCase().replace(/ /g, '_')}`;
+};
+
 const fetchImages = (images) => {
   if (images && images.length > 0) {
     let TotalImage = [];
@@ -78,14 +90,17 @@ exports.generateProducts = async (res, category_id, sub_category_id) => {
         };
       });
     }
+
     attributes = attributes.map(({ values, _id, shortName }) => {
       return values.map((item) => ({
         ...item.toObject(),
         attribute_id: _id,
-        shortName: shortName + item.value,
+        shortName:
+          shortName + item?.shortName === true ? item.shortName : item.value,
         value: item.value,
       }));
     });
+
     if (attributes.length > 1) {
       attributes = this.getAllCombinations(attributes);
     }
@@ -119,6 +134,7 @@ exports.generateProducts = async (res, category_id, sub_category_id) => {
       return finalResp.push({
         sku: sku + '-' + productSku,
         name: productName,
+        slug: createProductSlug(productName),
         images: fetchImages(images),
         attributes: values,
         sub_category,
@@ -133,6 +149,43 @@ exports.generateProducts = async (res, category_id, sub_category_id) => {
         stock: 'in-stock',
         price: 25,
         compareAtPrice: 45,
+        type: {
+          slug: 'default',
+          name: 'Default',
+          attributeGroups: [
+            {
+              name: 'General',
+              slug: 'general',
+              attributes: [
+                'length',
+                'diameter',
+                'head_type',
+                'drive',
+                'grade',
+                'material',
+                'finish',
+                'qty_per_box',
+              ],
+            },
+            {
+              name: 'Dimensions',
+              slug: 'dimensions',
+              attributes: ['length', 'diameter'],
+            },
+          ],
+        },
+        options: [
+          {
+            type: 'default',
+            slug: 'material',
+            name: 'Material',
+            values: [
+              { slug: 'steel', name: 'Steel' },
+              { slug: 'aluminium', name: 'Aluminium' },
+              { slug: 'thorium', name: 'Thorium' },
+            ],
+          },
+        ],
       });
     };
     if (attributes.length > 1) {

@@ -369,7 +369,7 @@ function ProductsView(props: Props) {
                 {productsList.length > 0 &&
                   productsList.map((product: any) => {
                     return (
-                      <div key={product.id} className="products-list__item">
+                      <div key={product._id} className="products-list__item">
                         <ProductCard product={product} />
                       </div>
                     );

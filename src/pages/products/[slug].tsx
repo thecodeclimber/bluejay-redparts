@@ -13,7 +13,7 @@ function Page() {
   const productsList = useShopProductsList();
   const productId = localStorage.getItem('productId');
   const product = productsList.find((item: any) => {
-    return item.id == productId;
+    return item._id == productId;
   });
   if (productsList === null || productsList.lenght > 0) {
     return <SitePageNotFound />;

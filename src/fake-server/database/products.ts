@@ -198,10 +198,4 @@ const TotalProducts = [];
 
 TotalProducts.push(...bolts);
 
-// TotalProducts.forEach((product: any) => {
-//   if (product.Category === 'Carriage') {
-//     console.log(product.diameter);
-//   }
-// });
-
 export const products: any[] = makeProducts(TotalProducts);

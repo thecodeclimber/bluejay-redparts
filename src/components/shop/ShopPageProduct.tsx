@@ -117,21 +117,21 @@ function ShopPageProduct(props: Props) {
   const [relatedProducts, setRelatedProducts] = useState<IProduct[]>([]);
   const productForm = useProductForm(product);
 
-  useEffect(() => {
-    let canceled = false;
+  // useEffect(() => {
+  //   let canceled = false;
 
-    shopApi.getRelatedProducts(product.id, 8).then((result) => {
-      if (canceled) {
-        return;
-      }
+  //   shopApi.getRelatedProducts(product.id, 8).then((result) => {
+  //     if (canceled) {
+  //       return;
+  //     }
 
-      setRelatedProducts(result);
-    });
+  //     setRelatedProducts(result);
+  //   });
 
-    return () => {
-      canceled = true;
-    };
-  }, [product]);
+  //   return () => {
+  //     canceled = true;
+  //   };
+  // }, [product]);
 
   if (!product) {
     return null;
@@ -468,7 +468,7 @@ function ShopPageProduct(props: Props) {
                       )} */}
                     </ProductMain>
                   )}
-
+                  
                   <ProductInfo>
                     <FormProvider {...productForm.methods}>
                       <ProdcutInfoCard onSubmit={productForm.submit}>

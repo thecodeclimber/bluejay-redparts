@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 const productSchema = new mongoose.Schema(
   {
     name: { type: String, require: true },
+    slug: { type: String, require: true },
     sku: { type: String, require: true, unique: true },
     category: { type: mongoose.Types.ObjectId, require: true, ref: 'category' },
     sub_category: {
@@ -27,6 +28,53 @@ const productSchema = new mongoose.Schema(
     stock: { type: String, require: true },
     price: { type: Number, require: true },
     compareAtPrice: { type: Number, require: true },
+    type: {
+      slug: { type: String, require: true },
+      name: { type: String, require: true },
+      attributeGroups: [
+        {
+          name: { type: String, require: true },
+          slug: { type: String, require: true },
+          attributes: [
+            { type: String, require: true },
+            { type: String, require: true },
+            { type: String, require: true },
+            { type: String, require: true },
+            { type: String, require: true },
+            { type: String, require: true },
+            { type: String, require: true },
+            { type: String, require: true },
+          ],
+        },
+        {
+          name: { type: String, require: true },
+          slug: { type: String, require: true },
+          attributes: { type: Array, require: true },
+        },
+      ],
+    },
+
+    options: [
+      {
+        type: { type: String, require: true },
+        slug: { type: String, require: true },
+        name: { type: String, require: true },
+        values: [
+          {
+            slug: { type: String, require: true },
+            name: { type: String, require: true },
+          },
+          {
+            slug: { type: String, require: true },
+            name: { type: String, require: true },
+          },
+          {
+            slug: { type: String, require: true },
+            name: { type: String, require: true },
+          },
+        ],
+      },
+    ],
   },
   { timestamps: true }
 );

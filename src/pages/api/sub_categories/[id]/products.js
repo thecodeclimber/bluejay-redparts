@@ -10,8 +10,12 @@ export default dbConnect(async (req, res) => {
         .populate({ path: 'category' })
         .populate({ path: 'section' })
         .populate({ path: 'sub_category' })
-        .populate('attributes.attribute');
-      res.send([data]);
+        .populate({ path: 'attributes' });
+      if (data.status === 500) {
+        res.status(500);
+        res.json([]);
+      }
+      res.json(data);
       break;
     case 'POST': {
       await generateProducts(res, null, req.query.id);

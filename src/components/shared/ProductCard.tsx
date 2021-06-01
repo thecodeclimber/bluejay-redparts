@@ -30,14 +30,13 @@ export type IProductCardElement =
 export type IProductCardLayout = 'grid' | 'list' | 'table' | 'horizontal';
 
 interface Props extends React.HTMLAttributes<HTMLElement> {
-  product: IProduct;
+  product: any;
   layout?: IProductCardLayout;
   exclude?: IProductCardElement[];
 }
 
 function ProductCard(props: Props) {
   const { product, layout, exclude = [], className, ...rootProps } = props;
-
   const intl = useIntl();
   const cartAddItem = useCartAddItem();
   const quickviewOpen = useQuickviewOpen();
@@ -131,7 +130,7 @@ function ProductCard(props: Props) {
           <AppLink
             href={url.product(product)}
             className="image__body"
-            onClick={() => handleProduct(product.id)}
+            onClick={() => handleProduct(product._id)}
           >
             {product.images && (
               <AppImage className="image__tag" src={product.images[0]} />
@@ -161,7 +160,7 @@ function ProductCard(props: Props) {
         <div className="product-card__name">
           {product.badges && product.badges.length > 0 && (
             <div className="product-card__badges">
-              {product.badges.map((badge) => (
+              {product.badges.map((badge: any) => (
                 <div key={badge} className={`tag-badge tag-badge--${badge}`}>
                   {badge}
                 </div>
@@ -170,7 +169,7 @@ function ProductCard(props: Props) {
           )}
           <AppLink
             href={url.product(product)}
-            onClick={() => handleProduct(product.id)}
+            onClick={() => handleProduct(product._id)}
           >
             {product.name}
           </AppLink>
