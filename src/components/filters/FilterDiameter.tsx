@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 // application
+import { useRouter } from 'next/router';
 import AppLink from '~/components/shared/AppLink';
 import {
   InputRadioLabelItem,
@@ -11,6 +12,7 @@ import { WidgetCategoriesListShowMoreButton } from '~/styled-components/widget/W
 
 function FilterDiameter(props: any) {
   const { options } = props;
+  const router = useRouter();
   const [itemsToShow, setItemsToShow] = useState(10);
   const [selectedItem, setSelectedItem] = useState<any[]>([]);
   const [expend, setExpend] = useState(true);
@@ -38,6 +40,11 @@ function FilterDiameter(props: any) {
     return setSelectedItem([...items, index]);
   };
 
+  const handleRoute = (e: any, item: any) => {
+    console.log('item', item);
+    router.push(`?diameter=${item.value}`, undefined, { shallow: true });
+  };
+
   return (
     <div>
       <InputRadioLabelList>
@@ -45,7 +52,12 @@ function FilterDiameter(props: any) {
           .filter((item: any, idx: any) => idx < itemsToShow)
           .map((item: any, index: any) => (
             <InputRadioLabelItem key={index}>
-              <InputRadioLabelInput onClick={() => handleSelect(index)} />
+              <InputRadioLabelInput
+                onClick={(e) => {
+                  handleSelect(index);
+                  handleRoute(e, item);
+                }}
+              />
               <InputRadioLabelTitle selected={selectedItem.includes(index)}>
                 {item.value}
               </InputRadioLabelTitle>
