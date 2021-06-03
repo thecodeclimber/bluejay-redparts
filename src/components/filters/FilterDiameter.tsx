@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 // application
 import { useRouter } from 'next/router';
 import AppLink from '~/components/shared/AppLink';
@@ -40,10 +40,15 @@ function FilterDiameter(props: any) {
     return setSelectedItem([...items, index]);
   };
 
-  const handleRoute = (e: any, item: any) => {
-    console.log('item', item);
-    router.push(`?diameter=${item.value}`, undefined, { shallow: true });
-  };
+  useEffect(() => {
+    let queryArray: any = [];
+    selectedItem.forEach((index) => {
+      queryArray.push(options.values[index].value);
+    });
+    router.push({ query: { diameter: `${queryArray}` } }, undefined, {
+      shallow: true,
+    });
+  }, [selectedItem.length]);
 
   return (
     <div>
@@ -53,9 +58,8 @@ function FilterDiameter(props: any) {
           .map((item: any, index: any) => (
             <InputRadioLabelItem key={index}>
               <InputRadioLabelInput
-                onClick={(e) => {
+                onClick={() => {
                   handleSelect(index);
-                  handleRoute(e, item);
                 }}
               />
               <InputRadioLabelTitle selected={selectedItem.includes(index)}>
