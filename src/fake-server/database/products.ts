@@ -4,7 +4,6 @@
 import { anchor } from '~/fake-server/database/products/anchors';
 import { IProductAttribute } from '~/interfaces/product';
 import { IShopCategory } from '~/interfaces/category';
-import { bolts } from '~/fake-server/database/products/bolts';
 import { makeIdGenerator, nameToSlug } from '~/fake-server/utils';
 import { prepareCategory } from '~/fake-server/endpoints/categories';
 import { IProductAttributesDef } from '~/fake-server/interfaces/product-def';
@@ -196,6 +195,6 @@ const makeProducts = (defs: any[]): any[] => {
 
 const TotalProducts = [];
 
-TotalProducts.push(...bolts);
+TotalProducts.push(...anchor);
 
 export const products: any[] = makeProducts(TotalProducts);
