@@ -6,17 +6,21 @@ const { addAttributes } = require('../../../../../../utils/productKeys');
 export default dbConnect(async (req, res) => {
   switch (req.method) {
     case 'GET':
-      if (req.query.diameter) {
-        let productsData = await Product.find({ category: req.query.id })
+      const getAllProducts = async () => {
+        let Data = await Product.find({ category: req.query.id })
           .populate({ path: 'category' })
           .populate({ path: 'section' })
           .populate({ path: 'sub_category' })
           .populate({ path: 'attributes' });
 
-        if (productsData.status === 500) {
+        if (Data.status === 500) {
           res.status(500);
           res.json([]);
         }
+        return Data;
+      };
+      if (req.query.diameter) {
+        let productsData = await getAllProducts();
         const attribute = 'diameter';
         let searchedValues = Object.values(req.query);
         searchedValues = searchedValues[0].split(',');
@@ -47,16 +51,7 @@ export default dbConnect(async (req, res) => {
         });
         res.json(searchedProducts);
       }
-      let productsData = await Product.find({ category: req.query.id })
-        .populate({ path: 'category' })
-        .populate({ path: 'section' })
-        .populate({ path: 'sub_category' })
-        .populate({ path: 'attributes' });
-
-      if (productsData.status === 500) {
-        res.status(500);
-        res.json([]);
-      }
+      let productsData = await getAllProducts();
       res.json(productsData);
       break;
     // create products

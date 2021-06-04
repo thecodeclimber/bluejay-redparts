@@ -61,7 +61,8 @@ const slickSettings: ISlickProps = {
 
 const excludeElements: IProductCardElement[] = ['features', 'list-buttons'];
 
-function BlockZone(props: Props) {
+function BlockZone(props: any) {
+  const { featuredProducts } = props;
   const intl = useIntl();
   const { image, mobileImage, categorySlug } = props;
   const slickRef = useRef<Slick>(null);
@@ -246,7 +247,7 @@ function BlockZone(props: Props) {
                   ref={slickRef}
                   {...slickSettings}
                 >
-                  {products.map((product) => (
+                  {featuredProducts.map((product: any) => (
                     <div key={product.id} className="block-zone__carousel-item">
                       <ProductCard
                         product={product}

@@ -40,15 +40,19 @@ function FilterDiameter(props: any) {
     return setSelectedItem([...items, index]);
   };
 
-  useEffect(() => {
-    let queryArray: any = [];
-    selectedItem.forEach((index) => {
-      queryArray.push(options.values[index].value);
-    });
-    router.push({ query: { diameter: `${queryArray}` } }, undefined, {
-      shallow: true,
-    });
-  }, [selectedItem.length]);
+  // useEffect(() => {
+  //   if (selectedItem.length) {
+  //     let queryArray: any = [];
+  //     selectedItem.forEach((index) => {
+  //       queryArray.push(options.values[index].value);
+  //     });
+  //     setTimeout(() => {
+  //       router.push({ query: { diameter: `${queryArray}` } }, undefined, {
+  //         shallow: true,
+  //       });
+  //     }, 800);
+  //   }
+  // }, [!!selectedItem.length && selectedItem.length]);
 
   return (
     <div>

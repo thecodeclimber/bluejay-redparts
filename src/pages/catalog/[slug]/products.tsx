@@ -1,7 +1,10 @@
 // react
 import React, { useEffect } from 'react';
 // application
-import { shopInitThunk } from '~/store/shop/shopActions';
+import {
+  shopInitThunk,
+  shopFetchProductsListThunk,
+} from '~/store/shop/shopActions';
 import { useRouter } from 'next/router';
 import { useDispatch } from 'react-redux';
 import getShopPageData from '~/store/shop/shopHelpers';
@@ -18,6 +21,10 @@ export const getServerSideProps = wrapper.getServerSideProps(
 function Page() {
   const router = useRouter();
   const dispatch = useDispatch();
+  const query = Object.keys(router.query);
+  let value: any = Object.values(router.query);
+  value === '' ? (value = null) : value;
+  let searchedValues: any = !!value?.length ? value[0]?.split(',') : null;
 
   useEffect(() => {
     const fetchData = async () => {
@@ -25,13 +32,21 @@ function Page() {
       const productsList: any = await axios.get<any>(
         `/sub_categories/${id}/products`
       );
-      const categorySlug = productsList.data.name;
-      let options: any = {};
-      let filters: any = {};
-      dispatch(shopInitThunk(categorySlug, productsList, options, filters));
+      dispatch(shopFetchProductsListThunk(productsList));
     };
     fetchData();
   }, [router.asPath]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      let id: any = localStorage.getItem('subCategoryId');
+      const productsList: any = await axios.get<any>(
+        `/sub_categories/${id}/products?${query}=${value}`
+      );
+      dispatch(shopFetchProductsListThunk(productsList));
+    };
+    fetchData();
+  }, [searchedValues?.length]);
 
   return (
     <ShopPageShop

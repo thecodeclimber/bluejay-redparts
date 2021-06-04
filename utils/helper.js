@@ -148,6 +148,7 @@ exports.generateProducts = async (res, category_id, sub_category_id) => {
         partNumber: 'BDX-750Z370-S',
         stock: 'in-stock',
         price: 25,
+        isFeatured: false,
         compareAtPrice: 45,
         type: {
           slug: 'default',

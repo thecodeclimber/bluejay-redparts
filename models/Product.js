@@ -22,6 +22,7 @@ const productSchema = new mongoose.Schema(
         value: { type: mongoose.Types.ObjectId },
       },
     ],
+    isFeatured: { type: Boolean, require: true },
     excerpt: { type: String, require: true },
     description: { type: String, require: true },
     partNumber: { type: String, require: true },

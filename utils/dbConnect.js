@@ -6,12 +6,18 @@ const dbConnect = (handler) => async (req, res) => {
     return handler(req, res);
   }
   // Use new db connection
-  await mongoose.connect(process.env.DATABASE_URL, {
-    useUnifiedTopology: true,
-    useFindAndModify: false,
-    useCreateIndex: true,
-    useNewUrlParser: true,
-  });
+  try {
+    await mongoose.connect(process.env.DATABASE_URL, {
+      useUnifiedTopology: true,
+      useFindAndModify: false,
+      useCreateIndex: true,
+      useNewUrlParser: true,
+    });
+  } catch (errr) {
+    res.status(500).json({ message: 'connection failed!' });
+    return;
+  }
+
   return handler(req, res);
 };
 

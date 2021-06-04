@@ -20,14 +20,17 @@ function Page(props: any) {
   const dispatch = useDispatch();
   const query = Object.keys(router.query);
   let value: any = Object.values(router.query);
-  value === '' ? (value = null) : value;
   let searchedValues: any = !!value?.length ? value[0]?.split(',') : null;
+  if (searchedValues?.length) {
+    searchedValues = searchedValues[0] === '' ? null : searchedValues;
+    value = value === '' ? null : value;
+  }
 
   useEffect(() => {
     const fetchData = async () => {
       let id: any = localStorage.getItem('subCategoryId');
       const productsList: any = await axios.get<any>(
-        `/categories/${id}/products`
+        `/category/${id}/products`
       );
       dispatch(shopFetchProductsListThunk(productsList));
     };
@@ -35,14 +38,16 @@ function Page(props: any) {
   }, [!searchedValues?.length]);
 
   useEffect(() => {
-    const fetchData = async () => {
-      let id: any = localStorage.getItem('subCategoryId');
-      const productsList: any = await axios.get<any>(
-        `/categories/${id}/products?${query}=${value}`
-      );
-      dispatch(shopFetchProductsListThunk(productsList));
-    };
-    fetchData();
+    if (searchedValues?.length) {
+      const fetchData = async () => {
+        let id: any = localStorage.getItem('subCategoryId');
+        const productsList: any = await axios.get<any>(
+          `/category/${id}/products?${query}=${value}`
+        );
+        dispatch(shopFetchProductsListThunk(productsList));
+      };
+      fetchData();
+    }
   }, [searchedValues?.length]);
 
   return (
