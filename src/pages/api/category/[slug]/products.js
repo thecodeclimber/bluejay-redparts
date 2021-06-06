@@ -1,23 +1,30 @@
-const dbConnect = require('../../../../../../utils/dbConnect');
-const { generateProducts } = require('../../../../../../utils/helper');
+const dbConnect = require('../../../../../utils/dbConnect');
+const { generateProducts } = require('../../../../../utils/helper');
 
-const { Attribute, Product } = require('../../../../../../models');
-const { addAttributes } = require('../../../../../../utils/productKeys');
+const { Attribute, Product, Category } = require('../../../../../models');
+const { addAttributes } = require('../../../../../utils/productKeys');
 export default dbConnect(async (req, res) => {
   switch (req.method) {
     case 'GET':
       const getAllProducts = async () => {
-        let Data = await Product.find({ category: req.query.id })
+        const categoryData = await Category.find({ name: req.query.slug });
+        if (categoryData.status === 500) {
+          res.status(500);
+          res.json([]);
+        }
+        let categoryProducts = await Product.find({
+          category: categoryData[0]._id,
+        })
           .populate({ path: 'category' })
           .populate({ path: 'section' })
           .populate({ path: 'sub_category' })
           .populate({ path: 'attributes' });
 
-        if (Data.status === 500) {
+        if (categoryProducts.status === 500) {
           res.status(500);
           res.json([]);
         }
-        return Data;
+        return categoryProducts || [];
       };
       if (req.query.diameter) {
         let productsData = await getAllProducts();

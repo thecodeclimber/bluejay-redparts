@@ -10,9 +10,6 @@ import AsyncAction from '~/components/shared/AsyncAction';
 import CompatibilityStatusBadge from '~/components/shared/CompatibilityStatusBadge';
 import CurrencyFormat from '~/components/shared/CurrencyFormat';
 import Rating from '~/components/shared/Rating';
-import url from '~/services/url';
-import ShopPageProduct from '../shop/ShopPageProduct';
-import { IProduct } from '~/interfaces/product';
 import { useCartAddItem } from '~/store/cart/cartHooks';
 import { useCompareAddItem } from '~/store/compare/compareHooks';
 import { useQuickviewOpen } from '~/store/quickview/quickviewHooks';
@@ -128,7 +125,7 @@ function ProductCard(props: Props) {
       <div className="product-card__image">
         <div className="image image--type--product">
           <AppLink
-            href={url.product(product)}
+            href={`/product/${product.name.toLowerCase().replace(/ /g, '_')}`}
             className="image__body"
             onClick={() => handleProduct(product._id)}
           >
@@ -168,7 +165,7 @@ function ProductCard(props: Props) {
             </div>
           )}
           <AppLink
-            href={url.product(product)}
+            href={`/product/${product.name.toLowerCase().replace(/ /g, '_')}`}
             onClick={() => handleProduct(product._id)}
           >
             {product.name}

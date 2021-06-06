@@ -27,28 +27,29 @@ function Page(props: any) {
   }
 
   useEffect(() => {
-    const fetchData = async () => {
-      let id: any = localStorage.getItem('subCategoryId');
-      const productsList: any = await axios.get<any>(
-        `/category/${id}/products`
-      );
-      dispatch(shopFetchProductsListThunk(productsList));
-    };
-    fetchData();
-  }, [!searchedValues?.length]);
-
-  useEffect(() => {
-    if (searchedValues?.length) {
+    if (!!router.query?.slug) {
       const fetchData = async () => {
-        let id: any = localStorage.getItem('subCategoryId');
         const productsList: any = await axios.get<any>(
-          `/category/${id}/products?${query}=${value}`
+          `/category/${router.query.slug}/products`
         );
         dispatch(shopFetchProductsListThunk(productsList));
       };
       fetchData();
     }
-  }, [searchedValues?.length]);
+  }, [!searchedValues?.length]);
+
+  //   useEffect(() => {
+  //     if (searchedValues?.length) {
+  //       const fetchData = async () => {
+  //         let id: any = localStorage.getItem('subCategoryId');
+  //         const productsList: any = await axios.get<any>(
+  //           `/category/${id}/products?${query}=${value}`
+  //         );
+  //         dispatch(shopFetchProductsListThunk(productsList));
+  //       };
+  //       fetchData();
+  //     }
+  //   }, [searchedValues?.length]);
 
   return (
     <ShopPageShop

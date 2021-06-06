@@ -18,6 +18,7 @@ import ProductForm from '~/components/shop/ProductForm';
 import ProductGallery, {
   IProductGalleryLayout,
 } from '~/components/shop/ProductGallery';
+import SitePageNotFound from '~/components/site/SitePageNotFound';
 import ProductSidebar from '~/components/shop/ProductSidebar';
 import ProductTabs from '~/components/shop/ProductTabs';
 import Rating from '~/components/shared/Rating';
@@ -108,7 +109,7 @@ interface Props {
   sidebarPosition?: IProductPageSidebarPosition;
 }
 
-function ShopPageProduct(props: Props) {
+function ShopPageProduct(props: any) {
   const { product, layout, sidebarPosition = 'start' } = props;
   const intl = useIntl();
   const wishlistAddItem = useWishlistAddItem();
@@ -148,6 +149,10 @@ function ShopPageProduct(props: Props) {
     ),
     { title: product.name, url: url.product(product) },
   ];
+
+  if (!product) {
+    return <SitePageNotFound />;
+  }
 
   // const featuredAttributes = product.attributes.filter((x) => x.featured);
 
@@ -366,7 +371,7 @@ function ShopPageProduct(props: Props) {
       {product.tags && product.tags.length > 0 && (
         <Tags>
           <TagList>
-            {product.tags.map((tag, index) => (
+            {product.tags.map((tag: any, index: any) => (
               <AppLink href="/" key={index}>
                 {tag}
               </AppLink>
@@ -468,7 +473,7 @@ function ShopPageProduct(props: Props) {
                       )} */}
                     </ProductMain>
                   )}
-                  
+
                   <ProductInfo>
                     <FormProvider {...productForm.methods}>
                       <ProdcutInfoCard onSubmit={productForm.submit}>

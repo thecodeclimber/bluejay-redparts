@@ -1,23 +1,32 @@
 const dbConnect = require('../../../../../utils/dbConnect');
 const { addAttributes } = require('../../../../../utils/productKeys');
-const { Product } = require('../../../../../models');
+const { Product, SubCategory } = require('../../../../../models');
 const { getCombn, generateProducts } = require('../../../../../utils/helper');
 
 export default dbConnect(async (req, res) => {
   switch (req.method) {
     case 'GET':
       const getAllProducts = async () => {
-        let Data = await Product.find({ sub_category: req.query.id })
+        const subcategoryData = await SubCategory.find({
+          name: req.query.slug,
+        });
+        if (subcategoryData.status === 500) {
+          res.status(500);
+          res.json([]);
+        }
+        let subcategoryProducts = await Product.find({
+          sub_category: subcategoryData[0]._id,
+        })
           .populate({ path: 'category' })
           .populate({ path: 'section' })
           .populate({ path: 'sub_category' })
           .populate({ path: 'attributes' });
 
-        if (Data.status === 500) {
+        if (subcategoryProducts.status === 500) {
           res.status(500);
           res.json([]);
         }
-        return Data;
+        return subcategoryProducts || [];
       };
       if (req.query.diameter) {
         let productsData = await getAllProducts();

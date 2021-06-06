@@ -119,7 +119,9 @@ function Departments(props: Props) {
                       onMouseEnter={() => handleItemMouseEnter(item)}
                     >
                       <DepartmentsItemLink
-                        href="/catalog/products"
+                        href={`/catalog/category/${item.name
+                          .toLowerCase()
+                          .replace(/ /g, '-')}/products`}
                         onClick={() => {
                           handleItemClick();
                           handleCategoryProducts(item);

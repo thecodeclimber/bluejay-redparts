@@ -1,10 +1,7 @@
 // react
 import React, { useEffect } from 'react';
 // application
-import {
-  shopInitThunk,
-  shopFetchProductsListThunk,
-} from '~/store/shop/shopActions';
+import { shopFetchProductsListThunk } from '~/store/shop/shopActions';
 import { useRouter } from 'next/router';
 import { useDispatch } from 'react-redux';
 import getShopPageData from '~/store/shop/shopHelpers';
@@ -27,26 +24,27 @@ function Page() {
   let searchedValues: any = !!value?.length ? value[0]?.split(',') : null;
 
   useEffect(() => {
-    const fetchData = async () => {
-      let id: any = localStorage.getItem('subCategoryId');
-      const productsList: any = await axios.get<any>(
-        `/sub_categories/${id}/products`
-      );
-      dispatch(shopFetchProductsListThunk(productsList));
-    };
-    fetchData();
+    if (!!router.query?.slug) {
+      const fetchData = async () => {
+        const productsList: any = await axios.get<any>(
+          `/sub_categories/${router.query.slug}/products`
+        );
+        dispatch(shopFetchProductsListThunk(productsList));
+      };
+      fetchData();
+    }
   }, [router.asPath]);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      let id: any = localStorage.getItem('subCategoryId');
-      const productsList: any = await axios.get<any>(
-        `/sub_categories/${id}/products?${query}=${value}`
-      );
-      dispatch(shopFetchProductsListThunk(productsList));
-    };
-    fetchData();
-  }, [searchedValues?.length]);
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     let id: any = localStorage.getItem('subCategoryId');
+  //     const productsList: any = await axios.get<any>(
+  //       `/sub_categories/${id}/products?${query}=${value}`
+  //     );
+  //     dispatch(shopFetchProductsListThunk(productsList));
+  //   };
+  //   fetchData();
+  // }, [searchedValues?.length]);
 
   return (
     <ShopPageShop

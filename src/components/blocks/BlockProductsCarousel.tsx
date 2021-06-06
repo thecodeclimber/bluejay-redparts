@@ -1,5 +1,5 @@
 // react
-import React, { useMemo, useRef, useEffect, useState } from 'react';
+import React, { useMemo, useRef } from 'react';
 // third-party
 import classNames from 'classnames';
 import Slick from 'react-slick';
@@ -7,7 +7,6 @@ import Slick from 'react-slick';
 import {
   BlockProductsCarouselCarouselLoaderSiteFooter,
   BlockProductsCarouselColumn,
-  BlockProductsCarouselCell,
 } from '~/styled-components/block/BlockProductsCarousel';
 import AppSlick, { ISlickProps } from '~/components/shared/AppSlick';
 import ProductCard, {
@@ -19,7 +18,6 @@ import SectionHeader, {
 } from '~/components/shared/SectionHeader';
 import { ILink } from '~/interfaces/link';
 import { IProduct } from '~/interfaces/product';
-import axios from '../../axios';
 
 export type IBlockProductsCarouselLayout =
   | 'grid-4'
