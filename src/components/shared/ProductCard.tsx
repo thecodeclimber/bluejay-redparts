@@ -124,7 +124,6 @@ function ProductCard(props: Props) {
           </React.Fragment>
         )}
       </div>
-
       <div className="product-card__image">
         <div className="image image--type--product">
           <AppLink
