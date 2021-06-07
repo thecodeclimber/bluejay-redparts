@@ -2,6 +2,7 @@
 import React from 'react';
 // third-party
 import classNames from 'classnames';
+import { useRouter } from 'next/router';
 import { FormattedMessage, useIntl } from 'react-intl';
 // application
 import AppImage from '~/components/shared/AppImage';
@@ -35,6 +36,7 @@ interface Props extends React.HTMLAttributes<HTMLElement> {
 function ProductCard(props: Props) {
   const { product, layout, exclude = [], className, ...rootProps } = props;
   const intl = useIntl();
+  const router = useRouter();
   const cartAddItem = useCartAddItem();
   const quickviewOpen = useQuickviewOpen();
   const compareAddItem = useCompareAddItem();
@@ -48,11 +50,12 @@ function ProductCard(props: Props) {
     [`product-card--layout--${layout}`]: layout,
   });
 
-  function handleProduct(productId: any) {
-    if (productId) {
-      localStorage.setItem('productId', productId);
-    }
+  function handleProduct(e: any, productName: any) {
+    e.preventDefault();
+    router.push(`${router.asPath}/${productName}`);
   }
+
+  console.log('products', product);
 
   return (
     <div className={rootClasses} {...rootProps}>
@@ -125,12 +128,16 @@ function ProductCard(props: Props) {
       <div className="product-card__image">
         <div className="image image--type--product">
           <AppLink
-            href={`/product/${product.name.toLowerCase().replace(/ /g, '_')}`}
             className="image__body"
-            onClick={() => handleProduct(product._id)}
+            onClick={(e) =>
+              handleProduct(e, product.name.toLowerCase().replace(/ /g, '_'))
+            }
           >
             {product.images && (
-              <AppImage className="image__tag" src={product.images[0]} />
+              <AppImage
+                className="image__tag"
+                src={`${process.env.BASE_PATH}${product.images[0]}`}
+              />
             )}
           </AppLink>
         </div>
@@ -165,8 +172,9 @@ function ProductCard(props: Props) {
             </div>
           )}
           <AppLink
-            href={`/product/${product.name.toLowerCase().replace(/ /g, '_')}`}
-            onClick={() => handleProduct(product._id)}
+            onClick={(e) =>
+              handleProduct(e, product.name.toLowerCase().replace(/ /g, '_'))
+            }
           >
             {product.name}
           </AppLink>
