@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 // application
 import { useRouter } from 'next/router';
-import AppLink from '~/components/shared/AppLink';
 import {
   InputRadioLabelItem,
   InputRadioLabelInput,
@@ -15,6 +14,7 @@ function FilterDiameter(props: any) {
   const router = useRouter();
   const [itemsToShow, setItemsToShow] = useState(10);
   const [selectedItem, setSelectedItem] = useState<any[]>([]);
+  const [attributeActive, setAttributeActive] = useState(false);
   const [expend, setExpend] = useState(true);
 
   const handleItemsToShow = () => {
@@ -40,19 +40,41 @@ function FilterDiameter(props: any) {
     return setSelectedItem([...items, index]);
   };
 
-  // useEffect(() => {
-  //   if (selectedItem.length) {
-  //     let queryArray: any = [];
-  //     selectedItem.forEach((index) => {
-  //       queryArray.push(options.values[index].value);
-  //     });
-  //     setTimeout(() => {
-  //       router.push({ query: { diameter: `${queryArray}` } }, undefined, {
-  //         shallow: true,
-  //       });
-  //     }, 800);
-  //   }
-  // }, [!!selectedItem.length && selectedItem.length]);
+  useEffect(() => {
+    let queryArray: any = [];
+    selectedItem.forEach((index) => {
+      queryArray.push(options.values[index].value);
+    });
+    if (attributeActive) {
+      if (queryArray.length === 0) {
+        setTimeout(() => {
+          router.push(
+            {
+              pathname: router.pathname,
+              query: { slug: router.query.slug },
+            },
+            undefined,
+            {
+              shallow: true,
+            }
+          );
+        }, 500);
+      } else {
+        setTimeout(() => {
+          router.push(
+            {
+              pathname: router.pathname,
+              query: { slug: router.query.slug, diameter: `${queryArray}` },
+            },
+            undefined,
+            {
+              shallow: true,
+            }
+          );
+        }, 500);
+      }
+    }
+  }, [attributeActive && selectedItem.length]);
 
   return (
     <div>
@@ -64,6 +86,7 @@ function FilterDiameter(props: any) {
               <InputRadioLabelInput
                 onClick={() => {
                   handleSelect(index);
+                  setAttributeActive(true);
                 }}
               />
               <InputRadioLabelTitle selected={selectedItem.includes(index)}>

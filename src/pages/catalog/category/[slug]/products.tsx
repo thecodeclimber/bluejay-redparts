@@ -18,16 +18,21 @@ export async function getServerSideProps(content: any) {
 function Page(props: any) {
   const router = useRouter();
   const dispatch = useDispatch();
-  const query = Object.keys(router.query);
-  let value: any = Object.values(router.query);
-  let searchedValues: any = !!value?.length ? value[0]?.split(',') : null;
-  if (searchedValues?.length) {
-    searchedValues = searchedValues[0] === '' ? null : searchedValues;
-    value = value === '' ? null : value;
+
+  let diameter: any = [];
+  if (router.query?.diameter) {
+    diameter = Object.values(router.query.diameter);
   }
 
+  // let value: any = Object.values(router.query);
+  // let searchedValues: any = !!value?.length ? value[0]?.split(',') : null;
+  // if (searchedValues?.length) {
+  //   searchedValues = searchedValues[0] === '' ? null : searchedValues;
+  //   value = value === '' ? null : value;
+  // }
+
   useEffect(() => {
-    if (!!router.query?.slug) {
+    if (diameter.length === 0) {
       const fetchData = async () => {
         const productsList: any = await axios.get<any>(
           `/category/${router.query.slug}/products`
@@ -36,20 +41,19 @@ function Page(props: any) {
       };
       fetchData();
     }
-  }, [!searchedValues?.length]);
+  }, [diameter]);
 
-  //   useEffect(() => {
-  //     if (searchedValues?.length) {
-  //       const fetchData = async () => {
-  //         let id: any = localStorage.getItem('subCategoryId');
-  //         const productsList: any = await axios.get<any>(
-  //           `/category/${id}/products?${query}=${value}`
-  //         );
-  //         dispatch(shopFetchProductsListThunk(productsList));
-  //       };
-  //       fetchData();
-  //     }
-  //   }, [searchedValues?.length]);
+  useEffect(() => {
+    if (router.query?.diameter) {
+      const fetchData = async () => {
+        const productsList: any = await axios.get<any>(
+          `/category/${router.query.slug}/products?diameter=${router.query.diameter}`
+        );
+        dispatch(shopFetchProductsListThunk(productsList));
+      };
+      fetchData();
+    }
+  }, [diameter.length]);
 
   return (
     <ShopPageShop

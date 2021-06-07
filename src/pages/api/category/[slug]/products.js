@@ -1,8 +1,6 @@
 const dbConnect = require('../../../../../utils/dbConnect');
 const { generateProducts } = require('../../../../../utils/helper');
-
 const { Attribute, Product, Category } = require('../../../../../models');
-const { addAttributes } = require('../../../../../utils/productKeys');
 export default dbConnect(async (req, res) => {
   switch (req.method) {
     case 'GET':

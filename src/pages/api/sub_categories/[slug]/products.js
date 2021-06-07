@@ -1,7 +1,6 @@
 const dbConnect = require('../../../../../utils/dbConnect');
-const { addAttributes } = require('../../../../../utils/productKeys');
-const { Product, SubCategory } = require('../../../../../models');
-const { getCombn, generateProducts } = require('../../../../../utils/helper');
+const { Product, SubCategory, Attribute } = require('../../../../../models');
+const { generateProducts } = require('../../../../../utils/helper');
 
 export default dbConnect(async (req, res) => {
   switch (req.method) {
@@ -58,7 +57,7 @@ export default dbConnect(async (req, res) => {
             }
           });
         });
-        res.json(searchedProducts);
+        res.json(searchedProducts || []);
       }
       let productsData = await getAllProducts();
       res.json(productsData);

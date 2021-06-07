@@ -18,13 +18,17 @@ export const getServerSideProps = wrapper.getServerSideProps(
 function Page() {
   const router = useRouter();
   const dispatch = useDispatch();
-  const query = Object.keys(router.query);
-  let value: any = Object.values(router.query);
-  value === '' ? (value = null) : value;
-  let searchedValues: any = !!value?.length ? value[0]?.split(',') : null;
+  let diameter: any = [];
+  if (router.query?.diameter) {
+    diameter = Object.values(router.query.diameter);
+  }
+  // const query = Object.keys(router.query);
+  // let value: any = Object.values(router.query);
+  // value === '' ? (value = null) : value;
+  // let searchedValues: any = !!value?.length ? value[0]?.split(',') : null;
 
   useEffect(() => {
-    if (!!router.query?.slug) {
+    if (diameter.length === 0) {
       const fetchData = async () => {
         const productsList: any = await axios.get<any>(
           `/sub_categories/${router.query.slug}/products`
@@ -33,18 +37,19 @@ function Page() {
       };
       fetchData();
     }
-  }, [router.asPath]);
+  }, [diameter]);
 
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     let id: any = localStorage.getItem('subCategoryId');
-  //     const productsList: any = await axios.get<any>(
-  //       `/sub_categories/${id}/products?${query}=${value}`
-  //     );
-  //     dispatch(shopFetchProductsListThunk(productsList));
-  //   };
-  //   fetchData();
-  // }, [searchedValues?.length]);
+  useEffect(() => {
+    if (router.query?.diameter) {
+      const fetchData = async () => {
+        const productsList: any = await axios.get<any>(
+          `/sub_categories/${router.query.slug}/products?diameter=${router.query.diameter}`
+        );
+        dispatch(shopFetchProductsListThunk(productsList));
+      };
+      fetchData();
+    }
+  }, [diameter.length]);
 
   return (
     <ShopPageShop
