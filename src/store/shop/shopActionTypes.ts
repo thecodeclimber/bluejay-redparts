@@ -52,7 +52,6 @@ export interface ShopSetOptionValueAction {
   option: string;
   value: string;
 }
-
 export interface ShopSetFilterValueAction {
   type: typeof SHOP_SET_FILTER_VALUE;
   filter: string;

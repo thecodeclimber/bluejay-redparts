@@ -1,11 +1,6 @@
 const dbConnect = require('../../../utils/dbConnect');
 
-const {
-  Section,
-  Attribute,
-  SubCategory,
-  Category,
-} = require('../../../models');
+const { Category } = require('../../../models');
 
 export default dbConnect(async (req, res) => {
   switch (req.method) {

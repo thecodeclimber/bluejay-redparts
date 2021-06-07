@@ -2,36 +2,33 @@
 import React, { useEffect } from 'react';
 // application
 import { shopFetchProductsListThunk } from '~/store/shop/shopActions';
-import { useRouter } from 'next/router';
 import { useDispatch } from 'react-redux';
-import getShopPageData from '~/store/shop/shopHelpers';
-import { wrapper } from '~/store/store';
+import { useRouter } from 'next/router';
 import ShopPageShop from '~/components/shop/ShopPageShop';
 import axios from '~/axios';
 
-export const getServerSideProps = wrapper.getServerSideProps(
-  async (context) => {
-    await getShopPageData(context);
+export async function getServerSideProps(content: any) {
+  const { urlParam } = content.query;
+  if (urlParam) {
+    return { props: { urlParam } };
   }
-);
+  return { props: {} };
+}
 
-function Page() {
+function Page(props: any) {
   const router = useRouter();
   const dispatch = useDispatch();
+
   let diameter: any = [];
   if (router.query?.diameter) {
     diameter = Object.values(router.query.diameter);
   }
-  // const query = Object.keys(router.query);
-  // let value: any = Object.values(router.query);
-  // value === '' ? (value = null) : value;
-  // let searchedValues: any = !!value?.length ? value[0]?.split(',') : null;
 
   useEffect(() => {
     if (diameter.length === 0) {
       const fetchData = async () => {
         const productsList: any = await axios.get<any>(
-          `/sub_categories/${router.query.slug}/products`
+          `/category/${router.query.slug}/products`
         );
         dispatch(shopFetchProductsListThunk(productsList));
       };
@@ -43,7 +40,7 @@ function Page() {
     if (router.query?.diameter) {
       const fetchData = async () => {
         const productsList: any = await axios.get<any>(
-          `/sub_categories/${router.query.slug}/products?diameter=${router.query.diameter}`
+          `/category/${router.query.slug}/products?diameter=${router.query.diameter}`
         );
         dispatch(shopFetchProductsListThunk(productsList));
       };

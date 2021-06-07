@@ -2,20 +2,20 @@
 import React, { useEffect } from 'react';
 // application
 import { shopFetchProductsListThunk } from '~/store/shop/shopActions';
-import { useDispatch } from 'react-redux';
 import { useRouter } from 'next/router';
+import { useDispatch } from 'react-redux';
+import getShopPageData from '~/store/shop/shopHelpers';
+import { wrapper } from '~/store/store';
 import ShopPageShop from '~/components/shop/ShopPageShop';
 import axios from '~/axios';
 
-export async function getServerSideProps(content: any) {
-  const { urlParam } = content.query;
-  if (urlParam) {
-    return { props: { urlParam } };
+export const getServerSideProps = wrapper.getServerSideProps(
+  async (context) => {
+    await getShopPageData(context);
   }
-  return { props: {} };
-}
+);
 
-function Page(props: any) {
+function Page() {
   const router = useRouter();
   const dispatch = useDispatch();
 
@@ -24,18 +24,11 @@ function Page(props: any) {
     diameter = Object.values(router.query.diameter);
   }
 
-  // let value: any = Object.values(router.query);
-  // let searchedValues: any = !!value?.length ? value[0]?.split(',') : null;
-  // if (searchedValues?.length) {
-  //   searchedValues = searchedValues[0] === '' ? null : searchedValues;
-  //   value = value === '' ? null : value;
-  // }
-
   useEffect(() => {
     if (diameter.length === 0) {
       const fetchData = async () => {
         const productsList: any = await axios.get<any>(
-          `/category/${router.query.slug}/products`
+          `/sub_categories/${router.query.slug}/products`
         );
         dispatch(shopFetchProductsListThunk(productsList));
       };
@@ -47,7 +40,7 @@ function Page(props: any) {
     if (router.query?.diameter) {
       const fetchData = async () => {
         const productsList: any = await axios.get<any>(
-          `/category/${router.query.slug}/products?diameter=${router.query.diameter}`
+          `/sub_categories/${router.query.slug}/products?diameter=${router.query.diameter}`
         );
         dispatch(shopFetchProductsListThunk(productsList));
       };

@@ -55,8 +55,6 @@ function ProductCard(props: Props) {
     router.push(`${router.asPath}/${productName}`);
   }
 
-  console.log('products', product);
-
   return (
     <div className={rootClasses} {...rootProps}>
       <div className="product-card__actions-list">

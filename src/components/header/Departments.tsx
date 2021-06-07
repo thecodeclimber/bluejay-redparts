@@ -30,7 +30,6 @@ import { createProductName } from '../../store/shop/shopHelpers';
 import { IDepartmentsLink } from '~/interfaces/departments-link';
 import { useGlobalMousedown } from '~/services/hooks';
 // data
-import dataHeaderDepartments from '~/data/headerDepartments';
 
 interface Props {
   label: React.ReactNode;
@@ -71,12 +70,6 @@ function Departments(props: Props) {
     setIsOpen(false);
     setCurrentItem(null);
   }, [setIsOpen, setCurrentItem]);
-
-  const handleCategoryProducts = (item: any) => {
-    if (item._id) {
-      localStorage.setItem('subCategoryId', item._id);
-    }
-  };
 
   useGlobalMousedown(
     (event) => {
@@ -124,7 +117,6 @@ function Departments(props: Props) {
                           .replace(/ /g, '-')}/products`}
                         onClick={() => {
                           handleItemClick();
-                          handleCategoryProducts(item);
                         }}
                       >
                         {createProductName(item.name)}
