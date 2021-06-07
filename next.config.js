@@ -4,9 +4,9 @@ const defaultLocale = 'en';
 // noinspection JSUnusedGlobalSymbols
 module.exports = {
   env: {
-    basePath: process.env.BASE_PATH || '',
+    DATABASE_URL:
+      'mongodb+srv://lokeshBansal:lokesh@123@bluejay-sandbox.3wrb7.mongodb.net/bluejay?retryWrites=true&w=majority',
   },
-  basePath: process.env.BASE_PATH || '',
   async rewrites() {
     return [
       ...locales
