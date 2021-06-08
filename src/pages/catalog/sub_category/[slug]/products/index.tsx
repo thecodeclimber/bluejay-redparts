@@ -28,7 +28,7 @@ function Page() {
     if (diameter.length === 0) {
       const fetchData = async () => {
         const productsList: any = await axios.get<any>(
-          `/sub_categories/${router.query.slug}/products`
+          `/subcategories/${router.query.slug}/products`
         );
         dispatch(shopFetchProductsListThunk(productsList));
       };
@@ -40,7 +40,7 @@ function Page() {
     if (router.query?.diameter) {
       const fetchData = async () => {
         const productsList: any = await axios.get<any>(
-          `/sub_categories/${router.query.slug}/products?diameter=${router.query.diameter}`
+          `/subcategories/${router.query.slug}/products?diameter=${router.query.diameter}`
         );
         dispatch(shopFetchProductsListThunk(productsList));
       };
