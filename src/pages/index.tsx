@@ -23,24 +23,34 @@ import {
 
 function Page() {
   const intl = useIntl();
-  const [featuredProducts, setFeaturedProducts] = useState([]);
+  const [products, setProducts] = useState({
+    featuredProducts: [],
+    topRatedProducts: [],
+    latestProducts: [],
+  });
   const [isLoading, setIsLoading] = useState(false);
 
   /**
    * Featured products.
    */
   useEffect(() => {
-    const fetchFeaturedProducts = async () => {
+    const fetchProducts = async () => {
       setIsLoading(true);
       try {
-        const result: any = await axios.get('/products/feature');
-        setFeaturedProducts(result.data);
+        const feature: any = await axios.get('/products/feature');
+        const best: any = await axios.get('/products/best');
+        const latest: any = await axios.get('/products/latest');
+        setProducts({
+          featuredProducts: feature.data,
+          topRatedProducts: best.data,
+          latestProducts: latest.data,
+        });
       } catch (err) {
         setIsLoading(false);
       }
       setIsLoading(false);
     };
-    fetchFeaturedProducts();
+    fetchProducts();
   }, []);
 
   // const featuredProducts = useProductTabs(
@@ -124,25 +134,6 @@ function Page() {
   /**
    * Product columns.
    */
-  const columns = useProductColumns(
-    useMemo(
-      () => [
-        {
-          title: 'Top Rated Products',
-          source: () => shopApi.getTopRatedProducts(null, 3),
-        },
-        {
-          title: 'Special Offers',
-          source: () => shopApi.getSpecialOffers(3),
-        },
-        {
-          title: 'Bestsellers',
-          source: () => shopApi.getPopularProducts(null, 3),
-        },
-      ],
-      []
-    )
-  );
 
   return (
     <React.Fragment>
@@ -152,23 +143,25 @@ function Page() {
         blockTitle={intl.formatMessage({ id: 'HEADER_FEATURED_PRODUCTS' })}
         layout="grid-5"
         loading={isLoading}
-        products={featuredProducts}
+        products={products.featuredProducts}
         // groups={featuredProducts.tabs}
         // currentGroup={featuredProducts.tabs.find((x) => x.current)}
         // onChangeGroup={featuredProducts.handleTabChange}
       />
       <BlockSpace layout="divider-nl" />
-      <BlockSale products={featuredProducts} loading={isLoading} />
+      <BlockSale products={products.featuredProducts} loading={isLoading} />
       <BlockSpace layout="divider-lg" />
 
       {/* {blockZones.map((blockZone, blockZoneIdx) => ( */}
       {/* <React.Fragment key={blockZoneIdx}> */}
-      <BlockZone
-        image={blockZones[0].image}
-        mobileImage={blockZones[0].mobileImage}
-        categorySlug={blockZones[0].categorySlug}
-        featuredProducts={featuredProducts}
-      />
+      {products.topRatedProducts.length && products.featuredProducts.length && (
+        <BlockZone
+          image={blockZones[0].image}
+          mobileImage={blockZones[0].mobileImage}
+          categorySlug={blockZones[0].categorySlug}
+          productsList={products}
+        />
+      )}
       {/* {blockZoneIdx < blockZones.length - 1 && (
             <BlockSpace layout="divider-sm" />
           )} */}
@@ -197,7 +190,9 @@ function Page() {
       <BlockSpace layout="divider-nl" />
       <BlockBrands layout="columns-8-full" brands={brands.data} />
       <BlockSpace layout="divider-nl" className="d-xl-block d-none" />
-      <BlockProductsColumns columns={columns} />
+      {products.topRatedProducts.length && (
+        <BlockProductsColumns products={products.topRatedProducts} />
+      )}
       <BlockSpace layout="before-footer" />
     </React.Fragment>
   );

@@ -117,7 +117,7 @@ export type IProductColumn = {
     source: IDeferredDataSource<IProduct[]>;
 };
 
-export function useProductColumns(columns: IProductColumn[]) {
+export function useProductColumns(columns: any[]) {
     const products = useDeferredData(() => (
         Promise.all(columns.map((column) => column.source()))
     ), [], undefined, [columns]);

@@ -24,6 +24,8 @@ const productSchema = new mongoose.Schema(
     ],
     isFeatured: { type: Boolean, require: true },
     excerpt: { type: String, require: true },
+    rating: { type: Number, require: true },
+    reviews: { type: Number, require: true },
     description: { type: String, require: true },
     partNumber: { type: String, require: true },
     stock: { type: String, require: true },

@@ -52,7 +52,17 @@ function ProductCard(props: Props) {
 
   function handleProduct(e: any, productName: any) {
     e.preventDefault();
-    router.push(`${router.asPath}/${productName}`);
+    if (router.asPath === '/') {
+      router.push({
+        pathname: `${process.env.BASE_PATH}/products/[name]`,
+        query: { name: encodeURIComponent(productName) },
+      });
+    } else {
+      router.push({
+        pathname: `${router.asPath}/[name]`,
+        query: { name: encodeURIComponent(productName) },
+      });
+    }
   }
 
   return (
@@ -126,9 +136,7 @@ function ProductCard(props: Props) {
         <div className="image image--type--product">
           <AppLink
             className="image__body"
-            onClick={(e) =>
-              handleProduct(e, product.name.toLowerCase().replace(/ /g, '_'))
-            }
+            onClick={(e) => handleProduct(e, product.slug)}
           >
             {product.images && (
               <AppImage
@@ -168,11 +176,7 @@ function ProductCard(props: Props) {
               ))}
             </div>
           )}
-          <AppLink
-            onClick={(e) =>
-              handleProduct(e, product.name.toLowerCase().replace(/ /g, '_'))
-            }
-          >
+          <AppLink onClick={(e) => handleProduct(e, product.slug)}>
             {product.name}
           </AppLink>
         </div>

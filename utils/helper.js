@@ -150,6 +150,8 @@ exports.generateProducts = async (res, category_id, sub_category_id) => {
         price: 25,
         isFeatured: false,
         compareAtPrice: 45,
+        rating: 4,
+        reviews: 21,
         type: {
           slug: 'default',
           name: 'Default',

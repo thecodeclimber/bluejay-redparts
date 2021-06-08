@@ -8,6 +8,7 @@ module.exports = {
       'mongodb+srv://lokeshBansal:lokesh@123@bluejay-sandbox.3wrb7.mongodb.net/bluejay?retryWrites=true&w=majority',
     BASE_PATH:
       'https://bluejay-redparts-4zenebxpr-bluejay-fasteners.vercel.app',
+    basePath: process.env.BASE_PATH || '',
   },
 
   async rewrites() {

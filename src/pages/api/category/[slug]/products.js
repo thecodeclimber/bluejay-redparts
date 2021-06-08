@@ -5,7 +5,9 @@ export default dbConnect(async (req, res) => {
   switch (req.method) {
     case 'GET':
       const getAllProducts = async () => {
-        const categoryData = await Category.find({ name: req.query.slug });
+        const categoryData = await Category.find({
+          name: req.query.slug.replace(/_/g, ' '),
+        });
         if (categoryData.status === 500) {
           res.status(500);
           res.json([]);
@@ -61,7 +63,7 @@ export default dbConnect(async (req, res) => {
       break;
     // create products
     case 'POST': {
-      await generateProducts(res, req.query.id, null);
+      await generateProducts(res, req.query.slug, null);
       return;
     }
     default:

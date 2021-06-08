@@ -3,6 +3,7 @@ import React, { useCallback, useRef, useState, useEffect } from 'react';
 // third-party
 import classNames from 'classnames';
 import axios from '../../axios';
+import { useRouter } from 'next/router';
 import { useDispatch } from 'react-redux';
 // application
 import {
@@ -20,6 +21,7 @@ import {
   DepartmentsItemList,
   DepartmentsItemArrow,
 } from '~/styled-components/header/Departments';
+import AppLink from '~/components/shared/AppLink';
 import Megamenu from '~/components/header/Megamenu';
 import {
   ArrowRoundedDown9x6Svg,
@@ -37,6 +39,7 @@ interface Props {
 
 function Departments(props: Props) {
   const { label } = props;
+  const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
   const [categoriesData, setCategoriesData] = useState([]);
   const [currentItem, setCurrentItem] = useState<IDepartmentsLink | null>(null);
@@ -112,9 +115,10 @@ function Departments(props: Props) {
                       onMouseEnter={() => handleItemMouseEnter(item)}
                     >
                       <DepartmentsItemLink
+                        as={AppLink}
                         href={`/catalog/category/${item.name
                           .toLowerCase()
-                          .replace(/ /g, '-')}/products`}
+                          .replace(/ /g, '_')}/products`}
                         onClick={() => {
                           handleItemClick();
                         }}

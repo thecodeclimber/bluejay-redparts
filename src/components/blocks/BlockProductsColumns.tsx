@@ -1,5 +1,5 @@
 // react
-import React from 'react';
+import React, { useMemo } from 'react';
 // application
 import ProductCard from '~/components/shared/ProductCard';
 import { IProduct } from '~/interfaces/product';
@@ -17,22 +17,40 @@ interface Props {
   columns: IBlockProductsColumnsItem[];
 }
 
-function BlockProductsColumns(props: Props) {
-  const { columns } = props;
+function BlockProductsColumns(props: any) {
+  const { products } = props;
+
+  const columns = useMemo(
+    () => [
+      {
+        title: 'Top Rated Products',
+        products: products,
+      },
+      {
+        title: 'Special Offers',
+        products: products,
+      },
+      {
+        title: 'Bestsellers',
+        products: products,
+      },
+    ],
+    []
+  );
 
   return (
     <BlockBlockProduct>
       <div className="container">
         <div className="row">
-          {columns.map((column, columnIdx) => (
-            <div key={columnIdx} className="col-4">
+          {columns.map((column: any, index: any) => (
+            <div key={index} className="col-4">
               <BlockProductsColumnsTitle>
                 {column.title}
               </BlockProductsColumnsTitle>
               <BlockProductColumnList>
-                {column.products.map((product) => (
+                {column.products.slice(0, 3).map((product: any) => (
                   <div
-                    key={product.id}
+                    key={product._id}
                     className="block-products-columns__list-item"
                   >
                     <ProductCard

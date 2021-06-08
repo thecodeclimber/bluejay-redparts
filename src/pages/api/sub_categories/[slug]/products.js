@@ -6,15 +6,22 @@ export default dbConnect(async (req, res) => {
   switch (req.method) {
     case 'GET':
       const getAllProducts = async () => {
-        const subcategoryData = await SubCategory.find({
-          name: req.query.slug,
-        });
+        const subcategoryData = await SubCategory.find({});
         if (subcategoryData.status === 500) {
           res.status(500);
           res.json([]);
         }
+        let subcategoryId = '';
+        subcategoryData.map((subcategory) => {
+          if (
+            subcategory.name.toLowerCase().replace(/ /g, '_') === req.query.slug
+          ) {
+            subcategoryId = subcategory._id;
+          }
+        });
+
         let subcategoryProducts = await Product.find({
-          sub_category: subcategoryData[0]._id,
+          sub_category: subcategoryId,
         })
           .populate({ path: 'category' })
           .populate({ path: 'section' })

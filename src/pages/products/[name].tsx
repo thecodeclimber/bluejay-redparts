@@ -7,25 +7,23 @@ import { useShopProductsList } from '~/store/shop/shopHooks';
 import ShopPageProduct from '~/components/shop/ShopPageProduct';
 import axios from '~/axios';
 
-export default function Page() {
-  const router: any = useRouter();
+function Page() {
+  const router = useRouter();
   const allProducts = useShopProductsList();
   const [product, setProduct] = useState();
 
   useEffect(() => {
-    if (allProducts?.length && !!router?.query?.name) {
-      let products: any = [...allProducts];
-      let product: any = products.find(
-        (item: any) => item.slug === decodeURIComponent(router.query.name)
-      );
+    if (allProducts?.length && !!router.query?.name) {
+      let products = [...allProducts];
+      let product = products.find((item) => item.slug === router.query.name);
       setProduct(product);
     } else {
       fetchData();
     }
-  }, []);
+  }, [!!router.query?.name]);
 
   const fetchData = async () => {
-    const product: any = await axios.get<any>(`/product/${router.query.name}`);
+    let product: any = await axios.get<any>(`/product/${router.query.name}`);
     await setProduct(product.data[0]);
   };
 
@@ -33,3 +31,5 @@ export default function Page() {
     <div>{product && <ShopPageProduct product={product} layout="full" />}</div>
   );
 }
+
+export default Page;

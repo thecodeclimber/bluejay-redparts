@@ -34,7 +34,7 @@ function Page() {
       };
       fetchData();
     }
-  }, [diameter]);
+  }, [diameter?.length === 0]);
 
   useEffect(() => {
     if (router.query?.diameter) {

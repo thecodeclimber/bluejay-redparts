@@ -62,7 +62,7 @@ const slickSettings: ISlickProps = {
 const excludeElements: IProductCardElement[] = ['features', 'list-buttons'];
 
 function BlockZone(props: any) {
-  const { featuredProducts } = props;
+  const { productsList } = props;
   const intl = useIntl();
   const { image, mobileImage, categorySlug } = props;
   const slickRef = useRef<Slick>(null);
@@ -70,7 +70,7 @@ function BlockZone(props: any) {
   const [category, setCategory] = useState<IShopCategory | null>(null);
   const [products, setProducts] = useState<IProduct[]>([]);
   const [isLoading, setIsLoading] = useState(false);
-  const [currentTab, setCurrentTab] = useState<IBlockZoneTab | null>(null);
+  const [currentTab, setCurrentTab] = useState<any | null>(null);
   const subs = category?.children || [];
 
   const handleNextClick = () => {
@@ -85,25 +85,25 @@ function BlockZone(props: any) {
     }
   };
 
-  const tabs: IBlockZoneTab[] = useMemo(
+  const tabs: any[] = useMemo(
     () => [
       {
         name: intl.formatMessage({ id: 'TEXT_TAB_FEATURED' }),
-        source: () => shopApi.getFeaturedProducts(categorySlug, 6),
+        result: productsList.featuredProducts,
       },
       {
         name: intl.formatMessage({ id: 'TEXT_TAB_BESTSELLERS' }),
-        source: () => shopApi.getPopularProducts(categorySlug, 6),
+        result: productsList.topRatedProducts,
       },
       {
         name: intl.formatMessage({ id: 'TEXT_TAB_TOP_RATED' }),
-        source: () => shopApi.getTopRatedProducts(categorySlug, 6),
+        result: productsList.topRatedProducts,
       },
     ],
     [intl, categorySlug]
   );
 
-  const load = (tab: IBlockZoneTab) => {
+  const load = (tab: any) => {
     cancelRequestRef.current();
 
     let canceled = false;
@@ -113,17 +113,11 @@ function BlockZone(props: any) {
 
     setIsLoading(true);
 
-    tab.source().then((result) => {
-      if (canceled) {
-        return;
-      }
-
-      setIsLoading(false);
-      setProducts(result);
-    });
+    setIsLoading(false);
+    setProducts(tab.result);
   };
 
-  const onTabClick = (tab: IBlockZoneTab) => {
+  const onTabClick = (tab: any) => {
     setCurrentTab(tab);
     load(tab);
   };
@@ -247,8 +241,11 @@ function BlockZone(props: any) {
                   ref={slickRef}
                   {...slickSettings}
                 >
-                  {featuredProducts.map((product: any) => (
-                    <div key={product.id} className="block-zone__carousel-item">
+                  {products.map((product: any) => (
+                    <div
+                      key={product._id}
+                      className="block-zone__carousel-item"
+                    >
                       <ProductCard
                         product={product}
                         exclude={excludeElements}

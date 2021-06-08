@@ -44,7 +44,7 @@ function MegamenuLinks(props: Props) {
               hassublinks={hasSubLinks ? 1 : 0}
               href={`/catalog/sub_category/${link.name
                 .toLowerCase()
-                .replace(/ /g, '-')}/products`}
+                .replace(/ /g, '_')}/products`}
               onClick={() => handleProducts(link)}
             >
               {createProductName(link.name)}
