@@ -54,7 +54,7 @@ function ProductCard(props: Props) {
     e.preventDefault();
     if (router.asPath === '/') {
       router.push({
-        pathname: `${process.env.BASE_PATH}/products/[name]`,
+        pathname: `/products/[name]`,
         query: { name: encodeURIComponent(productName) },
       });
     } else {
@@ -139,10 +139,7 @@ function ProductCard(props: Props) {
             onClick={(e) => handleProduct(e, product.slug)}
           >
             {product.images && (
-              <AppImage
-                className="image__tag"
-                src={`${process.env.BASE_PATH}${product.images[0]}`}
-              />
+              <AppImage className="image__tag" src={`${product.images[0]}`} />
             )}
           </AppLink>
         </div>
