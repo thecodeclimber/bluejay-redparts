@@ -16,6 +16,7 @@ import {
   SELECTED_PRODUCTS,
   SHOP_ATTRIBUTE,
   SHOP_RESET_FILTER,
+  SHOP_SET_CATEGORIES,
   SHOP_RESET_FILTERS,
   SHOP_SET_FILTER_VALUE,
   SHOP_SET_OPTION_VALUE,
@@ -166,6 +167,17 @@ export function shopAttributeReducer(state = initialState, action: any) {
       return {
         ...state,
         attributes: action.payload,
+      };
+    default:
+      return state;
+  }
+}
+
+export function shopCategoriesReducer(state = initialState, action: any) {
+  switch (action.type) {
+    case SHOP_SET_CATEGORIES:
+      return {
+        categories: action.payload,
       };
     default:
       return state;

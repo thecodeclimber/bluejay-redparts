@@ -10,7 +10,7 @@ export const ProductRating = styled.div`
 `;
 
 export const ProductRatingStars = styled.div`
-  margin-left: 8px;
+  margin-right: 8px;
 `;
 
 export const ProductRatingLabel = styled.div`

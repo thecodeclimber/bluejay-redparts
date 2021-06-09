@@ -10,6 +10,7 @@ import {
   SHOP_RESET_FILTER,
   SHOP_RESET_FILTERS,
   SHOP_ATTRIBUTE,
+  SHOP_SET_CATEGORIES,
   SHOP_SET_FILTER_VALUE,
   SHOP_SET_OPTION_VALUE,
   ShopFetchCategorySuccessAction,
@@ -63,6 +64,13 @@ export function shopFetchProductsListSuccess(productsList: any): any {
   return {
     type: SHOP_FETCH_PRODUCTS_LIST_SUCCESS,
     productsList,
+  };
+}
+
+export function shopfetchCategories(categories: any) {
+  return {
+    type: SHOP_SET_CATEGORIES,
+    payload: categories,
   };
 }
 

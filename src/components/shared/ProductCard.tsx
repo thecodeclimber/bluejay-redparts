@@ -7,6 +7,7 @@ import { FormattedMessage, useIntl } from 'react-intl';
 // application
 import AppImage from '~/components/shared/AppImage';
 import AppLink from '~/components/shared/AppLink';
+import { createProductName } from '../../store/shop/shopHelpers';
 import AsyncAction from '~/components/shared/AsyncAction';
 import CompatibilityStatusBadge from '~/components/shared/CompatibilityStatusBadge';
 import CurrencyFormat from '~/components/shared/CurrencyFormat';
@@ -68,7 +69,7 @@ function ProductCard(props: Props) {
   return (
     <div className={rootClasses} {...rootProps}>
       <div className="product-card__actions-list">
-        <AsyncAction
+        {/* <AsyncAction
           action={() => showQuickview()}
           render={({ run, loading }) => (
             <button
@@ -85,7 +86,7 @@ function ProductCard(props: Props) {
               <Quickview16Svg />
             </button>
           )}
-        />
+        /> */}
 
         {!exclude.includes('actions') && (
           <React.Fragment>
@@ -174,7 +175,7 @@ function ProductCard(props: Props) {
             </div>
           )}
           <AppLink onClick={(e) => handleProduct(e, product.slug)}>
-            {product.name}
+            {createProductName(product.name)}
           </AppLink>
         </div>
 

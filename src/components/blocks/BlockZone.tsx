@@ -3,10 +3,12 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 // third-party
 import classNames from 'classnames';
 import Slick from 'react-slick';
+import { useSelector } from 'react-redux';
 import { FormattedMessage, useIntl } from 'react-intl';
 // application
 import AppImage from '~/components/shared/AppImage';
 import AppLink from '~/components/shared/AppLink';
+import { createProductName } from '../../store/shop/shopHelpers';
 import AppSlick, { ISlickProps } from '~/components/shared/AppSlick';
 import Arrow from '~/components/shared/Arrow';
 import ProductCard, {
@@ -72,6 +74,7 @@ function BlockZone(props: any) {
   const [isLoading, setIsLoading] = useState(false);
   const [currentTab, setCurrentTab] = useState<any | null>(null);
   const subs = category?.children || [];
+  const categories = useSelector((state: any) => state.categories);
 
   const handleNextClick = () => {
     if (slickRef.current) {
@@ -88,8 +91,8 @@ function BlockZone(props: any) {
   const tabs: any[] = useMemo(
     () => [
       {
-        name: intl.formatMessage({ id: 'TEXT_TAB_FEATURED' }),
-        result: productsList.featuredProducts,
+        name: 'Latest',
+        result: productsList.latestProducts,
       },
       {
         name: intl.formatMessage({ id: 'TEXT_TAB_BESTSELLERS' }),
@@ -179,15 +182,21 @@ function BlockZone(props: any) {
               </CategoryCardOverlayImageBlue>
               <CategoryCardContent>
                 <CategoryCardInfo>
-                  <CategoryCardName>
+                  {/* <CategoryCardName>
                     <AppLink href={url.category(category)}>
                       {category.name}
                     </AppLink>
-                  </CategoryCardName>
+                  </CategoryCardName> */}
                   <CategoryCardChildren>
-                    {subs.map((sub, subIdx) => (
-                      <li key={subIdx}>
-                        <AppLink href={url.category(sub)}>{sub.name}</AppLink>
+                    {categories.categories.map((category: any) => (
+                      <li key={category._id}>
+                        <AppLink
+                          href={`/catalog/category/${category.name
+                            .toLowerCase()
+                            .replace(/ /g, '_')}/products`}
+                        >
+                          {createProductName(category.name)}
+                        </AppLink>
                       </li>
                     ))}
                   </CategoryCardChildren>

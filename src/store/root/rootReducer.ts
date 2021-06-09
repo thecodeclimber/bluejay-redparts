@@ -19,7 +19,11 @@ import optionsReducer, {
 import quickviewReducer, {
   QUICKVIEW_NAMESPACE,
 } from '~/store/quickview/quickviewReducer';
-import { shopReducer, shopAttributeReducer } from '~/store/shop/shopReducer';
+import {
+  shopReducer,
+  shopAttributeReducer,
+  shopCategoriesReducer,
+} from '~/store/shop/shopReducer';
 import userReducer, { USER_NAMESPACE } from '~/store/user/userReducer';
 import wishlistReducer, {
   WISHLIST_NAMESPACE,
@@ -37,6 +41,7 @@ export default combineReducers({
   [QUICKVIEW_NAMESPACE]: quickviewReducer,
   [SHOP_NAMESPACE]: shopReducer,
   [USER_NAMESPACE]: userReducer,
+  categories: shopCategoriesReducer,
   attributes: shopAttributeReducer,
   [WISHLIST_NAMESPACE]: wishlistReducer,
 });

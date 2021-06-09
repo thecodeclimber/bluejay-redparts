@@ -18,6 +18,7 @@ import ProductForm from '~/components/shop/ProductForm';
 import ProductGallery, {
   IProductGalleryLayout,
 } from '~/components/shop/ProductGallery';
+import { createProductName } from '../../store/shop/shopHelpers';
 import SitePageNotFound from '~/components/site/SitePageNotFound';
 import ProductSidebar from '~/components/shop/ProductSidebar';
 import ProductTabs from '~/components/shop/ProductTabs';
@@ -147,7 +148,7 @@ function ShopPageProduct(props: any) {
         url: url.category(x),
       })
     ),
-    { title: product.name, url: url.product(product) },
+    { title: createProductName(product.name), url: url.product(product) },
   ];
 
   if (!product) {
@@ -385,7 +386,7 @@ function ShopPageProduct(props: any) {
 
   return (
     <React.Fragment>
-      <PageTitle>{product.name}</PageTitle>
+      <PageTitle>{createProductName(product.name)}</PageTitle>
 
       <BlockHeader breadcrumb={breadcrumb} />
 
@@ -410,7 +411,9 @@ function ShopPageProduct(props: any) {
                   />
 
                   <ProductHeader>
-                    <ProductTitle>{product.name}</ProductTitle>
+                    <ProductTitle>
+                      {createProductName(product.name)}
+                    </ProductTitle>
 
                     <ProductSubTitle>
                       <ProductRating>
@@ -439,7 +442,7 @@ function ShopPageProduct(props: any) {
                   {layout === 'full' && (
                     <ProductMain>
                       {product.excerpt && (
-                        <ProductExcert>{product.excerpt}</ProductExcert>
+                        <ProductExcert>{product.description}</ProductExcert>
                       )}
 
                       {/* {featuredAttributes.length > 0 && (
@@ -495,7 +498,7 @@ function ShopPageProduct(props: any) {
                     {shopFeatures}
                   </ProductInfo>
 
-                  {/* <ProductTabsTabs product={product} layout={layout} /> */}
+                  <ProductTabsTabs product={product} layout={layout} />
                 </ProductBody>
               </div>
 

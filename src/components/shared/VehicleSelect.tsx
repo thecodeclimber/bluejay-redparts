@@ -1,7 +1,9 @@
 // react
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 // third-party
 import classNames from 'classnames';
+import { useSelector } from 'react-redux';
+import { useIntl } from 'react-intl';
 // application
 import useVehicleForm from '~/services/forms/vehicle';
 import { IVehicle } from '~/interfaces/vehicle';
@@ -19,42 +21,65 @@ interface Props extends React.HTMLAttributes<HTMLElement> {
 
 function VehicleSelect(props: Props) {
   const { onVehicleChange, className, ...rootProps } = props;
+  const intl = useIntl();
+  const categories: any = useSelector((state: any) => state.categories);
+  const attributes: any = useSelector((state: any) => state.attributes);
+
+  const [category, setCategoryName] = useState({ id: '', name: '' });
   const rootClasses = classNames(className);
   const form = useVehicleForm({
     onChange: onVehicleChange,
   });
+  const [itemList, setItemList] = useState<any>([]);
+  console.log('categories', categories);
+  console.log('attributes', attributes);
+
+  // useEffect(() => {
+  //   let data: any = [...categories.categories];
+  //   let items: any = [...itemList];
+
+  //   // setItems(data);
+  // }, [categories.categories]);
+
+  // console.log('form', form);
+
+  const handleChange = (item: any) => {
+    console.log('item', item);
+    setCategoryName({ id: item._id, name: item.name });
+  };
+  console.log('categoryName', category.name);
 
   return (
     <VehicleVehicleSelect className={rootClasses} {...rootProps}>
       <VehicleSelectList>
-        {form.items.map((item, itemIdx) => {
-          const options = item.options as Array<number | string | IVehicle>;
-
-          return (
-            <VehicleSelectItem loading={item.loading ? 1 : 0} key={itemIdx}>
-              <VehicleSelectItemControl
-                aria-label={item.label}
-                name={item.key}
-                value={item.value}
-                disabled={item.disabled}
-                onChange={(e) =>
-                  form.onItemValueChange(itemIdx, e.target.value)
-                }
-              >
-                <option value="none">{item.placeholder}</option>
-                {options.map((option, optionIdx) => (
-                  <option
-                    key={optionIdx}
-                    value={form.serializeOption(option, item)}
-                  >
-                    {form.serializeOption(option, item)}
-                  </option>
-                ))}
-              </VehicleSelectItemControl>
-              <VehicleSelectItemLoader />
-            </VehicleSelectItem>
-          );
-        })}
+        <VehicleSelectItem>
+          <VehicleSelectItemControl>
+            <option value="none">Select Category</option>
+            {categories.categories.map((item: any) => (
+              <option key={item._id}>{item.name}</option>
+            ))}
+          </VehicleSelectItemControl>
+          <VehicleSelectItemLoader />
+        </VehicleSelectItem>
+        <VehicleSelectItem>
+          <VehicleSelectItemControl>
+            <option value="none">Select Category</option>
+            {categories.categories.map((category: any) => {
+              return category.sub_categories.map((item: any) => (
+                <option key={item._id}>{item.name}</option>
+              ));
+            })}
+          </VehicleSelectItemControl>
+          <VehicleSelectItemLoader />
+        </VehicleSelectItem>
+        <VehicleSelectItem>
+          <VehicleSelectItemControl></VehicleSelectItemControl>
+          <VehicleSelectItemLoader />
+        </VehicleSelectItem>
+        <VehicleSelectItem>
+          <VehicleSelectItemControl></VehicleSelectItemControl>
+          <VehicleSelectItemLoader />
+        </VehicleSelectItem>
       </VehicleSelectList>
     </VehicleVehicleSelect>
   );

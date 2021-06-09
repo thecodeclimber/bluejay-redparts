@@ -3,7 +3,6 @@ import React, { useCallback, useRef, useState, useEffect } from 'react';
 // third-party
 import classNames from 'classnames';
 import axios from '../../axios';
-import { useRouter } from 'next/router';
 import { useDispatch } from 'react-redux';
 // application
 import {
@@ -28,6 +27,7 @@ import {
   ArrowRoundedRight7x11Svg,
   Menu16x12Svg,
 } from '~/svg';
+import { shopfetchCategories } from '~/store/shop/shopActions';
 import { createProductName } from '../../store/shop/shopHelpers';
 import { IDepartmentsLink } from '~/interfaces/departments-link';
 import { useGlobalMousedown } from '~/services/hooks';
@@ -39,7 +39,6 @@ interface Props {
 
 function Departments(props: Props) {
   const { label } = props;
-  const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
   const [categoriesData, setCategoriesData] = useState([]);
   const [currentItem, setCurrentItem] = useState<IDepartmentsLink | null>(null);
@@ -53,6 +52,7 @@ function Departments(props: Props) {
     async function fetchCategories() {
       const res = await axios.get('/categories');
       setCategoriesData(res.data.data);
+      dispatch(shopfetchCategories(res.data.data));
     }
     fetchCategories();
   }, []);
