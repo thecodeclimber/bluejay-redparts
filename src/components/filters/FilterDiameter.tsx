@@ -47,18 +47,16 @@ function FilterDiameter(props: any) {
     });
     if (attributeActive) {
       if (queryArray.length === 0) {
-        setTimeout(() => {
-          router.push(
-            {
-              pathname: router.pathname,
-              query: { slug: router.query.slug },
-            },
-            undefined,
-            {
-              shallow: true,
-            }
-          );
-        }, 500);
+        router.push(
+          {
+            pathname: router.pathname,
+            query: { slug: router.query.slug },
+          },
+          undefined,
+          {
+            shallow: true,
+          }
+        );
       } else {
         setTimeout(() => {
           router.push(
