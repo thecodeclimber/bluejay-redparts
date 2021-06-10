@@ -27,12 +27,13 @@ import ShareLinks from '~/components/shared/ShareLinks';
 import StockStatusBadge from '~/components/shared/StockStatusBadge';
 import url from '~/services/url';
 import { getCategoryPath } from '~/services/utils';
+import { useSelector } from 'react-redux';
 import { IProduct } from '~/interfaces/product';
 import {
   IProductPageLayout,
   IProductPageSidebarPosition,
 } from '~/interfaces/pages';
-import { shopApi } from '~/api';
+import axios from '~/axios';
 import { useCompareAddItem } from '~/store/compare/compareHooks';
 import { useProductForm } from '~/services/forms/product';
 import { useWishlistAddItem } from '~/store/wishlist/wishlistHooks';
@@ -116,6 +117,8 @@ function ShopPageProduct(props: any) {
   const wishlistAddItem = useWishlistAddItem();
   const compareAddItem = useCompareAddItem();
   const galleryLayout = `product-${layout}` as IProductGalleryLayout;
+  const categories = useSelector((state: any) => state.categories);
+  const [material, setMaterial] = useState<any>([]);
   const [relatedProducts, setRelatedProducts] = useState<IProduct[]>([]);
   const productForm = useProductForm(product);
 
@@ -134,6 +137,19 @@ function ShopPageProduct(props: any) {
   //     canceled = true;
   //   };
   // }, [product]);
+
+  useEffect(() => {
+    product?.attributes.forEach((attribute: any) => {
+      if (attribute?.attribute === '609cf25660a41d956a81ecd2') {
+        fetchMaterial(attribute.value);
+      }
+    });
+  }, [product]);
+
+  const fetchMaterial = async (value: any) => {
+    const result = await axios.get(`/attributes/material/${value}`);
+    result?.data ? setMaterial(result.data) : null;
+  };
 
   if (!product) {
     return null;
@@ -485,6 +501,7 @@ function ShopPageProduct(props: any) {
                         {product.options.length > 0 && (
                           <ProductFormForm
                             options={product.options}
+                            material={material}
                             namespace="options"
                           />
                         )}

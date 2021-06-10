@@ -1,12 +1,11 @@
 // react
 import React, { useState, useEffect } from 'react';
 // third-party
-import classNames from 'classnames';
+import { useRouter } from 'next/router';
+import { FormattedMessage } from 'react-intl';
 import { useSelector } from 'react-redux';
-import { useIntl } from 'react-intl';
 // application
-import useVehicleForm from '~/services/forms/vehicle';
-import { IVehicle } from '~/interfaces/vehicle';
+import axios from '~/axios';
 import {
   VehicleVehicleSelect,
   VehicleSelectList,
@@ -15,74 +14,178 @@ import {
   VehicleSelectItemLoader,
 } from '~/styled-components/components/VehicleSelect';
 
-interface Props extends React.HTMLAttributes<HTMLElement> {
-  onVehicleChange?: (event: IVehicle | null) => void;
-}
-
-function VehicleSelect(props: Props) {
-  const { onVehicleChange, className, ...rootProps } = props;
-  const intl = useIntl();
-  const categories: any = useSelector((state: any) => state.categories);
-  const attributes: any = useSelector((state: any) => state.attributes);
-
-  const [category, setCategoryName] = useState({ id: '', name: '' });
-  const rootClasses = classNames(className);
-  const form = useVehicleForm({
-    onChange: onVehicleChange,
+function VehicleSelect(props: any) {
+  const router = useRouter();
+  const { onVehicleChange, ...rootProps } = props;
+  const categories = useSelector((state: any) => state.categories);
+  const [subcategory, setSubcategory] = useState([]);
+  const [diameter, setDiameter] = useState([]);
+  const [lengthList, setLengthList] = useState([]);
+  const [disabled, setDisabled] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [form, setForm] = useState<any>({
+    category: '',
+    type: '',
+    diameter: '',
+    length: '',
   });
-  const [itemList, setItemList] = useState<any>([]);
-  console.log('categories', categories);
-  console.log('attributes', attributes);
 
-  // useEffect(() => {
-  //   let data: any = [...categories.categories];
-  //   let items: any = [...itemList];
-
-  //   // setItems(data);
-  // }, [categories.categories]);
-
-  // console.log('form', form);
-
-  const handleChange = (item: any) => {
-    console.log('item', item);
-    setCategoryName({ id: item._id, name: item.name });
+  const handleChange = (e: any) => {
+    setForm({
+      ...form,
+      [e.target.name]: e.target.value,
+    });
   };
-  console.log('categoryName', category.name);
+
+  useEffect(() => {
+    if (form.category != '') {
+      if (categories.categories.length) {
+        categories.categories.forEach((category: any) => {
+          if (category.name === form.category) {
+            setSubcategory(category.sub_categories);
+          }
+        });
+      }
+    }
+    if (form.type != '') {
+      categories.categories.forEach((category: any) => {
+        if (category.name === form.category) {
+          if (category?.sub_categories?.length) {
+            category?.sub_categories.forEach((subcat: any) => {
+              if (subcat?.name === form.type) {
+                if (subcat?.attributes?.length) {
+                  subcat.attributes.forEach((att: any) => {
+                    if (att?.attribute === '609cf0d560a41d956a81ecd0') {
+                      fetchDiameter(att);
+                    }
+                  });
+                }
+              }
+            });
+          }
+        }
+      });
+    }
+  }, [form]);
+
+  const fetchDiameter = async (att: any) => {
+    const diameters = await axios.get(`/attributes/diameter/${att.values}`);
+    diameters.data.length ? setDiameter(diameters.data) : setDiameter([]);
+  };
+
+  const onSubmit = (event: React.FormEvent) => {
+    event.preventDefault();
+    if (form.category !== '' && form.category !== '' && form.diameter !== '') {
+      if (!form) {
+        return;
+      }
+
+      router.push(
+        `/catalog/sub_category/${form.type
+          .toLowerCase()
+          .replace(/ /g, '_')}/products?diameter=${form.diameter}`
+      );
+    }
+  };
 
   return (
-    <VehicleVehicleSelect className={rootClasses} {...rootProps}>
-      <VehicleSelectList>
-        <VehicleSelectItem>
-          <VehicleSelectItemControl>
-            <option value="none">Select Category</option>
-            {categories.categories.map((item: any) => (
-              <option key={item._id}>{item.name}</option>
-            ))}
-          </VehicleSelectItemControl>
-          <VehicleSelectItemLoader />
-        </VehicleSelectItem>
-        <VehicleSelectItem>
-          <VehicleSelectItemControl>
-            <option value="none">Select Category</option>
-            {categories.categories.map((category: any) => {
-              return category.sub_categories.map((item: any) => (
-                <option key={item._id}>{item.name}</option>
-              ));
-            })}
-          </VehicleSelectItemControl>
-          <VehicleSelectItemLoader />
-        </VehicleSelectItem>
-        <VehicleSelectItem>
-          <VehicleSelectItemControl></VehicleSelectItemControl>
-          <VehicleSelectItemLoader />
-        </VehicleSelectItem>
-        <VehicleSelectItem>
-          <VehicleSelectItemControl></VehicleSelectItemControl>
-          <VehicleSelectItemLoader />
-        </VehicleSelectItem>
-      </VehicleSelectList>
-    </VehicleVehicleSelect>
+    <form className="block-finder__form" onSubmit={onSubmit}>
+      <VehicleVehicleSelect className="block-finder__select" {...rootProps}>
+        <VehicleSelectList>
+          <VehicleSelectItem loading={loading ? 1 : 0}>
+            <VehicleSelectItemControl
+              aria-label="Category"
+              name="category"
+              value={form.category}
+              disabled={disabled}
+              onChange={(e) => handleChange(e)}
+            >
+              <option value="none">Select Category</option>
+              {categories.categories.map((category: any) => (
+                <option key={category._id}>{category.name}</option>
+              ))}
+            </VehicleSelectItemControl>
+            <VehicleSelectItemLoader />
+          </VehicleSelectItem>
+
+          <VehicleSelectItem loading={loading ? 1 : 0}>
+            <VehicleSelectItemControl
+              aria-label="Type"
+              name="type"
+              value={form.type}
+              disabled={form?.category === '' || subcategory?.length === 0}
+              onChange={(e) => handleChange(e)}
+            >
+              {subcategory.length > 0 && (
+                <option value="none">Select Type</option>
+              )}
+              {subcategory.length === 0 && <option>No Type present</option>}
+              {subcategory.length > 0 &&
+                subcategory.map((subcategory: any) => (
+                  <option key={subcategory._id}>{subcategory.name}</option>
+                ))}
+            </VehicleSelectItemControl>
+            <VehicleSelectItemLoader />
+          </VehicleSelectItem>
+
+          <VehicleSelectItem loading={loading ? 1 : 0}>
+            <VehicleSelectItemControl
+              aria-label="diameter"
+              name="diameter"
+              value={form.diameter}
+              disabled={
+                form?.type === '' ||
+                diameter.length === 0 ||
+                subcategory.length === 0
+              }
+              onChange={(e) => handleChange(e)}
+            >
+              {diameter.length > 0 && (
+                <option value="none">Select Diameter</option>
+              )}
+              {diameter.length === 0 && <option>No Diameter present</option>}
+              {diameter.length > 0 &&
+                diameter.map((diameter: any, index: any) => (
+                  <option key={index}>{diameter}</option>
+                ))}
+            </VehicleSelectItemControl>
+            <VehicleSelectItemLoader />
+          </VehicleSelectItem>
+
+          <VehicleSelectItem loading={loading ? 1 : 0}>
+            <VehicleSelectItemControl
+              aria-label="length"
+              name="length"
+              value={form.length}
+              disabled={form?.length === '' || lengthList.length === 0}
+              onChange={(e) => handleChange(e)}
+            >
+              {lengthList.length > 0 && <option value="">Select Length</option>}
+              {lengthList.length === 0 && <option>No Length present</option>}
+              {lengthList.length > 0 &&
+                lengthList.map((itemLength: any) => (
+                  <option key={itemLength._id}>{itemLength.value}</option>
+                ))}
+            </VehicleSelectItemControl>
+            <VehicleSelectItemLoader />
+          </VehicleSelectItem>
+        </VehicleSelectList>
+      </VehicleVehicleSelect>
+      <button
+        className="block-finder__button"
+        type="submit"
+        disabled={
+          form.category === '' ||
+          form.type === '' ||
+          form.diameter === '' ||
+          form.category === 'none' ||
+          form.type === 'none' ||
+          form.diameter === 'none'
+        }
+      >
+        <FormattedMessage id="BUTTON_BLOCK_FINDER_SEARCH" />
+      </button>
+    </form>
   );
 }
-
 export default VehicleSelect;

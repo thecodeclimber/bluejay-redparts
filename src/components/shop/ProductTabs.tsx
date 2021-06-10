@@ -34,8 +34,6 @@ interface Props extends React.HTMLAttributes<HTMLElement> {
 function ProductTabs(props: Props) {
   const intl = useIntl();
   const { product, layout, className, ...rootProps } = props;
-  console.log('product', product);
-
   const spec = useMemo(
     () =>
       product.type.attributeGroups
@@ -53,8 +51,6 @@ function ProductTabs(props: Props) {
         .filter((x) => x.attributes.length > 0) as IProductAttributeGroup[],
     [product]
   );
-
-  console.log('spec', spec);
 
   const tabs = useMemo<ITab[]>(
     () => [

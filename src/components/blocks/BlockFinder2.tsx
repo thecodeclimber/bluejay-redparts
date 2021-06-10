@@ -19,26 +19,24 @@ import { IVehicle } from '~/interfaces/vehicle';
 
 function BlockFinder() {
   const router = useAppRouter();
-  const [vehicle, setVehicle] = useState<IVehicle | null>(null);
+  const [vehicle, setVehicle] = useState<any>();
 
   const onSubmit = (event: React.FormEvent) => {
     event.preventDefault();
+    // if (!vehicle) {
+    //   return;
+    // }
 
-    if (!vehicle) {
-      return;
-    }
-
-    router
-      .push(
-        ...hrefToRouterArgs(
-          url.products({
-            filters: {
-              filter_vehicle: '30',
-            },
-          })
-        )
-      )
-      .then();
+    // router.push(
+    //   {
+    //     pathname: `/catalog/sub_category/${vehicle.type}/products/[diameter]`,
+    //     query: { diameter: vehicle.diameter },
+    //   },
+    //   undefined,
+    //   {
+    //     shallow: true,
+    //   }
+    // );
   };
 
   return (
@@ -54,16 +52,7 @@ function BlockFinder() {
         <BlockFinderSubtitle>
           <FormattedMessage id="TEXT_BLOCK_FINDER_SUBTITLE" />
         </BlockFinderSubtitle>
-        <form className="block-finder__form" onSubmit={onSubmit}>
-          <VehicleSelect
-            className="block-finder__select"
-            onVehicleChange={setVehicle}
-          />
-
-          <button className="block-finder__button" type="submit">
-            <FormattedMessage id="BUTTON_BLOCK_FINDER_SEARCH" />
-          </button>
-        </form>
+        <VehicleSelect />
       </BlockFinderBody>
     </BlockFinderStyledComponent>
   );
