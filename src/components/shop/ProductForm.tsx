@@ -30,13 +30,13 @@ interface Props extends React.HTMLAttributes<HTMLElement> {
   material: any;
 }
 
-function ProductForm(props: Props) {
+function ProductForm(props: any) {
   const { options, material, namespace, className, ...rootProps } = props;
   const { register } = useFormContext();
   const ns = useMemo(() => (namespace ? `${namespace}.` : ''), [namespace]);
   const optionsTemplate =
     material.length > 0
-      ? options.map((option, optionIdx) => (
+      ? options.map((option: any, optionIdx: any) => (
           <ProductFormRow key={optionIdx}>
             <ProductFormTitle>{option.name}</ProductFormTitle>
             <ProductFormControl>
@@ -61,7 +61,7 @@ function ProductForm(props: Props) {
               {option.type === 'color' && (
                 <InputRadioColor>
                   <InputRadioColorList>
-                    {option.values.map((value, valueIdx) => (
+                    {option.values.map((value: any, valueIdx: any) => (
                       <React.Fragment key={valueIdx}>
                         <label
                           className={classNames('input-radio-color__item', {
