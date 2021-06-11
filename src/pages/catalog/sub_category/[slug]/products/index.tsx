@@ -19,13 +19,8 @@ function Page() {
   const router = useRouter();
   const dispatch = useDispatch();
 
-  let diameter: any = [];
-  if (router.query?.diameter) {
-    diameter = Object.values(router.query.diameter);
-  }
-
   useEffect(() => {
-    if (diameter.length === 0) {
+    if (!router.query?.diameter) {
       const fetchData = async () => {
         const productsList: any = await axios.get<any>(
           `/subcategories/${router.query.slug}/products`
@@ -34,7 +29,7 @@ function Page() {
       };
       fetchData();
     }
-  }, [diameter?.length === 0]);
+  }, [!router.query?.diameter]);
 
   useEffect(() => {
     if (router.query?.diameter) {
@@ -46,7 +41,7 @@ function Page() {
       };
       fetchData();
     }
-  }, [diameter.length]);
+  }, [router.query?.diameter]);
 
   return (
     <ShopPageShop

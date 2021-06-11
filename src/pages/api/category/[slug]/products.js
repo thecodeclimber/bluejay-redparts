@@ -26,7 +26,7 @@ export default dbConnect(async (req, res) => {
         }
         return categoryProducts || [];
       };
-      if (req.query.diameter) {
+      if (req.query?.diameter) {
         let productsData = await getAllProducts();
         const attribute = 'diameter';
         let searchedValues = Object.values(req.query);

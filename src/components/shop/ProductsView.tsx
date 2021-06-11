@@ -72,14 +72,19 @@ interface Props {
   layout: IShopPageLayout;
   gridLayout: IShopPageGridLayout;
   offCanvasSidebar: IShopPageOffCanvasSidebar;
+  productsList: any;
 }
 
 function ProductsView(props: Props) {
-  const { layout: layoutProps, gridLayout, offCanvasSidebar } = props;
+  const {
+    layout: layoutProps,
+    gridLayout,
+    offCanvasSidebar,
+    productsList,
+  } = props;
   const intl = useIntl();
   const isLoading = useShopProductsListIsLoading();
   const shop = useShop();
-  const productsList = useShopProductsList();
   const options = useShopOptions();
   const shopResetFilters = useShopResetFiltersThunk();
   const shopResetFilter = useShopResetFilterThunk();
