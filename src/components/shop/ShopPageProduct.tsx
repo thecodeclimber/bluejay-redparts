@@ -1,42 +1,9 @@
-// react
-import React, { useEffect, useState } from 'react';
-// third-party
-import classNames from 'classnames';
-import { Controller, FormProvider } from 'react-hook-form';
-import { FormattedMessage, useIntl } from 'react-intl';
-// application
-import AppLink from '~/components/shared/AppLink';
-import AsyncAction from '~/components/shared/AsyncAction';
-import BlockHeader from '~/components/blocks/BlockHeader';
-import BlockProductsCarousel from '~/components/blocks/BlockProductsCarousel';
-import BlockSpace from '~/components/blocks/BlockSpace';
-import CompatibilityStatusBadge from '~/components/shared/CompatibilityStatusBadge';
-import CurrencyFormat from '~/components/shared/CurrencyFormat';
-import InputNumber from '~/components/shared/InputNumber';
-import PageTitle from '~/components/shared/PageTitle';
-import ProductForm from '~/components/shop/ProductForm';
-import ProductGallery, {
-  IProductGalleryLayout,
-} from '~/components/shop/ProductGallery';
-import { createProductName } from '../../store/shop/shopHelpers';
-import SitePageNotFound from '~/components/site/SitePageNotFound';
-import ProductSidebar from '~/components/shop/ProductSidebar';
-import ProductTabs from '~/components/shop/ProductTabs';
-import Rating from '~/components/shared/Rating';
-import ShareLinks from '~/components/shared/ShareLinks';
-import StockStatusBadge from '~/components/shared/StockStatusBadge';
-import url from '~/services/url';
-import { getCategoryPath } from '~/services/utils';
-import { useSelector } from 'react-redux';
-import { IProduct } from '~/interfaces/product';
 import {
-  IProductPageLayout,
-  IProductPageSidebarPosition,
-} from '~/interfaces/pages';
-import axios from '~/axios';
-import { useCompareAddItem } from '~/store/compare/compareHooks';
-import { useProductForm } from '~/services/forms/product';
-import { useWishlistAddItem } from '~/store/wishlist/wishlistHooks';
+  BlockSplit,
+  BlockSplitItem,
+  BlockSplitItemSidebar,
+  BlockSplitRow,
+} from '~/styled-components/blocks/BlockSplit';
 import {
   Compare16Svg,
   Fi24Hours48Svg,
@@ -45,66 +12,101 @@ import {
   FiTag48Svg,
   Wishlist16Svg,
 } from '~/svg';
+import { Controller, FormProvider } from 'react-hook-form';
+import { FormattedMessage, useIntl } from 'react-intl';
 import {
+  IProductPageLayout,
+  IProductPageSidebarPosition,
+} from '~/interfaces/pages';
+import {
+  ProdcutInfoCard,
+  ProductActions,
+  ProductBody,
   ProductCardOne,
   ProductCardTwo,
-  ProductsGallery,
-  ProductHeader,
-  ProductTitle,
-  ProductSubTitle,
-  ProductMain,
   ProductExcert,
   ProductFeatures,
-  ProductFeaturesTitle,
   ProductFeaturesLink,
-  ProductActions,
+  ProductFeaturesTitle,
   ProductFormForm,
-  ProdcutInfoCard,
+  ProductHeader,
   ProductInfo,
+  ProductMain,
+  ProductSubTitle,
   ProductTabsTabs,
-  ProductBody,
+  ProductTitle,
+  ProductsGallery,
 } from '~/styled-components/shop/ProductLayoutFull';
 import {
-  ProductRating,
-  ProductRatingStars,
-  ProductRatingLabel,
-  ProductFit,
-  TagBadgeSale,
-  ProductPricesStock,
-  ProductPrices,
   ProdcutPriceOld,
+  ProductActionsDivider,
+  ProductActionsItemCompare,
+  ProductActionsItemWishlist,
+  ProductActionsitemQuantity,
+  ProductFit,
+  ProductInfoBody,
+  ProductItemAdditemAddCart,
+  ProductMeta,
   ProductNewPrice,
   ProductPriceCurrent,
-  ProductMeta,
-  ProductInfoBody,
-  ProductActionsitemQuantity,
-  ProductItemAdditemAddCart,
-  ProductActionsDivider,
-  ProductActionsItemWishlist,
-  ProductActionsItemCompare,
+  ProductPrices,
+  ProductPricesStock,
+  ProductRating,
+  ProductRatingLabel,
+  ProductRatingStars,
   ProductTagsAndShareLinks,
+  TagBadgeSale,
 } from '~/styled-components/shop/Product';
+import ProductGallery, {
+  IProductGalleryLayout,
+} from '~/components/shop/ProductGallery';
 import {
-  Tags,
-  TagList,
   ProductShareLinks,
+  TagList,
+  Tags,
 } from '~/styled-components/components/Tag';
+// react
+import React, { useEffect, useState } from 'react';
 import {
   ShopFeatures,
-  ShopFeaturesList,
-  ShopFeaturesItem,
-  ShopFeaturesInfo,
-  ShopFeaturesItemIcon,
-  ShopFeaturesItemTitle,
-  ShopFeaturesItemSubTitle,
   ShopFeaturesDivider,
+  ShopFeaturesInfo,
+  ShopFeaturesItem,
+  ShopFeaturesItemIcon,
+  ShopFeaturesItemSubTitle,
+  ShopFeaturesItemTitle,
+  ShopFeaturesList,
 } from '~/styled-components/components/ShopFeatures';
-import {
-  BlockSplitItem,
-  BlockSplitItemSidebar,
-  BlockSplitRow,
-  BlockSplit,
-} from '~/styled-components/blocks/BlockSplit';
+
+// application
+import AppLink from '~/components/shared/AppLink';
+import AsyncAction from '~/components/shared/AsyncAction';
+import BlockHeader from '~/components/blocks/BlockHeader';
+import BlockProductsCarousel from '~/components/blocks/BlockProductsCarousel';
+import BlockSpace from '~/components/blocks/BlockSpace';
+import CompatibilityStatusBadge from '~/components/shared/CompatibilityStatusBadge';
+import CurrencyFormat from '~/components/shared/CurrencyFormat';
+import { IProduct } from '~/interfaces/product';
+import InputNumber from '~/components/shared/InputNumber';
+import PageTitle from '~/components/shared/PageTitle';
+import ProductForm from '~/components/shop/ProductForm';
+import ProductSidebar from '~/components/shop/ProductSidebar';
+import ProductTabs from '~/components/shop/ProductTabs';
+import Rating from '~/components/shared/Rating';
+import ShareLinks from '~/components/shared/ShareLinks';
+import SitePageNotFound from '~/components/site/SitePageNotFound';
+import StockStatusBadge from '~/components/shared/StockStatusBadge';
+import axios from '~/axios';
+// third-party
+import classNames from 'classnames';
+import { createProductName } from '../../store/shop/shopHelpers';
+import { getCategoryPath } from '~/services/utils';
+import url from '~/services/url';
+import { useCompareAddItem } from '~/store/compare/compareHooks';
+import { useProductForm } from '~/services/forms/product';
+import { useSelector } from 'react-redux';
+import { useWishlistAddItem } from '~/store/wishlist/wishlistHooks';
+
 interface Props {
   product: IProduct;
   layout: IProductPageLayout;

@@ -1,15 +1,11 @@
-import { IActiveFilter } from '~/interfaces/filter';
-import { IShopCategory } from '~/interfaces/category';
-import { SHOP_NAMESPACE } from '~/store/shop/shopTypes';
-import { makeProduct } from './shopHelpers';
 import {
+  SHOP_ATTRIBUTE,
   SHOP_FETCH_CATEGORY_SUCCESS,
   SHOP_FETCH_PRODUCTS_LIST_START,
   SHOP_FETCH_PRODUCTS_LIST_SUCCESS,
   SHOP_INIT,
   SHOP_RESET_FILTER,
   SHOP_RESET_FILTERS,
-  SHOP_ATTRIBUTE,
   SHOP_SET_CATEGORIES,
   SHOP_SET_FILTER_VALUE,
   SHOP_SET_OPTION_VALUE,
@@ -21,6 +17,11 @@ import {
   ShopSetOptionValueAction,
   ShopThunkAction,
 } from '~/store/shop/shopActionTypes';
+
+import { IActiveFilter } from '~/interfaces/filter';
+import { IShopCategory } from '~/interfaces/category';
+import { SHOP_NAMESPACE } from '~/store/shop/shopTypes';
+import { makeProduct } from './shopHelpers';
 
 let cancelPreviousCategoryRequest = () => {};
 let cancelPreviousProductsListRequest = () => {};

@@ -5,12 +5,14 @@ const { generateProducts } = require('../../../../../utils/helper');
 export default dbConnect(async (req, res) => {
   switch (req.method) {
     case 'GET':
+      const defaultLimit = 8;
+      let { page, limit, sort } = req.query;
+      const skipItems =  page ? (page == 1) ? 0 : (parseInt(page) - 1) * limit : 0;
+      limit = limit ? parseInt(limit) : defaultLimit; 
+      sort = sort != 'default' ? sort == 'name_asc' ? 1: -1 : 0;
+      
       const getAllProducts = async () => {
         const subcategoryData = await SubCategory.find({});
-        if (subcategoryData.status === 500) {
-          res.status(500);
-          res.json([]);
-        }
         let subcategoryId = '';
         subcategoryData.map((subcategory) => {
           if (
@@ -20,30 +22,36 @@ export default dbConnect(async (req, res) => {
           }
         });
 
+        const total = await Product.find({sub_category: subcategoryId,}).count();
         let subcategoryProducts = await Product.find({
           sub_category: subcategoryId,
         })
           .populate({ path: 'category' })
           .populate({ path: 'section' })
           .populate({ path: 'sub_category' })
-          .populate({ path: 'attributes' });
-
-        if (subcategoryProducts.status === 500) {
-          res.status(500);
-          res.json([]);
-        }
-        return subcategoryProducts || [];
+          .populate({ path: 'attributes' })
+          .skip(skipItems)
+          .limit(limit)
+          .sort({ name: sort })
+          .exec();
+          return { 
+            products: subcategoryProducts, 
+            page,
+            total, 
+            from: skipItems + 1,
+            to: total < (limit + skipItems) ? total: limit + skipItems,
+            pages: Math.ceil( total / limit)
+           };
       };
+      let allProductsData = await getAllProducts();
+
       if (req.query.diameter) {
-        let productsData = await getAllProducts();
         const attribute = 'diameter';
         let searchedValues = Object.values(req.query);
         searchedValues = searchedValues[0].split(',');
+
         const data = await Attribute.find({});
-        if (data.status === 500) {
-          res.status(500);
-          res.json([]);
-        }
+
         const searchedAttributeIds = [];
         if (data) {
           data.forEach((item) => {
@@ -57,17 +65,17 @@ export default dbConnect(async (req, res) => {
           });
         }
         const searchedProducts = [];
-        productsData.forEach((product) => {
+        allProductsData.products.forEach((product) => {
           product.attributes.forEach((att) => {
             if (searchedAttributeIds.includes(`${att.value}`)) {
               searchedProducts.push(product);
             }
           });
         });
-        res.json(searchedProducts || []);
+        res.json({...allProductsData, products: searchedProducts });
+        return;
       }
-      let productsData = await getAllProducts();
-      res.json(productsData);
+      res.json({...allProductsData});
       break;
     case 'POST': {
       await generateProducts(res, null, req.query.id);

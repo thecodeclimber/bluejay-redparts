@@ -1,36 +1,37 @@
-// react
-import React, { useEffect, useMemo } from 'react';
-// third-party
-import queryString from 'query-string';
-import { useIntl } from 'react-intl';
 // application
 import {
   BlockSplitHasSidebar,
-  BlockSplitItemSidebar,
-  BlockSplitItemContent,
   BlockSplitItem,
+  BlockSplitItemContent,
+  BlockSplitItemSidebar,
 } from '~/styled-components/shop/ShopPageShop';
-import BlockHeader from '~/components/blocks/BlockHeader';
-import BlockSpace from '~/components/blocks/BlockSpace';
-import ProductsView from '~/components/shop/ProductsView';
-import ShopSidebar from '~/components/shop/ShopSidebar';
-import url from '~/services/url';
-import { createProductName } from '~/store/shop/shopHelpers';
-import { useSelector } from 'react-redux';
-import { baseUrl, getCategoryParents } from '~/services/utils';
-import { buildQuery } from '~/store/shop/shopHelpers';
-import { CurrentVehicleScopeProvider } from '~/services/current-vehicle';
-import { ILink } from '~/interfaces/link';
-import { removePrefix } from '~/services/i18n/utils';
-import { SidebarProvider } from '~/services/sidebar';
-import { useRouter } from 'next/router';
-import { useShop, useShopProductsList } from '~/store/shop/shopHooks';
 import {
   IShopPageGridLayout,
   IShopPageLayout,
   IShopPageOffCanvasSidebar,
   IShopPageSidebarPosition,
 } from '~/interfaces/pages';
+// react
+import React, { useEffect, useMemo } from 'react';
+import { baseUrl, getCategoryParents } from '~/services/utils';
+import { useShop, useShopProductsList } from '~/store/shop/shopHooks';
+
+import BlockHeader from '~/components/blocks/BlockHeader';
+import BlockSpace from '~/components/blocks/BlockSpace';
+import { CurrentVehicleScopeProvider } from '~/services/current-vehicle';
+import { ILink } from '~/interfaces/link';
+import ProductsView from '~/components/shop/ProductsView';
+import ShopSidebar from '~/components/shop/ShopSidebar';
+import { SidebarProvider } from '~/services/sidebar';
+import { buildQuery } from '~/store/shop/shopHelpers';
+import { createProductName } from '~/store/shop/shopHelpers';
+// third-party
+import queryString from 'query-string';
+import { removePrefix } from '~/services/i18n/utils';
+import url from '~/services/url';
+import { useIntl } from 'react-intl';
+import { useRouter } from 'next/router';
+import { useSelector } from 'react-redux';
 
 interface Props {
   layout: IShopPageLayout;
@@ -44,6 +45,7 @@ function ShopPageShop(props: Props) {
   const router: any = useRouter();
   const shopState: any = useShop();
   const productsList = useShopProductsList();
+  console.log(productsList)
   const categories: any = useSelector((state: any) => state.categories);
 
   // Replace current url.

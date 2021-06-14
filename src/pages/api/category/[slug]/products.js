@@ -4,38 +4,45 @@ const { Attribute, Product, Category } = require('../../../../../models');
 export default dbConnect(async (req, res) => {
   switch (req.method) {
     case 'GET':
+      let { page, limit, sort } = req.query;
+      const skipItems =  page ? (page == 1) ? 0 : (parseInt(page) - 1) * limit : 0;
+      limit = limit ? parseInt(limit) : defaultLimit; 
+      sort = sort != 'default' ? sort == 'name_asc' ? 1: -1 : 0;
+
       const getAllProducts = async () => {
         const categoryData = await Category.find({
           name: req.query.slug.replace(/_/g, ' '),
         });
-        if (categoryData.status === 500) {
-          res.status(500);
-          res.json([]);
-        }
+        const total = await Product.find({category: categoryData[0]._id}).count();
         let categoryProducts = await Product.find({
           category: categoryData[0]._id,
         })
           .populate({ path: 'category' })
           .populate({ path: 'section' })
           .populate({ path: 'sub_category' })
-          .populate({ path: 'attributes' });
+          .populate({ path: 'attributes' })
+          .skip(skipItems)
+          .limit(limit)
+          .sort({ name: sort })
+          .exec();
 
-        if (categoryProducts.status === 500) {
-          res.status(500);
-          res.json([]);
-        }
-        return categoryProducts || [];
+          return { 
+            products: categoryProducts, 
+            page,
+            total, 
+            from: skipItems + 1,
+            to: total < (limit + skipItems) ? total: limit + skipItems,
+            pages: Math.ceil( total / limit)
+           };
       };
+      let allProductsData = await getAllProducts();
+
       if (req.query?.diameter) {
-        let productsData = await getAllProducts();
         const attribute = 'diameter';
         let searchedValues = Object.values(req.query);
         searchedValues = searchedValues[0].split(',');
         const data = await Attribute.find({});
-        if (data.status === 500) {
-          res.status(500);
-          res.json([]);
-        }
+
         const searchedAttributeIds = [];
         if (data) {
           data.forEach((item) => {
@@ -49,17 +56,17 @@ export default dbConnect(async (req, res) => {
           });
         }
         const searchedProducts = [];
-        productsData.forEach((product) => {
+        allProductsData.products.forEach((product) => {
           product.attributes.forEach((att) => {
             if (searchedAttributeIds.includes(`${att.value}`)) {
               searchedProducts.push(product);
             }
           });
         });
-        res.json(searchedProducts);
+        res.json({...allProductsData, products: searchedProducts });
+        return;
       }
-      let productsData = await getAllProducts();
-      res.json(productsData);
+      res.json({...allProductsData});
       break;
     // create products
     case 'POST': {
