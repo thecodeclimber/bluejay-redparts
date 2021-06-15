@@ -30,13 +30,12 @@ export default dbConnect(async (req, res) => {
             products: categoryProducts, 
             page,
             total, 
-            from: skipItems + 1,
+            from: total ? skipItems + 1 :0 ,
             to: total < (limit + skipItems) ? total: limit + skipItems,
             pages: Math.ceil( total / limit)
            };
       };
       let allProductsData = await getAllProducts();
-
       if (req.query?.diameter) {
         const attribute = 'diameter';
         let searchedValues = Object.values(req.query);
@@ -64,7 +63,7 @@ export default dbConnect(async (req, res) => {
           });
         });
         let total = searchedProducts.length
-        res.json({...allProductsData, products: searchedProducts, total, to: total < (limit + skipItems) ? total: limit + skipItems });
+        res.json({...allProductsData, products: searchedProducts, total, from: total?allProductsData.from:0, to: total < (limit + skipItems) ? total: limit + skipItems });
         return;
       }
       res.json({...allProductsData});

@@ -248,4 +248,3 @@ exports.generateProducts = async (res, category_id, sub_category_id) => {
       throw err;
     });
 };
-
