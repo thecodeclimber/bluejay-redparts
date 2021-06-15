@@ -38,7 +38,7 @@ function Page() {
     if (router.query?.diameter) {
       const fetchData = async () => {
         const productsList: any = await axios.get<any>(
-          `/subcategories/${router.query.slug}/products?diameter=${router.query.diameter}&page=${options?.page ?? 1}&limit=${options?.limit??8}&sort=${options.sort??'default'}`
+          `/subcategories/${router.query.slug}/products?diameter=${router.query.diameter}${router.query.length ? '&length='+router.query.length :''}&page=${options?.page ?? 1}&limit=${options?.limit??8}&sort=${options.sort??'default'}`
         );
         dispatch(shopFetchProductsListThunk(productsList));
       };

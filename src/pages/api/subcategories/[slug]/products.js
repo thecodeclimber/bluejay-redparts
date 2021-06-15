@@ -6,13 +6,28 @@ export default dbConnect(async (req, res) => {
   switch (req.method) {
     case 'GET':
       const defaultLimit = 8;
-      let { page, limit, sort } = req.query;
+      let { page, limit, sort, length } = req.query;
+      page = parseInt(page);
       const skipItems =  page ? (page == 1) ? 0 : (parseInt(page) - 1) * limit : 0;
       limit = limit ? parseInt(limit) : defaultLimit; 
       sort = sort != 'default' ? sort == 'name_asc' ? 1: -1 : 0;
       
       const getAllProducts = async () => {
         const subcategoryData = await SubCategory.find({});
+        if(length)
+        length = await Attribute.findOne({name: 'length', values : {$elemMatch: {value: req.query.length}}},'values.$');
+        
+        if(!length)
+        return { 
+          products: [], 
+          page,
+          total: 0, 
+          from: 0,
+          to: 0,
+          pages: 1
+         };
+
+
         let subcategoryId = '';
         subcategoryData.map((subcategory) => {
           if (
@@ -29,7 +44,7 @@ export default dbConnect(async (req, res) => {
           .populate({ path: 'category' })
           .populate({ path: 'section' })
           .populate({ path: 'sub_category' })
-          .populate({ path: 'attributes' })
+          .populate({ path: 'attributes', match: { value: length.values[0]._id} })
           .skip(skipItems)
           .limit(limit)
           .sort({ name: sort })
@@ -49,7 +64,6 @@ export default dbConnect(async (req, res) => {
         const attribute = 'diameter';
         let searchedValues = Object.values(req.query);
         searchedValues = searchedValues[0].split(',');
-
         const data = await Attribute.find({});
 
         const searchedAttributeIds = [];
@@ -72,7 +86,8 @@ export default dbConnect(async (req, res) => {
             }
           });
         });
-        res.json({...allProductsData, products: searchedProducts });
+        let total = searchedProducts.length
+        res.json({...allProductsData, products: searchedProducts, total, to: total < (limit + skipItems) ? total: limit + skipItems });
         return;
       }
       res.json({...allProductsData});

@@ -63,7 +63,8 @@ export default dbConnect(async (req, res) => {
             }
           });
         });
-        res.json({...allProductsData, products: searchedProducts });
+        let total = searchedProducts.length
+        res.json({...allProductsData, products: searchedProducts, total, to: total < (limit + skipItems) ? total: limit + skipItems });
         return;
       }
       res.json({...allProductsData});

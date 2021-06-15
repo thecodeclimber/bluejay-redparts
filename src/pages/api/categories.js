@@ -1,6 +1,6 @@
 const dbConnect = require('../../../utils/dbConnect');
 
-const { Category } = require('../../../models');
+const { Category, SubCategory } = require('../../../models');
 
 export default dbConnect(async (req, res) => {
   switch (req.method) {
@@ -12,10 +12,11 @@ export default dbConnect(async (req, res) => {
             localField: '_id',
             foreignField: 'category',
             as: 'sub_categories',
-          },
-        },
+          }
+        }
       ]);
-      res.send({ data: data });
+
+      res.send({ data });
       break;
     default:
       res.send({ status: false, message: 'Not found!' });

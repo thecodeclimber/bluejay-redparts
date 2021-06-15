@@ -1,18 +1,20 @@
 // react
-import React, { useState, useEffect } from 'react';
-// third-party
-import { useRouter } from 'next/router';
-import { FormattedMessage } from 'react-intl';
-import { useSelector } from 'react-redux';
-// application
-import axios from '~/axios';
+import React, { useEffect, useState } from 'react';
 import {
-  VehicleVehicleSelect,
-  VehicleSelectList,
   VehicleSelectItem,
   VehicleSelectItemControl,
   VehicleSelectItemLoader,
+  VehicleSelectList,
+  VehicleVehicleSelect,
 } from '~/styled-components/components/VehicleSelect';
+
+import { AxiosRequestConfig } from 'axios';
+import { FormattedMessage } from 'react-intl';
+// application
+import axios from '~/axios';
+// third-party
+import { useRouter } from 'next/router';
+import { useSelector } from 'react-redux';
 
 function VehicleSelect(props: any) {
   const router = useRouter();
@@ -20,7 +22,7 @@ function VehicleSelect(props: any) {
   const categories = useSelector((state: any) => state.categories);
   const [subcategory, setSubcategory] = useState([]);
   const [diameter, setDiameter] = useState([]);
-  const [lengthList, setLengthList] = useState([]);
+  const [lengthList, setLengthList] = useState({values: []});
   const [disabled, setDisabled] = useState(false);
   const [loading, setLoading] = useState(false);
   const [form, setForm] = useState<any>({
@@ -29,11 +31,23 @@ function VehicleSelect(props: any) {
     diameter: '',
     length: '',
   });
+  const capitalize = (string: string): string => string[0].toUpperCase()+string.slice(1);
 
   const handleChange = (e: any) => {
-    setForm({
-      ...form,
-      [e.target.name]: e.target.value,
+    setForm((prevState: object)=>{
+      switch(e.target.name)
+      {
+        case 'category': 
+          return { category: e.target.value, type: '', diameter: '', length: '' };
+        case 'type': 
+          return {...prevState, type: e.target.value, diameter: '', length: ''};
+        case 'diameter':
+          return  {...prevState, diameter: e.target.value}
+        case 'length':
+          return {...prevState, length: e.target.value}
+        default:
+          return prevState;
+      }
     });
   };
 
@@ -55,9 +69,14 @@ function VehicleSelect(props: any) {
               if (subcat?.name === form.type) {
                 if (subcat?.attributes?.length) {
                   subcat.attributes.forEach((att: any) => {
+                    console.log(att)
                     if (att?.attribute === '609cf0d560a41d956a81ecd0') {
                       fetchDiameter(att);
                     }
+                    if (att?.attribute === '60a4aec4faa6352009c5c180') {
+                      fetchLength(att);
+                    }
+                    
                   });
                 }
               }
@@ -72,7 +91,10 @@ function VehicleSelect(props: any) {
     const diameters = await axios.get(`/attributes/diameter/${att.values}`);
     diameters.data.length ? setDiameter(diameters.data) : setDiameter([]);
   };
-
+const fetchLength = async (att: any) =>{
+  const {data} = await axios.post(`/attributes/length/${att.attribute}`,{ values: att.values });
+    setLengthList(data)
+}
   const onSubmit = (event: React.FormEvent) => {
     event.preventDefault();
     if (form.category !== '' && form.category !== '' && form.diameter !== '') {
@@ -83,7 +105,7 @@ function VehicleSelect(props: any) {
       router.push(
         `/catalog/sub_category/${form.type
           .toLowerCase()
-          .replace(/ /g, '_')}/products?diameter=${form.diameter}`
+          .replace(/ /g, '_')}/products?diameter=${form.diameter}${form.length?'&length='+form.length:''}`
       );
     }
   };
@@ -102,7 +124,7 @@ function VehicleSelect(props: any) {
             >
               <option value="none">Select Category</option>
               {categories.categories.map((category: any) => (
-                <option key={category._id}>{category.name}</option>
+                <option key={category._id} value={category.name}>{capitalize(category.name)}</option>
               ))}
             </VehicleSelectItemControl>
             <VehicleSelectItemLoader />
@@ -122,7 +144,7 @@ function VehicleSelect(props: any) {
               {subcategory.length === 0 && <option>No Type present</option>}
               {subcategory.length > 0 &&
                 subcategory.map((subcategory: any) => (
-                  <option key={subcategory._id}>{subcategory.name}</option>
+                  <option key={subcategory._id} value={subcategory.name}>{capitalize(subcategory.name)}</option>
                 ))}
             </VehicleSelectItemControl>
             <VehicleSelectItemLoader />
@@ -146,7 +168,7 @@ function VehicleSelect(props: any) {
               {diameter.length === 0 && <option>No Diameter present</option>}
               {diameter.length > 0 &&
                 diameter.map((diameter: any, index: any) => (
-                  <option key={index}>{diameter}</option>
+                  <option key={index} value={diameter}>{capitalize(diameter)}</option>
                 ))}
             </VehicleSelectItemControl>
             <VehicleSelectItemLoader />
@@ -157,14 +179,14 @@ function VehicleSelect(props: any) {
               aria-label="length"
               name="length"
               value={form.length}
-              disabled={form?.length === '' || lengthList.length === 0}
+              disabled={form.type === '' || lengthList?.values?.length === 0}
               onChange={(e) => handleChange(e)}
             >
-              {lengthList.length > 0 && <option value="">Select Length</option>}
-              {lengthList.length === 0 && <option>No Length present</option>}
-              {lengthList.length > 0 &&
-                lengthList.map((itemLength: any) => (
-                  <option key={itemLength._id}>{itemLength.value}</option>
+              {lengthList?.values?.length > 0 && <option value="">Select Length</option>}
+              {lengthList?.values?.length === 0 && <option>No Length present</option>}
+              {lengthList?.values?.length > 0 &&
+                lengthList?.values?.map((itemLength: any) => (
+                  <option key={itemLength._id} value={itemLength.value}>{capitalize(itemLength.value)}</option>
                 ))}
             </VehicleSelectItemControl>
             <VehicleSelectItemLoader />

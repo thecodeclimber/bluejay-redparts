@@ -1,15 +1,16 @@
-import React from 'react';
-// third-party
-import { FormattedMessage } from 'react-intl';
 // application
 import {
-  BlockFinderStyledComponent,
+  BlockFinderBody,
   BlockFinderDecor,
   BlockFinderImage,
-  BlockFinderBody,
-  BlockFinderTitle,
+  BlockFinderStyledComponent,
   BlockFinderSubtitle,
+  BlockFinderTitle,
 } from '~/styled-components/blocks/BlockFinder2';
+
+// third-party
+import { FormattedMessage } from 'react-intl';
+import React from 'react';
 import VehicleSelect from '~/components/shared/VehicleSelect';
 import { baseUrl } from '~/services/utils';
 import { useAppRouter } from '~/services/router';
