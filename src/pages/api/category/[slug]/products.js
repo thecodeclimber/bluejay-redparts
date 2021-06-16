@@ -38,7 +38,6 @@ export default dbConnect(async (req, res) => {
       let allProductsData = await getAllProducts();
       if (req.query?.diameter) {
         let products = await getProducts(req, allProductsData, limit, skipItems);
-        console.log(products)
         res.send(products);
         return;
       }
