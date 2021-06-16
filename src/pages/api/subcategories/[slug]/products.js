@@ -41,7 +41,6 @@ export default dbConnect(async (req, res) => {
           .limit(limit)
           .sort({ name: sort })
           .exec();
-          console.log(subcategoryProducts)
           return { 
             products: subcategoryProducts, 
             page,
@@ -79,6 +78,7 @@ export default dbConnect(async (req, res) => {
             }
           });
         });
+        console.log(allProductsData, searchedProducts)
         let total = searchedProducts.length
         res.json({...allProductsData, products: searchedProducts, total, from: total?allProductsData.from:0, to: total < (limit + skipItems) ? total: limit + skipItems });
         return;
