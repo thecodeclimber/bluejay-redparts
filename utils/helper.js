@@ -75,7 +75,8 @@ exports.getProducts = async (req, allProductsData,limit, skipItems) => {
     let attribute = product.attributes.find(({value})=>searchedAttributeIds.includes(String(value)));
     if(attribute) return true;
     return false;
-  })
+  });
   let total = searchedProducts.length
+  console.log({data, searchedAttributeIds, total})
   return ({...allProductsData, products: searchedProducts, total, from: total?allProductsData.from:0, to: total < (limit + skipItems) ? total: limit + skipItems });
 };
