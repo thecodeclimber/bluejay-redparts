@@ -36,7 +36,7 @@ export default dbConnect(async (req, res) => {
           .populate({ path: 'category' })
           .populate({ path: 'section' })
           .populate({ path: 'sub_category' })
-          .populate({ path: 'attributes', match: match})
+          .populate({ path: 'attributes'})
           .skip(skipItems)
           .limit(limit)
           .sort({ name: sort })
