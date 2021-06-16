@@ -1,6 +1,6 @@
 const dbConnect = require('../../../../../utils/dbConnect');
 const { Product, SubCategory, Attribute } = require('../../../../../models');
-const { generateProducts, getProducts } = require('../../../../../utils/helper');
+const { generateProducts, filterProducts } = require('../../../../../utils/helper');
 
 export default dbConnect(async (req, res) => {
   switch (req.method) {
@@ -53,7 +53,7 @@ export default dbConnect(async (req, res) => {
       let allProductsData = await getAllProducts();
 
       if (req.query.diameter) {
-        let products = await getProducts(req, allProductsData, limit, skipItems);
+        let products = await filterProducts(req, allProductsData, limit, skipItems);
         res.send(products);
         return;
       }
