@@ -1,3 +1,4 @@
+"use strict"
 const { SubCategory, Product, Attribute } = require('../models');
 exports.getCombn = ({ items, category, sub_category }) => {
   if (items.length == 1)
@@ -67,17 +68,20 @@ exports.filterProducts = async (req, allProductsData, limit, skipItems) => {
   const data = await Attribute.findOne({ name: 'diameter' });
 
   let searchedAttributeIds = data.values.filter(({ value }) => {
-    console.log(searchedValues.includes(value));
+    console.log(searchedValues.includes(value), searchedValues, value)
     return searchedValues.includes(value);
   });
+  
+  console.log(searchedAttributeIds);
 
   searchedAttributeIds = await Promise.all(
     searchedAttributeIds.map(async ({ _id }) => _id.toString())
   );
+  
   let searchedProducts = allProductsData.products.filter((product) => {
-    let attribute = product.attributes.find(({ value }) =>
-      searchedAttributeIds.includes(value.toString())
-    );
+    let attribute = product.attributes.find(({ value }) =>{
+      return searchedAttributeIds.includes(value.toString())
+    });
     if (attribute) return true;
     return false;
   });
