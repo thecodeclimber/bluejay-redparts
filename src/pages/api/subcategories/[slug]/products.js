@@ -20,12 +20,10 @@ export default dbConnect(async (req, res) => {
         if(req.query.length && !length)
         return { 
           products: [], 
-          length: 0,
           page,
           total: 0, 
           from: 0,
           to: 0,
-          query: req.query,
           pages: 1
          };
          
@@ -47,6 +45,8 @@ export default dbConnect(async (req, res) => {
             products: subcategoryProducts, 
             page,
             total, 
+            subcategoryId,
+            match,
             query: req.query,
             from: total ? skipItems + 1 : 0,
             to: total < (limit + skipItems) ? total: limit + skipItems,
