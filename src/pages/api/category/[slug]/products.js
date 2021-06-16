@@ -40,28 +40,19 @@ export default dbConnect(async (req, res) => {
         const attribute = 'diameter';
         let searchedValues = Object.values(req.query);
         searchedValues = searchedValues[0].split(',');
-        const data = await Attribute.find({});
+        const data = await Attribute.find({name: 'diameter'});
 
-        const searchedAttributeIds = [];
-        if (data) {
-          data.forEach((item) => {
-            if (attribute.includes(item.name)) {
-              item.values.forEach((att) => {
-                if (searchedValues.includes(att.value)) {
-                  searchedAttributeIds.push(`${att._id}`);
-                }
-              });
-            }
-          });
-        }
-        const searchedProducts = [];
-        allProductsData.products.forEach((product) => {
-          product.attributes.forEach((att) => {
-            if (searchedAttributeIds.includes(`${att.value}`)) {
-              searchedProducts.push(product);
-            }
-          });
-        });
+        let searchedAttributeIds =  data.values.filter(({value})=> {
+          return searchedValues.includes(String(value))
+        })
+
+        searchedAttributeIds = await Promise.all(searchedAttributeIds.map(async ({_id})=>String(_id)));
+        let searchedProducts = allProductsData.products.filter(product=>{
+          let attribute = product.attributes.find(({value})=>searchedAttributeIds.includes(String(value)));
+          if(attribute) return true;
+          return false;
+        })
+        console.log(searchedAttributeIds, searchedProducts);
         let total = searchedProducts.length
         res.json({...allProductsData, products: searchedProducts, total, from: total?allProductsData.from:0, to: total < (limit + skipItems) ? total: limit + skipItems });
         return;
