@@ -1,7 +1,7 @@
 const dbConnect = require('../../../../../utils/dbConnect');
 const {
   generateProducts,
-  getProducts,
+  filterProducts,
 } = require('../../../../../utils/helper');
 const { Attribute, Product, Category } = require('../../../../../models');
 export default dbConnect(async (req, res) => {
@@ -47,40 +47,7 @@ export default dbConnect(async (req, res) => {
       let allProductsData = await getAllProducts();
 
       if (req.query?.diameter) {
-        const attribute = 'diameter';
-        let searchedValues = Object.values(req.query);
-        searchedValues = searchedValues[0].split(',');
-        const data = await Attribute.find({});
-
-        const searchedAttributeIds = [];
-        if (data) {
-          data.forEach((item) => {
-            if (attribute.includes(item.name)) {
-              item.values.forEach((att) => {
-                if (searchedValues.includes(att.value)) {
-                  searchedAttributeIds.push(`${att._id}`);
-                }
-              });
-            }
-          });
-        }
-        const searchedProducts = [];
-        allProductsData.products.forEach((product) => {
-          product.attributes.forEach((att) => {
-            if (searchedAttributeIds.includes(`${att.value}`)) {
-              searchedProducts.push(product);
-            }
-          });
-        });
-        let total = searchedProducts.length;
-        res.json({
-          ...allProductsData,
-          products: searchedProducts,
-          total,
-          from: total ? allProductsData.from : 0,
-          to: total < limit + skipItems ? total : limit + skipItems,
-        });
-        let products = await getProducts(
+        let products = await filterProducts(
           req,
           allProductsData,
           limit,
