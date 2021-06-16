@@ -2,7 +2,7 @@ const dbConnect = require('../../../../../utils/dbConnect');
 const { Product, SubCategory, Attribute } = require('../../../../../models');
 const {
   generateProducts,
-  getProducts,
+  filterProducts,
 } = require('../../../../../utils/helper');
 
 export default dbConnect(async (req, res) => {
@@ -72,7 +72,7 @@ export default dbConnect(async (req, res) => {
         let allProductsData = await getAllProducts();
 
         if (req.query.diameter) {
-          let products = await getProducts(
+          let products = await filterProducts(
             req,
             allProductsData,
             limit,
