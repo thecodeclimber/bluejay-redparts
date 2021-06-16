@@ -29,14 +29,15 @@ export default dbConnect(async (req, res) => {
          
         let subcategoryId = subcategoryData._id;
         let match = length ? {value: length.values[0]._id} : {$ne:{ value: ''}};
-        const total = await Product.find({sub_category: subcategoryId,}).count();
+        const total = await Product.find({sub_category: subcategoryId}).count();
+        console.log({match, total, subcategoryId})
         let subcategoryProducts = await Product.find({
           sub_category: subcategoryId,
         })
           .populate({ path: 'category' })
           .populate({ path: 'section' })
           .populate({ path: 'sub_category' })
-          .populate({ path: 'attributes'})
+          .populate({ path: 'attributes', match: match})
           .skip(skipItems)
           .limit(limit)
           .sort({ name: sort })
@@ -44,10 +45,7 @@ export default dbConnect(async (req, res) => {
           return { 
             products: subcategoryProducts, 
             page,
-            total, 
-            subcategoryId,
-            match,
-            query: req.query,
+            total,
             from: total ? skipItems + 1 : 0,
             to: total < (limit + skipItems) ? total: limit + skipItems,
             pages: Math.ceil( total / limit)
