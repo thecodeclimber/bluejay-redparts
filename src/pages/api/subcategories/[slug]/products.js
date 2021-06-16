@@ -24,7 +24,8 @@ export default dbConnect(async (req, res) => {
           total: 0, 
           from: 0,
           to: 0,
-          pages: 1
+          pages: 1,
+          length: 0,
          };
          
         let subcategoryId = subcategoryData._id;
@@ -45,6 +46,7 @@ export default dbConnect(async (req, res) => {
             products: subcategoryProducts, 
             page,
             total, 
+            length: 0,
             from: total ? skipItems + 1 : 0,
             to: total < (limit + skipItems) ? total: limit + skipItems,
             pages: Math.ceil( total / limit)
