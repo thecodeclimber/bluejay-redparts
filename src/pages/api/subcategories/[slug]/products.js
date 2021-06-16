@@ -30,7 +30,6 @@ export default dbConnect(async (req, res) => {
         let subcategoryId = subcategoryData._id;
         let match = length ? {value: length.values[0]._id} : {$ne:{ value: ''}};
         const total = await Product.find({sub_category: subcategoryId}).count();
-        console.log({match, total, subcategoryId})
         let subcategoryProducts = await Product.find({
           sub_category: subcategoryId,
         })
@@ -42,6 +41,7 @@ export default dbConnect(async (req, res) => {
           .limit(limit)
           .sort({ name: sort })
           .exec();
+          console.log(subcategoryProducts)
           return { 
             products: subcategoryProducts, 
             page,
