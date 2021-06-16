@@ -1,5 +1,8 @@
 const dbConnect = require('../../../../../utils/dbConnect');
-const { generateProducts } = require('../../../../../utils/helper');
+const {
+  generateProducts,
+  getProducts,
+} = require('../../../../../utils/helper');
 const { Attribute, Product, Category } = require('../../../../../models');
 export default dbConnect(async (req, res) => {
   switch (req.method) {
@@ -77,11 +80,17 @@ export default dbConnect(async (req, res) => {
           from: total ? allProductsData.from : 0,
           to: total < limit + skipItems ? total : limit + skipItems,
         });
+        let products = await getProducts(
+          req,
+          allProductsData,
+          limit,
+          skipItems
+        );
+        res.send(products);
         return;
       }
       res.json({ ...allProductsData });
       break;
-    // create products
     case 'POST': {
       await generateProducts(res, req.query.slug, null);
       return;

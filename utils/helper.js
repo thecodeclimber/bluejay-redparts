@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 const { SubCategory, Product } = require('../models');
 const { createProductName } = require('./productKeys');
 
+=======
+const { SubCategory, Product, Attribute } = require('../models');
+>>>>>>> d081fb6c08ddac485d7a45c1362046145d8c12ab
 exports.getCombn = ({ items, category, sub_category }) => {
   if (items.length == 1)
     return items[0].map((item) => `${sub_category} ${category} ${item}`);
@@ -226,27 +230,22 @@ exports.generateProducts = async (res, category_id, sub_category_id) => {
         });
       });
     }
-  });
+exports.getProducts = async (req, allProductsData,limit, skipItems) => {
+  let searchedValues = Object.values(req.query);
+  searchedValues = searchedValues[0].split(',');
+  const data = await Attribute.findOne({name: 'diameter'});
 
-  Product.bulkWrite(
-    finalResp.map((item) => {
-      return {
-        updateOne: {
-          filter: { sku: item.sku },
-          update: item,
-          upsert: true,
-        },
-      };
-    })
-  )
-    .then((data) => {
-      res.send({
-        status: true,
-        newCreatedProducts: data.nUpserted,
-        message: 'products created successfully.',
-      });
-    })
-    .catch((err) => {
-      throw err;
-    });
+  let searchedAttributeIds =  data.values.filter(({value})=> {
+    console.log(searchedValues.includes(String(value)));
+    return searchedValues.includes(String(value))
+  })
+
+  searchedAttributeIds = await Promise.all(searchedAttributeIds.map(async ({_id})=>String(_id)));
+  let searchedProducts = allProductsData.products.filter(product=>{
+    let attribute = product.attributes.find(({value})=>searchedAttributeIds.includes(String(value)));
+    if(attribute) return true;
+    return false;
+  });
+  let total = searchedProducts.length
+  return ({...allProductsData, products: searchedProducts, total, from: total?allProductsData.from:0, to: total < (limit + skipItems) ? total: limit + skipItems });
 };
