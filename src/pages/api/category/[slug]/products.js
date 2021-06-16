@@ -1,5 +1,5 @@
 const dbConnect = require('../../../../../utils/dbConnect');
-const { generateProducts } = require('../../../../../utils/helper');
+const { generateProducts, getProducts } = require('../../../../../utils/helper');
 const { Attribute, Product, Category } = require('../../../../../models');
 export default dbConnect(async (req, res) => {
   switch (req.method) {
@@ -37,29 +37,13 @@ export default dbConnect(async (req, res) => {
       };
       let allProductsData = await getAllProducts();
       if (req.query?.diameter) {
-        const attribute = 'diameter';
-        let searchedValues = Object.values(req.query);
-        searchedValues = searchedValues[0].split(',');
-        const data = await Attribute.find({name: 'diameter'});
-
-        let searchedAttributeIds =  data.values.filter(({value})=> {
-          return searchedValues.includes(String(value))
-        })
-
-        searchedAttributeIds = await Promise.all(searchedAttributeIds.map(async ({_id})=>String(_id)));
-        let searchedProducts = allProductsData.products.filter(product=>{
-          let attribute = product.attributes.find(({value})=>searchedAttributeIds.includes(String(value)));
-          if(attribute) return true;
-          return false;
-        })
-        console.log(searchedAttributeIds, searchedProducts);
-        let total = searchedProducts.length
-        res.json({...allProductsData, products: searchedProducts, total, from: total?allProductsData.from:0, to: total < (limit + skipItems) ? total: limit + skipItems });
+        let products = await getProducts(req, allProductsData, limit, skipItems);
+        console.log(products)
+        res.send(products);
         return;
       }
       res.json({...allProductsData});
       break;
-    // create products
     case 'POST': {
       await generateProducts(res, req.query.slug, null);
       return;
