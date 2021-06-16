@@ -63,8 +63,8 @@ const fetchImages = (images) => {
 };
 
 exports.filterProducts = async (req, allProductsData, limit, skipItems) => {
-  let searchedValues = Object.values(req.query);
-  searchedValues = searchedValues[0].split(',');
+
+  let searchedValues = req.query.diameter.split(',');
   const data = await Attribute.findOne({ name: 'diameter' });
 
   let searchedAttributeIds = data.values.filter(({ value }) => {
