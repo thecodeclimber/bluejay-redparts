@@ -69,7 +69,7 @@ exports.getProducts = async (req, allProductsData,limit, skipItems) => {
   let searchedAttributeIds =  data.values.filter(({value})=> {
     return searchedValues.includes(String(value))
   })
-
+console.log({searchedAttributeIds, values: data.values});
   searchedAttributeIds = await Promise.all(searchedAttributeIds.map(async ({_id})=>String(_id)));
   let searchedProducts = allProductsData.products.filter(product=>{
     let attribute = product.attributes.find(({value})=>searchedAttributeIds.includes(String(value)));
@@ -77,6 +77,5 @@ exports.getProducts = async (req, allProductsData,limit, skipItems) => {
     return false;
   });
   let total = searchedProducts.length
-  console.log({data, searchedAttributeIds, total})
   return ({...allProductsData, products: searchedProducts, total, from: total?allProductsData.from:0, to: total < (limit + skipItems) ? total: limit + skipItems });
 };
