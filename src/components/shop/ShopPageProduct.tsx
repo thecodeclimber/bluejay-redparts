@@ -89,6 +89,7 @@ import CurrencyFormat from '~/components/shared/CurrencyFormat';
 import { IProduct } from '~/interfaces/product';
 import InputNumber from '~/components/shared/InputNumber';
 import PageTitle from '~/components/shared/PageTitle';
+import { shopApi } from '~/api';
 import ProductForm from '~/components/shop/ProductForm';
 import ProductSidebar from '~/components/shop/ProductSidebar';
 import ProductTabs from '~/components/shop/ProductTabs';
@@ -96,6 +97,7 @@ import Rating from '~/components/shared/Rating';
 import ShareLinks from '~/components/shared/ShareLinks';
 import SitePageNotFound from '~/components/site/SitePageNotFound';
 import StockStatusBadge from '~/components/shared/StockStatusBadge';
+import { useShopProductsList } from '~/store/shop/shopHooks';
 import axios from '~/axios';
 // third-party
 import classNames from 'classnames';
@@ -121,6 +123,7 @@ function ShopPageProduct(props: any) {
   const galleryLayout = `product-${layout}` as IProductGalleryLayout;
   const categories = useSelector((state: any) => state.categories);
   const [material, setMaterial] = useState<any>([]);
+  let productsList: any = useShopProductsList();
   const [relatedProducts, setRelatedProducts] = useState<IProduct[]>([]);
   const productForm = useProductForm(product);
 
@@ -146,6 +149,9 @@ function ShopPageProduct(props: any) {
         fetchMaterial(attribute.value);
       }
     });
+    const RelatedProducts = [...productsList.products];
+    const result = RelatedProducts.filter((item) => item._id !== product._id);
+    setRelatedProducts(result);
   }, [product]);
 
   const fetchMaterial = async (value: any) => {

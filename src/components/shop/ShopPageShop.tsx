@@ -45,7 +45,6 @@ function ShopPageShop(props: Props) {
   const router: any = useRouter();
   const shopState: any = useShop();
   const productsList = useShopProductsList();
-  console.log(productsList)
   const categories: any = useSelector((state: any) => state.categories);
 
   // Replace current url.

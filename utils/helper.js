@@ -1,4 +1,6 @@
 const { SubCategory, Product } = require('../models');
+const { createProductName } = require('./productKeys');
+
 exports.getCombn = ({ items, category, sub_category }) => {
   if (items.length == 1)
     return items[0].map((item) => `${sub_category} ${category} ${item}`);
@@ -144,7 +146,7 @@ exports.generateProducts = async (res, category_id, sub_category_id) => {
         Many philosophical debates that began in ancient times are still debated today. In one general sense,
         philosophy is associated with wisdom, intellectual culture and a search for knowledge.
         `,
-        description: `--${productName}`,
+        description: createProductName(productName),
         partNumber: 'BDX-750Z370-S',
         stock: 'in-stock',
         price: 25,
