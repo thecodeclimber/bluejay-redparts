@@ -20,6 +20,7 @@ export default dbConnect(async (req, res) => {
         if(req.query.length && !length)
         return { 
           products: [], 
+          length: 0,
           page,
           total: 0, 
           from: 0,
