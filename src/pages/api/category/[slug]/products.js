@@ -18,7 +18,7 @@ export default dbConnect(async (req, res) => {
 
       const getAllProducts = async () => {
         const categoryData = await Category.find({
-          name: req.query.slug.replace(/_/g, ' '),
+          name: { $regex: new RegExp(req.query.slug.replace(/_/g, ' '), 'i') }
         });
         const total = await Product.find({
           category: categoryData[0]._id,

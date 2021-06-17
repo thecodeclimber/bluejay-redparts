@@ -21,7 +21,7 @@ export default dbConnect(async (req, res) => {
         sort = sort != 'default' ? (sort == 'name_asc' ? 1 : -1) : 0;
         const getAllProducts = async () => {
           const subcategoryData = await SubCategory.findOne({
-            name: { $regex: new RegExp(req.query.slug, 'i') },
+            name: { $regex: new RegExp(req.query.slug.replace(/_/g, ' '), 'i') },
           });
           if (length)
             length = await Attribute.findOne(
