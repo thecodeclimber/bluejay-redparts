@@ -25,8 +25,8 @@ function Page() {
   }, []);
 
   const fetchData = async () => {
-    const product: any = await axios.get<any>(`/product/${router.query.name}`);
-    await setProduct(product.data[0]);
+    const {data} = await axios.get<any>(`/product/${router.query.name}`);
+    await setProduct(data);
   };
 
   return (

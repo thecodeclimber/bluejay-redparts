@@ -1,22 +1,23 @@
-// react
-import React from 'react';
-// third-party
-import classNames from 'classnames';
-import { useRouter } from 'next/router';
+import { Cart20Svg, Compare16Svg, Quickview16Svg, Wishlist16Svg } from '~/svg';
 import { FormattedMessage, useIntl } from 'react-intl';
+
 // application
 import AppImage from '~/components/shared/AppImage';
 import AppLink from '~/components/shared/AppLink';
-import { createProductName } from '../../store/shop/shopHelpers';
 import AsyncAction from '~/components/shared/AsyncAction';
 import CompatibilityStatusBadge from '~/components/shared/CompatibilityStatusBadge';
 import CurrencyFormat from '~/components/shared/CurrencyFormat';
 import Rating from '~/components/shared/Rating';
+// react
+import React from 'react';
+// third-party
+import classNames from 'classnames';
+import { createProductName } from '../../store/shop/shopHelpers';
 import { useCartAddItem } from '~/store/cart/cartHooks';
 import { useCompareAddItem } from '~/store/compare/compareHooks';
 import { useQuickviewOpen } from '~/store/quickview/quickviewHooks';
+import { useRouter } from 'next/router';
 import { useWishlistAddItem } from '~/store/wishlist/wishlistHooks';
-import { Cart20Svg, Compare16Svg, Quickview16Svg, Wishlist16Svg } from '~/svg';
 
 export type IProductCardElement =
   | 'actions'
@@ -60,7 +61,7 @@ function ProductCard(props: Props) {
       });
     } else {
       router.push({
-        pathname: `${router.asPath}/[name]`,
+        pathname: `${router.asPath.includes('?') ? router.asPath.split('?')[0] + '/[name]': router.asPath + '/[name]'}`,
         query: { name: encodeURIComponent(productName) },
       });
     }

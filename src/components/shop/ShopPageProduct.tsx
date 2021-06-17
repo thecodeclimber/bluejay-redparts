@@ -89,7 +89,6 @@ import CurrencyFormat from '~/components/shared/CurrencyFormat';
 import { IProduct } from '~/interfaces/product';
 import InputNumber from '~/components/shared/InputNumber';
 import PageTitle from '~/components/shared/PageTitle';
-import { shopApi } from '~/api';
 import ProductForm from '~/components/shop/ProductForm';
 import ProductSidebar from '~/components/shop/ProductSidebar';
 import ProductTabs from '~/components/shop/ProductTabs';
@@ -97,16 +96,17 @@ import Rating from '~/components/shared/Rating';
 import ShareLinks from '~/components/shared/ShareLinks';
 import SitePageNotFound from '~/components/site/SitePageNotFound';
 import StockStatusBadge from '~/components/shared/StockStatusBadge';
-import { useShopProductsList } from '~/store/shop/shopHooks';
 import axios from '~/axios';
 // third-party
 import classNames from 'classnames';
 import { createProductName } from '../../store/shop/shopHelpers';
 import { getCategoryPath } from '~/services/utils';
+import { shopApi } from '~/api';
 import url from '~/services/url';
 import { useCompareAddItem } from '~/store/compare/compareHooks';
 import { useProductForm } from '~/services/forms/product';
 import { useSelector } from 'react-redux';
+import { useShopProductsList } from '~/store/shop/shopHooks';
 import { useWishlistAddItem } from '~/store/wishlist/wishlistHooks';
 
 interface Props {
@@ -149,11 +149,12 @@ function ShopPageProduct(props: any) {
         fetchMaterial(attribute.value);
       }
     });
-    const RelatedProducts = [...productsList.products];
-    const result = RelatedProducts.filter((item) => item._id !== product._id);
+   
+    const RelatedProducts =  (productsList && productsList.products) ?? [];
+    const result = RelatedProducts.filter((item: any) => item._id !== product._id);
     setRelatedProducts(result);
   }, [product]);
-
+console.log(relatedProducts)
   const fetchMaterial = async (value: any) => {
     const result = await axios.get(`/attributes/material/${value}`);
     result?.data ? setMaterial(result.data) : null;
