@@ -68,12 +68,8 @@ exports.filterProducts = async (req, allProductsData, limit, skipItems) => {
   const data = await Attribute.findOne({ name: 'diameter' });
 
   let searchedAttributeIds = data.values.filter(({ value }) => {
-    console.log(searchedValues.includes(value), searchedValues, value)
     return searchedValues.includes(value);
   });
-  
-  console.log(searchedAttributeIds);
-
   searchedAttributeIds = await Promise.all(
     searchedAttributeIds.map(async ({ _id }) => _id.toString())
   );

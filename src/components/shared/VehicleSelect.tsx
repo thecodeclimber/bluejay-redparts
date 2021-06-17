@@ -107,19 +107,18 @@ function VehicleSelect(props: any) {
   };
   const onSubmit = (event: React.FormEvent) => {
     event.preventDefault();
-    if (form.category !== '' && form.category !== '' && form.diameter !== '') {
-      if (!form) {
-        return;
+    let length = `length=${form.length}&`;
+    let diameter = `diameter=${form.diameter}&`;
+    let url = ''
+      if(form.type)
+      {
+        let type = form.type.toLowerCase().replace(/ /g, '_');
+        url = `/catalog/sub_category/${type}/products?${form.diameter ? diameter :''}${form.length ? length: '' }`
       }
-
-      router.push(
-        `/catalog/sub_category/${form.type
-          .toLowerCase()
-          .replace(/ /g, '_')}/products?diameter=${form.diameter}${
-          form.length ? '&length=' + form.length : ''
-        }`
-      );
-    }
+      else{
+        url = `/catalog/category/${form.category}/products?${form.diameter ? diameter :''}${form.length ? length: '' }`
+      }
+      router.push(url.slice(0, -1));
   };
 
   return (
@@ -220,14 +219,7 @@ function VehicleSelect(props: any) {
       <button
         className="block-finder__button"
         type="submit"
-        disabled={
-          form.category === '' ||
-          form.type === '' ||
-          form.diameter === '' ||
-          form.category === 'none' ||
-          form.type === 'none' ||
-          form.diameter === 'none'
-        }
+        disabled={form.category === ''}
       >
         <FormattedMessage id="BUTTON_BLOCK_FINDER_SEARCH" />
       </button>

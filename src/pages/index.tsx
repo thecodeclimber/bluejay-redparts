@@ -1,7 +1,12 @@
 // react
-import React, { useState, useMemo, useEffect } from 'react';
-// third-party
-import { useIntl } from 'react-intl';
+import React, { useEffect, useMemo, useState } from 'react';
+import { blogApi, shopApi } from '~/api';
+import {
+  useDeferredData,
+  useProductColumns,
+  useProductTabs,
+} from '~/services/hooks';
+
 // application
 import BlockBanners from '~/components/blocks/BlockBanners';
 import BlockBrands from '~/components/blocks/BlockBrands';
@@ -14,12 +19,8 @@ import BlockSpace from '~/components/blocks/BlockSpace';
 import BlockZone from '~/components/blocks/BlockZone';
 import axios from '../axios';
 import url from '~/services/url';
-import { shopApi, blogApi } from '~/api';
-import {
-  useDeferredData,
-  useProductColumns,
-  useProductTabs,
-} from '~/services/hooks';
+// third-party
+import { useIntl } from 'react-intl';
 
 function Page() {
   const intl = useIntl();
@@ -134,6 +135,7 @@ function Page() {
   /**
    * Product columns.
    */
+
 
   return (
     <React.Fragment>
