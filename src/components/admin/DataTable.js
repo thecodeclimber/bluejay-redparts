@@ -39,8 +39,8 @@ import React from 'react';
 
 function DataTable() {
   const { isOpen, onOpen, onClose } = useDisclosure()
-  const [selectedItems, setSelectedItems] = React.useState<string[]>([]);
-  const indexKey: string = 'id';
+  const [selectedItems, setSelectedItems] = React.useState([]);
+  const indexKey = 'id';
     const data = React.useMemo(
         () => [
           {
@@ -139,9 +139,9 @@ function DataTable() {
         usePagination
       );
 
-const handleMultiSelect = (event: any)=>{
-  let key:any = event.target.value;
-  setSelectedItems((items: string[]) => {
+const handleMultiSelect = (event)=>{
+  let key = event.target.value;
+  setSelectedItems((items) => {
     if(items.indexOf(key) != -1)
     return items.filter(item=>item != key);
     let arr = Array.from(new Set([...items, key]))
@@ -152,7 +152,7 @@ const handleSelectAll = ()=>{
   setSelectedItems(()=>{
     if(selectedItems.length == page.length)
     return [];
-    return page.map((row: any)=> row.original[indexKey])
+    return page.map((row)=> row.original[indexKey])
   }
   )
 };
@@ -173,12 +173,12 @@ setSelectedItems([]);
         </Stack>
         <Table {...getTableProps()}>
           <Thead>
-            {headerGroups.map((headerGroup: any) => (
+            {headerGroups.map((headerGroup) => (
               <Tr {...headerGroup.getHeaderGroupProps()}>
                   <Th>
                       <Checkbox onChange={handleSelectAll} isChecked={page.length == selectedItems.length}/>
                   </Th>
-                {headerGroup.headers.map((column: any) => (
+                {headerGroup.headers.map((column) => (
                   <Th
                     {...column.getHeaderProps(column.getSortByToggleProps())}
                     isNumeric={column.isNumeric}
@@ -203,14 +203,14 @@ setSelectedItems([]);
           </Thead>
           <Tbody {...getTableBodyProps()}>
           {
-          page.map((row: any, i: number) => {
+          page.map((row, i) => {
             prepareRow(row);
             return (
               <Tr {...row.getRowProps()}>
                 <Td>
                     <Checkbox value={row.original[indexKey]} isChecked={selectedItems.includes(row.original[indexKey])} onChange={handleMultiSelect}/>
                 </Td>
-                {row.cells.map((cell: any) => {
+                {row.cells.map((cell) => {
                   return (
                     <Td {...cell.getCellProps()}>{cell.render("Cell")}</Td>
                   );
@@ -265,7 +265,7 @@ setSelectedItems([]);
             w={28}
             min={1}
             max={pageOptions.length}
-            onChange={(value:any) => {
+            onChange={(value) => {
               const page = value ? value - 1 : 0;
               gotoPage(page);
             }}
