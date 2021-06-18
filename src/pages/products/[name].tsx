@@ -1,11 +1,12 @@
 // react
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+
+import ShopPageProduct from '~/components/shop/ShopPageProduct';
+import axios from '~/axios';
 // third-party
 import { useRouter } from 'next/router';
 // application
 import { useShopProductsList } from '~/store/shop/shopHooks';
-import ShopPageProduct from '~/components/shop/ShopPageProduct';
-import axios from '~/axios';
 
 function Page() {
   const router: any = useRouter();
@@ -25,8 +26,8 @@ function Page() {
   }, [!!router.query?.name]);
 
   const fetchData = async () => {
-    let product: any = await axios.get<any>(`/product/${router.query.name}`);
-    await setProduct(product.data[0]);
+    let {data} = await axios.get<any>(`/product/${router.query.name}`);
+    await setProduct(data);
   };
 
   return (

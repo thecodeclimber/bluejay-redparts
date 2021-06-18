@@ -14,6 +14,7 @@ import { getLanguageByLocale, getLanguageByPath } from '~/services/i18n/utils';
 import { load, save, wrapper } from '~/store/store';
 
 import { AppDispatch } from '~/store/types';
+import { ChakraProvider } from "@chakra-ui/react"
 import { CurrentVehicleGarageProvider } from '~/services/current-vehicle';
 import Head from 'next/head';
 import Layout from '~/components/Layout';
@@ -78,11 +79,13 @@ function App(props: Props) {
 
     return (
       <UserProvider>
+        <ChakraProvider>
       <Layout>
         <PageLayout>
           <Component {...pageProps} />
         </PageLayout>
       </Layout>
+      </ChakraProvider>
       </UserProvider>
     );
   }, [Component, pageProps]);
