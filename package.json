@@ -61,7 +61,8 @@
     "sass": "^1.32.8",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.2.1",
-    "styled-map": "^3.3.0"
+    "styled-map": "^3.3.0",
+    "swr": "^0.5.6"
   },
   "devDependencies": {
     "@babel/plugin-transform-typescript": "^7.12.17",

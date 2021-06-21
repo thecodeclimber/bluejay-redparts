@@ -8,6 +8,7 @@ export default dbConnect(async (req, res) => {
       if (data.status === 500) {
         res.status(500);
         res.json([]);
+        return;
       }
       res.json(data);
       break;
