@@ -6,29 +6,42 @@ import {
     ModalContent,
     ModalFooter,
     ModalHeader,
-    ModalOverlay
+    ModalOverlay,
+    Textarea,
+    Input,Grid,FormControl,FormLabel
 } from "@chakra-ui/react"
 
-import React from 'react'
+import React, { useState } from 'react'
 
 function CustomModal(props: any) {
-  const {isOpen, onClose} =  props;
+  const {isOpen, onClose, Edit, Create, editHandle, productData, setProductData} =  props;
+  
     return (
       <>
         <Modal isOpen={isOpen} onClose={onClose} size="xl">
           <ModalOverlay />
           <ModalContent>
-            <ModalHeader>Create Product</ModalHeader>
+            <ModalHeader>{Edit ?'Edit':'Create'} Product</ModalHeader>
             <ModalCloseButton />
             <ModalBody>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi accusantium, voluptatibus doloremque minus ut amet praesentium? Eaque blanditiis expedita sint, odit molestiae architecto aspernatur eum, nihil exercitationem rem consequatur! Voluptates.
+              <Grid templateColumns="repeat(1, 1fr)" gap={6}>
+                <Input placeholder="name" id="name" value={productData.name} onChange={(e) => setProductData({ ...productData, name: e.target.value })}/>
+                </Grid>
+                <br/>
+                <Grid templateColumns="repeat(1, 1fr)" gap={6}>
+                <Input placeholder="price" id="price" value={productData.price} onChange={(e) => setProductData({ ...productData, price: e.target.value })}/>
+              </Grid>
+                <br/>
+                <Grid templateColumns="repeat(1, 1fr)" gap={6}>
+                <Textarea placeholder="About products ..." id="description" value={productData.description} onChange={(e) => setProductData({ ...productData, description: e.target.value })} />
+                </Grid>
             </ModalBody>
   
             <ModalFooter>
               <Button variant="ghost" mr={3} onClick={onClose}>
                 Close
               </Button>
-              <Button colorScheme="blue">Submit</Button>
+              <Button colorScheme="blue" onClick={() => editHandle()}>{Edit?'Update':'Submit'}</Button>
             </ModalFooter>
           </ModalContent>
         </Modal>

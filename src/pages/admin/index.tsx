@@ -23,7 +23,7 @@ React.useEffect(()=>{
     return (
       <Card style={{margin: '2rem'}}>
         <CardBody>
-        <DataTable />
+            <DataTable/>
         </CardBody>
       </Card>
     )
