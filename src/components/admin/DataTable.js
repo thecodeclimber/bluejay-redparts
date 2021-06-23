@@ -37,7 +37,6 @@ import { usePagination, useSortBy, useTable } from "react-table";
 
 import CustomModal from "./CustomModal";
 import React, { useEffect, useState } from 'react';
-import { useRouter } from "next/router";
 import { useShopOptions } from "~/store/shop/shopHooks";
 import axios from "axios";
 import { ProductRatingStars } from "~/styled-components/shop/Product";
@@ -48,6 +47,8 @@ function DataTable() {
   const [selectedItems, setSelectedItems] = React.useState([]);
   const [products, setProducts] = useState([]);
   const [productData, setProductData] = useState({ updateId: '', name: '', price: '', description: '' });
+  console.log(productData)
+  // const router = useRouter();
   const options = useShopOptions()
   useEffect(() => {
     fetchData();
@@ -69,10 +70,13 @@ function DataTable() {
 
 
   const indexKey = '_id';
+
   let data = React.useMemo(
     () => products.products || [],
-    [products.products],
+    [products],
   );
+
+
 
   const columns = React.useMemo(
     () => [
@@ -92,13 +96,15 @@ function DataTable() {
         Header: "SKU",
         accessor: "sku",
       },
-      // {
-      //   Header: "isFeatured",
-      //   accessor: "isFeatured"
-      // }
+      {
+        Header: "isFeatured",
+        accessor: "isFeatured"
+      }
     ],
     [],
   )
+
+  var limit = options?.limit == undefined ? 20 : options?.limit;
   const {
     getTableProps,
     getTableBodyProps,
@@ -119,6 +125,7 @@ function DataTable() {
   // for next previous pagination
   let next = products.page == null ? 1 : products.page + 1;
   let prev = products.page == null ? 1 : products.page - 1;
+
   const handleMultiSelect = (event) => {
     let key = event.target.value;
     setSelectedItems((items) => {
