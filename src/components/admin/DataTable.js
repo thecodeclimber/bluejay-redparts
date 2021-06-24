@@ -31,7 +31,7 @@ import {
   Tr,
   chakra,
   useDisclosure,
-  Link
+  Link, Spinner
 } from "@chakra-ui/react";
 import { usePagination, useSortBy, useTable } from "react-table";
 
@@ -46,16 +46,19 @@ function DataTable() {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const [selectedItems, setSelectedItems] = React.useState([]);
   const [products, setProducts] = useState([]);
+  const [loader, setLoader] = useState(false);
   const [productData, setProductData] = useState({ updateId: '', name: '', price: '', description: '' });
-  console.log(productData)
-  // const router = useRouter();
-  const options = useShopOptions()
+  const options = useShopOptions();
+  let pageValue = [5, 10, 20, 50, 100];
+  let selectedLimit = options?.limit == undefined ? 20 : options?.limit;
   useEffect(() => {
     fetchData();
   }, []);
   const fetchData = async () => {
+    setLoader(true);
     let data = await axios.get(`/api/admin/product/?page=${options?.page ?? 1}&limit=${options?.limit ?? 20}&sort=${options.sort ?? 'default'}`);
     setProducts(data.data);
+    setLoader(false);
   };
 
   const pagination = async (page) => {
@@ -104,7 +107,7 @@ function DataTable() {
     [],
   )
 
-  var limit = options?.limit == undefined ? 20 : options?.limit;
+
   const {
     getTableProps,
     getTableBodyProps,
@@ -191,6 +194,7 @@ function DataTable() {
       console.log(data.message)
     }
   }
+
   return (
     <>
       <Stack spacing={4} direction="row" justifyContent="flex-end" width="full" marginBottom="3">
@@ -236,7 +240,8 @@ function DataTable() {
           ))}
         </Thead>
         <Tbody {...getTableBodyProps()}>
-          {
+          {loader ? <Tr><Td colSpan={8}><Spinner style={{ position: "relative", left: "50%" }} color="blue.500" size="xl" /></Td></Tr> :
+
             page.map((row, i) => {
               prepareRow(row);
               return (
@@ -267,6 +272,7 @@ function DataTable() {
                 </Tr>
               );
             })}
+
         </Tbody>
       </Table>
       <Flex justifyContent="space-between" m={4} alignItems="center">
@@ -300,10 +306,10 @@ function DataTable() {
             <Text fontWeight="bold" as="span">
               {products.pages}
             </Text>
-            {" / "}
+            {/* {" / "}
             <Text fontWeight="bold" as="span">
               {products.total}
-            </Text>
+            </Text> */}
           </Text>
           <Text flexShrink={0}>Go to page:</Text>{" "}
           <NumberInput
@@ -331,8 +337,8 @@ function DataTable() {
               setLimit(Number(e.target.value))
             }}
           >
-            {[5, 10, 20, 50, 100].map((pageSize) => (
-              <option key={pageSize} value={pageSize}>
+            {pageValue.map((pageSize) => (
+              <option key={pageSize} value={pageSize} selected={selectedLimit == pageSize ? 'selected' : ''}>
                 Show {pageSize}
               </option>
             ))}
