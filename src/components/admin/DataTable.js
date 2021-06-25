@@ -46,6 +46,7 @@ function DataTable() {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const [selectedItems, setSelectedItems] = React.useState([]);
   const [products, setProducts] = useState([]);
+  const [isEditForm, setIsEditForm] = useState(false);
   const [loader, setLoader] = useState(false);
   const [productData, setProductData] = useState({ updateId: '', name: '', price: '', description: '' });
   const options = useShopOptions();
@@ -169,11 +170,18 @@ function DataTable() {
 
   // for single Edit 
   const HandleSingleEdit = (Id, name, price, description) => {
+    setIsEditForm(true)
     onOpen();
     productData.name = name;
     productData.price = price;
     productData.description = description;
     productData.updateId = Id;
+  }
+
+  let HandleForm = (status) => {
+    console.log(status)
+    setIsEditForm(status)
+    onOpen();
   }
 
   // edit table
@@ -201,10 +209,10 @@ function DataTable() {
         {selectedItems.length && <>
           <Button size="sm" colorScheme="red" onClick={() => deleteHandle()}>
             <DeleteIcon />&nbsp;&nbsp;Bulk Delete</Button>
-          <Button size="sm" colorScheme="blue" onClick={onOpen}><EditIcon />&nbsp;&nbsp;Bulk Edit</Button>
+          <Button size="sm" colorScheme="blue" onClick={() => HandleForm(true)}><EditIcon />&nbsp;&nbsp;Bulk Edit</Button>
         </>}
 
-        <Button size="sm" colorScheme="green" onClick={onOpen}><AddIcon />&nbsp;&nbsp;Add</Button>
+        <Button size="sm" colorScheme="green" onClick={() => HandleForm(false)}><AddIcon />&nbsp;&nbsp;Add</Button>
       </Stack>
       <Table {...getTableProps()}>
         <Thead>
@@ -365,7 +373,7 @@ function DataTable() {
           </Tooltip>
         </Flex>
       </Flex>
-      <CustomModal isOpen={isOpen} onClose={onClose} Edit={true} editHandle={editHandle} productData={productData} setProductData={setProductData} />
+      <CustomModal isOpen={isOpen} onClose={onClose} Edit={isEditForm} editHandle={editHandle} productData={productData} setProductData={setProductData} />
     </>
   )
 }

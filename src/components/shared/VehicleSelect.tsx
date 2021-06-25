@@ -60,7 +60,6 @@ function VehicleSelect(props: any) {
       }
     });
   };
-
   useEffect(() => {
     if (form.category != '') {
       if (categories.categories.length) {
@@ -109,16 +108,18 @@ function VehicleSelect(props: any) {
     event.preventDefault();
     let length = `length=${form.length}&`;
     let diameter = `diameter=${form.diameter}&`;
-    let url = ''
-      if(form.type)
-      {
-        let type = form.type.toLowerCase().replace(/ /g, '_');
-        url = `/catalog/sub_category/${type}/products?${form.diameter ? diameter :''}${form.length ? length: '' }`
-      }
-      else{
-        url = `/catalog/category/${form.category}/products?${form.diameter ? diameter :''}${form.length ? length: '' }`
-      }
-      router.push(url.slice(0, -1));
+    let url = '';
+    if (form.type) {
+      let type = form.type.toLowerCase().replace(/ /g, '_');
+      url = `/catalog/sub_category/${type}/products?${
+        form.diameter ? diameter : ''
+      }${form.length ? length : ''}`;
+    } else {
+      url = `/catalog/category/${form.category}/products?${
+        form.diameter ? diameter : ''
+      }${form.length ? length : ''}`;
+    }
+    router.push(url.slice(0, -1));
   };
 
   return (
