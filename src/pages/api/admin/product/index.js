@@ -1,6 +1,8 @@
 const dbConnect = require('../../../../../utils/dbConnect');
-const { Product } = require('../../../../../models');
-
+const { Product, Section, Category, SubCategory } = require('../../../../../models');
+const {
+    generateProducts, getAllCombinations, fetchImages, createProductSlug, generateRealProducts
+} = require('../../../../../utils/helper');
 export default dbConnect(async (req, res) => {
     switch (req.method) {
         case 'GET':
@@ -71,6 +73,11 @@ export default dbConnect(async (req, res) => {
         //     }
         //     res.status(200).json({ 'message': 'products updated' });
         //     break;
+        case 'POST':
+            var postData = req.body.productData;
+            await generateRealProducts(res, postData);
+            return;
+            break;
 
         default:
             res.send({ status: false, message: 'Not found!' });

@@ -27,6 +27,6 @@
       }
     ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/fake-server/database/products/Anchorss.js", "src/pages/api/auth/[...auth0].js", "src/components/admin/DataTable.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/fake-server/database/products/Anchorss.js", "src/pages/api/auth/[...auth0].js", "src/components/admin/DataTable.js", "src/components/admin/AddForm.js"],
   "exclude": ["node_modules"]
 }

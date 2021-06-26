@@ -373,7 +373,7 @@ function DataTable() {
           </Tooltip>
         </Flex>
       </Flex>
-      <CustomModal isOpen={isOpen} onClose={onClose} Edit={isEditForm} editHandle={editHandle} productData={productData} setProductData={setProductData} />
+      <CustomModal isOpen={isOpen} onClose={onClose} Edit={isEditForm} fetchData={fetchData} editHandle={editHandle} productData={productData} setProductData={setProductData} />
     </>
   )
 }
