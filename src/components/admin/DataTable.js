@@ -7,7 +7,8 @@ import {
   DeleteIcon,
   EditIcon,
   TriangleDownIcon,
-  TriangleUpIcon
+  TriangleUpIcon,
+  CheckIcon, CloseIcon
 } from "@chakra-ui/icons";
 import {
   Button,
@@ -31,7 +32,7 @@ import {
   Tr,
   chakra,
   useDisclosure,
-  Link, Spinner
+  Link, Spinner, Input, InputGroup, InputRightElement
 } from "@chakra-ui/react";
 import { usePagination, useSortBy, useTable } from "react-table";
 
@@ -41,6 +42,7 @@ import { useShopOptions } from "~/store/shop/shopHooks";
 import axios from "axios";
 import { ProductRatingStars } from "~/styled-components/shop/Product";
 import Rating from "../shared/Rating";
+import * as $ from 'jquery'
 
 function DataTable() {
   const { isOpen, onOpen, onClose } = useDisclosure()
@@ -57,30 +59,16 @@ function DataTable() {
   }, []);
   const fetchData = async () => {
     setLoader(true);
-    let data = await axios.get(`/api/admin/product/?page=${options?.page ?? 1}&limit=${options?.limit ?? 20}&sort=${options.sort ?? 'default'}`);
+    let data = await axios.get(`/api/admin/product/?page=${options?.page ?? 1}&limit=${options?.limit ?? 20}&sort=${options.sort ?? 'default'}&key=${options.key ?? 'default'}`);
     setProducts(data.data);
     setLoader(false);
   };
 
-  const pagination = async (page) => {
-    options.page = page;
-    fetchData();
-  }
-  const setLimit = async (limit) => {
-    options.limit = limit;
-    options.page = 1;
-    fetchData();
-  }
-
-
   const indexKey = '_id';
-
   let data = React.useMemo(
     () => products.products || [],
     [products],
   );
-
-
 
   const columns = React.useMemo(
     () => [
@@ -99,10 +87,6 @@ function DataTable() {
       }, {
         Header: "SKU",
         accessor: "sku",
-      },
-      {
-        Header: "isFeatured",
-        accessor: "isFeatured"
       }
     ],
     [],
@@ -148,6 +132,17 @@ function DataTable() {
     )
   };
 
+  const pagination = async (page) => {
+    options.page = page;
+    fetchData();
+  }
+  const setLimit = async (limit) => {
+    options.limit = limit;
+    options.page = 1;
+    fetchData();
+  }
+
+
   const deleteHandle = async (id = null) => {
     let deleteId = id != null ? id.split(",") : id;
     let message = 'Are you sure to delete this product';
@@ -184,6 +179,7 @@ function DataTable() {
     onOpen();
   }
 
+
   // edit table
   const editHandle = async () => {
     let updateId = productData.updateId != 'null' ? productData.updateId.split(",") : productData.updateId;
@@ -203,6 +199,12 @@ function DataTable() {
     }
   }
 
+  // filter handle
+  const filterHandle = async () => {
+    options.key = $('#keysearch').val();
+    fetchData();
+  }
+
   return (
     <>
       <Stack spacing={4} direction="row" justifyContent="flex-end" width="full" marginBottom="3">
@@ -211,7 +213,17 @@ function DataTable() {
             <DeleteIcon />&nbsp;&nbsp;Bulk Delete</Button>
           <Button size="sm" colorScheme="blue" onClick={() => HandleForm(true)}><EditIcon />&nbsp;&nbsp;Bulk Edit</Button>
         </>}
-
+        <Input
+          size="sm"
+          type="text"
+          name="keysearch"
+          id="keysearch"
+          placeholder="Search"
+          width="200px"
+        />
+        <Button size="sm" colorScheme="green" onClick={() => filterHandle()}>
+          Submit
+        </Button>
         <Button size="sm" colorScheme="green" onClick={() => HandleForm(false)}><AddIcon />&nbsp;&nbsp;Add</Button>
       </Stack>
       <Table {...getTableProps()}>
@@ -239,6 +251,9 @@ function DataTable() {
                 </Th>
               ))}
               <Th>
+                isFeatured
+              </Th>
+              <Th>
                 Rating
               </Th>
               <Th>
@@ -262,6 +277,9 @@ function DataTable() {
                       <Td {...cell.getCellProps()}>{cell.render("Cell")}</Td>
                     );
                   })}
+                  <Td align="center">
+                    {row.original['isFeatured'] == false ? <CloseIcon color="red.500" /> : <CheckIcon color="green.500" />}
+                  </Td>
                   <Td>
                     <ProductRatingStars>
                       <Rating value={row.original['rating'] || 0} />
@@ -313,11 +331,11 @@ function DataTable() {
             of{" "}
             <Text fontWeight="bold" as="span">
               {products.pages}
+            </Text>&nbsp;
+            {/* {" / "} */}
+            <Text as="span">
+              ({products.total} Records)
             </Text>
-            {/* {" / "}
-            <Text fontWeight="bold" as="span">
-              {products.total}
-            </Text> */}
           </Text>
           <Text flexShrink={0}>Go to page:</Text>{" "}
           <NumberInput

@@ -28,7 +28,6 @@ function CustomModal(props: any) {
     setProductData,
     fetchData,
   } = props;
-  console.log(productData);
 
   return (
     <>

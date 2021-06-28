@@ -315,8 +315,6 @@ exports.generateRealProducts = async (res, postData) => {
       message: '[section | category | sub_category  | name | price | compareAtPrice] is required!',
     });
   }
-  const cat = await Category.findOne({ _id: postData.category }, { shortName: 1, _id: 0 })
-  const subcat = await SubCategory.findOne({ _id: postData.sub_category }, { shortName: 1, _id: 0 })
   let attributes = [];
   if (postData.attributes.length > 0) {
     attributes = postData.attributes.map(({ values, _id, shortName }) => {
@@ -335,14 +333,14 @@ exports.generateRealProducts = async (res, postData) => {
   let images = [];
   attributes.forEach((items) => {
     const { attribute_id, shortName, _id, value } = items;
-    let sku = `${cat.shortName}-${subcat.shortName}-${shortName}`;
+    let sku = `${postData.sku}`;
     let name = postData.name;
     let skuList = [];
     const finalRespFunc = (productSku, productName, values) => {
       return finalResp.push({
         sku: sku + '-' + productSku,
         name: productName,
-        // slug: createProductSlug(productName),
+        slug: createProductSlug(productName),
         images: fetchImages(images),
         attributes: values,
         sub_category: postData.sub_category,

@@ -6,7 +6,7 @@ const {
 export default dbConnect(async (req, res) => {
     switch (req.method) {
         case 'GET':
-            let { page, limit, sort } = req.query;
+            let { page, limit, sort, key } = req.query;
             page = parseInt(page);
             const skipItems = page
                 ? page == 1
@@ -15,9 +15,14 @@ export default dbConnect(async (req, res) => {
                 : 0;
             limit = limit ? parseInt(limit) : defaultLimit;
             sort = sort != 'default' ? (sort == 'name_asc' ? 1 : -1) : 0;
+            let regex = '';
+            if (key != 'default') {
+                regex = new RegExp(key, 'i');
+            }
+            key = key != 'default' ? { $or: [{ name: regex }, { price: isNaN(key) ? 0 : Number(key) }, { description: regex }, { sku: regex }] } : {};
             const getAllProducts = async () => {
-                const total = await Product.find({}).count();
-                let data = await Product.find({}, { name: 1, sku: 1, images: 1, isFeatured: 1, price: 1, description: 1, isFeatured: 1, rating: 1 })
+                const total = await Product.find(key).count();
+                let data = await Product.find(key, { name: 1, sku: 1, images: 1, isFeatured: 1, price: 1, description: 1, isFeatured: 1, rating: 1 })
                     .skip(skipItems)
                     .limit(limit)
                     .sort({ name: sort })

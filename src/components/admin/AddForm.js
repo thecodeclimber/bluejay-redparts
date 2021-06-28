@@ -2,26 +2,21 @@ import {
   Button,
   Textarea,
   Input,
-  Grid,
   FormControl,
   FormLabel,
   Select,
   Checkbox,
-  Accordion,
-  AccordionItem,
-  AccordionButton,
-  Box,
-  AccordionIcon,
-  AccordionPanel,
   NumberInputStepper,
   Stack,
-  filter,
+  Box,
+  Grid,
   NumberInput,
   NumberInputField,
   NumberIncrementStepper,
   NumberDecrementStepper,
   ModalBody,
   ModalFooter,
+  GridItem,
 } from '@chakra-ui/react';
 import axios from 'axios';
 
@@ -118,7 +113,7 @@ function AddForm(props) {
     let elem = document.getElementById('attr-' + e.target.value);
     let key = e.target.value;
     if (e.target.checked) {
-      elem.style.display = 'block';
+      elem.style.display = '';
       setCheckedAttribute((items) => {
         if (items.indexOf(key) != -1)
           return items.filter((item) => item != key);
@@ -132,7 +127,6 @@ function AddForm(props) {
 
   const submitHandle = async () => {
     let attributes = [];
-    let obj = {};
     let name = '';
     checkedAttribute.forEach((item, index) => {
       let values = [];
@@ -147,11 +141,8 @@ function AddForm(props) {
           values.push({ key: key, value: $(this).find('span.chakra-checkbox__label').text() })
         }
       });
-      if (values.length == 0) {
-        obj = {};
-      } else {
+      if (values.length !== 0) {
         attributes[index] = { _id: item, shortName: name, values: values }
-        // obj.push({ _id: item, shortName: name, values: values });
       }
 
     });
@@ -166,18 +157,33 @@ function AddForm(props) {
     productData.section = form.section;
     productData.category = form.category;
     productData.sub_category = form.type;
-    let data = await axios.post(`/api/admin/product`, { productData });
-    if (data.data.status == true) {
-      if (data.data.newCreatedProducts === 0) {
-        console.log('products are already created!')
-      } else {
-        console.log(data.data.newCreatedProducts + " " + data.data.message)
+    productData.sku = $("select#section").find(":selected").attr('datasku') + "-" + $("select#category").find(":selected").attr('datasku') + "-" + $("select#type").find(":selected").attr('datasku');
+    if (productData.attributes.length == 0) {
+      alert('Attributes Required');
+    } else if (productData.name == '') {
+      alert('Name is Required')
+    } else if (productData.price == '') {
+      alert('Price is required')
+    } else if (productData.compareAtPrice == '') {
+      alert('compareAtPrice is required')
+    } else if (productData.description == '') {
+      alert('Description is required')
+    } else {
+      let data = await axios.post(`/api/admin/product`, { productData });
+      if (data.data.status == true) {
+        if (data.data.newCreatedProducts === 0) {
+          alert('products are already created!')
+        } else {
+          alert(data.data.newCreatedProducts + " " + data.data.message)
+        }
+        onClose();
+        fetchData();
       }
-      onClose();
-      fetchData();
     }
-  };
 
+  };
+  console.log(checkedAttribute)
+  console.log(attribute)
 
   return (
     <>
@@ -250,31 +256,34 @@ function AddForm(props) {
                 data-shortname={element.shortName}
                 onChange={(e) => handleOnChangeAttribute(e)}
               >
-                {element.name}
+                {capitalize(element.name)}
               </Checkbox>
-              <Stack
-                pl={6}
+              <Grid pl={6} templateRows="repeat(2, 1fr)"
+                templateColumns="repeat(4, 1fr)"
                 style={{ display: 'none' }}
                 id={'attr-' + element._id}
+
               >
                 {element.values.length == 0
                   ? ''
                   : element.values.map((val) => (
                     <>
-                      <Checkbox
-                        pl={4}
-                        colorScheme="green"
-                        size="sm"
-                        key={val._id}
-                        value={val._id}
-                        className={'attr-value-' + element._id}
-                        name={val.name}
-                      >
-                        {val.value}
-                      </Checkbox>
+                      <GridItem>
+                        <Checkbox
+                          pl={4}
+                          colorScheme="green"
+                          size="sm"
+                          key={val._id}
+                          value={val._id}
+                          className={'attr-value-' + element._id}
+                          name={val.name}
+                        >
+                          {val.value}
+                        </Checkbox>
+                      </GridItem>
                     </>
                   ))}
-              </Stack>
+              </Grid>
               <br />
             </>
           ))}
@@ -291,10 +300,10 @@ function AddForm(props) {
           </Checkbox>
         </FormControl>
         <br />
-        <FormControl templateColumns="repeat(1, 1fr)" gap={6}>
+        <FormControl templateColumns="repeat(1, 1fr)" gap={6} isRequired>
           <FormLabel>Name</FormLabel>
           <Input
-            placeholder="name"
+            placeholder="Name"
             id="name"
             name="name"
             value={productData.name}
@@ -304,16 +313,8 @@ function AddForm(props) {
           />
         </FormControl>
         <br />
-        <FormControl templateColumns="repeat(1, 1fr)" gap={6}>
+        <FormControl templateColumns="repeat(1, 1fr)" gap={6} isRequired>
           <FormLabel>Price</FormLabel>
-          {/* <NumberInput
-            placeholder="price"
-            id="price"
-            name="price"
-            value={productData.price}
-          >
-            <NumberInputField />
-          </NumberInput> */}
           <NumberInput defaultValue={0} max={30} clampValueOnBlur={false} id="price">
             <NumberInputField />
             <NumberInputStepper>
@@ -323,7 +324,7 @@ function AddForm(props) {
           </NumberInput>
         </FormControl>
         <br />
-        <FormControl templateColumns="repeat(1, 1fr)" gap={6}>
+        <FormControl templateColumns="repeat(1, 1fr)" gap={6} isRequired>
           <FormLabel>Compare At Price</FormLabel>
           <NumberInput defaultValue={0} max={30} clampValueOnBlur={false} id="compareAtPrice">
             <NumberInputField />
@@ -335,7 +336,7 @@ function AddForm(props) {
         </FormControl>
         <br />
 
-        <FormControl templateColumns="repeat(1, 1fr)" gap={6}>
+        <FormControl templateColumns="repeat(1, 1fr)" gap={6} isRequired>
           <FormLabel>Description</FormLabel>
           <Textarea
             placeholder="About products ..."
@@ -352,7 +353,7 @@ function AddForm(props) {
         <Button variant="ghost" mr={3} onClick={onClose}>
           Close
         </Button>
-        <Button colorScheme="blue" onClick={() => submitHandle()}>
+        <Button colorScheme="blue" onClick={() => submitHandle()} disabled={(attribute.length == 0 && checkedAttribute.length == 0) ? 'disabled' : ''}>
           Save
         </Button>
       </ModalFooter>
