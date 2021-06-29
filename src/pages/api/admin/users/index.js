@@ -11,7 +11,7 @@ export default dbConnect(async (req, res) => {
                 headers: { authorization: token }
             };
             var data = await axios.request(options);
-            res.status(200).send(data.data);
+            res.status(200).json(data.data);
             break;
         case 'PUT':
             res.status(200).send('user put')

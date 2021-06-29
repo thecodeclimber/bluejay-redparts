@@ -1,12 +1,14 @@
 const dbConnect = require('../../../../../utils/dbConnect');
-const { Product, Section, Category, SubCategory } = require('../../../../../models');
-const {
-    generateProducts, getAllCombinations, fetchImages, createProductSlug, generateRealProducts
+const { Product } = require('../../../../../models');
+import { getAccessToken, withApiAuthRequired } from '@auth0/nextjs-auth0';
+const { generateRealProducts
 } = require('../../../../../utils/helper');
-export default dbConnect(async (req, res) => {
+export default withApiAuthRequired(async (req, res) => {
+    const authHeader = req.headers['cookie']
+    const token = authHeader && authHeader.split('=')[1];
     switch (req.method) {
         case 'GET':
-            let { page, limit, sort, key } = req.query;
+            let { page, limit, sort, key, section, category, subcategory, attribute } = req.query;
             page = parseInt(page);
             const skipItems = page
                 ? page == 1
@@ -20,13 +22,35 @@ export default dbConnect(async (req, res) => {
                 regex = new RegExp(key, 'i');
             }
             key = key != 'default' ? { $or: [{ name: regex }, { price: isNaN(key) ? 0 : Number(key) }, { description: regex }, { sku: regex }] } : {};
+
+            let filter = {};
+            if (section != '') {
+                filter = { $and: [{ section: section }] };
+            }
+            if (section != '' && category != '') {
+                filter = { $and: [{ section: section }, { category: category }] }
+            }
+            if (section != '' && category != '' && subcategory != '') {
+                filter = { $and: [{ section: section }, { category: category }, { sub_category: subcategory }] }
+            }
             const getAllProducts = async () => {
-                const total = await Product.find(key).count();
-                let data = await Product.find(key, { name: 1, sku: 1, images: 1, isFeatured: 1, price: 1, description: 1, isFeatured: 1, rating: 1 })
+                const total = await Product.find({ $and: [key, filter] }).count();
+                let data = await Product.find({ $and: [key, filter] }, { name: 1, sku: 1, images: 1, isFeatured: 1, price: 1, description: 1, isFeatured: 1, rating: 1 })
                     .skip(skipItems)
                     .limit(limit)
                     .sort({ name: sort })
                     .exec();
+                // if (attribute != '') {
+                //     let attr = [];
+                //     let dd = data.map((value) => {
+                //         value.attributes.filter((e) => {
+                //             attr.push(e.attribute)
+                //         })
+                //         console.log(attr)
+                //         return attr.includes(attribute);
+                //     })
+                //     console.log(dd)
+                // }
                 return {
                     products: data,
                     page,
@@ -87,4 +111,5 @@ export default dbConnect(async (req, res) => {
         default:
             res.send({ status: false, message: 'Not found!' });
     }
+
 });

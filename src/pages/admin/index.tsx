@@ -20,7 +20,6 @@ function admin(props: any) {
           authorization: 'Bearer ' + getAccessToken,
         },
       });
-      console.log(data);
     })();
   }, []);
   return (

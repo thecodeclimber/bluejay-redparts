@@ -1,11 +1,32 @@
-import { Card, CardBody } from 'reactstrap';
+import { Card, CardBody, Spinner, Table } from 'reactstrap';
 import { getAccessToken, withPageAuthRequired } from '@auth0/nextjs-auth0';
 import { useUser } from '@auth0/nextjs-auth0';
 import DataTable from '~/components/admin/DataTable';
-import React from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 import * as $ from 'jquery';
-import { token } from '../../../token';
+import { useTable } from 'react-table';
+import {
+  chakra,
+  Checkbox,
+  Link,
+  Stack,
+  Tbody,
+  Td,
+  Th,
+  Thead,
+  Tr,
+} from '@chakra-ui/react';
+import {
+  CheckIcon,
+  CloseIcon,
+  DeleteIcon,
+  EditIcon,
+  TriangleDownIcon,
+  TriangleUpIcon,
+} from '@chakra-ui/icons';
+import { ProductRatingStars } from '~/styled-components/shop/Product';
+import Rating from '~/components/shared/Rating';
 
 export const getServerSideProps = withPageAuthRequired({
   async getServerSideProps(ctx) {
@@ -15,24 +36,46 @@ export const getServerSideProps = withPageAuthRequired({
 
 function admin(props: any) {
   const { user, error, isLoading } = useUser();
+  const [users, setUsers] = useState([]);
   React.useEffect(() => {
     fetchUser();
   }, []);
 
   const fetchUser = async () => {
-    var settings = {
-      url: `https://dev-1u25317k.us.auth0.com/api/v2/users`,
-      method: 'GET',
-      timeout: 0,
+    const data: any = await axios.get<any>('/api/admin/users', {
       headers: {
-        Authorization: token,
+        authorization: 'Bearer ' + getAccessToken,
       },
-    };
-
-    $.ajax(settings).done(function (response) {
-      console.log(response);
     });
+    setUsers(data.data);
   };
+  console.log(users);
+  const indexKey: any = 'identities.user_id';
+  let data: any = React.useMemo(() => users || [], [users]);
+
+  const columns: any = React.useMemo(
+    () => [
+      {
+        Header: 'Email',
+        accessor: 'email',
+      },
+      {
+        Header: 'Name',
+        accessor: 'name',
+      },
+    ],
+    []
+  );
+
+  const {
+    getTableProps,
+    getTableBodyProps,
+    headerGroups,
+    prepareRow,
+  } = useTable<any>({
+    columns,
+    data,
+  });
 
   return (
     <Card style={{ margin: '2rem' }}>

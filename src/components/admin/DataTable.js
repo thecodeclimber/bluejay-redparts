@@ -32,7 +32,7 @@ import {
   Tr,
   chakra,
   useDisclosure,
-  Link, Spinner, Input, InputGroup, InputRightElement
+  Link, Spinner, Input, InputGroup, InputRightElement, Divider
 } from "@chakra-ui/react";
 import { usePagination, useSortBy, useTable } from "react-table";
 
@@ -42,7 +42,9 @@ import { useShopOptions } from "~/store/shop/shopHooks";
 import axios from "axios";
 import { ProductRatingStars } from "~/styled-components/shop/Product";
 import Rating from "../shared/Rating";
-import * as $ from 'jquery'
+import * as $ from 'jquery';
+import { useUser } from "~/store/user/userHooks";
+
 
 function DataTable() {
   const { isOpen, onOpen, onClose } = useDisclosure()
@@ -50,18 +52,102 @@ function DataTable() {
   const [products, setProducts] = useState([]);
   const [isEditForm, setIsEditForm] = useState(false);
   const [loader, setLoader] = useState(false);
+  const [Section, setSection] = useState([]);
+  const [category, setCategory] = useState([]);
+  const [subcategory, setSubcategory] = useState([]);
+  const [attribute, setAttribute] = useState([]);
+  const [form, setForm] = useState({
+    section: '',
+    category: '',
+    type: '',
+    value: ''
+  });
   const [productData, setProductData] = useState({ updateId: '', name: '', price: '', description: '' });
   const options = useShopOptions();
   let pageValue = [5, 10, 20, 50, 100];
   let selectedLimit = options?.limit == undefined ? 20 : options?.limit;
+
   useEffect(() => {
     fetchData();
+    selectSection();
   }, []);
   const fetchData = async () => {
+    // const token = await getAccessTokenSilently();
     setLoader(true);
-    let data = await axios.get(`/api/admin/product/?page=${options?.page ?? 1}&limit=${options?.limit ?? 20}&sort=${options.sort ?? 'default'}&key=${options.key ?? 'default'}`);
+    let data = await axios.get(`/api/admin/product/?page=${options?.page ?? 1}&limit=${options?.limit ?? 20}&sort=${options.sort ?? 'default'}&key=${options.key ?? 'default'}&section=${form.section}&category=${form.category}&subcategory=${form.type}&attribute=${form.value}`);
     setProducts(data.data);
     setLoader(false);
+  };
+  const capitalize = (string) =>
+    string[0].toUpperCase() + string.slice(1);
+  const handleChange = (e) => {
+
+    setForm((prevState) => {
+      switch (e.target.name) {
+        case 'section':
+          setCategory([]);
+          getCategory(e.target.value);
+          return {
+            section: e.target.value,
+            category: '',
+            type: '',
+            value: ''
+          };
+        case 'category':
+          getSubCategory(e.target.value);
+          return {
+            ...prevState,
+            category: e.target.value,
+            type: '',
+            value: '',
+          };
+        case 'type':
+          fetchattribute(e.target.value);
+          return {
+            ...prevState,
+            type: e.target.value,
+            value: ''
+          };
+        case 'value':
+          return {
+            ...prevState,
+            value: e.target.value
+          };
+        default:
+          return prevState;
+      }
+    });
+  };
+
+  // get Select Data
+  const selectSection = async () => {
+    let data = await axios.get(`/api/sections`);
+    setSection(data.data.data);
+  };
+
+  const getSubCategory = async (category_id) => {
+    let data = await axios.get(`/api/category/sub_categories/${category_id}`);
+    setSubcategory(data.data.data);
+  };
+
+  const getCategory = async (id) => {
+    let data = await Section.filter((value) => {
+      return value._id === id;
+    });
+    setCategory(data[0]['category']);
+  };
+
+  const fetchattribute = async (att) => {
+    let attributeId = [];
+    await subcategory.forEach((value) => {
+      if (value._id === att) {
+        value.attributes.forEach((val) => {
+          attributeId.push(val.attribute);
+        });
+      }
+    });
+    let data = await axios.post(`/api/attributes`, { id: attributeId });
+    setAttribute(data.data);
   };
 
   const indexKey = '_id';
@@ -202,6 +288,7 @@ function DataTable() {
   // filter handle
   const filterHandle = async () => {
     options.key = $('#keysearch').val();
+    options.page = 1;
     fetchData();
   }
 
@@ -213,19 +300,81 @@ function DataTable() {
             <DeleteIcon />&nbsp;&nbsp;Bulk Delete</Button>
           <Button size="sm" colorScheme="blue" onClick={() => HandleForm(true)}><EditIcon />&nbsp;&nbsp;Bulk Edit</Button>
         </>}
+        <Text fontSize="md" fontWeight="bold">Filter : </Text>
+        <Select
+          placeholder="--Section--"
+          name="section"
+          size="sm"
+          width="150px"
+          onChange={(e) => handleChange(e)}
+          value={form.section}
+
+        >
+          {Section.map((section) => (
+            <option key={section._id} value={section._id}>
+              {capitalize(section.name)}
+            </option>
+          ))}
+        </Select>
+        <Select
+          placeholder="--Category--"
+          name="category"
+          size="sm"
+          width="150px"
+          onChange={(e) => handleChange(e)}
+          value={form.category}
+          disabled={category?.length === 0}
+        >
+          {category.map((cat) => (
+            <option key={cat._id} value={cat._id}>
+              {capitalize(cat.name)}
+            </option>
+          ))}
+        </Select>
+        <Select
+          placeholder="--Sub Category--"
+          name="type"
+          size="sm"
+          width="150px"
+          onChange={(e) => handleChange(e)}
+          value={form.type}
+          disabled={form?.category === '' || subcategory?.length === 0}
+        >
+          {subcategory.map((subcat) => (
+            <option key={subcat._id} value={subcat._id}>
+              {capitalize(subcat.name)}
+            </option>
+          ))}
+        </Select>
+        <Select
+          placeholder="--Attributes--"
+          name="value"
+          size="sm"
+          width="150px"
+          onChange={(e) => handleChange(e)}
+          value={form.value}
+          disabled={form?.type === '' || attribute?.length === 0}
+        >
+          {attribute.map((attr) => (
+            <option key={attr._id} value={attr._id}>
+              {capitalize(attr.name)}
+            </option>
+          ))}
+        </Select>
         <Input
           size="sm"
           type="text"
           name="keysearch"
           id="keysearch"
           placeholder="Search"
-          width="200px"
+          width="150px"
         />
-        <Button size="sm" colorScheme="green" onClick={() => filterHandle()}>
+        <Button size="sm" colorScheme="blue" onClick={() => filterHandle()}>
           Submit
         </Button>
         <Button size="sm" colorScheme="green" onClick={() => HandleForm(false)}><AddIcon />&nbsp;&nbsp;Add</Button>
       </Stack>
+      <Divider orientation="horizontal" variant="solid" colorScheme="blue" />
       <Table {...getTableProps()}>
         <Thead>
           {headerGroups.map((headerGroup) => (
