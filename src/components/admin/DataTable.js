@@ -8,7 +8,7 @@ import {
   EditIcon,
   TriangleDownIcon,
   TriangleUpIcon,
-  CheckIcon, CloseIcon
+  CheckIcon, CloseIcon, RepeatIcon
 } from "@chakra-ui/icons";
 import {
   Button,
@@ -43,7 +43,6 @@ import axios from "axios";
 import { ProductRatingStars } from "~/styled-components/shop/Product";
 import Rating from "../shared/Rating";
 import * as $ from 'jquery';
-import { useUser } from "~/store/user/userHooks";
 
 
 function DataTable() {
@@ -72,7 +71,6 @@ function DataTable() {
     selectSection();
   }, []);
   const fetchData = async () => {
-    // const token = await getAccessTokenSilently();
     setLoader(true);
     let data = await axios.get(`/api/admin/product/?page=${options?.page ?? 1}&limit=${options?.limit ?? 20}&sort=${options.sort ?? 'default'}&key=${options.key ?? 'default'}&section=${form.section}&category=${form.category}&subcategory=${form.type}&attribute=${form.value}`);
     setProducts(data.data);
@@ -134,7 +132,7 @@ function DataTable() {
     let data = await Section.filter((value) => {
       return value._id === id;
     });
-    setCategory(data[0]['category']);
+    data.length > 0 ? setCategory(data[0]['category']) : setCategory([]);
   };
 
   const fetchattribute = async (att) => {
@@ -292,6 +290,11 @@ function DataTable() {
     fetchData();
   }
 
+  const resetHandle = async () => {
+    form.section = '';
+    fetchData();
+  }
+
   return (
     <>
       <Stack spacing={4} direction="row" justifyContent="flex-end" width="full" marginBottom="3">
@@ -372,6 +375,10 @@ function DataTable() {
         <Button size="sm" colorScheme="blue" onClick={() => filterHandle()}>
           Submit
         </Button>
+        <Button size="sm" colorScheme="blue" onClick={() => resetHandle()}>
+          <RepeatIcon size="sm" />
+        </Button>
+
         <Button size="sm" colorScheme="green" onClick={() => HandleForm(false)}><AddIcon />&nbsp;&nbsp;Add</Button>
       </Stack>
       <Divider orientation="horizontal" variant="solid" colorScheme="blue" />
@@ -399,12 +406,12 @@ function DataTable() {
                   </chakra.span>
                 </Th>
               ))}
-              <Th>
+              {/* <Th>
                 isFeatured
               </Th>
               <Th>
                 Rating
-              </Th>
+              </Th> */}
               <Th>
                 Action
               </Th>
@@ -426,14 +433,14 @@ function DataTable() {
                       <Td {...cell.getCellProps()}>{cell.render("Cell")}</Td>
                     );
                   })}
-                  <Td align="center">
+                  {/* <Td align="center">
                     {row.original['isFeatured'] == false ? <CloseIcon color="red.500" /> : <CheckIcon color="green.500" />}
                   </Td>
                   <Td>
                     <ProductRatingStars>
                       <Rating value={row.original['rating'] || 0} />
                     </ProductRatingStars>
-                  </Td>
+                  </Td> */}
                   <Td>
                     <Stack direction="row" spacing={4} align="center">
                       <Link onClick={() => HandleSingleEdit(row.original[indexKey], row.original['name'], row.original['price'], row.original['description'])}>

@@ -1,5 +1,6 @@
 "use strict"
 const { SubCategory, Product, Attribute, Category } = require('../models');
+
 exports.getCombn = ({ items, category, sub_category }) => {
   if (items.length == 1)
     return items[0].map((item) => `${sub_category} ${category} ${item}`);
@@ -452,4 +453,8 @@ exports.generateRealProducts = async (res, postData) => {
       throw err;
     });
 }
+
+
+
+
 

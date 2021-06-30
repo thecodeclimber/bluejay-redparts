@@ -23,8 +23,8 @@
     }
   },
   "dependencies": {
-    "@auth0/nextjs-auth0": "^1.4.0",
     "@auth0/auth0-react": "^1.1.0",
+    "@auth0/nextjs-auth0": "^1.4.0",
     "@babel/cli": "^7.12.17",
     "@babel/core": "^7.13.1",
     "@babel/node": "^7.12.17",
@@ -34,6 +34,7 @@
     "@emotion/react": "^11.4.0",
     "@emotion/styled": "^11.3.0",
     "@fortawesome/fontawesome-free": "^5.15.2",
+    "auth0": "^2.35.1",
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
     "classnames": "^2.2.6",
