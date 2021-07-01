@@ -1,23 +1,16 @@
 import { Card, CardBody } from 'reactstrap';
-import {
-  getAccessToken,
-  withPageAuthRequired,
-  useUser,
-} from '@auth0/nextjs-auth0';
-import DataTable from '~/components/admin/DataTable';
+import { withPageAuthRequired } from '@auth0/nextjs-auth0';
 import React from 'react';
-import axios from '~/axios';
-import Redirect from '~/components/shared/Redirect';
-import url from '~/services/url';
-import { Flex, Grid } from '@chakra-ui/react';
 import Nav from '~/components/admin/Nav';
+import { Stack, Grid, GridItem, Flex } from '@chakra-ui/react';
+import DataTable from '~/components/admin/categories/DataTable';
 export const getServerSideProps = withPageAuthRequired({
   async getServerSideProps(ctx) {
     return { props: {} };
   },
 });
 
-function admin(props: any) {
+function sub_categories(props: any) {
   return (
     <>
       <Grid w="100%" templateColumns="repeat(5, 1fr)" gap={6}>
@@ -34,4 +27,4 @@ function admin(props: any) {
   );
 }
 
-export default admin;
+export default sub_categories;

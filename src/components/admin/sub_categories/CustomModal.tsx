@@ -7,8 +7,6 @@ import {
 } from '@chakra-ui/react';
 
 import React, { useState } from 'react';
-import AddForm from './AddForm';
-import EditForm from './EditForm';
 
 function CustomModal(props: any) {
   const {
@@ -28,17 +26,6 @@ function CustomModal(props: any) {
         <ModalContent>
           <ModalHeader>{Edit ? 'Edit' : 'Create'} Product</ModalHeader>
           <ModalCloseButton />
-          {Edit ? (
-            <EditForm
-              productData={productData}
-              setProductData={setProductData}
-              editHandle={editHandle}
-              isOpen={isOpen}
-              onClose={onClose}
-            />
-          ) : (
-            <AddForm isOpen={isOpen} onClose={onClose} fetchData={fetchData} />
-          )}
         </ModalContent>
       </Modal>
     </>

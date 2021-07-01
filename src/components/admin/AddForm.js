@@ -17,6 +17,7 @@ import {
   ModalBody,
   ModalFooter,
   GridItem,
+  Text
 } from '@chakra-ui/react';
 import axios from 'axios';
 
@@ -28,9 +29,11 @@ function AddForm(props) {
     name: '',
     compareAtPrice: '',
     isFeatured: false,
-    price: 0,
+    price: '',
     description: '',
   });
+  let errors = {};
+  const [error, setError] = useState({});
   const [Section, setSection] = useState([]);
   const [Category, setCategory] = useState([]);
   const [subcategory, setSubcategory] = useState([]);
@@ -41,6 +44,7 @@ function AddForm(props) {
     category: '',
     type: '',
   });
+  let isValidForm = false;
   const { onClose, isOpen, fetchData } = props;
   const capitalize = (string) =>
     string[0].toUpperCase() + string.slice(1);
@@ -159,16 +163,25 @@ function AddForm(props) {
     productData.sub_category = form.type;
     productData.sku = $("select#section").find(":selected").attr('datasku') + "-" + $("select#category").find(":selected").attr('datasku') + "-" + $("select#type").find(":selected").attr('datasku');
     if (productData.attributes.length == 0) {
-      alert('Attributes Required');
-    } else if (productData.name == '') {
-      alert('Name is Required')
-    } else if (productData.price == '') {
-      alert('Price is required')
-    } else if (productData.compareAtPrice == '') {
-      alert('compareAtPrice is required')
-    } else if (productData.description == '') {
-      alert('Description is required')
-    } else {
+      errors.attribute = 'Attributes are required';
+    }
+    if (productData.name === '') {
+      errors.name = 'Name is required'
+    }
+
+    if (productData.price === '') {
+      errors.price = 'Price is required';
+    }
+    if (productData.description == '') {
+      errors.description = 'Description is required';
+    }
+
+    if (productData.compareAtPrice == '') {
+      errors.compareAtPrice = 'compareAtPrice is required';
+    }
+    setError(errors);
+    console.log(Object.keys(errors).length)
+    if (Object.keys(errors).length == 0) {
       let data = await axios.post(`/api/admin/product`, { productData });
       if (data.data.status == true) {
         if (data.data.newCreatedProducts === 0) {
@@ -182,13 +195,12 @@ function AddForm(props) {
     }
 
   };
-  console.log(checkedAttribute)
-  console.log(attribute)
+  console.log(error)
 
   return (
     <>
       <ModalBody>
-        <FormControl templateColumns="repeat(1, 1fr)" gap={6}>
+        <FormControl templateColumns="repeat(1, 1fr)" gap={6} isRequired>
           <FormLabel>Section</FormLabel>
           <Select
             placeholder="Select Section"
@@ -206,7 +218,7 @@ function AddForm(props) {
           </Select>
         </FormControl>
         <br />
-        <FormControl templateColumns="repeat(1, 1fr)" gap={6}>
+        <FormControl templateColumns="repeat(1, 1fr)" gap={6} isRequired>
           <FormLabel>Category</FormLabel>
           <Select
             placeholder="Select Category"
@@ -224,7 +236,7 @@ function AddForm(props) {
           </Select>
         </FormControl>
         <br />
-        <FormControl templateColumns="repeat(1, 1fr)" gap={6}>
+        <FormControl templateColumns="repeat(1, 1fr)" gap={6} isRequired>
           <FormLabel>Sub Category</FormLabel>
           <Select
             placeholder="Select Type"
@@ -242,8 +254,8 @@ function AddForm(props) {
           </Select>
         </FormControl>
         <br />
-        <FormControl templateColumns="repeat(1, 1fr)" gap={6}>
-          <FormLabel>Attributes</FormLabel>
+        <FormControl templateColumns="repeat(1, 1fr)" gap={6} isRequired>
+          {attribute.length != 0 ? <FormLabel>Attributes</FormLabel> : ''}
           {attribute.map((element) => (
             <>
               <Checkbox
@@ -287,9 +299,10 @@ function AddForm(props) {
               <br />
             </>
           ))}
+          {error.attribute && <Text color="tomato" gap={6}>{error.attribute}</Text>}
         </FormControl>
         <br />
-        <FormControl templateColumns="repeat(1, 1fr)" gap={6}>
+        <FormControl templateColumns="repeat(1, 1fr)" gap={6} isRequired>
           <Checkbox
             colorScheme="green"
             name="isFeatured"
@@ -311,28 +324,31 @@ function AddForm(props) {
               setProductData({ ...productData, name: e.target.value })
             }
           />
+          {error.name && <Text color="tomato" gap={6}>{error.name}</Text>}
         </FormControl>
         <br />
         <FormControl templateColumns="repeat(1, 1fr)" gap={6} isRequired>
           <FormLabel>Price</FormLabel>
-          <NumberInput defaultValue={0} max={30} clampValueOnBlur={false} id="price">
+          <NumberInput max={30} clampValueOnBlur={false} id="price">
             <NumberInputField />
             <NumberInputStepper>
               <NumberIncrementStepper />
               <NumberDecrementStepper />
             </NumberInputStepper>
           </NumberInput>
+          {error.price && <Text color="tomato" gap={6}>{error.price}</Text>}
         </FormControl>
         <br />
         <FormControl templateColumns="repeat(1, 1fr)" gap={6} isRequired>
           <FormLabel>Compare At Price</FormLabel>
-          <NumberInput defaultValue={0} max={30} clampValueOnBlur={false} id="compareAtPrice">
+          <NumberInput max={30} clampValueOnBlur={false} id="compareAtPrice">
             <NumberInputField />
             <NumberInputStepper>
               <NumberIncrementStepper />
               <NumberDecrementStepper />
             </NumberInputStepper>
           </NumberInput>
+          {error.compareAtPrice && <Text color="tomato" gap={6}>{error.compareAtPrice}</Text>}
         </FormControl>
         <br />
 
@@ -346,6 +362,7 @@ function AddForm(props) {
               setProductData({ ...productData, description: e.target.value })
             }
           />
+          {error.description && <Text color="tomato" gap={6}>{error.description}</Text>}
         </FormControl>
       </ModalBody>
 

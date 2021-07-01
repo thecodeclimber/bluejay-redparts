@@ -9,6 +9,11 @@ module.exports = {
     // BASE_PATH:
     //   'https://bluejay-redparts-4zenebxpr-bluejay-fasteners.vercel.app',
     basePath: '',
+    GRANT_TYPE: process.env.GRANT_TYPE,
+    MANAGEMENT_CLIENT_ID: process.env.MANAGEMENT_CLIENT_ID,
+    MANAGEMENT_CLIENT_SECRET: process.env.MANAGEMENT_CLIENT_SECRET,
+    AUDIENCE: process.env.AUDIENCE,
+    AUTH0_ISSUER_BASE_URL: process.env.AUTH0_ISSUER_BASE_URL,
   },
   basePath: '',
 

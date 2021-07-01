@@ -6,7 +6,10 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 // third-party
 import AppBase, { AppContext, AppProps } from 'next/app';
-import LanguageProvider, { ILanguageProviderProps, getLanguageInitialProps } from '~/services/i18n/provider';
+import LanguageProvider, {
+  ILanguageProviderProps,
+  getLanguageInitialProps,
+} from '~/services/i18n/provider';
 import { NextComponentType, NextPageContext } from 'next';
 // react
 import React, { ComponentType, useEffect, useMemo } from 'react';
@@ -14,12 +17,12 @@ import { getLanguageByLocale, getLanguageByPath } from '~/services/i18n/utils';
 import { load, save, wrapper } from '~/store/store';
 
 import { AppDispatch } from '~/store/types';
-import { ChakraProvider } from "@chakra-ui/react"
+import { ChakraProvider } from '@chakra-ui/react';
 import { CurrentVehicleGarageProvider } from '~/services/current-vehicle';
 import Head from 'next/head';
 import Layout from '~/components/Layout';
 import PageTitle from '~/components/shared/PageTitle';
-import Theme from "~/theme/Theme"
+import Theme from '~/theme/Theme';
 import { UserProvider } from '@auth0/nextjs-auth0';
 // application
 import config from '~/config';
@@ -80,12 +83,12 @@ function App(props: Props) {
     return (
       <UserProvider>
         <ChakraProvider>
-      <Layout>
-        <PageLayout>
-          <Component {...pageProps} />
-        </PageLayout>
-      </Layout>
-      </ChakraProvider>
+          <Layout>
+            <PageLayout>
+              <Component {...pageProps} />
+            </PageLayout>
+          </Layout>
+        </ChakraProvider>
       </UserProvider>
     );
   }, [Component, pageProps]);
@@ -95,13 +98,16 @@ function App(props: Props) {
     <LanguageProvider {...languageInitialProps}>
       <CurrentVehicleGarageProvider>
         <Theme>
-        <PageTitle />
+          <PageTitle />
 
-        <Head>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-        </Head>
+          <Head>
+            <meta
+              name="viewport"
+              content="width=device-width, initial-scale=1"
+            />
+          </Head>
 
-        {page}
+          {page}
         </Theme>
       </CurrentVehicleGarageProvider>
     </LanguageProvider>

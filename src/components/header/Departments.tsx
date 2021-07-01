@@ -89,11 +89,11 @@ function Departments(props: Props) {
   return (
     <DepartmentsStyledComponent ref={rootRef}>
       <DepartmentsButton type="button" onClick={handleButtonClick}>
-        <DepartmentsButtonIcon>
+        <DepartmentsButtonIcon style={{ top: '17px' }}>
           <Menu16x12Svg />
         </DepartmentsButtonIcon>
         <DepartmentsButtonTitle>{label}</DepartmentsButtonTitle>
-        <DepartmentsButtonArrow isOpen={isOpen}>
+        <DepartmentsButtonArrow isOpen={isOpen} style={{ top: '21px' }}>
           <ArrowRoundedDown9x6Svg />
         </DepartmentsButtonArrow>
       </DepartmentsButton>
@@ -125,7 +125,7 @@ function Departments(props: Props) {
                       >
                         {createProductName(item.name)}
                         {item.sub_categories.length > 0 && (
-                          <DepartmentsItemArrow>
+                          <DepartmentsItemArrow style={{ top: '10px' }}>
                             <ArrowRoundedRight7x11Svg />
                           </DepartmentsItemArrow>
                         )}

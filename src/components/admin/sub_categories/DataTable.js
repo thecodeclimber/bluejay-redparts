@@ -40,28 +40,15 @@ import CustomModal from "./CustomModal";
 import React, { useEffect, useState } from 'react';
 import { useShopOptions } from "~/store/shop/shopHooks";
 import axios from "axios";
-import { ProductRatingStars } from "~/styled-components/shop/Product";
-import Rating from "../shared/Rating";
 import * as $ from 'jquery';
 
 
 function DataTable() {
   const { isOpen, onOpen, onClose } = useDisclosure()
-  const [selectedItems, setSelectedItems] = React.useState([]);
-  const [products, setProducts] = useState([]);
-  const [isEditForm, setIsEditForm] = useState(false);
-  const [loader, setLoader] = useState(false);
   const [Section, setSection] = useState([]);
-  const [category, setCategory] = useState([]);
-  const [subcategory, setSubcategory] = useState([]);
-  const [attribute, setAttribute] = useState([]);
   const [form, setForm] = useState({
     section: '',
-    category: '',
-    type: '',
-    value: ''
   });
-  const [productData, setProductData] = useState({ updateId: '', name: '', price: '', description: '' });
   const options = useShopOptions();
   let pageValue = [5, 10, 20, 50, 100];
   let selectedLimit = options?.limit == undefined ? 20 : options?.limit;
@@ -90,26 +77,6 @@ function DataTable() {
             category: '',
             type: '',
             value: ''
-          };
-        case 'category':
-          getSubCategory(e.target.value);
-          return {
-            ...prevState,
-            category: e.target.value,
-            type: '',
-            value: '',
-          };
-        case 'type':
-          fetchattribute(e.target.value);
-          return {
-            ...prevState,
-            type: e.target.value,
-            value: ''
-          };
-        case 'value':
-          return {
-            ...prevState,
-            value: e.target.value
           };
         default:
           return prevState;
