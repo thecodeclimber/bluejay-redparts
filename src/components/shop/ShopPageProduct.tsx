@@ -1,39 +1,9 @@
-// react
-import React, { useEffect, useState } from 'react';
-// third-party
-import classNames from 'classnames';
-import { Controller, FormProvider } from 'react-hook-form';
-import { FormattedMessage, useIntl } from 'react-intl';
-// application
-import AppLink from '~/components/shared/AppLink';
-import AsyncAction from '~/components/shared/AsyncAction';
-import BlockHeader from '~/components/blocks/BlockHeader';
-import BlockProductsCarousel from '~/components/blocks/BlockProductsCarousel';
-import BlockSpace from '~/components/blocks/BlockSpace';
-import CompatibilityStatusBadge from '~/components/shared/CompatibilityStatusBadge';
-import CurrencyFormat from '~/components/shared/CurrencyFormat';
-import InputNumber from '~/components/shared/InputNumber';
-import PageTitle from '~/components/shared/PageTitle';
-import ProductForm from '~/components/shop/ProductForm';
-import ProductGallery, {
-  IProductGalleryLayout,
-} from '~/components/shop/ProductGallery';
-import ProductSidebar from '~/components/shop/ProductSidebar';
-import ProductTabs from '~/components/shop/ProductTabs';
-import Rating from '~/components/shared/Rating';
-import ShareLinks from '~/components/shared/ShareLinks';
-import StockStatusBadge from '~/components/shared/StockStatusBadge';
-import url from '~/services/url';
-import { getCategoryPath } from '~/services/utils';
-import { IProduct } from '~/interfaces/product';
 import {
-  IProductPageLayout,
-  IProductPageSidebarPosition,
-} from '~/interfaces/pages';
-import { shopApi } from '~/api';
-import { useCompareAddItem } from '~/store/compare/compareHooks';
-import { useProductForm } from '~/services/forms/product';
-import { useWishlistAddItem } from '~/store/wishlist/wishlistHooks';
+  BlockSplit,
+  BlockSplitItem,
+  BlockSplitItemSidebar,
+  BlockSplitRow,
+} from '~/styled-components/blocks/BlockSplit';
 import {
   Compare16Svg,
   Fi24Hours48Svg,
@@ -42,96 +12,153 @@ import {
   FiTag48Svg,
   Wishlist16Svg,
 } from '~/svg';
+import { Controller, FormProvider } from 'react-hook-form';
+import { FormattedMessage, useIntl } from 'react-intl';
 import {
+  IProductPageLayout,
+  IProductPageSidebarPosition,
+} from '~/interfaces/pages';
+import {
+  ProdcutInfoCard,
+  ProductActions,
+  ProductBody,
   ProductCardOne,
   ProductCardTwo,
-  ProductsGallery,
-  ProductHeader,
-  ProductTitle,
-  ProductSubTitle,
-  ProductMain,
   ProductExcert,
   ProductFeatures,
-  ProductFeaturesTitle,
   ProductFeaturesLink,
-  ProductActions,
+  ProductFeaturesTitle,
   ProductFormForm,
-  ProdcutInfoCard,
+  ProductHeader,
   ProductInfo,
+  ProductMain,
+  ProductSubTitle,
   ProductTabsTabs,
-  ProductBody,
+  ProductTitle,
+  ProductsGallery,
 } from '~/styled-components/shop/ProductLayoutFull';
 import {
-  ProductRating,
-  ProductRatingStars,
-  ProductRatingLabel,
-  ProductFit,
-  TagBadgeSale,
-  ProductPricesStock,
-  ProductPrices,
   ProdcutPriceOld,
+  ProductActionsDivider,
+  ProductActionsItemCompare,
+  ProductActionsItemWishlist,
+  ProductActionsitemQuantity,
+  ProductFit,
+  ProductInfoBody,
+  ProductItemAdditemAddCart,
+  ProductMeta,
   ProductNewPrice,
   ProductPriceCurrent,
-  ProductMeta,
-  ProductInfoBody,
-  ProductActionsitemQuantity,
-  ProductItemAdditemAddCart,
-  ProductActionsDivider,
-  ProductActionsItemWishlist,
-  ProductActionsItemCompare,
+  ProductPrices,
+  ProductPricesStock,
+  ProductRating,
+  ProductRatingLabel,
+  ProductRatingStars,
   ProductTagsAndShareLinks,
+  TagBadgeSale,
 } from '~/styled-components/shop/Product';
+import ProductGallery, {
+  IProductGalleryLayout,
+} from '~/components/shop/ProductGallery';
 import {
-  Tags,
-  TagList,
   ProductShareLinks,
+  TagList,
+  Tags,
 } from '~/styled-components/components/Tag';
+// react
+import React, { useEffect, useState } from 'react';
 import {
   ShopFeatures,
-  ShopFeaturesList,
-  ShopFeaturesItem,
-  ShopFeaturesInfo,
-  ShopFeaturesItemIcon,
-  ShopFeaturesItemTitle,
-  ShopFeaturesItemSubTitle,
   ShopFeaturesDivider,
+  ShopFeaturesInfo,
+  ShopFeaturesItem,
+  ShopFeaturesItemIcon,
+  ShopFeaturesItemSubTitle,
+  ShopFeaturesItemTitle,
+  ShopFeaturesList,
 } from '~/styled-components/components/ShopFeatures';
-import {
-  BlockSplitItem,
-  BlockSplitItemSidebar,
-  BlockSplitRow,
-  BlockSplit,
-} from '~/styled-components/blocks/BlockSplit';
+
+// application
+import AppLink from '~/components/shared/AppLink';
+import AsyncAction from '~/components/shared/AsyncAction';
+import BlockHeader from '~/components/blocks/BlockHeader';
+import BlockProductsCarousel from '~/components/blocks/BlockProductsCarousel';
+import BlockSpace from '~/components/blocks/BlockSpace';
+import CompatibilityStatusBadge from '~/components/shared/CompatibilityStatusBadge';
+import CurrencyFormat from '~/components/shared/CurrencyFormat';
+import { IProduct } from '~/interfaces/product';
+import InputNumber from '~/components/shared/InputNumber';
+import PageTitle from '~/components/shared/PageTitle';
+import ProductForm from '~/components/shop/ProductForm';
+import ProductSidebar from '~/components/shop/ProductSidebar';
+import ProductTabs from '~/components/shop/ProductTabs';
+import Rating from '~/components/shared/Rating';
+import ShareLinks from '~/components/shared/ShareLinks';
+import SitePageNotFound from '~/components/site/SitePageNotFound';
+import StockStatusBadge from '~/components/shared/StockStatusBadge';
+import axios from '~/axios';
+// third-party
+import classNames from 'classnames';
+import { createProductName } from '../../store/shop/shopHelpers';
+import { getCategoryPath } from '~/services/utils';
+import { shopApi } from '~/api';
+import url from '~/services/url';
+import { useCompareAddItem } from '~/store/compare/compareHooks';
+import { useProductForm } from '~/services/forms/product';
+import { useSelector } from 'react-redux';
+import { useShopProductsList } from '~/store/shop/shopHooks';
+import { useWishlistAddItem } from '~/store/wishlist/wishlistHooks';
+
 interface Props {
   product: IProduct;
   layout: IProductPageLayout;
   sidebarPosition?: IProductPageSidebarPosition;
 }
 
-function ShopPageProduct(props: Props) {
+function ShopPageProduct(props: any) {
   const { product, layout, sidebarPosition = 'start' } = props;
   const intl = useIntl();
   const wishlistAddItem = useWishlistAddItem();
   const compareAddItem = useCompareAddItem();
   const galleryLayout = `product-${layout}` as IProductGalleryLayout;
+  const categories = useSelector((state: any) => state.categories);
+  const [material, setMaterial] = useState<any>([]);
+  let productsList: any = useShopProductsList();
   const [relatedProducts, setRelatedProducts] = useState<IProduct[]>([]);
   const productForm = useProductForm(product);
 
+  // useEffect(() => {
+  //   let canceled = false;
+
+  //   shopApi.getRelatedProducts(product.id, 8).then((result) => {
+  //     if (canceled) {
+  //       return;
+  //     }
+
+  //     setRelatedProducts(result);
+  //   });
+
+  //   return () => {
+  //     canceled = true;
+  //   };
+  // }, [product]);
+
   useEffect(() => {
-    let canceled = false;
-
-    shopApi.getRelatedProducts(product.id, 8).then((result) => {
-      if (canceled) {
-        return;
+    product?.attributes.forEach((attribute: any) => {
+      if (attribute?.attribute === '609cf25660a41d956a81ecd2') {
+        fetchMaterial(attribute.value);
       }
-
-      setRelatedProducts(result);
     });
-
-    return () => {
-      canceled = true;
-    };
+   
+    const RelatedProducts =  (productsList && productsList.products) ?? [];
+    const result = RelatedProducts.filter((item: any) => item._id !== product._id);
+    setRelatedProducts(result);
   }, [product]);
+console.log(relatedProducts)
+  const fetchMaterial = async (value: any) => {
+    const result = await axios.get(`/attributes/material/${value}`);
+    result?.data ? setMaterial(result.data) : null;
+  };
 
   if (!product) {
     return null;
@@ -146,10 +173,14 @@ function ShopPageProduct(props: Props) {
         url: url.category(x),
       })
     ),
-    { title: product.name, url: url.product(product) },
+    { title: createProductName(product.name), url: url.product(product) },
   ];
 
-  const featuredAttributes = product.attributes.filter((x) => x.featured);
+  if (!product) {
+    return <SitePageNotFound />;
+  }
+
+  // const featuredAttributes = product.attributes.filter((x) => x.featured);
 
   const shopFeatures = (
     <ShopFeatures>
@@ -366,7 +397,7 @@ function ShopPageProduct(props: Props) {
       {product.tags && product.tags.length > 0 && (
         <Tags>
           <TagList>
-            {product.tags.map((tag, index) => (
+            {product.tags.map((tag: any, index: any) => (
               <AppLink href="/" key={index}>
                 {tag}
               </AppLink>
@@ -380,7 +411,7 @@ function ShopPageProduct(props: Props) {
 
   return (
     <React.Fragment>
-      <PageTitle>{product.name}</PageTitle>
+      <PageTitle>{createProductName(product.name)}</PageTitle>
 
       <BlockHeader breadcrumb={breadcrumb} />
 
@@ -405,7 +436,9 @@ function ShopPageProduct(props: Props) {
                   />
 
                   <ProductHeader>
-                    <ProductTitle>{product.name}</ProductTitle>
+                    <ProductTitle>
+                      {createProductName(product.name)}
+                    </ProductTitle>
 
                     <ProductSubTitle>
                       <ProductRating>
@@ -434,10 +467,10 @@ function ShopPageProduct(props: Props) {
                   {layout === 'full' && (
                     <ProductMain>
                       {product.excerpt && (
-                        <ProductExcert>{product.excerpt}</ProductExcert>
+                        <ProductExcert>{product.description}</ProductExcert>
                       )}
 
-                      {featuredAttributes.length > 0 && (
+                      {/* {featuredAttributes.length > 0 && (
                         <ProductFeatures>
                           <ProductFeaturesTitle>
                             <FormattedMessage id="TEXT_KEY_FEATURES" />:
@@ -465,7 +498,7 @@ function ShopPageProduct(props: Props) {
                             </AppLink>
                           </ProductFeaturesLink>
                         </ProductFeatures>
-                      )}
+                      )} */}
                     </ProductMain>
                   )}
 
@@ -477,6 +510,7 @@ function ShopPageProduct(props: Props) {
                         {product.options.length > 0 && (
                           <ProductFormForm
                             options={product.options}
+                            material={material}
                             namespace="options"
                           />
                         )}

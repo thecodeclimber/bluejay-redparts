@@ -18,17 +18,21 @@ import {
   SiteFooter,
 } from '~/styled-components/common';
 
-interface Props extends PropsWithChildren<{}>{ }
+interface Props extends PropsWithChildren<{}> {}
 
 function Layout(props: Props) {
   const { children } = props;
-  const { desktopHeaderLayout, desktopHeaderScheme, mobileHeaderVariant } = useOptions();
+  const {
+    desktopHeaderLayout,
+    desktopHeaderScheme,
+    mobileHeaderVariant,
+  } = useOptions();
   const desktopVariantClass = `${desktopHeaderLayout}-${desktopHeaderScheme}`;
   const mobileVariantClass = `mobile-${mobileHeaderVariant}`;
 
   const classes = classNames(
     `site--desktop-header--${desktopVariantClass}`,
-    `site--mobile-header--${mobileVariantClass}`,
+    `site--mobile-header--${mobileVariantClass}`
   );
 
   return (

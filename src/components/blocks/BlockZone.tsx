@@ -3,10 +3,12 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 // third-party
 import classNames from 'classnames';
 import Slick from 'react-slick';
+import { useSelector } from 'react-redux';
 import { FormattedMessage, useIntl } from 'react-intl';
 // application
 import AppImage from '~/components/shared/AppImage';
 import AppLink from '~/components/shared/AppLink';
+import { createProductName } from '../../store/shop/shopHelpers';
 import AppSlick, { ISlickProps } from '~/components/shared/AppSlick';
 import Arrow from '~/components/shared/Arrow';
 import ProductCard, {
@@ -61,7 +63,8 @@ const slickSettings: ISlickProps = {
 
 const excludeElements: IProductCardElement[] = ['features', 'list-buttons'];
 
-function BlockZone(props: Props) {
+function BlockZone(props: any) {
+  const { productsList } = props;
   const intl = useIntl();
   const { image, mobileImage, categorySlug } = props;
   const slickRef = useRef<Slick>(null);
@@ -69,8 +72,9 @@ function BlockZone(props: Props) {
   const [category, setCategory] = useState<IShopCategory | null>(null);
   const [products, setProducts] = useState<IProduct[]>([]);
   const [isLoading, setIsLoading] = useState(false);
-  const [currentTab, setCurrentTab] = useState<IBlockZoneTab | null>(null);
+  const [currentTab, setCurrentTab] = useState<any | null>(null);
   const subs = category?.children || [];
+  const categories = useSelector((state: any) => state.categories);
 
   const handleNextClick = () => {
     if (slickRef.current) {
@@ -84,25 +88,25 @@ function BlockZone(props: Props) {
     }
   };
 
-  const tabs: IBlockZoneTab[] = useMemo(
+  const tabs: any[] = useMemo(
     () => [
       {
-        name: intl.formatMessage({ id: 'TEXT_TAB_FEATURED' }),
-        source: () => shopApi.getFeaturedProducts(categorySlug, 6),
+        name: 'Latest',
+        result: productsList.latestProducts,
       },
       {
         name: intl.formatMessage({ id: 'TEXT_TAB_BESTSELLERS' }),
-        source: () => shopApi.getPopularProducts(categorySlug, 6),
+        result: productsList.topRatedProducts,
       },
       {
         name: intl.formatMessage({ id: 'TEXT_TAB_TOP_RATED' }),
-        source: () => shopApi.getTopRatedProducts(categorySlug, 6),
+        result: productsList.topRatedProducts,
       },
     ],
     [intl, categorySlug]
   );
 
-  const load = (tab: IBlockZoneTab) => {
+  const load = (tab: any) => {
     cancelRequestRef.current();
 
     let canceled = false;
@@ -112,17 +116,11 @@ function BlockZone(props: Props) {
 
     setIsLoading(true);
 
-    tab.source().then((result) => {
-      if (canceled) {
-        return;
-      }
-
-      setIsLoading(false);
-      setProducts(result);
-    });
+    setIsLoading(false);
+    setProducts(tab.result);
   };
 
-  const onTabClick = (tab: IBlockZoneTab) => {
+  const onTabClick = (tab: any) => {
     setCurrentTab(tab);
     load(tab);
   };
@@ -184,15 +182,21 @@ function BlockZone(props: Props) {
               </CategoryCardOverlayImageBlue>
               <CategoryCardContent>
                 <CategoryCardInfo>
-                  <CategoryCardName>
+                  {/* <CategoryCardName>
                     <AppLink href={url.category(category)}>
                       {category.name}
                     </AppLink>
-                  </CategoryCardName>
+                  </CategoryCardName> */}
                   <CategoryCardChildren>
-                    {subs.map((sub, subIdx) => (
-                      <li key={subIdx}>
-                        <AppLink href={url.category(sub)}>{sub.name}</AppLink>
+                    {categories.categories.map((category: any) => (
+                      <li key={category._id}>
+                        <AppLink
+                          href={`/catalog/category/${category.name
+                            .toLowerCase()
+                            .replace(/ /g, '_')}/products`}
+                        >
+                          {createProductName(category.name)}
+                        </AppLink>
                       </li>
                     ))}
                   </CategoryCardChildren>
@@ -223,12 +227,12 @@ function BlockZone(props: Props) {
                 ))}
               </BlockZoneTabs>
               <Arrow
-                className="block-zone__arrow block-zone__arrow--prev"
+                className="block-zone_arrow block-zone_arrow--prev"
                 direction="prev"
                 onClick={handlePrevClick}
               />
               <Arrow
-                className="block-zone__arrow block-zone__arrow--next"
+                className="block-zone_arrow block-zone_arrow--next"
                 direction="next"
                 onClick={handleNextClick}
               />
@@ -246,8 +250,11 @@ function BlockZone(props: Props) {
                   ref={slickRef}
                   {...slickSettings}
                 >
-                  {products.map((product) => (
-                    <div key={product.id} className="block-zone__carousel-item">
+                  {products.map((product: any) => (
+                    <div
+                      key={product._id}
+                      className="block-zone__carousel-item"
+                    >
                       <ProductCard
                         product={product}
                         exclude={excludeElements}

@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 // application
-import AppLink from '~/components/shared/AppLink';
+import { useRouter } from 'next/router';
 import {
   InputRadioLabelItem,
   InputRadioLabelInput,
@@ -8,25 +8,24 @@ import {
   InputRadioLabelList,
 } from '~/styled-components/shop/ProductForm';
 import { WidgetCategoriesListShowMoreButton } from '~/styled-components/widget/WidgetCategoriesList';
-interface Props {
-  options: any;
-}
 
-function FilterDiameter(props: Props) {
+function FilterDiameter(props: any) {
   const { options } = props;
+  const router = useRouter();
   const [itemsToShow, setItemsToShow] = useState(10);
   const [selectedItem, setSelectedItem] = useState<any[]>([]);
+  const [attributeActive, setAttributeActive] = useState(false);
   const [expend, setExpend] = useState(true);
 
   const handleItemsToShow = () => {
-    if (itemsToShow === options.items.length) {
+    if (itemsToShow === options.values.length) {
       setItemsToShow(10);
       setExpend(true);
-    } else if (itemsToShow >= 10 && itemsToShow <= options.items.length) {
+    } else if (itemsToShow >= 10 && itemsToShow <= options.values.length) {
       setItemsToShow(itemsToShow + 10);
       setExpend(true);
-    } else if (itemsToShow >= options.items.length) {
-      setItemsToShow(options.items.length);
+    } else if (itemsToShow >= options.values.length) {
+      setItemsToShow(options.values.length);
       setExpend(false);
     }
   };
@@ -41,16 +40,55 @@ function FilterDiameter(props: Props) {
     return setSelectedItem([...items, index]);
   };
 
+  useEffect(() => {
+    let queryArray: any = [];
+    selectedItem.forEach((index) => {
+      queryArray.push(options.values[index].value);
+    });
+    if (attributeActive) {
+      if (queryArray.length === 0) {
+        router.push(
+          {
+            pathname: router.pathname,
+            query: { slug: router.query.slug },
+          },
+          undefined,
+          {
+            shallow: true,
+          }
+        );
+      } else {
+        setTimeout(() => {
+          router.push(
+            {
+              pathname: router.pathname,
+              query: { slug: router.query.slug, diameter: `${queryArray}` },
+            },
+            undefined,
+            {
+              shallow: true,
+            }
+          );
+        }, 500);
+      }
+    }
+  }, [attributeActive && selectedItem.length]);
+
   return (
     <div>
       <InputRadioLabelList>
-        {options.items
+        {options.values
           .filter((item: any, idx: any) => idx < itemsToShow)
           .map((item: any, index: any) => (
             <InputRadioLabelItem key={index}>
-              <InputRadioLabelInput onClick={() => handleSelect(index)} />
+              <InputRadioLabelInput
+                onClick={() => {
+                  handleSelect(index);
+                  setAttributeActive(true);
+                }}
+              />
               <InputRadioLabelTitle selected={selectedItem.includes(index)}>
-                {item}
+                {item.value}
               </InputRadioLabelTitle>
             </InputRadioLabelItem>
           ))}

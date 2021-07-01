@@ -1,13 +1,35 @@
-// react
-import React, { useContext, useMemo, useState } from 'react';
-// third-party
-import classNames from 'classnames';
-import { FormattedMessage, useIntl } from 'react-intl';
-// application
-import CurrencyFormat from '~/components/shared/CurrencyFormat';
-import Pagination from '~/components/shared/Pagination';
-import ProductCard from '~/components/shared/ProductCard';
-import { SidebarContext } from '~/services/sidebar';
+import {
+  AppliedFilterButtonClear,
+  AppliedFilterButtonFilter,
+  AppliedFilterItem,
+  AppliedFiltersList,
+  FilterButtonCounter,
+  FilterButtonIcon,
+  FilterButtonTitle,
+  LayoutSwitcherButton,
+  LayoutSwitcherList,
+  ProductListContent,
+  ProductListHead,
+  ProductViewBody,
+  ProductViewEmpty,
+  ProductViewEmptySubTitle,
+  ProductViewEmptyTitle,
+  ProductViewOption,
+  ProductViewPaginationLegend,
+  ProductsProductsView,
+  ProductsViewEmptyAction,
+  ProductsViewLoader,
+  ProductsViewPagination,
+  ViewOptionsAppliedFilter,
+  ViewOptionsBody,
+  ViewOptionsBodyFilter,
+  ViewOptionsFiltersButton,
+  ViewOptionsLabel,
+  ViewOptionsLayout,
+  ViewOptionsLegend,
+  ViewOptionsSelect,
+  ViewOptionsSpring,
+} from '~/styled-components/shop/ProductsView';
 import {
   Cross9LightSvg,
   Filters16Svg,
@@ -16,52 +38,31 @@ import {
   LayoutList16Svg,
   LayoutTable16Svg,
 } from '~/svg';
+import { FormattedMessage, useIntl } from 'react-intl';
+import {
+  IShopPageGridLayout,
+  IShopPageLayout,
+  IShopPageOffCanvasSidebar,
+} from '~/interfaces/pages';
+// react
+import React, { useContext, useMemo, useState } from 'react';
 import {
   useSetOption,
   useShop,
   useShopOptions,
   useShopProductsList,
   useShopProductsListIsLoading,
-  useShopResetFiltersThunk,
   useShopResetFilterThunk,
+  useShopResetFiltersThunk,
 } from '~/store/shop/shopHooks';
-import {
-  IShopPageGridLayout,
-  IShopPageLayout,
-  IShopPageOffCanvasSidebar,
-} from '~/interfaces/pages';
-import {
-  ProductsProductsView,
-  ProductViewBody,
-  ProductsViewLoader,
-  ProductViewEmpty,
-  ProductViewEmptyTitle,
-  ProductViewEmptySubTitle,
-  ProductsViewEmptyAction,
-  ProductViewOption,
-  ViewOptionsBody,
-  ViewOptionsFiltersButton,
-  FilterButtonIcon,
-  FilterButtonTitle,
-  FilterButtonCounter,
-  ViewOptionsLayout,
-  LayoutSwitcherList,
-  LayoutSwitcherButton,
-  ViewOptionsLegend,
-  ViewOptionsSpring,
-  ViewOptionsSelect,
-  ViewOptionsBodyFilter,
-  ViewOptionsLabel,
-  ViewOptionsAppliedFilter,
-  AppliedFiltersList,
-  AppliedFilterItem,
-  AppliedFilterButtonFilter,
-  AppliedFilterButtonClear,
-  ProductListHead,
-  ProductListContent,
-  ProductsViewPagination,
-  ProductViewPaginationLegend,
-} from '~/styled-components/shop/ProductsView';
+
+// application
+import CurrencyFormat from '~/components/shared/CurrencyFormat';
+import Pagination from '~/components/shared/Pagination';
+import ProductCard from '~/components/shared/ProductCard';
+import { SidebarContext } from '~/services/sidebar';
+// third-party
+import classNames from 'classnames';
 
 interface LayoutButton {
   layout: IShopPageLayout;
@@ -72,14 +73,19 @@ interface Props {
   layout: IShopPageLayout;
   gridLayout: IShopPageGridLayout;
   offCanvasSidebar: IShopPageOffCanvasSidebar;
+  productsList: any;
 }
 
 function ProductsView(props: Props) {
-  const { layout: layoutProps, gridLayout, offCanvasSidebar } = props;
+  const {
+    layout: layoutProps,
+    gridLayout,
+    offCanvasSidebar,
+    productsList,
+  } = props;
   const intl = useIntl();
   const isLoading = useShopProductsListIsLoading();
   const shop = useShop();
-  const productsList = useShopProductsList();
   const options = useShopOptions();
   const shopResetFilters = useShopResetFiltersThunk();
   const shopResetFilter = useShopResetFilterThunk();
@@ -92,7 +98,7 @@ function ProductsView(props: Props) {
     parseFloat(event.target.value)
   );
 
-  const isEmptyList = productsList?.total === 0;
+  const isEmptyList = productsList.length <= 0 && !isLoading;
   const hasActiveFilters = shop.activeFilters.length > 0;
   const currentFiltersCount = shop.currentFilters.length;
 
@@ -101,7 +107,6 @@ function ProductsView(props: Props) {
   const handleFiltersClick = () => {
     setSidebarIsOpen(true);
   };
-
   const layoutButtons: LayoutButton[] = useMemo(
     () => [
       { layout: 'grid', icon: <LayoutGrid16Svg /> },
@@ -367,13 +372,14 @@ function ProductsView(props: Props) {
                 </div>
               </ProductListHead>
               <ProductListContent>
-                {productsList?.items.map((product) => {
-                  return (
-                    <div key={product.id} className="products-list__item">
-                      <ProductCard product={product} />
-                    </div>
-                  );
-                })}
+                {productsList?.products?.length > 0 &&
+                  productsList?.products?.map((product: any) => {
+                    return (
+                      <div key={product._id} className="products-list__item">
+                        <ProductCard product={product} />
+                      </div>
+                    );
+                  })}
               </ProductListContent>
             </div>
 

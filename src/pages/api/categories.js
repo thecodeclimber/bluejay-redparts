@@ -1,0 +1,24 @@
+const dbConnect = require('../../../utils/dbConnect');
+
+const { Category, SubCategory } = require('../../../models');
+
+export default dbConnect(async (req, res) => {
+  switch (req.method) {
+    case 'GET':
+      let data = await Category.aggregate([
+        {
+          $lookup: {
+            from: 'sub_categories',
+            localField: '_id',
+            foreignField: 'category',
+            as: 'sub_categories',
+          }
+        }
+      ]);
+
+      res.send({ data });
+      break;
+    default:
+      res.send({ status: false, message: 'Not found!' });
+  }
+});

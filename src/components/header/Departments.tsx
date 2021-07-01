@@ -1,7 +1,9 @@
 // react
-import React, { useCallback, useRef, useState } from 'react';
+import React, { useCallback, useRef, useState, useEffect } from 'react';
 // third-party
 import classNames from 'classnames';
+import axios from '../../axios';
+import { useDispatch } from 'react-redux';
 // application
 import {
   DepartmentsStyledComponent,
@@ -18,16 +20,18 @@ import {
   DepartmentsItemList,
   DepartmentsItemArrow,
 } from '~/styled-components/header/Departments';
+import AppLink from '~/components/shared/AppLink';
 import Megamenu from '~/components/header/Megamenu';
 import {
   ArrowRoundedDown9x6Svg,
   ArrowRoundedRight7x11Svg,
   Menu16x12Svg,
 } from '~/svg';
+import { shopfetchCategories } from '~/store/shop/shopActions';
+import { createProductName } from '../../store/shop/shopHelpers';
 import { IDepartmentsLink } from '~/interfaces/departments-link';
 import { useGlobalMousedown } from '~/services/hooks';
 // data
-import dataHeaderDepartments from '~/data/headerDepartments';
 
 interface Props {
   label: React.ReactNode;
@@ -36,12 +40,22 @@ interface Props {
 function Departments(props: Props) {
   const { label } = props;
   const [isOpen, setIsOpen] = useState(false);
+  const [categoriesData, setCategoriesData] = useState([]);
   const [currentItem, setCurrentItem] = useState<IDepartmentsLink | null>(null);
   const rootRef = useRef<HTMLDivElement>(null);
-
+  const dispatch = useDispatch();
   const handleButtonClick = () => {
     setIsOpen((state) => !state);
   };
+
+  useEffect(() => {
+    async function fetchCategories() {
+      const res = await axios.get('/categories');
+      setCategoriesData(res.data.data);
+      dispatch(shopfetchCategories(res.data.data));
+    }
+    fetchCategories();
+  }, []);
 
   const handleBodyMouseLeave = () => {
     setCurrentItem(null);
@@ -75,11 +89,11 @@ function Departments(props: Props) {
   return (
     <DepartmentsStyledComponent ref={rootRef}>
       <DepartmentsButton type="button" onClick={handleButtonClick}>
-        <DepartmentsButtonIcon>
+        <DepartmentsButtonIcon style={{ top: '17px' }}>
           <Menu16x12Svg />
         </DepartmentsButtonIcon>
-        <DepartmentsButtonTitle >{label}</DepartmentsButtonTitle>
-        <DepartmentsButtonArrow isOpen={isOpen}>
+        <DepartmentsButtonTitle>{label}</DepartmentsButtonTitle>
+        <DepartmentsButtonArrow isOpen={isOpen} style={{ top: '21px' }}>
           <ArrowRoundedDown9x6Svg />
         </DepartmentsButtonArrow>
       </DepartmentsButton>
@@ -92,37 +106,33 @@ function Departments(props: Props) {
                 role="presentation"
                 onMouseEnter={handleListPaddingMouseEnter}
               />
-              {dataHeaderDepartments.map((item, index) => {
-                const itemHasSubmenu = !!item.submenu;
-                const itemClasses = classNames('departments__item', {
-                  'departments__item--has-submenu': itemHasSubmenu,
-                  'departments__item--submenu--megamenu':
-                    item.submenu?.type === 'megamenu',
-                  'departments__item--hover': item === currentItem,
-                });
-
-                return (
-                  <DepartmentsItemList
-                    itemHover={item === currentItem}
-                    className={itemClasses}
-                    key={index}
-                    onMouseEnter={() => handleItemMouseEnter(item)}
-                  >
-                    <DepartmentsItemLink
-                      href={item.url}
-                      onClick={() => handleItemClick()}
-                      {...item.customFields?.anchorProps}
+              {categoriesData.length > 0 &&
+                categoriesData.map((item: any, index) => {
+                  return (
+                    <DepartmentsItemList
+                      itemHover={item === currentItem}
+                      key={index}
+                      onMouseEnter={() => handleItemMouseEnter(item)}
                     >
-                      {item.title}
-                      {itemHasSubmenu && (
-                        <DepartmentsItemArrow>
-                          <ArrowRoundedRight7x11Svg />
-                        </DepartmentsItemArrow>
-                      )}
-                    </DepartmentsItemLink>
-                  </DepartmentsItemList>
-                );
-              })}
+                      <DepartmentsItemLink
+                        as={AppLink}
+                        href={`/catalog/category/${item.name
+                          .toLowerCase()
+                          .replace(/ /g, '_')}/products`}
+                        onClick={() => {
+                          handleItemClick();
+                        }}
+                      >
+                        {createProductName(item.name)}
+                        {item.sub_categories.length > 0 && (
+                          <DepartmentsItemArrow style={{ top: '10px' }}>
+                            <ArrowRoundedRight7x11Svg />
+                          </DepartmentsItemArrow>
+                        )}
+                      </DepartmentsItemLink>
+                    </DepartmentsItemList>
+                  );
+                })}
               <DepartmentsListPadding
                 role="presentation"
                 onMouseEnter={handleListPaddingMouseEnter}
@@ -130,28 +140,29 @@ function Departments(props: Props) {
             </DepartmentsList>
 
             <div>
-              {dataHeaderDepartments.map((item, index) => {
-                if (!item.submenu) {
-                  return null;
-                }
-
-                const itemClasses = classNames(
-                  'departments__megamenu',
-                  `departments__megamenu--size--${item.submenu.size}`,
-                  {
-                    'departments__megamenu--open': item === currentItem,
+              {categoriesData.length > 0 &&
+                categoriesData.map((item: any, index) => {
+                  if (!item.sub_categories) {
+                    return null;
                   }
-                );
 
-                return (
-                  <Megamenu
-                    className={itemClasses}
-                    menu={item.submenu}
-                    key={index}
-                    onItemClick={handleItemClick}
-                  />
-                );
-              })}
+                  const itemClasses = classNames(
+                    'departments__megamenu',
+                    `departments__megamenu--size--sm`,
+                    {
+                      'departments__megamenu--open': item === currentItem,
+                    }
+                  );
+
+                  return (
+                    <Megamenu
+                      className={itemClasses}
+                      menu={item.sub_categories}
+                      key={index}
+                      onItemClick={handleItemClick}
+                    />
+                  );
+                })}
             </div>
           </DepartmentsBody>
         </DepartmentsMenu>

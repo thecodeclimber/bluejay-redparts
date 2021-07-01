@@ -9,13 +9,13 @@ import { ILink } from '~/interfaces/link';
 import { IMegamenu } from '~/interfaces/menu';
 import { MegaMenuImage, MegaMenu } from '~/styled-components/header/Megamenu';
 interface Props extends React.HTMLAttributes<HTMLElement> {
-  menu: IMegamenu;
+  menu: any;
   onItemClick?: (item: ILink) => void;
 }
 
 function Megamenu(props: Props) {
   const { menu, onItemClick, className, ...rootProps } = props;
-  const hasImage = !!menu.image;
+  const hasImage = !menu.image;
 
   const rootClasses = classNames(className);
 
@@ -27,22 +27,13 @@ function Megamenu(props: Props) {
         </MegaMenuImage>
       )}
       <div className="row">
-        {menu.columns.map((column, columnIndex) => {
-          const columnClasses = classNames(`col-${column.size}`);
-          const hasLinks = column.links?.length > 0;
-
-          return (
-            <div className={columnClasses} key={columnIndex}>
-              {hasLinks && (
-                <MegamenuLinks
-                  className="megamenu__links"
-                  links={column.links}
-                  onItemClick={onItemClick}
-                />
-              )}
-            </div>
-          );
-        })}
+        <div className="col-sm">
+          <MegamenuLinks
+            className="megamenu__links"
+            links={menu}
+            onItemClick={onItemClick}
+          />
+        </div>
       </div>
     </MegaMenu>
   );

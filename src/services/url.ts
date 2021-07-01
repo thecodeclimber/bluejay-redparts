@@ -89,6 +89,18 @@ const url = {
   pageContactUs: () => '/contact-us',
   pageStoreLocation: () => '/',
   pageTerms: () => '/terms',
+
+  // admin page
+  admin:() => '/admin',
+  adminProductPage:() => '/admin/products',
+  adminSectionPage:() => '/admin/sections',
+  adminCategoryPage:() => '/admin/categories',
+  adminSubCategoryPage:() => '/admin/sub_categories',
+  adminAttributePage:() => '/admin/attributes',
+  adminUserPage:() => '/admin/users',
+
+
+
 };
 
 export default url;

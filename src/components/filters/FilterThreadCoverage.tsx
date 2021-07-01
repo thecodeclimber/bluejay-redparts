@@ -17,16 +17,16 @@ interface Props {
   options: ICheckFilter;
 }
 
-function FilterThreadCoverage(props: Props) {
+function FilterThreadCoverage(props: any) {
   const { options } = props;
 
   return (
     <FilterList>
       <FIlterListList>
-        {options.items.map((item, index) => (
+        {options.values.map((item: any, index: any) => (
           <FilterListItem key={index}>
             <FilterListInput />
-            <FilterListTitle>{item}</FilterListTitle>
+            <FilterListTitle>{item.value}</FilterListTitle>
           </FilterListItem>
         ))}
       </FIlterListList>

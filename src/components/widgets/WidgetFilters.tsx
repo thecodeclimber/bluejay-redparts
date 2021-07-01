@@ -2,6 +2,7 @@
 import React from 'react';
 // third-party
 import { FormattedMessage } from 'react-intl';
+import { useSelector } from 'react-redux';
 // application
 import {
   useShopFilters,
@@ -22,9 +23,10 @@ interface Props {
 
 function WidgetFilters(props: Props) {
   const { offcanvasSidebar } = props;
-  const filters = useShopFilters();
+  // const filters = useShopFilters();
   const values = useShopFilterValues();
   const shopResetFilters = useShopResetFiltersThunk();
+  const filters = useSelector((state: any) => state.attributes);
 
   return (
     <WidgetFilter>
@@ -35,8 +37,8 @@ function WidgetFilters(props: Props) {
       </WidgetFilterHeader>
 
       <WidgetFilterList>
-        {filters.map((filter, index) => (
-          <Filter key={index} filter={filter} value={values[filter.slug]} />
+        {filters.attributes.map((filter: any, index: any) => (
+          <Filter key={index} filter={filter} />
         ))}
       </WidgetFilterList>
 

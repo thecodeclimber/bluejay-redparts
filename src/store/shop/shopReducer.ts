@@ -13,7 +13,10 @@ import {
   SHOP_FETCH_PRODUCTS_LIST_SUCCESS,
   SHOP_HYDRATE,
   SHOP_INIT,
+  SELECTED_PRODUCTS,
+  SHOP_ATTRIBUTE,
   SHOP_RESET_FILTER,
+  SHOP_SET_CATEGORIES,
   SHOP_RESET_FILTERS,
   SHOP_SET_FILTER_VALUE,
   SHOP_SET_OPTION_VALUE,
@@ -22,32 +25,27 @@ import {
   ShopResetFilterAction,
   ShopSetFilterValueAction,
 } from '~/store/shop/shopActionTypes';
+import { products } from '~/fake-server/database/products';
+import { AppInitialProps } from 'next/app';
 
-const initialState: IShopState = {
+const initialState: any = {
   init: false,
   categorySlug: null,
   categoryIsLoading: true,
   category: null,
   productsListIsLoading: true,
-  productsList: null,
+  productsList: [],
+  attributes: [],
   options: {},
   filters: {},
+  categories: [],
   activeFilters: [],
   removedFilters: [],
   currentFilters: [],
 };
 
-function shopReducerFetchProductsListSuccess(
-  state: IShopState,
-  action: ShopFetchProductsListSuccessAction
-): IShopState {
-  const activeFilters = action.productsList.filters
-    .filter((x) => hasHandler(x))
-    .reduce<IActiveFilter[]>(
-      (acc, filter) => [...acc, ...getActiveFilters(filter)],
-      []
-    );
-
+function shopReducerFetchProductsListSuccess(state: any, action: any): any {
+  const activeFilters: any[] = [];
   return {
     ...state,
     productsListIsLoading: false,
@@ -125,7 +123,7 @@ function shopReducerResetFilter(
   };
 }
 
-function shopReducer(state = initialState, action: ShopAction): IShopState {
+export function shopReducer(state = initialState, action: any): IShopState {
   switch (action.type) {
     case SHOP_HYDRATE:
       return action.payload[SHOP_NAMESPACE];
@@ -163,4 +161,25 @@ function shopReducer(state = initialState, action: ShopAction): IShopState {
   }
 }
 
-export default shopReducer;
+export function shopAttributeReducer(state = initialState, action: any) {
+  switch (action.type) {
+    case SHOP_ATTRIBUTE:
+      return {
+        ...state,
+        attributes: action.payload,
+      };
+    default:
+      return state;
+  }
+}
+
+export function shopCategoriesReducer(state = initialState, action: any) {
+  switch (action.type) {
+    case SHOP_SET_CATEGORIES:
+      return {
+        categories: action.payload,
+      };
+    default:
+      return state;
+  }
+}

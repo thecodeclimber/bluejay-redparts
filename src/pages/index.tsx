@@ -1,7 +1,12 @@
 // react
-import React, { useMemo } from 'react';
-// third-party
-import { useIntl } from 'react-intl';
+import React, { useEffect, useMemo, useState } from 'react';
+import { blogApi, shopApi } from '~/api';
+import {
+  useDeferredData,
+  useProductColumns,
+  useProductTabs,
+} from '~/services/hooks';
+
 // application
 import BlockBanners from '~/components/blocks/BlockBanners';
 import BlockBrands from '~/components/blocks/BlockBrands';
@@ -12,32 +17,55 @@ import BlockProductsColumns from '~/components/blocks/BlockProductsColumns';
 import BlockSale from '~/components/blocks/BlockSale';
 import BlockSpace from '~/components/blocks/BlockSpace';
 import BlockZone from '~/components/blocks/BlockZone';
+import axios from '../axios';
 import url from '~/services/url';
-import { shopApi, blogApi } from '~/api';
-import {
-  useDeferredData,
-  useProductColumns,
-  useProductTabs,
-} from '~/services/hooks';
+// third-party
+import { useIntl } from 'react-intl';
 
 function Page() {
   const intl = useIntl();
+  const [products, setProducts] = useState({
+    featuredProducts: [],
+    topRatedProducts: [],
+    latestProducts: [],
+  });
+  const [isLoading, setIsLoading] = useState(false);
 
   /**
    * Featured products.
    */
-  const featuredProducts = useProductTabs(
-    useMemo(
-      () => [
-        { id: 1, name: 'All', categorySlug: null },
-        { id: 2, name: 'Power Tools', categorySlug: 'power-tools' },
-        { id: 3, name: 'Hand Tools', categorySlug: 'hand-tools' },
-        { id: 4, name: 'Plumbing', categorySlug: 'plumbing' },
-      ],
-      []
-    ),
-    (tab) => shopApi.getFeaturedProducts(tab.categorySlug, 8)
-  );
+  useEffect(() => {
+    const fetchProducts = async () => {
+      setIsLoading(true);
+      try {
+        const feature: any = await axios.get('/products/feature');
+        const best: any = await axios.get('/products/best');
+        const latest: any = await axios.get('/products/latest');
+        setProducts({
+          featuredProducts: feature.data,
+          topRatedProducts: best.data,
+          latestProducts: latest.data,
+        });
+      } catch (err) {
+        setIsLoading(false);
+      }
+      setIsLoading(false);
+    };
+    fetchProducts();
+  }, []);
+
+  // const featuredProducts = useProductTabs(
+  //   useMemo(
+  //     () => [
+  //       { id: 1, name: 'All', categorySlug: null },
+  //       { id: 2, name: 'Power Tools', categorySlug: 'power-tools' },
+  //       { id: 3, name: 'Hand Tools', categorySlug: 'hand-tools' },
+  //       { id: 4, name: 'Plumbing', categorySlug: 'plumbing' },
+  //     ],
+  //     []
+  //   ),
+  //   (tab) => shopApi.getFeaturedProducts(tab.categorySlug, 8)
+  // );
 
   const blockSale = useDeferredData(() => shopApi.getSpecialOffers(8), []);
 
@@ -82,7 +110,6 @@ function Page() {
     []
   );
 
-  const newArrivals = useDeferredData(() => shopApi.getLatestProducts(12), []);
   const newArrivalsLinks = useMemo(
     () => [
       { title: 'Wheel Covers', url: url.products() },
@@ -108,25 +135,7 @@ function Page() {
   /**
    * Product columns.
    */
-  const columns = useProductColumns(
-    useMemo(
-      () => [
-        {
-          title: 'Top Rated Products',
-          source: () => shopApi.getTopRatedProducts(null, 3),
-        },
-        {
-          title: 'Special Offers',
-          source: () => shopApi.getSpecialOffers(3),
-        },
-        {
-          title: 'Bestsellers',
-          source: () => shopApi.getPopularProducts(null, 3),
-        },
-      ],
-      []
-    )
-  );
+
 
   return (
     <React.Fragment>
@@ -135,40 +144,43 @@ function Page() {
       <BlockProductsCarousel
         blockTitle={intl.formatMessage({ id: 'HEADER_FEATURED_PRODUCTS' })}
         layout="grid-5"
-        loading={featuredProducts.isLoading}
-        products={featuredProducts.data}
-        groups={featuredProducts.tabs}
-        currentGroup={featuredProducts.tabs.find((x) => x.current)}
-        onChangeGroup={featuredProducts.handleTabChange}
+        loading={isLoading}
+        products={products.featuredProducts}
+        // groups={featuredProducts.tabs}
+        // currentGroup={featuredProducts.tabs.find((x) => x.current)}
+        // onChangeGroup={featuredProducts.handleTabChange}
       />
       <BlockSpace layout="divider-nl" />
-      <BlockSale products={blockSale.data} loading={blockSale.isLoading} />
+      <BlockSale products={products.featuredProducts} loading={isLoading} />
       <BlockSpace layout="divider-lg" />
 
-      {blockZones.map((blockZone, blockZoneIdx) => (
-        <React.Fragment key={blockZoneIdx}>
-          <BlockZone
-            image={blockZone.image}
-            mobileImage={blockZone.mobileImage}
-            categorySlug={blockZone.categorySlug}
-          />
-          {blockZoneIdx < blockZones.length - 1 && (
+      {/* {blockZones.map((blockZone, blockZoneIdx) => ( */}
+      {/* <React.Fragment key={blockZoneIdx}> */}
+      {products.topRatedProducts.length && products.featuredProducts.length && (
+        <BlockZone
+          image={blockZones[0].image}
+          mobileImage={blockZones[0].mobileImage}
+          categorySlug={blockZones[0].categorySlug}
+          productsList={products}
+        />
+      )}
+      {/* {blockZoneIdx < blockZones.length - 1 && (
             <BlockSpace layout="divider-sm" />
-          )}
-        </React.Fragment>
-      ))}
+          )} */}
+      {/* </React.Fragment> */}
+      {/* ))} */}
 
       <BlockSpace layout="divider-nl" />
       <BlockBanners />
       <BlockSpace layout="divider-nl" />
-      <BlockProductsCarousel
+      {/* <BlockProductsCarousel
         blockTitle={intl.formatMessage({ id: 'HEADER_NEW_ARRIVALS' })}
         layout="horizontal"
         rows={2}
-        loading={newArrivals.isLoading}
-        products={newArrivals.data}
+        loading={isLoading}
+        products={newArrivals}
         links={newArrivalsLinks}
-      />
+      /> */}
       <BlockSpace layout="divider-nl" />
       <BlockPosts
         blockTitle={intl.formatMessage({ id: 'HEADER_LATEST_NEWS' })}
@@ -180,7 +192,9 @@ function Page() {
       <BlockSpace layout="divider-nl" />
       <BlockBrands layout="columns-8-full" brands={brands.data} />
       <BlockSpace layout="divider-nl" className="d-xl-block d-none" />
-      <BlockProductsColumns columns={columns} />
+      {products.topRatedProducts.length && (
+        <BlockProductsColumns products={products.topRatedProducts} />
+      )}
       <BlockSpace layout="before-footer" />
     </React.Fragment>
   );

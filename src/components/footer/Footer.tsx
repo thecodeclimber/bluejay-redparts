@@ -1,21 +1,22 @@
-// react
-import React from 'react';
-// third-party
-import { FormattedMessage } from 'react-intl';
 // application
 import {
-  SiteFooter,
-  SiteFooterWidgets,
   Container,
+  FooterContact,
+  FooterLink,
+  FooterNewsletterComponent,
+  SiteFooter,
   SiteFooterBottom,
   SiteFooterBottomRow,
   SiteFooterPayments,
-  FooterLink,
-  FooterContact,
-  FooterNewsletterComponent,
+  SiteFooterWidgets,
 } from '~/styled-components/footer/Footer';
+
 import AppImage from '~/components/shared/AppImage';
 import Decor from '~/components/shared/Decor';
+// third-party
+import { FormattedMessage } from 'react-intl';
+// react
+import React from 'react';
 
 // data
 

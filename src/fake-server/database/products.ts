@@ -2,12 +2,6 @@
 
 // application
 import { anchor } from '~/fake-server/database/products/anchors';
-import { bolts } from '~/fake-server/database/products/bolts';
-import { nuts } from '~/fake-server/database/products/nuts';
-import { pins } from '~/fake-server/database/products/pins';
-import { hexHeadCapScrews } from '~/fake-server/database/products/hex_head_cap_screws';
-import { screws } from '~/fake-server/database/products/screws';
-import { washers } from '~/fake-server/database/products/washers';
 import { IProductAttribute } from '~/interfaces/product';
 import { IShopCategory } from '~/interfaces/category';
 import { makeIdGenerator, nameToSlug } from '~/fake-server/utils';
@@ -201,14 +195,6 @@ const makeProducts = (defs: any[]): any[] => {
 
 const TotalProducts = [];
 
-TotalProducts.push(
-  ...anchor,
-  ...pins,
-  ...nuts,
-  ...washers,
-  ...screws,
-  ...bolts,
-  ...hexHeadCapScrews
-);
+TotalProducts.push(...anchor);
 
 export const products: any[] = makeProducts(TotalProducts);

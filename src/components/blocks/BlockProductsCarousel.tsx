@@ -7,7 +7,6 @@ import Slick from 'react-slick';
 import {
   BlockProductsCarouselCarouselLoaderSiteFooter,
   BlockProductsCarouselColumn,
-  BlockProductsCarouselCell
 } from '~/styled-components/block/BlockProductsCarousel';
 import AppSlick, { ISlickProps } from '~/components/shared/AppSlick';
 import ProductCard, {
@@ -191,10 +190,7 @@ function BlockProductsCarousel<T extends ISectionHeaderGroup>(props: Props<T>) {
     return (
       <AppSlick ref={slickRef} {...slickSettings[layout]}>
         {columns.map((column, columnIdx) => (
-          <BlockProductsCarouselColumn
-            key={columnIdx}
-            
-          >
+          <BlockProductsCarouselColumn key={columnIdx}>
             {column.map((product, productIdx) => (
               <ProductCard
                 key={productIdx}

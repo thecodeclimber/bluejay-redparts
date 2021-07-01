@@ -24,10 +24,10 @@ function FilterScrewSize(props: Props) {
     <div>
       <Tags>
         <TagList>
-          {options.items.map((item: any, index: number) => (
+          {options.values.map((item: any, index: number) => (
             <TagLink key={index} selected={selectedItem.includes(index)}>
               <AppLink href="#!" onClick={() => handleSelect(index)}>
-                {item}
+                {item.value}
               </AppLink>
             </TagLink>
           ))}

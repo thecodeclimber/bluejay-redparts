@@ -1,31 +1,33 @@
+import { Cart32Svg, Heart32Svg, Person32Svg } from '~/svg';
+import Indicator, { IIndicatorController } from '~/components/header/Indicator';
 // react
 import React, { useMemo, useRef } from 'react';
-// third-party
-import { FormattedMessage } from 'react-intl';
+
 // application
 import AccountMenu from '~/components/header/AccountMenu';
 import AppLink from '~/components/shared/AppLink';
 import CurrencyFormat from '~/components/shared/CurrencyFormat';
 import Departments from '~/components/header/Departments';
 import Dropcart from '~/components/header/Dropcart';
-import Indicator, { IIndicatorController } from '~/components/header/Indicator';
+// third-party
+import { FormattedMessage } from 'react-intl';
 import Logo from '~/components/header/Logo';
 import MainMenu from '~/components/header/MainMenu';
 import Search from '~/components/header/Search';
 import Topbar from '~/components/header/Topbar';
 import url from '~/services/url';
-import { Heart32Svg, Person32Svg, Cart32Svg } from '~/svg';
 import { useCart } from '~/store/cart/cartHooks';
 import { useOptions } from '~/store/options/optionsHooks';
-import { useUser } from '~/store/user/userHooks';
+import { useUser } from '@auth0/nextjs-auth0';
+// import { useUser } from '~/store/user/userHooks';
 import { useWishlist } from '~/store/wishlist/wishlistHooks';
 
 function Header() {
-  const user = useUser();
+  // const user = useUser();
+  const { user, error, isLoading } = useUser();
   const wishlist = useWishlist();
   const options = useOptions();
   const desktopLayout = options.desktopHeaderLayout;
-
   const departmentsLabel = useMemo(
     () =>
       desktopLayout === 'spaceship' ? (
@@ -37,13 +39,14 @@ function Header() {
   );
 
   const accountIndicatorLabel = user ? (
-    user.email
+    user.nickname
   ) : (
     <FormattedMessage id="TEXT_INDICATOR_ACCOUNT_LABEL" />
   );
-  const accountIndicatorValue = (
+  const accountIndicatorValue = user ? (
     <FormattedMessage id="TEXT_INDICATOR_ACCOUNT_VALUE" />
-  );
+  ):  <FormattedMessage id="TEXT_INDICATOR_ACCOUNT_LOGOUT_VALUE" />;
+  
   const accountIndicatorCtrl = useRef<IIndicatorController | null>(null);
 
   const cart = useCart();
@@ -106,16 +109,16 @@ function Header() {
         />
 
         <Indicator
-          href={url.accountDashboard()}
+          href={user?'/api/auth/logout':'/api/auth/login'}
           icon={<Person32Svg />}
           label={accountIndicatorLabel}
           value={accountIndicatorValue}
-          trigger="click"
-          controllerRef={accountIndicatorCtrl}
+          // trigger="click"
+          // controllerRef={accountIndicatorCtrl}
         >
-          <AccountMenu
+          {/* <AccountMenu
             onCloseMenu={() => accountIndicatorCtrl.current?.close()}
-          />
+          /> */}
         </Indicator>
 
         <Indicator

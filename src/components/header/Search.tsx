@@ -113,7 +113,6 @@ export function Search() {
 
     setQuery(value);
   };
-
   const toggleSuggestions = (force?: boolean) => {
     setSuggestionsIsOpen((prevState) => {
       const newState = force !== undefined ? force : !prevState;
