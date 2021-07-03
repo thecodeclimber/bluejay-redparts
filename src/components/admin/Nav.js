@@ -1,45 +1,41 @@
 import React, { useState } from 'react';
-import { Flex, Text, Divider, Avatar, Heading } from '@chakra-ui/react';
+import { Flex, Text, Box } from '@chakra-ui/react';
 import NavItem from './NavItem';
 import { HamburgerIcon } from '@chakra-ui/icons';
-import url from '~/services/url';
 
+import url from '~/services/url';
+import { useRouter } from 'next/router';
 export default function Nav() {
+    const router = useRouter();
+    let path = router.pathname;
     const [navSize, changeNavSize] = useState('large');
     return (
-        <Flex
+        <Box
             pos="sticky"
-            left="5"
-            h="99vh"
-            marginTop="2.5vh"
             boxShadow="0 4px 12px 0 rgba(0, 0, 0, 0.05)"
-            borderRadius={navSize == 'small' ? '15px' : '30px'}
-            w={navSize == 'small' ? '75px' : '200px'}
             flexDir="column"
             justifyContent="space-between"
+            background="#1e74df"
+            w={navSize === 'small' ? "75px" : "200px"}
         >
             <Flex
-                p="5%"
                 flexDir="column"
                 w="100%"
-                alignItems={navSize == 'small' ? 'center' : 'flex-start'}
+                alignItems={navSize == 'small' ? 'center' : 'flex-end'}
                 as="nav"
             >
-                <HamburgerIcon
-                    background="none"
-                    mt={5}
-                    _hover={{ background: 'none' }}
-                    onClick={() => {
-                        if (navSize == 'small') changeNavSize('large');
-                        else changeNavSize('small');
-                    }}
-                />
-                <NavItem navSize={navSize} title="Products" link={url.admin()} />
-                <NavItem navSize={navSize} title="Sections" link={url.adminSectionPage()} active />
-                <NavItem navSize={navSize} title="Categories" link={url.adminCategoryPage()} />
-                <NavItem navSize={navSize} title="Sub Categories" link={url.adminSubCategoryPage()} />
-                <NavItem navSize={navSize} title="Attributes" link={url.adminAttributePage()} />
+                <Text background="none" onClick={() => {
+                    if (navSize == 'small') changeNavSize('large');
+                    else changeNavSize('small');
+                }} color="#fff" p={2}>
+                    <HamburgerIcon color={"white"} fontSize={"25px"} />
+                </Text>
+                <NavItem navSize={navSize} title="Products" link={url.admin()} active={path == '/admin' ? true : false} />
+                <NavItem navSize={navSize} title="Sections" link={url.adminSectionPage()} active={path == '/admin/sections' ? true : false} />
+                <NavItem navSize={navSize} title="Categories" link={url.adminCategoryPage()} active={path == '/admin/categories' ? true : false} />
+                <NavItem navSize={navSize} title="Sub Categories" link={url.adminSubCategoryPage()} active={path == '/admin/sub_categories' ? true : false} />
+                <NavItem navSize={navSize} title="Attributes" link={url.adminAttributePage()} active={path == '/admin/attributes' ? true : false} />
             </Flex>
-        </Flex>
+        </Box>
     );
 }

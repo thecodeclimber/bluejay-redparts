@@ -9,7 +9,7 @@ import React from 'react';
 import axios from '~/axios';
 import Redirect from '~/components/shared/Redirect';
 import url from '~/services/url';
-import { Flex, Grid } from '@chakra-ui/react';
+import { Flex, Grid, Box } from '@chakra-ui/react';
 import Nav from '~/components/admin/Nav';
 export const getServerSideProps = withPageAuthRequired({
   async getServerSideProps(ctx) {
@@ -20,16 +20,16 @@ export const getServerSideProps = withPageAuthRequired({
 function admin(props: any) {
   return (
     <>
-      <Grid w="100%" templateColumns="repeat(5, 1fr)" gap={6}>
+      <Flex w="100%">
         <Nav />
-        <Flex>
+        <Box w="80%">
           <Card style={{ margin: '2rem' }}>
             <CardBody style={{ overflow: 'auto' }}>
               <DataTable />
             </CardBody>
           </Card>
-        </Flex>
-      </Grid>
+        </Box>
+      </Flex>
     </>
   );
 }

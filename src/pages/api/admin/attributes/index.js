@@ -1,5 +1,6 @@
 const dbConnect = require('../../../../../utils/dbConnect');
-const { Section } = require('../../../../../models');
+const { Attribute } = require('../../../../../models');
+var mongoose = require('mongoose');
 import { withApiAuthRequired, getSession } from '@auth0/nextjs-auth0';
 const { isAdmin } = require('../../../../../utils/middleware');
 export default withApiAuthRequired(async (req, res) => {
@@ -22,15 +23,15 @@ export default withApiAuthRequired(async (req, res) => {
                     regex = new RegExp(key, 'i');
                 }
                 key = key != 'default' ? { name: regex } : {};
-                const getAllSections = async () => {
-                    const total = await Section.find(key).count();
-                    let data = await Section.find(key)
+                const getAllCategories = async () => {
+                    const total = await Attribute.find(key).count();
+                    let data = await Attribute.find(key).populate('category')
                         .skip(skipItems)
                         .limit(limit)
                         .sort({ name: sort })
                         .exec();
                     return {
-                        sections: data,
+                        attributes: data,
                         page,
                         total,
                         from: total ? skipItems + 1 : 0,
@@ -38,36 +39,58 @@ export default withApiAuthRequired(async (req, res) => {
                         pages: Math.ceil(total / limit),
                     };
                 };
-                let allSectionData = await getAllSections();
-                res.json({ ...allSectionData });
+                let allCategoryData = await getAllCategories();
+                res.json({ ...allCategoryData });
                 break;
             case 'PUT':
                 var _id = req.query.Id.split(",");
+                let valuess = [];
+                if (req.body.value.length != 0) {
+                    req.body.value.map(item => {
+                        valuess.push({ _id: mongoose.Types.ObjectId(), value: item })
+                    })
+                }
+                if (req.body.name == '' && valuess.length == 0) {
+                    res.status(400).send('Name | Value is required');
+                }
                 var data = {
                     name: req.body.name,
-                    shortName: req.body.name.substring(0, 3)
+                    shortName: req.body.name.substring(0, 3),
+                    values: valuess
                 }
-                var updateData = await Section.updateMany({ _id: { $in: _id } }, data);
+                var updateData = await Attribute.updateMany({ _id: { $in: _id } }, data);
                 if (updateData.nModified == 0) {
-                    res.status(404).json({ 'message': 'sections not found' });
+                    res.status(404).json({ 'message': 'Attribute not found' });
                 }
-                res.status(200).json({ 'message': 'sections updated' });
+                res.status(200).json({ 'message': 'Attribute updated' });
                 break;
             case 'DELETE':
                 const deleteId = req.query.Id.split(",");
-                var deleteData = await Section.deleteMany({ _id: { $in: deleteId } });
+                var deleteData = await Attribute.deleteMany({ _id: { $in: deleteId } });
                 if (deleteData.deletedCount == 0) {
-                    res.status(404).json({ 'message': 'product not found' });
+                    res.status(404).json({ 'message': 'Attribute not found' });
                 }
-                res.status(200).json({ 'message': 'product deleted' });
+                res.status(200).json({ 'message': 'Attribute deleted' });
                 break;
             case 'POST':
-                var dataSection = await Section.insertMany([{ name: req.body.name, shortName: req.body.name.substring(0, 3) }]);
-                console.log(dataSection)
-                if (dataSection.length == 0) {
+                let values = [];
+                if (req.body.value.length != 0) {
+                    req.body.value.map(item => {
+                        values.push({ _id: mongoose.Types.ObjectId(), value: item })
+                    })
+                }
+                if (req.body.name == '' && values.length == 0) {
+                    res.status(400).send('Name | Value is required');
+                }
+                var dataCategory = await Attribute.insertMany([{
+                    name: req.body.name,
+                    shortName: req.body.name.substring(0, 3),
+                    values: values
+                }]);
+                if (dataCategory.length == 0) {
                     res.status(404).json({ 'message': 'Something is error' });
                 }
-                res.status(200).json({ 'message': 'section created' });
+                res.status(200).json({ 'message': 'Atrribute created' });
                 break;
 
             default:

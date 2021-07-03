@@ -5,6 +5,7 @@ const attributeSchema = new mongoose.Schema({
         new mongoose.Schema({
             value: { type: String, require: true }
         })
-    ]
+    ],
+    shortName: { type: String, require: true },
 }, { timestamps: true });
 module.exports = mongoose.models.attribute || mongoose.model('attribute', attributeSchema);

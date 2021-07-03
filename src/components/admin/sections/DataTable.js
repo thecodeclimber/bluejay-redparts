@@ -41,7 +41,7 @@ import React, { useEffect, useState } from 'react';
 import { useShopOptions } from "~/store/shop/shopHooks";
 import axios from "axios";
 import * as $ from 'jquery';
-
+import AlertBox from "../AlertBox";
 
 function DataTable() {
   const { isOpen, onOpen, onClose } = useDisclosure()
@@ -49,20 +49,24 @@ function DataTable() {
   const [selectedItems, setSelectedItems] = React.useState([]);
   const [loader, setLoader] = useState(false);
   const [edit, setEdit] = useState(false);
+  const [message, setMessage] = useState('');
+  const [url, setUrl] = useState('');
   const [form, setForm] = useState({
     name: '',
     _id: ''
   });
   const options = useShopOptions();
   let pageValue = [5, 10, 20, 50, 100];
-  let selectedLimit = options?.limit == undefined ? 20 : options?.limit;
-
+  let selectedLimit = options?.limit == undefined ? 10 : options?.limit;
+  let errors = {};
+  const [error, setError] = useState({});
+  const [isOpenAlert, setIsOpen] = React.useState(false)
   useEffect(() => {
     fetchData();
   }, []);
   const fetchData = async () => {
     setLoader(true);
-    let data = await axios.get(`/api/admin/sections/?page=${options?.page ?? 1}&limit=${options?.limit ?? 20}&sort=${options.sort ?? 'default'}&key=${options.key ?? 'default'}`);
+    let data = await axios.get(`/api/admin/sections/?page=${options?.page ?? 1}&limit=${options?.limit ?? 10}&sort=${options.sort ?? 'default'}&key=${options.key ?? 'default'}`);
     setSections(data.data);
     setLoader(false);
   };
@@ -82,6 +86,9 @@ function DataTable() {
       {
         Header: "Name",
         accessor: "name",
+        Cell: ({ cell: { value } }) => (
+          capitalize(value)
+        )
       }
     ],
     [],
@@ -104,6 +111,7 @@ function DataTable() {
     useSortBy,
     usePagination,
   );
+  console.log(data)
 
   // for next previous pagination
   let next = sections.page == null ? 1 : sections.page + 1;
@@ -141,22 +149,13 @@ function DataTable() {
 
   const deleteHandle = async (id = null) => {
     let deleteId = id != null ? id.split(",") : id;
-    let message = 'Are you sure to delete this section';
+    setMessage('Are you sure to delete this section');
     if (id == null) {
       deleteId = selectedItems;
-      message = 'Are you sure to delete these sections';
+      setMessage('Are you sure to delete these sections')
     }
-    if (confirm(message)) {
-      let data = await axios.delete(`/api/admin/sections?Id=${deleteId}`);
-      if (data.status == 200) {
-        fetchData();
-        setSelectedItems(() => {
-          return [];
-        })
-      } else {
-        console.log(data.message)
-      }
-    }
+    setUrl(`/api/admin/sections?Id=${deleteId}`)
+    setIsOpen(true);
   }
 
   // for single Edit 
@@ -179,17 +178,23 @@ function DataTable() {
     if (_id == '') {
       _id = selectedItems;
     }
-    let data = await axios.put(`/api/admin/sections?Id=${_id}`, form);
-    console.log(data)
-    if (data.status == 200) {
-      fetchData();
-      onClose();
-      setForm({ name: '', _id: '' })
-      setSelectedItems(() => {
-        return [];
-      })
-    } else {
-      console.log(data.message)
+    if (form.name == '') {
+      errors.name = 'section name is required';
+    }
+    setError(errors);
+    if (Object.keys(errors).length == 0) {
+      let data = await axios.put(`/api/admin/sections?Id=${_id}`, form);
+      console.log(data)
+      if (data.status == 200) {
+        fetchData();
+        onClose();
+        setForm({ name: '', _id: '' })
+        setSelectedItems(() => {
+          return [];
+        })
+      } else {
+        console.log(data.message)
+      }
     }
   }
 
@@ -201,16 +206,22 @@ function DataTable() {
   }
 
   const submitHandle = async () => {
-    let data = await axios.post(`/api/admin/sections`, form);
-    if (data.status == 200) {
-      fetchData();
-      onClose();
-      setForm({ name: '', _id: '' })
-      setSelectedItems(() => {
-        return [];
-      })
-    } else {
-      console.log(data.data.message)
+    if (form.name == '') {
+      errors.name = 'section name is required';
+    }
+    setError(errors);
+    if (Object.keys(errors).length == 0) {
+      let data = await axios.post(`/api/admin/sections`, form);
+      if (data.status == 200) {
+        fetchData();
+        onClose();
+        setForm({ name: '', _id: '' })
+        setSelectedItems(() => {
+          return [];
+        })
+      } else {
+        console.log(data.data.message)
+      }
     }
   }
 
@@ -221,7 +232,6 @@ function DataTable() {
         {selectedItems.length && <>
           <Button size="sm" colorScheme="red" onClick={() => deleteHandle()}>
             <DeleteIcon />&nbsp;&nbsp;Bulk Delete</Button>
-          <Button size="sm" colorScheme="blue" onClick={() => HandleForm(true)}><EditIcon />&nbsp;&nbsp;Bulk Edit</Button>
         </>}
         <Input
           size="sm"
@@ -278,6 +288,7 @@ function DataTable() {
                     <Checkbox value={row.original[indexKey]} isChecked={selectedItems.includes(row.original[indexKey])} onChange={handleMultiSelect} />
                   </Td>
                   {row.cells.map((cell) => {
+
                     return (
                       <Td {...cell.getCellProps()}>{cell.render("Cell")}</Td>
                     );
@@ -388,7 +399,8 @@ function DataTable() {
           </Tooltip>
         </Flex>
       </Flex>
-      <CustomModal isOpen={isOpen} onClose={onClose} form={form} setForm={setForm} Edit={edit} submitHandle={submitHandle} editHandle={editHandle} />
+      <CustomModal isOpen={isOpen} onClose={onClose} form={form} setForm={setForm} Edit={edit} submitHandle={submitHandle} editHandle={editHandle} error={error} />
+      <AlertBox isOpen={isOpenAlert} setIsOpen={setIsOpen} message={message} url={url} fetchData={fetchData} />
     </>
   )
 }

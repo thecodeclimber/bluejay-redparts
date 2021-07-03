@@ -1,7 +1,6 @@
 const dbConnect = require('../../../../../utils/dbConnect');
-const { Category } = require('../../../../../models');
+const { SubCategory } = require('../../../../../models');
 import { withApiAuthRequired, getSession } from '@auth0/nextjs-auth0';
-import { CardGroup } from 'reactstrap';
 const { isAdmin } = require('../../../../../utils/middleware');
 export default withApiAuthRequired(async (req, res) => {
     const { user } = getSession(req, res);
@@ -22,36 +21,36 @@ export default withApiAuthRequired(async (req, res) => {
                 if (key != 'default') {
                     regex = new RegExp(key, 'i');
                 }
-                key = key != 'default' ? { $or: [{ 'name': regex }, { 'section.name': regex }] } : {};
+                key = key != 'default' ? { $or: [{ 'name': regex }, { 'category.name': regex }] } : {};
                 const getAllCategories = async () => {
-                    const total = await await Category.aggregate([
+                    const total = await await SubCategory.aggregate([
                         {
                             "$lookup": {
-                                "from": "sections",
-                                "localField": "section",
+                                "from": "categories",
+                                "localField": "category",
                                 "foreignField": "_id",
-                                "as": "section"
+                                "as": "category"
                             }
                         },
-                        { "$unwind": "$section" },
+                        { "$unwind": "$category" },
                         { "$match": key }]).exec();
-                    let data = await Category.aggregate([
+                    let data = await SubCategory.aggregate([
                         {
                             "$lookup": {
-                                "from": "sections",
-                                "localField": "section",
+                                "from": "categories",
+                                "localField": "category",
                                 "foreignField": "_id",
-                                "as": "section"
+                                "as": "category"
                             }
                         },
-                        { "$unwind": "$section" },
+                        { "$unwind": "$category" },
                         { "$match": key },
                         { "$sort": { "name": -1 } },
                         { "$skip": skipItems },
                         { "$limit": limit },
                     ]).exec();
                     return {
-                        categories: data,
+                        sub_categories: data,
                         page,
                         total: total.length,
                         from: total.length ? skipItems + 1 : 0,
@@ -60,37 +59,36 @@ export default withApiAuthRequired(async (req, res) => {
                     };
                 };
                 let allCategoryData = await getAllCategories();
-                console.log(allCategoryData)
                 res.json({ ...allCategoryData });
                 break;
             case 'PUT':
                 var _id = req.query.Id.split(",");
                 var data = {
-                    section: req.body.section,
+                    category: req.body.category,
                     name: req.body.name,
-                    shortName: req.body.name.substring(0, 3)
+                    shortName: req.body.name.substring(0, 3),
+                    attributes: req.body.attributes
                 }
-                console.log(data)
-                var updateData = await Category.updateMany({ _id: { $in: _id } }, data);
+                var updateData = await SubCategory.updateMany({ _id: { $in: _id } }, data);
                 if (updateData.nModified == 0) {
-                    res.status(404).json({ 'message': 'Categories not found' });
+                    res.status(404).json({ 'message': 'Sub Categories not found' });
                 }
-                res.status(200).json({ 'message': 'Categories updated' });
+                res.status(200).json({ 'message': 'Sub Categories updated' });
                 break;
             case 'DELETE':
                 const deleteId = req.query.Id.split(",");
-                var deleteData = await Category.deleteMany({ _id: { $in: deleteId } });
+                var deleteData = await SubCategory.deleteMany({ _id: { $in: deleteId } });
                 if (deleteData.deletedCount == 0) {
-                    res.status(404).json({ 'message': 'product not found' });
+                    res.status(404).json({ 'message': 'sub Categories not found' });
                 }
-                res.status(200).json({ 'message': 'product deleted' });
+                res.status(200).json({ 'message': 'Sub Categories deleted' });
                 break;
             case 'POST':
-                var dataCategory = await Category.insertMany([{ name: req.body.name, section: req.body.section, shortName: await req.body.name.substring(0, 3) }]);
+                var dataCategory = await SubCategory.insertMany([{ name: req.body.name, category: req.body.category, shortName: req.body.name.substring(0, 3), attributes: req.body.attributes }]);
                 if (dataCategory.length == 0) {
                     res.status(404).json({ 'message': 'Something is error' });
                 }
-                res.status(200).json({ 'message': 'Category created' });
+                res.status(200).json({ 'message': 'Sub Category created' });
                 break;
 
             default:

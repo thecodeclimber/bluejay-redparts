@@ -7,6 +7,7 @@ const subCategorySchema = new mongoose.Schema(
       ref: 'category',
       required: true,
     },
+    shortName: { type: String, require: true },
     images: { type: Array },
     attributes: [
       {

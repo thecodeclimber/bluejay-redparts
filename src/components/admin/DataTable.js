@@ -34,6 +34,7 @@ import {
   useDisclosure,
   Link, Spinner, Input, InputGroup, InputRightElement, Divider
 } from "@chakra-ui/react";
+import AlertBox from "./AlertBox";
 import { usePagination, useSortBy, useTable } from "react-table";
 
 import CustomModal from "./CustomModal";
@@ -55,6 +56,9 @@ function DataTable() {
   const [category, setCategory] = useState([]);
   const [subcategory, setSubcategory] = useState([]);
   const [attribute, setAttribute] = useState([]);
+  const [message, setMessage] = useState('');
+  const [url, setUrl] = useState('');
+  const [isOpenAlert, setIsOpen] = React.useState(false)
   const [form, setForm] = useState({
     section: '',
     category: '',
@@ -159,10 +163,16 @@ function DataTable() {
       {
         Header: "Product Name",
         accessor: "name",
+        Cell: ({ cell: { value } }) => (
+          capitalize(value)
+        )
       },
       {
         Header: "Description",
         accessor: "description",
+        Cell: ({ cell: { value } }) => (
+          capitalize(value)
+        )
       },
       {
         Header: "Price",
@@ -171,6 +181,9 @@ function DataTable() {
       }, {
         Header: "SKU",
         accessor: "sku",
+        Cell: ({ cell: { value } }) => (
+          capitalize(value)
+        )
       }
     ],
     [],
@@ -229,22 +242,13 @@ function DataTable() {
 
   const deleteHandle = async (id = null) => {
     let deleteId = id != null ? id.split(",") : id;
-    let message = 'Are you sure to delete this product';
+    setMessage('Are you sure to delete this product ?');
     if (id == null) {
       deleteId = selectedItems;
-      message = 'Are you sure to delete these products';
+      setMessage('Are you sure to delete these products?')
     }
-    if (confirm(message)) {
-      let data = await axios.delete(`/api/admin/product?Id=${deleteId}`);
-      if (data.status == 200) {
-        fetchData();
-        setSelectedItems(() => {
-          return [];
-        })
-      } else {
-        console.log(data.message)
-      }
-    }
+    setUrl(`/api/admin/product?Id=${deleteId}`)
+    setIsOpen(true);
   }
 
   // for single Edit 
@@ -554,6 +558,7 @@ function DataTable() {
         </Flex>
       </Flex>
       <CustomModal isOpen={isOpen} onClose={onClose} Edit={isEditForm} fetchData={fetchData} editHandle={editHandle} productData={productData} setProductData={setProductData} />
+      <AlertBox isOpen={isOpenAlert} setIsOpen={setIsOpen} message={message} url={url} fetchData={fetchData} />
     </>
   )
 }

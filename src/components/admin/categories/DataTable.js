@@ -41,22 +41,28 @@ import React, { useEffect, useState } from 'react';
 import { useShopOptions } from "~/store/shop/shopHooks";
 import axios from "axios";
 import * as $ from 'jquery';
-
+import AlertBox from "../AlertBox";
 
 function DataTable() {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const [categories, setCategories] = useState([]);
+
   const [selectedItems, setSelectedItems] = React.useState([]);
   const [loader, setLoader] = useState(false);
   const [edit, setEdit] = useState(false);
+  const [message, setMessage] = useState('');
+  const [url, setUrl] = useState('');
+  const [isOpenAlert, setIsOpen] = React.useState(false)
   const [form, setForm] = useState({
+    section: '',
     name: '',
     _id: ''
   });
   const options = useShopOptions();
   let pageValue = [5, 10, 20, 50, 100];
   let selectedLimit = options?.limit == undefined ? 20 : options?.limit;
-
+  let errors = {};
+  const [error, setError] = useState({});
   useEffect(() => {
     fetchData();
   }, []);
@@ -66,11 +72,10 @@ function DataTable() {
     setCategories(data.data);
     setLoader(false);
   };
+
   const capitalize = (string) =>
     string[0].toUpperCase() + string.slice(1);
 
-
-  console.log(categories)
 
   const indexKey = '_id';
   let data = React.useMemo(
@@ -81,8 +86,18 @@ function DataTable() {
   const columns = React.useMemo(
     () => [
       {
-        Header: "Name",
+        Header: "Section",
+        accessor: "section.name",
+        Cell: ({ cell: { value } }) => (
+          capitalize(value)
+        )
+      },
+      {
+        Header: "Category",
         accessor: "name",
+        Cell: ({ cell: { value } }) => (
+          capitalize(value)
+        )
       }
     ],
     [],
@@ -142,28 +157,22 @@ function DataTable() {
 
   const deleteHandle = async (id = null) => {
     let deleteId = id != null ? id.split(",") : id;
-    let message = 'Are you sure to delete this section';
+    setMessage('Are you sure to delete this category?');
     if (id == null) {
       deleteId = selectedItems;
-      message = 'Are you sure to delete these categories';
+      setMessage('Are you sure to delete these categories?')
     }
-    if (confirm(message)) {
-      let data = await axios.delete(`/api/admin/categories?Id=${deleteId}`);
-      if (data.status == 200) {
-        fetchData();
-        setSelectedItems(() => {
-          return [];
-        })
-      } else {
-        console.log(data.message)
-      }
-    }
+    setUrl(`/api/admin/categories?Id=${deleteId}`)
+    setIsOpen(true);
   }
 
+  console.log(categories)
   // for single Edit 
-  const HandleSingleEdit = (Id, name) => {
+  const HandleSingleEdit = (Id, name, section) => {
+    console.log(section._id)
     setEdit(true)
     form.name = name;
+    form.section = section._id;
     form._id = Id;
     onOpen();
   }
@@ -180,17 +189,26 @@ function DataTable() {
     if (_id == '') {
       _id = selectedItems;
     }
-    let data = await axios.put(`/api/admin/categories?Id=${_id}`, form);
-    console.log(data)
-    if (data.status == 200) {
-      fetchData();
-      onClose();
-      setForm({ name: '', _id: '' })
-      setSelectedItems(() => {
-        return [];
-      })
-    } else {
-      console.log(data.message)
+    if (form.section == '') {
+      errors.section = 'section is required';
+    }
+    if (form.name == '') {
+      errors.name = 'category name is required';
+    }
+    setError(errors);
+    if (Object.keys(errors).length == 0) {
+      let data = await axios.put(`/api/admin/categories?Id=${_id}`, form);
+      console.log(data)
+      if (data.status == 200) {
+        fetchData();
+        onClose();
+        setForm({ name: '', _id: '', section: '' })
+        setSelectedItems(() => {
+          return [];
+        })
+      } else {
+        console.log(data.message)
+      }
     }
   }
 
@@ -202,17 +220,27 @@ function DataTable() {
   }
 
   const submitHandle = async () => {
-    let data = await axios.post(`/api/admin/categories`, form);
-    if (data.status == 200) {
-      fetchData();
-      onClose();
-      setForm({ name: '', _id: '' })
-      setSelectedItems(() => {
-        return [];
-      })
-    } else {
-      console.log(data.data.message)
+    if (form.section == '') {
+      errors.section = 'section is required';
     }
+    if (form.name == '') {
+      errors.name = 'category name is required';
+    }
+    setError(errors);
+    if (Object.keys(errors).length == 0) {
+      let data = await axios.post(`/api/admin/categories`, form);
+      if (data.status == 200) {
+        fetchData();
+        onClose();
+        setForm({ name: '', _id: '', section: '' })
+        setSelectedItems(() => {
+          return [];
+        })
+      } else {
+        console.log(data.data.message)
+      }
+    }
+
   }
 
 
@@ -222,7 +250,6 @@ function DataTable() {
         {selectedItems.length && <>
           <Button size="sm" colorScheme="red" onClick={() => deleteHandle()}>
             <DeleteIcon />&nbsp;&nbsp;Bulk Delete</Button>
-          <Button size="sm" colorScheme="blue" onClick={() => HandleForm(true)}><EditIcon />&nbsp;&nbsp;Bulk Edit</Button>
         </>}
         <Input
           size="sm"
@@ -285,7 +312,7 @@ function DataTable() {
                   })}
                   <Td>
                     <Stack direction="row" spacing={4} align="center">
-                      <Link onClick={() => HandleSingleEdit(row.original[indexKey], row.original['name'])}>
+                      <Link onClick={() => HandleSingleEdit(row.original[indexKey], row.original['name'], row.original['section'])}>
                         <EditIcon color="green.400" /></Link> &nbsp;
                       &nbsp;
                       &nbsp;
@@ -389,7 +416,8 @@ function DataTable() {
           </Tooltip>
         </Flex>
       </Flex>
-      <CustomModal isOpen={isOpen} onClose={onClose} form={form} setForm={setForm} Edit={edit} submitHandle={submitHandle} editHandle={editHandle} />
+      <CustomModal isOpen={isOpen} onClose={onClose} form={form} setForm={setForm} Edit={edit} submitHandle={submitHandle} editHandle={editHandle} error={error} />
+      <AlertBox isOpen={isOpenAlert} setIsOpen={setIsOpen} message={message} url={url} fetchData={fetchData} />
     </>
   )
 }

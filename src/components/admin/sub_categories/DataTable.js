@@ -41,104 +41,78 @@ import React, { useEffect, useState } from 'react';
 import { useShopOptions } from "~/store/shop/shopHooks";
 import axios from "axios";
 import * as $ from 'jquery';
-
+import AlertBox from "../AlertBox";
 
 function DataTable() {
   const { isOpen, onOpen, onClose } = useDisclosure()
-  const [Section, setSection] = useState([]);
+  const [sub_categories, setSubCategories] = useState([]);
+
+  const [selectedItems, setSelectedItems] = React.useState([]);
+  const [loader, setLoader] = useState(false);
+  const [edit, setEdit] = useState(false);
+  const [categories, setCategories] = useState([]);
+  const [attributes, setAttributes] = useState([]);
+  const [message, setMessage] = useState('');
+  const [url, setUrl] = useState('');
+  const [isOpenAlert, setIsOpen] = React.useState(false)
   const [form, setForm] = useState({
-    section: '',
+    category: '',
+    name: '',
+    attributes: '',
+    _id: ''
   });
   const options = useShopOptions();
   let pageValue = [5, 10, 20, 50, 100];
-  let selectedLimit = options?.limit == undefined ? 20 : options?.limit;
-
+  let selectedLimit = options?.limit == undefined ? 10 : options?.limit;
+  let errors = {};
+  const [error, setError] = useState({});
   useEffect(() => {
     fetchData();
-    selectSection();
+    selectCategory();
+    selectAttributes();
   }, []);
   const fetchData = async () => {
     setLoader(true);
-    let data = await axios.get(`/api/admin/product/?page=${options?.page ?? 1}&limit=${options?.limit ?? 20}&sort=${options.sort ?? 'default'}&key=${options.key ?? 'default'}&section=${form.section}&category=${form.category}&subcategory=${form.type}&attribute=${form.value}`);
-    setProducts(data.data);
+    let data = await axios.get(`/api/admin/sub_categories/?page=${options?.page ?? 1}&limit=${options?.limit ?? 10}&sort=${options.sort ?? 'default'}&key=${options.key ?? 'default'}`);
+    setSubCategories(data.data);
     setLoader(false);
   };
   const capitalize = (string) =>
     string[0].toUpperCase() + string.slice(1);
-  const handleChange = (e) => {
-
-    setForm((prevState) => {
-      switch (e.target.name) {
-        case 'section':
-          setCategory([]);
-          getCategory(e.target.value);
-          return {
-            section: e.target.value,
-            category: '',
-            type: '',
-            value: ''
-          };
-        default:
-          return prevState;
-      }
-    });
+  const selectCategory = async () => {
+    let data = await axios.get(`/api/categories`);
+    setCategories(data.data.data);
   };
 
-  // get Select Data
-  const selectSection = async () => {
-    let data = await axios.get(`/api/sections`);
-    setSection(data.data.data);
-  };
-
-  const getSubCategory = async (category_id) => {
-    let data = await axios.get(`/api/category/sub_categories/${category_id}`);
-    setSubcategory(data.data.data);
-  };
-
-  const getCategory = async (id) => {
-    let data = await Section.filter((value) => {
-      return value._id === id;
-    });
-    data.length > 0 ? setCategory(data[0]['category']) : setCategory([]);
-  };
-
-  const fetchattribute = async (att) => {
-    let attributeId = [];
-    await subcategory.forEach((value) => {
-      if (value._id === att) {
-        value.attributes.forEach((val) => {
-          attributeId.push(val.attribute);
-        });
-      }
-    });
-    let data = await axios.post(`/api/attributes`, { id: attributeId });
-    setAttribute(data.data);
+  const selectAttributes = async () => {
+    let data = await axios.get(`/api/attributes`);
+    setAttributes(data.data);
   };
 
   const indexKey = '_id';
   let data = React.useMemo(
-    () => products.products || [],
-    [products],
+    () => sub_categories.sub_categories || [],
+    [sub_categories],
   );
+
 
   const columns = React.useMemo(
     () => [
+
       {
-        Header: "Product Name",
+        Header: "Category",
+        accessor: "category.name",
+        Cell: ({ cell: { value } }) => (
+          capitalize(value)
+        )
+      },
+      {
+        Header: "Sub Category",
         accessor: "name",
+        Cell: ({ cell: { value } }) => (
+          capitalize(value)
+        )
       },
-      {
-        Header: "Description",
-        accessor: "description",
-      },
-      {
-        Header: "Price",
-        accessor: "price",
-        isNumeric: true,
-      }, {
-        Header: "SKU",
-        accessor: "sku",
-      }
     ],
     [],
   )
@@ -162,8 +136,9 @@ function DataTable() {
   );
 
   // for next previous pagination
-  let next = products.page == null ? 1 : products.page + 1;
-  let prev = products.page == null ? 1 : products.page - 1;
+  let next = sub_categories.page == null ? 1 : sub_categories.page + 1;
+  let prev = sub_categories.page == null ? 1 : sub_categories.page - 1;
+
 
   const handleMultiSelect = (event) => {
     let key = event.target.value;
@@ -196,57 +171,63 @@ function DataTable() {
 
   const deleteHandle = async (id = null) => {
     let deleteId = id != null ? id.split(",") : id;
-    let message = 'Are you sure to delete this product';
+    setMessage('Are you sure to delete this sub_category?');
     if (id == null) {
       deleteId = selectedItems;
-      message = 'Are you sure to delete these products';
+      setMessage('Are you sure to delete these sub_categories?')
     }
-    if (confirm(message)) {
-      let data = await axios.delete(`/api/admin/product?Id=${deleteId}`);
-      if (data.status == 200) {
-        fetchData();
-        setSelectedItems(() => {
-          return [];
-        })
-      } else {
-        console.log(data.message)
-      }
-    }
+    setUrl(`/api/admin/sub_categories?Id=${deleteId}`)
+    setIsOpen(true);
   }
 
   // for single Edit 
-  const HandleSingleEdit = (Id, name, price, description) => {
-    setIsEditForm(true)
+  const HandleSingleEdit = (Id, name, category, attr) => {
+    let att = attr.map(item => { return item.attribute })
+    setEdit(true)
+    form.name = name;
+    form.category = category._id;
+    form.attributes = att;
+    form._id = Id;
     onOpen();
-    productData.name = name;
-    productData.price = price;
-    productData.description = description;
-    productData.updateId = Id;
   }
 
   let HandleForm = (status) => {
-    console.log(status)
-    setIsEditForm(status)
+    setEdit(status)
+    setForm({ name: '', _id: '', category: '', attributes: '' })
     onOpen();
   }
 
 
   // edit table
   const editHandle = async () => {
-    let updateId = productData.updateId != 'null' ? productData.updateId.split(",") : productData.updateId;
-    if (updateId == '') {
-      updateId = selectedItems;
+    let _id = form._id != 'null' ? form._id.split(",") : form._id;
+    if (_id == '') {
+      _id = selectedItems;
     }
-    let data = await axios.put(`/api/admin/product?Id=${updateId}`, productData);
-    if (data.status == 200) {
-      fetchData();
-      onClose();
-      setProductData({ updateId: '', name: '', price: '', description: '' })
-      setSelectedItems(() => {
-        return [];
-      })
-    } else {
-      console.log(data.message)
+    if (form.category == '') {
+      errors.category = 'category is required';
+    }
+    if (form.name == '') {
+      errors.name = 'sub category name is required';
+    }
+    form.attributes = await makeAttribute();
+    if (form.attributes.length == 0) {
+      errors.attributes = 'attribute is required';
+    }
+    setError(errors);
+    if (Object.keys(errors).length == 0) {
+      let data = await axios.put(`/api/admin/sub_categories?Id=${_id}`, form);
+      console.log(data)
+      if (data.status == 200) {
+        fetchData();
+        onClose();
+        setForm({ name: '', _id: '', category: '', attributes: '' })
+        setSelectedItems(() => {
+          return [];
+        })
+      } else {
+        console.log(data.message)
+      }
     }
   }
 
@@ -257,86 +238,63 @@ function DataTable() {
     fetchData();
   }
 
-  const resetHandle = async () => {
-    form.section = '';
-    form.category = '';
-    form.type = '';
-    form.value = '';
-    fetchData();
+  const submitHandle = async () => {
+    if (form.category == '') {
+      errors.category = 'category is required';
+    }
+    if (form.name == '') {
+      errors.name = 'sub category name is required';
+    }
+    form.attributes = await makeAttribute();
+    if (form.attributes.length == 0) {
+      errors.attributes = 'attribute is required';
+    }
+    setError(errors);
+    if (Object.keys(errors).length == 0) {
+      let data = await axios.post(`/api/admin/sub_categories`, form);
+      if (data.status == 200) {
+        fetchData();
+        onClose();
+        setForm({ name: '', _id: '', category: '', attributes: '' })
+        setSelectedItems(() => {
+          return [];
+        })
+      } else {
+        console.log(data.data.message)
+      }
+    }
   }
 
+
+
+  const makeAttribute = () => {
+    let ArrayAttribute = []
+    let att = [];
+    $('label.attributes').each(function (i, el) {
+      let attr = $(this).find('span').attr('data-checked');
+      if (typeof attr !== 'undefined' && attr !== false) {
+        ArrayAttribute.push($(this).find('input').val())
+      }
+    });
+    attributes.filter(items => {
+      if (ArrayAttribute.includes(items._id)) {
+        let _id = items._id;
+        let val = [];
+        items.values.map(values => {
+          val.push(values._id)
+        })
+        att.push({ attribute: _id, values: val })
+      }
+    });
+    return att;
+  }
   return (
     <>
       <Stack spacing={4} direction="row" justifyContent="flex-end" width="full" marginBottom="3">
         {selectedItems.length && <>
           <Button size="sm" colorScheme="red" onClick={() => deleteHandle()}>
             <DeleteIcon />&nbsp;&nbsp;Bulk Delete</Button>
-          <Button size="sm" colorScheme="blue" onClick={() => HandleForm(true)}><EditIcon />&nbsp;&nbsp;Bulk Edit</Button>
         </>}
-        <Button size="sm" colorScheme="green" onClick={() => HandleForm(false)}><AddIcon />&nbsp;&nbsp;Add</Button>
-      </Stack>
-      <Stack spacing={4} direction="row" justifyContent="flex-end" width="full" marginBottom="3">
-        <Text fontSize="md" fontWeight="bold">Filter : </Text>
-        <Select
-          placeholder="--Section--"
-          name="section"
-          size="sm"
-          width="150px"
-          onChange={(e) => handleChange(e)}
-          value={form.section}
-
-        >
-          {Section.map((section) => (
-            <option key={section._id} value={section._id}>
-              {capitalize(section.name)}
-            </option>
-          ))}
-        </Select>
-        <Select
-          placeholder="--Category--"
-          name="category"
-          size="sm"
-          width="150px"
-          onChange={(e) => handleChange(e)}
-          value={form.category}
-          disabled={category?.length === 0 || form.section === ''}
-        >
-          {category.map((cat) => (
-            <option key={cat._id} value={cat._id}>
-              {capitalize(cat.name)}
-            </option>
-          ))}
-        </Select>
-        <Select
-          placeholder="--Sub Category--"
-          name="type"
-          size="sm"
-          width="150px"
-          onChange={(e) => handleChange(e)}
-          value={form.type}
-          disabled={form?.category === '' || subcategory?.length === 0}
-        >
-          {subcategory.map((subcat) => (
-            <option key={subcat._id} value={subcat._id}>
-              {capitalize(subcat.name)}
-            </option>
-          ))}
-        </Select>
-        <Select
-          placeholder="--Attributes--"
-          name="value"
-          size="sm"
-          width="150px"
-          onChange={(e) => handleChange(e)}
-          value={form.value}
-          disabled={form?.type === '' || attribute?.length === 0}
-        >
-          {attribute.map((attr) => (
-            <option key={attr._id} value={attr._id}>
-              {capitalize(attr.name)}
-            </option>
-          ))}
-        </Select>
         <Input
           size="sm"
           type="text"
@@ -348,11 +306,7 @@ function DataTable() {
         <Button size="sm" colorScheme="blue" onClick={() => filterHandle()}>
           Submit
         </Button>
-        <Button size="sm" colorScheme="blue" onClick={() => resetHandle()}>
-          Reset
-        </Button>
-
-
+        <Button size="sm" colorScheme="green" onClick={() => HandleForm(false)}><AddIcon />&nbsp;&nbsp;Add</Button>
       </Stack>
       <Divider orientation="horizontal" variant="solid" colorScheme="blue" />
       <Table {...getTableProps()}>
@@ -379,12 +333,6 @@ function DataTable() {
                   </chakra.span>
                 </Th>
               ))}
-              {/* <Th>
-                isFeatured
-              </Th>
-              <Th>
-                Rating
-              </Th> */}
               <Th>
                 Action
               </Th>
@@ -406,17 +354,9 @@ function DataTable() {
                       <Td {...cell.getCellProps()}>{cell.render("Cell")}</Td>
                     );
                   })}
-                  {/* <Td align="center">
-                    {row.original['isFeatured'] == false ? <CloseIcon color="red.500" /> : <CheckIcon color="green.500" />}
-                  </Td>
-                  <Td>
-                    <ProductRatingStars>
-                      <Rating value={row.original['rating'] || 0} />
-                    </ProductRatingStars>
-                  </Td> */}
                   <Td>
                     <Stack direction="row" spacing={4} align="center">
-                      <Link onClick={() => HandleSingleEdit(row.original[indexKey], row.original['name'], row.original['price'], row.original['description'])}>
+                      <Link onClick={() => HandleSingleEdit(row.original[indexKey], row.original['name'], row.original['category'], row.original['attributes'])}>
                         <EditIcon color="green.400" /></Link> &nbsp;
                       &nbsp;
                       &nbsp;
@@ -436,7 +376,7 @@ function DataTable() {
             <IconButton
               aria-label="First Page"
               onClick={() => pagination(1)}
-              isDisabled={products.page == 1}
+              isDisabled={sub_categories.page == 1}
               icon={<ArrowLeftIcon h={3} w={3} />}
               mr={4}
             />
@@ -445,7 +385,7 @@ function DataTable() {
             <IconButton
               aria-label="Previous Page"
               onClick={() => pagination(prev)}
-              isDisabled={products.page == 1}
+              isDisabled={sub_categories.page == 1}
               icon={<ChevronLeftIcon h={6} w={6} />}
             />
           </Tooltip>
@@ -455,15 +395,15 @@ function DataTable() {
           <Text flexShrink={0} mr={8}>
             Page{" "}
             <Text fontWeight="bold" as="span">
-              {products.page != null ? Number(products.page) : 1}
+              {sub_categories.page != null ? Number(sub_categories.page) : 1}
             </Text>{" "}
             of{" "}
             <Text fontWeight="bold" as="span">
-              {products.pages}
+              {sub_categories.pages}
             </Text>&nbsp;
             {/* {" / "} */}
             <Text as="span">
-              ({products.total} Records)
+              ({sub_categories.total} Records)
             </Text>
           </Text>
           <Text flexShrink={0}>Go to page:</Text>{" "}
@@ -472,12 +412,12 @@ function DataTable() {
             mr={8}
             w={28}
             min={1}
-            max={products.pages}
+            max={sub_categories.pages}
             onChange={(value) => {
               const page = value ? value : 0;
               pagination(page);
             }}
-            defaultValue={products.page != null ? products.page + 1 : 1}
+            defaultValue={sub_categories.page != null ? sub_categories.page + 1 : 1}
           >
             <NumberInputField />
             <NumberInputStepper>
@@ -505,22 +445,23 @@ function DataTable() {
             <IconButton
               aria-label="Next Page"
               onClick={() => pagination(next)}
-              isDisabled={products.page == null || products.pages == products.page}
+              isDisabled={sub_categories.page == null || sub_categories.pages == sub_categories.page}
               icon={<ChevronRightIcon h={6} w={6} />}
             />
           </Tooltip>
           <Tooltip label="Last Page">
             <IconButton
               aria-label="Last Page"
-              onClick={() => pagination((products.pages))}
-              isDisabled={products.page == null || products.pages == products.page}
+              onClick={() => pagination((sub_categories.pages))}
+              isDisabled={sub_categories.page == null || sub_categories.pages == sub_categories.page}
               icon={<ArrowRightIcon h={3} w={3} />}
               ml={4}
             />
           </Tooltip>
         </Flex>
       </Flex>
-      <CustomModal isOpen={isOpen} onClose={onClose} Edit={isEditForm} fetchData={fetchData} editHandle={editHandle} productData={productData} setProductData={setProductData} />
+      <CustomModal isOpen={isOpen} onClose={onClose} form={form} setForm={setForm} Edit={edit} submitHandle={submitHandle} editHandle={editHandle} error={error} categories={categories} attributes={attributes} />
+      <AlertBox isOpen={isOpenAlert} setIsOpen={setIsOpen} message={message} url={url} fetchData={fetchData} />
     </>
   )
 }
