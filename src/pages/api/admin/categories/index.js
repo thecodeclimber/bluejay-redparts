@@ -3,7 +3,7 @@ const { Category } = require('../../../../../models');
 import { withApiAuthRequired, getSession } from '@auth0/nextjs-auth0';
 import { CardGroup } from 'reactstrap';
 const { isAdmin } = require('../../../../../utils/middleware');
-export default withApiAuthRequired(async (req, res) => {
+export default dbConnect(async (req, res) => {
     const { user } = getSession(req, res);
     var admin = await isAdmin(user?.sub);
     if (admin) {
@@ -60,7 +60,6 @@ export default withApiAuthRequired(async (req, res) => {
                     };
                 };
                 let allCategoryData = await getAllCategories();
-                console.log(allCategoryData)
                 res.json({ ...allCategoryData });
                 break;
             case 'PUT':

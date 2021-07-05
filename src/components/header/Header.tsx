@@ -45,8 +45,10 @@ function Header() {
   );
   const accountIndicatorValue = user ? (
     <FormattedMessage id="TEXT_INDICATOR_ACCOUNT_VALUE" />
-  ):  <FormattedMessage id="TEXT_INDICATOR_ACCOUNT_LOGOUT_VALUE" />;
-  
+  ) : (
+    <FormattedMessage id="TEXT_INDICATOR_ACCOUNT_LOGOUT_VALUE" />
+  );
+
   const accountIndicatorCtrl = useRef<IIndicatorController | null>(null);
 
   const cart = useCart();
@@ -109,7 +111,7 @@ function Header() {
         />
 
         <Indicator
-          href={user?'/api/auth/logout':'/api/auth/login'}
+          href={user ? '/api/auth/logout' : '/api/auth/login'}
           icon={<Person32Svg />}
           label={accountIndicatorLabel}
           value={accountIndicatorValue}

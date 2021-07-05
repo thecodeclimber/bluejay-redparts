@@ -20,17 +20,17 @@ exports.token = async () => {
         data: data
     };
 
-    let ReadTokenData = JSON.parse(await fs.readFileSync('token.json'));
-    let token_expire_in = (Number(ReadTokenData.current_date) + Number(ReadTokenData.expires_in)) - 600;
+    // let ReadTokenData = JSON.parse(await fs.readFileSync('token.json'));
+    // let token_expire_in = (Number(ReadTokenData.current_date) + Number(ReadTokenData.expires_in)) - 600;
 
-    if (token_expire_in <= current_date) {
-        let access_token = await axios.request(config);
-        access_token.data.current_date = current_date;
-        await fs.writeFileSync('token.json', JSON.stringify(access_token.data))
-        return access_token.data.access_token;
-    } else {
-        return ReadTokenData.access_token;
-    }
+    // if (token_expire_in <= current_date) {
+    let access_token = await axios.request(config);
+    // access_token.data.current_date = current_date;
+    // await fs.writeFileSync('token.json', JSON.stringify(access_token.data))
+    return access_token.data.access_token;
+    // } else {
+    //     return ReadTokenData.access_token;
+    // }
 
 
 }

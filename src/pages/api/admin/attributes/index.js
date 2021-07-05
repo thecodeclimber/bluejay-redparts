@@ -3,7 +3,7 @@ const { Attribute } = require('../../../../../models');
 var mongoose = require('mongoose');
 import { withApiAuthRequired, getSession } from '@auth0/nextjs-auth0';
 const { isAdmin } = require('../../../../../utils/middleware');
-export default withApiAuthRequired(async (req, res) => {
+export default dbConnect(async (req, res) => {
     const { user } = getSession(req, res);
     var admin = await isAdmin(user?.sub);
     if (admin) {
