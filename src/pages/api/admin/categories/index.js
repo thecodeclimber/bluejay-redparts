@@ -1,7 +1,7 @@
 const dbConnect = require('../../../../../utils/dbConnect');
-const { Category } = require('../../../../../models');
+const { Category, SubCategory } = require('../../../../../models');
 import { withApiAuthRequired, getSession } from '@auth0/nextjs-auth0';
-import { CardGroup } from 'reactstrap';
+import mongoose from 'mongoose';
 const { isAdmin } = require('../../../../../utils/middleware');
 export default dbConnect(async (req, res) => {
     const { user } = getSession(req, res);
@@ -9,7 +9,7 @@ export default dbConnect(async (req, res) => {
     if (admin) {
         switch (req.method) {
             case 'GET':
-                let { page, limit, sort, key } = req.query;
+                let { page, limit, sort, key, section, type } = req.query;
                 page = parseInt(page);
                 const skipItems = page
                     ? page == 1
@@ -22,34 +22,45 @@ export default dbConnect(async (req, res) => {
                 if (key != 'default') {
                     regex = new RegExp(key, 'i');
                 }
+                section = section != '' ? { 'section._id': mongoose.Types.ObjectId(section) } : {}
                 key = key != 'default' ? { $or: [{ 'name': regex }, { 'section.name': regex }] } : {};
                 const getAllCategories = async () => {
-                    const total = await await Category.aggregate([
-                        {
-                            "$lookup": {
-                                "from": "sections",
-                                "localField": "section",
-                                "foreignField": "_id",
-                                "as": "section"
-                            }
-                        },
-                        { "$unwind": "$section" },
-                        { "$match": key }]).exec();
-                    let data = await Category.aggregate([
-                        {
-                            "$lookup": {
-                                "from": "sections",
-                                "localField": "section",
-                                "foreignField": "_id",
-                                "as": "section"
-                            }
-                        },
-                        { "$unwind": "$section" },
-                        { "$match": key },
-                        { "$sort": { "name": -1 } },
-                        { "$skip": skipItems },
-                        { "$limit": limit },
-                    ]).exec();
+                    let total;
+                    let data;
+                    if (type == 'default') {
+                        total = await Category.aggregate([
+                            {
+                                "$lookup": {
+                                    "from": "sections",
+                                    "localField": "section",
+                                    "foreignField": "_id",
+                                    "as": "section"
+                                }
+                            },
+                            { "$unwind": "$section" }, { "$match": { $and: [key, section] } }]).exec();
+
+                        data = await Category.aggregate([
+                            {
+                                "$lookup": {
+                                    "from": "sections",
+                                    "localField": "section",
+                                    "foreignField": "_id",
+                                    "as": "section"
+                                }
+                            },
+                            { "$unwind": "$section" },
+                            { "$match": { $and: [key, section] } },
+                            { "$sort": { "name": -1 } },
+                            { "$skip": skipItems },
+                            { "$limit": limit },
+                        ]).exec();
+                    } else {
+                        total = await Category.find({ $and: [key, { 'section': null }] }).exec();
+                        data = await Category.find({ $and: [key, { 'section': null }] }).skip(skipItems)
+                            .limit(limit)
+                            .sort({ name: sort })
+                            .exec();
+                    }
                     return {
                         categories: data,
                         page,
@@ -82,6 +93,7 @@ export default dbConnect(async (req, res) => {
                 if (deleteData.deletedCount == 0) {
                     res.status(404).json({ 'message': 'product not found' });
                 }
+                await SubCategory.updateMany({ category: { $in: deleteId } }, { category: null });
                 res.status(200).json({ 'message': 'product deleted' });
                 break;
             case 'POST':

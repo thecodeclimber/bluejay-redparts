@@ -145,9 +145,9 @@ function DataTable() {
   }
 
 
-  const deleteHandle = async (id = null) => {
+  const deleteHandle = async (id = null, name = null) => {
     let deleteId = id != null ? id.split(",") : id;
-    setMessage('Are you sure to delete this attribute?');
+    setMessage(`Are you want to delete ${name}?`);
     if (id == null) {
       deleteId = selectedItems;
       setMessage('Are you sure to delete these attributes?')
@@ -338,7 +338,7 @@ function DataTable() {
                         <EditIcon color="green.400" /></Link> &nbsp;
                       &nbsp;
                       &nbsp;
-                      <Link onClick={() => deleteHandle(row.original[indexKey])}>
+                      <Link onClick={() => deleteHandle(row.original[indexKey], row.original['name'])}>
                         <DeleteIcon color="red.400" /></Link>
                     </Stack>
                   </Td>

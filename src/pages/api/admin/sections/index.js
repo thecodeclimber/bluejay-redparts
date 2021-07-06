@@ -1,5 +1,5 @@
 const dbConnect = require('../../../../../utils/dbConnect');
-const { Section } = require('../../../../../models');
+const { Section, Category } = require('../../../../../models');
 import { withApiAuthRequired, getSession } from '@auth0/nextjs-auth0';
 const { isAdmin } = require('../../../../../utils/middleware');
 export default dbConnect(async (req, res) => {
@@ -59,6 +59,7 @@ export default dbConnect(async (req, res) => {
                 if (deleteData.deletedCount == 0) {
                     res.status(404).json({ 'message': 'product not found' });
                 }
+                await Category.updateMany({ section: { $in: deleteId } }, { section: null });
                 res.status(200).json({ 'message': 'product deleted' });
                 break;
             case 'POST':

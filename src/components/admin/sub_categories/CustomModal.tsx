@@ -35,7 +35,6 @@ function CustomModal(props: any) {
     attributes,
   } = props;
   const capitalize = (string: any) => string[0].toUpperCase() + string.slice(1);
-  console.log(form);
   return (
     <>
       <Modal isOpen={isOpen} onClose={onClose} size="xl">

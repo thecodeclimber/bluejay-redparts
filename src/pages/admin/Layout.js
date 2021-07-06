@@ -23,9 +23,15 @@ function Layout(props) {
   useEffect(() => {
     const fetch = async () => {
       const res = await axios.get('/admin');
+      localStorage.setItem('xxxxxxaxxxxdxxxxmxxxixxn', res.data.status);
       setAuth(res.data.status);
     };
-    fetch();
+    let isAdmin = localStorage.getItem('xxxxxxaxxxxdxxxxmxxxixxn');
+    if (isAdmin == undefined || isAdmin == false) {
+      fetch()
+    } else {
+      setAuth(isAdmin)
+    }
   }, []);
   const [isSidebarOpen, setSidebarOpen] = useState(false)
   const variants = useBreakpointValue({ base: mdVariant, md: smVariant })
@@ -33,44 +39,31 @@ function Layout(props) {
   const toggleSidebar = () => {
     setSidebarOpen(!isSidebarOpen)
   }
-  console.log(toggleSidebar)
   return (
     <>
-
-      {/* {auth ?
-        <Flex w="100%">
-          <Nav />
-          <Box w="80%">
+      {auth ? <>
+        <Nav
+          variant={variants?.navigation}
+          isOpen={isSidebarOpen}
+          onClose={toggleSidebar}
+        />
+        <Box ml={!variants?.navigationButton}>
+          <Box>
             <Card style={{ margin: '2rem' }}>
-              <CardBody style={{ overflow: 'auto' }}>
-                {children}
-              </CardBody>
+              <Box>
+                {variants?.navigationButton && (
+                  <IconButton
+                    icon={<ChevronRightIcon w={8} h={8} />}
+                    colorScheme="blackAlpha"
+                    variant="outline"
+                    onClick={toggleSidebar}
+                  />
+                )}
+              </Box>
+              {children}
             </Card>
           </Box>
-        </Flex> : (<Home />)} */}
-      {/* <Flex w="100%"> */}
-      <Nav
-        variant={variants?.navigation}
-        isOpen={isSidebarOpen}
-        onClose={toggleSidebar}
-      />
-      <Box ml={!variants?.navigationButton}>
-        <Box>
-          <Card style={{ margin: '2rem' }}>
-            <Box>
-              {variants?.navigationButton && (
-                <IconButton
-                  icon={<ChevronRightIcon w={8} h={8} />}
-                  colorScheme="blackAlpha"
-                  variant="outline"
-                  onClick={toggleSidebar}
-                />
-              )}
-            </Box>
-            {children}
-          </Card>
-        </Box>
-      </Box>
+        </Box></> : <Home />}
     </>
   );
 }

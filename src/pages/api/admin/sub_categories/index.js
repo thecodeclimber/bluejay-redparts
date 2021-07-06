@@ -1,6 +1,7 @@
 const dbConnect = require('../../../../../utils/dbConnect');
 const { SubCategory } = require('../../../../../models');
 import { withApiAuthRequired, getSession } from '@auth0/nextjs-auth0';
+import mongoose from "mongoose";
 const { isAdmin } = require('../../../../../utils/middleware');
 export default dbConnect(async (req, res) => {
     const { user } = getSession(req, res);
@@ -8,7 +9,7 @@ export default dbConnect(async (req, res) => {
     if (admin) {
         switch (req.method) {
             case 'GET':
-                let { page, limit, sort, key } = req.query;
+                let { page, limit, sort, key, section, category, type } = req.query;
                 page = parseInt(page);
                 const skipItems = page
                     ? page == 1
@@ -21,34 +22,55 @@ export default dbConnect(async (req, res) => {
                 if (key != 'default') {
                     regex = new RegExp(key, 'i');
                 }
+                let filter = {}
+                if (section != '') {
+                    filter = { 'section._id': mongoose.Types.ObjectId(section) }
+                }
+                if (category != '') {
+                    filter = { 'category._id': mongoose.Types.ObjectId(category) }
+                }
+                if (section != '' && category != '') {
+                    filter = { 'section._id': mongoose.Types.ObjectId(section), 'category._id': mongoose.Types.ObjectId(category) }
+                }
+
                 key = key != 'default' ? { $or: [{ 'name': regex }, { 'category.name': regex }] } : {};
                 const getAllCategories = async () => {
-                    const total = await await SubCategory.aggregate([
-                        {
-                            "$lookup": {
-                                "from": "categories",
-                                "localField": "category",
-                                "foreignField": "_id",
-                                "as": "category"
-                            }
-                        },
-                        { "$unwind": "$category" },
-                        { "$match": key }]).exec();
-                    let data = await SubCategory.aggregate([
-                        {
-                            "$lookup": {
-                                "from": "categories",
-                                "localField": "category",
-                                "foreignField": "_id",
-                                "as": "category"
-                            }
-                        },
-                        { "$unwind": "$category" },
-                        { "$match": key },
-                        { "$sort": { "name": -1 } },
-                        { "$skip": skipItems },
-                        { "$limit": limit },
-                    ]).exec();
+                    let total;
+                    let data;
+                    if (type == 'default') {
+                        total = await await SubCategory.aggregate([
+                            {
+                                "$lookup": {
+                                    "from": "categories",
+                                    "localField": "category",
+                                    "foreignField": "_id",
+                                    "as": "category"
+                                }
+                            },
+                            { "$unwind": "$category" },
+                            { "$match": { $and: [key, filter] } }]).exec();
+                        data = await SubCategory.aggregate([
+                            {
+                                "$lookup": {
+                                    "from": "categories",
+                                    "localField": "category",
+                                    "foreignField": "_id",
+                                    "as": "category"
+                                }
+                            },
+                            { "$unwind": "$category" },
+                            { "$match": { $and: [key, filter] } },
+                            { "$sort": { "name": -1 } },
+                            { "$skip": skipItems },
+                            { "$limit": limit },
+                        ]).exec();
+                    } else {
+                        total = await SubCategory.find({ $and: [key, { 'category': null }] }).exec();
+                        data = await SubCategory.find({ $and: [key, { 'category': null }] }).skip(skipItems)
+                            .limit(limit)
+                            .sort({ name: sort })
+                            .exec();
+                    }
                     return {
                         sub_categories: data,
                         page,

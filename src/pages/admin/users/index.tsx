@@ -1,11 +1,13 @@
-// import DataTable from '~/components/admin/sub_categories/DataTable';
+import DataTable from '~/components/admin/users/DataTable';
 import Layout from '../Layout';
-function sub_categories(props: any) {
+function users(props: any) {
   return (
     <>
-      <Layout>users</Layout>
+      <Layout>
+        <DataTable />
+      </Layout>
     </>
   );
 }
 
-export default sub_categories;
+export default users;

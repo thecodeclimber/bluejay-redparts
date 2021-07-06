@@ -8,13 +8,9 @@ import {
   DrawerBody,
   DrawerContent,
   VStack,
-  Flex,
+  Avatar,
   Text,
-  Icon,
-  Menu,
-  MenuButton,
 } from '@chakra-ui/react';
-import NavItem from './NavItem';
 import url from '~/services/url';
 interface Props {
   onClose: Function;
@@ -29,44 +25,74 @@ const SidebarContent = ({ onClose, path }: any) => (
     <Button
       onClick={onClose}
       w="100%"
+      borderRadius={'none'}
+      textAlign="left"
       colorScheme={path === '/admin' ? 'blue' : 'blackAlpha'}
     >
-      <Link href={url.admin()}>Products</Link>
+      <i className="fab fa-product-hunt"></i>&nbsp;
+      <Link href={url.admin()}>
+        <Text w={'100%'}>Products</Text>
+      </Link>
     </Button>
     <Button
       onClick={onClose}
       w="100%"
+      borderRadius={'none'}
+      textAlign="left"
       colorScheme={path == '/admin/sections' ? 'blue' : 'blackAlpha'}
     >
-      <Link href={url.adminSectionPage()}>Sections</Link>
+      <i className="fas fa-list"></i>&nbsp;
+      <Link href={url.adminSectionPage()}>
+        <Text w={'100%'}>Sections</Text>
+      </Link>
     </Button>
     <Button
       onClick={onClose}
       w="100%"
+      borderRadius={'none'}
+      textAlign="left"
       colorScheme={path == '/admin/categories' ? 'blue' : 'blackAlpha'}
     >
-      <Link href={url.adminCategoryPage()}>Categories</Link>
+      <i className="fas fa-list"></i>&nbsp;
+      <Link href={url.adminCategoryPage()}>
+        <Text w={'100%'}>Categories</Text>
+      </Link>
     </Button>
     <Button
       onClick={onClose}
       w="100%"
+      borderRadius={'none'}
+      textAlign="left"
       colorScheme={path == '/admin/sub_categories' ? 'blue' : 'blackAlpha'}
     >
-      <Link href={url.adminSubCategoryPage()}>Sub Categories</Link>
+      <i className="fas fa-list"></i>&nbsp;
+      <Link href={url.adminSubCategoryPage()}>
+        <Text w={'100%'}>Sub Categories</Text>
+      </Link>
     </Button>
     <Button
       onClick={onClose}
       w="100%"
+      borderRadius={'none'}
+      textAlign="left"
       colorScheme={path == '/admin/attributes' ? 'blue' : 'blackAlpha'}
     >
-      <Link href={url.adminAttributePage()}>Attributes</Link>
+      <i className="fas fa-list"></i>&nbsp;
+      <Link href={url.adminAttributePage()}>
+        <Text w={'100%'}>Attributes</Text>
+      </Link>
     </Button>
     <Button
       onClick={onClose}
       w="100%"
+      borderRadius={'none'}
+      textAlign="left"
       colorScheme={path == '/admin/users' ? 'blue' : 'blackAlpha'}
     >
-      <Link href={url.adminUserPage()}>Users</Link>
+      <i className="far fa-user"></i>&nbsp;
+      <Link href={url.adminUserPage()}>
+        <Text w={'100%'}>Users</Text>
+      </Link>
     </Button>
   </VStack>
 );
@@ -74,7 +100,7 @@ const SidebarContent = ({ onClose, path }: any) => (
 const Nav = ({ isOpen, variant, onClose }: Props) => {
   const router = useRouter();
   let path: any = router.pathname;
-  console.log(path);
+
   return variant === 'sidebar' ? (
     <Box
       position="fixed"
@@ -84,17 +110,16 @@ const Nav = ({ isOpen, variant, onClose }: Props) => {
       top={0}
       h="100%"
       bg="#1E74DF"
-      zIndex="9999"
     >
       <SidebarContent onClick={onClose} path={path} />
     </Box>
   ) : (
     <Drawer isOpen={isOpen} placement="left" onClose={() => onClose()}>
       <DrawerOverlay>
-        <DrawerContent>
-          <DrawerCloseButton />
-          <DrawerHeader>Admin Menu</DrawerHeader>
-          <DrawerBody>
+        <DrawerContent bg="#323232">
+          <DrawerCloseButton color="white" />
+          <DrawerHeader color="white">Admin Menu</DrawerHeader>
+          <DrawerBody pl={0} pr={0}>
             <SidebarContent onClick={onClose} />
           </DrawerBody>
         </DrawerContent>

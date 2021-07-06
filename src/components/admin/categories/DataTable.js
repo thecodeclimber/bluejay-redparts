@@ -51,12 +51,16 @@ function DataTable() {
   const [loader, setLoader] = useState(false);
   const [edit, setEdit] = useState(false);
   const [message, setMessage] = useState('');
+  const [Section, setSection] = useState([]);
   const [url, setUrl] = useState('');
   const [isOpenAlert, setIsOpen] = React.useState(false)
   const [form, setForm] = useState({
     section: '',
     name: '',
     _id: ''
+  });
+  const [filterForm, setFilterForm] = useState({
+    section: '',
   });
   const options = useShopOptions();
   let pageValue = [5, 10, 20, 50, 100];
@@ -65,10 +69,11 @@ function DataTable() {
   const [error, setError] = useState({});
   useEffect(() => {
     fetchData();
+    selectSection();
   }, []);
   const fetchData = async () => {
     setLoader(true);
-    let data = await axios.get(`/api/admin/categories/?page=${options?.page ?? 1}&limit=${options?.limit ?? 20}&sort=${options.sort ?? 'default'}&key=${options.key ?? 'default'}`);
+    let data = await axios.get(`/api/admin/categories/?page=${options?.page ?? 1}&limit=${options?.limit ?? 20}&sort=${options.sort ?? 'default'}&key=${options.key ?? 'default'}&section=${filterForm.section}&type=${options?.type ?? 'default'}`);
     setCategories(data.data);
     setLoader(false);
   };
@@ -76,7 +81,10 @@ function DataTable() {
   const capitalize = (string) =>
     string[0].toUpperCase() + string.slice(1);
 
-
+  const selectSection = async () => {
+    let data = await axios.get(`/api/sections`);
+    setSection(data.data.data);
+  };
   const indexKey = '_id';
   let data = React.useMemo(
     () => categories.categories || [],
@@ -88,9 +96,7 @@ function DataTable() {
       {
         Header: "Section",
         accessor: "section.name",
-        Cell: ({ cell: { value } }) => (
-          capitalize(value)
-        )
+
       },
       {
         Header: "Category",
@@ -155,12 +161,14 @@ function DataTable() {
   }
 
 
-  const deleteHandle = async (id = null) => {
+
+
+  const deleteHandle = async (id = null, name = null) => {
     let deleteId = id != null ? id.split(",") : id;
-    setMessage('Are you sure to delete this category?');
+    setMessage(`Are you want to delete ${name}?`);
     if (id == null) {
       deleteId = selectedItems;
-      setMessage('Are you sure to delete these categories?')
+      setMessage('Are you want to delete these categories?')
     }
     setUrl(`/api/admin/categories?Id=${deleteId}`)
     setIsOpen(true);
@@ -169,7 +177,6 @@ function DataTable() {
   console.log(categories)
   // for single Edit 
   const HandleSingleEdit = (Id, name, section) => {
-    console.log(section._id)
     setEdit(true)
     form.name = name;
     form.section = section._id;
@@ -243,7 +250,20 @@ function DataTable() {
 
   }
 
+  const resetHandle = async () => {
+    options.section = '';
+    options.key = '';
+    filterForm.section = '';
+    $('#keysearch').val('')
+    fetchData();
+  }
 
+  const changeType = (type) => {
+    options.key = $('#keysearch').val();
+    options.page = 1;
+    options.type = type;
+    fetchData();
+  }
   return (
     <>
       <Stack spacing={4} direction="row" justifyContent="flex-end" width="full" marginBottom="3">
@@ -251,6 +271,24 @@ function DataTable() {
           <Button size="sm" colorScheme="red" onClick={() => deleteHandle()}>
             <DeleteIcon />&nbsp;&nbsp;Bulk Delete</Button>
         </>}
+
+        <Text fontSize="md" fontWeight="bold">Filter : </Text>
+        <Select
+          placeholder="--Section--"
+          name="section"
+          size="sm"
+          id="section"
+          width="150px"
+          onChange={(e) => setFilterForm({ ...filterForm, section: e.target.value })}
+          value={filterForm.section}
+
+        >
+          {Section.map((section) => (
+            <option key={section._id} value={section._id}>
+              {capitalize(section.name)}
+            </option>
+          ))}
+        </Select>
         <Input
           size="sm"
           type="text"
@@ -262,7 +300,16 @@ function DataTable() {
         <Button size="sm" colorScheme="blue" onClick={() => filterHandle()}>
           Submit
         </Button>
+        <Button size="sm" colorScheme="blue" onClick={() => resetHandle()}>
+          Reset
+        </Button>
         <Button size="sm" colorScheme="green" onClick={() => HandleForm(false)}><AddIcon />&nbsp;&nbsp;Add</Button>
+
+      </Stack>
+      <Stack spacing={4} direction="row" justifyContent="flex-start" width="full" marginBottom="3">
+        <Button size="sm" colorScheme="blue" isActive={options.type == undefined || options.type == 'default' ? true : false} onClick={() => changeType('default')} >Categorized</Button>
+        <Button size="sm" colorScheme="blue" isActive={options.type == 1 ? true : false} onClick={() => changeType(1)}>UnCategorized</Button>
+
       </Stack>
       <Divider orientation="horizontal" variant="solid" colorScheme="blue" />
       <Table {...getTableProps()}>
@@ -316,7 +363,7 @@ function DataTable() {
                         <EditIcon color="green.400" /></Link> &nbsp;
                       &nbsp;
                       &nbsp;
-                      <Link onClick={() => deleteHandle(row.original[indexKey])}>
+                      <Link onClick={() => deleteHandle(row.original[indexKey], row.original['name'])}>
                         <DeleteIcon color="red.400" /></Link>
                     </Stack>
                   </Td>
