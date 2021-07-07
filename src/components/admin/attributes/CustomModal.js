@@ -38,8 +38,9 @@ function CustomModal(props) {
   const capitalize = (string) => string[0].toUpperCase() + string.slice(1);
   let value = [{ index: 0, value: '' }];
   const [talbeRows, setRows] = useState(value);
-  var tableRowIndex = Math.floor((Math.random() * 100) + 1);
+  // var tableRowIndex = Math.floor((Math.random() * 1000) + 1);
   let index = talbeRows.length;
+  console.log(index)
   // Receive data from TableRow 
   useEffect(() => {
     form.value.length > 1 ? setRows(form.value) : value;
@@ -51,6 +52,7 @@ function CustomModal(props) {
 
   // Add New Table Row
   const addNewRow = () => {
+    let tableRowIndex = index;
     var updatedRows = [...talbeRows]
     updatedRows[index] = { index: tableRowIndex, value: "" }
     setRows(updatedRows)
@@ -101,7 +103,7 @@ function CustomModal(props) {
                     talbeRows.map((row, index) => {
                       if (row)
                         return (
-                          <TableRow key={index} row={row} handleDataChange={handleChange} deleteRow={deleteRow}></TableRow>
+                          <TableRow key={index} row={row} handleDataChange={handleChange} deleteRow={deleteRow} addNewRow={addNewRow}></TableRow>
                         )
                     })
                   }
@@ -109,9 +111,6 @@ function CustomModal(props) {
                 </Tbody>
               </Table>
               <br />
-              <Button colorScheme="green" onClick={() => addNewRow()}>
-                <AddIcon />
-              </Button>
               {error.value && (
                 <Text color="tomato" gap={6}>
                   {error.value}
@@ -140,7 +139,7 @@ function CustomModal(props) {
     </>
   );
 }
-function TableRow({ row, handleDataChange, deleteRow }) {
+function TableRow({ row, handleDataChange, deleteRow, addNewRow }) {
   let index = row.index;
   const [value, setValue] = useState(row.value);
 
@@ -156,13 +155,15 @@ function TableRow({ row, handleDataChange, deleteRow }) {
   const removeRow = () => {
     deleteRow(index)
   }
-
+  console.log(index)
   return (
     <Tr id={index}>
       <Td>
         <Input name="value" className="value" placeholder="value" value={value} onChange={updateValues} />
       </Td>
-      <Td><Button colorScheme="red" className="btn btn-remove" onClick={removeRow}><MinusIcon /></Button></Td>
+      <Td><Button colorScheme="green" isDisabled={value == '' && index > index - 1 ? true : false} onClick={() => addNewRow()}>
+        <AddIcon />
+      </Button>&nbsp;&nbsp;<Button colorScheme="red" className="btn btn-remove" onClick={removeRow}><MinusIcon /></Button></Td>
     </Tr>
   )
 }

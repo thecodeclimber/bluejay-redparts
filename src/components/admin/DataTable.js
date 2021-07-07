@@ -65,6 +65,9 @@ function DataTable() {
     type: '',
     value: ''
   });
+  const [filterForm, setFilterForm] = useState({
+    key: 'default',
+  });
   const [productData, setProductData] = useState({ updateId: '', name: '', price: '', description: '' });
   const options = useShopOptions();
   let pageValue = [5, 10, 20, 50, 100];
@@ -76,7 +79,7 @@ function DataTable() {
   }, []);
   const fetchData = async () => {
     setLoader(true);
-    let data = await axios.get(`/api/admin/product/?page=${options?.page ?? 1}&limit=${options?.limit ?? 20}&sort=${options.sort ?? 'default'}&key=${options.key ?? 'default'}&section=${form.section}&category=${form.category}&subcategory=${form.type}&attribute=${form.value}`);
+    let data = await axios.get(`/api/admin/product/?page=${options?.page ?? 1}&limit=${options?.limit ?? 20}&sort=${options.sort ?? 'default'}&key=${filterForm.key}&section=${form.section}&category=${form.category}&subcategory=${form.type}&attribute=${form.value}`);
     setProducts(data.data);
     setLoader(false);
   };
@@ -242,10 +245,10 @@ function DataTable() {
 
   const deleteHandle = async (id = null, name = null) => {
     let deleteId = id != null ? id.split(",") : id;
-    setMessage(`Are you want to delete ${name}?`);
+    setMessage(`Are you sure you want to delete ${name}?`);
     if (id == null) {
       deleteId = selectedItems;
-      setMessage('Are you want to delete these products?')
+      setMessage(`Are you sure you want to delete ${deleteId.length} Products?`)
     }
     setUrl(`/api/admin/product?Id=${deleteId}`)
     setIsOpen(true);
@@ -289,7 +292,7 @@ function DataTable() {
 
   // filter handle
   const filterHandle = async () => {
-    options.key = $('#keysearch').val();
+    filterForm.key = $('#keysearch').val();
     options.page = 1;
     fetchData();
   }

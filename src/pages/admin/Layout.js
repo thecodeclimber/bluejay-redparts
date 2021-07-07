@@ -28,7 +28,7 @@ function Layout(props) {
     };
     let isAdmin = localStorage.getItem('xxxxxxaxxxxdxxxxmxxxixxn');
     if (isAdmin == undefined || isAdmin == false) {
-      fetch()
+      fetch();
     } else {
       setAuth(isAdmin)
     }

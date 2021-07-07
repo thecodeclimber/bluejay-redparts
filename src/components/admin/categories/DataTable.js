@@ -32,7 +32,7 @@ import {
   Tr,
   chakra,
   useDisclosure,
-  Link, Spinner, Input, InputGroup, InputRightElement, Divider
+  Link, Spinner, Input, InputGroup, InputRightElement, Divider, Tabs, TabList, Tab, TabPanels
 } from "@chakra-ui/react";
 import { usePagination, useSortBy, useTable } from "react-table";
 
@@ -61,6 +61,8 @@ function DataTable() {
   });
   const [filterForm, setFilterForm] = useState({
     section: '',
+    type: 'default',
+    key: 'default'
   });
   const options = useShopOptions();
   let pageValue = [5, 10, 20, 50, 100];
@@ -73,7 +75,7 @@ function DataTable() {
   }, []);
   const fetchData = async () => {
     setLoader(true);
-    let data = await axios.get(`/api/admin/categories/?page=${options?.page ?? 1}&limit=${options?.limit ?? 20}&sort=${options.sort ?? 'default'}&key=${options.key ?? 'default'}&section=${filterForm.section}&type=${options?.type ?? 'default'}`);
+    let data = await axios.get(`/api/admin/categories/?page=${options?.page ?? 1}&limit=${options?.limit ?? 20}&sort=${options.sort ?? 'default'}&key=${filterForm.key}&section=${filterForm.section}&type=${filterForm.type}`);
     setCategories(data.data);
     setLoader(false);
   };
@@ -165,10 +167,10 @@ function DataTable() {
 
   const deleteHandle = async (id = null, name = null) => {
     let deleteId = id != null ? id.split(",") : id;
-    setMessage(`Are you want to delete ${name}?`);
+    setMessage(`Are you sure you want to delete ${name}?`);
     if (id == null) {
       deleteId = selectedItems;
-      setMessage('Are you want to delete these categories?')
+      setMessage(`Are you sure you want to delete ${deleteId.length} Categories?`)
     }
     setUrl(`/api/admin/categories?Id=${deleteId}`)
     setIsOpen(true);
@@ -221,7 +223,7 @@ function DataTable() {
 
   // filter handle
   const filterHandle = async () => {
-    options.key = $('#keysearch').val();
+    filterForm.key = $('#keysearch').val();
     options.page = 1;
     fetchData();
   }
@@ -251,8 +253,7 @@ function DataTable() {
   }
 
   const resetHandle = async () => {
-    options.section = '';
-    options.key = '';
+    filterForm.key = 'default';
     filterForm.section = '';
     $('#keysearch').val('')
     fetchData();
@@ -261,7 +262,7 @@ function DataTable() {
   const changeType = (type) => {
     options.key = $('#keysearch').val();
     options.page = 1;
-    options.type = type;
+    filterForm.type = type;
     fetchData();
   }
   return (
@@ -306,73 +307,77 @@ function DataTable() {
         <Button size="sm" colorScheme="green" onClick={() => HandleForm(false)}><AddIcon />&nbsp;&nbsp;Add</Button>
 
       </Stack>
-      <Stack spacing={4} direction="row" justifyContent="flex-start" width="full" marginBottom="3">
-        <Button size="sm" colorScheme="blue" isActive={options.type == undefined || options.type == 'default' ? true : false} onClick={() => changeType('default')} >Categorized</Button>
-        <Button size="sm" colorScheme="blue" isActive={options.type == 1 ? true : false} onClick={() => changeType(1)}>UnCategorized</Button>
-
-      </Stack>
       <Divider orientation="horizontal" variant="solid" colorScheme="blue" />
-      <Table {...getTableProps()}>
-        <Thead>
-          {headerGroups.map((headerGroup) => (
-            <Tr {...headerGroup.getHeaderGroupProps()}>
-              <Th>
-                <Checkbox onChange={handleSelectAll} isChecked={page.length == selectedItems.length} />
-              </Th>
-              {headerGroup.headers.map((column) => (
-                <Th
-                  {...column.getHeaderProps(column.getSortByToggleProps())}
-                  isNumeric={column.isNumeric}
-                >
-                  {column.render("Header")}
-                  <chakra.span pl="4">
-                    {column.isSorted ? (
-                      column.isSortedDesc ? (
-                        <TriangleDownIcon aria-label="sorted descending" />
-                      ) : (
-                        <TriangleUpIcon aria-label="sorted ascending" />
-                      )
-                    ) : null}
-                  </chakra.span>
-                </Th>
-              ))}
-              <Th>
-                Action
-              </Th>
-            </Tr>
-          ))}
-        </Thead>
-        <Tbody {...getTableBodyProps()}>
-          {loader ? <Tr><Td colSpan={8}><Spinner style={{ position: "relative", left: "50%" }} color="blue.500" size="xl" /></Td></Tr> :
-
-            page.map((row, i) => {
-              prepareRow(row);
-              return (
-                <Tr {...row.getRowProps()}>
-                  <Td>
-                    <Checkbox value={row.original[indexKey]} isChecked={selectedItems.includes(row.original[indexKey])} onChange={handleMultiSelect} />
-                  </Td>
-                  {row.cells.map((cell) => {
-                    return (
-                      <Td {...cell.getCellProps()}>{cell.render("Cell")}</Td>
-                    );
-                  })}
-                  <Td>
-                    <Stack direction="row" spacing={4} align="center">
-                      <Link onClick={() => HandleSingleEdit(row.original[indexKey], row.original['name'], row.original['section'])}>
-                        <EditIcon color="green.400" /></Link> &nbsp;
-                      &nbsp;
-                      &nbsp;
-                      <Link onClick={() => deleteHandle(row.original[indexKey], row.original['name'])}>
-                        <DeleteIcon color="red.400" /></Link>
-                    </Stack>
-                  </Td>
+      <Tabs size="md" variant="enclosed" mt={2} isLazy defaultIndex={0}>
+        <TabList>
+          <Tab onClick={() => changeType('default')}>Categorized</Tab>
+          <Tab onClick={() => changeType(1)}>UnCategorized</Tab>
+        </TabList>
+        <TabPanels>
+          <Table {...getTableProps()}>
+            <Thead>
+              {headerGroups.map((headerGroup) => (
+                <Tr {...headerGroup.getHeaderGroupProps()}>
+                  <Th>
+                    <Checkbox onChange={handleSelectAll} isChecked={page.length == selectedItems.length} />
+                  </Th>
+                  {headerGroup.headers.map((column) => (
+                    <Th
+                      {...column.getHeaderProps(column.getSortByToggleProps())}
+                      isNumeric={column.isNumeric}
+                    >
+                      {column.render("Header")}
+                      <chakra.span pl="4">
+                        {column.isSorted ? (
+                          column.isSortedDesc ? (
+                            <TriangleDownIcon aria-label="sorted descending" />
+                          ) : (
+                            <TriangleUpIcon aria-label="sorted ascending" />
+                          )
+                        ) : null}
+                      </chakra.span>
+                    </Th>
+                  ))}
+                  <Th>
+                    Action
+                  </Th>
                 </Tr>
-              );
-            })}
+              ))}
+            </Thead>
+            <Tbody {...getTableBodyProps()}>
+              {loader ? <Tr><Td colSpan={8}><Spinner style={{ position: "relative", left: "50%" }} color="blue.500" size="xl" /></Td></Tr> :
 
-        </Tbody>
-      </Table>
+                page.map((row, i) => {
+                  prepareRow(row);
+                  return (
+                    <Tr {...row.getRowProps()}>
+                      <Td>
+                        <Checkbox value={row.original[indexKey]} isChecked={selectedItems.includes(row.original[indexKey])} onChange={handleMultiSelect} />
+                      </Td>
+                      {row.cells.map((cell) => {
+                        return (
+                          <Td {...cell.getCellProps()}>{cell.render("Cell")}</Td>
+                        );
+                      })}
+                      <Td>
+                        <Stack direction="row" spacing={4} align="center">
+                          <Link onClick={() => HandleSingleEdit(row.original[indexKey], row.original['name'], row.original['section'])}>
+                            <EditIcon color="green.400" /></Link> &nbsp;
+                          &nbsp;
+                          &nbsp;
+                          <Link onClick={() => deleteHandle(row.original[indexKey], row.original['name'])}>
+                            <DeleteIcon color="red.400" /></Link>
+                        </Stack>
+                      </Td>
+                    </Tr>
+                  );
+                })}
+
+            </Tbody>
+          </Table>
+
+        </TabPanels>
+      </Tabs>
       <Flex justifyContent="space-between" m={4} alignItems="center">
         <Flex>
           <Tooltip label="First Page">

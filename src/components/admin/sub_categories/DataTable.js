@@ -32,7 +32,7 @@ import {
   Tr,
   chakra,
   useDisclosure,
-  Link, Spinner, Input, InputGroup, InputRightElement, Divider
+  Link, Spinner, Input, InputGroup, InputRightElement, Divider, Tabs, TabList, Tab, TabPanels
 } from "@chakra-ui/react";
 import { usePagination, useSortBy, useTable } from "react-table";
 
@@ -57,6 +57,7 @@ function DataTable() {
   const [isOpenAlert, setIsOpen] = React.useState(false)
   const [Section, setSection] = useState([]);
   const [form, setForm] = useState({
+    section: '',
     category: '',
     name: '',
     attributes: '',
@@ -65,7 +66,32 @@ function DataTable() {
   const [filterForm, setFilterForm] = useState({
     section: '',
     category: '',
+    type: 'default',
+    key: 'default'
   });
+  const handleChange = (e) => {
+    setForm((prevState) => {
+      switch (e.target.name) {
+        case 'section':
+          getCategory(e.target.value);
+          return {
+            section: e.target.value,
+            category: '',
+            type: 'default',
+            key: 'deafult'
+          };
+        case 'category':
+          return {
+            ...prevState,
+            category: e.target.value,
+            type: 'default',
+            key: 'deafult'
+          };
+        default:
+          return prevState;
+      }
+    });
+  };
   const options = useShopOptions();
   let pageValue = [5, 10, 20, 50, 100];
   let selectedLimit = options?.limit == undefined ? 10 : options?.limit;
@@ -73,13 +99,12 @@ function DataTable() {
   const [error, setError] = useState({});
   useEffect(() => {
     fetchData();
-    // selectSection();
-    selectCategory();
+    selectSection();
     selectAttributes();
   }, []);
   const fetchData = async () => {
     setLoader(true);
-    let data = await axios.get(`/api/admin/sub_categories/?page=${options?.page ?? 1}&limit=${options?.limit ?? 10}&sort=${options.sort ?? 'default'}&key=${options.key ?? 'default'}&section=${filterForm.section}&category=${filterForm.category}&type=${options?.type ?? 'default'}`);
+    let data = await axios.get(`/api/admin/sub_categories/?page=${options?.page ?? 1}&limit=${options?.limit ?? 10}&sort=${options.sort ?? 'default'}&key=${filterForm.key}&section=${form.section}&category=${form.category}&type=${filterForm.type}`);
     setSubCategories(data.data);
     setLoader(false);
   };
@@ -91,9 +116,11 @@ function DataTable() {
     setSection(data.data.data);
   };
 
-  const selectCategory = async () => {
-    let data = await axios.get(`/api/categories`);
-    setCategories(data.data.data);
+  const getCategory = async (id) => {
+    let data = await Section.filter((value) => {
+      return value._id === id;
+    });
+    data.length === 0 ? setCategories([]) : setCategories(data[0]['category']);
   };
 
   const selectAttributes = async () => {
@@ -107,14 +134,31 @@ function DataTable() {
     [sub_categories],
   );
 
-
   const columns = React.useMemo(
     () => [
+      {
+        Header: "Section",
+        accessor: "section.name",
 
+      },
       {
         Header: "Category",
         accessor: "category.name",
-
+        getProps: (state, rowInfo, column) => {
+          if (state.value === null) {
+            newColumn.show = false;
+            newColumn.style.display = "none";
+            newColumn.headerStyle.display = "none";
+            return {
+              style: {
+                display: "none"
+              },
+              headerStyle: {
+                display: "none"
+              }
+            };
+          }
+        }
       },
       {
         Header: "Sub Category",
@@ -181,10 +225,10 @@ function DataTable() {
 
   const deleteHandle = async (id = null, name = null) => {
     let deleteId = id != null ? id.split(",") : id;
-    setMessage(`Are you want to delete ${name}?`);
+    setMessage(`Are you sure you want to delete ${name}?`);
     if (id == null) {
       deleteId = selectedItems;
-      setMessage('Are you want to delete these sub_categories?')
+      setMessage(`Are you sure you want to delete ${deleteId.length} Sub-Categories?`)
     }
     setUrl(`/api/admin/sub_categories?Id=${deleteId}`)
     setIsOpen(true);
@@ -203,7 +247,7 @@ function DataTable() {
 
   let HandleForm = (status) => {
     setEdit(status)
-    setForm({ name: '', _id: '', category: '', attributes: '' })
+    setForm({ sectin: '', name: '', _id: '', category: '', attributes: '' })
     onOpen();
   }
 
@@ -220,13 +264,40 @@ function DataTable() {
     if (form.name == '') {
       errors.name = 'sub category name is required';
     }
-    form.attributes = await makeAttribute();
-    if (form.attributes.length == 0) {
-      errors.attributes = 'attribute is required';
-    }
+
     setError(errors);
     if (Object.keys(errors).length == 0) {
       let data = await axios.put(`/api/admin/sub_categories?Id=${_id}`, form);
+      if (data.status == 200) {
+        fetchData();
+        onClose();
+        setForm({ name: '', _id: '', section: '', category: '', attributes: '' })
+        setSelectedItems(() => {
+          return [];
+        })
+      } else {
+        console.log(data.message)
+      }
+    }
+  }
+
+  // filter handle
+  const filterHandle = async () => {
+    filterForm.key = $('#keysearch').val();
+    options.page = 1;
+    fetchData();
+  }
+
+  const submitHandle = async () => {
+    if (form.category == '') {
+      errors.category = 'category is required';
+    }
+    if (form.name == '') {
+      errors.name = 'sub category name is required';
+    }
+    setError(errors);
+    if (Object.keys(errors).length == 0) {
+      let data = await axios.post(`/api/admin/sub_categories`, form);
       if (data.status == 200) {
         fetchData();
         onClose();
@@ -240,76 +311,65 @@ function DataTable() {
     }
   }
 
-  // filter handle
-  const filterHandle = async () => {
-    options.key = $('#keysearch').val();
-    options.page = 1;
-    fetchData();
-  }
-
-  const submitHandle = async () => {
-    if (form.category == '') {
-      errors.category = 'category is required';
-    }
-    if (form.name == '') {
-      errors.name = 'sub category name is required';
-    }
-    form.attributes = await makeAttribute();
-    if (form.attributes.length == 0) {
-      errors.attributes = 'attribute is required';
-    }
-    setError(errors);
-    if (Object.keys(errors).length == 0) {
-      let data = await axios.post(`/api/admin/sub_categories`, form);
-      if (data.status == 200) {
-        fetchData();
-        onClose();
-        setForm({ name: '', _id: '', category: '', attributes: '' })
-        setSelectedItems(() => {
-          return [];
-        })
-      } else {
-        console.log(data.data.message)
-      }
-    }
-  }
-
-
-
-  const makeAttribute = () => {
-    let ArrayAttribute = []
-    let att = [];
-    $('label.attributes').each(function (i, el) {
-      let attr = $(this).find('span').attr('data-checked');
-      if (typeof attr !== 'undefined' && attr !== false) {
-        ArrayAttribute.push($(this).find('input').val())
-      }
-    });
-    attributes.filter(items => {
-      if (ArrayAttribute.includes(items._id)) {
-        let _id = items._id;
-        let val = [];
-        items.values.map(values => {
-          val.push(values._id)
-        })
-        att.push({ attribute: _id, values: val })
-      }
-    });
-    return att;
-  }
 
   const resetHandle = async () => {
-    options.key = '';
-    filterForm.section = '';
-    filterForm.category = '';
+    filterForm.key = 'default';
+    form.section = '';
+    form.category = '';
+    filterForm.type = 'default'
     $('#keysearch').val('')
     fetchData();
   }
 
   const changeType = (type) => {
+    setFilterForm({ section: '', categories: '', key: 'default' })
     options.page = 1;
-    options.type = type;
+    filterForm.type = type;
     fetchData();
+  }
+
+  const AssignAttribute = (id) => {
+    form._id = id;
+    form.assign = true;
+    onOpen()
+  }
+  const assignHandle = async () => {
+    let attributes = [];
+
+    form.attributes.forEach((item, index) => {
+      let values = [];
+      let label = $('.attr-value-' + item);
+      label.each(function (i, el) {
+        let attr = $(this).find('span').attr('data-checked');
+        if (typeof attr !== 'undefined' && attr !== false) {
+          var key = $(this).find('input').val();
+          if (values.indexOf(key) != -1)
+            return items.filter((item) => item != key);
+          values.push(key)
+        }
+      });
+      if (values.length !== 0) {
+        attributes[index] = { attribute: item, values: values }
+      }
+    });
+    if (attributes.length === 0) {
+      errors.attributes = 'attributes is required';
+    }
+    if (Object.keys(errors).length == 0) {
+      console.log(form)
+      let data = await axios.put(`/api/admin/sub_categories/${form._id}`, { attributes: attributes });
+      console.log(data)
+      if (data.status == 200) {
+        fetchData();
+        onClose();
+        setForm({ name: '', _id: '', section: '', category: '', attributes: '' })
+        setSelectedItems(() => {
+          return [];
+        })
+      } else {
+        console.log(data.message)
+      }
+    }
   }
   return (
     <>
@@ -320,14 +380,14 @@ function DataTable() {
         </>}
 
         <Text fontSize="md" fontWeight="bold">Filter : </Text>
-        {/* <Select
+        <Select
           placeholder="--Section--"
           name="section"
           size="sm"
           id="section"
           width="150px"
-          onChange={(e) => setFilterForm({ ...filterForm, section: e.target.value })}
-          value={filterForm.section}
+          onChange={(e) => handleChange(e)}
+          value={form.section}
 
         >
           {Section.map((section) => (
@@ -335,15 +395,16 @@ function DataTable() {
               {capitalize(section.name)}
             </option>
           ))}
-        </Select> */}
+        </Select>
         <Select
           placeholder="--category--"
           name="category"
           size="sm"
           id="category"
           width="150px"
-          onChange={(e) => setFilterForm({ ...filterForm, category: e.target.value })}
-          value={filterForm.category}
+          disabled={form.section === ''}
+          onChange={(e) => handleChange(e)}
+          value={form.category}
 
         >
           {categories.map((cat) => (
@@ -369,73 +430,83 @@ function DataTable() {
         <Button size="sm" colorScheme="green" onClick={() => HandleForm(false)}><AddIcon />&nbsp;&nbsp;Add</Button>
 
       </Stack>
-      <Stack spacing={4} direction="row" justifyContent="flex-start" width="full" marginBottom="3">
-        <Button size="sm" colorScheme="blue" isActive={options.type == undefined || options.type == 'default' ? true : false} onClick={() => changeType('default')} >Categorized</Button>
-        <Button size="sm" colorScheme="blue" isActive={options.type == 1 ? true : false} onClick={() => changeType(1)}>UnCategorized</Button>
-
-      </Stack>
       <Divider orientation="horizontal" variant="solid" colorScheme="blue" />
-      <Table {...getTableProps()}>
-        <Thead>
-          {headerGroups.map((headerGroup) => (
-            <Tr {...headerGroup.getHeaderGroupProps()}>
-              <Th>
-                <Checkbox onChange={handleSelectAll} isChecked={page.length == selectedItems.length} />
-              </Th>
-              {headerGroup.headers.map((column) => (
-                <Th
-                  {...column.getHeaderProps(column.getSortByToggleProps())}
-                  isNumeric={column.isNumeric}
-                >
-                  {column.render("Header")}
-                  <chakra.span pl="4">
-                    {column.isSorted ? (
-                      column.isSortedDesc ? (
-                        <TriangleDownIcon aria-label="sorted descending" />
-                      ) : (
-                        <TriangleUpIcon aria-label="sorted ascending" />
-                      )
-                    ) : null}
-                  </chakra.span>
-                </Th>
-              ))}
-              <Th>
-                Action
-              </Th>
-            </Tr>
-          ))}
-        </Thead>
-        <Tbody {...getTableBodyProps()}>
-          {loader ? <Tr><Td colSpan={8}><Spinner style={{ position: "relative", left: "50%" }} color="blue.500" size="xl" /></Td></Tr> :
-
-            page.map((row, i) => {
-              prepareRow(row);
-              return (
-                <Tr {...row.getRowProps()}>
-                  <Td>
-                    <Checkbox value={row.original[indexKey]} isChecked={selectedItems.includes(row.original[indexKey])} onChange={handleMultiSelect} />
-                  </Td>
-                  {row.cells.map((cell) => {
-                    return (
-                      <Td {...cell.getCellProps()}>{cell.render("Cell")}</Td>
-                    );
-                  })}
-                  <Td>
-                    <Stack direction="row" spacing={4} align="center">
-                      <Link onClick={() => HandleSingleEdit(row.original[indexKey], row.original['name'], row.original['category'], row.original['attributes'])}>
-                        <EditIcon color="green.400" /></Link> &nbsp;
-                      &nbsp;
-                      &nbsp;
-                      <Link onClick={() => deleteHandle(row.original[indexKey], row.original['name'])}>
-                        <DeleteIcon color="red.400" /></Link>
-                    </Stack>
-                  </Td>
+      <Tabs size="md" variant="enclosed" mt={2} isLazy defaultIndex={0}>
+        <TabList>
+          <Tab onClick={() => changeType('default')}>Categorized</Tab>
+          <Tab onClick={() => changeType('un')}>UnCategorized</Tab>
+        </TabList>
+        <TabPanels>
+          <Table {...getTableProps()}>
+            <Thead>
+              {headerGroups.map((headerGroup) => (
+                <Tr {...headerGroup.getHeaderGroupProps()}>
+                  <Th>
+                    <Checkbox onChange={handleSelectAll} isChecked={page.length == selectedItems.length} />
+                  </Th>
+                  {headerGroup.headers.map((column) => (
+                    <Th
+                      {...column.getHeaderProps(column.getSortByToggleProps())}
+                      isNumeric={column.isNumeric}
+                    >
+                      {column.render("Header")}
+                      <chakra.span pl="4">
+                        {column.isSorted ? (
+                          column.isSortedDesc ? (
+                            <TriangleDownIcon aria-label="sorted descending" />
+                          ) : (
+                            <TriangleUpIcon aria-label="sorted ascending" />
+                          )
+                        ) : null}
+                      </chakra.span>
+                    </Th>
+                  ))}
+                  <Th>
+                    Attributes
+                  </Th>
+                  <Th>
+                    Action
+                  </Th>
                 </Tr>
-              );
-            })}
+              ))}
+            </Thead>
+            <Tbody {...getTableBodyProps()}>
+              {loader ? <Tr><Td colSpan={8}><Spinner style={{ position: "relative", left: "50%" }} color="blue.500" size="xl" /></Td></Tr> :
 
-        </Tbody>
-      </Table>
+                page.map((row, i) => {
+                  prepareRow(row);
+                  return (
+                    <Tr {...row.getRowProps()}>
+                      <Td>
+                        <Checkbox value={row.original[indexKey]} isChecked={selectedItems.includes(row.original[indexKey])} onChange={handleMultiSelect} />
+                      </Td>
+                      {row.cells.map((cell) => {
+                        return (
+                          <Td {...cell.getCellProps()}>{cell.render("Cell")}</Td>
+                        );
+                      })}
+                      <Td>
+                        <Button size="sm" colorScheme="blue" onClick={() => AssignAttribute(row.original[indexKey])}>Assign Attribute</Button>
+                      </Td>
+                      <Td>
+                        <Stack direction="row" spacing={4} align="center">
+                          <Link onClick={() => HandleSingleEdit(row.original[indexKey], row.original['name'], row.original['category'], row.original['attributes'])}>
+                            <EditIcon color="green.400" /></Link> &nbsp;
+                          &nbsp;
+                          &nbsp;
+                          <Link onClick={() => deleteHandle(row.original[indexKey], row.original['name'])}>
+                            <DeleteIcon color="red.400" /></Link>
+                        </Stack>
+                      </Td>
+                    </Tr>
+                  );
+                })}
+
+            </Tbody>
+          </Table>
+
+        </TabPanels>
+      </Tabs>
       <Flex justifyContent="space-between" m={4} alignItems="center">
         <Flex>
           <Tooltip label="First Page">
@@ -526,7 +597,7 @@ function DataTable() {
           </Tooltip>
         </Flex>
       </Flex>
-      <CustomModal isOpen={isOpen} onClose={onClose} form={form} setForm={setForm} Edit={edit} submitHandle={submitHandle} editHandle={editHandle} error={error} categories={categories} attributes={attributes} />
+      <CustomModal isOpen={isOpen} onClose={onClose} form={form} setForm={setForm} Edit={edit} submitHandle={submitHandle} editHandle={editHandle} error={error} categories={categories} attributes={attributes} sections={Section} handleChange={handleChange} assignHandle={assignHandle} sub_categories={sub_categories} />
       <AlertBox isOpen={isOpenAlert} setIsOpen={setIsOpen} message={message} url={url} fetchData={fetchData} />
     </>
   )

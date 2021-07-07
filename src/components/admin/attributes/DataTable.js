@@ -55,11 +55,13 @@ function DataTable() {
   const [form, setForm] = useState({
     name: '',
     value: '',
-    _id: ''
+    _id: '',
+    key: 'default'
   });
   const options = useShopOptions();
   let pageValue = [5, 10, 20, 50, 100];
   let selectedLimit = options?.limit == undefined ? 10 : options?.limit;
+
   let errors = {};
   const [error, setError] = useState({});
   useEffect(() => {
@@ -67,7 +69,7 @@ function DataTable() {
   }, []);
   const fetchData = async () => {
     setLoader(true);
-    let data = await axios.get(`/api/admin/attributes/?page=${options?.page ?? 1}&limit=${options?.limit ?? 10}&sort=${options.sort ?? 'default'}&key=${options.key ?? 'default'}`);
+    let data = await axios.get(`/api/admin/attributes/?page=${options?.page ?? 1}&limit=${options?.limit ?? 10}&sort=${options.sort ?? 'default'}&key=${form.key}`);
     setAttributes(data.data);
     setLoader(false);
   };
@@ -147,10 +149,10 @@ function DataTable() {
 
   const deleteHandle = async (id = null, name = null) => {
     let deleteId = id != null ? id.split(",") : id;
-    setMessage(`Are you want to delete ${name}?`);
+    setMessage(`Are you sure you want to delete ${name}?`);
     if (id == null) {
       deleteId = selectedItems;
-      setMessage('Are you sure to delete these attributes?')
+      setMessage(`Are you sure you want to delete ${deleteId.length} Attributes?`)
     }
     setUrl(`/api/admin/attributes?Id=${deleteId}`)
     setIsOpen(true);
@@ -209,11 +211,8 @@ function DataTable() {
       }
     }
   }
-
-  console.log(attributes)
-  // filter handle
   const filterHandle = async () => {
-    options.key = $('#keysearch').val();
+    form.key = $('#keysearch').val();
     options.page = 1;
     fetchData();
   }

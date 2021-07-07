@@ -34,10 +34,11 @@ export default dbConnect(async (req, res) => {
                 }
 
                 key = key != 'default' ? { $or: [{ 'name': regex }, { 'category.name': regex }] } : {};
+                console.log(type)
                 const getAllCategories = async () => {
                     let total;
                     let data;
-                    if (type == 'default') {
+                    if (type === 'default') {
                         total = await await SubCategory.aggregate([
                             {
                                 "$lookup": {
@@ -48,6 +49,15 @@ export default dbConnect(async (req, res) => {
                                 }
                             },
                             { "$unwind": "$category" },
+                            {
+                                "$lookup": {
+                                    "from": "sections",
+                                    "localField": "category.section",
+                                    "foreignField": "_id",
+                                    "as": "section"
+                                }
+                            },
+                            { "$unwind": "$section" },
                             { "$match": { $and: [key, filter] } }]).exec();
                         data = await SubCategory.aggregate([
                             {
@@ -59,13 +69,22 @@ export default dbConnect(async (req, res) => {
                                 }
                             },
                             { "$unwind": "$category" },
+                            {
+                                "$lookup": {
+                                    "from": "sections",
+                                    "localField": "category.section",
+                                    "foreignField": "_id",
+                                    "as": "section"
+                                }
+                            },
+                            { "$unwind": "$section" },
                             { "$match": { $and: [key, filter] } },
                             { "$sort": { "name": -1 } },
                             { "$skip": skipItems },
                             { "$limit": limit },
                         ]).exec();
                     } else {
-                        total = await SubCategory.find({ $and: [key, { 'category': null }] }).exec();
+                        total = await SubCategory.find({ $and: [key, { 'category': null }] }).populate('section').exec();
                         data = await SubCategory.find({ $and: [key, { 'category': null }] }).skip(skipItems)
                             .limit(limit)
                             .sort({ name: sort })
@@ -106,11 +125,28 @@ export default dbConnect(async (req, res) => {
                 res.status(200).json({ 'message': 'Sub Categories deleted' });
                 break;
             case 'POST':
-                var dataCategory = await SubCategory.insertMany([{ name: req.body.name, category: req.body.category, shortName: req.body.name.substring(0, 3), attributes: req.body.attributes }]);
-                if (dataCategory.length == 0) {
-                    res.status(404).json({ 'message': 'Something is error' });
+                if (req.body.name != '' && req.body.category != '') {
+                    var findsubCat = await SubCategory.findOne({ name: req.body.name });
+                    if (findsubCat) {
+                        res.status(400).send({
+                            message: 'Duplicate Entry!',
+                        });
+                    } else {
+                        var dataCategory = await SubCategory.insertMany([{ name: req.body.name, category: req.body.category, shortName: req.body.name.substring(0, 3) }]);
+                        if (dataCategory.length == 0) {
+                            res.status(400).send({
+                                message: 'Sub Category not found!',
+                            });
+                        }
+                        res.status(200).send({ 'message': 'Sub Category created' });
+                    }
+
+                } else {
+                    res.status(400).send({
+                        status: 'validation error',
+                        message: '[name | category] is required!',
+                    });
                 }
-                res.status(200).json({ 'message': 'Sub Category created' });
                 break;
 
             default:

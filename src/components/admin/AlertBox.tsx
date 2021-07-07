@@ -2,12 +2,15 @@ import {
   AlertDialog,
   AlertDialogBody,
   AlertDialogFooter,
-  AlertDialogHeader,
   AlertDialogContent,
   AlertDialogOverlay,
   Button,
-  AlertDialogCloseButton,
+  Alert,
+  AlertIcon,
+  AlertTitle,
+  AlertDescription,
 } from '@chakra-ui/react';
+import { DeleteIcon } from '@chakra-ui/icons';
 import axios from 'axios';
 import React from 'react';
 function AlertBox(props: any) {
@@ -38,24 +41,28 @@ function AlertBox(props: any) {
       >
         <AlertDialogOverlay>
           <AlertDialogContent>
-            <AlertDialogBody
-              fontSize="20px"
-              fontWeight="bold"
+            <Alert
+              status="error"
+              variant="subtle"
+              flexDirection="column"
+              alignItems="center"
+              justifyContent="center"
               textAlign="center"
-              pt={10}
-              pb={5}
+              height="200px"
             >
-              {message}
-            </AlertDialogBody>
-
-            <AlertDialogFooter alignSelf="center">
-              <Button ref={cancelRef} onClick={() => onDelete(false)}>
-                Cancel
-              </Button>
-              <Button colorScheme="red" onClick={() => onDelete(true)} ml={3}>
-                OK
-              </Button>
-            </AlertDialogFooter>
+              <AlertIcon boxSize="40px" mr={0} />
+              <AlertTitle mt={4} mb={1} fontSize="lg">
+                {message}
+              </AlertTitle>
+              <AlertDialogFooter alignSelf="center" pt={3}>
+                <Button ref={cancelRef} onClick={() => onDelete(false)}>
+                  Cancel
+                </Button>
+                <Button colorScheme="red" onClick={() => onDelete(true)} ml={3}>
+                  OK
+                </Button>
+              </AlertDialogFooter>
+            </Alert>
           </AlertDialogContent>
         </AlertDialogOverlay>
       </AlertDialog>
