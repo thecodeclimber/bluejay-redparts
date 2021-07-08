@@ -32,7 +32,7 @@ import {
   Tr,
   chakra,
   useDisclosure,
-  Link, Spinner, Input, InputGroup, InputRightElement, Divider, Tabs, TabList, Tab, TabPanels
+  Link, Spinner, Input, InputGroup, InputRightElement, Divider, Tabs, TabList, Tab, TabPanels, useToast
 } from "@chakra-ui/react";
 import { usePagination, useSortBy, useTable } from "react-table";
 
@@ -42,11 +42,14 @@ import { useShopOptions } from "~/store/shop/shopHooks";
 import axios from "axios";
 import * as $ from 'jquery';
 import AlertBox from "../AlertBox";
+import Section from "../common/Section";
+import Category from "../common/Category";
+import InputKey from "../common/Input";
 
 function DataTable() {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const [sub_categories, setSubCategories] = useState([]);
-
+  const toast = useToast();
   const [selectedItems, setSelectedItems] = React.useState([]);
   const [loader, setLoader] = useState(false);
   const [edit, setEdit] = useState(false);
@@ -55,43 +58,16 @@ function DataTable() {
   const [message, setMessage] = useState('');
   const [url, setUrl] = useState('');
   const [isOpenAlert, setIsOpen] = React.useState(false)
-  const [Section, setSection] = useState([]);
   const [form, setForm] = useState({
     section: '',
     category: '',
     name: '',
     attributes: '',
-    _id: ''
-  });
-  const [filterForm, setFilterForm] = useState({
-    section: '',
-    category: '',
+    _id: '',
     type: 'default',
     key: 'default'
   });
-  const handleChange = (e) => {
-    setForm((prevState) => {
-      switch (e.target.name) {
-        case 'section':
-          getCategory(e.target.value);
-          return {
-            section: e.target.value,
-            category: '',
-            type: 'default',
-            key: 'deafult'
-          };
-        case 'category':
-          return {
-            ...prevState,
-            category: e.target.value,
-            type: 'default',
-            key: 'deafult'
-          };
-        default:
-          return prevState;
-      }
-    });
-  };
+
   const options = useShopOptions();
   let pageValue = [5, 10, 20, 50, 100];
   let selectedLimit = options?.limit == undefined ? 10 : options?.limit;
@@ -99,29 +75,17 @@ function DataTable() {
   const [error, setError] = useState({});
   useEffect(() => {
     fetchData();
-    selectSection();
     selectAttributes();
   }, []);
   const fetchData = async () => {
     setLoader(true);
-    let data = await axios.get(`/api/admin/sub_categories/?page=${options?.page ?? 1}&limit=${options?.limit ?? 10}&sort=${options.sort ?? 'default'}&key=${filterForm.key}&section=${form.section}&category=${form.category}&type=${filterForm.type}`);
+    let data = await axios.get(`/api/admin/sub_categories/?page=${options?.page ?? 1}&limit=${options?.limit ?? 10}&sort=${options.sort ?? 'default'}&key=${form.key}&section=${form.section}&category=${form.category}&type=${form.type}`);
     setSubCategories(data.data);
     setLoader(false);
   };
   const capitalize = (string) =>
     string[0].toUpperCase() + string.slice(1);
 
-  const selectSection = async () => {
-    let data = await axios.get(`/api/sections`);
-    setSection(data.data.data);
-  };
-
-  const getCategory = async (id) => {
-    let data = await Section.filter((value) => {
-      return value._id === id;
-    });
-    data.length === 0 ? setCategories([]) : setCategories(data[0]['category']);
-  };
 
   const selectAttributes = async () => {
     let data = await axios.get(`/api/attributes`);
@@ -139,26 +103,16 @@ function DataTable() {
       {
         Header: "Section",
         accessor: "section.name",
-
+        Cell: ({ cell: { value } }) => (
+          value == null ? 'Null' : capitalize(value)
+        )
       },
       {
         Header: "Category",
         accessor: "category.name",
-        getProps: (state, rowInfo, column) => {
-          if (state.value === null) {
-            newColumn.show = false;
-            newColumn.style.display = "none";
-            newColumn.headerStyle.display = "none";
-            return {
-              style: {
-                display: "none"
-              },
-              headerStyle: {
-                display: "none"
-              }
-            };
-          }
-        }
+        Cell: ({ cell: { value } }) => (
+          value == null ? 'Null' : capitalize(value)
+        )
       },
       {
         Header: "Sub Category",
@@ -268,22 +222,23 @@ function DataTable() {
     setError(errors);
     if (Object.keys(errors).length == 0) {
       let data = await axios.put(`/api/admin/sub_categories?Id=${_id}`, form);
-      if (data.status == 200) {
+      if (data.data.status == 200) {
         fetchData();
         onClose();
         setForm({ name: '', _id: '', section: '', category: '', attributes: '' })
         setSelectedItems(() => {
           return [];
         })
+        Toast(data.data.message, 'success')
       } else {
-        console.log(data.message)
+        Toast(data.data.message, 'error')
       }
     }
   }
 
   // filter handle
   const filterHandle = async () => {
-    filterForm.key = $('#keysearch').val();
+    form.key = $('#keysearch').val();
     options.page = 1;
     fetchData();
   }
@@ -298,33 +253,33 @@ function DataTable() {
     setError(errors);
     if (Object.keys(errors).length == 0) {
       let data = await axios.post(`/api/admin/sub_categories`, form);
-      if (data.status == 200) {
+      if (data.data.status == 200) {
         fetchData();
         onClose();
         setForm({ name: '', _id: '', category: '', attributes: '' })
         setSelectedItems(() => {
           return [];
         })
+        Toast(data.data.message, 'success')
       } else {
-        console.log(data.message)
+        Toast(data.data.message, 'error')
+
       }
     }
   }
 
 
   const resetHandle = async () => {
-    filterForm.key = 'default';
+    form.key = 'default';
     form.section = '';
     form.category = '';
-    filterForm.type = 'default'
     $('#keysearch').val('')
     fetchData();
   }
 
   const changeType = (type) => {
-    setFilterForm({ section: '', categories: '', key: 'default' })
     options.page = 1;
-    filterForm.type = type;
+    form.type = type;
     fetchData();
   }
 
@@ -335,30 +290,33 @@ function DataTable() {
   }
   const assignHandle = async () => {
     let attributes = [];
-
-    form.attributes.forEach((item, index) => {
-      let values = [];
-      let label = $('.attr-value-' + item);
-      label.each(function (i, el) {
-        let attr = $(this).find('span').attr('data-checked');
-        if (typeof attr !== 'undefined' && attr !== false) {
-          var key = $(this).find('input').val();
-          if (values.indexOf(key) != -1)
-            return items.filter((item) => item != key);
-          values.push(key)
+    let parent_label = $('.chakra-checkbox.attribute.css-1uiwwan');
+    parent_label.each(function (index, ele) {
+      let parent_attr = $(this).find('span').attr('data-checked')
+      if (typeof parent_attr !== 'undefined' && parent_attr !== false) {
+        let parent_key = $(this).find('input').val();
+        let values = [];
+        let label = $('.attr-value-' + parent_key);
+        label.each(function (i, el) {
+          let attr = $(this).find('span').attr('data-checked');
+          if (typeof attr !== 'undefined' && attr !== false) {
+            var key = $(this).find('input').val();
+            if (values.indexOf(key) != -1)
+              return items.filter((item) => item != key);
+            values.push(key)
+          }
+        });
+        if (values.length !== 0) {
+          attributes[index] = { attribute: parent_key, values: values }
         }
-      });
-      if (values.length !== 0) {
-        attributes[index] = { attribute: item, values: values }
       }
-    });
+    })
     if (attributes.length === 0) {
       errors.attributes = 'attributes is required';
     }
     if (Object.keys(errors).length == 0) {
       console.log(form)
       let data = await axios.put(`/api/admin/sub_categories/${form._id}`, { attributes: attributes });
-      console.log(data)
       if (data.status == 200) {
         fetchData();
         onClose();
@@ -366,10 +324,21 @@ function DataTable() {
         setSelectedItems(() => {
           return [];
         })
+        Toast('Attributes Assigned!', 'success')
       } else {
-        console.log(data.message)
+        Toast('Attributes not assign', 'error')
       }
     }
+  }
+
+  const Toast = (title, status) => {
+    toast({
+      title: title,
+      status: status,
+      position: 'top-right',
+      duration: 3000,
+      isClosable: true,
+    });
   }
   return (
     <>
@@ -380,47 +349,9 @@ function DataTable() {
         </>}
 
         <Text fontSize="md" fontWeight="bold">Filter : </Text>
-        <Select
-          placeholder="--Section--"
-          name="section"
-          size="sm"
-          id="section"
-          width="150px"
-          onChange={(e) => handleChange(e)}
-          value={form.section}
-
-        >
-          {Section.map((section) => (
-            <option key={section._id} value={section._id}>
-              {capitalize(section.name)}
-            </option>
-          ))}
-        </Select>
-        <Select
-          placeholder="--category--"
-          name="category"
-          size="sm"
-          id="category"
-          width="150px"
-          disabled={form.section === ''}
-          onChange={(e) => handleChange(e)}
-          value={form.category}
-
-        >
-          {categories.map((cat) => (
-            <option key={cat._id} value={cat._id}>
-              {capitalize(cat.name)}
-            </option>
-          ))}
-        </Select>
-        <Input
-          size="sm"
-          type="text"
-          name="keysearch"
-          id="keysearch"
-          placeholder="Search"
-          width="150px"
-        />
+        <Section form={form} setForm={setForm} size={'sm'} width="150px" />
+        <Category form={form} setForm={setForm} size={'sm'} width={'150px'} />
+        <InputKey />
         <Button size="sm" colorScheme="blue" onClick={() => filterHandle()}>
           Submit
         </Button>
@@ -597,7 +528,7 @@ function DataTable() {
           </Tooltip>
         </Flex>
       </Flex>
-      <CustomModal isOpen={isOpen} onClose={onClose} form={form} setForm={setForm} Edit={edit} submitHandle={submitHandle} editHandle={editHandle} error={error} categories={categories} attributes={attributes} sections={Section} handleChange={handleChange} assignHandle={assignHandle} sub_categories={sub_categories} />
+      <CustomModal isOpen={isOpen} onClose={onClose} form={form} setForm={setForm} Edit={edit} submitHandle={submitHandle} editHandle={editHandle} error={error} attributes={attributes} assignHandle={assignHandle} sub_categories={sub_categories} />
       <AlertBox isOpen={isOpenAlert} setIsOpen={setIsOpen} message={message} url={url} fetchData={fetchData} />
     </>
   )

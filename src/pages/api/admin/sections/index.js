@@ -47,35 +47,45 @@ export default dbConnect(async (req, res) => {
                     name: req.body.name,
                     shortName: req.body.name.substring(0, 3)
                 }
-                var updateData = await Section.updateMany({ _id: { $in: _id } }, data);
-                if (updateData.nModified == 0) {
-                    res.status(404).json({ 'message': 'sections not found' });
+                let findData = await Section.findOne({ name: req.body.name });
+                if (findData) {
+                    res.json({ status: 400, 'message': 'Section already exists' });
+                } else {
+                    var updateData = await Section.updateMany({ _id: { $in: _id } }, data);
+                    if (updateData.nModified == 0) {
+                        res.json({ status: 400, 'message': 'sections not found' });
+                    }
+                    res.json({ status: 200, 'message': 'sections updated' });
                 }
-                res.status(200).json({ 'message': 'sections updated' });
                 break;
             case 'DELETE':
                 const deleteId = req.query.Id.split(",");
                 var deleteData = await Section.deleteMany({ _id: { $in: deleteId } });
                 if (deleteData.deletedCount == 0) {
-                    res.status(404).json({ 'message': 'product not found' });
+                    res.json({ status: 400, 'message': 'Section not found' });
                 }
                 await Category.updateMany({ section: { $in: deleteId } }, { section: null });
-                res.status(200).json({ 'message': 'product deleted' });
+                res.json({ status: 200, 'message': 'Section deleted!' });
                 break;
             case 'POST':
-                var dataSection = await Section.insertMany([{ name: req.body.name, shortName: req.body.name.substring(0, 3) }]);
-                console.log(dataSection)
-                if (dataSection.length == 0) {
-                    res.status(404).json({ 'message': 'Something is error' });
+                let findDataPost = await Section.findOne({ name: req.body.name });
+                if (findDataPost) {
+                    res.json({ status: 400, message: 'Section already exists' });
+                } else {
+                    var dataSection = await Section.insertMany([{ name: req.body.name, shortName: req.body.name.substring(0, 3) }]);
+                    console.log(dataSection)
+                    if (dataSection.length == 0) {
+                        res.json({ status: 400, 'message': 'Something is error' });
+                    }
+                    res.json({ status: 200, 'message': 'section created!' });
                 }
-                res.status(200).json({ 'message': 'section created' });
                 break;
 
             default:
-                res.send({ status: false, message: 'Not found!' });
+                res.send({ status: 403, message: 'Not found!' });
         }
     } else {
-        res.status(403).send('you are not authorized');
+        res.send({ status: 403, message: 'you are not authorized' });
     }
 
 });

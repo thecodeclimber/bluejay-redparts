@@ -9,12 +9,15 @@ import {
   AlertIcon,
   AlertTitle,
   AlertDescription,
+  useToast,
 } from '@chakra-ui/react';
 import { DeleteIcon } from '@chakra-ui/icons';
 import axios from 'axios';
 import React from 'react';
 function AlertBox(props: any) {
   const { setIsOpen, isOpen, message, url, fetchData } = props;
+  const toast = useToast();
+
   const onClose = () => {
     setIsOpen(false);
   };
@@ -22,15 +25,25 @@ function AlertBox(props: any) {
   let onDelete = async (status: any) => {
     if (status) {
       let data: any = await axios.delete(url);
-      if (data.status == 200) {
+      if (data.data.status == 200) {
         fetchData();
+        Toast(data.data.message, 'success');
       } else {
-        console.log(data.message);
+        Toast(data.data.message, 'error');
       }
     }
     setIsOpen(false);
   };
   const cancelRef: any = React.useRef();
+  const Toast = (title: any, status: any) => {
+    toast({
+      title: title,
+      status: status,
+      position: 'top-right',
+      duration: 3000,
+      isClosable: true,
+    });
+  };
   return (
     <>
       <AlertDialog
@@ -42,7 +55,8 @@ function AlertBox(props: any) {
         <AlertDialogOverlay>
           <AlertDialogContent>
             <Alert
-              status="error"
+              // status="error"
+              bg="#fff"
               variant="subtle"
               flexDirection="column"
               alignItems="center"
@@ -50,7 +64,7 @@ function AlertBox(props: any) {
               textAlign="center"
               height="200px"
             >
-              <AlertIcon boxSize="40px" mr={0} />
+              <AlertIcon boxSize="40px" mr={0} color="red.500" />
               <AlertTitle mt={4} mb={1} fontSize="lg">
                 {message}
               </AlertTitle>

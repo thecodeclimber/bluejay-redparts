@@ -110,26 +110,34 @@ export default dbConnect(async (req, res) => {
                     shortName: req.body.name.substring(0, 3),
                     attributes: req.body.attributes
                 }
-                var updateData = await SubCategory.updateMany({ _id: { $in: _id } }, data);
-                if (updateData.nModified == 0) {
-                    res.status(404).json({ 'message': 'Sub Categories not found' });
+                if (findsubCat) {
+                    res.send({
+                        status: 400,
+                        message: 'Sub-Category already exists!',
+                    });
+                } else {
+                    var updateData = await SubCategory.updateMany({ _id: { $in: _id } }, data);
+                    if (updateData.nModified == 0) {
+                        res.json({ status: 400, 'message': 'Sub Categories not found' });
+                    }
+                    res.json({ status: 200, 'message': 'Sub Categories updated' });
                 }
-                res.status(200).json({ 'message': 'Sub Categories updated' });
                 break;
             case 'DELETE':
                 const deleteId = req.query.Id.split(",");
                 var deleteData = await SubCategory.deleteMany({ _id: { $in: deleteId } });
                 if (deleteData.deletedCount == 0) {
-                    res.status(404).json({ 'message': 'sub Categories not found' });
+                    res.json({ status: 400, 'message': 'sub Categories not found' });
                 }
-                res.status(200).json({ 'message': 'Sub Categories deleted' });
+                res.json({ status: 200, 'message': 'Sub Categories deleted' });
                 break;
             case 'POST':
                 if (req.body.name != '' && req.body.category != '') {
-                    var findsubCat = await SubCategory.findOne({ name: req.body.name });
-                    if (findsubCat) {
-                        res.status(400).send({
-                            message: 'Duplicate Entry!',
+                    var findsubCatPost = await SubCategory.findOne({ name: req.body.name });
+                    if (findsubCatPost) {
+                        res.send({
+                            status: 400,
+                            message: 'Sub-Category already exists!',
                         });
                     } else {
                         var dataCategory = await SubCategory.insertMany([{ name: req.body.name, category: req.body.category, shortName: req.body.name.substring(0, 3) }]);
@@ -138,12 +146,12 @@ export default dbConnect(async (req, res) => {
                                 message: 'Sub Category not found!',
                             });
                         }
-                        res.status(200).send({ 'message': 'Sub Category created' });
+                        res.send({ status: 200, 'message': 'Sub Category created' });
                     }
 
                 } else {
-                    res.status(400).send({
-                        status: 'validation error',
+                    res.send({
+                        status: 400,
                         message: '[name | category] is required!',
                     });
                 }
@@ -153,7 +161,7 @@ export default dbConnect(async (req, res) => {
                 res.send({ status: false, message: 'Not found!' });
         }
     } else {
-        res.status(403).send('you are not authorized');
+        res.send({ status: 403, message: 'you are not authorized' });
     }
 
 });

@@ -32,7 +32,7 @@ import {
   Tr,
   chakra,
   useDisclosure,
-  Link, Spinner, Input, InputGroup, InputRightElement, Divider, GridItem, Grid
+  Link, Spinner, Input, Divider, useToast
 } from "@chakra-ui/react";
 import { usePagination, useSortBy, useTable } from "react-table";
 
@@ -42,7 +42,7 @@ import { useShopOptions } from "~/store/shop/shopHooks";
 import axios from "axios";
 import * as $ from 'jquery';
 import AlertBox from "../AlertBox";
-
+import showMessage from "../showMessage";
 function DataTable() {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const [selectedItems, setSelectedItems] = React.useState([]);
@@ -50,14 +50,18 @@ function DataTable() {
   const [edit, setEdit] = useState(false);
   const [attributes, setAttributes] = useState([]);
   const [message, setMessage] = useState('');
+  const [status, setStatus] = useState('');
   const [url, setUrl] = useState('');
   const [isOpenAlert, setIsOpen] = React.useState(false)
   const [form, setForm] = useState({
     name: '',
     value: '',
     _id: '',
+  });
+  const [filterForm, setFilterForm] = useState({
     key: 'default'
   });
+  const toast = useToast();
   const options = useShopOptions();
   let pageValue = [5, 10, 20, 50, 100];
   let selectedLimit = options?.limit == undefined ? 10 : options?.limit;
@@ -69,7 +73,7 @@ function DataTable() {
   }, []);
   const fetchData = async () => {
     setLoader(true);
-    let data = await axios.get(`/api/admin/attributes/?page=${options?.page ?? 1}&limit=${options?.limit ?? 10}&sort=${options.sort ?? 'default'}&key=${form.key}`);
+    let data = await axios.get(`/api/admin/attributes/?page=${options?.page ?? 1}&limit=${options?.limit ?? 10}&sort=${options.sort ?? 'default'}&key=${filterForm.key}`);
     setAttributes(data.data);
     setLoader(false);
   };
@@ -172,6 +176,7 @@ function DataTable() {
   }
 
   let HandleForm = (status) => {
+    form.value = [];
     setEdit(status)
     setForm({ name: '', _id: '', value: [] })
     onOpen();
@@ -206,13 +211,14 @@ function DataTable() {
         setSelectedItems(() => {
           return [];
         })
+        Toast(data.data.message, 'success')
       } else {
-        console.log(data.message)
+        Toast(data.data.message, 'error')
       }
     }
   }
   const filterHandle = async () => {
-    form.key = $('#keysearch').val();
+    filterForm.key = $('#keysearch').val();
     options.page = 1;
     fetchData();
   }
@@ -224,28 +230,41 @@ function DataTable() {
     }
     let values = [];
     $('.value').each(function (i, el) {
-      values.push($(this).val())
+      let key = $(this).val();
+      if (key != '') {
+        if (values.indexOf(key) != -1)
+          return values.filter(item => item != key);
+        values.push($(this).val())
+      }
     })
     form.value = values;
-    if (form.value.length == 0) {
+    if (values.length == 0) {
       errors.value = 'attribute value is required';
     }
     setError(errors);
     if (Object.keys(errors).length == 0) {
       let data = await axios.post(`/api/admin/attributes`, form);
+      console.log(data)
       if (data.status == 200) {
         fetchData();
         onClose();
         setForm({ name: '', _id: '', value: [] })
-        setSelectedItems(() => {
-          return [];
-        })
+        Toast(data.data.message, 'success')
       } else {
-        console.log(data.data.message)
+        Toast(data.data.message, 'error')
       }
     }
   }
 
+  const Toast = (title, status) => {
+    toast({
+      title: title,
+      status: status,
+      position: 'top-right',
+      duration: 3000,
+      isClosable: true,
+    });
+  }
   return (
     <>
       <Stack spacing={4} direction="row" justifyContent="flex-end" width="full" marginBottom="3">
@@ -439,6 +458,7 @@ function DataTable() {
       </Flex>
       <CustomModal isOpen={isOpen} onClose={onClose} form={form} setForm={setForm} Edit={edit} submitHandle={submitHandle} editHandle={editHandle} error={error} />
       <AlertBox isOpen={isOpenAlert} setIsOpen={setIsOpen} message={message} url={url} fetchData={fetchData} />
+
     </>
   )
 }

@@ -32,7 +32,7 @@ import {
   Tr,
   chakra,
   useDisclosure,
-  Link, Spinner, Input, InputGroup, InputRightElement, Divider
+  Link, Spinner, Input, InputGroup, InputRightElement, Divider, useToast
 } from "@chakra-ui/react";
 import AlertBox from "./AlertBox";
 import { usePagination, useSortBy, useTable } from "react-table";
@@ -58,6 +58,7 @@ function DataTable() {
   const [attribute, setAttribute] = useState([]);
   const [message, setMessage] = useState('');
   const [url, setUrl] = useState('');
+  const toast = useToast();
   const [isOpenAlert, setIsOpen] = React.useState(false)
   const [form, setForm] = useState({
     section: '',
@@ -285,8 +286,9 @@ function DataTable() {
       setSelectedItems(() => {
         return [];
       })
+      Toast(data.data.message, 'success')
     } else {
-      console.log(data.message)
+      Toast(data.data.message, 'error')
     }
   }
 
@@ -305,6 +307,15 @@ function DataTable() {
     fetchData();
   }
 
+  const Toast = (title, status) => {
+    toast({
+      title: title,
+      status: status,
+      position: 'top-right',
+      duration: 3000,
+      isClosable: true,
+    });
+  }
   return (
     <>
       <Stack spacing={4} direction="row" justifyContent="flex-end" width="full" marginBottom="3">

@@ -32,7 +32,7 @@ import {
   Tr,
   chakra,
   useDisclosure,
-  Link, Spinner, Input, InputGroup, InputRightElement, Divider
+  Link, Spinner, Input, InputGroup, InputRightElement, Divider, useToast
 } from "@chakra-ui/react";
 import { usePagination, useSortBy, useTable } from "react-table";
 
@@ -64,9 +64,11 @@ function DataTable() {
   let errors = {};
   const [error, setError] = useState({});
   const [isOpenAlert, setIsOpen] = React.useState(false)
+  const toast = useToast();
   useEffect(() => {
     fetchData();
   }, []);
+
   const fetchData = async () => {
     setLoader(true);
     let data = await axios.get(`/api/admin/sections/?page=${options?.page ?? 1}&limit=${options?.limit ?? 10}&sort=${options.sort ?? 'default'}&key=${filterForm.key}`);
@@ -114,7 +116,6 @@ function DataTable() {
     useSortBy,
     usePagination,
   );
-  console.log(data)
 
   // for next previous pagination
   let next = sections.page == null ? 1 : sections.page + 1;
@@ -187,16 +188,18 @@ function DataTable() {
     setError(errors);
     if (Object.keys(errors).length == 0) {
       let data = await axios.put(`/api/admin/sections?Id=${_id}`, form);
-      console.log(data)
-      if (data.status == 200) {
+      if (data.data.status == 200) {
         fetchData();
         onClose();
         setForm({ name: '', _id: '' })
         setSelectedItems(() => {
           return [];
         })
+        Toast(data.data.message, 'success')
+
       } else {
-        console.log(data.message)
+        Toast(data.data.message, 'error')
+
       }
     }
   }
@@ -215,20 +218,29 @@ function DataTable() {
     setError(errors);
     if (Object.keys(errors).length == 0) {
       let data = await axios.post(`/api/admin/sections`, form);
-      if (data.status == 200) {
+      if (data.data.status == 200) {
         fetchData();
         onClose();
         setForm({ name: '', _id: '' })
         setSelectedItems(() => {
           return [];
         })
+        Toast(data.data.message, 'success')
       } else {
-        console.log(data.data.message)
+        Toast(data.data.message, 'error')
       }
     }
   }
 
-
+  const Toast = (title, status) => {
+    toast({
+      title: title,
+      status: status,
+      position: 'top-right',
+      duration: 3000,
+      isClosable: true,
+    });
+  }
   return (
     <>
       <Stack spacing={4} direction="row" justifyContent="flex-end" width="full" marginBottom="3">

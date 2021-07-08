@@ -51,18 +51,24 @@ export default dbConnect(async (req, res) => {
                     })
                 }
                 if (req.body.name == '' && valuess.length == 0) {
-                    res.status(400).send('Name | Value is required');
+                    res.send({ status: 400, message: '[Name | Value] is required' });
                 }
-                var data = {
+                let data = {
                     name: req.body.name,
                     shortName: req.body.name.substring(0, 3),
                     values: valuess
                 }
-                var updateData = await Attribute.updateMany({ _id: { $in: _id } }, data);
-                if (updateData.nModified == 0) {
-                    res.status(404).json({ 'message': 'Attribute not found' });
+                let findData = await Attribute.findOne({ name: req.body.name });
+                if (findData) {
+                    res.send({ status: 400, message: 'Attribute already exists' });
+                } else {
+                    let updateData = await Attribute.updateMany({ _id: { $in: _id } }, data);
+                    if (updateData.nModified == 0) {
+                        res.status(200).json({ 'message': 'Attribute not found' });
+                    }
+                    res.status(200).json({ 'status': 200, 'message': 'Attribute updated' });
                 }
-                res.status(200).json({ 'message': 'Attribute updated' });
+
                 break;
             case 'DELETE':
                 const deleteId = req.query.Id.split(",");
@@ -80,17 +86,22 @@ export default dbConnect(async (req, res) => {
                     })
                 }
                 if (req.body.name == '' && values.length == 0) {
-                    res.status(400).send('Name | Value is required');
+                    res.json({ status: 400, message: '[name | values] is required' });
                 }
-                var dataCategory = await Attribute.insertMany([{
-                    name: req.body.name,
-                    shortName: req.body.name.substring(0, 3),
-                    values: values
-                }]);
-                if (dataCategory.length == 0) {
-                    res.status(404).json({ 'message': 'Something is error' });
+                let findDataPost = await Attribute.findOne({ name: req.body.name });
+                if (findDataPost) {
+                    res.json({ status: 400, message: 'Attribute already exists' });
+                } else {
+                    var dataCategory = await Attribute.insertMany([{
+                        name: req.body.name,
+                        shortName: req.body.name.substring(0, 3),
+                        values: values
+                    }]);
+                    if (dataCategory.length == 0) {
+                        res.json({ status: 400, message: 'Something is error' });
+                    }
+                    res.json({ status: 400, 'message': 'Atrribute created' });
                 }
-                res.status(200).json({ 'message': 'Atrribute created' });
                 break;
 
             default:

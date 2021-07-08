@@ -74,36 +74,44 @@ export default dbConnect(async (req, res) => {
                 res.json({ ...allCategoryData });
                 break;
             case 'PUT':
-                var _id = req.query.Id.split(",");
-                var data = {
+                let _id = req.query.Id.split(",");
+                let data = {
                     section: req.body.section,
                     name: req.body.name,
                     shortName: req.body.name.substring(0, 3)
                 }
-                console.log(data)
-                var updateData = await Category.updateMany({ _id: { $in: _id } }, data);
-                if (updateData.nModified == 0) {
-                    res.status(404).json({ 'message': 'Categories not found' });
+                let findData = await Category.findOne({ name: req.body.name });
+                if (findData) {
+                    res.status(200).json({ status: 400, 'message': 'Category already exists' });
+                } else {
+                    let updateData = await Category.updateMany({ _id: { $in: _id } }, data);
+                    if (updateData.nModified == 0) {
+                        res.status(404).json({ 'message': 'Categories not found' });
+                    }
+                    res.status(200).json({ 'message': 'Categories updated' });
                 }
-                res.status(200).json({ 'message': 'Categories updated' });
                 break;
             case 'DELETE':
                 const deleteId = req.query.Id.split(",");
                 var deleteData = await Category.deleteMany({ _id: { $in: deleteId } });
                 if (deleteData.deletedCount == 0) {
-                    res.status(404).json({ 'message': 'product not found' });
+                    res.status(404).json({ 'message': 'Category not found' });
                 }
                 await SubCategory.updateMany({ category: { $in: deleteId } }, { category: null });
-                res.status(200).json({ 'message': 'product deleted' });
+                res.status(200).json({ 'message': 'Category deleted' });
                 break;
             case 'POST':
-                var dataCategory = await Category.insertMany([{ name: req.body.name, section: req.body.section, shortName: await req.body.name.substring(0, 3) }]);
-                if (dataCategory.length == 0) {
-                    res.status(404).json({ 'message': 'Something is error' });
+                let findDataPost = await Category.findOne({ name: req.body.name });
+                if (findDataPost) {
+                    res.status(200).json({ message: 'Category already exists' });
+                } else {
+                    var dataCategory = await Category.insertMany([{ name: req.body.name, section: req.body.section, shortName: await req.body.name.substring(0, 3) }]);
+                    if (dataCategory.length == 0) {
+                        res.status(404).json({ 'message': 'Something is error' });
+                    }
+                    res.status(200).json({ 'message': 'Category created!' });
                 }
-                res.status(200).json({ 'message': 'Category created' });
                 break;
-
             default:
                 res.send({ status: false, message: 'Not found!' });
         }

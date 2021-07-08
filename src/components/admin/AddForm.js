@@ -17,7 +17,7 @@ import {
   ModalBody,
   ModalFooter,
   GridItem,
-  Text
+  Text, useToast
 } from '@chakra-ui/react';
 import axios from 'axios';
 
@@ -44,7 +44,7 @@ function AddForm(props) {
     category: '',
     type: '',
   });
-  let isValidForm = false;
+  const toast = useToast();
   const { onClose, isOpen, fetchData } = props;
   const capitalize = (string) =>
     string[0].toUpperCase() + string.slice(1);
@@ -186,8 +186,9 @@ function AddForm(props) {
       if (data.data.status == true) {
         if (data.data.newCreatedProducts === 0) {
           alert('products are already created!')
+          Toast('Products are already created', 'error')
         } else {
-          alert(data.data.newCreatedProducts + " " + data.data.message)
+          Toast(`${data.data.newCreatedProducts} ${data.data.message}`, 'success')
         }
         onClose();
         fetchData();
@@ -195,8 +196,15 @@ function AddForm(props) {
     }
 
   };
-  console.log(error)
-
+  const Toast = (title, status) => {
+    toast({
+      title: title,
+      status: status,
+      position: 'top-right',
+      duration: 3000,
+      isClosable: true,
+    });
+  }
   return (
     <>
       <ModalBody>

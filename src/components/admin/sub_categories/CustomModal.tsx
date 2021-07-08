@@ -18,6 +18,8 @@ import {
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import sub_categories from '~/pages/admin/sub_categories';
+import Category from '../common/Category';
+import Section from '../common/Section';
 
 function CustomModal(props: any) {
   const [checkedAttribute, setCheckedAttribute] = useState([]);
@@ -30,9 +32,6 @@ function CustomModal(props: any) {
     submitHandle,
     editHandle,
     error,
-    sections,
-    categories,
-    handleChange,
     attributes,
     assignHandle,
     sub_categories,
@@ -169,19 +168,12 @@ function CustomModal(props: any) {
                   isRequired
                 >
                   <FormLabel>Section</FormLabel>
-                  <Select
-                    placeholder="--Section--"
-                    name="section"
-                    id="section"
-                    onChange={(e) => handleChange(e)}
-                    value={form.section}
-                  >
-                    {sections.map((section: any) => (
-                      <option key={section._id} value={section._id}>
-                        {capitalize(section.name)}
-                      </option>
-                    ))}
-                  </Select>
+                  <Section
+                    form={form}
+                    setForm={setForm}
+                    size={'md'}
+                    width="100%"
+                  />
                   {error.section && (
                     <Text color="tomato" gap={6}>
                       {error.section}
@@ -194,24 +186,12 @@ function CustomModal(props: any) {
                   isRequired
                 >
                   <FormLabel>Category</FormLabel>
-                  <Select
-                    placeholder="--category--"
-                    name="category"
-                    id="category"
-                    disabled={form.section == ''}
-                    onChange={(e) => handleChange(e)}
-                    value={form.category}
-                  >
-                    {categories.map((cat: any) => (
-                      <option
-                        key={cat?._id}
-                        value={cat._id}
-                        selected={form.category === cat._id ? true : false}
-                      >
-                        {capitalize(cat.name)}
-                      </option>
-                    ))}
-                  </Select>
+                  <Category
+                    form={form}
+                    setForm={setForm}
+                    size="md"
+                    width="100%"
+                  />
                   {error.category && (
                     <Text color="tomato" gap={6}>
                       {error.category}

@@ -32,7 +32,7 @@ import {
   Tr,
   chakra,
   useDisclosure,
-  Link, Spinner, Input, InputGroup, InputRightElement, Divider, Tabs, TabList, Tab, TabPanels
+  Link, Spinner, Input, InputGroup, InputRightElement, Divider, Tabs, TabList, Tab, TabPanels, useToast
 } from "@chakra-ui/react";
 import { usePagination, useSortBy, useTable } from "react-table";
 
@@ -42,26 +42,27 @@ import { useShopOptions } from "~/store/shop/shopHooks";
 import axios from "axios";
 import * as $ from 'jquery';
 import AlertBox from "../AlertBox";
+import Section from "../common/Section";
+import InputKey from "../common/Input";
 
 function DataTable() {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const [categories, setCategories] = useState([]);
-
+  const toast = useToast();
   const [selectedItems, setSelectedItems] = React.useState([]);
   const [loader, setLoader] = useState(false);
   const [edit, setEdit] = useState(false);
   const [message, setMessage] = useState('');
-  const [Section, setSection] = useState([]);
   const [url, setUrl] = useState('');
   const [isOpenAlert, setIsOpen] = React.useState(false)
   const [form, setForm] = useState({
     section: '',
     name: '',
-    _id: ''
+    _id: '',
+    key: 'default',
+    type: 'default',
   });
   const [filterForm, setFilterForm] = useState({
-    section: '',
-    type: 'default',
     key: 'default'
   });
   const options = useShopOptions();
@@ -71,11 +72,10 @@ function DataTable() {
   const [error, setError] = useState({});
   useEffect(() => {
     fetchData();
-    selectSection();
   }, []);
   const fetchData = async () => {
     setLoader(true);
-    let data = await axios.get(`/api/admin/categories/?page=${options?.page ?? 1}&limit=${options?.limit ?? 20}&sort=${options.sort ?? 'default'}&key=${filterForm.key}&section=${filterForm.section}&type=${filterForm.type}`);
+    let data = await axios.get(`/api/admin/categories/?page=${options?.page ?? 1}&limit=${options?.limit ?? 20}&sort=${options.sort ?? 'default'}&key=${form.key}&section=${form.section}&type=${form.type}`);
     setCategories(data.data);
     setLoader(false);
   };
@@ -83,10 +83,6 @@ function DataTable() {
   const capitalize = (string) =>
     string[0].toUpperCase() + string.slice(1);
 
-  const selectSection = async () => {
-    let data = await axios.get(`/api/sections`);
-    setSection(data.data.data);
-  };
   const indexKey = '_id';
   let data = React.useMemo(
     () => categories.categories || [],
@@ -98,7 +94,9 @@ function DataTable() {
       {
         Header: "Section",
         accessor: "section.name",
-
+        Cell: ({ cell: { value } }) => (
+          value == null ? 'Null' : capitalize(value)
+        )
       },
       {
         Header: "Category",
@@ -175,8 +173,6 @@ function DataTable() {
     setUrl(`/api/admin/categories?Id=${deleteId}`)
     setIsOpen(true);
   }
-
-  console.log(categories)
   // for single Edit 
   const HandleSingleEdit = (Id, name, section) => {
     setEdit(true)
@@ -207,23 +203,24 @@ function DataTable() {
     setError(errors);
     if (Object.keys(errors).length == 0) {
       let data = await axios.put(`/api/admin/categories?Id=${_id}`, form);
-      console.log(data)
-      if (data.status == 200) {
+      if (data.data.status == 200) {
         fetchData();
         onClose();
-        setForm({ name: '', _id: '', section: '' })
+        setForm({ name: '', _id: '', section: '', key: 'default' })
         setSelectedItems(() => {
           return [];
         })
+        Toast(data.data.message, 'success')
       } else {
-        console.log(data.message)
+        Toast(data.data.message, 'error')
+
       }
     }
   }
 
   // filter handle
   const filterHandle = async () => {
-    filterForm.key = $('#keysearch').val();
+    form.key = $('#keysearch').val();
     options.page = 1;
     fetchData();
   }
@@ -238,32 +235,43 @@ function DataTable() {
     setError(errors);
     if (Object.keys(errors).length == 0) {
       let data = await axios.post(`/api/admin/categories`, form);
-      if (data.status == 200) {
+      if (data.data.status == 200) {
         fetchData();
         onClose();
-        setForm({ name: '', _id: '', section: '' })
+        setForm({ name: '', _id: '', section: '', key: 'default' })
         setSelectedItems(() => {
           return [];
         })
+        Toast(data.data.message, 'success')
       } else {
-        console.log(data.data.message)
+        Toast(data.data.message, 'error')
       }
     }
 
   }
 
   const resetHandle = async () => {
-    filterForm.key = 'default';
-    filterForm.section = '';
+    form.key = 'default';
+    form.section = '';
     $('#keysearch').val('')
     fetchData();
   }
 
   const changeType = (type) => {
-    options.key = $('#keysearch').val();
+    form.key = $('#keysearch').val();
     options.page = 1;
-    filterForm.type = type;
+    form.type = type;
     fetchData();
+  }
+
+  const Toast = (title, status) => {
+    toast({
+      title: title,
+      status: status,
+      position: 'top-right',
+      duration: 3000,
+      isClosable: true,
+    });
   }
   return (
     <>
@@ -274,30 +282,8 @@ function DataTable() {
         </>}
 
         <Text fontSize="md" fontWeight="bold">Filter : </Text>
-        <Select
-          placeholder="--Section--"
-          name="section"
-          size="sm"
-          id="section"
-          width="150px"
-          onChange={(e) => setFilterForm({ ...filterForm, section: e.target.value })}
-          value={filterForm.section}
-
-        >
-          {Section.map((section) => (
-            <option key={section._id} value={section._id}>
-              {capitalize(section.name)}
-            </option>
-          ))}
-        </Select>
-        <Input
-          size="sm"
-          type="text"
-          name="keysearch"
-          id="keysearch"
-          placeholder="Search"
-          width="150px"
-        />
+        <Section form={form} setForm={setForm} size={"sm"} width={'150px'} />
+        <InputKey />
         <Button size="sm" colorScheme="blue" onClick={() => filterHandle()}>
           Submit
         </Button>

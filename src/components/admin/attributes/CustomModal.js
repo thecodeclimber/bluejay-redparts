@@ -37,13 +37,13 @@ function CustomModal(props) {
   } = props;
   const capitalize = (string) => string[0].toUpperCase() + string.slice(1);
   let value = [{ index: 0, value: '' }];
-  const [talbeRows, setRows] = useState(value);
-  // var tableRowIndex = Math.floor((Math.random() * 1000) + 1);
+  const [talbeRows, setRows] = useState([]);
   let index = talbeRows.length;
-  console.log(index)
+  let length = talbeRows.length;
+
   // Receive data from TableRow 
   useEffect(() => {
-    form.value.length > 1 ? setRows(form.value) : value;
+    form.value.length > 0 ? setRows(form.value) : setRows(value);
   }, [form.value])
   const handleChange = data => {
     talbeRows[data.index] = data
@@ -103,7 +103,7 @@ function CustomModal(props) {
                     talbeRows.map((row, index) => {
                       if (row)
                         return (
-                          <TableRow key={index} row={row} handleDataChange={handleChange} deleteRow={deleteRow} addNewRow={addNewRow}></TableRow>
+                          <TableRow key={index} row={row} length={length} handleDataChange={handleChange} deleteRow={deleteRow} addNewRow={addNewRow}></TableRow>
                         )
                     })
                   }
@@ -139,7 +139,7 @@ function CustomModal(props) {
     </>
   );
 }
-function TableRow({ row, handleDataChange, deleteRow, addNewRow }) {
+function TableRow({ row, handleDataChange, deleteRow, addNewRow, length }) {
   let index = row.index;
   const [value, setValue] = useState(row.value);
 
@@ -155,13 +155,12 @@ function TableRow({ row, handleDataChange, deleteRow, addNewRow }) {
   const removeRow = () => {
     deleteRow(index)
   }
-  console.log(index)
   return (
     <Tr id={index}>
       <Td>
         <Input name="value" className="value" placeholder="value" value={value} onChange={updateValues} />
       </Td>
-      <Td><Button colorScheme="green" isDisabled={value == '' && index > index - 1 ? true : false} onClick={() => addNewRow()}>
+      <Td><Button colorScheme="green" isDisabled={value == '' || (index !== length - 1) ? true : false} onClick={() => addNewRow()}>
         <AddIcon />
       </Button>&nbsp;&nbsp;<Button colorScheme="red" className="btn btn-remove" onClick={removeRow}><MinusIcon /></Button></Td>
     </Tr>
