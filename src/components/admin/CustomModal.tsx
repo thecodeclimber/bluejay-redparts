@@ -19,6 +19,8 @@ function CustomModal(props: any) {
     productData,
     setProductData,
     fetchData,
+    form,
+    setForm,
   } = props;
 
   return (
@@ -37,7 +39,13 @@ function CustomModal(props: any) {
               onClose={onClose}
             />
           ) : (
-            <AddForm isOpen={isOpen} onClose={onClose} fetchData={fetchData} />
+            <AddForm
+              isOpen={isOpen}
+              form={form}
+              setForm={setForm}
+              onClose={onClose}
+              fetchData={fetchData}
+            />
           )}
         </ModalContent>
       </Modal>

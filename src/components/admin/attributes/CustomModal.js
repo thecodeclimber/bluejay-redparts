@@ -35,7 +35,6 @@ function CustomModal(props) {
     editHandle,
     error,
   } = props;
-  const capitalize = (string) => string[0].toUpperCase() + string.slice(1);
   let value = [{ index: 0, value: '' }];
   const [talbeRows, setRows] = useState([]);
   let index = talbeRows.length;
@@ -60,11 +59,15 @@ function CustomModal(props) {
 
   // Remove Table row if rows are count is more than 1
   const deleteRow = (index) => {
-    if ($('#value-body tr').length > 1) {
-      $('#' + index).remove();
+    if (talbeRows.length > 1) {
+      const arrayCopy = talbeRows.filter((row) => row.index !== index);
+      var updatedRows = [...arrayCopy]
+      setRows(updatedRows);
     }
 
   }
+
+  form.val = talbeRows;
   return (
     <>
       <Modal isOpen={isOpen} onClose={onClose} size="xl">
@@ -103,7 +106,7 @@ function CustomModal(props) {
                     talbeRows.map((row, index) => {
                       if (row)
                         return (
-                          <TableRow key={index} row={row} length={length} handleDataChange={handleChange} deleteRow={deleteRow} addNewRow={addNewRow}></TableRow>
+                          <TableRow key={index} row={row} i={index} length={length} handleDataChange={handleChange} deleteRow={deleteRow} addNewRow={addNewRow}></TableRow>
                         )
                     })
                   }
@@ -139,7 +142,7 @@ function CustomModal(props) {
     </>
   );
 }
-function TableRow({ row, handleDataChange, deleteRow, addNewRow, length }) {
+function TableRow({ row, i, handleDataChange, deleteRow, addNewRow, length }) {
   let index = row.index;
   const [value, setValue] = useState(row.value);
 
@@ -148,21 +151,22 @@ function TableRow({ row, handleDataChange, deleteRow, addNewRow, length }) {
     setValue(inputValue)
     handleDataChange({
       index: index,
-      value: value
+      value: inputValue
     })
   }
 
   const removeRow = () => {
     deleteRow(index)
   }
+
   return (
-    <Tr id={index}>
+    <Tr>
       <Td>
-        <Input name="value" className="value" placeholder="value" value={value} onChange={updateValues} />
+        <Input name="value" className="value" placeholder="value" value={value} onChange={(e) => updateValues(e)} />
       </Td>
-      <Td><Button colorScheme="green" isDisabled={value == '' || (index !== length - 1) ? true : false} onClick={() => addNewRow()}>
+      <Td><Button colorScheme="green" isDisabled={value == '' ? true : false} onClick={() => addNewRow()}>
         <AddIcon />
-      </Button>&nbsp;&nbsp;<Button colorScheme="red" className="btn btn-remove" onClick={removeRow}><MinusIcon /></Button></Td>
+      </Button>&nbsp;&nbsp;<Button colorScheme="red" className="btn btn-remove" onClick={() => removeRow()}><MinusIcon /></Button></Td>
     </Tr>
   )
 }

@@ -43,6 +43,7 @@ import axios from "axios";
 import * as $ from 'jquery';
 import AlertBox from "../AlertBox";
 import showMessage from "../showMessage";
+import { TimerPartValueMinutes } from "~/styled-components/components/Timer";
 function DataTable() {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const [selectedItems, setSelectedItems] = React.useState([]);
@@ -193,9 +194,11 @@ function DataTable() {
       errors.name = 'attribute is required';
     }
     let values = [];
-    $('.value').each(function (i, el) {
-      values.push($(this).val())
-    })
+    if (form.val != undefined) {
+      form.val.map(item => {
+        values.push(item.value)
+      })
+    }
     form.value = values;
     if (form.value.length == 0) {
       errors.value = 'attribute value is required';
@@ -229,14 +232,11 @@ function DataTable() {
       errors.name = 'attribute is required';
     }
     let values = [];
-    $('.value').each(function (i, el) {
-      let key = $(this).val();
-      if (key != '') {
-        if (values.indexOf(key) != -1)
-          return values.filter(item => item != key);
-        values.push($(this).val())
-      }
-    })
+    if (form.val != undefined) {
+      form.val.map(item => {
+        values.push(item.value)
+      })
+    }
     form.value = values;
     if (values.length == 0) {
       errors.value = 'attribute value is required';

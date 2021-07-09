@@ -3,40 +3,35 @@ import { useEffect, useState } from 'react';
 import { Select } from '@chakra-ui/react';
 const SubCategory = (props: any) => {
   const { form, setForm, size, width } = props;
-  const [Section, setSection] = useState([]);
-  const [categories, setCategories] = useState([]);
+  const [sub_categories, setSubcategory] = useState([]);
   useEffect(() => {
-    selectSection();
-  }, []);
+    if (form.category != '') {
+      getSubCategory();
+    }
+  }, [form.category]);
 
   const capitalize = (string: any) => string[0].toUpperCase() + string.slice(1);
-  const selectSection = async () => {
-    let data = await axios.get(`/api/sections`);
-    setSection(data.data.data);
+  const getSubCategory = async () => {
+    let data = await axios.get<any>(
+      `/api/category/sub_categories/${form.category}`
+    );
+    setSubcategory(data.data.data);
   };
-
-  const getCategory = async () => {
-    let data = await Section.filter((value: any) => {
-      return value._id === form.section;
-    });
-    data.length === 0 ? setCategories([]) : setCategories(data[0]['category']);
-  };
-  getCategory();
-
   return (
     <Select
-      placeholder="--category--"
-      name="category"
+      placeholder="--Sub Category--"
+      name="type"
       size={size}
-      id="category"
       width={width}
-      disabled={form.section === ''}
-      onChange={(e) => setForm({ ...form, category: e.target.value })}
-      value={form.category}
+      id="sub_category"
+      className="sub_category"
+      onChange={(e) => setForm({ ...form, sub_category: e.target.value })}
+      value={form.sub_category}
+      disabled={form?.category === '' || sub_categories.length === 0}
     >
-      {categories.map((cat: any) => (
-        <option key={cat._id} value={cat._id}>
-          {capitalize(cat.name)}
+      {sub_categories.map((subcat: any) => (
+        <option key={subcat._id} value={subcat._id} id={subcat.shortName}>
+          {capitalize(subcat.name)}
         </option>
       ))}
     </Select>

@@ -53,8 +53,6 @@ function DataTable() {
   const [selectedItems, setSelectedItems] = React.useState([]);
   const [loader, setLoader] = useState(false);
   const [edit, setEdit] = useState(false);
-  const [categories, setCategories] = useState([]);
-  const [attributes, setAttributes] = useState([]);
   const [message, setMessage] = useState('');
   const [url, setUrl] = useState('');
   const [isOpenAlert, setIsOpen] = React.useState(false)
@@ -75,7 +73,6 @@ function DataTable() {
   const [error, setError] = useState({});
   useEffect(() => {
     fetchData();
-    selectAttributes();
   }, []);
   const fetchData = async () => {
     setLoader(true);
@@ -87,10 +84,14 @@ function DataTable() {
     string[0].toUpperCase() + string.slice(1);
 
 
-  const selectAttributes = async () => {
-    let data = await axios.get(`/api/attributes`);
-    setAttributes(data.data);
-  };
+  const SetNull = () => {
+    form.section = ''
+    form.category = ''
+    form.name = ''
+    form._id = ''
+    form.key = 'default'
+    $('#keysearch').val('')
+  }
 
   const indexKey = '_id';
   let data = React.useMemo(
@@ -189,17 +190,24 @@ function DataTable() {
   }
 
   // for single Edit 
-  const HandleSingleEdit = (Id, name, category, attr) => {
-    let att = attr.map(item => { return item.attribute })
+  const HandleSingleEdit = (Id, name, category, section, attr) => {
+    let att = attr.map(item => {
+      if (item != null) {
+        return item.attribute
+      }
+    })
+    form.assign = false;
     setEdit(true)
     form.name = name;
     form.category = category._id;
     form.attributes = att;
+    form.section = section
     form._id = Id;
     onOpen();
   }
 
   let HandleForm = (status) => {
+    form.assign = false;
     setEdit(status)
     setForm({ sectin: '', name: '', _id: '', category: '', attributes: '' })
     onOpen();
@@ -223,9 +231,9 @@ function DataTable() {
     if (Object.keys(errors).length == 0) {
       let data = await axios.put(`/api/admin/sub_categories?Id=${_id}`, form);
       if (data.data.status == 200) {
+        SetNull();
         fetchData();
         onClose();
-        setForm({ name: '', _id: '', section: '', category: '', attributes: '' })
         setSelectedItems(() => {
           return [];
         })
@@ -254,9 +262,9 @@ function DataTable() {
     if (Object.keys(errors).length == 0) {
       let data = await axios.post(`/api/admin/sub_categories`, form);
       if (data.data.status == 200) {
+        SetNull()
         fetchData();
         onClose();
-        setForm({ name: '', _id: '', category: '', attributes: '' })
         setSelectedItems(() => {
           return [];
         })
@@ -270,10 +278,7 @@ function DataTable() {
 
 
   const resetHandle = async () => {
-    form.key = 'default';
-    form.section = '';
-    form.category = '';
-    $('#keysearch').val('')
+    SetNull();
     fetchData();
   }
 
@@ -315,12 +320,11 @@ function DataTable() {
       errors.attributes = 'attributes is required';
     }
     if (Object.keys(errors).length == 0) {
-      console.log(form)
       let data = await axios.put(`/api/admin/sub_categories/${form._id}`, { attributes: attributes });
       if (data.status == 200) {
+        SetNull();
         fetchData();
         onClose();
-        setForm({ name: '', _id: '', section: '', category: '', attributes: '' })
         setSelectedItems(() => {
           return [];
         })
@@ -421,7 +425,7 @@ function DataTable() {
                       </Td>
                       <Td>
                         <Stack direction="row" spacing={4} align="center">
-                          <Link onClick={() => HandleSingleEdit(row.original[indexKey], row.original['name'], row.original['category'], row.original['attributes'])}>
+                          <Link onClick={() => HandleSingleEdit(row.original[indexKey], row.original['name'], row.original['category'], row.original['section']['_id'], row.original['attributes'])}>
                             <EditIcon color="green.400" /></Link> &nbsp;
                           &nbsp;
                           &nbsp;
@@ -528,7 +532,7 @@ function DataTable() {
           </Tooltip>
         </Flex>
       </Flex>
-      <CustomModal isOpen={isOpen} onClose={onClose} form={form} setForm={setForm} Edit={edit} submitHandle={submitHandle} editHandle={editHandle} error={error} attributes={attributes} assignHandle={assignHandle} sub_categories={sub_categories} />
+      <CustomModal isOpen={isOpen} onClose={onClose} form={form} setForm={setForm} Edit={edit} submitHandle={submitHandle} editHandle={editHandle} error={error} assignHandle={assignHandle} sub_categories={sub_categories} />
       <AlertBox isOpen={isOpenAlert} setIsOpen={setIsOpen} message={message} url={url} fetchData={fetchData} />
     </>
   )

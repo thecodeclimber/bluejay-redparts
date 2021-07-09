@@ -203,7 +203,7 @@ function DataTable() {
     setError(errors);
     if (Object.keys(errors).length == 0) {
       let data = await axios.put(`/api/admin/categories?Id=${_id}`, form);
-      if (data.data.status == 200) {
+      if (data.status == 200) {
         fetchData();
         onClose();
         setForm({ name: '', _id: '', section: '', key: 'default' })
@@ -235,7 +235,7 @@ function DataTable() {
     setError(errors);
     if (Object.keys(errors).length == 0) {
       let data = await axios.post(`/api/admin/categories`, form);
-      if (data.data.status == 200) {
+      if (data.status == 200) {
         fetchData();
         onClose();
         setForm({ name: '', _id: '', section: '', key: 'default' })

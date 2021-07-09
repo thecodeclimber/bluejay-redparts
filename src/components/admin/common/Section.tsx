@@ -18,12 +18,13 @@ const Section = (props: any) => {
       name="section"
       size={size}
       id="section"
+      className="section"
       width={width}
       onChange={(e) => setForm({ ...form, section: e.target.value })}
       value={form.section}
     >
       {Section.map((section: any) => (
-        <option key={section._id} value={section._id}>
+        <option key={section._id} value={section._id} id={section.shortName}>
           {capitalize(section.name)}
         </option>
       ))}

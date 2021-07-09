@@ -28,13 +28,14 @@ const Category = (props: any) => {
       name="category"
       size={size}
       id="category"
+      className="category"
       width={width}
-      disabled={form.section === ''}
+      disabled={form.section === '' || categories.length === 0}
       onChange={(e) => setForm({ ...form, category: e.target.value })}
       value={form.category}
     >
       {categories.map((cat: any) => (
-        <option key={cat._id} value={cat._id}>
+        <option key={cat._id} value={cat._id} id={cat.shortName}>
           {capitalize(cat.name)}
         </option>
       ))}

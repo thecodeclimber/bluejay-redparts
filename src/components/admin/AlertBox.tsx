@@ -26,11 +26,11 @@ function AlertBox(props: any) {
     if (status) {
       let data: any = await axios.delete(url);
       if (data.data.status == 200) {
-        fetchData();
         Toast(data.data.message, 'success');
       } else {
         Toast(data.data.message, 'error');
       }
+      fetchData();
     }
     setIsOpen(false);
   };

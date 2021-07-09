@@ -10,6 +10,7 @@ export default dbConnect(async (req, res) => {
         switch (req.method) {
             case 'GET':
                 let { page, limit, sort, key, section, category, type } = req.query;
+                console.log(req.query)
                 page = parseInt(page);
                 const skipItems = page
                     ? page == 1

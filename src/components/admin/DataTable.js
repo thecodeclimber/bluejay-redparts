@@ -41,9 +41,12 @@ import CustomModal from "./CustomModal";
 import React, { useEffect, useState } from 'react';
 import { useShopOptions } from "~/store/shop/shopHooks";
 import axios from "axios";
-import { ProductRatingStars } from "~/styled-components/shop/Product";
-import Rating from "../shared/Rating";
+import Section from "./common/Section";
+import Category from "./common/Category";
+import SubCategory from "./common/SubCategory";
 import * as $ from 'jquery';
+import InputKey from "./common/Input";
+import AttributeSelect from "./common/AttributeSelect";
 
 
 function DataTable() {
@@ -52,10 +55,6 @@ function DataTable() {
   const [products, setProducts] = useState([]);
   const [isEditForm, setIsEditForm] = useState(false);
   const [loader, setLoader] = useState(false);
-  const [Section, setSection] = useState([]);
-  const [category, setCategory] = useState([]);
-  const [subcategory, setSubcategory] = useState([]);
-  const [attribute, setAttribute] = useState([]);
   const [message, setMessage] = useState('');
   const [url, setUrl] = useState('');
   const toast = useToast();
@@ -63,11 +62,9 @@ function DataTable() {
   const [form, setForm] = useState({
     section: '',
     category: '',
-    type: '',
-    value: ''
-  });
-  const [filterForm, setFilterForm] = useState({
-    key: 'default',
+    sub_category: '',
+    attribute: '',
+    key: 'default'
   });
   const [productData, setProductData] = useState({ updateId: '', name: '', price: '', description: '' });
   const options = useShopOptions();
@@ -76,85 +73,16 @@ function DataTable() {
 
   useEffect(() => {
     fetchData();
-    selectSection();
   }, []);
   const fetchData = async () => {
     setLoader(true);
-    let data = await axios.get(`/api/admin/product/?page=${options?.page ?? 1}&limit=${options?.limit ?? 20}&sort=${options.sort ?? 'default'}&key=${filterForm.key}&section=${form.section}&category=${form.category}&subcategory=${form.type}&attribute=${form.value}`);
+    let data = await axios.get(`/api/admin/product/?page=${options?.page ?? 1}&limit=${options?.limit ?? 20}&sort=${options.sort ?? 'default'}&key=${form.key}&section=${form.section}&category=${form.category}&subcategory=${form.sub_category}&attribute=${form.attribute}`);
     setProducts(data.data);
     setLoader(false);
   };
   const capitalize = (string) =>
     string[0].toUpperCase() + string.slice(1);
-  const handleChange = (e) => {
 
-    setForm((prevState) => {
-      switch (e.target.name) {
-        case 'section':
-          setCategory([]);
-          getCategory(e.target.value);
-          return {
-            section: e.target.value,
-            category: '',
-            type: '',
-            value: ''
-          };
-        case 'category':
-          getSubCategory(e.target.value);
-          return {
-            ...prevState,
-            category: e.target.value,
-            type: '',
-            value: '',
-          };
-        case 'type':
-          fetchattribute(e.target.value);
-          return {
-            ...prevState,
-            type: e.target.value,
-            value: ''
-          };
-        case 'value':
-          return {
-            ...prevState,
-            value: e.target.value
-          };
-        default:
-          return prevState;
-      }
-    });
-  };
-
-  // get Select Data
-  const selectSection = async () => {
-    let data = await axios.get(`/api/sections`);
-    setSection(data.data.data);
-  };
-
-  const getSubCategory = async (category_id) => {
-    let data = await axios.get(`/api/category/sub_categories/${category_id}`);
-    setSubcategory(data.data.data);
-  };
-
-  const getCategory = async (id) => {
-    let data = await Section.filter((value) => {
-      return value._id === id;
-    });
-    data.length > 0 ? setCategory(data[0]['category']) : setCategory([]);
-  };
-
-  const fetchattribute = async (att) => {
-    let attributeId = [];
-    await subcategory.forEach((value) => {
-      if (value._id === att) {
-        value.attributes.forEach((val) => {
-          attributeId.push(val.attribute);
-        });
-      }
-    });
-    let data = await axios.post(`/api/attributes`, { id: attributeId });
-    setAttribute(data.data);
-  };
 
   const indexKey = '_id';
   let data = React.useMemo(
@@ -294,7 +222,7 @@ function DataTable() {
 
   // filter handle
   const filterHandle = async () => {
-    filterForm.key = $('#keysearch').val();
+    form.key = $('#keysearch').val();
     options.page = 1;
     fetchData();
   }
@@ -302,8 +230,9 @@ function DataTable() {
   const resetHandle = async () => {
     form.section = '';
     form.category = '';
-    form.type = '';
-    form.value = '';
+    form.sub_category = '';
+    form.attribute = '';
+    $('#keysearch').val('')
     fetchData();
   }
 
@@ -328,74 +257,11 @@ function DataTable() {
       </Stack>
       <Stack spacing={4} direction="row" justifyContent="flex-end" width="full" marginBottom="3">
         <Text fontSize="md" fontWeight="bold">Filter : </Text>
-        <Select
-          placeholder="--Section--"
-          name="section"
-          size="sm"
-          width="150px"
-          onChange={(e) => handleChange(e)}
-          value={form.section}
-
-        >
-          {Section.map((section) => (
-            <option key={section._id} value={section._id}>
-              {capitalize(section.name)}
-            </option>
-          ))}
-        </Select>
-        <Select
-          placeholder="--Category--"
-          name="category"
-          size="sm"
-          width="150px"
-          onChange={(e) => handleChange(e)}
-          value={form.category}
-          disabled={category?.length === 0 || form.section === ''}
-        >
-          {category.map((cat) => (
-            <option key={cat._id} value={cat._id}>
-              {capitalize(cat.name)}
-            </option>
-          ))}
-        </Select>
-        <Select
-          placeholder="--Sub Category--"
-          name="type"
-          size="sm"
-          width="150px"
-          onChange={(e) => handleChange(e)}
-          value={form.type}
-          disabled={form?.category === '' || subcategory?.length === 0}
-        >
-          {subcategory.map((subcat) => (
-            <option key={subcat._id} value={subcat._id}>
-              {capitalize(subcat.name)}
-            </option>
-          ))}
-        </Select>
-        <Select
-          placeholder="--Attributes--"
-          name="value"
-          size="sm"
-          width="150px"
-          onChange={(e) => handleChange(e)}
-          value={form.value}
-          disabled={form?.type === '' || attribute?.length === 0}
-        >
-          {attribute.map((attr) => (
-            <option key={attr._id} value={attr._id}>
-              {capitalize(attr.name)}
-            </option>
-          ))}
-        </Select>
-        <Input
-          size="sm"
-          type="text"
-          name="keysearch"
-          id="keysearch"
-          placeholder="Search"
-          width="150px"
-        />
+        <Section form={form} setForm={setForm} size="sm" width="150px" />
+        <Category form={form} setForm={setForm} size="sm" width="150px" />
+        <SubCategory form={form} setForm={setForm} size="sm" width="150px" />
+        <AttributeSelect form={form} setForm={setForm} size="sm" width="150px" />
+        <InputKey />
         <Button size="sm" colorScheme="blue" onClick={() => filterHandle()}>
           Submit
         </Button>
@@ -571,7 +437,7 @@ function DataTable() {
           </Tooltip>
         </Flex>
       </Flex>
-      <CustomModal isOpen={isOpen} onClose={onClose} Edit={isEditForm} fetchData={fetchData} editHandle={editHandle} productData={productData} setProductData={setProductData} />
+      <CustomModal isOpen={isOpen} onClose={onClose} Edit={isEditForm} fetchData={fetchData} editHandle={editHandle} productData={productData} setProductData={setProductData} form={form} setForm={setForm} />
       <AlertBox isOpen={isOpenAlert} setIsOpen={setIsOpen} message={message} url={url} fetchData={fetchData} />
     </>
   )

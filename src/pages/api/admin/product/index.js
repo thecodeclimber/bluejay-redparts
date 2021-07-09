@@ -24,7 +24,6 @@ export default dbConnect(async (req, res) => {
                     regex = new RegExp(key, 'i');
                 }
                 key = key != 'default' ? { $or: [{ name: regex }, { price: isNaN(key) ? 0 : Number(key) }, { description: regex }, { sku: regex }] } : {};
-
                 let filter = {};
                 if (section != '') {
                     filter = { $and: [{ section: section }] };

@@ -59,15 +59,13 @@ export default dbConnect(async (req, res) => {
                     values: valuess
                 }
                 let findData = await Attribute.findOne({ name: req.body.name });
-                if (findData) {
-                    res.send({ status: 400, message: 'Attribute already exists' });
-                } else {
-                    let updateData = await Attribute.updateMany({ _id: { $in: _id } }, data);
-                    if (updateData.nModified == 0) {
-                        res.status(200).json({ 'message': 'Attribute not found' });
-                    }
-                    res.status(200).json({ 'status': 200, 'message': 'Attribute updated' });
+
+                let updateData = await Attribute.updateMany({ _id: { $in: _id } }, data);
+                if (updateData.nModified == 0) {
+                    res.status(200).json({ 'message': 'Attribute not found' });
                 }
+                res.status(200).json({ 'status': 200, 'message': 'Attribute updated' });
+
 
                 break;
             case 'DELETE':
