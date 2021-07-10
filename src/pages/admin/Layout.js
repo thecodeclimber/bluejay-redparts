@@ -50,7 +50,7 @@ function Layout(props) {
         <Box ml={!variants?.navigationButton}>
           <Box>
             <Card style={{ margin: '2rem' }}>
-              <Box>
+              <Box pl="10px" pt="10px">
                 {variants?.navigationButton && (
                   <IconButton
                     icon={<ChevronRightIcon w={8} h={8} />}

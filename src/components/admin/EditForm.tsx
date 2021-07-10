@@ -17,7 +17,8 @@ import {
 import React, { useState } from 'react';
 
 function EditForm(props: any) {
-  const { productData, setProductData, editHandle, onClose, isOpen } = props;
+  const { productData, setProductData, editHandle, onClose, isOpen, disable } =
+    props;
 
   return (
     <>
@@ -63,7 +64,11 @@ function EditForm(props: any) {
         <Button variant="ghost" mr={3} onClick={onClose}>
           Close
         </Button>
-        <Button colorScheme="blue" onClick={() => editHandle()}>
+        <Button
+          colorScheme="blue"
+          disabled={disable}
+          onClick={() => editHandle()}
+        >
           update
         </Button>
       </ModalFooter>

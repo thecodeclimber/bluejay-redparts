@@ -24,6 +24,7 @@ import {
 import React, { useEffect, useState } from 'react';
 import { AddIcon, MinusIcon } from '@chakra-ui/icons';
 import * as $ from 'jquery'
+import { Col, FormGroup, Label } from 'reactstrap';
 function CustomModal(props) {
   const {
     isOpen,
@@ -33,41 +34,57 @@ function CustomModal(props) {
     setForm,
     submitHandle,
     editHandle,
-    error,
+    error, disable
   } = props;
-  let value = [{ index: 0, value: '' }];
-  const [talbeRows, setRows] = useState([]);
-  let index = talbeRows.length;
-  let length = talbeRows.length;
-
-  // Receive data from TableRow 
+  let value = { "id": "-1", "value": "" };
+  const [talbeRows, setRows] = useState({
+    options: [value]
+  });
   useEffect(() => {
-    form.value.length > 0 ? setRows(form.value) : setRows(value);
+    form.value.length > 0 ? setRows({ options: form.value }) : setRows({ options: [value] });
   }, [form.value])
-  const handleChange = data => {
-    talbeRows[data.index] = data
+  const handleOptionsChange = (index, e) => {
+    let { id, value } = e.target;
+    let stateOptionsClone = JSON.parse(JSON.stringify(talbeRows.options));
+    stateOptionsClone[index].value = value;
+    setRows({ options: stateOptionsClone });
   }
-
-
-  // Add New Table Row
-  const addNewRow = () => {
-    let tableRowIndex = index;
-    var updatedRows = [...talbeRows]
-    updatedRows[index] = { index: tableRowIndex, value: "" }
-    setRows(updatedRows)
-  }
-
-  // Remove Table row if rows are count is more than 1
-  const deleteRow = (index) => {
-    if (talbeRows.length > 1) {
-      const arrayCopy = talbeRows.filter((row) => row.index !== index);
-      var updatedRows = [...arrayCopy]
-      setRows(updatedRows);
+  const handleDelete = (index, e) => {
+    let stateClone = JSON.parse(JSON.stringify(talbeRows.options));
+    if (talbeRows.options.length > 1) {
+      stateClone.splice(index, 1);
+      setRows({ options: stateClone });
     }
 
+    e.preventDefault();
   }
 
-  form.val = talbeRows;
+  const handleClick = (e) => {
+    let stateClone = JSON.parse(JSON.stringify(talbeRows));
+    stateClone.options.push(value);
+    setRows({ options: stateClone.options });
+    e.preventDefault();
+  }
+  form.val = talbeRows.options;
+  const customRow = (options) => {
+    const listItems = options.map((cusRow, index) =>
+      <FormGroup row key={index} data={index}>
+        <Col sm={7}>
+          <Input name="value" className="value" placeholder="value" value={cusRow.value}
+            onChange={(e) => handleOptionsChange(index, e)} />
+        </Col>
+        <Col sm={4}>
+          <Button colorScheme="green" isDisabled={cusRow.value == '' || index != options.length - 1 ? true : false} onClick={handleClick}>
+            <AddIcon /></Button>&nbsp;&nbsp;
+          <Button colorScheme="red" className="btn btn-remove" onClick={(e) => handleDelete(index, e)}><MinusIcon /></Button>
+        </Col>
+
+      </FormGroup>
+    );
+    return (
+      listItems
+    )
+  }
   return (
     <>
       <Modal isOpen={isOpen} onClose={onClose} size="xl">
@@ -98,21 +115,7 @@ function CustomModal(props) {
               className="values"
             >
               <FormLabel>Attributes Value</FormLabel>
-              <Table variant="simple">
-                <Tbody id="value-body">
-
-                  {
-
-                    talbeRows.map((row, index) => {
-                      if (row)
-                        return (
-                          <TableRow key={index} row={row} i={index} length={length} handleDataChange={handleChange} deleteRow={deleteRow} addNewRow={addNewRow}></TableRow>
-                        )
-                    })
-                  }
-
-                </Tbody>
-              </Table>
+              {customRow(talbeRows.options)}
               <br />
               {error.value && (
                 <Text color="tomato" gap={6}>
@@ -127,11 +130,11 @@ function CustomModal(props) {
               Close
             </Button>
             {Edit ? (
-              <Button colorScheme="blue" onClick={() => editHandle()}>
+              <Button colorScheme="blue" disabled={disable} onClick={() => editHandle()}>
                 Update
               </Button>
             ) : (
-              <Button colorScheme="blue" onClick={() => submitHandle()}>
+              <Button colorScheme="blue" disabled={disable} onClick={() => submitHandle()}>
                 Save
               </Button>
             )}
@@ -141,33 +144,5 @@ function CustomModal(props) {
       </Modal>
     </>
   );
-}
-function TableRow({ row, i, handleDataChange, deleteRow, addNewRow, length }) {
-  let index = row.index;
-  const [value, setValue] = useState(row.value);
-
-  const updateValues = (e) => {
-    let inputValue = e.target.value;
-    setValue(inputValue)
-    handleDataChange({
-      index: index,
-      value: inputValue
-    })
-  }
-
-  const removeRow = () => {
-    deleteRow(index)
-  }
-
-  return (
-    <Tr>
-      <Td>
-        <Input name="value" className="value" placeholder="value" value={value} onChange={(e) => updateValues(e)} />
-      </Td>
-      <Td><Button colorScheme="green" isDisabled={value == '' ? true : false} onClick={() => addNewRow()}>
-        <AddIcon />
-      </Button>&nbsp;&nbsp;<Button colorScheme="red" className="btn btn-remove" onClick={() => removeRow()}><MinusIcon /></Button></Td>
-    </Tr>
-  )
 }
 export default CustomModal;

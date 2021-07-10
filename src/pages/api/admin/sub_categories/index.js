@@ -105,24 +105,19 @@ export default dbConnect(async (req, res) => {
                 break;
             case 'PUT':
                 var _id = req.query.Id.split(",");
+                console.log(req.body)
+                console.log(req.query)
                 var data = {
                     category: req.body.category,
                     name: req.body.name,
                     shortName: req.body.name.substring(0, 3),
-                    attributes: req.body.attributes
                 }
-                if (findsubCat) {
-                    res.send({
-                        status: 400,
-                        message: 'Sub-Category already exists!',
-                    });
-                } else {
-                    var updateData = await SubCategory.updateMany({ _id: { $in: _id } }, data);
-                    if (updateData.nModified == 0) {
-                        res.json({ status: 400, 'message': 'Sub Categories not found' });
-                    }
-                    res.json({ status: 200, 'message': 'Sub Categories updated' });
+                var updateData = await SubCategory.updateMany({ _id: { $in: _id } }, data);
+                if (updateData.nModified == 0) {
+                    res.json({ status: 400, 'message': 'Sub Categories not found' });
                 }
+                res.json({ status: 200, 'message': 'Sub Categories updated' });
+
                 break;
             case 'DELETE':
                 const deleteId = req.query.Id.split(",");

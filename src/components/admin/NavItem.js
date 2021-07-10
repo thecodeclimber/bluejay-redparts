@@ -10,8 +10,8 @@ export default function NavItem({ icon, title, onClose, link, active }) {
       w="100%"
       borderRadius={'none'}
       textAlign="left"
-      backgroundColor={active ? '#000' : '#171923'}
-      _hover={{ backgroundColor: "#000" }}
+      style={active ? { backgroundColor: "#000000" } : { backgroundColor: "#171923" }}
+      _hover={{ backgroundColor: "#000000" }}
     >
       <Link href={link}>
         <Text w={'100%'} color={active ? "#fff" : "#ddd"} _hover={{ color: "#fff" }}>

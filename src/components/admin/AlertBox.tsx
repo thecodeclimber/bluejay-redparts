@@ -15,7 +15,8 @@ import { DeleteIcon } from '@chakra-ui/icons';
 import axios from 'axios';
 import React from 'react';
 function AlertBox(props: any) {
-  const { setIsOpen, isOpen, message, url, fetchData } = props;
+  const { setIsOpen, isOpen, message, url, fetchData, disable, setDisable } =
+    props;
   const toast = useToast();
 
   const onClose = () => {
@@ -24,8 +25,9 @@ function AlertBox(props: any) {
 
   let onDelete = async (status: any) => {
     if (status) {
+      setDisable(true);
       let data: any = await axios.delete(url);
-      if (data.data.status == 200) {
+      if (data.status == 200) {
         Toast(data.data.message, 'success');
       } else {
         Toast(data.data.message, 'error');
@@ -72,7 +74,12 @@ function AlertBox(props: any) {
                 <Button ref={cancelRef} onClick={() => onDelete(false)}>
                   Cancel
                 </Button>
-                <Button colorScheme="red" onClick={() => onDelete(true)} ml={3}>
+                <Button
+                  colorScheme="red"
+                  disabled={disable}
+                  onClick={() => onDelete(true)}
+                  ml={3}
+                >
                   OK
                 </Button>
               </AlertDialogFooter>

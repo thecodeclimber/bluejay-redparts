@@ -49,6 +49,7 @@ function DataTable() {
   const [selectedItems, setSelectedItems] = React.useState([]);
   const [loader, setLoader] = useState(false);
   const [edit, setEdit] = useState(false);
+  const [disable, setDisable] = useState(false);
   const [message, setMessage] = useState('');
   const [url, setUrl] = useState('');
   const [form, setForm] = useState({
@@ -74,6 +75,7 @@ function DataTable() {
     let data = await axios.get(`/api/admin/sections/?page=${options?.page ?? 1}&limit=${options?.limit ?? 10}&sort=${options.sort ?? 'default'}&key=${filterForm.key}`);
     setSections(data.data);
     setLoader(false);
+    setDisable(false)
   };
   const capitalize = (string) =>
     string[0].toUpperCase() + string.slice(1);
@@ -178,6 +180,7 @@ function DataTable() {
 
   // edit table
   const editHandle = async () => {
+    setDisable(true)
     let _id = form._id != 'null' ? form._id.split(",") : form._id;
     if (_id == '') {
       _id = selectedItems;
@@ -206,12 +209,21 @@ function DataTable() {
 
   // filter handle
   const filterHandle = async () => {
+    setDisable(true)
     filterForm.key = $('#keysearch').val();
     options.page = 1;
     fetchData();
   }
 
+  const resetHandle = async () => {
+    setDisable(true)
+    $('#keysearch').val('');
+    filterForm.key = 'default'
+    fetchData();
+  }
+
   const submitHandle = async () => {
+    setDisable(true)
     if (form.name == '') {
       errors.name = 'section name is required';
     }
@@ -243,9 +255,9 @@ function DataTable() {
   }
   return (
     <>
-      <Stack spacing={4} direction="row" justifyContent="flex-end" width="full" marginBottom="3">
+      <Stack spacing={4} direction="row" justifyContent="flex-end" width="full" marginBottom="3" mt={'-35px'} pr="10px">
         {selectedItems.length && <>
-          <Button size="sm" colorScheme="red" onClick={() => deleteHandle()}>
+          <Button size="sm" colorScheme="red" disabled={disable} onClick={() => deleteHandle()}>
             <DeleteIcon />&nbsp;&nbsp;Bulk Delete</Button>
         </>}
         <Input
@@ -256,8 +268,11 @@ function DataTable() {
           placeholder="Search"
           width="150px"
         />
-        <Button size="sm" colorScheme="blue" onClick={() => filterHandle()}>
+        <Button size="sm" colorScheme="blue" disabled={disable} onClick={() => filterHandle()}>
           Submit
+        </Button>
+        <Button size="sm" colorScheme="blue" disabled={disable} onClick={() => resetHandle()}>
+          Reset
         </Button>
         <Button size="sm" colorScheme="green" onClick={() => HandleForm(false)}><AddIcon />&nbsp;&nbsp;Add</Button>
       </Stack>
@@ -414,8 +429,8 @@ function DataTable() {
           </Tooltip>
         </Flex>
       </Flex>
-      <CustomModal isOpen={isOpen} onClose={onClose} form={form} setForm={setForm} Edit={edit} submitHandle={submitHandle} editHandle={editHandle} error={error} />
-      <AlertBox isOpen={isOpenAlert} setIsOpen={setIsOpen} message={message} url={url} fetchData={fetchData} />
+      <CustomModal isOpen={isOpen} onClose={onClose} form={form} setForm={setForm} Edit={edit} submitHandle={submitHandle} editHandle={editHandle} error={error} disable={disable} />
+      <AlertBox isOpen={isOpenAlert} setIsOpen={setIsOpen} message={message} url={url} fetchData={fetchData} disable={disable} setDisable={setDisable} />
     </>
   )
 }

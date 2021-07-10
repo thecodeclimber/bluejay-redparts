@@ -21,6 +21,7 @@ function CustomModal(props: any) {
     fetchData,
     form,
     setForm,
+    disable,
   } = props;
 
   return (
@@ -37,6 +38,7 @@ function CustomModal(props: any) {
               editHandle={editHandle}
               isOpen={isOpen}
               onClose={onClose}
+              disable={disable}
             />
           ) : (
             <AddForm

@@ -56,6 +56,7 @@ function DataTable() {
   const [message, setMessage] = useState('');
   const [url, setUrl] = useState('');
   const [isOpenAlert, setIsOpen] = React.useState(false)
+  const [disable, setDisable] = React.useState(false)
   const [form, setForm] = useState({
     section: '',
     category: '',
@@ -79,6 +80,7 @@ function DataTable() {
     let data = await axios.get(`/api/admin/sub_categories/?page=${options?.page ?? 1}&limit=${options?.limit ?? 10}&sort=${options.sort ?? 'default'}&key=${form.key}&section=${form.section}&category=${form.category}&type=${form.type}`);
     setSubCategories(data.data);
     setLoader(false);
+    setDisable(false)
   };
   const capitalize = (string) =>
     string[0].toUpperCase() + string.slice(1);
@@ -209,13 +211,14 @@ function DataTable() {
   let HandleForm = (status) => {
     form.assign = false;
     setEdit(status)
-    setForm({ sectin: '', name: '', _id: '', category: '', attributes: '' })
+    SetNull()
     onOpen();
   }
 
 
   // edit table
   const editHandle = async () => {
+    setDisable(true)
     let _id = form._id != 'null' ? form._id.split(",") : form._id;
     if (_id == '') {
       _id = selectedItems;
@@ -246,12 +249,14 @@ function DataTable() {
 
   // filter handle
   const filterHandle = async () => {
+    setDisable(true)
     form.key = $('#keysearch').val();
     options.page = 1;
     fetchData();
   }
 
   const submitHandle = async () => {
+    setDisable(true)
     if (form.category == '') {
       errors.category = 'category is required';
     }
@@ -260,9 +265,10 @@ function DataTable() {
     }
     setError(errors);
     if (Object.keys(errors).length == 0) {
+      console.log(form)
       let data = await axios.post(`/api/admin/sub_categories`, form);
+      SetNull()
       if (data.data.status == 200) {
-        SetNull()
         fetchData();
         onClose();
         setSelectedItems(() => {
@@ -278,11 +284,13 @@ function DataTable() {
 
 
   const resetHandle = async () => {
+    setDisable(true)
     SetNull();
     fetchData();
   }
 
   const changeType = (type) => {
+    setDisable(true)
     options.page = 1;
     form.type = type;
     fetchData();
@@ -294,6 +302,7 @@ function DataTable() {
     onOpen()
   }
   const assignHandle = async () => {
+    setDisable(true)
     let attributes = [];
     let parent_label = $('.chakra-checkbox.attribute.css-1uiwwan');
     parent_label.each(function (index, ele) {
@@ -346,9 +355,9 @@ function DataTable() {
   }
   return (
     <>
-      <Stack spacing={4} direction="row" justifyContent="flex-end" width="full" marginBottom="3">
+      <Stack spacing={4} direction="row" justifyContent="flex-end" width="full" marginBottom="3" mt={'-35px'} pr="10px">
         {selectedItems.length && <>
-          <Button size="sm" colorScheme="red" onClick={() => deleteHandle()}>
+          <Button size="sm" colorScheme="red" disabled={disable} onClick={() => deleteHandle()}>
             <DeleteIcon />&nbsp;&nbsp;Bulk Delete</Button>
         </>}
 
@@ -356,10 +365,10 @@ function DataTable() {
         <Section form={form} setForm={setForm} size={'sm'} width="150px" />
         <Category form={form} setForm={setForm} size={'sm'} width={'150px'} />
         <InputKey />
-        <Button size="sm" colorScheme="blue" onClick={() => filterHandle()}>
+        <Button size="sm" colorScheme="blue" disabled={disable} onClick={() => filterHandle()}>
           Submit
         </Button>
-        <Button size="sm" colorScheme="blue" onClick={() => resetHandle()}>
+        <Button size="sm" colorScheme="blue" disabled={disable} onClick={() => resetHandle()}>
           Reset
         </Button>
         <Button size="sm" colorScheme="green" onClick={() => HandleForm(false)}><AddIcon />&nbsp;&nbsp;Add</Button>
@@ -368,8 +377,8 @@ function DataTable() {
       <Divider orientation="horizontal" variant="solid" colorScheme="blue" />
       <Tabs size="md" variant="enclosed" mt={2} isLazy defaultIndex={0}>
         <TabList>
-          <Tab onClick={() => changeType('default')}>Categorized</Tab>
-          <Tab onClick={() => changeType('un')}>UnCategorized</Tab>
+          <Tab onClick={() => changeType('default')} disabled={disable}>Categorized</Tab>
+          <Tab onClick={() => changeType('un')} disabled={disable}>UnCategorized</Tab>
         </TabList>
         <TabPanels>
           <Table {...getTableProps()}>
@@ -532,8 +541,8 @@ function DataTable() {
           </Tooltip>
         </Flex>
       </Flex>
-      <CustomModal isOpen={isOpen} onClose={onClose} form={form} setForm={setForm} Edit={edit} submitHandle={submitHandle} editHandle={editHandle} error={error} assignHandle={assignHandle} sub_categories={sub_categories} />
-      <AlertBox isOpen={isOpenAlert} setIsOpen={setIsOpen} message={message} url={url} fetchData={fetchData} />
+      <CustomModal isOpen={isOpen} onClose={onClose} form={form} setForm={setForm} Edit={edit} submitHandle={submitHandle} editHandle={editHandle} error={error} assignHandle={assignHandle} sub_categories={sub_categories} disable={disable} />
+      <AlertBox isOpen={isOpenAlert} setIsOpen={setIsOpen} message={message} url={url} fetchData={fetchData} disable={disable} setDisable={setDisable} />
     </>
   )
 }

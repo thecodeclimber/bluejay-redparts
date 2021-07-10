@@ -59,6 +59,7 @@ function DataTable() {
   const [url, setUrl] = useState('');
   const toast = useToast();
   const [isOpenAlert, setIsOpen] = React.useState(false)
+  const [disable, setDisable] = React.useState(false);
   const [form, setForm] = useState({
     section: '',
     category: '',
@@ -79,6 +80,7 @@ function DataTable() {
     let data = await axios.get(`/api/admin/product/?page=${options?.page ?? 1}&limit=${options?.limit ?? 20}&sort=${options.sort ?? 'default'}&key=${form.key}&section=${form.section}&category=${form.category}&subcategory=${form.sub_category}&attribute=${form.attribute}`);
     setProducts(data.data);
     setLoader(false);
+    setDisable(false)
   };
   const capitalize = (string) =>
     string[0].toUpperCase() + string.slice(1);
@@ -202,6 +204,7 @@ function DataTable() {
 
   // edit table
   const editHandle = async () => {
+    setDisable(true)
     let updateId = productData.updateId != 'null' ? productData.updateId.split(",") : productData.updateId;
     if (updateId == '') {
       updateId = selectedItems;
@@ -222,6 +225,7 @@ function DataTable() {
 
   // filter handle
   const filterHandle = async () => {
+    setDisable(true)
     form.key = $('#keysearch').val();
     options.page = 1;
     fetchData();
@@ -232,7 +236,9 @@ function DataTable() {
     form.category = '';
     form.sub_category = '';
     form.attribute = '';
+    form.key = 'default';
     $('#keysearch').val('')
+    setDisable(true)
     fetchData();
   }
 
@@ -247,25 +253,25 @@ function DataTable() {
   }
   return (
     <>
-      <Stack spacing={4} direction="row" justifyContent="flex-end" width="full" marginBottom="3">
+      <Stack spacing={4} direction="row" justifyContent="flex-end" width="full" marginBottom="3" mt={'-35px'} pr="10px">
         {selectedItems.length && <>
-          <Button size="sm" colorScheme="red" onClick={() => deleteHandle()}>
+          <Button size="sm" colorScheme="red" disabled={disable} onClick={() => deleteHandle()}>
             <DeleteIcon />&nbsp;&nbsp;Bulk Delete</Button>
-          <Button size="sm" colorScheme="blue" onClick={() => HandleForm(true)}><EditIcon />&nbsp;&nbsp;Bulk Edit</Button>
+          <Button size="sm" colorScheme="blue" disabled={disable} onClick={() => HandleForm(true)}><EditIcon />&nbsp;&nbsp;Bulk Edit</Button>
         </>}
         <Button size="sm" colorScheme="green" onClick={() => HandleForm(false)}><AddIcon />&nbsp;&nbsp;Add</Button>
       </Stack>
-      <Stack spacing={4} direction="row" justifyContent="flex-end" width="full" marginBottom="3">
+      <Stack spacing={4} direction="row" justifyContent="flex-end" width="full" marginBottom="3" pr="10px">
         <Text fontSize="md" fontWeight="bold">Filter : </Text>
         <Section form={form} setForm={setForm} size="sm" width="150px" />
         <Category form={form} setForm={setForm} size="sm" width="150px" />
         <SubCategory form={form} setForm={setForm} size="sm" width="150px" />
         <AttributeSelect form={form} setForm={setForm} size="sm" width="150px" />
         <InputKey />
-        <Button size="sm" colorScheme="blue" onClick={() => filterHandle()}>
+        <Button size="sm" colorScheme="blue" disabled={disable} onClick={() => filterHandle()}>
           Submit
         </Button>
-        <Button size="sm" colorScheme="blue" onClick={() => resetHandle()}>
+        <Button size="sm" colorScheme="blue" disabled={disable} onClick={() => resetHandle()}>
           Reset
         </Button>
 
@@ -437,8 +443,8 @@ function DataTable() {
           </Tooltip>
         </Flex>
       </Flex>
-      <CustomModal isOpen={isOpen} onClose={onClose} Edit={isEditForm} fetchData={fetchData} editHandle={editHandle} productData={productData} setProductData={setProductData} form={form} setForm={setForm} />
-      <AlertBox isOpen={isOpenAlert} setIsOpen={setIsOpen} message={message} url={url} fetchData={fetchData} />
+      <CustomModal isOpen={isOpen} onClose={onClose} Edit={isEditForm} fetchData={fetchData} editHandle={editHandle} productData={productData} setProductData={setProductData} form={form} setForm={setForm} disable={disable} />
+      <AlertBox isOpen={isOpenAlert} setIsOpen={setIsOpen} message={message} url={url} fetchData={fetchData} disable={disable} setDisable={setDisable} />
     </>
   )
 }

@@ -32,7 +32,7 @@ import {
   Tr,
   chakra,
   useDisclosure,
-  Link, Spinner, Input, Divider, useToast
+  Link, Spinner, Input, Divider, useToast, filter
 } from "@chakra-ui/react";
 import { usePagination, useSortBy, useTable } from "react-table";
 
@@ -54,6 +54,7 @@ function DataTable() {
   const [status, setStatus] = useState('');
   const [url, setUrl] = useState('');
   const [isOpenAlert, setIsOpen] = React.useState(false)
+  const [disable, setDisable] = React.useState(false)
   const [form, setForm] = useState({
     name: '',
     value: '',
@@ -77,6 +78,7 @@ function DataTable() {
     let data = await axios.get(`/api/admin/attributes/?page=${options?.page ?? 1}&limit=${options?.limit ?? 10}&sort=${options.sort ?? 'default'}&key=${filterForm.key}`);
     setAttributes(data.data);
     setLoader(false);
+    setDisable(false)
   };
   const capitalize = (string) =>
     string[0].toUpperCase() + string.slice(1);
@@ -168,7 +170,7 @@ function DataTable() {
     setEdit(true)
     let setData = [];
     value.map(async (item, index) => {
-      await setData.push({ index: index, value: item.value })
+      await setData.push({ id: '-1', value: item.value })
     })
     form.name = name;
     form.value = setData;
@@ -186,6 +188,7 @@ function DataTable() {
 
   // edit table
   const editHandle = async () => {
+    setDisable(true)
     let _id = form._id != 'null' ? form._id.split(",") : form._id;
     if (_id == '') {
       _id = selectedItems;
@@ -196,17 +199,21 @@ function DataTable() {
     let values = [];
     if (form.val != undefined) {
       form.val.map(item => {
-        values.push(item.value)
+        if (item.value != '') {
+          if (values.indexOf(item.value) != -1)
+            return values.filter(items => items != item.value);
+          values.push(item.value)
+        } else {
+          errors.value = 'attribute value is required';
+        }
+
       })
     }
-    form.value = values;
-    if (form.value.length == 0) {
-      errors.value = 'attribute value is required';
-    }
+
     setError(errors);
     if (Object.keys(errors).length == 0) {
+      form.value = values;
       let data = await axios.put(`/api/admin/attributes?Id=${_id}`, form);
-      console.log(data)
       if (data.status == 200) {
         fetchData();
         onClose();
@@ -221,28 +228,43 @@ function DataTable() {
     }
   }
   const filterHandle = async () => {
+    setDisable(true)
     filterForm.key = $('#keysearch').val();
+    options.page = 1;
+    fetchData();
+  }
+  const resetHandle = async () => {
+    setDisable(true)
+    filterForm.key = 'default';
+    form._id = '';
+    form.name = "";
+    form.value = [];
+    $('#keysearch').val('');
     options.page = 1;
     fetchData();
   }
 
   const submitHandle = async () => {
-
+    setDisable(true)
     if (form.name == '') {
       errors.name = 'attribute is required';
     }
     let values = [];
     if (form.val != undefined) {
       form.val.map(item => {
-        values.push(item.value)
+        if (item.value != '') {
+          if (values.indexOf(item.value) != -1)
+            return values.filter(items => items != item.value);
+          values.push(item.value)
+        } else {
+          errors.value = 'attribute value is required';
+        }
+
       })
-    }
-    form.value = values;
-    if (values.length == 0) {
-      errors.value = 'attribute value is required';
     }
     setError(errors);
     if (Object.keys(errors).length == 0) {
+      form.value = values;
       let data = await axios.post(`/api/admin/attributes`, form);
       console.log(data)
       if (data.status == 200) {
@@ -267,9 +289,9 @@ function DataTable() {
   }
   return (
     <>
-      <Stack spacing={4} direction="row" justifyContent="flex-end" width="full" marginBottom="3">
+      <Stack spacing={4} direction="row" justifyContent="flex-end" width="full" marginBottom="3" mt={'-35px'} pr="10px">
         {selectedItems.length && <>
-          <Button size="sm" colorScheme="red" onClick={() => deleteHandle()}>
+          <Button size="sm" colorScheme="red" disabled={disable} onClick={() => deleteHandle()}>
             <DeleteIcon />&nbsp;&nbsp;Bulk Delete</Button>
         </>}
         <Input
@@ -280,8 +302,11 @@ function DataTable() {
           placeholder="Search"
           width="150px"
         />
-        <Button size="sm" colorScheme="blue" onClick={() => filterHandle()}>
+        <Button size="sm" colorScheme="blue" disabled={disable} onClick={() => filterHandle()}>
           Submit
+        </Button>
+        <Button size="sm" colorScheme="blue" disabled={disable} onClick={() => resetHandle()}>
+          Reset
         </Button>
         <Button size="sm" colorScheme="green" onClick={() => HandleForm(false)}><AddIcon />&nbsp;&nbsp;Add</Button>
       </Stack>
@@ -456,8 +481,8 @@ function DataTable() {
           </Tooltip>
         </Flex>
       </Flex>
-      <CustomModal isOpen={isOpen} onClose={onClose} form={form} setForm={setForm} Edit={edit} submitHandle={submitHandle} editHandle={editHandle} error={error} />
-      <AlertBox isOpen={isOpenAlert} setIsOpen={setIsOpen} message={message} url={url} fetchData={fetchData} />
+      <CustomModal isOpen={isOpen} onClose={onClose} form={form} setForm={setForm} Edit={edit} submitHandle={submitHandle} editHandle={editHandle} error={error} disable={disable} />
+      <AlertBox isOpen={isOpenAlert} setIsOpen={setIsOpen} message={message} disable={disable} setDisable={setDisable} url={url} fetchData={fetchData} />
 
     </>
   )

@@ -1,14 +1,24 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import { Checkbox, Grid, GridItem, FormLabel } from '@chakra-ui/react';
+import {
+  Checkbox,
+  Grid,
+  GridItem,
+  FormLabel,
+  Spinner,
+  Button,
+} from '@chakra-ui/react';
 const AttributeCheckbox = (props: any) => {
   const { form, setForm, sub_categories } = props;
   const [checkedAttribute, setCheckedAttribute] = useState([]);
   const [attribute, setAttributes] = useState<any>([]);
-
+  const [loader, setLoader] = useState<any>(false);
+  console.log(form.sub_category);
   useEffect(() => {
     if (form.sub_category != '') {
       getSubCategory();
+    } else {
+      setAttributes([]);
     }
   }, [form.sub_category]);
   const capitalize = (string: any) => string[0].toUpperCase() + string.slice(1);
@@ -30,8 +40,10 @@ const AttributeCheckbox = (props: any) => {
         attributeId.push(value.attribute);
       }
     });
+    setLoader(true);
     let data = await axios.post(`/api/attributes`, { id: attributeId });
     setAttributes(data.data);
+    setLoader(false);
   };
   const handleOnChangeAttribute = (e: any) => {
     let elem: any = document.getElementById('attr-' + e.target.value);
@@ -48,54 +60,71 @@ const AttributeCheckbox = (props: any) => {
       elem.style.display = 'none';
     }
   };
-
   return (
     <>
-      {attribute.length != 0 ? <FormLabel>Attributes</FormLabel> : ''}
-      {attribute.map((element: any) => (
+      {loader ? (
+        <Button
+          isLoading
+          loadingText="Loading attributes"
+          colorScheme="teal"
+          variant="outline"
+          spinnerPlacement="end"
+        >
+          Continue
+        </Button>
+      ) : attribute.length != 0 ? (
         <>
-          <Checkbox
-            size="md"
-            colorScheme="green"
-            key={element._id}
-            name="attribute"
-            className={'attribute'}
-            value={element._id}
-            data-shortname={element.shortName}
-            onChange={(e) => handleOnChangeAttribute(e)}
-          >
-            {capitalize(element.name)}
-          </Checkbox>
-          <Grid
-            pl={6}
-            templateRows="repeat(2, 1fr)"
-            templateColumns="repeat(4, 1fr)"
-            style={{ display: 'none' }}
-            id={'attr-' + element._id}
-          >
-            {element.values.length == 0
-              ? ''
-              : element.values.map((val: any) => (
-                  <>
-                    <GridItem>
-                      <Checkbox
-                        pl={4}
-                        colorScheme="green"
-                        size="sm"
-                        key={val._id}
-                        value={val._id}
-                        className={'attr-value-' + element._id}
-                        name={val.name}
-                      >
-                        {val.value}
-                      </Checkbox>
-                    </GridItem>
-                  </>
-                ))}
-          </Grid>
-          <br />
+          <FormLabel>Attributes</FormLabel>
+          {attribute.map((element: any) => (
+            <>
+              <Checkbox
+                size="md"
+                colorScheme="green"
+                key={element._id}
+                name="attribute"
+                className={'attribute'}
+                value={element._id}
+                data-shortname={element.shortName}
+                onChange={(e) => handleOnChangeAttribute(e)}
+              >
+                {capitalize(element.name)}
+              </Checkbox>
+              <Grid
+                pl={6}
+                templateRows="repeat(2, 1fr)"
+                templateColumns="repeat(4, 1fr)"
+                style={{ display: 'none' }}
+                id={'attr-' + element._id}
+              >
+                {element.values.length == 0
+                  ? ''
+                  : element.values.map((val: any) => (
+                      <>
+                        <GridItem>
+                          <Checkbox
+                            pl={4}
+                            colorScheme="green"
+                            size="sm"
+                            key={val._id}
+                            value={val._id}
+                            className={'attr-value-' + element._id}
+                            name={val.name}
+                          >
+                            {val.value}
+                          </Checkbox>
+                        </GridItem>
+                      </>
+                    ))}
+              </Grid>
+              <br />
+            </>
+          ))}
         </>
-      ))}
+      ) : form.sub_category != '' ? (
+        'No attributes'
+      ) : (
+        ''
+      )}
     </>
   );
 };

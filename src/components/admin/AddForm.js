@@ -45,8 +45,10 @@ function AddForm(props) {
   });
   const toast = useToast();
   const { onClose, isOpen, fetchData } = props;
+  const [disable, setDisable] = React.useState(false);
 
   const submitHandle = async () => {
+    setDisable(true)
     let attributes = [];
     let name = '';
     let parent_label = $('.chakra-checkbox.attribute.css-1uiwwan');
@@ -218,7 +220,7 @@ function AddForm(props) {
         <Button variant="ghost" mr={3} onClick={onClose}>
           Close
         </Button>
-        <Button colorScheme="blue" onClick={() => submitHandle()}>
+        <Button colorScheme="blue" onClick={() => submitHandle()} disabled={disable}>
           Save
         </Button>
       </ModalFooter>

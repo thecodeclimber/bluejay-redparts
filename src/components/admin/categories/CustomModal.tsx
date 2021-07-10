@@ -28,6 +28,7 @@ function CustomModal(props: any) {
     submitHandle,
     editHandle,
     error,
+    disable,
   } = props;
   const [sections, setSections] = useState<any>([]);
   const capitalize = (string: any) => string[0].toUpperCase() + string.slice(1);
@@ -94,11 +95,19 @@ function CustomModal(props: any) {
               Close
             </Button>
             {Edit ? (
-              <Button colorScheme="blue" onClick={() => editHandle()}>
+              <Button
+                colorScheme="blue"
+                disabled={disable}
+                onClick={() => editHandle()}
+              >
                 Update
               </Button>
             ) : (
-              <Button colorScheme="blue" onClick={() => submitHandle()}>
+              <Button
+                colorScheme="blue"
+                disabled={disable}
+                onClick={() => submitHandle()}
+              >
                 Save
               </Button>
             )}

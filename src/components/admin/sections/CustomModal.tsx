@@ -25,6 +25,7 @@ function CustomModal(props: any) {
     submitHandle,
     editHandle,
     error,
+    disable,
   } = props;
 
   return (
@@ -56,11 +57,19 @@ function CustomModal(props: any) {
               Close
             </Button>
             {Edit ? (
-              <Button colorScheme="blue" onClick={() => editHandle()}>
+              <Button
+                colorScheme="blue"
+                disabled={disable}
+                onClick={() => editHandle()}
+              >
                 Update
               </Button>
             ) : (
-              <Button colorScheme="blue" onClick={() => submitHandle()}>
+              <Button
+                colorScheme="blue"
+                disabled={disable}
+                onClick={() => submitHandle()}
+              >
                 Save
               </Button>
             )}

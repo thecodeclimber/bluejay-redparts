@@ -34,6 +34,7 @@ function CustomModal(props: any) {
     error,
     assignHandle,
     sub_categories,
+    disable,
   } = props;
   return (
     <>
@@ -136,15 +137,27 @@ function CustomModal(props: any) {
               Close
             </Button>
             {form.assign === true ? (
-              <Button colorScheme="blue" onClick={() => assignHandle()}>
+              <Button
+                colorScheme="blue"
+                disabled={disable}
+                onClick={() => assignHandle()}
+              >
                 Assign
               </Button>
             ) : Edit ? (
-              <Button colorScheme="blue" onClick={() => editHandle()}>
+              <Button
+                colorScheme="blue"
+                disabled={disable}
+                onClick={() => editHandle()}
+              >
                 Update
               </Button>
             ) : (
-              <Button colorScheme="blue" onClick={() => submitHandle()}>
+              <Button
+                colorScheme="blue"
+                disabled={disable}
+                onClick={() => submitHandle()}
+              >
                 Save
               </Button>
             )}
