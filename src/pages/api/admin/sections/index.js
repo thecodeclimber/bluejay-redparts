@@ -53,9 +53,9 @@ export default dbConnect(async (req, res) => {
                 } else {
                     var updateData = await Section.updateMany({ _id: { $in: _id } }, data);
                     if (updateData.nModified == 0) {
-                        res.json({ status: 400, 'message': 'sections not found' });
+                        res.json({ status: 400, 'message': 'Sections not found' });
                     }
-                    res.json({ status: 200, 'message': 'sections updated' });
+                    res.json({ status: 200, 'message': 'Sections updated' });
                 }
                 break;
             case 'DELETE':
@@ -65,7 +65,7 @@ export default dbConnect(async (req, res) => {
                     res.json({ status: 400, 'message': 'Section not found' });
                 }
                 await Category.updateMany({ section: { $in: deleteId } }, { section: null });
-                res.json({ status: 200, 'message': 'Section deleted!' });
+                res.json({ status: 200, 'message': 'Section deleted' });
                 break;
             case 'POST':
                 let findDataPost = await Section.findOne({ name: req.body.name });
@@ -77,7 +77,7 @@ export default dbConnect(async (req, res) => {
                     if (dataSection.length == 0) {
                         res.json({ status: 400, 'message': 'Something is error' });
                     }
-                    res.json({ status: 200, 'message': 'section created!' });
+                    res.json({ status: 200, 'message': 'Section created' });
                 }
                 break;
 

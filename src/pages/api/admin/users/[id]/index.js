@@ -1,5 +1,5 @@
-const dbConnect = require('../../../../../utils/dbConnect');
-const { token } = require('../../../../../utils/token');
+const dbConnect = require('../../../../../../utils/dbConnect');
+const { token } = require('../../../../../../utils/token');
 var axios = require("axios").default;
 export default dbConnect(async (req, res) => {
     const _token = await token();
@@ -7,7 +7,7 @@ export default dbConnect(async (req, res) => {
         case 'GET':
             var options = {
                 method: 'GET',
-                url: `${process.env.AUDIENCE}users`,
+                url: `${process.env.AUDIENCE}users/${req.query.id}`,
                 headers: { authorization: `Bearer ${_token}` }
             };
 
@@ -20,8 +20,8 @@ export default dbConnect(async (req, res) => {
         case 'PUT':
             var optionPut = {
                 method: 'PUT',
-                url: `${process.env.AUDIENCE}users`,
-                headers: { authorization: `Bearer ${_token}` }
+                url: `${process.env.AUDIENCE}users/${req.query.id}`,
+                headers: { authorization: `Bearer ${_token}` },
             };
 
             await axios.request(optionPut).then(function (response) {
@@ -31,20 +31,10 @@ export default dbConnect(async (req, res) => {
             });
             break;
         case 'DELETE':
-            var optionDelete = {
-                method: 'DELETE',
-                url: `${process.env.AUDIENCE}users`,
-                headers: { authorization: `Bearer ${_token}` }
-            };
-
-            await axios.request(optionDelete).then(function (response) {
-                res.status(200).send(response.data)
-            }).catch(function (error) {
-                res.status(400).send(error)
-            });
+            res.status(200).send('delete with id')
             break;
         case 'POST':
-            res.status(200).send('user create')
+            res.status(200).send('user create with id')
 
             break;
         default:

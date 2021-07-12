@@ -116,7 +116,7 @@ export default dbConnect(async (req, res) => {
                 res.send({ status: false, message: 'Not found!' });
         }
     } else {
-        res.status(403).send('you are not authorized');
+        res.status(403).send('You are not authorized');
     }
 
 });

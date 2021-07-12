@@ -55,7 +55,6 @@ function CustomModal(props) {
       stateClone.splice(index, 1);
       setRows({ options: stateClone });
     }
-
     e.preventDefault();
   }
 
@@ -65,13 +64,20 @@ function CustomModal(props) {
     setRows({ options: stateClone.options });
     e.preventDefault();
   }
+
+  const handleKeypress = (e) => {
+    if (e.code === "Enter") {
+      handleClick(e);
+
+    }
+  }
   form.val = talbeRows.options;
   const customRow = (options) => {
     const listItems = options.map((cusRow, index) =>
       <FormGroup row key={index} data={index}>
         <Col sm={7}>
           <Input name="value" className="value" placeholder="value" value={cusRow.value}
-            onChange={(e) => handleOptionsChange(index, e)} />
+            onChange={(e) => handleOptionsChange(index, e)} onKeyPress={(e) => handleKeypress(e)} />
         </Col>
         <Col sm={4}>
           <Button colorScheme="green" isDisabled={cusRow.value == '' || index != options.length - 1 ? true : false} onClick={handleClick}>
@@ -116,7 +122,6 @@ function CustomModal(props) {
             >
               <FormLabel>Attributes Value</FormLabel>
               {customRow(talbeRows.options)}
-              <br />
               {error.value && (
                 <Text color="tomato" gap={6}>
                   {error.value}

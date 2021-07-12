@@ -123,7 +123,7 @@ export default dbConnect(async (req, res) => {
                 const deleteId = req.query.Id.split(",");
                 var deleteData = await SubCategory.deleteMany({ _id: { $in: deleteId } });
                 if (deleteData.deletedCount == 0) {
-                    res.json({ status: 400, 'message': 'sub Categories not found' });
+                    res.json({ status: 400, 'message': 'Sub Categories not found' });
                 }
                 res.json({ status: 200, 'message': 'Sub Categories deleted' });
                 break;
@@ -133,7 +133,7 @@ export default dbConnect(async (req, res) => {
                     if (findsubCatPost) {
                         res.send({
                             status: 400,
-                            message: 'Sub-Category already exists!',
+                            message: 'Sub-Category already exists',
                         });
                     } else {
                         var dataCategory = await SubCategory.insertMany([{ name: req.body.name, category: req.body.category, shortName: req.body.name.substring(0, 3) }]);
@@ -148,16 +148,16 @@ export default dbConnect(async (req, res) => {
                 } else {
                     res.send({
                         status: 400,
-                        message: '[name | category] is required!',
+                        message: '[name | category] is required',
                     });
                 }
                 break;
 
             default:
-                res.send({ status: false, message: 'Not found!' });
+                res.send({ status: false, message: 'Not found' });
         }
     } else {
-        res.send({ status: 403, message: 'you are not authorized' });
+        res.send({ status: 403, message: 'You are not authorized' });
     }
 
 });

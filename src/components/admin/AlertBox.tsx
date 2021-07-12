@@ -35,6 +35,7 @@ function AlertBox(props: any) {
       fetchData();
     }
     setIsOpen(false);
+    setDisable(false);
   };
   const cancelRef: any = React.useRef();
   const Toast = (title: any, status: any) => {

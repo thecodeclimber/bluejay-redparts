@@ -80,7 +80,6 @@ function DataTable() {
     let data = await axios.get(`/api/admin/sub_categories/?page=${options?.page ?? 1}&limit=${options?.limit ?? 10}&sort=${options.sort ?? 'default'}&key=${form.key}&section=${form.section}&category=${form.category}&type=${form.type}`);
     setSubCategories(data.data);
     setLoader(false);
-    setDisable(false)
   };
   const capitalize = (string) =>
     string[0].toUpperCase() + string.slice(1);
@@ -107,14 +106,14 @@ function DataTable() {
         Header: "Section",
         accessor: "section.name",
         Cell: ({ cell: { value } }) => (
-          value == null ? 'Null' : capitalize(value)
+          value == null ? '--' : capitalize(value)
         )
       },
       {
         Header: "Category",
         accessor: "category.name",
         Cell: ({ cell: { value } }) => (
-          value == null ? 'Null' : capitalize(value)
+          value == null ? '--' : capitalize(value)
         )
       },
       {
@@ -234,7 +233,6 @@ function DataTable() {
     if (Object.keys(errors).length == 0) {
       let data = await axios.put(`/api/admin/sub_categories?Id=${_id}`, form);
       if (data.data.status == 200) {
-        SetNull();
         fetchData();
         onClose();
         setSelectedItems(() => {
@@ -245,6 +243,7 @@ function DataTable() {
         Toast(data.data.message, 'error')
       }
     }
+    setDisable(false)
   }
 
   // filter handle
@@ -252,20 +251,20 @@ function DataTable() {
     setDisable(true)
     form.key = $('#keysearch').val();
     options.page = 1;
-    fetchData();
+    await fetchData();
+    setDisable(false)
   }
 
   const submitHandle = async () => {
     setDisable(true)
     if (form.category == '') {
-      errors.category = 'category is required';
+      errors.category = 'Category is required';
     }
     if (form.name == '') {
-      errors.name = 'sub category name is required';
+      errors.name = 'Sub category name is required';
     }
     setError(errors);
     if (Object.keys(errors).length == 0) {
-      console.log(form)
       let data = await axios.post(`/api/admin/sub_categories`, form);
       SetNull()
       if (data.data.status == 200) {
@@ -280,20 +279,24 @@ function DataTable() {
 
       }
     }
+    setDisable(false)
   }
 
 
   const resetHandle = async () => {
     setDisable(true)
     SetNull();
-    fetchData();
+    await fetchData();
+    setDisable(false)
   }
 
   const changeType = (type) => {
     setDisable(true)
+    SetNull();
     options.page = 1;
     form.type = type;
     fetchData();
+    setDisable(false)
   }
 
   const AssignAttribute = (id) => {
@@ -320,8 +323,9 @@ function DataTable() {
             values.push(key)
           }
         });
+        console.log(values)
         if (values.length !== 0) {
-          attributes[index] = { attribute: parent_key, values: values }
+          attributes.push({ attribute: parent_key, values: values })
         }
       }
     })
@@ -329,19 +333,25 @@ function DataTable() {
       errors.attributes = 'attributes is required';
     }
     if (Object.keys(errors).length == 0) {
-      let data = await axios.put(`/api/admin/sub_categories/${form._id}`, { attributes: attributes });
-      if (data.status == 200) {
-        SetNull();
-        fetchData();
-        onClose();
-        setSelectedItems(() => {
-          return [];
-        })
-        Toast('Attributes Assigned!', 'success')
+      console.log(JSON.stringify(attributes))
+      console.log(JSON.stringify(localStorage.getItem('sub-category-assign-attributes')))
+      if (JSON.stringify(localStorage.getItem('sub-category-assign-attributes')) == JSON.stringify(attributes)) {
+        Toast('Can\'\t Assign, No changes detected', 'error')
       } else {
-        Toast('Attributes not assign', 'error')
+        let data = await axios.put(`/api/admin/sub_categories/${form._id}`, { attributes: attributes });
+        if (data.status == 200) {
+          fetchData();
+          onClose();
+          setSelectedItems(() => {
+            return [];
+          })
+          Toast('Attributes Assigned', 'success')
+        } else {
+          Toast('Attributes not assign', 'error')
+        }
       }
     }
+    setDisable(false)
   }
 
   const Toast = (title, status) => {

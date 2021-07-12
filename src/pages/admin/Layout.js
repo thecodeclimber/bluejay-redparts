@@ -1,6 +1,6 @@
 import { Card, CardBody } from 'reactstrap';
 import {
-  withPageAuthRequired,
+  withPageAuthRequired, useUser
 } from '@auth0/nextjs-auth0';
 import React, { useEffect, useState } from 'react';
 import axios from '~/axios';
@@ -8,7 +8,7 @@ import { Flex, Box, useBreakpointValue, IconButton } from '@chakra-ui/react';
 import { ChevronRightIcon } from '@chakra-ui/icons';
 
 import Nav from '~/components/admin/Nav';
-import Home from '../index';
+import Error403 from '../403';
 const smVariant = { navigation: 'drawer', navigationButton: true }
 const mdVariant = { navigation: 'sidebar', navigationButton: false }
 export const getServerSideProps = withPageAuthRequired({
@@ -20,19 +20,23 @@ export const getServerSideProps = withPageAuthRequired({
 function Layout(props) {
   const { children } = props;
   const [auth, setAuth] = useState(false);
+  const { user, error, loading } = useUser();
   useEffect(() => {
     const fetch = async () => {
       const res = await axios.get('/admin');
       localStorage.setItem('xxxxxxaxxxxdxxxxmxxxixxn', res.data.status);
-      setAuth(res.data.status);
+      await setAuth(res.data.status);
     };
     let isAdmin = localStorage.getItem('xxxxxxaxxxxdxxxxmxxxixxn');
-    if (isAdmin == undefined || isAdmin == false) {
-      fetch();
-    } else {
-      setAuth(isAdmin)
+
+    if (user != undefined) {
+      if (isAdmin == undefined || isAdmin == false) {
+        fetch();
+      } else {
+        setAuth(isAdmin)
+      }
     }
-  }, []);
+  }, [user]);
   const [isSidebarOpen, setSidebarOpen] = useState(false)
   const variants = useBreakpointValue({ base: mdVariant, md: smVariant })
 
@@ -63,7 +67,7 @@ function Layout(props) {
               {children}
             </Card>
           </Box>
-        </Box></> : <Home />}
+        </Box></> : <Error403 />}
     </>
   );
 }

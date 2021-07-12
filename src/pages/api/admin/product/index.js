@@ -74,17 +74,17 @@ export default dbConnect(async (req, res) => {
                 }
                 var updateData = await Product.updateMany({ _id: { $in: _id } }, data);
                 if (updateData.nModified == 0) {
-                    res.status(404).json({ 'message': 'products not found' });
+                    res.status(404).json({ 'message': 'Products not found' });
                 }
-                res.status(200).json({ 'message': 'products updated' });
+                res.status(200).json({ 'message': 'Products updated' });
                 break;
             case 'DELETE':
                 const deleteId = req.query.Id.split(",");
                 var deleteData = await Product.deleteMany({ _id: { $in: deleteId } });
                 if (deleteData.deletedCount == 0) {
-                    res.status(404).json({ 'message': 'product not found' });
+                    res.status(404).json({ 'message': 'Product not found' });
                 }
-                res.status(200).json({ 'message': 'product deleted' });
+                res.status(200).json({ 'message': 'Product deleted' });
                 break;
             // case 'PUT':
             //     let bulkArr = [];
@@ -113,7 +113,7 @@ export default dbConnect(async (req, res) => {
                 res.send({ status: false, message: 'Not found!' });
         }
     } else {
-        res.status(403).send('you are not authorized');
+        res.status(403).send('You are not authorized');
     }
 
 });

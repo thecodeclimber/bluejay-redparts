@@ -78,7 +78,6 @@ function DataTable() {
     let data = await axios.get(`/api/admin/attributes/?page=${options?.page ?? 1}&limit=${options?.limit ?? 10}&sort=${options.sort ?? 'default'}&key=${filterForm.key}`);
     setAttributes(data.data);
     setLoader(false);
-    setDisable(false)
   };
   const capitalize = (string) =>
     string[0].toUpperCase() + string.slice(1);
@@ -170,11 +169,13 @@ function DataTable() {
     setEdit(true)
     let setData = [];
     value.map(async (item, index) => {
-      await setData.push({ id: '-1', value: item.value })
+      await setData.push({ id: '-1', value: item.value });
     })
     form.name = name;
     form.value = setData;
     form._id = Id;
+    localStorage.setItem('attribute-name', name);
+    localStorage.setItem('attribute-value', JSON.stringify(value))
     onOpen();
   }
 
@@ -212,26 +213,37 @@ function DataTable() {
 
     setError(errors);
     if (Object.keys(errors).length == 0) {
-      form.value = values;
-      let data = await axios.put(`/api/admin/attributes?Id=${_id}`, form);
-      if (data.status == 200) {
-        fetchData();
-        onClose();
-        setForm({ name: '', _id: '', value: [] })
-        setSelectedItems(() => {
-          return [];
-        })
-        Toast(data.data.message, 'success')
+      let CompareValue = [];
+      if (typeof JSON.parse(localStorage.getItem('attribute-value')) != undefined) {
+        let value = JSON.parse(localStorage.getItem('attribute-value'));
+        value.map(async item => { await CompareValue.push(item.value) })
+      }
+      if (localStorage.getItem('attribute-name') === form.name && JSON.stringify(CompareValue) == JSON.stringify(values)) {
+        Toast('Can\'\t update, No changes detected', 'error')
       } else {
-        Toast(data.data.message, 'error')
+        form.value = values;
+        let data = await axios.put(`/api/admin/attributes?Id=${_id}`, form);
+        if (data.status == 200) {
+          fetchData();
+          onClose();
+          setForm({ name: '', _id: '', value: [] })
+          setSelectedItems(() => {
+            return [];
+          })
+          Toast(data.data.message, 'success')
+        } else {
+          Toast(data.data.message, 'error')
+        }
       }
     }
+    setDisable(false)
   }
   const filterHandle = async () => {
     setDisable(true)
     filterForm.key = $('#keysearch').val();
     options.page = 1;
-    fetchData();
+    await fetchData();
+    setDisable(false)
   }
   const resetHandle = async () => {
     setDisable(true)
@@ -241,7 +253,8 @@ function DataTable() {
     form.value = [];
     $('#keysearch').val('');
     options.page = 1;
-    fetchData();
+    await fetchData();
+    setDisable(false)
   }
 
   const submitHandle = async () => {
@@ -266,7 +279,6 @@ function DataTable() {
     if (Object.keys(errors).length == 0) {
       form.value = values;
       let data = await axios.post(`/api/admin/attributes`, form);
-      console.log(data)
       if (data.status == 200) {
         fetchData();
         onClose();
@@ -276,6 +288,7 @@ function DataTable() {
         Toast(data.data.message, 'error')
       }
     }
+    setDisable(false)
   }
 
   const Toast = (title, status) => {

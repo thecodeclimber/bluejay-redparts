@@ -28,7 +28,9 @@ function SitePageNotAuthorized() {
             <NotFound404>Oops! Error 403</NotFound404>
 
             <NotFoundContent>
-              <NotFoundTitle as="h1">Permission Denied</NotFoundTitle>
+              <NotFoundTitle as="h1">
+                You are not authorised to access this page
+              </NotFoundTitle>
 
               <NotFoundText as="p">
                 {"you can't go to the page you're looking for."}

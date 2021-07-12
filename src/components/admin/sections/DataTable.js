@@ -32,7 +32,7 @@ import {
   Tr,
   chakra,
   useDisclosure,
-  Link, Spinner, Input, InputGroup, InputRightElement, Divider, useToast
+  Link, Spinner, Input, Divider, useToast
 } from "@chakra-ui/react";
 import { usePagination, useSortBy, useTable } from "react-table";
 
@@ -58,6 +58,7 @@ function DataTable() {
   });
   const [filterForm, setFilterForm] = useState({
     key: 'default',
+    count: 0,
   });
   const options = useShopOptions();
   let pageValue = [5, 10, 20, 50, 100];
@@ -75,7 +76,6 @@ function DataTable() {
     let data = await axios.get(`/api/admin/sections/?page=${options?.page ?? 1}&limit=${options?.limit ?? 10}&sort=${options.sort ?? 'default'}&key=${filterForm.key}`);
     setSections(data.data);
     setLoader(false);
-    setDisable(false)
   };
   const capitalize = (string) =>
     string[0].toUpperCase() + string.slice(1);
@@ -168,6 +168,7 @@ function DataTable() {
   const HandleSingleEdit = (Id, name) => {
     setEdit(true)
     form.name = name;
+    localStorage.setItem('section-name', name);
     form._id = Id;
     onOpen();
   }
@@ -176,7 +177,12 @@ function DataTable() {
     setEdit(status)
     onOpen();
   }
-
+  const setNull = () => {
+    $('#keysearch').val('');
+    filterForm.key = 'default'
+    form.id = "";
+    form.name = ""
+  }
 
   // edit table
   const editHandle = async () => {
@@ -190,21 +196,25 @@ function DataTable() {
     }
     setError(errors);
     if (Object.keys(errors).length == 0) {
-      let data = await axios.put(`/api/admin/sections?Id=${_id}`, form);
-      if (data.data.status == 200) {
-        fetchData();
-        onClose();
-        setForm({ name: '', _id: '' })
-        setSelectedItems(() => {
-          return [];
-        })
-        Toast(data.data.message, 'success')
-
+      if (localStorage.getItem('section-name') === form.name) {
+        Toast('Can\'\t update, No changes detected', 'error')
       } else {
-        Toast(data.data.message, 'error')
+        let data = await axios.put(`/api/admin/sections?Id=${_id}`, form);
+        if (data.data.status == 200) {
+          fetchData();
+          onClose();
+          setSelectedItems(() => {
+            return [];
+          })
+          Toast(data.data.message, 'success')
 
+        } else {
+          Toast(data.data.message, 'error')
+
+        }
       }
     }
+    setDisable(false)
   }
 
   // filter handle
@@ -212,14 +222,16 @@ function DataTable() {
     setDisable(true)
     filterForm.key = $('#keysearch').val();
     options.page = 1;
-    fetchData();
+    await fetchData();
+    setDisable(false)
   }
 
   const resetHandle = async () => {
     setDisable(true)
-    $('#keysearch').val('');
-    filterForm.key = 'default'
-    fetchData();
+    setNull()
+    await fetchData();
+
+    setDisable(false)
   }
 
   const submitHandle = async () => {
@@ -231,9 +243,9 @@ function DataTable() {
     if (Object.keys(errors).length == 0) {
       let data = await axios.post(`/api/admin/sections`, form);
       if (data.data.status == 200) {
+        setNull()
         fetchData();
         onClose();
-        setForm({ name: '', _id: '' })
         setSelectedItems(() => {
           return [];
         })
@@ -242,6 +254,8 @@ function DataTable() {
         Toast(data.data.message, 'error')
       }
     }
+
+    setDisable(false)
   }
 
   const Toast = (title, status) => {

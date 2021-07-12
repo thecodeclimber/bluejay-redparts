@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import { Checkbox, Grid, GridItem, Button } from '@chakra-ui/react';
+import { Checkbox, Grid, GridItem, Button, Flex } from '@chakra-ui/react';
 const AttributeCheckboxAll = (props: any) => {
   const { form, setForm, sub_categories } = props;
   const [checkedAttribute, setCheckedAttribute] = useState([]);
@@ -25,6 +25,10 @@ const AttributeCheckboxAll = (props: any) => {
         return items._id === form._id;
       });
       sub.map((item: any) => {
+        localStorage.setItem(
+          'sub-category-assign-attributes',
+          JSON.stringify(item.attributes)
+        );
         item.attributes.map((attr: any) => {
           if (attr != null) {
             if (attribute.indexOf(attr.attribute) != -1)
@@ -74,51 +78,56 @@ const AttributeCheckboxAll = (props: any) => {
       ) : (
         attributes.map((element: any) => (
           <>
-            <Checkbox
-              size="md"
-              colorScheme="green"
-              key={element._id}
-              name="attribute"
-              className="attribute"
-              value={element._id}
-              onChange={(e) => handleOnChangeAttribute(e)}
-              defaultIsChecked={attribute.includes(element._id) ? true : false}
-            >
-              {capitalize(element.name)}
-            </Checkbox>
-            <Grid
-              pl={6}
-              templateRows="repeat(2, 1fr)"
-              templateColumns="repeat(4, 1fr)"
-              style={{
-                display: attribute.includes(element._id) ? '' : 'none',
-              }}
-              id={'attr-' + element._id}
-            >
-              {element.values.length == 0
-                ? ''
-                : element.values.map((val: any) => (
-                    <>
-                      <GridItem>
-                        <Checkbox
-                          pl={4}
-                          colorScheme="green"
-                          size="sm"
-                          key={val._id}
-                          value={val._id}
-                          className={'attr-value-' + element._id}
-                          name={val.name}
-                          defaultIsChecked={
-                            value.includes(val._id) ? true : false
-                          }
-                        >
-                          {val.value}
-                        </Checkbox>
-                      </GridItem>
-                    </>
-                  ))}
-            </Grid>
-            <br />
+            <Flex direction="column">
+              <Checkbox
+                size="md"
+                colorScheme="green"
+                key={element._id}
+                name="attribute"
+                className="attribute"
+                value={element._id}
+                onChange={(e) => handleOnChangeAttribute(e)}
+                defaultIsChecked={
+                  attribute.includes(element._id) ? true : false
+                }
+              >
+                {capitalize(element.name)}
+              </Checkbox>
+              <Grid
+                pl={6}
+                mt={1}
+                spacing={1}
+                templateRows="repeat(2, 1fr)"
+                templateColumns="repeat(4, 1fr)"
+                style={{
+                  display: attribute.includes(element._id) ? '' : 'none',
+                }}
+                id={'attr-' + element._id}
+              >
+                {element.values.length == 0
+                  ? ''
+                  : element.values.map((val: any) => (
+                      <>
+                        <GridItem>
+                          <Checkbox
+                            pl={4}
+                            colorScheme="green"
+                            size="sm"
+                            key={val._id}
+                            value={val._id}
+                            className={'attr-value-' + element._id}
+                            name={val.name}
+                            defaultIsChecked={
+                              value.includes(val._id) ? true : false
+                            }
+                          >
+                            {capitalize(val.value)}
+                          </Checkbox>
+                        </GridItem>
+                      </>
+                    ))}
+              </Grid>
+            </Flex>
           </>
         ))
       )}

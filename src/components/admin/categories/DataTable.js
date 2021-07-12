@@ -77,7 +77,6 @@ function DataTable() {
     let data = await axios.get(`/api/admin/categories/?page=${options?.page ?? 1}&limit=${options?.limit ?? 20}&sort=${options.sort ?? 'default'}&key=${form.key}&section=${form.section}&type=${form.type}`);
     setCategories(data.data);
     setLoader(false);
-    setDisable(false)
   };
 
   const capitalize = (string) =>
@@ -95,7 +94,7 @@ function DataTable() {
         Header: "Section",
         accessor: "section.name",
         Cell: ({ cell: { value } }) => (
-          value == null ? 'Null' : capitalize(value)
+          value == null ? '--' : capitalize(value)
         )
       },
       {
@@ -211,7 +210,6 @@ function DataTable() {
     if (Object.keys(errors).length == 0) {
       let data = await axios.put(`/api/admin/categories?Id=${_id}`, form);
       if (data.status == 200) {
-        SetNull()
         fetchData();
         onClose();
         setSelectedItems(() => {
@@ -223,6 +221,7 @@ function DataTable() {
 
       }
     }
+    setDisable(false)
   }
 
   // filter handle
@@ -230,7 +229,8 @@ function DataTable() {
     setDisable(true)
     form.key = $('#keysearch').val();
     options.page = 1;
-    fetchData();
+    await fetchData();
+    setDisable(false)
   }
 
   const submitHandle = async () => {
@@ -256,14 +256,15 @@ function DataTable() {
         Toast(data.data.message, 'error')
       }
     }
-
+    setDisable(false)
   }
 
   const resetHandle = async () => {
     setDisable(true)
     SetNull()
     $('#keysearch').val('')
-    fetchData();
+    await fetchData();
+    setDisable(false)
   }
 
   const changeType = (type) => {
@@ -272,6 +273,7 @@ function DataTable() {
     options.page = 1;
     form.type = type;
     fetchData();
+    setDisable(false)
   }
 
   const Toast = (title, status) => {

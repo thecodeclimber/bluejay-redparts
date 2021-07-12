@@ -7,6 +7,7 @@ import {
   FormLabel,
   Spinner,
   Button,
+  Flex,
 } from '@chakra-ui/react';
 const AttributeCheckbox = (props: any) => {
   const { form, setForm, sub_categories } = props;
@@ -77,46 +78,47 @@ const AttributeCheckbox = (props: any) => {
           <FormLabel>Attributes</FormLabel>
           {attribute.map((element: any) => (
             <>
-              <Checkbox
-                size="md"
-                colorScheme="green"
-                key={element._id}
-                name="attribute"
-                className={'attribute'}
-                value={element._id}
-                data-shortname={element.shortName}
-                onChange={(e) => handleOnChangeAttribute(e)}
-              >
-                {capitalize(element.name)}
-              </Checkbox>
-              <Grid
-                pl={6}
-                templateRows="repeat(2, 1fr)"
-                templateColumns="repeat(4, 1fr)"
-                style={{ display: 'none' }}
-                id={'attr-' + element._id}
-              >
-                {element.values.length == 0
-                  ? ''
-                  : element.values.map((val: any) => (
-                      <>
-                        <GridItem>
-                          <Checkbox
-                            pl={4}
-                            colorScheme="green"
-                            size="sm"
-                            key={val._id}
-                            value={val._id}
-                            className={'attr-value-' + element._id}
-                            name={val.name}
-                          >
-                            {val.value}
-                          </Checkbox>
-                        </GridItem>
-                      </>
-                    ))}
-              </Grid>
-              <br />
+              <Flex direction="column">
+                <Checkbox
+                  size="md"
+                  colorScheme="green"
+                  key={element._id}
+                  name="attribute"
+                  className={'attribute'}
+                  value={element._id}
+                  data-shortname={element.shortName}
+                  onChange={(e) => handleOnChangeAttribute(e)}
+                >
+                  {capitalize(element.name)}
+                </Checkbox>
+                <Grid
+                  pl={6}
+                  templateRows="repeat(2, 1fr)"
+                  templateColumns="repeat(4, 1fr)"
+                  style={{ display: 'none' }}
+                  id={'attr-' + element._id}
+                >
+                  {element.values.length == 0
+                    ? ''
+                    : element.values.map((val: any) => (
+                        <>
+                          <GridItem>
+                            <Checkbox
+                              pl={4}
+                              colorScheme="green"
+                              size="sm"
+                              key={val._id}
+                              value={val._id}
+                              className={'attr-value-' + element._id}
+                              name={val.name}
+                            >
+                              {capitalize(val.value)}
+                            </Checkbox>
+                          </GridItem>
+                        </>
+                      ))}
+                </Grid>
+              </Flex>
             </>
           ))}
         </>
