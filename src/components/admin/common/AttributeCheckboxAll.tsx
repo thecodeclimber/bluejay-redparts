@@ -62,7 +62,6 @@ const AttributeCheckboxAll = (props: any) => {
     }
   };
   form.attributes = checkedAttribute;
-  console.log(loader);
   return (
     <>
       {loader ? (
@@ -108,12 +107,11 @@ const AttributeCheckboxAll = (props: any) => {
                   ? ''
                   : element.values.map((val: any) => (
                       <>
-                        <GridItem>
+                        <GridItem key={val._id}>
                           <Checkbox
                             pl={4}
                             colorScheme="green"
                             size="sm"
-                            key={val._id}
                             value={val._id}
                             className={'attr-value-' + element._id}
                             name={val.name}

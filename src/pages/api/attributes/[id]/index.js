@@ -4,7 +4,12 @@ const { Attribute } = require('../../../../../models');
 export default dbConnect(async (req, res) => {
   switch (req.method) {
     case 'GET':
-      let data = await Attribute.findById(req.query.id);
+      let Id = req.query.id.split(",");
+      let data = await Attribute.find({
+        '_id': {
+          $in: Id
+        }
+      });
       res.send(data);
       break;
     default:

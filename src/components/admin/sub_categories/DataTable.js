@@ -333,7 +333,6 @@ function DataTable() {
       errors.attributes = 'attributes is required';
     }
     if (Object.keys(errors).length == 0) {
-      console.log(JSON.stringify(attributes))
       console.log(JSON.stringify(localStorage.getItem('sub-category-assign-attributes')))
       if (JSON.stringify(localStorage.getItem('sub-category-assign-attributes')) == JSON.stringify(attributes)) {
         Toast('Can\'\t Assign, No changes detected', 'error')

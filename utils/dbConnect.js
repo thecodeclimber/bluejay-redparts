@@ -14,6 +14,7 @@ const dbConnect = (handler) => async (req, res) => {
       useNewUrlParser: true,
     });
   } catch (errr) {
+    console.log(errr)
     res.status(500).json({ message: 'connection failed!' });
     return;
   }

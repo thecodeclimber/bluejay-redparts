@@ -15,12 +15,20 @@ import {
   Checkbox,
   Grid,
   GridItem,
+  Flex,
+  Stack,
+  VStack,
+  ChakraProvider,
+  extendTheme,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import sub_categories from '~/pages/admin/sub_categories';
 import AttributeCheckboxAll from '../common/AttributeCheckboxAll';
 import Category from '../common/Category';
+import Combinations from '../common/Combinations';
 import Section from '../common/Section';
+import { makeAttributes } from '../common/MakeAttributes';
+import { ArrowBackIcon } from '@chakra-ui/icons';
 
 function CustomModal(props: any) {
   const {
@@ -36,38 +44,96 @@ function CustomModal(props: any) {
     sub_categories,
     disable,
   } = props;
+  const [step, setStep] = useState(1);
+  const [attributes, setAttributes] = useState([]);
+
+  const nextStep = async () => {
+    let attr: any = await makeAttributes();
+    setAttributes(attr);
+    setStep((prevState) => prevState + 1);
+  };
+
+  const prevStep = async () => {
+    var attr: any = await makeAttributes();
+    setAttributes(attr);
+    setStep((prevState) => prevState - 1);
+  };
+
   return (
     <>
       <Modal isOpen={isOpen} onClose={onClose} size="xl">
         <ModalOverlay />
         <ModalContent>
           <ModalHeader>
-            {form.assign === true
-              ? 'Assign Attribute'
-              : Edit
-              ? 'Edit Sub Category'
-              : 'Create Sub Category'}
+            {form.assign === true ? (
+              step == 1 ? (
+                'Select Attributes'
+              ) : (
+                <>
+                  <Button
+                    size="sm"
+                    mr={2}
+                    // colorScheme={step == 1 ? 'blackAlpha' : 'blue'}
+                    disabled={step == 1 ? true : false}
+                    onClick={(e) => prevStep()}
+                  >
+                    <ArrowBackIcon />
+                  </Button>
+                  <Text>Create Product which you want</Text>
+                </>
+              )
+            ) : Edit ? (
+              'Edit Sub Category'
+            ) : (
+              'Create Sub Category'
+            )}
           </ModalHeader>
           <ModalCloseButton />
           <ModalBody>
             {form.assign === true ? (
               <>
-                <FormControl
-                  templateColumns="repeat(1, 1fr)"
-                  gap={6}
-                  isRequired
-                >
-                  <AttributeCheckboxAll
+                {step === 1 ? (
+                  <>
+                    <FormControl
+                      templateColumns="repeat(1, 1fr)"
+                      gap={6}
+                      isRequired
+                    >
+                      <AttributeCheckboxAll
+                        form={form}
+                        setForm={setForm}
+                        sub_categories={sub_categories}
+                        nextStep={nextStep}
+                        prevStep={prevStep}
+                      />
+                      {error.attribute && (
+                        <Text color="tomato" gap={6}>
+                          {error.attribute}
+                        </Text>
+                      )}
+                    </FormControl>
+                  </>
+                ) : (
+                  <Combinations
                     form={form}
                     setForm={setForm}
                     sub_categories={sub_categories}
+                    attributes={attributes}
+                    nextStep={nextStep}
+                    prevStep={prevStep}
                   />
-                  {error.attribute && (
-                    <Text color="tomato" gap={6}>
-                      {error.attribute}
-                    </Text>
-                  )}
-                </FormControl>
+                )}
+                <Stack spacing={2} mt={2} direction="row" align="center">
+                  <Button
+                    size="sm"
+                    mr={2}
+                    colorScheme={step == 2 ? 'blackAlpha' : 'blue'}
+                    disabled={step == 2 ? true : false}
+                    onClick={(e) => nextStep()}
+                  >
+                    Next
+                  </Button>
+                </Stack>
               </>
             ) : (
               <>
@@ -140,9 +206,9 @@ function CustomModal(props: any) {
               <Button
                 colorScheme="blue"
                 disabled={disable}
-                onClick={() => assignHandle()}
+                onClick={() => (step == 1 ? assignHandle() : '')}
               >
-                Assign
+                {step === 1 ? 'Assign' : 'Create Product'}
               </Button>
             ) : Edit ? (
               <Button
