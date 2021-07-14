@@ -4,8 +4,9 @@ const { Product } = require('../../../../../models');
 export default dbConnect(async (req, res) => {
     switch (req.method) {
         case 'GET':
-            var slug = req.query.slug.split(",");
-            let data = await Product.find({ _id: { $in: slug } });
+            var slug = req.query.slug;
+            let regex = new RegExp(slug, 'i');
+            let data = await Product.find({ sku: regex }, { sku: 1, section: 1, category: 1, sub_category: 1, attributes: 1 });
             if (data.length == 0) {
                 res.status(404).json({ 'message': 'Product not found' });
             }

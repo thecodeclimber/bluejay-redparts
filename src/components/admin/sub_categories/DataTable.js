@@ -299,8 +299,13 @@ function DataTable() {
     setDisable(false)
   }
 
-  const AssignAttribute = (id) => {
+  const AssignAttribute = (id, shortName, category, categoryShortName, section, sectionShortName) => {
     form._id = id;
+    form.shortName = shortName;
+    form.category = category;
+    form.categoryShortName = categoryShortName;
+    form.section = section;
+    form.sectionShortName = sectionShortName;
     form.assign = true;
     onOpen()
   }
@@ -439,7 +444,7 @@ function DataTable() {
                         );
                       })}
                       <Td>
-                        <Button size="sm" colorScheme="blue" onClick={() => AssignAttribute(row.original[indexKey])}>Assign Attribute</Button>
+                        <Button size="sm" colorScheme="blue" onClick={() => AssignAttribute(row.original[indexKey], row.original['shortName'], row.original['category']['_id'], row.original['category']['shortName'], row.original['section']['_id'], row.original['section']['shortName'])}>Assign Attribute</Button>
                       </Td>
                       <Td>
                         <Stack direction="row" spacing={4} align="center">

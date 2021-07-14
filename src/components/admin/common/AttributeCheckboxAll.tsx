@@ -84,6 +84,7 @@ const AttributeCheckboxAll = (props: any) => {
                 key={element._id}
                 name="attribute"
                 className="attribute"
+                shortname={element.shortName}
                 value={element._id}
                 onChange={(e) => handleOnChangeAttribute(e)}
                 defaultIsChecked={
@@ -107,11 +108,13 @@ const AttributeCheckboxAll = (props: any) => {
                   ? ''
                   : element.values.map((val: any) => (
                       <>
-                        <GridItem key={val._id}>
+                        <GridItem>
                           <Checkbox
                             pl={4}
                             colorScheme="green"
                             size="sm"
+                            key={val._id}
+                            shortname={val.value}
                             value={val._id}
                             className={'attr-value-' + element._id}
                             name={val.name}

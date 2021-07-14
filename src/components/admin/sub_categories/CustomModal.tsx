@@ -22,13 +22,13 @@ import {
   extendTheme,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
-import sub_categories from '~/pages/admin/sub_categories';
 import AttributeCheckboxAll from '../common/AttributeCheckboxAll';
 import Category from '../common/Category';
 import Combinations from '../common/Combinations';
 import Section from '../common/Section';
-import { makeAttributes } from '../common/MakeAttributes';
+import { finalAttributes, makeAttributes } from '../common/MakeAttributes';
 import { ArrowBackIcon } from '@chakra-ui/icons';
+import Stepper from '../common/Stepper';
 
 function CustomModal(props: any) {
   const {
@@ -40,25 +40,29 @@ function CustomModal(props: any) {
     submitHandle,
     editHandle,
     error,
-    assignHandle,
     sub_categories,
     disable,
   } = props;
   const [step, setStep] = useState(1);
   const [attributes, setAttributes] = useState([]);
-
-  const nextStep = async () => {
+  const [combinations, setCombinations] = useState([]);
+  const handleClick = async (clickType: any) => {
     let attr: any = await makeAttributes();
     setAttributes(attr);
-    setStep((prevState) => prevState + 1);
+    let newStep = step;
+    clickType === 'next' ? newStep++ : newStep--;
+    if (newStep > 0 && newStep <= 5) {
+      setStep(newStep);
+    }
   };
-
-  const prevStep = async () => {
-    var attr: any = await makeAttributes();
-    setAttributes(attr);
-    setStep((prevState) => prevState - 1);
+  const assignHandle = async () => {
+    let getCombinations: any = '';
+    if (combinations.length != 0) {
+      getCombinations = await finalAttributes(form, combinations);
+    }
+    console.log(getCombinations);
   };
-
+  const stepsArray = ['Select Attributes', 'Assign Attributes'];
   return (
     <>
       <Modal isOpen={isOpen} onClose={onClose} size="xl">
@@ -73,9 +77,8 @@ function CustomModal(props: any) {
                   <Button
                     size="sm"
                     mr={2}
-                    // colorScheme={step == 1 ? 'blackAlpha' : 'blue'}
                     disabled={step == 1 ? true : false}
-                    onClick={(e) => prevStep()}
+                    onClick={(e) => handleClick('true')}
                   >
                     <ArrowBackIcon />
                   </Button>
@@ -92,6 +95,14 @@ function CustomModal(props: any) {
           <ModalBody>
             {form.assign === true ? (
               <>
+                <div className="stepper-container-horizontal">
+                  <Stepper
+                    direction="horizontal"
+                    currentStepNumber={step - 1}
+                    steps={stepsArray}
+                    stepColor="green"
+                  />
+                </div>
                 {step === 1 ? (
                   <>
                     <FormControl
@@ -103,8 +114,6 @@ function CustomModal(props: any) {
                         form={form}
                         setForm={setForm}
                         sub_categories={sub_categories}
-                        nextStep={nextStep}
-                        prevStep={prevStep}
                       />
                       {error.attribute && (
                         <Text color="tomato" gap={6}>
@@ -119,21 +128,16 @@ function CustomModal(props: any) {
                     setForm={setForm}
                     sub_categories={sub_categories}
                     attributes={attributes}
-                    nextStep={nextStep}
-                    prevStep={prevStep}
+                    combinations={combinations}
+                    setCombinations={setCombinations}
                   />
                 )}
-                <Stack spacing={2} mt={2} direction="row" align="center">
-                  <Button
-                    size="sm"
-                    mr={2}
-                    colorScheme={step == 2 ? 'blackAlpha' : 'blue'}
-                    disabled={step == 2 ? true : false}
-                    onClick={(e) => nextStep()}
-                  >
-                    Next
-                  </Button>
-                </Stack>
+                <Stack
+                  spacing={2}
+                  mt={2}
+                  direction="row"
+                  align="center"
+                ></Stack>
               </>
             ) : (
               <>
@@ -203,13 +207,23 @@ function CustomModal(props: any) {
               Close
             </Button>
             {form.assign === true ? (
-              <Button
-                colorScheme="blue"
-                disabled={disable}
-                onClick={() => (step == 1 ? assignHandle() : '')}
-              >
-                {step === 1 ? 'Assign' : 'Create Product'}
-              </Button>
+              step == 1 ? (
+                <Button
+                  colorScheme="blue"
+                  mr={2}
+                  onClick={(e) => handleClick('next')}
+                >
+                  Next
+                </Button>
+              ) : (
+                <Button
+                  colorScheme="blue"
+                  disabled={disable}
+                  onClick={() => assignHandle()}
+                >
+                  Assign
+                </Button>
+              )
             ) : Edit ? (
               <Button
                 colorScheme="blue"

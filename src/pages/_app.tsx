@@ -1,5 +1,6 @@
 // styles
 import '../scss/index.scss';
+import '../scss/admin/Stepper.scss';
 import '../scss/style.header-classic-variant-four.scss';
 import '../scss/style.mobile-header-variant-two.scss';
 import '@fortawesome/fontawesome-free/css/all.min.css';

@@ -11,54 +11,40 @@ import {
 import {
   getAllCombinations,
   getAttributes,
+  getProductsThroughSku,
   getSingleAttributes,
   makeSku,
+  singleCombination,
 } from './MakeAttributes';
 const Combinations = (props: any) => {
-  const { form, setForm, sub_categories, attributes } = props;
+  const {
+    form,
+    setForm,
+    sub_categories,
+    attributes,
+    combinations,
+    setCombinations,
+  } = props;
   const [loader, setLoader] = useState(false);
-  const [combinations, setCombinations] = useState([]);
-  const [getAttrs, setGetAttr] = useState([]);
+  const [productSku, setProductSku] = useState<any>([]);
   const capitalize = (string: any) => string[0].toUpperCase() + string.slice(1);
+  let sku =
+    form.sectionShortName + '-' + form.categoryShortName + '-' + form.shortName;
 
   useEffect(() => {
-    data();
     combi();
-  }, [getAttrs]);
-  const data = async () => {
-    const getAttr = await getAttributes();
-    setGetAttr(getAttr);
-  };
-  const getFilterData = async () => {
-    if (attributes.length != 0) {
-      let attr: any = [];
-      attributes.map(async (item: any) => {
-        let data: any = await getAttrs.map((items: any) => {
-          let values: any = [];
-          if (items._id == item.attribute) {
-            item.values.map((val: any) => {
-              items.values.map((value: any) => {
-                if (val === value._id) {
-                  let objValue = { _id: value._id, value: value.value };
-                  values.push(objValue);
-                }
-              });
-            });
-            let obj: any = {
-              _id: items._id,
-              shortName: items.shortName,
-              values: values,
-            };
-            attr.push(obj);
-          }
-        });
-      });
-      return attr;
-    }
+    getSku();
+  }, []);
+  const getSku = async () => {
+    let data = await getProductsThroughSku(sku);
+    let result: any = [];
+    data.forEach((element: any) => {
+      result.push(element.sku);
+    });
+    setProductSku(result);
   };
 
   const combi = async () => {
-    let attributes = await getFilterData();
     let getCombn: any = [];
     if (attributes.length != 0) {
       let mainAttr: any = attributes.map(({ values, _id, shortName }: any) => {
@@ -70,12 +56,14 @@ const Combinations = (props: any) => {
         }));
       });
       if (mainAttr.length > 1) {
-        getCombn = await getAllCombinations(mainAttr);
+        getCombn = await getAllCombinations(form, mainAttr);
+        setCombinations(getCombn);
+      } else {
+        getCombn = await singleCombination(form, mainAttr);
+        setCombinations(getCombn);
       }
-      setCombinations(getCombn);
     }
   };
-
   return (
     <>
       {loader ? (
@@ -89,19 +77,24 @@ const Combinations = (props: any) => {
           Continue
         </Button>
       ) : (
-        combinations.map((element: any) => (
+        Object.entries(combinations).map(([key, value]) => (
           <>
-            <Flex direction="column">
+            <Flex direction="column" key={key}>
               <Checkbox
                 size="md"
                 colorScheme="green"
-                key={element._id}
-                name="attribute"
-                className="attribute"
-                value={element._id}
-                defaultIsChecked={true}
+                key={key}
+                name="combinations"
+                className="combinations"
+                defaultIsChecked={productSku.map((item: any) => {
+                  if (item === key) {
+                    return true;
+                  } else {
+                    return false;
+                  }
+                })}
               >
-                {capitalize(makeSku(element))}
+                {key}
               </Checkbox>
             </Flex>
           </>
