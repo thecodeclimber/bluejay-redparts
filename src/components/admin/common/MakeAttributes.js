@@ -36,13 +36,14 @@ export const finalAttributes = (form = null, combinations) => {
     combination_label.each(function (i, el) {
         let combination_attr = $(this).find('span').attr('data-checked');
         if ((typeof combination_attr !== 'undefined' && combination_attr !== false)) {
-            index.push(i)
+            index.push($(this).find('span').text())
         }
     })
-    let data = combinations.filter(function (x, i) {
-        return index.includes(i);
-    });
-    return data;
+    let data = Object.entries(combinations).filter(([key, value]) => {
+        return index.includes(key)
+    }
+    );
+    return { data: data, sku: index };
 }
 
 export const makeSku = (form = null, attributes) => {
@@ -111,4 +112,9 @@ export const getSingleAttributes = async (ids) => {
 export const getProductsThroughSku = async (sku) => {
     let data = await axios.get(`/api/admin/product/${sku}`);
     return data.data.data;
+}
+
+export const AssignAttribute = async (form) => {
+    let data = await axios.post(`/api/product`, form);
+    return data.data;
 }

@@ -25,24 +25,11 @@ const Combinations = (props: any) => {
     combinations,
     setCombinations,
   } = props;
-  const [loader, setLoader] = useState(false);
-  const [productSku, setProductSku] = useState<any>([]);
   const capitalize = (string: any) => string[0].toUpperCase() + string.slice(1);
-  let sku =
-    form.sectionShortName + '-' + form.categoryShortName + '-' + form.shortName;
 
   useEffect(() => {
     combi();
-    getSku();
-  }, []);
-  const getSku = async () => {
-    let data = await getProductsThroughSku(sku);
-    let result: any = [];
-    data.forEach((element: any) => {
-      result.push(element.sku);
-    });
-    setProductSku(result);
-  };
+  }, [sub_categories]);
 
   const combi = async () => {
     let getCombn: any = [];
@@ -58,49 +45,29 @@ const Combinations = (props: any) => {
       if (mainAttr.length > 1) {
         getCombn = await getAllCombinations(form, mainAttr);
         setCombinations(getCombn);
-      } else {
+      } else if (mainAttr.length == 1) {
         getCombn = await singleCombination(form, mainAttr);
         setCombinations(getCombn);
       }
+    } else {
+      setCombinations([]);
     }
   };
   return (
-    <>
-      {loader ? (
-        <Button
-          isLoading
-          loadingText="Loading Combinations"
-          colorScheme="teal"
-          variant="outline"
-          spinnerPlacement="end"
+    <Flex direction="column">
+      {Object.entries(combinations).map(([key, value]) => (
+        <Checkbox
+          size="md"
+          colorScheme="green"
+          key={key}
+          name="combinations"
+          className="combinations"
+          defaultIsChecked={form.sku.includes(key) ? true : false}
         >
-          Continue
-        </Button>
-      ) : (
-        Object.entries(combinations).map(([key, value]) => (
-          <>
-            <Flex direction="column" key={key}>
-              <Checkbox
-                size="md"
-                colorScheme="green"
-                key={key}
-                name="combinations"
-                className="combinations"
-                defaultIsChecked={productSku.map((item: any) => {
-                  if (item === key) {
-                    return true;
-                  } else {
-                    return false;
-                  }
-                })}
-              >
-                {key}
-              </Checkbox>
-            </Flex>
-          </>
-        ))
-      )}
-    </>
+          {key}
+        </Checkbox>
+      ))}
+    </Flex>
   );
 };
 

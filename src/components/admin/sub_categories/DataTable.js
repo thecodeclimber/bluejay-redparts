@@ -57,6 +57,7 @@ function DataTable() {
   const [url, setUrl] = useState('');
   const [isOpenAlert, setIsOpen] = React.useState(false)
   const [disable, setDisable] = React.useState(false)
+  const [step, setStep] = useState(1);
   const [form, setForm] = useState({
     section: '',
     category: '',
@@ -300,12 +301,14 @@ function DataTable() {
   }
 
   const AssignAttribute = (id, shortName, category, categoryShortName, section, sectionShortName) => {
+
     form._id = id;
     form.shortName = shortName;
     form.category = category;
     form.categoryShortName = categoryShortName;
     form.section = section;
     form.sectionShortName = sectionShortName;
+    setStep(1)
     form.assign = true;
     onOpen()
   }
@@ -555,7 +558,7 @@ function DataTable() {
           </Tooltip>
         </Flex>
       </Flex>
-      <CustomModal isOpen={isOpen} onClose={onClose} form={form} setForm={setForm} Edit={edit} submitHandle={submitHandle} editHandle={editHandle} error={error} assignHandle={assignHandle} sub_categories={sub_categories} disable={disable} />
+      <CustomModal isOpen={isOpen} onClose={onClose} form={form} setForm={setForm} Edit={edit} submitHandle={submitHandle} editHandle={editHandle} error={error} assignHandle={assignHandle} sub_categories={sub_categories} disable={disable} fetchData={fetchData} setDisable={setDisable} step={step} setStep={setStep} />
       <AlertBox isOpen={isOpenAlert} setIsOpen={setIsOpen} message={message} url={url} fetchData={fetchData} disable={disable} setDisable={setDisable} />
     </>
   )

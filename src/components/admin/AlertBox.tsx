@@ -14,9 +14,19 @@ import {
 import { DeleteIcon } from '@chakra-ui/icons';
 import axios from 'axios';
 import React from 'react';
+import { AssignAttribute } from './common/MakeAttributes';
 function AlertBox(props: any) {
-  const { setIsOpen, isOpen, message, url, fetchData, disable, setDisable } =
-    props;
+  const {
+    setIsOpen,
+    isOpen,
+    message,
+    url,
+    fetchData,
+    disable,
+    setDisable,
+    form,
+    onAlertClose,
+  } = props;
   const toast = useToast();
 
   const onClose = () => {
@@ -33,6 +43,19 @@ function AlertBox(props: any) {
         Toast(data.data.message, 'error');
       }
       fetchData();
+    }
+    setIsOpen(false);
+    setDisable(false);
+  };
+  const showMessage = async () => {
+    setDisable(true);
+    const assignAttributes = await AssignAttribute(form);
+    if (assignAttributes.status === true) {
+      Toast(
+        assignAttributes.newCreatedProducts + ' ' + assignAttributes.message,
+        'success'
+      );
+      onAlertClose();
     }
     setIsOpen(false);
     setDisable(false);
@@ -65,7 +88,7 @@ function AlertBox(props: any) {
               alignItems="center"
               justifyContent="center"
               textAlign="center"
-              height="200px"
+              // height="200px"
             >
               <AlertIcon boxSize="40px" mr={0} color="red.500" />
               <AlertTitle mt={4} mb={1} fontSize="lg">
@@ -78,7 +101,9 @@ function AlertBox(props: any) {
                 <Button
                   colorScheme="red"
                   disabled={disable}
-                  onClick={() => onDelete(true)}
+                  onClick={() =>
+                    url === undefined ? showMessage() : onDelete(true)
+                  }
                   ml={3}
                 >
                   OK

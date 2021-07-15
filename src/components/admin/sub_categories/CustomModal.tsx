@@ -20,15 +20,25 @@ import {
   VStack,
   ChakraProvider,
   extendTheme,
+  useToast,
+  List,
+  ListItem,
+  ListIcon,
+  UnorderedList,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import AttributeCheckboxAll from '../common/AttributeCheckboxAll';
 import Category from '../common/Category';
 import Combinations from '../common/Combinations';
 import Section from '../common/Section';
-import { finalAttributes, makeAttributes } from '../common/MakeAttributes';
+import {
+  AssignAttribute,
+  finalAttributes,
+  makeAttributes,
+} from '../common/MakeAttributes';
 import { ArrowBackIcon } from '@chakra-ui/icons';
 import Stepper from '../common/Stepper';
+import AlertBox from '../AlertBox';
 
 function CustomModal(props: any) {
   const {
@@ -42,10 +52,18 @@ function CustomModal(props: any) {
     error,
     sub_categories,
     disable,
+    fetchData,
+    setDisable,
+    step,
+    setStep,
   } = props;
-  const [step, setStep] = useState(1);
+
   const [attributes, setAttributes] = useState([]);
   const [combinations, setCombinations] = useState([]);
+  const [message, setMessage] = useState('');
+  const [status, setStatus] = useState(false);
+  const toast = useToast();
+  const [isOpenAlert, setIsOpen] = React.useState(false);
   const handleClick = async (clickType: any) => {
     let attr: any = await makeAttributes();
     setAttributes(attr);
@@ -56,13 +74,54 @@ function CustomModal(props: any) {
     }
   };
   const assignHandle = async () => {
+    setDisable(true);
     let getCombinations: any = '';
     if (combinations.length != 0) {
       getCombinations = await finalAttributes(form, combinations);
     }
-    console.log(getCombinations);
+    form.attributes = getCombinations.data;
+    if (JSON.stringify(form.sku) != JSON.stringify(getCombinations.sku)) {
+      setIsOpen(true);
+      let checkSku = await form.sku.every((item: any) => {
+        return getCombinations.sku.includes(item) ? true : false;
+      });
+      let filterSkuDelete = await form.sku.filter((item: any) => {
+        return !getCombinations.sku.includes(item);
+      });
+      let filterSkuInsert = await getCombinations.sku.filter((item: any) => {
+        return !form.sku.includes(item);
+      });
+      if (checkSku === true) {
+        setMessage(
+          `This action will insert the below products in the database, are you sure you want to insert them all? List of all SKU's (${filterSkuInsert.toString()})`
+        );
+      } else {
+        if (filterSkuDelete.length != 0 && filterSkuInsert != 0) {
+          setMessage(
+            `This action will delete the below products from the database : List of all SKU's (${filterSkuDelete.toString()}). This action will insert the below products in the database : List of all SKU's (${filterSkuInsert.toString()}). Are you sure you want to perform this action?`
+          );
+        } else {
+          setMessage(
+            `This action will delete the below products from the database, are you sure you want to delete them all? List of all SKU's (${filterSkuDelete.toString()})`
+          );
+        }
+      }
+    } else {
+      Toast("Can'\t assign, No changes detected", 'error');
+    }
+
+    setDisable(false);
   };
   const stepsArray = ['Select Attributes', 'Assign Attributes'];
+  const Toast = (title: any, status: any) => {
+    toast({
+      title: title,
+      status: status,
+      position: 'top-right',
+      duration: 3000,
+      isClosable: true,
+    });
+  };
   return (
     <>
       <Modal isOpen={isOpen} onClose={onClose} size="xl">
@@ -82,7 +141,7 @@ function CustomModal(props: any) {
                   >
                     <ArrowBackIcon />
                   </Button>
-                  <Text>Create Product which you want</Text>
+                  {/* <Text>Create Product which you want</Text> */}
                 </>
               )
             ) : Edit ? (
@@ -123,14 +182,35 @@ function CustomModal(props: any) {
                     </FormControl>
                   </>
                 ) : (
-                  <Combinations
-                    form={form}
-                    setForm={setForm}
-                    sub_categories={sub_categories}
-                    attributes={attributes}
-                    combinations={combinations}
-                    setCombinations={setCombinations}
-                  />
+                  <>
+                    <Text fontWeight="bold">
+                      Below are the list of all the combinations of the
+                      products.
+                    </Text>
+                    <UnorderedList pl={3} pb={3}>
+                      <ListItem fontSize={13}>
+                        (Green tick :
+                        <Checkbox colorScheme="green" defaultIsChecked={true} />
+                        ) The checked one indicates that they are already
+                        existing in the database. Uncheck them to delete it from
+                        database.
+                      </ListItem>
+                      <ListItem fontSize={13}>
+                        Unchecked one indicates that they do not exists in the
+                        database. Please check them to create it in the
+                        database.
+                      </ListItem>
+                    </UnorderedList>
+
+                    <Combinations
+                      form={form}
+                      setForm={setForm}
+                      sub_categories={sub_categories}
+                      attributes={attributes}
+                      combinations={combinations}
+                      setCombinations={setCombinations}
+                    />
+                  </>
                 )}
                 <Stack
                   spacing={2}
@@ -245,6 +325,16 @@ function CustomModal(props: any) {
           <ModalCloseButton />
         </ModalContent>
       </Modal>
+      <AlertBox
+        isOpen={isOpenAlert}
+        setIsOpen={setIsOpen}
+        disable={disable}
+        message={message}
+        setDisable={setDisable}
+        setStatus={setStatus}
+        form={form}
+        onAlertClose={onClose}
+      />
     </>
   );
 }

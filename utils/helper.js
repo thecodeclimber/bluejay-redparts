@@ -431,18 +431,82 @@ exports.generateRealProducts = async (res, postData) => {
     }
   });
 
+
+}
+
+exports.generateProductsWith = async (res, data) => {
+  if (!data.section && !data.category && data._id) {
+    res.status(400).send({
+      status: 'validation error',
+      message: '[section | category | sub_category] is required!',
+    });
+  }
+
+  let sku = data.sectionShortName + "-" + data.categoryShortName + "-" + data.shortName;
+
+  // delete products which match sku
+  let regexSKU = new RegExp(sku, 'i');
+  // let getData = await Product.find({ sku: regexSku }, { sku: 1, _id: 0 })
+  // let getSKU = [];
+  // getData.map(item => { getSKU.push(item.sku) });
+  // let deleteData = await Product.deleteMany({ sku: regexSku });
+
+  // insert again products after delete
+  let finalResp = [];
+  let images = [];
+  data.price = 30;
+  data.compareAtPrice = 40;
+  data.isFeatured = true;
+  if (data.attributes.length != 0) {
+    Object.entries(data.attributes).map(async ([key, value]) => {
+      let attr = value[1].map(({ attribute_id, _id }) => {
+        return {
+          attribute: attribute_id,
+          value: _id,
+        };
+      });
+      data.name = value[0];
+      data.description = value[0];
+      await finalRespFunc(data, value[0], attr, finalResp, images)
+    });
+  } else {
+    res.send({
+      status: true,
+      message: 'Sorry No Attriubtes selected.',
+    });
+  }
+  if (finalResp.length != 0) {
+    await createProductQuery(res, finalResp, regexSKU);
+  }
+
+}
+
+const createProductQuery = (res, finalResp, regexSKU) => {
+
   Product.bulkWrite(
+    // finalResp.map((item) => {
+    //   let data =
+    //   {
+    //     deleteOne: {
+    //       filter: { sku: regexSKU, sku: { "$ne": item.sku } }
+    //     },
+    //   }
+    //   return data
+    // }),
     finalResp.map((item) => {
-      return {
+      let data =
+      {
         updateOne: {
           filter: { sku: item.sku },
           update: item,
           upsert: true,
-        },
-      };
+        }
+      }
+      return data
     })
   )
     .then((data) => {
+      console.log(data)
       res.send({
         status: true,
         newCreatedProducts: data.nUpserted,
@@ -450,11 +514,69 @@ exports.generateRealProducts = async (res, postData) => {
       });
     })
     .catch((err) => {
+      console.log(err)
       throw err;
     });
 }
 
-
-
-
-
+const finalRespFunc = (data, sku, value, finalResp, images) => {
+  return finalResp.push({
+    sku: sku,
+    name: data.name,
+    slug: createProductSlug(sku),
+    images: fetchImages(images),
+    attributes: value,
+    sub_category: data._id,
+    category: data.category,
+    section: data.section,
+    excerpt: `
+                Many philosophical debates that began in ancient times are still debated today. In one general sense,
+                philosophy is associated with wisdom, intellectual culture and a search for knowledge.
+                `,
+    description: `--${data.description}`,
+    partNumber: 'BDX-750Z370-S',
+    stock: 'in-stock',
+    price: data.price,
+    isFeatured: data.isFeatured,
+    compareAtPrice: data.compareAtPrice,
+    rating: 4,
+    reviews: 21,
+    type: {
+      slug: 'default',
+      name: 'Default',
+      attributeGroups: [
+        {
+          name: 'General',
+          slug: 'general',
+          attributes: [
+            'length',
+            'diameter',
+            'head_type',
+            'drive',
+            'grade',
+            'material',
+            'finish',
+            'qty_per_box',
+          ],
+        },
+        {
+          name: 'Dimensions',
+          slug: 'dimensions',
+          attributes: ['length', 'diameter'],
+        },
+      ],
+    },
+    options: [
+      {
+        type: 'default',
+        slug: 'material',
+        name: 'Material',
+        values: [
+          { slug: 'steel', name: 'Steel' },
+          { slug: 'aluminium', name: 'Aluminium' },
+          { slug: 'thorium', name: 'Thorium' },
+        ],
+      },
+    ],
+  });
+};
