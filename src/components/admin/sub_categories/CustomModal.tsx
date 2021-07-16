@@ -80,17 +80,19 @@ function CustomModal(props: any) {
       getCombinations = await finalAttributes(form, combinations);
     }
     form.attributes = getCombinations.data;
-    if (JSON.stringify(form.sku) != JSON.stringify(getCombinations.sku)) {
+
+    let checkSku = await form.sku.every((item: any) => {
+      return getCombinations.sku.includes(item) ? true : false;
+    });
+    let filterSkuDelete = await form.sku.filter((item: any) => {
+      return !getCombinations.sku.includes(item);
+    });
+    let filterSkuInsert = await getCombinations.sku.filter((item: any) => {
+      return !form.sku.includes(item);
+    });
+    if (checkSku == false || filterSkuDelete != 0 || filterSkuInsert != 0) {
       setIsOpen(true);
-      let checkSku = await form.sku.every((item: any) => {
-        return getCombinations.sku.includes(item) ? true : false;
-      });
-      let filterSkuDelete = await form.sku.filter((item: any) => {
-        return !getCombinations.sku.includes(item);
-      });
-      let filterSkuInsert = await getCombinations.sku.filter((item: any) => {
-        return !form.sku.includes(item);
-      });
+
       if (checkSku === true) {
         setMessage(
           `This action will insert the below products in the database, are you sure you want to insert them all? List of all SKU's (${filterSkuInsert.toString()})`

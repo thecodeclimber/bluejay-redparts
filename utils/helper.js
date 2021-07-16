@@ -444,12 +444,6 @@ exports.generateProductsWith = async (res, data) => {
 
   let sku = data.sectionShortName + "-" + data.categoryShortName + "-" + data.shortName;
 
-  // delete products which match sku
-  let regexSKU = new RegExp(sku, 'i');
-  // let getData = await Product.find({ sku: regexSku }, { sku: 1, _id: 0 })
-  // let getSKU = [];
-  // getData.map(item => { getSKU.push(item.sku) });
-  // let deleteData = await Product.deleteMany({ sku: regexSku });
 
   // insert again products after delete
   let finalResp = [];
@@ -457,8 +451,10 @@ exports.generateProductsWith = async (res, data) => {
   data.price = 30;
   data.compareAtPrice = 40;
   data.isFeatured = true;
+  let findSKU = [];
   if (data.attributes.length != 0) {
     Object.entries(data.attributes).map(async ([key, value]) => {
+      findSKU.push(value[0])
       let attr = value[1].map(({ attribute_id, _id }) => {
         return {
           attribute: attribute_id,
@@ -475,24 +471,24 @@ exports.generateProductsWith = async (res, data) => {
       message: 'Sorry No Attriubtes selected.',
     });
   }
+  // delete products which match sku
+  let getData = await Product.find({ sub_category: data._id }, { sku: 1, _id: 0 })
+  let getSKU = [];
+  if (findSKU.length != 0) {
+    getData.map(item => { (!findSKU.includes(item.sku)) ? getSKU.push(item.sku) : '' });
+  }
+  if (getSKU.length != 0) {
+    await Product.deleteMany({ sku: { $in: getSKU } });
+  }
   if (finalResp.length != 0) {
-    await createProductQuery(res, finalResp, regexSKU);
+    await createProductQuery(res, finalResp);
   }
 
 }
 
-const createProductQuery = (res, finalResp, regexSKU) => {
+const createProductQuery = (res, finalResp) => {
 
   Product.bulkWrite(
-    // finalResp.map((item) => {
-    //   let data =
-    //   {
-    //     deleteOne: {
-    //       filter: { sku: regexSKU, sku: { "$ne": item.sku } }
-    //     },
-    //   }
-    //   return data
-    // }),
     finalResp.map((item) => {
       let data =
       {
@@ -506,15 +502,13 @@ const createProductQuery = (res, finalResp, regexSKU) => {
     })
   )
     .then((data) => {
-      console.log(data)
       res.send({
         status: true,
         newCreatedProducts: data.nUpserted,
-        message: 'products created successfully.',
+        message: 'products modified successfully.',
       });
     })
     .catch((err) => {
-      console.log(err)
       throw err;
     });
 }
