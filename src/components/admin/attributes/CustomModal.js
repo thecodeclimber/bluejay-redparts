@@ -10,16 +10,7 @@ import {
   Input,
   ModalFooter,
   Button,
-  Select,
   Text,
-  Table,
-  Thead,
-  Tbody,
-  Tfoot,
-  Tr,
-  Th,
-  Td,
-  TableCaption,
 } from '@chakra-ui/react';
 import React, { useEffect, useState } from 'react';
 import { AddIcon, MinusIcon } from '@chakra-ui/icons';
@@ -63,12 +54,29 @@ function CustomModal(props) {
     stateClone.options.push(value);
     setRows({ options: stateClone.options });
     e.preventDefault();
+
   }
+
+  var currentBoxNumber = 0;
+  $(".value").keyup(function (event) {
+    if (event.keyCode == 13) {
+      let textboxes = $("input.value");
+      currentBoxNumber = textboxes.index(this);
+      console.log(textboxes.index(this));
+      if (textboxes[currentBoxNumber + 1] != null) {
+        let nextBox = textboxes[currentBoxNumber + 1];
+        nextBox.focus();
+        nextBox.select();
+        event.preventDefault();
+        return false;
+      }
+    }
+  });
 
   const handleKeypress = (e) => {
     if (e.code === "Enter") {
-      handleClick(e);
-
+      if (e.target.value != '')
+        handleClick(e);
     }
   }
   form.val = talbeRows.options;
